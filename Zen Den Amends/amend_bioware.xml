@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <grades>
+    <grade>
+      <name>Gammaware</name>
+	  <hide />
+	</grade>
+    <grade>
+      <name>Omegaware</name>
+	  <hide />
+    </grade>
+    <grade>
+      <name>Greyware</name>
+	  <hide />
+    </grade>
+  </grades>
+  <biowares>
+    <bioware>
+      <name>Synaptic Booster</name>
+      <bonus amendoperation ="replace">
+        <initiativepass precedence="0">Rating</initiativepass>
+        <specificattribute>
+          <name>REA</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+    </bioware>
+    <bioware>
+      <name>Boosted Reflexes</name>
+      <bonus amendoperation="replace">
+        <initiativepass precedence="0">1</initiativepass>
+      </bonus>
+    </bioware>
+    <bioware>
+      <name>Synaptic Acceleration</name>
+      <bonus amendoperation="replace">
+        <bonus>
+          <dodge>1</dodge>
+          <initiative precedence="0">1</initiative>
+          <initiativepass precedence="0">1</initiativepass>
+        </bonus>
+      </bonus>
+    </bioware>
+    <bioware>
+      <name>Bone Density Augmentation</name>
+      <ess>Rating * 0.25</ess>
+    </bioware>
+    <bioware>
+      <name>Bio-Tattoos</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Clean Metabolism</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Dietware</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Ethnicity/Sex Change</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Hair Growth</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Metaposeur</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Minor Biosculpting Modification</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Moderate Biosculpting Modification</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Reproductive Replacement, Male</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Reproductive Replacement, Female</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Sensitive Skin</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Severe Biosculpting Modification</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Silky Skin</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Skin Pigmentation (Permanent)</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Tail</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Transgenic Alteration</name>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Transgenic Alteration</name>
+      <bonus amendoperation="replace">
+        <selecttext />
+        <addqualities>
+          <addquality>Distinctive Style</addquality>
+        </addqualities>
+      </bonus>
+      <ess>0</ess>
+    </bioware>
+    <bioware>
+      <name>Horns</name>
+      <ess>0</ess>
+    </bioware>
+  </biowares>
+</chummer>

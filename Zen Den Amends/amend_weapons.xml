@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <accessories>
+    <accessory> <!-- Electronic Firing -->
+      <id>2da4f104-cf0c-4e0c-a001-4a6da4c2b46b</id>
+      <mount>Internal</mount>
+    </accessory>
+    <!-- Region Special Modifications -->
+    <accessory> <!-- Improved AP -->
+      <id>b741b729-106e-46f2-9143-0f745fd48789</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Improved Accuracy -->
+      <id>56b17280-27c6-414a-9957-f628ae5efefa</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Improved Ammunition Capacity -->
+      <id>9084d801-c654-4eec-960e-4186a6de81d6</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Improved Concealment -->
+      <id>93be91c1-3f77-4e7b-9ac2-eb349b76d017</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Damage -->
+      <id>3c82e17b-76cd-47b9-9bda-c3131a64e0ee</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Improved Reach -->
+      <id>15d159e8-d3db-4cf3-8964-0eb2235ed6c2</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Improved Recoil Comp -->
+      <id>09abdea8-df9a-4e74-86aa-0f79ce96f422</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <!-- End Region -->	
+	<accessory amendoperation="replace">  <!-- Suppressors for Shotguns -->
+      <id>0da6149e-982f-4051-825b-52c1b79c7e52</id>
+      <name>Silencer/Suppressor</name>
+      <mount>Barrel</mount>
+      <avail>9F</avail>
+      <cost>500</cost>
+      <source>SR5</source>
+      <page>432</page>
+      <forbidden>
+        <weapondetails>
+          <OR>
+            <ammo operation="contains">(cy)</ammo>            
+            <name>PSK-3 Collapsible Heavy Pistol</name>
+            <spec>Revolvers</spec>
+            <spec2>Revolvers</spec2>
+          </OR>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+    </accessory>
+  </accessories>
+  <weapons>
+    <weapon> <!-- Highland Forge Claymore -->
+      <id>cae4ffe9-cf22-4917-92b1-57be89741f07</id>
+      <avail>12R</avail>
+    </weapon>
+    <weapon> <!-- Ranger Sliver Pistol Crossbow -->
+      <id>28072a3f-5153-444e-83e3-46129b9ff572</id>
+      <accessorymounts amendoperation="Append">
+	<mount>Top</mount>
+	<mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
+      <ammo>4(m)</ammo>
+      <conceal>0</conceal>
+    </weapon>
+    <!--  BEGIN BIO WEAPONS  -->
+    <weapon>
+      <id>bdb9e0d7-fba7-48ed-ba16-2b540f8ce151</id>  <!-- Fangs (Bio-Weapon) -->
+      <accuracy>Physical</accuracy>
+    </weapon>
+    <weapon>
+      <id>576770af-b5da-4b76-afdf-5559e7401e2d</id>  <!-- Retractable Fangs (Bio-Weapon) -->
+      <accuracy>Physical</accuracy>
+    </weapon>
+    <!--  BEGIN CYBER WEAPONS I GUESS -->
+    <weapon>
+      <id>8a842089-5a2c-43ee-9613-7f3db793fa71</id> <!-- Cyberfangs -->
+      <accuracy>Physical</accuracy>
+    </weapon>
+    <weapon>
+      <id>fe835c72-a973-4976-bf5f-751aff1371d4</id> <!-- spurs -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <weapon>
+      <id>16fe95d3-9c66-4ac6-b4e3-562de5e5619e</id> <!-- hand razors -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <weapon>
+      <id>5ec246dc-c129-4e61-a27a-c4d82b223bea</id> <!-- hand blades -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <weapon>
+      <id>fec4a4f8-4432-4bdc-b3b9-83c032d71d63</id> <!-- shock hand -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <weapon>
+      <id>c73077d0-fc16-474c-a8e6-ce9635a36224</id> <!-- foot anchor -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <weapon>
+      <id>ad2ea9ea-74d0-411d-89b7-20702ee4105d</id> <!-- climbing claws -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <!--  BEGIN EXOTIC WEAPON SKILLS -->
+    <!--  Chainsaws -->
+    <weapon>
+      <name>Ash Arms Combat Chainsaw</name>
+      <useskill>Chainsaws</useskill>
+    </weapon>
+    <weapon>
+      <name>Ash Arms Monofilament Chainsaw</name>
+      <useskill>Chainsaws</useskill>
+    </weapon>
+    <weapon>
+      <name>Monofilament Chainsaw</name>
+      <useskill>Chainsaws</useskill>
+    </weapon>
+    <weapon>
+      <name>Underbarrel Chainsaw</name>
+      <useskill>Chainsaws</useskill>
+    </weapon>
+    <!--  Directed Energy Weapons -->
+    <weapon>
+      <name>Ares Screech Sonic Rifle</name>
+      <useskill>Directed Energy Weapons</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>		
+    <weapon>
+      <name>Fichetti Pain Inducer</name>
+      <useskill>Directed Energy Weapons</useskill>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Underbarrel</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Narcoject PEP</name>
+      <useskill>Directed Energy Weapons</useskill>
+    </weapon>
+    <!--  Flame Weapons -->
+    <weapon>
+      <name>Flame Bracer</name>
+      <useskill>Flame Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Halloweener Barbecue Lighter</name>
+      <useskill>Flame Weapons</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Shiawase Arms Incinerator</name>
+      <useskill>Flame Weapons</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Shiawase Blazer</name>
+      <useskill>Flame Weapons</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Underbarrel Flamethrower</name>
+      <useskill>Flame Weapons</useskill>
+    </weapon>
+    <!--  Lasers -->
+    <weapon>
+      <name>Ares Archon Heavy MP Laser</name>
+      <useskill>Lasers</useskill>
+      <damage>12P</damage>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Stock</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Ares Armatus</name>
+      <useskill>Lasers</useskill>
+      <damage>8P</damage>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Ares Lancer MP Laser</name>
+      <useskill>Lasers</useskill>
+      <damage>9P</damage>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Stock</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Ares Redline</name>
+      <useskill>Lasers</useskill>
+      <damage>7P</damage>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Underbarrel Laser</name>
+      <useskill>Lasers</useskill>
+      <damage>7P</damage>
+    </weapon>
+    <!--  Monofilament Weapons -->
+    <weapon>
+      <name>Monofilament Bola</name>
+      <useskill>Monofilament Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Monofilament Garrote</name>
+      <useskill>Monofilament Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Monofilament Whip</name>
+      <useskill>Monofilament Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Monofilament Yo-Yo</name>
+      <useskill>Monofilament Weapons</useskill>
+    </weapon>
+    <!--  Spray Guns -->
+    <weapon>
+      <name>Ares S-III Super Squirt</name>
+      <useskill>Spray Guns</useskill>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Underbarrel</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Modified Spray Pen</name>
+      <useskill>Spray Guns</useskill>
+    </weapon>
+    <weapon>
+      <name>Narcoject Gas Gun</name>
+      <useskill>Spray Guns</useskill>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Narcoject Trackstopper</name>
+      <useskill>Spray Guns</useskill>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Pepper Punch Pen</name>
+      <useskill>Spray Guns</useskill>
+    </weapon>
+    <weapon>
+      <name>Hold-Fast Sprayer</name>
+      <useskill>Spray Guns</useskill>
+    </weapon>
+    <!--  Archery -->
+    <weapon>
+      <name>Grapple Gun</name>
+      <useskill>Archery</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Stock</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>		
+    <weapon>
+      <name>Grapple Hand</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>Underbarrel Grapple Gun</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>Tactical Grapple Gun</name>
+      <useskill>Archery</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Stock</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>SA Retarius Net Gun</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>SA Retarius Net Gun XL</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>Blowgun</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>Underbarrel Bola Launcher</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>Standard Harpoon Gun</name>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Aquadyne Shark-XS Harpoon Gun</name>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <!--  Blades -->
+    <weapon>
+      <name>Bladed Skateboard</name>
+      <useskill>Blades</useskill>
+    </weapon>
+    <weapon>  <!-- melee chakram -->
+      <id>dc18811b-eb07-43d8-8d95-d5c468f048f4</id>
+      <useskill>Blades</useskill>
+    </weapon>
+    <weapon>
+      <name>Injector Pen</name>
+      <useskill>Blades</useskill>
+    </weapon>
+    <weapon>
+      <name>Rolling Blades</name>
+      <useskill>Blades</useskill>
+    </weapon>
+    <!--  Clubs -->
+    <weapon>
+      <name>Ballistic Shield</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Riot Shield</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Blast Shield</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Briefcase Shield</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Ares FlaShield</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Battering Ram, Standard</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Battering Ram, Fluid-Motion</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Battering Ram, Pneumatic</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Battering Ram, Shock</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Hardened Skateboard</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Krime Stun Lance</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <!--  Longarms -->
+    <weapon>
+      <name>Knockoff Gun Cane</name>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <name>Mortimer of London 'Trafalger' Gun Cane</name>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <name>Parashield Dart Rifle</name>
+      <useskill>Longarms</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Stock</mount>
+      </accessorymounts>
+    </weapon>
+    <!--  Pistols -->
+    <weapon>
+      <name>Shiawase Arms Simoom</name>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <name>Tiffani Elegance Shooting Bracers</name>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <name>FN-AAL Gyrojet Pistol</name>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <name>Micro Flare Launcher</name>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <name>Parashield Dart Pistol</name>
+      <useskill>Pistols</useskill>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+        <weapon>
+      <name>Narcoject Dazzler</name>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <!--  Throwing Weapons -->
+    <weapon>
+      <name>Bladed Yo-Yo</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Hardened Yo-Yo</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Bola</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Bullwhip</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon> <!-- ranged chakram -->
+      <id>AB91307F-B8D1-46E5-A3C1-9A0047F5B1EF</id> 
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Net</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Throwing Syringe</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Gunstock War Club (Thrown)</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Garrote</name>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <weapon>
+      <name>Goring Horns</name>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <weapon>
+      <name>Oral Slasher</name>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <weapon>
+      <name>Proboscis</name>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <weapon>
+      <name>Functional Tail (Thagomizer)</name>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <!--  END EXOTIC WEAPON SKILLS -->
+	<!--Banned Items-->
+	<weapon>
+      <name>Stoner-Ares M-22A1</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Grenade: Krime Party</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Grenade: Krime Party (Flash-Bang)</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Krime Carpet</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Krime Calliope</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Krime Ripper</name>
+      <hide />
+    </weapon>
+	<!--End Region Banned Items-->
+    <weapon>
+      <name>Narcoject PEP</name>
+      <ammo>2x10(c) + energy</ammo>
+    </weapon>
+  </weapons>
+</chummer>

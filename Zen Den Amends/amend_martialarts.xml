@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <martialarts>
+    <martialart> <!-- Firefight -->
+      <id>3a16d253-73cb-41e0-8c52-8f5b79d27a58</id>
+      <techniques>
+        <technique amendoperation="addnode">
+          <name>Dual Pistol Firing</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart> <!-- Gun Kata -->
+      <id>23c0c9dc-da26-40ab-a578-7cd1a2231ba1</id>
+      <techniques>
+        <technique amendoperation="addnode">
+          <name>Dual Pistol Firing</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart> <!-- Cowboy Way -->
+      <id>f5829122-0973-4e27-98b4-f54c9343a57c</id>
+      <techniques>
+        <technique amendoperation="addnode">
+          <name>Dual Pistol Firing</name>
+        </technique>
+      </techniques>
+    </martialart>
+  </martialarts>
+</chummer>

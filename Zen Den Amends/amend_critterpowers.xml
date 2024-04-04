@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema critterpowers.xsd">
+  <powers>
+    <power>
+      <name>Terrorscape</name>
+      <required>
+        <oneof>
+			<quality>Infected: Vampire</quality>
+        </oneof>
+      </required>
+    </power>
+    <power>
+      <name>Mimicry</name>
+	  <hide />
+    </power>
+  </powers>
+</chummer>

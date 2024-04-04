@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<!-- Uses the stats from Hero Lab to define the Ram Plate availability, cost and slots used. -->
+<chummer>
+  <mods>
+    <mod> <!-- Ram Plate -->
+      <id>0f9a2625-5496-4a9f-9e2e-7deddf0a6920</id>
+      <avail>6R</avail>
+      <cost>Body * 250</cost>
+      <slots>2</slots>
+    </mod>
+    <mod> <!-- Gyro-Stabilization -->
+      <id>f89a112e-600a-4278-8731-9b14cf3737c9</id>
+      <page>162</page>
+      <source>R5</source>
+      <avail>8</avail>
+      <category>Powertrain</category>
+      <cost>Body * 1000</cost>
+      <rating>0</rating>
+      <slots>1</slots>
+      <required amendoperation="remove" />
+    </mod>
+    <mod> <!-- Realistic Features (Drone) -->
+      <id>b5b9cd7e-dbb3-42e9-abcd-f805f6a4b10e</id>
+      <cost>Rating * (number(Body = 0) * 500 + Body * 1000)</cost>
+    </mod>
+  </mods>
+  <vehicles>
+    <vehicle> <!--Krime runner fix-->
+      <id>6c20873e-12bf-44a0-951a-5f2ffb213e31</id>
+      <category>Drones: Small</category>
+    </vehicle>
+    <vehicle> <!--Kaburaya-->
+      <id>006ea45a-cc35-496c-8d01-94eb64d8febb</id>
+      <accel>4</accel>
+      <cost>8500</cost>
+    </vehicle>
+    <vehicle> <!--Avibras nissan an 822-->
+      <id>c659ace5-1dfb-4eeb-b49d-5867b3153649</id>
+      <accel>3</accel>
+    </vehicle>
+    <vehicle> <!--barco de pesca-->
+      <id>61cb015d-236b-4236-a91a-f8ef3b2842c2</id>
+      <speed>1/4</speed>
+    </vehicle>
+    <vehicle> <!--i8 Interceptor-->
+      <id>45abd151-b3d1-4367-9133-3ff458532172</id>
+      <avail>16R</avail>
+    </vehicle>
+  </vehicles>
+</chummer>

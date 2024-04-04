@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <traditions>
+	<tradition>
+      <name>Black Magic [Alt]</name>
+	  <hide />
+    </tradition>
+	<tradition>
+      <name>Buddhism [Traditionalist]</name>
+	  <hide />
+    </tradition>
+	<tradition>
+      <name>Christian Theurgy [Vigila Evangelica]</name>
+	  <hide />
+    </tradition>
+	<tradition>
+      <name>Christian Theurgy [Westphalian]</name>
+	  <hide />
+    </tradition>
+	<tradition>
+      <id>9394d173-eee7-4e5a-b520-edfdfac3cf8b</id>
+	  <hide />
+    </tradition>
+	<tradition>
+      <name>Draconic</name>
+	  <hide />
+    </tradition>
+	<tradition>
+      <name>Islam [Licit Qur'anic]</name>
+	  <hide />
+    </tradition>
+    <tradition>
+      <name>Islam [Islamic Alchemist]</name>
+      <bonus>
+        <skilldisable>Ritual Spellcasting</skilldisable>
+        <skilldisable>Spellcasting</skilldisable>
+        <metamagiclimit>
+          <metamagic grade="1">Fixation</metamagic>
+          <metamagic grade="2">Advanced Alchemy</metamagic>
+        </metamagiclimit>
+      </bonus>
+    </tradition>
+    <tradition>
+      <name>Pariah</name>
+      <drain>{WIL} + {LOG}</drain>
+      <metamagiclimit>
+        <metamagic grade="2">Reflection</metamagic>
+      </metamagiclimit>
+    </tradition>
+	<tradition>
+      <name>Romani</name>
+	  <hide />
+    </tradition>  
+  </traditions>
+</chummer>

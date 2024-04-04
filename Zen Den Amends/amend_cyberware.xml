@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <grades>
+    <grade>
+      <name>Gammaware</name>
+	  <hide />
+	</grade>
+    <grade>
+      <name>Omegaware</name>
+	  <hide />
+    </grade>
+    <grade>
+      <name>Greyware</name>
+	  <hide />
+    </grade>
+    <grade>
+      <name>Gammaware (Adapsin)</name>
+	  <hide />
+    </grade>
+    <grade>
+      <name>Omegaware (Adapsin)</name>
+	  <hide />
+    </grade>
+	<grade>
+      <name>Greyware (Adapsin)</name>
+	  <hide />
+    </grade>
+  </grades>
+  <cyberwares>
+    <cyberware>
+		<name>Wired Reflexes</name>
+		<ess>Rating * 1.5</ess>
+		<cost>Rating * 39000</cost>
+		<bonus amendoperation="replace">
+			<initiativepass precedence="0">Rating</initiativepass>
+			<specificattribute>
+				<name>REA</name>
+				<val>Rating</val>
+			</specificattribute>
+		</bonus>
+    </cyberware>
+    <cyberware>
+		<id>31d32ab0-107c-4410-9148-7b2501db12be</id>  <!-- Move-by-Wire-->
+		<bonus amendoperation ="replace">
+			<initiative precedence="0">FixedValues(3,6,9)</initiative>
+			<initiativepass precedence="0">FixedValues(0,1,1)</initiativepass>
+			<skillwire precedence="0">Rating * 2</skillwire>
+			<sociallimit>-Rating</sociallimit>
+			<specificattribute>
+				<name>REA</name>
+				<val>Rating</val>
+			</specificattribute>
+		</bonus>
+    </cyberware>
+	
+    <cyberware>  <!-- skilljack -->
+      <id>c533c0db-3a04-4fdd-95f9-d4d9781a3e79</id>
+      <hide />
+    </cyberware>
+    <cyberware>
+      <id>d31497dd-2be9-4b8a-808f-3ced36287c0c</id>
+      <ess>0.1</ess>
+      <avail>Rating * 2</avail>
+      <cost>Rating * 1000</cost>
+    </cyberware>
+    <cyberware>  <!-- skillwire  -->
+      <id>60485c4e-042f-44f6-ad89-324003223f73</id>
+      <ess>Rating * 0.1</ess>
+    </cyberware>
+	<cyberware>  <!-- Obvious Torso  -->
+      <id>48e490fb-fe6a-482c-a47d-40cb04985897</id>
+      <capacity>14</capacity>
+      <avail>6</avail>
+    </cyberware>
+	<cyberware>  <!-- Obvious Skull  -->
+      <id>ea676290-1859-4a56-86f8-a3fb90decc32</id>
+      <capacity>8</capacity>
+      <avail>8</avail>
+    </cyberware>
+	<cyberware>  <!-- Synthetic Torso  -->
+      <id>40878e5d-cabc-4980-ad87-0dd5d5f5c037</id>
+      <capacity>7</capacity>
+      <avail>6</avail>
+    </cyberware>
+	<cyberware>  <!-- Synthetic Skull  -->
+      <id>992fbf6b-8f9a-4c27-a527-8705ecc3341f</id>
+      <capacity>4</capacity>
+      <avail>6</avail>
+    </cyberware>
+	<cyberware>  <!-- Partial Skull  -->
+      <id>4630313c-aca9-4aa3-8fce-ba064423b1c7</id>
+      <avail>6</avail>
+    </cyberware>
+        <cyberware> 
+      <id>False Face</id>
+      <capacity>[2]</capacity>
+    </cyberware>
+    <cyberware>  <!-- Improved Synthskin  -->
+      <id>7232f861-ccba-4ebf-95ef-c5baa76afb1b</id>
+      <capacity>[0]</capacity>
+    </cyberware>
+    <cyberware>
+      <name>Smartskin</name>
+      <category>Nanocybernetics</category>
+      <ess>Rating * 0.4</ess>
+      <avail>(Rating * 4)F</avail>
+    </cyberware>
+    <cyberware> <!-- Grapple Hand  -->
+      <id>17c37ef7-1557-4ea4-90bf-6bbe5bc52a1a</id>
+      <capacity>[5]</capacity>
+    </cyberware>
+    <cyberware>
+      <!-- Breast Implant  -->
+      <id>cb86075d-7d60-4618-9698-9e9268a28989</id>
+      <ess>0</ess>
+    </cyberware>
+    <cyberware>
+      <!-- Breast Implant 2.0 -->
+      <id>21953b9b-43e8-41a9-af03-5af71797585b</id>
+      <ess>0</ess>
+    </cyberware>
+    <cyberware>
+      <!-- Cosmetic Surgery  -->
+      <id>17cc08c7-be7e-445a-9619-7492aea3433a</id>
+      <ess>0</ess>
+    </cyberware>
+    <cyberware>
+      <!-- cyberdong  -->
+      <id>b969bb55-23ab-48a0-b92f-645185853d53</id>
+      <ess>0</ess>
+    </cyberware>
+    <cyberware>
+      <!-- Fiberoptic Hair  -->
+      <id>b7ec08aa-a328-46a0-9b41-4c9a4bfc13b2</id>
+      <ess>0</ess>
+    </cyberware>
+    <cyberware>
+      <!-- LED Tattoo, Small  -->
+      <id>1c89a29c-ce58-483f-8777-b5b1f6a733c1</id>
+      <ess>0</ess>
+    </cyberware>
+    <cyberware>
+      <!-- LED Tattoo, Medium  -->
+      <id>a5eac202-c61b-4757-826b-f4ae00c8b87f</id>
+      <ess>0</ess>
+    </cyberware>
+    <cyberware>
+      <!-- LED Tattoo, Large  -->
+      <id>5578f51e-fb72-4247-9126-a4b626a12308</id>
+      <ess>0</ess>
+    </cyberware>
+  </cyberwares>
+</chummer>

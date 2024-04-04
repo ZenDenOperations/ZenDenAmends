@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <metatypes>
+    <!-- Region Metasapient -->
+    <metatype>
+      <name>Pixie</name>
+      <bodmin>1</bodmin>
+      <bodmax>3</bodmax>
+      <bodaug>7</bodaug>
+      <agimin>3</agimin>
+      <agimax>8</agimax>
+      <agiaug>12</agiaug>
+      <reamin>3</reamin>
+      <reamax>8</reamax>
+      <reaaug>12</reaaug>
+      <strmin>1</strmin>
+      <strmax>2</strmax>
+      <straug>6</straug>
+      <chamin>1</chamin>
+      <chamax>5</chamax>
+      <chaaug>9</chaaug>
+      <intmin>2</intmin>
+      <intmax>7</intmax>
+      <intaug>11</intaug>
+      <logmin>1</logmin>
+      <logmax>4</logmax>
+      <logaug>8</logaug>
+      <wilmin>1</wilmin>
+      <wilmax>6</wilmax>
+      <wilaug>10</wilaug>
+      <edgmin>1</edgmin>
+      <edgmax>5</edgmax>
+      <edgaug>5</edgaug>
+    </metatype>
+    <metatype>
+      <name>A.I.</name>
+      <karma amendoperation="replace">140</karma>
+      <halveattributepoints amendoperation="remove"/>
+	  <qualityrestriction amendoperation="remove"></qualityrestriction>
+      <metavariants>
+        <metavariant>
+          <name>E-Ghost</name>
+          <karma amendoperation="replace">140</karma>
+          <halveattributepoints amendoperation="remove"/>
+          <edgmin amendoperation="replace">2</edgmin>
+          <edgmax amendoperation="replace">7</edgmax>
+          <edgaug amendoperation="replace">7</edgaug>
+		  <qualityrestriction amendoperation="remove"></qualityrestriction>
+        </metavariant>
+        <metavariant>
+          <name>Xenosapient</name>
+          <karma amendoperation="replace">140</karma>
+          <halveattributepoints amendoperation="remove"/>
+		  <qualityrestriction amendoperation="remove"></qualityrestriction>
+        </metavariant>
+        <metavariant>
+          <name>Protosapient</name>
+          <karma amendoperation="replace">140</karma>
+          <halveattributepoints amendoperation="remove"/>
+		  <qualityrestriction amendoperation="remove"></qualityrestriction>
+		  <hide />
+        </metavariant>
+      </metavariants>
+    </metatype>
+    <!-- End Region -->
+  </metatypes>
+</chummer>

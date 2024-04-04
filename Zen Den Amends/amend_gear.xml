@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<gears>
+		<gear>
+			<!-- Banishing Focus -->
+			<id>5fae16cf-c68c-46e8-91b2-ca5220824ba5</id>
+			<bonus amendoperation="replace">
+				<specificskill>
+					<name>Banishing</name>
+					<bonus>Rating</bonus>
+				</specificskill>
+			</bonus>
+		</gear>
+		<!-- Dongle Stuff -->
+		<!-- Heh heh heh... He said "Dongle" -->
+		<!-- Heh heh heh... Shut up Beevis -->
+		<gear>
+			<name>Attack Dongle</name>
+			<cost>(Rating*6000)</cost>
+			<required amendoperation="replace">
+				<geardetails>
+					<OR>
+						<category>Commlinks</category>
+						<category>Cyberterminals</category>
+						<category>Custom</category>
+						<category>Rigger Command Consoles</category>
+					</OR>
+				</geardetails>
+			</required>
+		</gear>
+		<gear>
+			<name>Stealth Dongle</name>
+			<cost>(Rating*6000)</cost>
+			<required amendoperation="replace">
+				<geardetails>
+					<OR>
+						<category>Commlinks</category>
+						<category>Cyberterminals</category>
+						<category>Custom</category>
+						<category>Rigger Command Consoles</category>
+					</OR>
+				</geardetails>
+			</required>
+		</gear>
+		<gear>
+			<name>Stun Dongle</name>
+			<required amendoperation="replace">
+				<geardetails>
+					<OR>
+						<category>Commlinks</category>
+						<category>Cyberterminals</category>
+						<category>Custom</category>
+						<category>Rigger Command Consoles</category>
+					</OR>
+				</geardetails>
+			</required>
+		</gear>
+		<gear>
+			<name>Receiver</name>
+			<required amendoperation="replace">
+				<geardetails>
+					<OR>
+						<category>Commlinks</category>
+						<category>Cyberterminals</category>
+						<category>Custom</category>
+						<category>Rigger Command Consoles</category>
+					</OR>
+				</geardetails>
+			</required>
+		</gear>
+		<gear>
+			<name>Cable Tap</name>
+			<required amendoperation="replace">
+				<geardetails>
+					<OR>
+						<category>Commlinks</category>
+						<category>Cyberterminals</category>
+						<category>Custom</category>
+						<category>Rigger Command Consoles</category>
+					</OR>
+				</geardetails>
+			</required>
+		</gear>
+		<!-- Baned gear -->
+		<gear>
+			<name>Grenade: DumDum</name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Ammo: Zapper</name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Ammo: Krime Splash Self-Defense Ammunition </name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Grenade: Krime Party</name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Krime Ripper Sensor Array</name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Ammo: Hollow Points</name>
+			<avail>4R</avail>
+		</gear>
+		<gear>
+			<name>Ammo: Subsonic</name>
+			<avail>8R</avail>
+		</gear>
+	</gears>
+</chummer>
