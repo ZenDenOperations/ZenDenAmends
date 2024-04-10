@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <techniques>
+    <technique> <!-- Dual Pistol Firing -->
+      <id>b76e092a-b97a-4d2b-b8f3-18bfdb0db445</id>
+      <name>Dual Pistol Firing</name>
+      <source>SR5</source>
+      <page>1</page>
+	  <notes>Dual Pistol Firing (One-Handed Firearm Only): Also known as the Way of John Woo, this technique allows a character to fire two one-handed weapons at once. The weapons do not need to be identical, but must fire with the same fire mode selected. The attack is resolved as a single attack from one weapon. Use the worse DV, AP,  Accuracy, Dice Pool, Recoil Compensation, Range, Defense Penalty of the two-weapons after all other effects are determined. After these values are determined the characters adds +1 DV and +1 Accuracy to the attack. Both weapons are considered to have fired the full number of rounds for the burst for the purposes of ammo consumption, but the character only takes recoil as if only one fired.</notes>
+    </technique>
+  </techniques>
+</chummer>

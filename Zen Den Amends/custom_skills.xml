@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<skills>
+		<skill>
+			<id>503dd346-8a48-42a1-b0f1-cc072ed5b4f7</id>
+			<name>Bio-Sprays</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs />
+			<source>SR5</source>
+			<page />
+		</skill>
+		<skill>
+			<id>c069f69d-5f1d-455f-b3e8-6d1590acdb09</id>
+			<name>Chainsaws</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs />
+			<source>SR5</source>
+			<page />
+		</skill>
+		<skill>
+			<id>ed121213-b2d6-4645-80b7-ab16d2dfa7fe</id>
+			<name>Directed Energy Weapons</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs />
+			<source>SR5</source>
+			<page />
+		</skill>
+		<skill>
+			<id>40c6c191-f34c-4751-af0b-005e12da7fe2</id>
+			<name>Flame Weapons</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs />
+			<source>SR5</source>
+			<page />
+		</skill>
+		<skill>
+			<id>cd49f9db-1f2a-489a-9f36-91717fe72aa7</id>
+			<name>Lasers</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs />
+			<source>SR5</source>
+			<page />
+		</skill>
+		<skill>
+			<id>3aaa94c4-2f50-4757-bcc0-5c4d3542a645</id>
+			<name>Monofilament Weapons</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs />
+			<source>SR5</source>
+			<page />
+		</skill>
+		<skill>
+			<id>304288bd-408e-4d8a-8a0f-69235e2807fe</id>
+			<name>Spray Guns</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs />
+			<source>SR5</source>
+			<page />
+		</skill>
+	</skills>
+</chummer>
