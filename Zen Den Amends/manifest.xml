@@ -19,7 +19,7 @@
 -->
 <manifest xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ../manifest.xsd">
   <guid>f3caa6bf-9ba4-445b-8697-c0f7993e6230</guid>
-  <version>1.0</version>
+  <version>0.1</version>
   <authors>
     <author>
       <name>Zen Den Gurus</name>
