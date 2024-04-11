@@ -48,7 +48,7 @@
         <selecttext />
       </bonus>
       <source>SR5</source>
-      <cost>0</cost>
+      <cost>50</cost>
       <page>0</page>
     </quality>
     <quality>
@@ -61,7 +61,7 @@
         <selecttext />
       </bonus>
       <source>SR5</source>
-      <cost>500</cost>
+      <cost>200</cost>
       <page>0</page>
     </quality>
     <quality>
@@ -74,7 +74,7 @@
         <selecttext />
       </bonus>
       <source>SR5</source>
-      <cost>2000</cost>
+      <cost>500</cost>
       <page>0</page>
     </quality>
     <quality>
@@ -87,7 +87,7 @@
         <selecttext />
       </bonus>
       <source>SR5</source>
-      <cost>5000</cost>
+      <cost>1000</cost>
       <page>0</page>
     </quality>
     <quality>
@@ -96,6 +96,18 @@
       <category>Stables</category>
       <lp>1</lp>
       <allowed>Luxury</allowed>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <cost>2000</cost>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>695f0ee9-d9f7-491c-9a46-41b510ecf8cd</id>
+      <name>Specialized Stables</name>
+      <category>Stables</category>
+      <lp>1</lp>
       <bonus>
         <selecttext />
       </bonus>
