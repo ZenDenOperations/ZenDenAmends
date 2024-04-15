@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema lifestyles.xsd">
+
+  <categories>
+    <category>Stables</category>
+  </categories>
+  <qualities>
+    <quality>
+      <id>e1734ee0-9b02-421b-b62c-6fb3c9b4c084</id>
+      <name>Street Stables</name>
+      <category>Stables</category>
+      <lp>1</lp>
+      <allowed>Street,Squatter,Low,Medium,High,Luxury</allowed>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <cost>0</cost>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>28b7001a-f2d9-4758-a1a0-54f22ff5a210</id>
+      <name>Squatter Stables</name>
+      <category>Stables</category>
+      <lp>1</lp>
+      <allowed>Squatter,Low,Medium,High,Luxury</allowed>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <cost>50</cost>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>1a1c69ec-20a6-42e6-b84e-760f2d7f69ec</id>
+      <name>Low Stables</name>
+      <category>Stables</category>
+      <lp>1</lp>
+      <allowed>Low,Medium,High,Luxury</allowed>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <cost>200</cost>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>1d1236b8-63b1-48c2-8c3a-d16266b97eff</id>
+      <name>Medium Stables</name>
+      <category>Stables</category>
+      <lp>1</lp>
+      <allowed>Medium,High,Luxury</allowed>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <cost>500</cost>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>f4aa30b2-71f1-4805-a421-11d330114731</id>
+      <name>High Stables</name>
+      <category>Stables</category>
+      <lp>1</lp>
+      <allowed>High,Luxury</allowed>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <cost>1000</cost>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>1e84980c-7d00-4669-9dc8-771a47d2ab7c</id>
+      <name>Luxury Stables</name>
+      <category>Stables</category>
+      <lp>1</lp>
+      <allowed>Luxury</allowed>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <cost>2000</cost>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>0eb2a3ae-f74d-4133-b2a1-45578d268c7f</id>
+      <name>Specialized Stables</name>
+      <category>Stables</category>
+      <lp>1</lp>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <cost>10000</cost>
+      <page>0</page>
+    </quality>
+ </qualities>
+</chummer>

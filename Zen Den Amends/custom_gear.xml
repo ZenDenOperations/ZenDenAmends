@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<categories>
+		<category>Future Tech</category>
+	</categories>
+	<gears>
+		<gear>
+			<id>06272a4e-0583-4fcf-b0f3-61f5ce9922e7</id>
+			<name>Ammo: APDS (Assault Cannon)</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>SR5</source>
+			<page>434</page>
+			<avail>18F</avail>
+			<cost>1200</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<ap>-4</ap>
+			</weaponbonus>
+			<ammoforweapontype>cannon</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>fa04879f-61e7-4877-8ece-270d39581402</id>
+			<name>Ammo: AV Rounds (Assault Cannon)</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>RG</source>
+			<page>55</page>
+			<avail>20F</avail>
+			<cost>1750</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<ap>-1</ap>
+			</weaponbonus>
+			<ammoforweapontype>cannon</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>d03b32c8-1fd7-4c69-b9c5-bfe9f0bec50e</id>
+			<name>Ammo: Depleted Uranium (Assault Cannon)</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>HT</source>
+			<page>189</page>
+			<avail>34F</avail>
+			<cost>5000</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<ap>-5</ap>
+				<damage>1</damage>
+			</weaponbonus>
+			<ammoforweapontype>cannon</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>92db9d04-c6ee-4018-8cea-00c15e851999</id>
+			<name>Ammo: Explosive Rounds (Assault Cannon)</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>SR5</source>
+			<page>434</page>
+			<avail>15F</avail>
+			<cost>800</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<ap>-1</ap>
+				<damage>1</damage>
+			</weaponbonus>
+			<ammoforweapontype>cannon</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>78de8971-f021-4d46-9d77-95bec6c3b420</id>
+			<name>Ammo: EX-Explosive Rounds (Assault Cannon)</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>RG</source>
+			<page>54</page>
+			<avail>20F</avail>
+			<cost>1200</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<ap>-1</ap>
+				<damage>2</damage>
+			</weaponbonus>
+			<ammoforweapontype>cannon</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>cb074e75-245f-474b-bbe9-6758e4d67210</id>
+			<name>Ammo: Krime Crackle Fin-Stabilized HEAT Slugs (Assault Cannon)</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>KK</source>
+			<page>24</page>
+			<avail>26F</avail>
+			<cost>1500</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<damage>2</damage>
+				<ap>-3</ap>
+			</weaponbonus>
+			<ammoforweapontype>cannon</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>1b695904-6f3e-43cd-a8eb-de93a9af13e8</id>
+			<name>Ammo: Krime Power Rounds (Assault Cannon)</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>KK</source>
+			<page>24</page>
+			<avail>9F</avail>
+			<cost>750</cost>
+			<costfor>10</costfor>
+			<ammoforweapontype>cannon</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>fe03bdeb-707a-49bf-8859-1b5fd8eb318a</id>
+			<name>Glass Cutter</name>
+			<category>Breaking and Entering Gear</category>
+			<rating>0</rating>
+			<source>HT</source>
+			<page>186</page>
+			<avail>4</avail>
+			<cost>550</cost>
+		</gear>
+		<gear>
+			<id>ef3b3d01-cfc7-4a4a-ab71-5dbd984ce58b</id>
+			<name>Urban Explorer Daedalus Wingsuit Jetpack</name>
+			<category>Survival Gear</category>
+			<rating>0</rating>
+			<source>SL</source>
+			<page>48</page>
+			<avail>10R</avail>
+			<cost>1200</cost>
+			<notes>This pack fits under and around the Daedalus parachute. It consists of two kerosene rockets and an electronic firing mechanism. When activated as a simple action (free action if wireless), it offers the wingsuit user horizontal flight at a speed of 200 meters per Combat Turn for a total of up to three minutes (60 combat turns). It can only be used once and must then be discarded.</notes>
+		</gear>
+		<gear>
+			<id>a993adf2-b147-42bc-ae46-22612232b8e5</id>
+			<name>Bolt: Monotip Head</name>
+			<category>Ammunition</category>
+			<source>HT</source>
+			<page>187</page>
+			<avail>8R</avail>
+			<cost>35</cost>
+			<costfor>1</costfor>
+			<weaponbonus>
+				<ap>-2</ap>
+			</weaponbonus>
+			<ammoforweapontype>crossbow</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>294de1d3-271b-40a2-bc65-6a7e90905807</id>
+			<name>Vulcan Systems "Hotdrop" Rapid-Egress Jetpack System</name>
+			<category>Future Tech</category>
+			<rating>0</rating>
+			<source>SL</source>
+			<page>55</page>
+			<avail>18R</avail>
+			<cost>22000</cost>
+		</gear>
+		<gear>
+			<id>248e1fbb-eec2-46bd-b48c-b752af215be3</id>
+			<name>Vulcan Systems "Hotdrop" Rapid-Egress Jetpack System Refuel</name>
+			<category>Future Tech</category>
+			<rating>0</rating>
+			<source>SL</source>
+			<page>55</page>
+			<avail>6R</avail>
+			<cost>250</cost>
+		</gear>
+	</gears>
+</chummer>

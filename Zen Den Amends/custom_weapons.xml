@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <accessories>
+    <accessory>
+      <id>4dc36cf7-5d17-4e6c-a58b-f416cd0318b0</id>
+      <name>Laser Sight (Bow)</name>
+      <mount />
+      <avail>2</avail>
+      <cost>125</cost>
+      <source>SR5</source>
+      <page>432</page>
+      <accuracy>1</accuracy>
+      <rating>0</rating>
+    </accessory>
+    <accessory>
+      <id>3eab8f0a-5484-4cfa-b753-2976c3a65c5e</id>
+      <name>Holographic Sight (Bow)</name>
+      <mount />
+      <avail>2</avail>
+      <cost>125</cost>
+      <source>HT</source>
+      <page>181</page>
+      <accuracy>1</accuracy>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <OR>
+            <category>Bows</category>
+            <spec>Bow</spec>
+          </OR>
+        </weapondetails>
+      </required>
+    </accessory>
+  </accessories>
+  <weapons>
+    <weapon>
+      <id>911df3af-65b0-4415-bd77-f96a785a4a8b</id>
+      <name>One-Shot Dartgun</name>
+      <category>Holdouts</category>
+      <type>Ranged</type>
+      <conceal>-4</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>4P</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>1(m)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>CF</source>
+      <page>91</page>
+      <accessories />
+      <allowaccessory>False</allowaccessory>
+      <cyberware>True</cyberware>
+      <hide />
+      <weapontype>dartgun</weapontype>
+      <range>Tasers</range>
+      <spec>Semi-Automatics</spec>
+    </weapon>
+  </weapons>
+</chummer>

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<packs>
+		<pack>
+			<name>All The Programs</name>
+			<category>Custom</category>
+			<gears>
+				<gear>
+					<name>Bootstrap</name>
+					<category>Common Programs</category>
+				</gear>
+				<gear>
+					<name>Browse</name>
+					<category>Common Programs</category>
+				</gear>
+				<gear>
+					<name>Configurator</name>
+					<category>Common Programs</category>
+				</gear>
+				<gear>
+					<name>Edit</name>
+					<category>Common Programs</category>
+				</gear>
+				<gear>
+					<name>Encryption</name>
+					<category>Common Programs</category>
+				</gear>
+				<gear>
+					<name>Search</name>
+					<category>Common Programs</category>
+				</gear>
+				<gear>
+					<name>Shredder</name>
+					<category>Common Programs</category>
+				</gear>
+				<gear>
+					<name>Signal Scrub</name>
+					<category>Common Programs</category>
+				</gear>
+				<gear>
+					<name>Toolbox</name>
+					<category>Common Programs</category>
+				</gear>
+				<gear>
+					<name>Virtual Machine</name>
+					<category>Common Programs</category>
+				</gear>
+				<gear>
+					<name>Armor</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Baby Monitor</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Biofeedback</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Biofeedback Filter</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Blackout</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Cat's Paw</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Cloudless</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Crash (Program)</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Decryption</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Defuse</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Demolition</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Detonator</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Evaluate</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Exploit</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Fly on a Wall</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Fork</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Guard</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Hammer</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Hitchhiker</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Lockdown</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Mugger</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Nuke-from-Orbit</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Paintjob</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Shell</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Smoke and Mirrors</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Sneak</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Stealth</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Swerve</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Tantrum</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Tarball</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Track</name>
+					<category>Hacking Programs</category>
+				</gear>
+				<gear>
+					<name>Wrapper</name>
+					<category>Hacking Programs</category>
+				</gear>
+			</gears>
+		</pack>
+	</packs>
+</chummer>

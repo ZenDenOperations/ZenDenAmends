@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <powers>
+    <power>
+      <id>a531764e-cac6-423a-8749-ce93e8392b66</id>
+      <name>Infected Improvement (Body)</name>
+      <bonus>
+        <specificattribute>
+          <name>BOD</name>
+          <min>1</min>
+        </specificattribute>
+      </bonus>
+      <source>RF</source>
+      <page>116</page>
+    </power>
+	  <power>
+		<id>ee6ac7f2-09e6-4873-87e0-8dc67fdc532f</id>
+		<name>Infected Improvement (Strength)</name>
+		<bonus>
+		  <specificattribute>
+			<name>STR</name>
+			<min>1</min>
+		  </specificattribute>
+		</bonus>
+		<source>RF</source>
+		<page>116</page>
+	  </power>
+	  <power>
+		<id>66fdc416-a71b-4781-b70b-4ab7732e15bb</id>
+		<name>Infected Improvement (Reaction)</name>
+		<bonus>
+		  <specificattribute>
+			<name>REA</name>
+			<min>1</min>
+		  </specificattribute>
+		</bonus>
+		<source>RF</source>
+		<page>116</page>
+	  </power>
+	  <power>
+		<id>f4fcb86c-3157-4b29-a958-3df5c3433f34</id>
+		<name>Infected Improvement (Charisma)</name>
+		<bonus>
+		  <specificattribute>
+			<name>CHA</name>
+			<min>1</min>
+		  </specificattribute>
+		</bonus>
+		<source>RF</source>
+		<page>116</page>
+	  </power>
+	  <power>
+		<id>77bddbd4-d0dc-4e4c-ae1b-6ba8c0abee76</id>
+		<name>Infected Improvement (Logic)</name>
+		<bonus>
+		  <specificattribute>
+			<name>LOG</name>
+			<min>1</min>
+		  </specificattribute>
+		</bonus>
+		<source>RF</source>
+		<page>116</page>
+	  </power>
+	  <power>
+		<id>9baa20a1-54eb-4e54-b23e-8758cf610f68</id>
+		<name>Infected Improvement (Intuition)</name>
+		<bonus>
+		  <specificattribute>
+			<name>INT</name>
+			<min>1</min>
+		  </specificattribute>
+		</bonus>
+		<source>RF</source>
+		<page>116</page>
+	  </power>
+	  <power>
+		<id>97f24e7b-5c11-4579-824e-730347c0203e</id>
+		<name>Infected Improvement (Willpower)</name>
+		<bonus>
+		  <specificattribute>
+			<name>WIL</name>
+			<min>1</min>
+		  </specificattribute>
+		</bonus>
+		<source>RF</source>
+		<page>116</page>
+	  </power>
+  </powers>
+</chummer>
