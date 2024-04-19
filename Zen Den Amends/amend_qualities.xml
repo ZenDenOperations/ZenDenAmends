@@ -149,11 +149,6 @@
 			<careeronly />
 		</quality>
 		<quality>
-			<!-- Wanted -->
-			<name>Wanted</name>
-			<careeronly />
-		</quality>
-		<quality>
 			<!-- Human Lifespan -->
 			<name>Human Lifespan</name>
 			<karma amendoperation="replace">0</karma>
