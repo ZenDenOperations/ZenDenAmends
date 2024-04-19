@@ -210,7 +210,12 @@
 		</customdatadirectoryname>
 		<customdatadirectoryname>
 			<directoryname>6bcce4e0-6ae0-4c7d-b6c8-912606db090d&gt;1.0</directoryname>
-			<order>81</order>
+			<order>3</order>
+			<enabled>True</enabled>
+		</customdatadirectoryname>
+		<customdatadirectoryname>
+			<directoryname>96f53bbb-9f23-49c1-b795-ee94a8043b2c&gt;1.0</directoryname>
+			<order>80</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 	</customdatadirectorynames>

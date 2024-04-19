@@ -19,6 +19,60 @@
 -->
 <chummer>
 	<gears>
+	<!-- Ritual Spellcasting Adjustments -->
+    <gear> <!-- Rename Combat to be generic-->
+      <id>e1b66500-1c39-4747-87a6-071b8b1966cc</id>
+      <name>Ritual Spellcasting Focus</name>
+    </gear>
+	<gear><!--Individualized, Partial-->
+      <id>DB4E9091-929E-4004-AA1E-57030BAF557F</id>
+      <name>Ritual Spellcasting Focus, Individualized, Partial</name>
+    </gear>
+	<gear><!--Individualized, Complete-->
+      <id>54A5D681-0C23-4DC5-8ED2-019755F83D2E</id>
+      <name>Ritual Spellcasting Focus, Individualized, Complete</name>
+    </gear>
+	<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Detection')">
+      <hide />
+    </gear>
+	<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Health')">
+      <hide />
+    </gear>
+	<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Illusion')">
+      <hide />
+    </gear>
+	<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Manipulation')">
+      <hide />
+    </gear>
+	<gear xpathfilter="contains(name,'Ritual Spellcasting Focus Formula')">
+      <hide />
+    </gear>
+    <gear amendoperation = "append">
+      <id>f2bff024-e5f0-465b-9b8b-329325568ed2</id>
+      <name>Ritual Spellcasting Focus Formula</name>
+      <category>Formulae</category>
+      <rating>18</rating>
+      <source>SR5</source>
+      <page>320</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <selecttradition />
+      </bonus>
+      <cost>Rating * 1000</cost>
+    </gear>
+	<!-- Pi-tac adjustments -->
+    <gear>
+      <name>PI-Tac Level I (Renraku Taka)</name>
+      <cost>60000</cost>
+    </gear>
+    <gear>
+      <name>PI-Tac Level II (Novatech Tactician)</name>
+      <cost>160000</cost>
+    </gear>
+    <gear>
+      <name>PI-Tac Level III (ComPac-Esprit General)</name>
+      <cost>400000</cost>
+    </gear>
 		<gear>
 			<!-- Banishing Focus -->
 			<id>5fae16cf-c68c-46e8-91b2-ca5220824ba5</id>
@@ -109,7 +163,11 @@
 			<hide />
 		</gear>
 		<gear>
-			<name>Ammo: Krime Splash Self-Defense Ammunition </name>
+			<name>Ammo: Krime Splash Self-Defense Ammunition</name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Ammo: Krime Crackle Fin-Stabilized HEAT Slugs</name>
 			<hide />
 		</gear>
 		<gear>

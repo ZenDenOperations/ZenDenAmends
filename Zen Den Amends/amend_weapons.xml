@@ -518,7 +518,7 @@
         <mount>Internal</mount>
       </accessorymounts>
     </weapon>
-        <weapon>
+    <weapon>
       <name>Narcoject Dazzler</name>
       <accessorymounts amendoperation="Append">
         <mount>Top</mount>
@@ -581,6 +581,10 @@
     </weapon>
     <!--  END EXOTIC WEAPON SKILLS -->
 	<!--Banned Items-->
+  <weapon>
+      <name>Grenade: Douser</name>
+      <hide />
+    </weapon>
 	<weapon>
       <name>Stoner-Ares M-22A1</name>
       <hide />
