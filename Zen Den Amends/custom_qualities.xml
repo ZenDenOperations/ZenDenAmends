@@ -548,10 +548,6 @@
 						<name>Clubs</name>
 						<bonus>1</bonus>
 					</weaponcategorydv>
-					<weaponcategorydv>
-						<name>Unarmed</name>
-						<bonus>1</bonus>
-					</weaponcategorydv>
 				</bonus>
 				<source>SR5</source>
 				<page>1</page>
@@ -592,10 +588,6 @@
 					</weaponcategorydv>
 					<weaponcategorydv>
 						<name>Clubs</name>
-						<bonus>1</bonus>
-					</weaponcategorydv>
-					<weaponcategorydv>
-						<name>Unarmed</name>
 						<bonus>1</bonus>
 					</weaponcategorydv>
 				</bonus>
@@ -6842,35 +6834,5 @@
 		  <source>SR5</source>
 		  <page>0</page>
 		</quality>
-		<quality> <!-- Tek's custom bullshit that shouldn't be copied to the main amends -->
-		  <id>93d892da-741b-4371-98a0-569564f26a9f</id>
-		  <name>Maid Marian Savings Account</name>
-		  <karma>10</karma>
-		  <category>Positive</category>
-		  <doublecareer>False</doublecareer>
-		  <limit>30</limit>
-		  <source>SG</source>
-		  <page>200</page>
-		</quality>
-			<!-- Test Geneware Biocomp
-	<quality>
-      <id>bbfcfb1e-9119-4786-bb34-79ee465e10fc</id>
-      <name>Biocompatibility (Geneware)</name>
-      <karma>5</karma>
-      <category>Positive</category>
-      <bonus>
-        <genetechessmultiplier>90</genetechessmultiplier>
-      </bonus>
-      <forbidden>
-        <oneof>
-          <quality>Biocompatibility (Bioware)</quality>
-          <quality>Biocompatibility (Cyberware)</quality>
-          <quality>Ronin (Geneware)</quality>
-        </oneof>
-      </forbidden>
-      <source>CF</source>
-      <page>54</page>
-    </quality>
-	-->
 	</qualities>
 </chummer>

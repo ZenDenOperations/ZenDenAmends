@@ -46,18 +46,6 @@
   </grades>
   <cyberwares>
     <cyberware>
-		<name>Wired Reflexes</name>
-		<ess>Rating * 1.5</ess>
-		<cost>Rating * 39000</cost>
-		<bonus amendoperation="replace">
-			<initiativepass precedence="0">Rating</initiativepass>
-			<specificattribute>
-				<name>REA</name>
-				<val>Rating</val>
-			</specificattribute>
-		</bonus>
-    </cyberware>
-    <cyberware>
 		<id>31d32ab0-107c-4410-9148-7b2501db12be</id>  <!-- Move-by-Wire-->
 		<bonus amendoperation ="replace">
 			<initiative precedence="0">FixedValues(3,6,9)</initiative>
@@ -109,7 +97,7 @@
       <id>4630313c-aca9-4aa3-8fce-ba064423b1c7</id>
       <avail>6</avail>
     </cyberware>
-        <cyberware> 
+    <cyberware> 
       <id>False Face</id>
       <capacity>[2]</capacity>
     </cyberware>

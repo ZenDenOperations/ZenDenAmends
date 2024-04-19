@@ -101,22 +101,6 @@
 			<ammoforweapontype>cannon</ammoforweapontype>
 		</gear>
 		<gear>
-			<id>cb074e75-245f-474b-bbe9-6758e4d67210</id>
-			<name>Ammo: Krime Crackle Fin-Stabilized HEAT Slugs (Assault Cannon)</name>
-			<category>Ammunition</category>
-			<rating>0</rating>
-			<source>KK</source>
-			<page>24</page>
-			<avail>26F</avail>
-			<cost>1500</cost>
-			<costfor>10</costfor>
-			<weaponbonus>
-				<damage>2</damage>
-				<ap>-3</ap>
-			</weaponbonus>
-			<ammoforweapontype>cannon</ammoforweapontype>
-		</gear>
-		<gear>
 			<id>1b695904-6f3e-43cd-a8eb-de93a9af13e8</id>
 			<name>Ammo: Krime Power Rounds (Assault Cannon)</name>
 			<category>Ammunition</category>
