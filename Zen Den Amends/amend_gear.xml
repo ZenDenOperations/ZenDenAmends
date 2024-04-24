@@ -60,6 +60,57 @@
       </bonus>
       <cost>Rating * 1000</cost>
     </gear>
+	<!--Reagent Stuff-->
+	<gear xpathfilter="contains(name,'Reagents')">
+      <hide />
+    </gear>
+	<gear amendoperation = "append">
+      <id>ad78405e-b330-4f20-b454-5aeb9b34dc77</id>
+      <name>Raw Reagents</name>
+      <category>Magical Supplies</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>317</page>
+      <avail>4</avail>
+      <cost>20</cost>
+      <bonus>
+        <selecttradition />
+      </bonus>
+    </gear>
+    <gear amendoperation = "append">
+      <id>473c1b5e-0b3e-4dc3-aa23-580d151759ab</id>
+      <name>Refined Reagents</name>
+      <category>Magical Supplies</category>
+      <rating>0</rating>
+      <source>FA</source>
+      <page>188</page>
+      <avail>8</avail>
+      <cost>200</cost>
+      <bonus>
+        <selecttradition />
+      </bonus>
+    </gear>
+    <gear amendoperation = "append">
+      <id>50baae16-39f6-4d87-add0-9a3641317612</id>
+      <name>Radical Reagents</name>
+      <category>Magical Supplies</category>
+      <rating>0</rating>
+      <source>FA</source>
+      <page>188</page>
+      <avail>16</avail>
+      <cost>2000</cost>
+      <bonus>
+        <selecttradition />
+      </bonus>
+    </gear>
+	<gear>
+      <name>Orichalcum</name>
+      <avail>32</avail>
+      <cost>40000</cost>
+      <bonus>
+        <selecttradition />
+      </bonus>
+    </gear>
 	<!-- Pi-tac adjustments -->
     <gear>
       <name>PI-Tac Level I (Renraku Taka)</name>
@@ -156,6 +207,14 @@
 		<!-- Baned gear -->
 		<gear>
 			<name>Grenade: DumDum</name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Cry Wolf</name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Hitchhiker</name>
 			<hide />
 		</gear>
 		<gear>

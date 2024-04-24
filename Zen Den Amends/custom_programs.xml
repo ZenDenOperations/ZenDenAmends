@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+  Chummer5a is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  Chummer5a is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.w3.org/2001/XMLSchema programs.xsd">
+
+  <resonanceprograms>
+    <program>
+      <name>Browse</name>
+    </program>
+    <program>
+      <name>Configurator</name>
+    </program>
+    <program>
+      <name>Edit</name>
+    </program>
+    <program>
+      <name>Encryption</name>
+    </program>
+    <program>
+      <name>Signal Scrub</name>
+    </program>
+    <program>
+      <name>Toolbox</name>
+    </program>
+    <program>
+      <name>Armor</name>
+    </program>
+    <program>
+      <name>Baby Monitor</name>
+    </program>
+    <program>
+      <name>Biofeedback</name>
+    </program>
+    <program>
+      <name>Biofeedback Filter</name>
+    </program>
+    <program>
+      <name>Blackout</name>
+    </program>
+    <program>
+      <name>Decryption</name>
+    </program>
+    <program>
+      <name>Defuse</name>
+    </program>
+    <program>
+      <name>Demolition</name>
+    </program>
+    <program>
+      <name>Exploit</name>
+    </program>
+    <program>
+      <name>Fork</name>
+    </program>
+    <program>
+      <name>Guard</name>
+    </program>
+    <program>
+      <name>Hammer</name>
+    </program>
+    <program>
+      <name>Lockdown</name>
+    </program>
+    <program>
+      <name>Mugger</name>
+    </program>
+    <program>
+      <name>Shell</name>
+    </program>
+    <program>
+      <name>Sneak</name>
+    </program>
+    <program>
+      <name>Stealth</name>
+    </program>
+    <program>
+      <name>Track</name>
+    </program>
+    <program>
+      <name>Wrapper</name>
+    </program>
+    <!-- Region Data Trails Programs -->
+    <program>
+      <name>Bootstrap</name>
+    </program>
+    <program>
+      <name>Search</name>
+    </program>
+    <program>
+      <name>Shredder</name>
+    </program>
+    <program>
+      <name>Cat's Paw</name>
+    </program>
+    <program>
+      <name>Cloudless</name>
+    </program>
+    <program>
+      <name>Crash</name>
+    </program>
+    <program>
+      <name>Detonator</name>
+    </program>
+    <program>
+      <name>Evaluate</name>
+    </program>
+    <program>
+      <name>Fly on a Wall</name>
+    </program>
+    <program>
+      <name>Nuke-from-Orbit</name>
+    </program>
+    <program>
+      <name>Paintjob</name>
+    </program>
+    <program>
+      <name>Smoke and Mirrors</name>
+    </program>
+    <program>
+      <name>Swerve</name>
+    </program>
+    <program>
+      <name>Tantrum</name>
+    </program>
+    <program>
+      <name>Tarball</name>
+    </program>
+    <!-- End Region -->
+  </resonanceprograms>
+  <machinistprograms>
+    <!-- Region Autosofts -->
+    <program>
+      <name>Clearsight Autosoft</name>
+    </program>
+    <program>
+      <name>Electronic Warfare Autosoft</name>
+    </program>
+    <program>
+      <name>[Model] Evasion Autosoft</name>
+      <bonus>
+        <selecttext xml="vehicles.xml" xpath="/chummer/vehicles/vehicle" allowedit="True" />
+      </bonus>
+    </program>
+    <program>
+      <name>[Model] Maneuvering Autosoft</name>
+      <bonus>
+        <selecttext xml="vehicles.xml" xpath="/chummer/vehicles/vehicle" allowedit="True" />
+      </bonus>
+    </program>
+    <program>
+      <name>[Model] Stealth Autosoft</name>
+        <bonus>
+          <selecttext xml="vehicles.xml" xpath="/chummer/vehicles/vehicle" allowedit="True" />
+        </bonus>
+    </program>
+    <program>
+      <name>[Weapon] Targeting Autosoft</name>
+      <bonus>
+        <selecttext xml="weapons.xml" xpath="/chummer/weapons/weapon[type = 'Ranged']" allowedit="True" />
+      </bonus>
+    </program>
+    <program>
+      <name>Smartsoft</name>
+    </program>
+    <program>
+      <name>Group Autosoft</name>
+    </program>
+    <program>
+      <name>Skill Autosoft</name>
+      <bonus>
+        <selecttext xml="skills.xml" xpath="/chummer/skills/skill/name | /chummer/knowledgeskills/skill/name" allowedit="True" />
+      </bonus>
+    </program>
+    <program>
+      <name>Skill Autosoft (Restricted)</name>
+      <bonus>
+        <selectskill />
+      </bonus>
+    </program>
+    <program>
+      <name>[Weapon] Melee Autosoft</name>
+      <bonus>
+        <selecttext xml="weapons.xml" xpath="/chummer/weapons/weapon[type = 'Melee']" allowedit="True" />
+      </bonus>
+    </program>
+    <!-- End Region -->
+  </machinistprograms>
+</chummer>

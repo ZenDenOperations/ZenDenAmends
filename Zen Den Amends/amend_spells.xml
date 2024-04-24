@@ -27,10 +27,6 @@
       <name>Multiply Food</name>
       <hide />
     </spell>
-    <spell>
-      <name>Necro Summoning</name>
-      <hide />
-    </spell>
 	<spell> <!-- Double of Sound Barrier -->
       <name>8b3edb22-35ab-44a3-aa9d-0553a1af4da4</name>
       <hide />
