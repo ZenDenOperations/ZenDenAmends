@@ -19,9 +19,14 @@
         <disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
         <disablecyberwaregrade>Greyware (Adapsin)</disablecyberwaregrade>
       </bonus>
-      <required>
+	  <forbidden>
         <oneof>
-          <ess grade="Betaware,Deltaware,Gammaware">1</ess>
+          <metatype>Pixie</metatype>
+        </oneof>
+      </forbidden>
+	  <required>
+        <oneof>
+          <ess grade="Alphaware,Betaware,Deltaware,Gammaware">1</ess>
         </oneof>
       </required>
       <source>CF</source>
@@ -146,11 +151,6 @@
 		<quality>
 			<!-- Bad Rep -->
 			<name>Bad Rep</name>
-			<careeronly />
-		</quality>
-		<quality>
-			<!-- Wanted -->
-			<name>Wanted</name>
 			<careeronly />
 		</quality>
 		<quality>
