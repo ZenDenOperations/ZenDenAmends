@@ -19,111 +19,150 @@
 -->
 <chummer>
 	<gears>
-	<!-- Ritual Spellcasting Adjustments -->
-    <gear> <!-- Rename Combat to be generic-->
-      <id>e1b66500-1c39-4747-87a6-071b8b1966cc</id>
-      <name>Ritual Spellcasting Focus</name>
-    </gear>
-	<gear><!--Individualized, Partial-->
-      <id>DB4E9091-929E-4004-AA1E-57030BAF557F</id>
-      <name>Ritual Spellcasting Focus, Individualized, Partial</name>
-    </gear>
-	<gear><!--Individualized, Complete-->
-      <id>54A5D681-0C23-4DC5-8ED2-019755F83D2E</id>
-      <name>Ritual Spellcasting Focus, Individualized, Complete</name>
-    </gear>
-	<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Detection')">
-      <hide />
-    </gear>
-	<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Health')">
-      <hide />
-    </gear>
-	<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Illusion')">
-      <hide />
-    </gear>
-	<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Manipulation')">
-      <hide />
-    </gear>
-	<gear xpathfilter="contains(name,'Ritual Spellcasting Focus Formula')">
-      <hide />
-    </gear>
-    <gear amendoperation = "append">
-      <id>f2bff024-e5f0-465b-9b8b-329325568ed2</id>
-      <name>Ritual Spellcasting Focus Formula</name>
-      <category>Formulae</category>
-      <rating>18</rating>
-      <source>SR5</source>
-      <page>320</page>
-      <avail>(Rating * 3)R</avail>
-      <bonus>
-        <selecttradition />
-      </bonus>
-      <cost>Rating * 1000</cost>
-    </gear>
-	<!--Reagent Stuff-->
-	<gear xpathfilter="contains(name,'Reagents')">
-      <hide />
-    </gear>
-	<gear amendoperation = "append">
-      <id>ad78405e-b330-4f20-b454-5aeb9b34dc77</id>
-      <name>Raw Reagents</name>
-      <category>Magical Supplies</category>
-      <rating>0</rating>
-      <source>SR5</source>
-      <page>317</page>
-      <avail>4</avail>
-      <cost>20</cost>
-      <bonus>
-        <selecttradition />
-      </bonus>
-    </gear>
-    <gear amendoperation = "append">
-      <id>473c1b5e-0b3e-4dc3-aa23-580d151759ab</id>
-      <name>Refined Reagents</name>
-      <category>Magical Supplies</category>
-      <rating>0</rating>
-      <source>FA</source>
-      <page>188</page>
-      <avail>8</avail>
-      <cost>200</cost>
-      <bonus>
-        <selecttradition />
-      </bonus>
-    </gear>
-    <gear amendoperation = "append">
-      <id>50baae16-39f6-4d87-add0-9a3641317612</id>
-      <name>Radical Reagents</name>
-      <category>Magical Supplies</category>
-      <rating>0</rating>
-      <source>FA</source>
-      <page>188</page>
-      <avail>16</avail>
-      <cost>2000</cost>
-      <bonus>
-        <selecttradition />
-      </bonus>
-    </gear>
-	<gear>
-      <name>Orichalcum</name>
-      <avail>32</avail>
-      <cost>40000</cost>
-      <bonus>
-        <selecttradition />
-      </bonus>
-    </gear>
-	<!-- Pi-tac adjustments -->
-    <gear>
-      <name>PI-Tac Level I (Renraku Taka)</name>
-      <cost>60000</cost>
-    </gear>
-    <gear>
-      <name>PI-Tac Level II (Novatech Tactician)</name>
-      <cost>160000</cost>
-    </gear>
-    <gear>
-      <name>PI-Tac Level III (ComPac-Esprit General)</name>
-      <cost>400000</cost>
-    </gear>
+		<!--Autosofts-->
+		<gear>
+			<id>80137629-41f0-41da-bfed-c8a1388b759e</id>
+			<name>Evasion Autosoft</name>
+			<bonus>
+				<selecttext xml="skills.xml" xpath="/chummer/skills/skill[contains(name, 'Pilot')]/specs/spec" allowedit="True" />
+			</bonus>
+		</gear>
+		<gear>
+			<id>9d81218f-ee70-4304-9a09-ac865d84b8e0</id>
+			<name>Maneuvering Autosoft</name>
+			<bonus>
+				<selecttext xml="skills.xml" xpath="/chummer/skills/skill[contains(name, 'Pilot')]/specs/spec" allowedit="True" />
+			</bonus>
+		</gear>
+		<gear>
+			<id>c29a96f9-25bf-4ebc-8c56-f4c8afc3c002</id>
+			<name>Stealth Autosoft</name>
+			<bonus>
+				<selecttext xml="skills.xml" xpath="/chummer/skills/skill[contains(name, 'Pilot')]/specs/spec" allowedit="True" />
+			</bonus>
+		</gear>
+		<gear>
+			<id>0949997a-acb7-49d9-9905-5ae2cd35626f</id>
+			<name>Targeting Autosoft</name>
+			<bonus>
+				<selecttext xml="skills.xml" xpath="/chummer/skills/skill[not(contains(skillgroup, 'Close Combat')) and contains(category, 'Combat Active')]/name" allowedit="True" />
+			</bonus>
+		</gear>
+		<gear>
+			<id>3f653543-fe65-433e-821d-1188016c0686</id>
+			<name>Melee Autosoft</name>
+			<bonus>
+				<selecttext xml="skills.xml" xpath="/chummer/skills/skill[contains(skillgroup, 'Close Combat')]/name" allowedit="True" />
+			</bonus>
+		</gear>
+		<!-- Ritual Spellcasting Adjustments -->
+		<gear>
+			<!-- Rename Combat to be generic-->
+			<id>e1b66500-1c39-4747-87a6-071b8b1966cc</id>
+			<name>Ritual Spellcasting Focus</name>
+		</gear>
+		<gear>
+			<!--Individualized, Partial-->
+			<id>DB4E9091-929E-4004-AA1E-57030BAF557F</id>
+			<name>Ritual Spellcasting Focus, Individualized, Partial</name>
+		</gear>
+		<gear>
+			<!--Individualized, Complete-->
+			<id>54A5D681-0C23-4DC5-8ED2-019755F83D2E</id>
+			<name>Ritual Spellcasting Focus, Individualized, Complete</name>
+		</gear>
+		<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Detection')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Health')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Illusion')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Ritual Spellcasting Focus, Manipulation')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Ritual Spellcasting Focus Formula')">
+			<hide />
+		</gear>
+		<gear amendoperation = "append">
+			<id>f2bff024-e5f0-465b-9b8b-329325568ed2</id>
+			<name>Ritual Spellcasting Focus Formula</name>
+			<category>Formulae</category>
+			<rating>18</rating>
+			<source>SR5</source>
+			<page>320</page>
+			<avail>(Rating * 3)R</avail>
+			<bonus>
+				<selecttradition />
+			</bonus>
+			<cost>Rating * 1000</cost>
+		</gear>
+		<!--Reagent Stuff-->
+		<gear xpathfilter="contains(name,'Reagents')">
+			<hide />
+		</gear>
+		<gear amendoperation = "append">
+			<id>ad78405e-b330-4f20-b454-5aeb9b34dc77</id>
+			<name>Raw Reagents</name>
+			<category>Magical Supplies</category>
+			<rating>0</rating>
+			<source>SR5</source>
+			<page>317</page>
+			<avail>4</avail>
+			<cost>20</cost>
+			<bonus>
+				<selecttradition />
+			</bonus>
+		</gear>
+		<gear amendoperation = "append">
+			<id>473c1b5e-0b3e-4dc3-aa23-580d151759ab</id>
+			<name>Refined Reagents</name>
+			<category>Magical Supplies</category>
+			<rating>0</rating>
+			<source>FA</source>
+			<page>188</page>
+			<avail>8</avail>
+			<cost>200</cost>
+			<bonus>
+				<selecttradition />
+			</bonus>
+		</gear>
+		<gear amendoperation = "append">
+			<id>50baae16-39f6-4d87-add0-9a3641317612</id>
+			<name>Radical Reagents</name>
+			<category>Magical Supplies</category>
+			<rating>0</rating>
+			<source>FA</source>
+			<page>188</page>
+			<avail>16</avail>
+			<cost>2000</cost>
+			<bonus>
+				<selecttradition />
+			</bonus>
+		</gear>
+		<gear>
+			<name>Orichalcum</name>
+			<avail>32</avail>
+			<cost>40000</cost>
+			<bonus>
+				<selecttradition />
+			</bonus>
+		</gear>
+		<!-- Pi-tac adjustments -->
+		<gear>
+			<name>PI-Tac Level I (Renraku Taka)</name>
+			<cost>60000</cost>
+		</gear>
+		<gear>
+			<name>PI-Tac Level II (Novatech Tactician)</name>
+			<cost>160000</cost>
+		</gear>
+		<gear>
+			<name>PI-Tac Level III (ComPac-Esprit General)</name>
+			<cost>400000</cost>
+		</gear>
 		<gear>
 			<!-- Banishing Focus -->
 			<id>5fae16cf-c68c-46e8-91b2-ca5220824ba5</id>
