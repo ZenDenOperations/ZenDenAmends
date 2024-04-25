@@ -6842,7 +6842,7 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<bonus>
-        		<selecttext xml="programs.xml" xpath="/chummer/resonanceprograms/program" />
+				<selecttext xml="gear.xml" xpath="/chummer/gears/gear[contains(category, 'Hacking Programs')]/name | /chummer/gears/gear[contains(category, 'Common Programs')]/name" allowedit="True" />
       		</bonus>
 			<required>
         		<oneof>
@@ -6865,7 +6865,7 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<bonus>
-        		<selecttext xml="programs.xml" xpath="/chummer/resonanceprograms/program | /chummer/machinistprograms/program" allowedit="True" />
+        		<selecttext xml="gear.xml" xpath="/chummer/gears/gear[contains(category, 'Hacking Programs')]/name | /chummer/gears/gear[contains(category, 'Common Programs')]/name | /chummer/gears/gear[contains(category, 'Autosofts')]/name" allowedit="True" />
       		</bonus>
 			<required>
         		<oneof>
