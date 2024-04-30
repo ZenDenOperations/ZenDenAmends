@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema critters.xsd">
+	<metatypes>
+		<metatype>
+			<name>Raccoon</name>
+			<bodmin>2</bodmin>
+			<bodmax>3</bodmax>
+			<bodaug>7</bodaug>
+			<agimin>4</agimin>
+			<agimax>5</agimax>
+			<agiaug>9</agiaug>
+			<reamin>3</reamin>
+			<reamax>4</reamax>
+			<reaaug>8</reaaug>
+			<strmin>1</strmin>
+			<strmax>2</strmax>
+			<straug>6</straug>
+			<chamin>2</chamin>
+			<chamax>3</chamax>
+			<chaaug>7</chaaug>
+			<intmin>4</intmin>
+			<intmax>5</intmax>
+			<intaug>9</intaug>
+			<logmin>1</logmin>
+			<logmax>2</logmax>
+			<logaug>6</logaug>
+			<wilmin>3</wilmin>
+			<wilmax>4</wilmax>
+			<wilaug>8</wilaug>
+			<edgmin>2</edgmin>
+			<edgmax>3</edgmax>
+			<edgaug>3</edgaug>
+		</metatype>
+		<metatype>
+			<name>Bandit</name>
+			<bodmin>3</bodmin>
+			<bodmax>4</bodmax>
+			<bodaug>8</bodaug>
+			<agimin>4</agimin>
+			<agimax>5</agimax>
+			<agiaug>9</agiaug>
+			<reamin>3</reamin>
+			<reamax>4</reamax>
+			<reaaug>8</reaaug>
+			<strmin>2</strmin>
+			<strmax>3</strmax>
+			<straug>7</straug>
+			<chamin>3</chamin>
+			<chamax>4</chamax>
+			<chaaug>8</chaaug>
+			<intmin>5</intmin>
+			<intmax>6</intmax>
+			<intaug>10</intaug>
+			<logmin>3</logmin>
+			<logmax>4</logmax>
+			<logaug>8</logaug>
+			<wilmin>3</wilmin>
+			<wilmax>4</wilmax>
+			<wilaug>8</wilaug>
+			<edgmin>2</edgmin>
+			<edgmax>3</edgmax>
+			<edgaug>3</edgaug>
+			<magmin>0</magmin>
+			<magmax>1</magmax>
+			<magaug>1</magaug>
+		</metatype>
+		<metatype>
+			<name>Libertine</name>
+			<bodmin>2</bodmin>
+			<bodmax>3</bodmax>
+			<bodaug>7</bodaug>
+			<agimin>4</agimin>
+			<agimax>5</agimax>
+			<agiaug>9</agiaug>
+			<reamin>3</reamin>
+			<reamax>4</reamax>
+			<reaaug>8</reaaug>
+			<strmin>1</strmin>
+			<strmax>2</strmax>
+			<straug>6</straug>
+			<chamin>2</chamin>
+			<chamax>3</chamax>
+			<chaaug>7</chaaug>
+			<intmin>4</intmin>
+			<intmax>5</intmax>
+			<intaug>9</intaug>
+			<logmin>1</logmin>
+			<logmax>2</logmax>
+			<logaug>6</logaug>
+			<wilmin>3</wilmin>
+			<wilmax>4</wilmax>
+			<wilaug>8</wilaug>
+			<edgmin>2</edgmin>
+			<edgmax>3</edgmax>
+			<edgaug>3</edgaug>
+			<resmin>3</resmin>
+			<resmax>4</resmax>
+			<resaug>4</resaug>
+		</metatype>
+	</metatypes>
+</chummer>
