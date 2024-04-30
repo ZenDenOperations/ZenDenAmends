@@ -116,5 +116,596 @@
 			<resmax>4</resmax>
 			<resaug>4</resaug>
 		</metatype>
+		<metatype>
+			<name>Montauk</name>
+			<bodmin>3</bodmin>
+			<bodmax>3</bodmax>
+			<bodaug>3</bodaug>
+		</metatype>
+		<!--Unnecessary Critter Attribute Fuckery-->
+		<metatype xpathfilter="contains(bodmin,'1')">
+			<bodmax>2</bodmax>
+			<bodaug>6</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'2')">
+			<bodmax>3</bodmax>
+			<bodaug>7</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'3')">
+			<bodmax>4</bodmax>
+			<bodaug>8</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'4')">
+			<bodmax>5</bodmax>
+			<bodaug>9</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'5')">
+			<bodmax>6</bodmax>
+			<bodaug>10</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'6')">
+			<bodmax>7</bodmax>
+			<bodaug>11</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'7')">
+			<bodmax>8</bodmax>
+			<bodaug>12</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'8')">
+			<bodmax>9</bodmax>
+			<bodaug>13</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'9')">
+			<bodmax>10</bodmax>
+			<bodaug>14</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'10')">
+			<bodmax>11</bodmax>
+			<bodaug>15</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'11')">
+			<bodmax>12</bodmax>
+			<bodaug>16</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'12')">
+			<bodmax>13</bodmax>
+			<bodaug>17</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'13')">
+			<bodmax>14</bodmax>
+			<bodaug>18</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'14')">
+			<bodmax>15</bodmax>
+			<bodaug>19</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'15')">
+			<bodmax>16</bodmax>
+			<bodaug>20</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'16')">
+			<bodmax>17</bodmax>
+			<bodaug>21</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'17')">
+			<bodmax>18</bodmax>
+			<bodaug>22</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'18')">
+			<bodmax>19</bodmax>
+			<bodaug>23</bodaug>
+		</metatype>
+		<metatype xpathfilter="contains(bodmin,'20')">
+			<bodmax>21</bodmax>
+			<bodaug>25</bodaug>
+		</metatype>
+        <metatype xpathfilter="contains(agimin,'1')">
+            <agimax>2</agimax>
+            <agiaug>6</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'2')">
+            <agimax>3</agimax>
+            <agiaug>7</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'3')">
+            <agimax>4</agimax>
+            <agiaug>8</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'4')">
+            <agimax>5</agimax>
+            <agiaug>9</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'5')">
+            <agimax>6</agimax>
+            <agiaug>10</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'6')">
+            <agimax>7</agimax>
+            <agiaug>11</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'7')">
+            <agimax>8</agimax>
+            <agiaug>12</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'8')">
+            <agimax>9</agimax>
+            <agiaug>13</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'9')">
+            <agimax>10</agimax>
+            <agiaug>14</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'10')">
+            <agimax>11</agimax>
+            <agiaug>15</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'11')">
+            <agimax>12</agimax>
+            <agiaug>16</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(agimin,'12')">
+            <agimax>13</agimax>
+            <agiaug>17</agiaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'1')">
+            <reamax>2</reamax>
+            <reaaug>6</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'2')">
+            <reamax>3</reamax>
+            <reaaug>7</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'3')">
+            <reamax>4</reamax>
+            <reaaug>8</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'4')">
+            <reamax>5</reamax>
+            <reaaug>9</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'5')">
+            <reamax>6</reamax>
+            <reaaug>10</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'6')">
+            <reamax>7</reamax>
+            <reaaug>11</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'7')">
+            <reamax>8</reamax>
+            <reaaug>12</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'8')">
+            <reamax>9</reamax>
+            <reaaug>13</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'9')">
+            <reamax>10</reamax>
+            <reaaug>14</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'10')">
+            <reamax>11</reamax>
+            <reaaug>15</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'11')">
+            <reamax>12</reamax>
+            <reaaug>16</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(reamin,'12')">
+            <reamax>13</reamax>
+            <reaaug>17</reaaug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'1')">
+            <strmax>2</strmax>
+            <straug>6</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'2')">
+            <strmax>3</strmax>
+            <straug>7</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'3')">
+            <strmax>4</strmax>
+            <straug>8</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'4')">
+            <strmax>5</strmax>
+            <straug>9</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'5')">
+            <strmax>6</strmax>
+            <straug>10</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'6')">
+            <strmax>7</strmax>
+            <straug>11</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'7')">
+            <strmax>8</strmax>
+            <straug>12</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'8')">
+            <strmax>9</strmax>
+            <straug>13</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'9')">
+            <strmax>10</strmax>
+            <straug>14</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'10')">
+            <strmax>11</strmax>
+            <straug>15</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'11')">
+            <strmax>12</strmax>
+            <straug>16</straug>
+        </metatype>
+        <metatype xpathfilter="contains(strmin,'12')">
+            <strmax>13</strmax>
+            <straug>17</straug>
+        </metatype>
+		<metatype xpathfilter="contains(strmin,'13')">
+            <strmax>14</strmax>
+            <straug>18</straug>
+        </metatype>
+		<metatype xpathfilter="contains(strmin,'16')">
+            <strmax>17</strmax>
+            <straug>21</straug>
+        </metatype>
+		<metatype xpathfilter="contains(strmin,'18')">
+            <strmax>19</strmax>
+            <straug>23</straug>
+        </metatype>
+		<metatype xpathfilter="contains(strmin,'30')">
+            <strmax>31</strmax>
+            <straug>35</straug>
+        </metatype>
+		<metatype xpathfilter="contains(strmin,'35')">
+            <strmax>36</strmax>
+            <straug>40</straug>
+        </metatype>
+		<metatype xpathfilter="contains(strmin,'40')">
+            <strmax>41</strmax>
+            <straug>45</straug>
+        </metatype>
+		<metatype xpathfilter="contains(strmin,'42')">
+            <strmax>43</strmax>
+            <straug>47</straug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'1')">
+            <chamax>2</chamax>
+            <chaaug>6</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'2')">
+            <chamax>3</chamax>
+            <chaaug>7</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'3')">
+            <chamax>4</chamax>
+            <chaaug>8</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'4')">
+            <chamax>5</chamax>
+            <chaaug>9</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'5')">
+            <chamax>6</chamax>
+            <chaaug>10</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'6')">
+            <chamax>7</chamax>
+            <chaaug>11</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'7')">
+            <chamax>8</chamax>
+            <chaaug>12</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'8')">
+            <chamax>9</chamax>
+            <chaaug>13</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'9')">
+            <chamax>10</chamax>
+            <chaaug>14</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'10')">
+            <chamax>11</chamax>
+            <chaaug>15</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'11')">
+            <chamax>12</chamax>
+            <chaaug>16</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(chamin,'12')">
+            <chamax>13</chamax>
+            <chaaug>17</chaaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'1')">
+            <intmax>2</intmax>
+            <intaug>6</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'2')">
+            <intmax>3</intmax>
+            <intaug>7</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'3')">
+            <intmax>4</intmax>
+            <intaug>8</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'4')">
+            <intmax>5</intmax>
+            <intaug>9</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'5')">
+            <intmax>6</intmax>
+            <intaug>10</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'6')">
+            <intmax>7</intmax>
+            <intaug>11</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'7')">
+            <intmax>8</intmax>
+            <intaug>12</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'8')">
+            <intmax>9</intmax>
+            <intaug>13</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'9')">
+            <intmax>10</intmax>
+            <intaug>14</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'10')">
+            <intmax>11</intmax>
+            <intaug>15</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'11')">
+            <intmax>12</intmax>
+            <intaug>16</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(intmin,'12')">
+            <intmax>13</intmax>
+            <intaug>17</intaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'1')">
+            <logmax>2</logmax>
+            <logaug>6</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'2')">
+            <logmax>3</logmax>
+            <logaug>7</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'3')">
+            <logmax>4</logmax>
+            <logaug>8</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'4')">
+            <logmax>5</logmax>
+            <logaug>9</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'5')">
+            <logmax>6</logmax>
+            <logaug>10</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'6')">
+            <logmax>7</logmax>
+            <logaug>11</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'7')">
+            <logmax>8</logmax>
+            <logaug>12</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'8')">
+            <logmax>9</logmax>
+            <logaug>13</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'9')">
+            <logmax>10</logmax>
+            <logaug>14</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'10')">
+            <logmax>11</logmax>
+            <logaug>15</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'11')">
+            <logmax>12</logmax>
+            <logaug>16</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(logmin,'12')">
+            <logmax>13</logmax>
+            <logaug>17</logaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'1')">
+            <wilmax>2</wilmax>
+            <wilaug>6</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'2')">
+            <wilmax>3</wilmax>
+            <wilaug>7</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'3')">
+            <wilmax>4</wilmax>
+            <wilaug>8</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'4')">
+            <wilmax>5</wilmax>
+            <wilaug>9</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'5')">
+            <wilmax>6</wilmax>
+            <wilaug>10</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'6')">
+            <wilmax>7</wilmax>
+            <wilaug>11</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'7')">
+            <wilmax>8</wilmax>
+            <wilaug>12</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'8')">
+            <wilmax>9</wilmax>
+            <wilaug>13</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'9')">
+            <wilmax>10</wilmax>
+            <wilaug>14</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'10')">
+            <wilmax>11</wilmax>
+            <wilaug>15</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'11')">
+            <wilmax>12</wilmax>
+            <wilaug>16</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(wilmin,'12')">
+            <wilmax>13</wilmax>
+            <wilaug>17</wilaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'1')">
+            <edgmax>2</edgmax>
+            <edgaug>6</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'2')">
+            <edgmax>3</edgmax>
+            <edgaug>7</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'3')">
+            <edgmax>4</edgmax>
+            <edgaug>8</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'4')">
+            <edgmax>5</edgmax>
+            <edgaug>9</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'5')">
+            <edgmax>6</edgmax>
+            <edgaug>10</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'6')">
+            <edgmax>7</edgmax>
+            <edgaug>11</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'7')">
+            <edgmax>8</edgmax>
+            <edgaug>12</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'8')">
+            <edgmax>9</edgmax>
+            <edgaug>13</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'9')">
+            <edgmax>10</edgmax>
+            <edgaug>14</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'10')">
+            <edgmax>11</edgmax>
+            <edgaug>15</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'11')">
+            <edgmax>12</edgmax>
+            <edgaug>16</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(edgmin,'12')">
+            <edgmax>13</edgmax>
+            <edgaug>17</edgaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'1')">
+            <magmax>2</magmax>
+            <magaug>6</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'2')">
+            <magmax>3</magmax>
+            <magaug>7</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'3')">
+            <magmax>4</magmax>
+            <magaug>8</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'4')">
+            <magmax>5</magmax>
+            <magaug>9</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'5')">
+            <magmax>6</magmax>
+            <magaug>10</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'6')">
+            <magmax>7</magmax>
+            <magaug>11</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'7')">
+            <magmax>8</magmax>
+            <magaug>12</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'8')">
+            <magmax>9</magmax>
+            <magaug>13</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'9')">
+            <magmax>10</magmax>
+            <magaug>14</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'10')">
+            <magmax>11</magmax>
+            <magaug>15</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'11')">
+            <magmax>12</magmax>
+            <magaug>16</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(magmin,'12')">
+            <magmax>13</magmax>
+            <magaug>17</magaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'1')">
+            <resmax>2</resmax>
+            <resaug>6</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'2')">
+            <resmax>3</resmax>
+            <resaug>7</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'3')">
+            <resmax>4</resmax>
+            <resaug>8</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'4')">
+            <resmax>5</resmax>
+            <resaug>9</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'5')">
+            <resmax>6</resmax>
+            <resaug>10</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'6')">
+            <resmax>7</resmax>
+            <resaug>11</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'7')">
+            <resmax>8</resmax>
+            <resaug>12</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'8')">
+            <resmax>9</resmax>
+            <resaug>13</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'9')">
+            <resmax>10</resmax>
+            <resaug>14</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'10')">
+            <resmax>11</resmax>
+            <resaug>15</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'11')">
+            <resmax>12</resmax>
+            <resaug>16</resaug>
+        </metatype>
+        <metatype xpathfilter="contains(resmin,'12')">
+            <resmax>13</resmax>
+            <resaug>17</resaug>
+        </metatype>
 	</metatypes>
 </chummer>
