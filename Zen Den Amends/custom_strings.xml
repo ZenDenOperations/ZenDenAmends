@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--This file is part of Chummer5a.
 
     Chummer5a is free software: you can redistribute it and/or modify
@@ -18,14 +18,13 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-  <metamagics>
-    <metamagic>
-      <id>bb1431df-c546-4799-8dd4-ec42125f1a47</id>
-      <name>Anchoring</name>
-      <adept>False</adept>
-      <magician>True</magician>
-      <source>SG</source>
-      <page>152</page>
-   </metamagic>
-  </metamagics>
+	<materials>
+		<material>Air</material>
+		<material>Earth</material>
+		<material>Fire</material>
+		<material>Water</material>
+		<material>Metal</material>
+		<material>Plastic</material>
+		<material>Wood</material>
+	</materials>
 </chummer>
