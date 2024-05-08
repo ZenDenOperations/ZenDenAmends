@@ -18,22 +18,13 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-	<materials>
-		<material>Air</material>
-		<material>Earth</material>
-		<material>Fire</material>
-		<material>Water</material>
-		<material>Metal</material>
-		<material>Plastic</material>
-		<material>Wood</material>
-	</materials>
 	<spells>
-		<spell>
-			<name>Shape [Material]</name>
-			<bonus>
-				<selecttext xml="spells.xml" xpath="/chummer/materials/material" allowedit="False" />
-			</bonus>
-		</spell>
+	<spell>
+      <name>Shape [Material]</name>
+      <bonus amendoperation="replace">
+        <selecttext xml="strings.xml" xpath="/chummer/materials/material" />
+      </bonus>
+    </spell>
 		<spell>
 			<name>Convert Blood to Ichor</name>
 			<hide />
@@ -62,19 +53,21 @@
 			<id>02b38262-db06-4698-b4b2-7a9e7f2452a9</id>
 			<hide />
 		</spell>
-		<name>Radiation Beam</name>
-		<hide />
-	</spell>
-	<spell>
-		<name>Radiation Burst</name>
-		<hide />
-	</spell>
-	<spell>
-		<name>Pollutant Stream</name>
-		<hide />
-	</spell>
-	<spell>
-		<name>Pollutant Wave</name>
-		<hide />
-	</spell>
-</spells>undefined</chummer>
+		<spell>
+			<name>Radiation Beam</name>
+			<hide />
+		</spell>
+		<spell>
+			<name>Radiation Burst</name>
+			<hide />
+		</spell>
+		<spell>
+			<name>Pollutant Stream</name>
+			<hide />
+		</spell>
+		<spell>
+			<name>Pollutant Wave</name>
+			<hide />
+		</spell>
+	</spells>
+</chummer>
