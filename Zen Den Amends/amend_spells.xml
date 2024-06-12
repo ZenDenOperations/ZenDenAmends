@@ -19,15 +19,15 @@
 -->
 <chummer>
 	<spells>
+	<spell>
+      <name>Shape [Material]</name>
+      <bonus amendoperation="replace">
+        <selecttext xml="strings.xml" xpath="/chummer/materials/material" />
+      </bonus>
+    </spell>
 		<spell>
 			<name>Manablade</name>
 			<hide />
-		</spell>
-		<spell>
-			<name>Shape [Material]</name>
-			<bonus amendoperation="replace">
-				<selecttext xml="strings.xml" xpath="/chummer/materials/material" />
-			</bonus>
 		</spell>
 		<spell>
 			<name>Convert Blood to Ichor</name>
