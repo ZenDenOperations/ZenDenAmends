@@ -7546,9 +7546,6 @@
 			<doublecareer>False</doublecareer>
 			<source>SR5</source>
 			<page>0</page>
-			<bonus>
-				<improvementttype>Metamagic</improvementttype>
-			</bonus>
 			<required>
 				<allof>
 					<attribute>
