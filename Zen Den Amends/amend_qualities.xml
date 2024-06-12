@@ -1,37 +1,40 @@
 <chummer>
 	<qualities>
-	<quality>
-      <name>Cyber-snob</name>
-	  <karma>-6</karma>
-      <bonus amendoperation="replace">
-        <disablebiowaregrade>Standard</disablebiowaregrade>
-        <disablebiowaregrade>Standard (Burnout's Way)</disablebiowaregrade>
-        <disablebiowaregrade>Used</disablebiowaregrade>
-        <disablebiowaregrade>Omegaware</disablebiowaregrade>
-        <disablecyberwaregrade>Standard</disablecyberwaregrade>
-        <disablecyberwaregrade>Standard (Burnout's Way)</disablecyberwaregrade>
-        <disablecyberwaregrade>Used</disablecyberwaregrade>
-        <disablecyberwaregrade>Omegaware</disablecyberwaregrade>
-        <disablecyberwaregrade>Greyware</disablecyberwaregrade>
-        <disablecyberwaregrade>Standard (Adapsin)</disablecyberwaregrade>
-        <disablecyberwaregrade>Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
-        <disablecyberwaregrade>Used (Adapsin)</disablecyberwaregrade>
-        <disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
-        <disablecyberwaregrade>Greyware (Adapsin)</disablecyberwaregrade>
-      </bonus>
-	  <forbidden>
-        <oneof>
-          <metatype>Pixie</metatype>
-        </oneof>
-      </forbidden>
-	  <required>
-        <oneof>
-          <ess grade="Alphaware,Betaware,Deltaware,Gammaware">1</ess>
-        </oneof>
-      </required>
-      <source>CF</source>
-      <page>57</page>
-    </quality>
+		<quality xpathfilter="contains(name,'Rank (')">
+			<hide />
+		</quality>
+		<quality>
+			<name>Cyber-snob</name>
+			<karma>-6</karma>
+			<bonus amendoperation="replace">
+				<disablebiowaregrade>Standard</disablebiowaregrade>
+				<disablebiowaregrade>Standard (Burnout's Way)</disablebiowaregrade>
+				<disablebiowaregrade>Used</disablebiowaregrade>
+				<disablebiowaregrade>Omegaware</disablebiowaregrade>
+				<disablecyberwaregrade>Standard</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Burnout's Way)</disablecyberwaregrade>
+				<disablecyberwaregrade>Used</disablecyberwaregrade>
+				<disablecyberwaregrade>Omegaware</disablecyberwaregrade>
+				<disablecyberwaregrade>Greyware</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Used (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Greyware (Adapsin)</disablecyberwaregrade>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<metatype>Pixie</metatype>
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<ess grade="Alphaware,Betaware,Deltaware,Gammaware">1</ess>
+				</oneof>
+			</required>
+			<source>CF</source>
+			<page>57</page>
+		</quality>
 		<quality>
 			<!-- Code of Honor: Black Hat -->
 			<name>Code of Honor: Black Hat</name>
@@ -115,32 +118,32 @@
 			<id>e00623e1-54b0-4a91-b234-3c7e141deef4</id>
 			<karma>-5</karma>
 			<bonus>
-		  	  <lifestylecost>10</lifestylecost>
-		    </bonus>
+				<lifestylecost>10</lifestylecost>
+			</bonus>
 		</quality>
 		<quality>
 			<!-- SINner (National) -->
 			<id>9ac85feb-ae1e-4996-8514-3570d411e1d5</id>
 			<karma>-5</karma>
 			<bonus>
-		  	  <lifestylecost>15</lifestylecost>
-		    </bonus>
+				<lifestylecost>15</lifestylecost>
+			</bonus>
 		</quality>
 		<quality>
 			<!-- SINner (Corporate Limited) -->
 			<id>318d2edd-833b-48c5-a3e1-343bf03848a5</id>
 			<karma>-10</karma>
 			<bonus>
-		  	  <lifestylecost>20</lifestylecost>
-		    </bonus>
+				<lifestylecost>20</lifestylecost>
+			</bonus>
 		</quality>
 		<quality>
 			<!-- SINner (Criminal) -->
 			<id>d9479e5c-d44a-45b9-8fb4-d1e08a9487b2</id>
 			<karma>-10</karma>
 			<bonus>
-		  	  <lifestylecost>15</lifestylecost>
-		    </bonus>
+				<lifestylecost>15</lifestylecost>
+			</bonus>
 		</quality>
 		<quality>
 			<!-- Ex-Con -->
@@ -183,16 +186,16 @@
 			<karma>-6</karma>
 		</quality>
 		<quality>
-		  <name>Hi-Rez</name>
-		  <karma>4</karma>
-		  <required amendoperation="replace">
-			<oneof>
-			  <quality>Technomancer</quality>
-			  <quality>Reverberant</quality>
-			</oneof>
-		  </required>
-		  <source>BTB</source>
-		  <page>160</page>
+			<name>Hi-Rez</name>
+			<karma>4</karma>
+			<required amendoperation="replace">
+				<oneof>
+					<quality>Technomancer</quality>
+					<quality>Reverberant</quality>
+				</oneof>
+			</required>
+			<source>BTB</source>
+			<page>160</page>
 		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
@@ -469,7 +472,7 @@
 			<!-- Echo Chamber -->
 			<name>Echo Chamber</name>
 			<karma>10</karma>
-    		<category>Positive</category>
+			<category>Positive</category>
 			<notes>When Matrix Searching, the character benefits from a +2 dice pool bonus, but the number of rolls needed to get a glitch is decreased by 1.</notes>
 		</quality>
 		<quality>
@@ -742,13 +745,13 @@
 			<hide />
 		</quality>
 		<quality>
-		  <name>Infected Optional Power: Mist Form</name>
-		  <required>
-			<oneof>
-			  <quality>Infected: Banshee</quality>
-			  <quality>Infected: Vampire</quality>
-			</oneof>
-		  </required>
+			<name>Infected Optional Power: Mist Form</name>
+			<required>
+				<oneof>
+					<quality>Infected: Banshee</quality>
+					<quality>Infected: Vampire</quality>
+				</oneof>
+			</required>
 		</quality>
 		<quality>
 			<!-- Infected Optional Power: Armor -->
@@ -932,16 +935,8 @@
 			<limit amendoperation="replace">True</limit>
 		</quality>
 		<!-- End Region -->
-
-    	  
-
 		<!-- Biocomp Test
-		<quality>
-			<name>Biocompatibility (Bioware)</name>
-			<bonus>
-    			<genetechessmultiplier>90</genetechessmultiplier>
-    		</bonus>
-		</quality>
+		<quality><name>Biocompatibility (Bioware)</name><bonus><genetechessmultiplier>90</genetechessmultiplier></bonus></quality>
 		 -->
 	</qualities>
 </chummer>
