@@ -6957,9 +6957,10 @@
 		<!-- Adds the new metagenic qualities -->
 		<quality>
 			<id>3ee0c24d-2a07-4a9f-9238-4afef9ea1c2c</id>
-			<name>‘Ware Intolerance (Metagenetic)</name>
+			<name>'Ware Intolerance (Metagenetic)</name>
 			<karma>-15</karma>
 			<category>Negative</category>
+			<metagenic>True</metagenic>
 			<bonus>
 				<biowareessmultiplier>120</biowareessmultiplier>
 				<cyberwareessmultiplier>120</cyberwareessmultiplier>
@@ -7504,7 +7505,7 @@
 		</quality>
 		<quality>
 			<id>1d427927-4a93-4fe8-a83b-612fd753db1d</id>
-			<name>Minor cosmetic Feature</name>
+			<name>Minor Cosmetic Feature</name>
 			<karma>1</karma>
 			<category>Positive</category>
 			<metagenic>True</metagenic>

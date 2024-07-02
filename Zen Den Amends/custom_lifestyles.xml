@@ -27,7 +27,7 @@
   <qualities>
     <quality>
       <id>e1734ee0-9b02-421b-b62c-6fb3c9b4c084</id>
-      <name>Street Stables</name>
+      <name>Stables (Street)</name>
       <category>Stables</category>
       <lp>1</lp>
       <allowed>Street,Squatter,Low,Medium,High,Luxury</allowed>
@@ -40,7 +40,7 @@
     </quality>
     <quality>
       <id>28b7001a-f2d9-4758-a1a0-54f22ff5a210</id>
-      <name>Squatter Stables</name>
+      <name>Stables (Squatter)</name>
       <category>Stables</category>
       <lp>1</lp>
       <allowed>Squatter,Low,Medium,High,Luxury</allowed>
@@ -53,7 +53,7 @@
     </quality>
     <quality>
       <id>1a1c69ec-20a6-42e6-b84e-760f2d7f69ec</id>
-      <name>Low Stables</name>
+      <name>Stables (Low)</name>
       <category>Stables</category>
       <lp>1</lp>
       <allowed>Low,Medium,High,Luxury</allowed>
@@ -66,7 +66,7 @@
     </quality>
     <quality>
       <id>1d1236b8-63b1-48c2-8c3a-d16266b97eff</id>
-      <name>Medium Stables</name>
+      <name>Stables (Medium)</name>
       <category>Stables</category>
       <lp>1</lp>
       <allowed>Medium,High,Luxury</allowed>
@@ -79,7 +79,7 @@
     </quality>
     <quality>
       <id>f4aa30b2-71f1-4805-a421-11d330114731</id>
-      <name>High Stables</name>
+      <name>Stables (High)</name>
       <category>Stables</category>
       <lp>1</lp>
       <allowed>High,Luxury</allowed>
@@ -92,7 +92,7 @@
     </quality>
     <quality>
       <id>1e84980c-7d00-4669-9dc8-771a47d2ab7c</id>
-      <name>Luxury Stables</name>
+      <name>Stables (Luxury)</name>
       <category>Stables</category>
       <lp>1</lp>
       <allowed>Luxury</allowed>
@@ -105,7 +105,7 @@
     </quality>
     <quality>
       <id>0eb2a3ae-f74d-4133-b2a1-45578d268c7f</id>
-      <name>Specialized Stables</name>
+      <name>Stables (Specialized)</name>
       <category>Stables</category>
       <lp>1</lp>
       <bonus>

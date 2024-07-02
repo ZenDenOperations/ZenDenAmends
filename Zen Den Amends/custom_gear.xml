@@ -20,8 +20,1069 @@
 <chummer>
 	<categories>
 		<category>Future Tech</category>
+		<category blackmarket="Ammunition">Ammunition (Hand Load)</category>
 	</categories>
 	<gears>
+	<!-- Gear versions of the handloaded ammo -->
+    <gear>
+      <id>ab0fd3be-3554-461d-bd18-a2f2ab29a8af</id>
+      <name>Ammo: Regular Ammo (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>22</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>e124d506-8fba-4fd9-a0c4-aca9dcf42853</id>
+      <name>Ammo: Regular Ammo (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>22</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>264a8818-712a-4389-8c65-f91a8de31e96</id>
+      <name>Ammo: APDS (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>12F</avail>
+      <cost>132</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <ap>-4</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>64acaf87-9ad4-4be1-a71c-812a67486ba8</id>
+      <name>Ammo: APDS (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>12F</avail>
+      <cost>132</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-6</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>d89e0be7-4623-4d95-9ad5-431f4e6e8063</id>
+      <name>Ammo: AV Rounds (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>14R</avail>
+      <cost>192.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <ap>-1</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>85c3b131-3bd2-4a08-87cc-1832ae915bab</id>
+      <name>Ammo: AV Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>14R</avail>
+      <cost>192.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-3</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>47eb7bdc-582b-4354-a3c8-2c12f071d64a</id>
+      <name>Ammo: Capsule Round (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>2</avail>
+      <addoncategory>Drugs</addoncategory>
+      <addoncategory>Toxins</addoncategory>
+      <addoncategory>Custom</addoncategory>
+      <cost>5.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>4</ap>
+        <damage>-3</damage>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>cd74664d-0cba-4cf1-abd0-b0680f7f37b6</id>
+      <name>Ammo: Capsule Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>2</avail>
+      <addoncategory>Drugs</addoncategory>
+      <addoncategory>Toxins</addoncategory>
+      <addoncategory>Custom</addoncategory>
+      <cost>5.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>2</ap>
+        <damage>-4</damage>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>0078a793-ee94-4489-a24d-8250d03cf2ad</id>
+      <name>Ammo: Depleted Uranium (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>28F</avail>
+      <cost>1100</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-5</ap>
+        <damage>2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>d6e79871-ca87-42da-85a7-6de02a382489</id>
+      <name>Ammo: Depleted Uranium (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>28F</avail>
+      <cost>1100</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-7</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>ef13ad36-bc90-495f-90fc-66a8b9281a18</id>
+      <name>Ammo: E0-E0 Rifle (Local Grid) (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>66</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-3</damage>
+        <ap>-4</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b3053eb8-0bfc-4540-8712-7f4bb1703609</id>
+      <name>Ammo: E0-E0 Rifle (Local Grid) (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>66</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-4</damage>
+        <ap>-6</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>8b397fee-ce24-4959-afa7-1f06a872eff4</id>
+      <name>Ammo: E0-E0 Rifle (Megacorporate Grid) (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>66</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-3</damage>
+        <ap>-4</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>4ba870d2-0bd1-419f-ad50-ea65430c59b3</id>
+      <name>Ammo: E0-E0 Rifle (Megacorporate Grid) (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>66</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-4</damage>
+        <ap>-6</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>c111b4cf-6f69-45c0-b7ca-48deea92a6a7</id>
+      <name>Ammo: E0-E0 Rifle (Public Grid) (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>66</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-3</damage>
+        <ap>-4</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>bb7de57c-0f14-4078-8ad2-4da453da7841</id>
+      <name>Ammo: E0-E0 Rifle (Public Grid) (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KC</source>
+      <page>51</page>
+      <avail>5R</avail>
+      <cost>66</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-4</damage>
+        <ap>-6</ap>
+        <damagetype>(M)</damagetype>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>42a95bfe-f172-4528-8836-8297f7b73fec</id>
+      <name>Ammo: EX-Explosive Rounds (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>54</page>
+      <avail>14F</avail>
+      <cost>132</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>3</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>849c2863-8f13-4ae2-9e41-383720bd4d76</id>
+      <name>Ammo: EX-Explosive Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>54</page>
+      <avail>14F</avail>
+      <cost>132</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-3</ap>
+        <damage>2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>17649915-5366-40a7-be6d-e9bf707d53ad</id>
+      <name>Ammo: Explosive Rounds (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>9F</avail>
+      <cost>88</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>49ca46cf-505e-4178-9334-34ed649e38e5</id>
+      <name>Ammo: Explosive Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>9F</avail>
+      <cost>88</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-3</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b1f5e9b7-769b-4466-9168-26f348a859db</id>
+      <name>Ammo: Flare Rounds (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>6R</avail>
+      <cost>22</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>2</ap>
+        <damage>-1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>47bd70ed-d2b5-4a3c-b440-5b98700672a3</id>
+      <name>Ammo: Flare Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>6R</avail>
+      <cost>22</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>-2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>6af1f4ff-0c64-457a-8665-ded409814e2c</id>
+      <name>Ammo: Flechette Rounds (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>71.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>5</ap>
+        <damage>3</damage>
+        <damagetype>P(f)</damagetype>
+      </weaponbonus>
+      <isflechetteammo>True</isflechetteammo>
+      <flechetteweaponbonus>
+        <damagetype>P(f)</damagetype>
+      </flechetteweaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>703ac234-e7f6-4798-b55c-a7f115f2a9a8</id>
+      <name>Ammo: Flechette Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>71.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>3</ap>
+        <damage>2</damage>
+        <damagetype>P(f)</damagetype>
+      </weaponbonus>
+      <isflechetteammo>True</isflechetteammo>
+      <flechetteweaponbonus>
+        <damagetype>P(f)</damagetype>
+      </flechetteweaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>15bed6e3-c4be-4bca-b9ef-ce4af4c35f80</id>
+      <name>Ammo: Frangible Rounds (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>54</page>
+      <avail>2R</avail>
+      <cost>11</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>4</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>17c014e4-e036-4ae5-9187-ae3c750a34ee</id>
+      <name>Ammo: Frangible Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>54</page>
+      <avail>2R</avail>
+      <cost>11</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>2</ap>
+        <damage>-1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>6edb7911-d41f-4e32-b3b0-0fb20eca4c2f</id>
+      <name>Ammo: Fuzzy (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>2</rating>
+      <source>KC</source>
+      <page>50</page>
+      <avail>FixedValues(10R,12R)</avail>
+      <cost>FixedValues(33,55)</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>60e8093f-bfb0-4a3c-9eec-dfa0b8a20ed2</id>
+      <name>Ammo: Fuzzy (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>2</rating>
+      <source>KC</source>
+      <page>50</page>
+      <avail>FixedValues(10R,12R)</avail>
+      <cost>FixedValues(33,55)</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>00d563ac-b3b2-4e1f-b3f2-34262da2e11b</id>
+      <name>Ammo: Gel Rounds (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>27.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <ap>1</ap>
+        <damagetype>S</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>f0e40865-f637-4e57-a121-1d2bbe432127</id>
+      <name>Ammo: Gel Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>27.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-1</ap>
+        <damagetype>S</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>6344b26b-40aa-498c-9008-2b5c4041289e</id>
+      <name>Ammo: Gyrojet (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>27</page>
+      <avail>14R</avail>
+      <cost>176</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-5</ap>
+        <damage>-1</damage>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>f978a9b8-3903-4bb4-8725-144fd7027fd6</id>
+      <name>Ammo: Gyrojet (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>27</page>
+      <avail>14R</avail>
+      <cost>176</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-7</ap>
+        <damage>-2</damage>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gyrojet</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>e130e90f-084d-43af-86b8-75257ddfeb97</id>
+      <name>Ammo: Hi-De Rounds (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>10F</avail>
+      <cost>165</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>c8bfe7d3-918c-4d11-b9a9-fdda8cdf6d4d</id>
+      <name>Ammo: Hi-De Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>10F</avail>
+      <cost>165</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>f125b175-edf2-4c72-be6c-43760006cd03</id>
+      <name>Ammo: Hollow Points (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>4F</avail>
+      <cost>77</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>2</ap>
+        <damage>2</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>79bf586f-c187-4a48-8b28-e2f317d3b756</id>
+      <name>Ammo: Hollow Points (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>4F</avail>
+      <cost>77</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>c8007b27-51e6-45af-839f-243e87bd8d5d</id>
+      <name>Ammo: Krime Laser Bullets (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>6R</avail>
+      <cost>137.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>10f77ce4-808d-42de-b799-8e9320209814</id>
+      <name>Ammo: Krime Laser Bullets (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>6R</avail>
+      <cost>137.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>01c8df2b-ba96-4a6d-9932-c98b281a7880</id>
+      <name>Ammo: Krime Penetrator Buckshot Shells (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>16F</avail>
+      <cost>275</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>183fa218-dbce-476d-80f1-4a7f3153a579</id>
+      <name>Ammo: Krime Penetrator Buckshot Shells (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>16F</avail>
+      <cost>275</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-4</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>d5ea83f1-60fb-4707-afb0-61c8225f8e5d</id>
+      <name>Ammo: Krime Power Rounds (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>3R</avail>
+      <cost>82.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>a4041541-a005-4e44-8315-710b30b4295b</id>
+      <name>Ammo: Krime Power Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>KK</source>
+      <page>24</page>
+      <avail>3R</avail>
+      <cost>82.5</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>610d392a-14cc-4c91-81da-fc37fb0b4842</id>
+      <name>Ammo: Looper (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>6</rating>
+      <source>KC</source>
+      <page>49</page>
+      <avail>FixedValues(7R,8R,9R,10R,11R,12R)</avail>
+      <cost>FixedValues(22,33,44,55,110,220)</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>4241aa4e-7dc4-4b76-8c42-424bae7c000f</id>
+      <name>Ammo: Looper (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>6</rating>
+      <source>KC</source>
+      <page>49</page>
+      <avail>FixedValues(7R,8R,9R,10R,11R,12R)</avail>
+      <cost>FixedValues(22,33,44,55,110,220)</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+        <userange>Light Pistol</userange>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>a8241c02-3442-4467-8862-c0202e2fe1fd</id>
+      <name>Ammo: Renraku/Ingram Supermach (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SL</source>
+      <page>132</page>
+      <avail>16F</avail>
+      <cost>22</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>supermach</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>2cf08788-4990-4c7e-9375-e0b28ba5a635</id>
+      <name>Ammo: Renraku/Ingram Supermach (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SL</source>
+      <page>132</page>
+      <avail>16F</avail>
+      <cost>22</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>supermach</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>d6628c74-660f-458e-adc2-e6224b3421fb</id>
+      <name>Ammo: Silver (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>12R</avail>
+      <cost>275</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+        <ap>2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>a7d5a5f9-0df3-4213-baf9-006c982136fa</id>
+      <name>Ammo: Silver (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>12R</avail>
+      <cost>275</cost>
+      <costfor>10</costfor>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>4a62aaa0-da68-4b43-98a6-05d21bc57069</id>
+      <name>Ammo: Stick-n-Shock (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>88</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-5</apreplace>
+        <damage>-1</damage>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>2de0c263-6017-4e5b-967a-04c81b837e0c</id>
+      <name>Ammo: Stick-n-Shock (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>88</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-7</apreplace>
+        <damage>-2</damage>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>c69fef9c-cbc4-48d6-bdea-6dd05062e4c7</id>
+      <name>Ammo: Stick-n-Shock Flechette Rounds (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>TSG</source>
+      <page>29</page>
+      <avail>6R</avail>
+      <cost>121</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <isflechetteammo>True</isflechetteammo>
+      <flechetteweaponbonus>
+        <ap>-5</ap>
+        <damage>-1</damage>
+        <damagetype>S(e)</damagetype>
+      </flechetteweaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>b0e18707-0884-40af-9cd3-1ecb73611a96</id>
+      <name>Ammo: Stick-n-Shock Flechette Rounds (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>TSG</source>
+      <page>29</page>
+      <avail>6R</avail>
+      <cost>121</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <isflechetteammo>True</isflechetteammo>
+      <flechetteweaponbonus>
+        <ap>-7</ap>
+        <damage>-2</damage>
+        <damagetype>S(e)</damagetype>
+      </flechetteweaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>db142c72-8b55-4368-b571-618165749ec3</id>
+      <name>Ammo: Subsonic (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>8F</avail>
+      <cost>44</cost>
+      <costfor>10</costfor>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>bcf155b0-1f3b-48dc-ac50-3c7c3b245383</id>
+      <name>Ammo: Subsonic (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>8F</avail>
+      <cost>44</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+        <damage>-1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>712be197-0a29-47c6-acc4-40810eb9a3b7</id>
+      <name>Ammo: Taurus Omni-6 Heavy (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>22</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-1</apreplace>
+        <damagereplace>8P</damagereplace>
+        <modereplace>SS</modereplace>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>635a2aa3-d814-4a30-bfac-dbc7ce4f546a</id>
+      <name>Ammo: Taurus Omni-6 Heavy (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>2R</avail>
+      <cost>22</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <apreplace>-3</apreplace>
+        <damagereplace>7P</damagereplace>
+        <modereplace>SS</modereplace>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>9a6ae961-611e-46f8-a1c4-9f5b1f91abfd</id>
+      <name>Ammo: Tracer (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>66</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>d3d643b8-0608-4690-853f-ad09c90d16e9</id>
+      <name>Ammo: Tracer (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>434</page>
+      <avail>6R</avail>
+      <cost>66</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>583e4c8d-f6d8-4fcf-95f4-bc411c0d8eeb</id>
+      <name>Ammo: Tracker Rounds, Security Tag (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>8R</avail>
+      <cost>165</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>cb1c8d8d-88bf-42ea-a507-e2da3ee27377</id>
+      <name>Ammo: Tracker Rounds, Security Tag (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>8R</avail>
+      <cost>165</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>19c808cb-591e-4350-862f-ba5ec6a48584</id>
+      <name>Ammo: Tracker Rounds, Stealth Tag (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>8R</avail>
+      <cost>165</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <damage>1</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>2d78218f-d795-41e3-aa01-89e6765e8889</id>
+      <name>Ammo: Tracker Rounds, Stealth Tag (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>RG</source>
+      <page>55</page>
+      <avail>8R</avail>
+      <cost>165</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>-2</ap>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>be2d8679-3a80-4377-9533-7c775b2f7e27</id>
+      <name>Ammo: Wood Pulp (Hand Load: Damage)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>6R</avail>
+      <cost>11</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>4</ap>
+        <damage>-3</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+    <gear>
+      <id>0cd6b8de-dfdd-4b1c-961f-eebb1b5194e1</id>
+      <name>Ammo: Wood Pulp (Hand Load: AP)</name>
+      <category>Ammunition (Hand Load)</category>
+      <rating>0</rating>
+      <source>HT</source>
+      <page>189</page>
+      <avail>6R</avail>
+      <cost>11</cost>
+      <costfor>10</costfor>
+      <weaponbonus>
+        <ap>2</ap>
+        <damage>-4</damage>
+      </weaponbonus>
+      <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+	<!-- More Ammo Stuff -->
 		<gear>
 			<id>06272a4e-0583-4fcf-b0f3-61f5ce9922e7</id>
 			<name>Ammo: APDS (Assault Cannon)</name>

@@ -41,6 +41,18 @@
       <id>b5b9cd7e-dbb3-42e9-abcd-f805f6a4b10e</id>
       <cost>Rating * (number(Body = 0) * 500 + Body * 1000)</cost>
     </mod>
+    <mod> <!-- Duplicate Chameleon Coating -->
+      <id>6a8805ee-2e3b-4010-8671-c196a1c44b51</id>
+      <hide />
+    </mod>
+    <mod> <!-- Duplicate Morphing License Plate -->
+      <id>290ca406-2bd8-496a-9c1e-2b46eb7df4f8</id>
+      <hide />
+    </mod>
+    <mod> <!-- Duplicate Spoof Chips -->
+      <id>d36e13b2-205a-48b6-b423-64a272df3eab</id>
+      <hide />
+    </mod>
   </mods>
   <vehicles>
     <vehicle> <!--Krime runner fix-->
