@@ -1131,6 +1131,12 @@
 			<page>1</page>
 			<notes>These wings transform an individual’s arms into gliders(similar to a sugar glider). They work in a similar way as the URBAN EXPLORER DAEDALUS wingsuit and are compatible with armor, as long as the armor has been adjusted(10% price increase). While flying, any other physical action besides flight and/or gymnastics, receive a negative 2 dice modifier (including the use of magic). The gliders can not be used while a full chemseal is active without breaking it.
 			</notes>
+			<forbidden>
+				<oneof>
+					<quality>Wings 2 (functional)</quality>
+					<quality>Wings 3 (Magical Flight)</quality>
+				</oneof>
+			</forbidden>
 		</quality>
 		<quality>
 			<id>131c05eb-3925-4e0b-95d6-a022b902b33f</id>
@@ -1142,6 +1148,49 @@
 			<page>1</page>
 			<notes>You grow 2 functional wings on your back, giving you a flying speed of 2x/4x/+3m. The wings can fold in and be hidden under thick clothing(although still visible, if for example under a t-shirt). This is rather taxing for your body as doing so requires a lighter body. Your bones will become hollow like a bird and make you  suffer a -1 dice pool modifier to all physical Damage Resistance tests. These wings also act as claws with a Damage of (S+2)P -2 AP. Using these wings together with armor requires a refit (such as putting in flaps), which costs 20% of the base price. The wings can not be used while a full chemseal is active without breaking it.
 			</notes>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+			<naturalweapons>
+				<naturalweapon>
+					<name>Claws</name>
+					<reach>0</reach>
+					<damage>({STR}+2)P</damage>
+					<ap>-2</ap>
+					<useskill>Unarmed Combat</useskill>
+					<accuracy>Physical</accuracy>
+					<source>SR5</source>
+					<page>1</page>
+				</naturalweapon>
+			</naturalweapons>
+			<bonus>
+				<movementreplace>
+					<category>Fly</category>
+					<speed>walk</speed>
+					<val>3</val>
+				</movementreplace>
+				<movementreplace>
+					<category>Fly</category>
+					<speed>run</speed>
+					<val>9</val>
+				</movementreplace>
+				<movementreplace>
+					<category>Fly</category>
+					<speed>sprint</speed>
+					<val>300</val>
+				</movementreplace>
+				<damageresistance>-1</damageresistance>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Wings 1 (Gliders)</quality>
+					<quality>Wings 3 (Magical Flight)</quality>
+				</oneof>
+			</forbidden>
 		</quality>
 		<quality>
 			<id>593b87d6-efa8-4220-85a0-28ef1a08e791</id>
@@ -1154,6 +1203,42 @@
 			<notes>Similar to type 2, you gain a flying speed. The difference is that this type of flying is based on mystical rather than physical forces and works similar to the way eastern dragons are able to fly. You gain a flying speed equal to 3x/6x/+5. While this quality does not give you any actual wings, it is not uncommon that those with magical flight manifest spectral like wings visible on the astral and the physical plane when they are using them.
 If you ever lose your magic attribute, you can't use the wings this way. Nevertheless, they still provide fall damage reduction equal to 3 levels of the freefall adept power(9 meter), even when you lose your magic rating.
 			</notes>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+				<allof>
+					<attribute>
+						<name>MAG</name>
+						<total>1</total>
+					</attribute>
+				</allof>
+			</required>
+			<bonus>
+				<movementreplace>
+					<category>Fly</category>
+					<speed>walk</speed>
+					<val>6</val>
+				</movementreplace>
+				<movementreplace>
+					<category>Fly</category>
+					<speed>run</speed>
+					<val>18</val>
+				</movementreplace>
+				<movementreplace>
+					<category>Fly</category>
+					<speed>sprint</speed>
+					<val>600</val>
+				</movementreplace>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Wings 1 (Gliders)</quality>
+					<quality>Wings 2 (functional)</quality>
+				</oneof>
+			</forbidden>
 		</quality>
 		<quality>
 			<id>2d5d6043-c5f0-49c9-9715-f2a1f1b6fdf9</id>
