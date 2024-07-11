@@ -191,6 +191,9 @@
 		<book>NF</book>
 		<book>KK</book>
 		<book>SW</book>
+		<book>4e</book>
+		<book>6e</book>
+		<book>ZDR</book>
 	</books>
 	<customdatadirectorynames>
 		<customdatadirectoryname>
@@ -215,7 +218,7 @@
 		</customdatadirectoryname>
 		<customdatadirectoryname>
 			<directoryname>96f53bbb-9f23-49c1-b795-ee94a8043b2c&gt;1.0</directoryname>
-			<order>80</order>
+			<order>4</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 	</customdatadirectorynames>
