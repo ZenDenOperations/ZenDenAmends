@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<qualities>
+		<!-- Adds the new metagenic qualities -->
+		<quality>
+			<id>3ee0c24d-2a07-4a9f-9238-4afef9ea1c2c</id>
+			<name>'Ware Intolerance (Metagenic)</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<biowareessmultiplier>120</biowareessmultiplier>
+				<cyberwareessmultiplier>120</cyberwareessmultiplier>
+			</bonus>
+			<source>KC</source>
+			<page>100</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>6c73f283-755e-4b30-9cda-4d52af1bed91</id>
+			<name>Metagenic Allergy (Uncommon, Mild)</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>SR5</source>
+			<page>78</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>90a3cb25-99b2-4cc3-80d2-59ec3dfe7e16</id>
+			<name>Metagenic Allergy (Uncommon, Moderate)</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>SR5</source>
+			<page>78</page>
+		</quality>
+		<quality>
+			<id>82419c50-b89a-45fa-b533-cf4abc0249d8</id>
+			<name>Metagenic Allergy (Uncommon, Severe)</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>SR5</source>
+			<page>78</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>fcec00e5-9a54-4cac-808e-2cfb648ef755</id>
+			<name>Metagenic Allergy (Uncommon, Extreme)</name>
+			<karma>-20</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>SR5</source>
+			<page>78</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>92045c70-9c02-4f3a-ae2e-5b0430a463aa</id>
+			<name>Metagenic Allergy (Common, Mild)</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>SR5</source>
+			<page>78</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>38b1c178-8777-4519-a195-71b5baa8b7a9</id>
+			<name>Metagenic Allergy (Common, Moderate)</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>SR5</source>
+			<page>78</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>e07d8ee2-b0cc-45fc-8aa7-cacfb81eaf8c</id>
+			<name>Metagenic Allergy (Common, Severe)</name>
+			<karma>-20</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>SR5</source>
+			<page>78</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>b7d4def0-79c2-497e-9b8b-3a323b17d4f4</id>
+			<name>Metagenic Allergy (Common, Extreme)</name>
+			<karma>-25</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>SR5</source>
+			<page>78</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>b57913fc-8cc5-4b25-982d-49f9eaa8a9c2</id>
+			<name>Asthma (Metagenic)</name>
+			<karma>-8</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>RF</source>
+			<page>152</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>b1dc9022-0a8c-4077-9292-82c2b26e2458</id>
+			<name>Antipathy (Metagenic)</name>
+			<karma>-8</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>CF</source>
+			<page>57</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>5de0a89f-207f-45b5-813a-656c34a59a38</id>
+			<name>Impassive (Metagenic)</name>
+			<karma>-7</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<limitmodifier>
+					<limit>Social</limit>
+					<value>-1</value>
+					<condition>LimitCondition_ExcludeIntimidation</condition>
+				</limitmodifier>
+			</bonus>
+			<source>HT</source>
+			<page>191</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>a1cc0e3d-4274-4c35-8ca7-4af953da9ea9</id>
+			<name>Bi-Polar (Metagenic)</name>
+			<karma>-7</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>RF</source>
+			<page>152</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>50974712-89f7-4b6b-a0d1-9d1328d5a399</id>
+			<name>Blind (Metagenic)</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<costdiscount>
+				<required>
+					<oneof>
+						<power>Astral Perception</power>
+						<quality>Aware</quality>
+						<quality>Magician</quality>
+						<quality>Aspected Magician</quality>
+						<quality>Enchanter</quality>
+						<quality>Explorer</quality>
+						<quality>Apprentice</quality>
+						<quality>Infected: Mutaqua</quality>
+						<quality>Infected: Nosferatu</quality>
+						<quality>Infected: Wendigo</quality>
+					</oneof>
+				</required>
+				<value>-10</value>
+			</costdiscount>
+			<bonus />
+			<forbidden>
+				<oneof>
+					<quality>Reduced Sense (Sight)</quality>
+				</oneof>
+			</forbidden>
+			<source>RF</source>
+			<page>153</page>
+		</quality>
+		<quality>
+			<id>6a94ae5b-a810-4f3e-87c9-23c3102ec268</id>
+			<name>Deaf (Metagenic)</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<forbidden>
+				<oneof>
+					<quality>Reduced Sense (Hearing)</quality>
+				</oneof>
+			</forbidden>
+			<source>RF</source>
+			<page>154</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>e6c5daff-ecd6-4940-9236-feb545c2aae0</id>
+			<name>Metagenic Dependent (Nuisance)</name>
+			<karma>-3</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<lifestylecost>10</lifestylecost>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Metagenic Dependent (Inconvenience)</quality>
+					<quality>Metagenic Dependent (Demanding)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>80</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>5eae873d-b206-4e4e-a31f-fd1c9e85e025</id>
+			<name>Metagenic Dependent (Inconvenience)</name>
+			<karma>-6</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<lifestylecost>20</lifestylecost>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Metagenic Dependent (Nuisance)</quality>
+					<quality>Metagenic Dependent (Demanding)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>80</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>455ccdb9-a7de-4c4f-a559-64f4bf7de219</id>
+			<name>Metagenic Dependent (Demanding)</name>
+			<karma>-9</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<lifestylecost>30</lifestylecost>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Metagenic Dependent (Nuisance)</quality>
+					<quality>Metagenic Dependent (Inconvenience)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>80</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>2fa9b6a9-9337-48f5-9b72-04eae0de3a22</id>
+			<name>Faraday Himself (Metagenic)</name>
+			<karma>-7</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>DT</source>
+			<page>48</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>a0fa27c0-d435-4943-ab46-171955c1980e</id>
+			<name>Infirm (Metagenic)</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>5</limit>
+			<bonus>
+				<specificattribute>
+					<name>BOD</name>
+					<max>-1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>AGI</name>
+					<max>-1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>-1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>-1</max>
+				</specificattribute>
+			</bonus>
+			<source>RF</source>
+			<page>156</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>144cabfa-44a3-4235-aa66-08891ddd26aa</id>
+			<name>Metagenic Insomnia (Basic)</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<forbidden>
+				<oneof>
+					<quality>Insomnia (Full)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>81</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>16debbe6-72f4-436d-9fff-6860a9499424</id>
+			<name>Metagenic Insomnia (Full)</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<forbidden>
+				<oneof>
+					<quality>Insomnia (Basic)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>81</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>7ec8a5ae-66ae-4c22-9be2-421cc279b22a</id>
+			<name>Low Pain Tolerance (Metagenic)</name>
+			<karma>-9</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<conditionmonitor>
+					<threshold>-1</threshold>
+				</conditionmonitor>
+			</bonus>
+			<source>SR5</source>
+			<page>82</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>99c0831d-9fef-4b85-b9f0-080e9960ae5b</id>
+			<name>Motion Sickness (Metagenic)</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>R5</source>
+			<page>33</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>670363ba-d2f0-4119-9d96-15cc24e67d2a</id>
+			<name>Quasimodo (Metagenic)</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<skillcategory>
+					<name>Social Active</name>
+					<bonus>-3</bonus>
+					<exclude>Intimidation</exclude>
+				</skillcategory>
+				<specificskill>
+					<name>Intimidation</name>
+					<bonus>2</bonus>
+				</specificskill>
+			</bonus>
+			<source>CF</source>
+			<page>59</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>e440875d-6c91-4440-83ec-5ccf65bed5f2</id>
+			<name>Metagenic Reduced Sense (Smell)</name>
+			<karma>-2</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>RF</source>
+			<page>159</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>e756a13b-9da5-4388-bad1-7580adfbf65a</id>
+			<name>Metagenic Reduced Sense (Taste)</name>
+			<karma>-2</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>RF</source>
+			<page>159</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>d83deb9c-556e-497c-9ba2-cf681aa9a69f</id>
+			<name>Metagenic Reduced Sense (Touch)</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>RF</source>
+			<page>159</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>57508b90-43c8-4c8b-8bb7-b67c42bb443c</id>
+			<name>Metagenic Reduced Sense (Hearing)</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<forbidden>
+				<oneof>
+					<quality>Deaf</quality>
+				</oneof>
+			</forbidden>
+			<source>RF</source>
+			<page>159</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>566e2cf3-2fe7-4ca4-93a1-7864a45e2db1</id>
+			<name>Metagenic Reduced Sense (Sight)</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<forbidden>
+				<oneof>
+					<quality>Blind</quality>
+				</oneof>
+			</forbidden>
+			<source>RF</source>
+			<page>159</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>2decee53-20dc-4c9b-b325-907dcf92c95c</id>
+			<name>Metagenic Reduced Sense (Astral Sight)</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<required>
+				<oneof>
+					<quality>Magician</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Apprentice</quality>
+					<quality>Infected: Mutaqua</quality>
+					<quality>Infected: Nosferatu</quality>
+					<quality>Infected: Wendigo</quality>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+			<source>RF</source>
+			<page>159</page>
+		</quality>
+		<quality>
+			<id>97c68f38-4574-4984-bfd6-455e775e9a34</id>
+			<name>AVRse (Metagenic)</name>
+			<karma>-9</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>KC</source>
+			<page>76</page>
+		</quality>
+		<quality>
+			<id>21559ef2-b134-4cec-8481-c1007fb1a297</id>
+			<name>Spirit Pariah (Metagenic)</name>
+			<karma>-14</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>SG</source>
+			<page>199</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>a57336b0-be08-4081-b039-b06c9a5b736b</id>
+			<name>Albinism I (Metagenic)</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<bonus />
+			<metagenic>True</metagenic>
+			<forbidden>
+				<oneof>
+					<quality>Albinism II</quality>
+					<quality>Albinism II (Metagenic)</quality>
+				</oneof>
+			</forbidden>
+			<source>RF</source>
+			<page>151</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>2cece0d4-0781-4ff4-b9a4-ea839d1f7b3b</id>
+			<name>Albinism II (Metagenic)</name>
+			<karma>-8</karma>
+			<category>Negative</category>
+			<bonus />
+			<metagenic>True</metagenic>
+			<forbidden>
+				<oneof>
+					<cyberwarecontains>Cybereyes</cyberwarecontains>
+					<quality>Albinism I</quality>
+					<quality>Albinism I (Metagenic)</quality>
+				</oneof>
+			</forbidden>
+			<source>RF</source>
+			<page>151</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>4d917b58-6638-4da6-8c61-d190ad9e17bc</id>
+			<name>Astral Beacon (Metagenic)</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<bonus />
+			<metagenic>True</metagenic>
+			<forbidden>
+				<oneof>
+					<quality>Astral Chameleon</quality>
+					<quality>Astral Beacon</quality>
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<metatype>Centaur</metatype>
+					<metatype>Naga</metatype>
+					<metatype>Pixie</metatype>
+					<metatype>Sasquatch</metatype>
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Infected: Mutaqua</quality>
+					<quality>Infected: Nosferatu</quality>
+					<quality>Infected: Wendigo</quality>
+				</oneof>
+			</required>
+			<source>SR5</source>
+			<page>78</page>
+		</quality>
+		<quality>
+			<id>1d427927-4a93-4fe8-a83b-612fd753db1d</id>
+			<name>Minor Cosmetic Feature</name>
+			<karma>1</karma>
+			<category>Positive</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<limit>3</limit>
+			<source>ZDR</source>
+			<page>0</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>b7b030fd-86f6-4942-9681-c3ff46df2097</id>
+			<name>Weak Immune System (Metagenic)</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<notoriety>1</notoriety>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Resistance to Pathogens</quality>
+					<quality>Resistance to Toxins</quality>
+					<quality>Resistance to Pathogens and Toxins</quality>
+					<quality>Natural Immunity (Natural)</quality>
+					<quality>Natural Immunity (Synthetic)</quality>
+				</oneof>
+			</forbidden>
+			<source>SR5</source>
+			<page>87</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>cca6fa75-1b5d-4bec-9a4b-91b6cf7d769d</id>
+			<name>Dimmer Bulb (Metagenic)</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>3</limit>
+			<bonus>
+				<skillattribute>
+					<name>LOG</name>
+					<bonus>-Rating</bonus>
+				</skillattribute>
+				<skillattribute>
+					<name>INT</name>
+					<bonus>-Rating</bonus>
+				</skillattribute>
+				<judgeintentionsoffense>-Rating</judgeintentionsoffense>
+				<memory>-Rating</memory>
+				<mentalmanipulationresist>-Rating</mentalmanipulationresist>
+				<manaillusionresist>-Rating</manaillusionresist>
+				<physicalillusionresist>-Rating</physicalillusionresist>
+				<decreaselogresist>-Rating</decreaselogresist>
+				<decreaseintresist>-Rating</decreaseintresist>
+				<detectionspellresist>-Rating</detectionspellresist>
+				<physiologicaladdictionfirsttime>-Rating</physiologicaladdictionfirsttime>
+				<physiologicaladdictionalreadyaddicted>-Rating</physiologicaladdictionalreadyaddicted>
+				<dodge>-Rating</dodge>
+				<surprise>-Rating</surprise>
+			</bonus>
+			<source>RF</source>
+			<page>154</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>05220509-5cbe-429d-a7bd-163c7fe7ea83</id>
+			<name>Infirm (Metagenic)</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>5</limit>
+			<bonus>
+				<specificattribute>
+					<name>BOD</name>
+					<max>-1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>AGI</name>
+					<max>-1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>-1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>-1</max>
+				</specificattribute>
+			</bonus>
+			<firstlevelbonus>
+				<attributemaxclamp>AGI</attributemaxclamp>
+				<attributemaxclamp>BOD</attributemaxclamp>
+				<attributemaxclamp>REA</attributemaxclamp>
+				<attributemaxclamp>STR</attributemaxclamp>
+			</firstlevelbonus>
+			<source>RF</source>
+			<page>156</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>095d627f-9c78-4b59-a150-22a336580391</id>
+			<name>Lack of Focus (Metagenic)</name>
+			<karma>-6</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>CF</source>
+			<page>58</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>b6e330bf-1265-48e5-ae5c-c88a04eddd93</id>
+			<name>Lightweight (Metagenic)</name>
+			<karma>-6</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>CF</source>
+			<page>58</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>ef5bdabc-2a70-4bef-8cca-62965d297abb</id>
+			<name>Night Blindness (Metagenic)</name>
+			<karma>-6</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus />
+			<source>RF</source>
+			<page>156</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>966b73a7-3c16-45d1-bc62-11831a939cb7</id>
+			<name>Phobia (Uncommon, Mild)</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>RF</source>
+			<page>157</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>ca479709-8832-46f9-a9c2-fd378807934f</id>
+			<name>Metagenic Phobia (Uncommon, Moderate)</name>
+			<karma>-7</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>RF</source>
+			<page>157</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>772935d8-9269-414b-a0e4-2fc26908573d</id>
+			<name>Metagenic Phobia (Uncommon, Severe)</name>
+			<karma>-12</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>RF</source>
+			<page>157</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>6af3c376-23db-4c7f-aebd-909658248827</id>
+			<name>Metagenic Phobia (Common, Mild)</name>
+			<karma>-8</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>RF</source>
+			<page>157</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>c6f267e4-a385-45c1-ad4c-9708f424d2f8</id>
+			<name>Metagenic Phobia (Common, Moderate)</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>RF</source>
+			<page>157</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<id>4fd15afb-f4cd-41a2-b8d6-87650799fa59</id>
+			<name>Metagenic Phobia (Common, Severe)</name>
+			<karma>-15</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<limit>False</limit>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>RF</source>
+			<page>157</page>
+			<required>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<!-- The 6e Stuff-->
+		<quality>
+			<id>db0ba470-55a0-4ee0-8ad0-4a632b94935e</id>
+			<name>Regrowth</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<biowareessmultiplier>120</biowareessmultiplier>
+				<cyberwareessmultiplier>120</cyberwareessmultiplier>
+			</bonus>
+			<source>6e</source>
+			<page>1</page>
+			<notes>The character possesses healing capabilities not dissimilar to various species of lizards, starfish, and arthropods. They heal somewhat faster, gaining a +2 bonus to natural healing tests. Additionally, they can regrow lost limbs and other body parts given time. In game terms, the character will regrow any lost limb or destroyed organ (assuming they survive whatever destroyed said limb or organ) in one month's time. Regrowing a limb takes a lot of resources. The character increases their lifestyle cost by 10% during any month in which they have regrown or are in the process of regrowing a limb.</notes>
+		</quality>
+		<quality>
+			<id>db0ba470-55a0-4ee0-8ad0-4a632b94935e</id>
+			<name>Regrowth</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>The character possesses healing capabilities not dissimilar to various species of lizards, starfish, and arthropods. They heal somewhat faster, gaining a +2 bonus to natural healing tests. Additionally, they can regrow lost limbs and other body parts given time. In game terms, the character will regrow any lost limb or destroyed organ (assuming they survive whatever destroyed said limb or organ) in one month's time. Regrowing a limb takes a lot of resources. The character increases their lifestyle cost by 10% during any month in which they have regrown or are in the process of regrowing a limb.</notes>
+		</quality>
+		<quality>
+			<id>4b5e0741-a15e-4cf2-b062-e418f3a566cb</id>
+			<name>Electrogenesis</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>The character's body contains several organs made from electrocytes, allowing them to deliver an electrical shock to those they touch. Applying the shock requires a successful unarmed attack and has a damage code equal to (Body)S(e) -5AP.</notes>
+		</quality>
+		<quality>
+			<id>4494b375-f658-4180-b0ba-f8ac3b91bf1c</id>
+			<name>Ink</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>The character has glands capable of producing and shooting a sticky black ink. To make use of this ink, the character makes a Ranged Attack Test using the Exotic Ranged Weapon (Ink) + Agility [Physical], with a range of (Body) meters. A successful hit from this attack deals no damage, but leaves the target completely blind (treat as having been hit with a called shot to each eye). The ink clears from an uncovered eye automatically after 1 combat turn. A covered eye or camera does not clear up on its own and requires a complex action to scrub off the sticky ink, or requires the wearer to remove the covering using the appropriate action. Creatures that do not perceive vision via eyes or cameras (e.g. spirits) are of course immune. The ink will also stain skin for about a week and will permanently stain most clothing and other fabrics.</notes>
+		</quality>
+		<quality>
+			<id>c844d133-799f-4184-a8b8-9fb881a6ff69</id>
+			<name>Functional Wings (Type I: Gliders)</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>These wings transform an individual’s arms into gliders(similar to a sugar glider). They work in a similar way as the URBAN EXPLORER DAEDALUS wingsuit and are compatible with armor, as long as the armor has been adjusted(10% price increase). While flying, any other physical action besides flight and/or gymnastics, receive a negative 2 dice modifier (including the use of magic). The gliders can not be used while a full chemseal is active without breaking it.
+			</notes>
+		</quality>
+		<quality>
+			<id>131c05eb-3925-4e0b-95d6-a022b902b33f</id>
+			<name>Functional Wings (Type II: Functional Wings)</name>
+			<karma>12</karma>
+			<category>Positive</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>You grow 2 functional wings on your back, giving you a flying speed of 2x/4x/+3m. The wings can fold in and be hidden under thick clothing(although still visible, if for example under a t-shirt). This is rather taxing for your body as doing so requires a lighter body. Your bones will become hollow like a bird and make you  suffer a -1 dice pool modifier to all physical Damage Resistance tests. These wings also act as claws with a Damage of (S+2)P -2 AP. Using these wings together with armor requires a refit (such as putting in flaps), which costs 20% of the base price. The wings can not be used while a full chemseal is active without breaking it.
+			</notes>
+		</quality>
+		<quality>
+			<id>593b87d6-efa8-4220-85a0-28ef1a08e791</id>
+			<name>Functional Wings (Type III: Functional Wings)</name>
+			<karma>15</karma>
+			<category>Positive</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>Similar to type 2, you gain a flying speed. The difference is that this type of flying is based on mystical rather than physical forces and works similar to the way eastern dragons are able to fly. You gain a flying speed equal to 3x/6x/+5. While this quality does not give you any actual wings, it is not uncommon that those with magical flight manifest spectral like wings visible on the astral and the physical plane when they are using them.
+If you ever lose your magic attribute, you can't use the wings this way. Nevertheless, they still provide fall damage reduction equal to 3 levels of the freefall adept power(9 meter), even when you lose your magic rating.
+			</notes>
+		</quality>
+		<quality>
+			<id>2d5d6043-c5f0-49c9-9715-f2a1f1b6fdf9</id>
+			<name>Striking Sclera</name>
+			<karma>-2</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>This mutation acts similarly to the Striking Skin Pigmentation metagenic quality, but for one’s eyes. The mutant’s sclera shows a very unique color. Red, Black, Blue. This mutation's coloration varies wildly, but must be unique for the race to which it belongs. When the runner’s eyes have been perceived, all Matrix Searches and Memory Tests to recall what the character looks like receive a +1 dice bonus. This stacks with Striking Skin Pigmentation.
+If the character ever replaces his eyes with cybereyes, he must buy of this quality instantly or go into karma debt until it is paid off.
+			</notes>
+		</quality>
+		<quality>
+			<id>4a4b38bc-9535-4c08-8028-7e24a087f43e</id>
+			<name>Lamia Body</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>The SURGE affected your lower body quite heavily, fusing your legs together completely and elongating them into a single long, snakelike limb. This gives you an incredibly striking appearance, granting everyone +4 dice to Memory Tests to remember your appearance, or to search about you on the Matrix. This stacks with Striking Skin Pigmentation and Striking Sclera. In addition your movements are more sluggish, causing you to change your movement rates to Agility x 1 for walking and Agility x 2 for running, sprinting (+0.5m/hit). Finally, this mutation also removes your ability to gain and use Cyberlegs, unless you gain a Liminal Body and buy off this quality. 
+
+If this quality is taken in concert with Adiposis you are always counted as ‘running’ even when moving at walking speed, requiring a free action to move. In addition you count your Agility as one lower for the purposes of Movement speed.
+			</notes>
+		</quality>
+		<quality>
+			<id>9416e077-4163-4c74-9a48-240738f187bd</id>
+			<name>Slime Coating</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>The character's skin is fragile and constantly covered in a protective slime. This slime leaves them more prone to dehydration, halving all intervals in which fatigue is rolled in dry or hot areas. Additionally, as the slime dries off they become increasingly uncomfortable. They are treated as suffering from a minor allergy if they have taken any fatigue damage caused by dehydration. For every 3 fatigue damage the character has taken this way, the allergy is treated as being one step higher in severity, up to severe. Characters with the Slime Coating quality suffer social stigma and modifiers. This is incompatible with bioware, or cyberware that alter the skin.
+			</notes>
+		</quality>
+		<quality>
+			<id>66f94e6b-1bd8-4433-90d3-19275438fa2e</id>
+			<name>Cutaneous Hydration</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>You don't need to drink! Well you do actually, but similar to a frog, you take in water through your skin. This leaves you highly susceptible to many toxins and pollutants. Liquid ingestion vector toxins and drugs can affect you through mere contact as if they had been mixed with DMSO, and you take a -4 to resist toxins that are normally (or have through DMSO been made) contact vector. This quality is incompatible with orthoskin.
+			</notes>
+		</quality>
+		<quality>
+			<id>aa57fa01-6798-47cc-b19f-f3d4a6d8b8f2</id>
+			<name>Shark Trance</name>
+			<karma>-6</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>Something about lying on your back is just so relaxing, kind of like how sharks go into a trance when flipped onto their back. Unfortunately this means that when you're dropped down on your back you have some real trouble getting back up. In order to get up when lying on your back, including being knocked prone (but not after dropping prone by your own choice, you are assumed to be smart enough to belly flop for that), you must roll a Composure (3) test before you can attempt the normal test to get back up.
+			</notes>
+		</quality>
+		<quality>
+			<id>c6331bd6-ee14-4488-ba16-de9fb297162e</id>
+			<name>Aural Helix Dysmorphia (Avian)</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>Also known as irregular cranial or skull configurations, AHD normally manifests as significant physical diversion from standard metahuman structure and appearance. These can be in nearly any form of such, often fitting in with features that are found among other species of the world. The difference in these appearances is they are principally cosmetic for the purposes of game mechanics. All of these apply Freaks.
+			Avian
+These individuals have had their cranial/aural properties adjusted to appear like those of common avians, including pronounced narrow jaw lines (but not into full beaks), widened or enlarged optical cavities, and similar traits.
+
+			</notes>
+		</quality>
+		<quality>
+			<id>440ffa56-2cc8-42a6-93d3-fee42eb7dfef</id>
+			<name>Aural Helix Dysmorphia (Canine/Feline)</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>Also known as irregular cranial or skull configurations, AHD normally manifests as significant physical diversion from standard metahuman structure and appearance. These can be in nearly any form of such, often fitting in with features that are found among other species of the world. The difference in these appearances is they are principally cosmetic for the purposes of game mechanics. All of these apply Freaks.
+			Canine/Feline
+This is a very common trait, with an assortment of canine and feline variations. It provides pronounced jawlines, slight changes to teeth (not enough to use them as weapons), and even shifts in the position of the ears. 
+			</notes>
+		</quality>
+		<quality>
+			<id>103c49f5-16a3-4c03-8cdf-7c57655834da</id>
+			<name>Aural Helix Dysmorphia (Canine/Feline)</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>Also known as irregular cranial or skull configurations, AHD normally manifests as significant physical diversion from standard metahuman structure and appearance. These can be in nearly any form of such, often fitting in with features that are found among other species of the world. The difference in these appearances is they are principally cosmetic for the purposes of game mechanics. All of these apply Freaks.
+			Canine/Feline
+This is a very common trait, with an assortment of canine and feline variations. It provides pronounced jawlines, slight changes to teeth (not enough to use them as weapons), and even shifts in the position of the ears. 
+			</notes>
+		</quality>
+		<quality>
+			<id>439aad5f-1fef-4401-b245-8bd2d82f71f4</id>
+			<name>Aural Helix Dysmorphia (Pachy)</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>Also known as irregular cranial or skull configurations, AHD normally manifests as significant physical diversion from standard metahuman structure and appearance. These can be in nearly any form of such, often fitting in with features that are found among other species of the world. The difference in these appearances is they are principally cosmetic for the purposes of game mechanics. All of these apply Freaks.
+			Pachy (Rhino, Elephant, Hippo)
+Individuals have widened upper aural helices, often with some adjustment to the position of ears. They also display vestigial horns (rhino), proboscis (elephantine), or widened jaws with distally placed teeth (hippo). Appearances are often leathery along the cranial and upper torso.
+</notes>
+		</quality>
+		<quality>
+			<id>2d643b38-7de2-459a-a572-bcffc0da02a6</id>
+			<name>Broad Feet</name>
+			<karma>-6</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>Possessing wide and flat feet with no discernible arch or exposed heel, individuals with this quality are hindered in physical tests. All such test suffer a -1 Dice pool modifier.All footwear must be custom-made, increasing cost by twenty-five percent. Physical Tests include Defense tests. If you ever replace your legs with cyberlegs you need to immediately buy of this quality
+			</notes>
+		</quality>
+		<quality>
+			<id>2d643b38-7de2-459a-a572-bcffc0da02a6</id>
+			<name>Reflective Eyes</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>The user’s eyes reflect any light directed at them, as often seen with cats, rats, and some reptiles. This makes spotting the individual in dark or nighttime conditions easier, so any observers get a +1 dice pool bonus on Perception tests. Such reflective eyes cannot be negated through simple eyewear. If any cybereyes are bought, this quality needs to be bought of
+			</notes>
+		</quality>
+		<quality>
+			<id>9dac5447-546e-4c39-a505-17493be03927</id>
+			<name>Mad Eyes</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>Also called Bug Eyes or Oni Eyes, this quality makes the eyes seem pronounced and bulbous. The ocular sockets have a shallower development. Irises are either blood red, pumpkin orange, or neon yellow. The eyes are more vulnerable to irritation—increase modifiers for smoke, ash, or other airborne substances by 1. If any cybereyes are bought, this quality needs to be bought of
+			</notes>
+		</quality>
+		<quality>
+			<id>89654866-19c4-4f2d-be92-6961e095b1ba</id>
+			<name>Hairless</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>6e</source>
+			<page>1</page>
+			<notes>It’s one thing to be bald, another to be hairless. This individual no longer has any hair or hair follicles anywhere on their body (though skin pores do exist). This affects the entire dermal biome and overall appearance. Sweating is more difficult, and social engagements with metahumans can be awkward. First social encounters with metahumans are done with a –1 dice pool modifier. The individual also shows up more easily on thermographic vision and thermal sensors, giving +1 for Perception tests to see them. Incompatible with Hair based bioware or cyberware.
+			</notes>
+		</quality>
+	</qualities>
+</chummer>
