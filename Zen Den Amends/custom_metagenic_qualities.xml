@@ -1171,12 +1171,12 @@
 				<movementreplace>
 					<category>Fly</category>
 					<speed>walk</speed>
-					<val>3</val>
+					<val>2</val>
 				</movementreplace>
 				<movementreplace>
 					<category>Fly</category>
 					<speed>run</speed>
-					<val>9</val>
+					<val>4</val>
 				</movementreplace>
 				<movementreplace>
 					<category>Fly</category>
@@ -1220,17 +1220,17 @@ If you ever lose your magic attribute, you can't use the wings this way. Neverth
 				<movementreplace>
 					<category>Fly</category>
 					<speed>walk</speed>
-					<val>6</val>
+					<val>3</val>
 				</movementreplace>
 				<movementreplace>
 					<category>Fly</category>
 					<speed>run</speed>
-					<val>18</val>
+					<val>6</val>
 				</movementreplace>
 				<movementreplace>
 					<category>Fly</category>
 					<speed>sprint</speed>
-					<val>600</val>
+					<val>500</val>
 				</movementreplace>
 			</bonus>
 			<forbidden>
