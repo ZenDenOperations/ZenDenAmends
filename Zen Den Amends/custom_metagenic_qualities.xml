@@ -1094,8 +1094,8 @@
 			<category>Positive</category>
 			<metagenic>True</metagenic>
 			<bonus>
-				<biowareessmultiplier>120</biowareessmultiplier>
-				<cyberwareessmultiplier>120</cyberwareessmultiplier>
+		        <physicalcmrecovery>2</physicalcmrecovery>
+		        <stuncmrecovery>2</stuncmrecovery>
 			</bonus>
 			<source>6e</source>
 			<page>1</page>
