@@ -169,5 +169,207 @@
 			<avail>6R</avail>
 			<cost>250</cost>
 		</gear>
+		<gear>
+		  <id>052aec6a-6457-4c82-9464-6898764b21fc</id>
+		  <name>Ritual Formula</name>
+		  <category>Formulae</category>
+		  <rating>0</rating>
+		  <source>ZDR</source>
+		  <page>1</page>
+		  <avail>6R</avail>
+		  <bonus>
+			<selecttext xml="spells.xml" xpath="/chummer/spells/spell[category = 'Rituals']" allowedit="True" />
+		  </bonus>
+		  <cost>1500</cost>
+		  <allowrename>True</allowrename>
+		</gear>
+		<gear>
+			<id>637017c2-eeb0-41eb-92a5-6b662fed3061</id>
+			<name>All Common Programs</name>
+			<category>Common Programs</category>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>0</avail>
+			<cost>800</cost>
+			<gears>
+				<usegear>
+					<name>Browse</name>
+					<category>Common Programs</category>
+				</usegear>
+				<usegear>
+					<name>Configurator</name>
+					<category>Common Programs</category>
+				</usegear>
+				<usegear>
+					<name>Edit</name>
+					<category>Common Programs</category>
+				</usegear>
+				<usegear>
+					<name>Encryption</name>
+					<category>Common Programs</category>
+				</usegear>
+				<usegear>
+					<name>Signal Scrub</name>
+					<category>Common Programs</category>
+				</usegear>
+				<usegear>
+					<name>Toolbox</name>
+					<category>Common Programs</category>
+				</usegear>
+				<usegear>
+					<name>Virtual Machine</name>
+					<category>Common Programs</category>
+				</usegear>
+				<usegear>
+					<name>Shredder</name>
+					<category>Common Programs</category>
+				</usegear>
+				<usegear>
+					<name>Search</name>
+					<category>Common Programs</category>
+				</usegear>
+				<usegear>
+					<name>Bootstrap</name>
+					<category>Common Programs</category>
+				</usegear>
+			</gears>
+		</gear>
+		<gear>
+			<id>e942a969-b776-4de6-b5f0-e2ed22c15353</id>
+			<name>All Hacking Programs</name>
+			<category>Hacking Programs</category>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>12F</avail>
+			<cost>8000</cost>
+			<gears>
+				<usegear>
+					<name>Armor</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Baby Monitor</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Biofeedback</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Biofeedback Filter</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Blackout</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Decryption</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Defuse</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Demolition</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Exploit</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Fork</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Guard</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Hammer</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Lockdown</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Mugger</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Shell</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Sneak</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Stealth</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Track</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Wrapper</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Cat's Paw</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Cloudless</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Crash (Program)</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Detonator</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Evaluate</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Fly on a Wall</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Nuke-from-Orbit</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Paintjob</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Smoke and Mirrors</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Swerve</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Tantrum</name>
+					<category>Hacking Programs</category>
+				</usegear>
+				<usegear>
+					<name>Tarball</name>
+					<category>Hacking Programs</category>
+				</usegear>
+			</gears>
+		</gear>
 	</gears>
 </chummer>
