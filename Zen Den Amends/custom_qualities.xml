@@ -924,16 +924,6 @@
 			</bonus>
 		</quality>
 		<quality>
-			<id>5fe43048-23ad-41be-ab6f-fe53e0e64dd1</id>
-			<name>Martial Mastery</name>
-			<karma>10</karma>
-			<category>Positive</category>
-			<metagenic>False</metagenic>
-			<doublecareer>False</doublecareer>
-			<source>ZDR</source>
-			<page>0</page>
-		</quality>
-		<quality>
 			<id>15d759e6-ab58-4457-95f6-43ca607fe286</id>
 			<name>Additional Metamagic</name>
 			<karma>15</karma>
