@@ -254,6 +254,16 @@
 			<name>Dracoform (Sea Drake)</name>
 			<hide />
 		</quality>
+		<quality>
+			<!-- Networker -->
+			<name>Networker</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Massive Network -->
+			<name>Massive Network</name>
+			<hide />
+		</quality>
 		<!-- End Region -->
 		<!-- Region Blood Crystal Qualities -->
 		<quality>
