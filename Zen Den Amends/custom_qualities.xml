@@ -906,6 +906,7 @@
 			<category>Negative</category>
 			<bonus>
 				<lifestylecost>10</lifestylecost>
+				<selecttext />
 			</bonus>
 			<limit>3</limit>
 			<source>ZDR</source>
