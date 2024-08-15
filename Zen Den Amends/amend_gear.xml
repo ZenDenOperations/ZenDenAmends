@@ -269,10 +269,6 @@
 			<hide />
 		</gear>
 		<gear>
-			<name>Grenade: Krime Party</name>
-			<hide />
-		</gear>
-		<gear>
 			<name>Krime Ripper Sensor Array</name>
 			<hide />
 		</gear>
@@ -283,6 +279,18 @@
 		<gear>
 			<name>Ammo: Subsonic</name>
 			<avail>8R</avail>
+		</gear>
+		<gear>
+			<name>Grenade: Smokebomb, Aerodynamic</name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Grenade: Halloweener Molotov Cocktail, Aerodynamic</name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Grenade: Molotov Cocktail, Aerodynamic</name>
+			<hide />
 		</gear>
 	</gears>
 </chummer>

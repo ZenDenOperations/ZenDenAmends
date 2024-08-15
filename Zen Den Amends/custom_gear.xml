@@ -21,9 +21,10 @@
 	<categories>
 		<category>Future Tech</category>
 		<category blackmarket="Ammunition">Ammunition (Hand Load)</category>
+		<category>Programmable ASIST Biofeedback</category>
 	</categories>
 	<gears>
-	<!-- More Ammo Stuff -->
+		<!-- More Ammo Stuff -->
 		<gear>
 			<id>06272a4e-0583-4fcf-b0f3-61f5ce9922e7</id>
 			<name>Ammo: APDS (Assault Cannon)</name>
@@ -114,6 +115,118 @@
 			<costfor>10</costfor>
 			<ammoforweapontype>cannon</ammoforweapontype>
 		</gear>
+		<!-- More Minigrenades -->
+		<gear>
+			<id>215f8266-ea78-48b6-b232-984b0d1975df</id>
+			<name>Minigrenade: Paint</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>RG</source>
+			<page>102</page>
+			<avail>8R</avail>
+			<ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+			<cost>100</cost>
+		</gear>
+		<gear>
+			<id>b2b95ff3-8444-4f84-85e3-70a546c115ca</id>
+			<name>Minigrenade: Maker</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>SL</source>
+			<page>76</page>
+			<avail>18F</avail>
+			<ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+			<cost>500</cost>
+		</gear>
+		<gear>
+			<id>0f5d45e1-c534-4e22-b7c3-8bed5604a45c</id>
+			<name>Minigrenade: Maker, Aerodynamic</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>SL</source>
+			<page>76</page>
+			<avail>18F</avail>
+			<ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+			<cost>500</cost>
+		</gear>
+		<gear>
+			<id>37b2af33-83d8-43cb-911f-309c6bafe696</id>
+			<name>Minigrenade: Fuzzy Boom Boom Bunnies</name>
+			<category>Ammunition</category>
+			<rating>20</rating>
+			<source>KC</source>
+			<page>53</page>
+			<avail>10R</avail>
+			<cost>Rating*20</cost>
+			<ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>181f2e81-75b2-489c-93b6-2f67e795ccf8</id>
+			<name>Minigrenade: COS</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>KC</source>
+			<page>54</page>
+			<avail>10R</avail>
+			<cost>500</cost>
+			<ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>76c518a5-dc88-4acc-adb5-9cd23a4c8589</id>
+			<name>Minigrenade: Douser</name>
+			<category>Ammunition</category>
+			<rating>10</rating>
+			<source>KC</source>
+			<page>55</page>
+			<avail>Rating*2F</avail>
+			<cost>Rating*50</cost>
+			<ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>a6923a2e-eaf2-40b4-b310-55991975a2f7</id>
+			<name>Minigrenade: Krime Cleaner</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>KK</source>
+			<page>27</page>
+			<avail>10F</avail>
+			<cost>200</cost>
+			<ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>c26a8aa2-dee4-4df4-96ac-87f3a063d661</id>
+			<name>Minigrenade: Krime Party</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>KK</source>
+			<page>27</page>
+			<avail>14F</avail>
+			<cost>190</cost>
+			<ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>56c6bcee-b6e9-4179-a160-34ce22334c76</id>
+			<name>Minigrenade: Krime Cocktail</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>KK</source>
+			<page>28</page>
+			<avail>14F</avail>
+			<cost>100</cost>
+			<ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>b8170563-8f74-47fc-b0f9-48a3c8c5a2b6</id>
+			<name>Minigrenade: Krime Stinger</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>KK</source>
+			<page>29</page>
+			<avail>8R</avail>
+			<cost>125</cost>
+			<ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+		</gear>
+		<!-- Misc Gear -->
 		<gear>
 			<id>fe03bdeb-707a-49bf-8859-1b5fd8eb318a</id>
 			<name>Glass Cutter</name>
@@ -170,18 +283,78 @@
 			<cost>250</cost>
 		</gear>
 		<gear>
-		  <id>052aec6a-6457-4c82-9464-6898764b21fc</id>
-		  <name>Ritual Formula</name>
-		  <category>Formulae</category>
-		  <rating>0</rating>
-		  <source>ZDR</source>
-		  <page>1</page>
-		  <avail>6R</avail>
-		  <bonus>
-			<selecttext xml="spells.xml" xpath="/chummer/spells/spell[category = 'Rituals']" allowedit="True" />
-		  </bonus>
-		  <cost>1500</cost>
-		  <allowrename>True</allowrename>
+			<id>052aec6a-6457-4c82-9464-6898764b21fc</id>
+			<name>Ritual Formula</name>
+			<category>Formulae</category>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>6R</avail>
+			<bonus>
+				<selecttext xml="spells.xml" xpath="/chummer/spells/spell[category = 'Rituals']" allowedit="True" />
+			</bonus>
+			<cost>1500</cost>
+			<allowrename>True</allowrename>
+		</gear>
+		<gear>
+			<id>356b60b0-7a50-4e8a-8b90-b536722c51bf</id>
+			<name>Sony 800AL Field PAB Unit</name>
+			<category>Programmable ASIST Biofeedback</category>
+			<rating>1</rating>
+			<source>CF</source>
+			<page>51</page>
+			<avail>14R</avail>
+			<cost>6000</cost>
+		</gear>
+		<gear>
+			<id>150d1751-cee9-43b8-afa1-fb96963b6244</id>
+			<name>DocWagon Cleansweep</name>
+			<category>Programmable ASIST Biofeedback</category>
+			<rating>2</rating>
+			<source>CF</source>
+			<page>51</page>
+			<avail>14R</avail>
+			<cost>8000</cost>
+		</gear>
+		<gear>
+			<id>3ffd8601-ebb5-4eff-bd4f-0f9d2469419d</id>
+			<name>MCT MemEdit III Suite</name>
+			<category>Programmable ASIST Biofeedback</category>
+			<rating>3</rating>
+			<source>CF</source>
+			<page>51</page>
+			<avail>14R</avail>
+			<cost>10000</cost>
+		</gear>
+		<gear>
+			<id>82ad657d-fcf1-4941-a537-907d77765cf0</id>
+			<name>Interneurox G-Series Memory Master</name>
+			<category>Programmable ASIST Biofeedback</category>
+			<rating>4</rating>
+			<source>CF</source>
+			<page>51</page>
+			<avail>16R</avail>
+			<cost>13000</cost>
+		</gear>
+		<gear>
+			<id>ecd43372-be58-4af7-a8f8-5bc196898324</id>
+			<name>Transys-Neuronet MES Grand</name>
+			<category>Programmable ASIST Biofeedback</category>
+			<rating>5</rating>
+			<source>CF</source>
+			<page>51</page>
+			<avail>18F</avail>
+			<cost>16000</cost>
+		</gear>
+		<gear>
+			<id>29035f34-e614-4b0c-8ebb-6cfbb2d164e8</id>
+			<name>Renraku MR-X ASIST Reprogrammer</name>
+			<category>Programmable ASIST Biofeedback</category>
+			<rating>6</rating>
+			<source>CF</source>
+			<page>51</page>
+			<avail>20F</avail>
+			<cost>20000</cost>
 		</gear>
 		<gear>
 			<id>637017c2-eeb0-41eb-92a5-6b662fed3061</id>

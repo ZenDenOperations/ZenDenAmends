@@ -27,5 +27,13 @@
       <source>SG</source>
       <page>152</page>
    </metamagic>
+   <metamagic>
+      <id>099af8f9-6d04-4aa5-8645-f7204a8bf9be</id>
+      <name>Fixation</name>
+      <adept>False</adept>
+      <magician>True</magician>
+      <source>SR5</source>
+      <page>325</page>
+    </metamagic>
   </metamagics>
 </chummer>
