@@ -590,14 +590,6 @@
       <hide />
     </weapon>
     <weapon>
-      <name>Grenade: Krime Party</name>
-      <hide />
-    </weapon>
-    <weapon>
-      <name>Grenade: Krime Party (Flash-Bang)</name>
-      <hide />
-    </weapon>
-    <weapon>
       <name>Krime Carpet</name>
       <hide />
     </weapon>
@@ -614,5 +606,6 @@
       <name>Narcoject PEP</name>
       <ammo>2x10(c) + energy</ammo>
     </weapon>
+  
   </weapons>
 </chummer>
