@@ -940,8 +940,22 @@
 			<limit amendoperation="replace">True</limit>
 		</quality>
 		<!-- End Region -->
-		<!-- Biocomp Test
-		<quality><name>Biocompatibility (Bioware)</name><bonus><genetechessmultiplier>90</genetechessmultiplier></bonus></quality>
-		 -->
+		<!-- Mysads, am I right (laughter) -->
+		<quality>
+		  <name>Mystic Adept</name>
+		  <bonus amendoperation="replace">
+			<enableattribute>
+			  <name>MAG</name>
+			</enableattribute>
+			<enabletab>
+			  <name>magician</name>
+			  <name>adept</name>
+			</enabletab>
+			<unlockskills>Sorcery,Conjuring,Enchanting</unlockskills>
+			<unlockskills>Sorcery,Conjuring,Enchanting</unlockskills>
+			<unlockskills>Aware</unlockskills>
+		  </bonus>
+		</quality>
+		<!-- Mysads -->
 	</qualities>
 </chummer>
