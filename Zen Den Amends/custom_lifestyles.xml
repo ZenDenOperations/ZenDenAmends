@@ -23,6 +23,7 @@
 
   <categories>
     <category>Stables</category>
+    <category>Enhanced Medical Services</category>
   </categories>
   <qualities>
     <quality>
@@ -114,6 +115,222 @@
       <source>SR5</source>
       <cost>10000</cost>
       <page>0</page>
+    </quality>
+    <quality>
+      <id>acb1c201-5fc4-4e74-adf2-7ea8570b0507</id>
+      <name>DocWagon Contract, Basic (Enhanced Medical Services I)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>4500 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>c2a38e8a-1b46-4dc4-8b76-e4c173b422c4</id>
+      <name>DocWagon Contract, Basic (Enhanced Medical Services II)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>4000 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>474eeac0-e1b2-4b1c-adb3-49a961568d1c</id>
+      <name>DocWagon Contract, Basic (Enhanced Medical Services III)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>3500 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>b3d0b9f0-a1b2-49bc-82b5-ebf01629180d</id>
+      <name>DocWagon Contract, Basic (Enhanced Medical Services IV)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>3000 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>392d1aba-9457-43f8-a774-cff900f28fa1</id>
+      <name>DocWagon Contract, Basic (Enhanced Medical Services V)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>2500 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>af6d38f3-696f-43ed-8487-ee9f3a23d9b8</id>
+      <name>DocWagon Contract, Basic (Enhanced Medical Services VI)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>2000 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>9725614e-d81e-4053-90d4-d5d8ab65f37e</id>
+      <name>DocWagon Contract, Gold (Enhanced Medical Services I)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>22500 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>f011faba-f4a9-4463-a14f-82c03863f06e</id>
+      <name>DocWagon Contract, Gold (Enhanced Medical Services II)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>20000 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>76065672-6bcb-4e6f-b8e2-d1c25485d3af</id>
+      <name>DocWagon Contract, Gold (Enhanced Medical Services III)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>17500 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>3af4723e-e9c6-4ddd-81d4-84ed9110c6ee</id>
+      <name>DocWagon Contract, Gold (Enhanced Medical Services IV)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>15000 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>a0ebe779-0b8e-417a-927a-5184c91f8c04</id>
+      <name>DocWagon Contract, Gold (Enhanced Medical Services V)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>12500 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>d5361a53-7a4f-48a4-9dd0-a289424614b5</id>
+      <name>DocWagon Contract, Gold (Enhanced Medical Services VI)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>10000 div 12</cost>
+      <source>ZDR</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>2f6cf835-caee-48cd-ac22-eb41b1a3efe0</id>
+      <name>DocWagon Contract, Platinum (Enhanced Medical Services I)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>45000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>d451acde-5270-4a1f-8b33-f86b4f86100f</id>
+      <name>DocWagon Contract, Platinum (Enhanced Medical Services II)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>40000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>de7a91b4-b9f3-40d3-b056-1c1fb236172e</id>
+      <name>DocWagon Contract, Platinum (Enhanced Medical Services III)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>35000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>81b7e5be-36be-43c2-9d2f-316557f08d6f</id>
+      <name>DocWagon Contract, Platinum (Enhanced Medical Services IV)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>30000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>7093013b-a54e-4be1-944b-13031916c025</id>
+      <name>DocWagon Contract, Platinum (Enhanced Medical Services V)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>25000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>7325409f-ce2a-47f2-9d1b-019f7ee2842b</id>
+      <name>DocWagon Contract, Platinum (Enhanced Medical Services VI)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>20000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>88e29804-cc42-4090-9787-eeba72522f35</id>
+      <name>DocWagon Contract, Super-Platinum (Enhanced Medical Services I)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>90000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>b1eebd77-4de0-439d-9308-b5f5f925419e</id>
+      <name>DocWagon Contract, Super-Platinum (Enhanced Medical Services II)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>80000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>7edd1256-0e63-449f-b4c5-b8482ae358ca</id>
+      <name>DocWagon Contract, Super-Platinum (Enhanced Medical Services III)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>70000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>5ba11a90-662f-4948-87c3-aa8752dfe104</id>
+      <name>DocWagon Contract, Super-Platinum (Enhanced Medical Services IV)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>60000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>c3907ad9-381b-4d4e-a9f3-bef1a4ffbe7d</id>
+      <name>DocWagon Contract, Super-Platinum (Enhanced Medical Services V)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>50000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
+    </quality>
+    <quality>
+      <id>265b5626-b5be-4513-938f-fe17ad6d84e6</id>
+      <name>DocWagon Contract, Super-Platinum (Enhanced Medical Services VI)</name>
+      <category>Enhanced Medical Services</category>
+      <lp>0</lp>
+      <cost>40000 div 12</cost>
+      <source>SR5</source>
+      <page>450</page>
     </quality>
  </qualities>
 </chummer>
