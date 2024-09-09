@@ -89,10 +89,6 @@
 		<name>Otaku to Technomancer</name>
 		<chargenonly />
 	  </quality>
-	  <quality><!-- Lightning Reflexes -->
-		<id>3564b678-7721-4a8d-ac79-1600cf92dc14</id>
-		<hide />
-	  </quality>
 	  <quality><!-- Mentor Spirit -->
 		<id>ced3fecf-2277-4b20-b1e0-894162ca9ae2</id>
 		<required amendoperation="replace">
