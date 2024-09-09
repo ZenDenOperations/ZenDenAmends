@@ -96,5 +96,15 @@
 			<source>SR5</source>
 			<page />
 		</skill>
+		<skill>
+			<id>a195953e-7445-478d-8eff-53ed07261d79</id>
+			<name>Breath</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<source>SR5</source>
+			<page />
+		</skill>
 	</skills>
 </chummer>

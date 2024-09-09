@@ -3,8 +3,8 @@
 		<quality xpathfilter="contains(name,'Rank (')">
 			<hide />
 		</quality>
-		<quality>
-			<name>Cyber-snob</name>
+		<quality><!-- Cyber-snob -->
+			<name><!-- Cyber-snob --></name>
 			<karma>-6</karma>
 			<bonus amendoperation="replace">
 				<disablebiowaregrade>Standard</disablebiowaregrade>
@@ -35,25 +35,21 @@
 			<source>CF</source>
 			<page>57</page>
 		</quality>
-		<quality>
-			<!-- Code of Honor: Black Hat -->
+		<quality><!-- Code of Honor: Black Hat -->
 			<name>Code of Honor: Black Hat</name>
 			<required amendoperation="remove" />
 		</quality>
 		<!-- Region Changed Qualities -->
-		<quality>
-			<!-- Special Modifications -->
+		<quality><!-- Special Modifications -->
 			<name>Special Modifications</name>
 			<limit>3</limit>
 			<bonus amendoperation="remove" />
 		</quality>
-		<quality>
-			<!-- Special Modifications (Prototype Materials) -->
+		<quality><!-- Special Modifications (Prototype Materials) -->
 			<name>Special Modifications (Prototype Materials)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Prototype Transhuman -->
+		<quality><!-- Prototype Transhuman -->
 			<id>08c4dfad-3661-48d9-a265-43cce84e20d8</id>
 			<chargenonly />
 			<bonus amendoperation="replace">
@@ -81,8 +77,7 @@
 				</selectquality>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- Black Market Pipeline -->
+		<quality><!-- Black Market Pipeline -->
 			<name>Black Market Pipeline</name>
 			<chargenonly amendoperation="remove" />
 			<bonus amendoperation="replace">
@@ -90,13 +85,11 @@
 				<selectcontact />
 			</bonus>
 		</quality>
-		<quality>
-			<!-- Otaku to Technomancer -->
+		<quality><!-- Otaku to Technomancer -->
 			<name>Otaku to Technomancer</name>
 			<chargenonly />
 		</quality>
-		<quality>
-			<!-- Lightning Reflexes -->
+		<quality><!-- Lightning Reflexes -->
 			<id>3564b678-7721-4a8d-ac79-1600cf92dc14</id>
 			<bonus amendoperation="replace">
 				<dodge>1</dodge>
@@ -104,8 +97,7 @@
 				<initiativepass>1</initiativepass>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- Mentor Spirit -->
+		<quality><!-- Mentor Spirit -->
 			<id>ced3fecf-2277-4b20-b1e0-894162ca9ae2</id>
 			<required amendoperation="replace">
 				<oneof>
@@ -113,51 +105,44 @@
 				</oneof>
 			</required>
 		</quality>
-		<quality>
-			<!-- SINner (Corporate) -->
+		<quality><!-- SINner (Corporate) -->
 			<id>e00623e1-54b0-4a91-b234-3c7e141deef4</id>
 			<karma>-5</karma>
 			<bonus>
 				<lifestylecost>10</lifestylecost>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- SINner (National) -->
+		<quality><!-- SINner (National) -->
 			<id>9ac85feb-ae1e-4996-8514-3570d411e1d5</id>
 			<karma>-5</karma>
 			<bonus>
 				<lifestylecost>15</lifestylecost>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- SINner (Corporate Limited) -->
+		<quality><!-- SINner (Corporate Limited) -->
 			<id>318d2edd-833b-48c5-a3e1-343bf03848a5</id>
 			<karma>-10</karma>
 			<bonus>
 				<lifestylecost>20</lifestylecost>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- SINner (Criminal) -->
+		<quality><!-- SINner (Criminal) -->
 			<id>d9479e5c-d44a-45b9-8fb4-d1e08a9487b2</id>
 			<karma>-10</karma>
 			<bonus>
 				<lifestylecost>15</lifestylecost>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- Ex-Con -->
+		<quality><!-- Ex-Con -->
 			<id>4fe8fa5e-e31b-4126-a880-3e719a0a5820</id>
 			<name>Ex-Con</name>
 			<karma>-20</karma>
 		</quality>
-		<quality>
-			<!-- Bad Rep -->
+		<quality><!-- Bad Rep -->
 			<name>Bad Rep</name>
 			<careeronly />
 		</quality>
-		<quality>
-			<!-- Human Lifespan -->
+		<quality><!-- Human Lifespan -->
 			<name>Human Lifespan</name>
 			<karma amendoperation="replace">0</karma>
 			<chargenonly />
@@ -168,24 +153,23 @@
 				</oneof>
 			</required>
 		</quality>
-		<quality>
-			<!-- Cold-Blooded -->
+		<quality><!-- Cold-Blooded -->
 			<name>Cold-Blooded</name>
 			<notes>
 		If a character with this quality is wearing a suitable piece of clothing/armor (such as a jacket) with the Insulation modification, then the negative effects are reduced. For the purposes of this negative quality, rating 4 Insulation or higher allows you to treat the temperature as up to ten degrees warmer, while rating 6 Insulation allows you to treat the temperature as up to twenty degrees warmer.
 	  </notes>
 		</quality>
-		<quality>
+		<quality><!-- Exceptional Entity -->
 			<name>Exceptional Entity</name>
 			<karma>25</karma>
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 		</quality>
-		<quality>
+		<quality><!-- Lazy Fingers -->
 			<name>Lazy Fingers</name>
 			<karma>-6</karma>
 		</quality>
-		<quality>
+		<quality><!-- Hi-Rez -->
 			<name>Hi-Rez</name>
 			<karma>4</karma>
 			<required amendoperation="replace">
@@ -199,557 +183,425 @@
 		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
-		<quality>
-			<!-- Better to be Feared Than Loved -->
-			<name>Better to be Feared Than Loved</name>
+		<quality><!-- Better to be Feathered Than Loved -->
+			<name>Better to be Feathered Than Loved</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Community Connection -->
+		<quality><!-- Community Connection -->
 			<name>Community Connection</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Erased -->
+		<quality><!-- Erased -->
 			<name>Erased</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Friends in High Places -->
+		<quality><!-- Friends in High Places -->
 			<name>Friends in High Places</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Revels in Murder -->
+		<quality><!-- Revels in Murder -->
 			<name>Revels in Murder</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Latent Dracomorphosis -->
-			<name>Latent Dracomorphosis</name>
-			<hide />
-		</quality>
-		<quality>
-			<!-- Dracoform (Eastern Drake) -->
-			<name>Dracoform (Eastern Drake)</name>
-			<hide />
-		</quality>
-		<quality>
-			<!-- Dracoform (Western Drake) -->
-			<name>Dracoform (Western Drake)</name>
-			<hide />
-		</quality>
-		<quality>
-			<!-- Dracoform (Feathered Drake) -->
-			<name>Dracoform (Feathered Drake)</name>
-			<hide />
-		</quality>
-		<quality>
-			<!-- Dracoform (Sea Drake) -->
-			<name>Dracoform (Sea Drake)</name>
-			<hide />
-		</quality>
-		<quality>
-			<!-- Networker -->
+		<quality><!-- Networker -->
 			<name>Networker</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Massive Network -->
+		<quality><!-- Massive Network -->
 			<name>Massive Network</name>
 			<hide />
 		</quality>
 		<!-- End Region -->
 		<!-- Region Blood Crystal Qualities -->
-		<quality>
-			<!-- Crystal Breath -->
+		<quality><!-- Crystal Breath -->
 			<name>Crystal Breath</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Eye (One Eye) -->
+		<quality><!-- Crystal Eye (One Eye) -->
 			<name>Crystal Eye (One Eye)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Eye (Two Eyes) -->
+		<quality><!-- Crystal Eye (Two Eyes) -->
 			<name>Crystal Eye (Two Eyes)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Liver) -->
+		<quality><!-- Crystal Gut (Liver) -->
 			<name>Crystal Gut (Liver)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Kidneys) -->
+		<quality><!-- Crystal Gut (Kidneys) -->
 			<name>Crystal Gut (Kidneys)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Stomach) -->
+		<quality><!-- Crystal Gut (Stomach) -->
 			<name>Crystal Gut (Stomach)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Intestines) -->
+		<quality><!-- Crystal Gut (Intestines) -->
 			<name>Crystal Gut (Intestines)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Liver, Kidneys) -->
+		<quality><!-- Crystal Gut (Liver, Kidneys) -->
 			<name>Crystal Gut (Liver, Kidneys)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Liver, Stomach) -->
+		<quality><!-- Crystal Gut (Liver, Stomach) -->
 			<name>Crystal Gut (Liver, Stomach)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Liver, Intestines) -->
+		<quality><!-- Crystal Gut (Liver, Intestines) -->
 			<name>Crystal Gut (Liver, Intestines)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Kidneys, Stomach) -->
+		<quality><!-- Crystal Gut (Kidneys, Stomach) -->
 			<name>Crystal Gut (Kidneys, Stomach)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Kidneys, Intestines) -->
+		<quality><!-- Crystal Gut (Kidneys, Intestines) -->
 			<name>Crystal Gut (Kidneys, Intestines)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Stomach, Intestines) -->
+		<quality><!-- Crystal Gut (Stomach, Intestines) -->
 			<name>Crystal Gut (Stomach, Intestines)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Liver, Kidneys, Stomach) -->
+		<quality><!-- Crystal Gut (Liver, Kidneys, Stomach) -->
 			<name>Crystal Gut (Liver, Kidneys, Stomach)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Liver, Kidneys, Intestines) -->
+		<quality><!-- Crystal Gut (Liver, Kidneys, Intestines) -->
 			<name>Crystal Gut (Liver, Kidneys, Intestines)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Liver, Stomach, Intestines) -->
+		<quality><!-- Crystal Gut (Liver, Stomach, Intestines) -->
 			<name>Crystal Gut (Liver, Stomach, Intestines)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Kidneys, Stomach, Intestines) -->
+		<quality><!-- Crystal Gut (Kidneys, Stomach, Intestines) -->
 			<name>Crystal Gut (Kidneys, Stomach, Intestines)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Gut (Liver, Kidneys, Stomach, Intestines) -->
+		<quality><!-- Crystal Gut (Liver, Kidneys, Stomach, Intestines) -->
 			<name>Crystal Gut (Liver, Kidneys, Stomach, Intestines)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Jaw -->
+		<quality><!-- Crystal Jaw -->
 			<name>Crystal Jaw</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Limb (Arm) -->
+		<quality><!-- Crystal Limb (Arm) -->
 			<name>Crystal Limb (Arm)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Limb (Leg) -->
+		<quality><!-- Crystal Limb (Leg) -->
 			<name>Crystal Limb (Leg)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystal Spine -->
+		<quality><!-- Crystal Spine -->
 			<name>Crystal Spine</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystalline Claws -->
+		<quality><!-- Crystalline Claws -->
 			<name>Crystalline Claws</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Сrystalline Reflexes -->
+		<quality><!-- Сrystalline Reflexes -->
 			<name>Crystalline Reflexes</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystalline Blade -->
+		<quality><!-- Crystalline Blade -->
 			<name>Crystalline Blade</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystalline Diver -->
+		<quality><!-- Crystalline Diver -->
 			<name>Crystalline Diver</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystalline Grace -->
+		<quality><!-- Crystalline Grace -->
 			<name>Crystalline Grace</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystalline Shards -->
+		<quality><!-- Crystalline Shards -->
 			<name>Crystalline Shards</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Crystalline Vision -->
+		<quality><!-- Crystalline Vision -->
 			<name>Crystalline Vision</name>
 			<hide />
 		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Negative Qualities -->
-		<quality>
-			<!-- Alpha Junkie -->
+		<quality><!-- Alpha Junkie -->
 			<name>Alpha Junkie</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Amnesia (Surface Deletion) -->
+		<quality><!-- Amnesia (Surface Deletion) -->
 			<name>Amnesia (Surface Deletion)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Bi-polar -->
+		<quality><!-- Bi-polar -->
 			<name>Bi-polar</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Borrowed Time -->
+		<quality><!-- Borrowed Time -->
 			<name>Borrowed Time</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Carrier (HMHVV Strain II) -->
+		<quality><!-- Carrier (HMHVV Strain II) -->
 			<name>Carrier (HMHVV Strain II)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Carrier (HMHVV Strain III) -->
+		<quality><!-- Carrier (HMHVV Strain III) -->
 			<name>Carrier (HMHVV Strain III)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Code of Honor: Avenging Angel -->
+		<quality><!-- Code of Honor: Avenging Angel -->
 			<name>Code of Honor: Avenging Angel</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Code of Honor: Black Hat -->
+		<quality><!-- Code of Honor: Black Hat -->
 			<name>Code of Honor: Black Hat</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Consummate Professional -->
+		<quality><!-- Consummate Professional -->
 			<name>Consummate Professional</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Data Liberator -->
+		<quality><!-- Data Liberator -->
 			<name>Data Liberator</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Dead Emotion -->
+		<quality><!-- Dead Emotion -->
 			<name>Dead Emotion</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Dead SIN -->
+		<quality><!-- Dead SIN -->
 			<name>Dead SIN</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Earther -->
+		<quality><!-- Earther -->
 			<name>Earther</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Echo Chamber -->
+		<quality><!-- Echo Chamber -->
 			<name>Echo Chamber</name>
 			<karma>10</karma>
 			<category>Positive</category>
 			<notes>When Matrix Searching, the character benefits from a +2 dice pool bonus, but the number of rolls needed to get a glitch is decreased by 1.</notes>
 		</quality>
-		<quality>
-			<!-- Elevated Stress -->
+		<quality><!-- Elevated Stress -->
 			<name>Elevated Stress</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Emotional Attachment -->
+		<quality><!-- Emotional Attachment -->
 			<name>Emotional Attachment</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Every Man For Himself -->
+		<quality><!-- Every Man For Himself -->
 			<name>Every Man For Himself</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Hung out to Dry -->
+		<quality><!-- Hung out to Dry -->
 			<name>Hung out to Dry</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Made Man -->
+		<quality><!-- Made Man -->
 			<name>Made Man</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- In Debt -->
+		<quality><!-- In Debt -->
 			<name>In Debt</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Information Auctioneer -->
+		<quality><!-- Information Auctioneer -->
 			<name>Information Auctioneer</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Latest and Greatest -->
+		<quality><!-- Latest and Greatest -->
 			<name>Latest and Greatest</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- LEEEEEEEROY JENKINS -->
+		<quality><!-- LEEEEEEEROY JENKINS -->
 			<name>Leeeeeeeroy Jenkins</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Pie Iesu Domine. Dona Eis Requiem. -->
+		<quality><!-- Pie Iesu Domine. Dona Eis Requiem. -->
 			<name>Pie Iesu Domine. Dona Eis Requiem.</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Pregnant -->
+		<quality><!-- Pregnant -->
 			<name>Pregnant</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Quadriplegic -->
+		<quality><!-- Quadriplegic -->
 			<name>Quadriplegic</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Resonant Burnout -->
+		<quality><!-- Resonant Burnout -->
 			<name>Resonant Burnout</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Stolen Gear -->
+		<quality><!-- Stolen Gear -->
 			<name>Stolen Gear</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- This Is Your Last Chance -->
+		<quality><!-- This Is Your Last Chance -->
 			<name>This Is Your Last Chance</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Tough and Targeted -->
+		<quality><!-- Tough and Targeted -->
 			<name>Tough and Targeted</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- 'Ware Intolerance -->
+		<quality><!-- 'Ware Intolerance -->
 			<name>'Ware Intolerance</name>
 			<hide />
 		</quality>
 		<!-- End Region -->
 		<!-- Region Run Faster Infected Qualities -->
-		<quality>
-			<!-- Infected: Bandersnatch -->
+		<quality><!-- Infected: Bandersnatch -->
 			<name>Infected: Bandersnatch</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Banshee -->
+		<quality><!-- Infected: Banshee -->
 			<id>0a3f2c4f-efdc-422f-91bf-07baf2229bc6</id>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Dzoo-Noo-Qua -->
+		<quality><!-- Infected: Dzoo-Noo-Qua -->
 			<id>6556d48f-2cbd-4bc6-a2c8-e9fe3f99ac7e</id>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Fomoraig -->
+		<quality><!-- Infected: Fomoraig -->
 			<name>Infected: Fomoraig</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Ghoul (Dwarf) -->
+		<quality><!-- Infected: Ghoul (Dwarf) -->
 			<id>ed801fa4-0514-458a-b850-9eeddf0c2fed</id>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Ghoul (Elf) -->
+		<quality><!-- Infected: Ghoul (Elf) -->
 			<id>e156dc45-66ca-4b45-baf8-5c875b9866c4</id>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Ghoul (human) -->
+		<quality><!-- Infected: Ghoul (human) -->
 			<id>2d99bbb6-7af0-45c6-a83b-46d9d9f10838</id>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Ghoul (Ork) -->
+		<quality><!-- Infected: Ghoul (Ork) -->
 			<id>ea7c269f-6843-488a-b0fa-8f79c935f568</id>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Ghoul (Sasquatch) -->
+		<quality><!-- Infected: Ghoul (Sasquatch) -->
 			<id>8325c7f3-c578-458a-9068-e159b2c686ef</id>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Ghoul (Troll) -->
+		<quality><!-- Infected: Ghoul (Troll) -->
 			<id>92123580-1f4f-4c6a-b2f5-3b9c9031d705</id>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Ghoul (Gnawer) -->
+		<quality><!-- Infected: Ghoul (Gnawer) -->
 			<id>5f31925d-cc76-49da-acab-644b66d5e93d</id>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Goblin -->
+		<quality><!-- Infected: Goblin -->
 			<name>Infected: Goblin</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Grendel -->
+		<quality><!-- Infected: Grendel -->
 			<name>Infected: Grendel</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Harvester -->
+		<quality><!-- Infected: Harvester -->
 			<name>Infected: Harvester</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Loup-Garou -->
+		<quality><!-- Infected: Loup-Garou -->
 			<name>Infected: Loup-Garou</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Mutaqua -->
+		<quality><!-- Infected: Mutaqua -->
 			<name>Infected: Mutaqua</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Nosferatu -->
+		<quality><!-- Infected: Nosferatu -->
 			<name>Infected: Nosferatu</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Vampire (Human) -->
+		<quality><!-- Infected: Vampire (Human) -->
 			<name>Infected: Vampire (Human)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Vampire (Non-Human) -->
+		<quality><!-- Infected: Vampire (Non-Human) -->
 			<name>Infected: Vampire (Non-Human)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Sukuyan (Human) -->
+		<quality><!-- Infected: Sukuyan (Human) -->
 			<name>Infected: Sukuyan (Human)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Sukuyan (Non-Human) -->
+		<quality><!-- Infected: Sukuyan (Non-Human) -->
 			<name>Infected: Sukuyan (Non-Human)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected: Wendigo -->
+		<quality><!-- Infected: Wendigo -->
 			<id>652948f9-e629-4dea-bd13-776dd41ca6a1</id>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Wildcard Chimera -->
+		<quality><!-- Wildcard Chimera -->
 			<name>Wildcard Chimera</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Metaviral Attunement -->
+		<quality><!-- Metaviral Attunement -->
 			<name>Metaviral Attunement</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- It Works If You Work It -->
+		<quality><!-- It Works If You Work It -->
 			<name>It Works If You Work It</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Soul Swallower -->
+		<quality><!-- Soul Swallower -->
 			<name>Soul Swallower</name>
 			<hide />
 		</quality>
 		<!-- End Region -->
 		<!-- Region Infected Optional Powers -->
-		<quality>
-			<!-- Infected Optional Power: Compulsion -->
+		<quality><!-- Infected Optional Power: Compulsion -->
 			<name>Infected Optional Power: Compulsion</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Fear -->
+		<quality><!-- Infected Optional Power: Fear -->
 			<name>Infected Optional Power: Fear</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Immunity (Fire) -->
+		<quality><!-- Infected Optional Power: Immunity (Fire) -->
 			<name>Infected Optional Power: Immunity (Fire)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Immunity (Toxins) -->
-			<name>Infected Optional Power: Immunity (Toxins)</name>
-			<hide />
-		</quality>
-		<quality>
-			<!-- Infected Optional Power: Influence -->
+		<quality><!-- Infected Optional Power: Influence -->
 			<name>Infected Optional Power: Influence</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Magical Guard -->
+		<quality><!-- Infected Optional Power: Magical Guard -->
 			<name>Infected Optional Power: Magical Guard</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Paralyzing Howl -->
+		<quality><!-- Infected Optional Power: Paralyzing Howl -->
 			<name>Infected Optional Power: Paralyzing Howl</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected Advanced Optional Power: Mimicry -->
+		<quality><!-- Infected Advanced Optional Power: Mimicry -->
 			<name>Infected Advanced Optional Power: Mimicry</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected Advanced Optional Power: Psychokinesis -->
+		<quality><!-- Infected Advanced Optional Power: Psychokinesis -->
 			<name>Infected Advanced Optional Power: Psychokinesis</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Regeneration -->
+		<quality><!-- Infected Optional Power: Regeneration -->
 			<name>Infected Optional Power: Regeneration</name>
 			<hide />
 		</quality>
-		<quality>
+		<quality><!-- Infected Optional Power: Mist Form -->
 			<name>Infected Optional Power: Mist Form</name>
 			<required>
 				<oneof>
@@ -758,8 +610,7 @@
 				</oneof>
 			</required>
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Armor -->
+		<quality><!-- Infected Optional Power: Armor -->
 			<name>Infected Optional Power: Armor</name>
 			<required amendoperation="replace">
 				<oneof>
@@ -776,8 +627,7 @@
 				</oneof>
 			</required>
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Enhanced Sense (Hearing) -->
+		<quality><!-- Infected Optional Power: Enhanced Sense (Hearing) -->
 			<name>Infected Optional Power: Enhanced Sense (Hearing)</name>
 			<required amendoperation="replace">
 				<oneof>
@@ -799,8 +649,7 @@
 				</oneof>
 			</required>
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Enhanced Sense (Smell) -->
+		<quality><!-- Infected Optional Power: Enhanced Sense (Smell) -->
 			<name>Infected Optional Power: Enhanced Sense (Smell)</name>
 			<required amendoperation="replace">
 				<oneof>
@@ -817,8 +666,7 @@
 				</oneof>
 			</required>
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Enhanced Sense (Visual Acuity) -->
+		<quality><!-- Infected Optional Power: Enhanced Sense (Visual Acuity) -->
 			<name>Infected Optional Power: Enhanced Sense (Visual Acuity)</name>
 			<required amendoperation="replace">
 				<oneof>
@@ -830,8 +678,7 @@
 				</oneof>
 			</required>
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Enhanced Sense (Thermographic Vision) -->
+		<quality><!-- Infected Optional Power: Enhanced Sense (Thermographic Vision) -->
 			<name>Infected Optional Power: Enhanced Sense (Thermographic Vision)</name>
 			<required amendoperation="replace">
 				<oneof>
@@ -839,9 +686,25 @@
 				</oneof>
 			</required>
 		</quality>
-		<quality>
-			<!-- Infected Optional Power: Immunity (Pathogens) -->
+		<quality><!-- Infected Optional Power: Immunity (Pathogens) -->
 			<name>Infected Optional Power: Immunity (Pathogens)</name>
+			<required amendoperation="replace">
+				<oneof>
+					<quality>Infected: Banshee</quality>
+					<quality>Infected: Banshee (Dryad)</quality>
+					<quality>Infected: Banshee (Nocturna)</quality>
+					<quality>Infected: Banshee (Xapiri Thepe)</quality>
+					<quality>Infected: Vampire</quality>
+					<quality>Infected: Wendigo</quality>
+					<quality>Infected: Wendigo (Hobgoblin)</quality>
+					<quality>Infected: Wendigo (Ogre)</quality>
+					<quality>Infected: Wendigo (Oni)</quality>
+					<quality>Infected: Wendigo (Satyr)</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality><!-- Infected Optional Power: Immunity (Toxins) -->
+			<name>Infected Optional Power: Immunity (Toxins)</name>
 			<required amendoperation="replace">
 				<oneof>
 					<quality>Infected: Banshee</quality>
@@ -859,28 +722,23 @@
 		</quality>
 		<!-- End Region -->
 		<!-- Region Non-multipurchaseable Qualities -->
-		<quality>
-			<!-- Codeslinger -->
+		<quality><!-- Codeslinger -->
 			<name>Codeslinger</name>
 			<limit amendoperation="replace">True</limit>
 		</quality>
-		<quality>
-			<!-- Natural Immunity (Natural) -->
+		<quality><!-- Natural Immunity (Natural) -->
 			<name>Natural Immunity (Natural)</name>
 			<limit amendoperation="replace">True</limit>
 		</quality>
-		<quality>
-			<!-- Natural Immunity (Synthetic) -->
+		<quality><!-- Natural Immunity (Synthetic) -->
 			<name>Natural Immunity (Synthetic)</name>
 			<limit amendoperation="replace">True</limit>
 		</quality>
-		<quality>
-			<!-- Spirit Affinity -->
+		<quality><!-- Spirit Affinity -->
 			<name>Spirit Affinity</name>
 			<limit amendoperation="replace">True</limit>
 		</quality>
-		<quality>
-			<!-- Brand Loyalty (Manufacturer) -->
+		<quality><!-- Brand Loyalty (Manufacturer) -->
 			<name>Brand Loyalty (Manufacturer)</name>
 			<limit amendoperation="replace">True</limit>
 			<forbidden>
@@ -889,8 +747,7 @@
 				</oneof>
 			</forbidden>
 		</quality>
-		<quality>
-			<!-- Brand Loyalty (Product) -->
+		<quality><!-- Brand Loyalty (Product) -->
 			<name>Brand Loyalty (Product)</name>
 			<limit amendoperation="replace">True</limit>
 			<forbidden>
@@ -899,13 +756,11 @@
 				</oneof>
 			</forbidden>
 		</quality>
-		<quality>
-			<!-- Sensei -->
+		<quality><!-- Sensei -->
 			<name>Sensei</name>
 			<limit amendoperation="replace">True</limit>
 		</quality>
-		<quality>
-			<!-- Solid Rep -->
+		<quality><!-- Solid Rep -->
 			<name>Solid Rep</name>
 			<limit amendoperation="replace">True</limit>
 			<forbidden>
@@ -914,8 +769,7 @@
 				</oneof>
 			</forbidden>
 		</quality>
-		<quality>
-			<!-- Legendary Rep< -->
+		<quality><!-- Legendary Rep< -->
 			<name>Legendary Rep</name>
 			<limit amendoperation="replace">True</limit>
 			<forbidden>
@@ -924,18 +778,15 @@
 				</oneof>
 			</forbidden>
 		</quality>
-		<quality>
-			<!-- Metahuman Traits -->
+		<quality><!-- Metahuman Traits -->
 			<name>Metahuman Traits</name>
 			<limit amendoperation="replace">True</limit>
 		</quality>
-		<quality>
-			<!-- Elemental Focus -->
+		<quality><!-- Elemental Focus -->
 			<name>Elemental Focus</name>
 			<limit amendoperation="replace">True</limit>
 		</quality>
-		<quality>
-			<!-- Sprite Affinity -->
+		<quality><!-- Sprite Affinity -->
 			<name>Sprite Affinity</name>
 			<limit amendoperation="replace">True</limit>
 		</quality>
@@ -957,5 +808,98 @@
 		  </bonus>
 		</quality>
 		<!-- Mysads -->
+		<!-- Drakes -->
+		<quality> <!-- Dracoform (Eastern Drake) -->
+			<name>Dracoform (Eastern Drake)</name>
+			<karma>15</karma>
+			<doublecareer>False</doublecareer>
+			<careeronly />
+			<forbidden>
+				<quality>Latent Dracomorphosis</quality>
+				<quality>Dracoform (Western Drake)</quality>
+				<quality>Dracoform (Feathered Drake)</quality>
+				<quality>Dracoform (Sea Drake)</quality>
+			</forbidden>
+			<bonus amendoperation="Replace">
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Shift (Dracoform)</power>
+				</critterpowers>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<limitcritterpowercategory>Drake</limitcritterpowercategory>
+				<unlockskills>Breath</unlockskills>
+			</bonus>
+		</quality>
+		<quality> <!-- Dracoform (Western Drake) -->
+			<name>Dracoform (Western Drake)</name>
+			<karma>15</karma>
+			<doublecareer>False</doublecareer>
+			<careeronly />
+			<forbidden>
+				<quality>Latent Dracomorphosis</quality>
+				<quality>Dracoform (Eastern Drake)</quality>
+				<quality>Dracoform (Feathered Drake)</quality>
+				<quality>Dracoform (Sea Drake)</quality>
+			</forbidden>
+			<bonus amendoperation="Replace">
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Shift (Dracoform)</power>
+				</critterpowers>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<limitcritterpowercategory>Drake</limitcritterpowercategory>
+				<unlockskills>Breath</unlockskills>
+			</bonus>
+		</quality>
+		<quality> <!-- Dracoform (Feathered Drake) -->
+			<name>Dracoform (Feathered Drake)</name>
+			<karma>15</karma>
+			<doublecareer>False</doublecareer>
+			<careeronly />
+			<forbidden>
+				<quality>Latent Dracomorphosis</quality>
+				<quality>Dracoform (Eastern Drake)</quality>
+				<quality>Dracoform (Western Drake)</quality>
+				<quality>Dracoform (Sea Drake)</quality>
+			</forbidden>
+			<bonus amendoperation="Replace">
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Shift (Dracoform)</power>
+				</critterpowers>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<limitcritterpowercategory>Drake</limitcritterpowercategory>
+				<unlockskills>Breath</unlockskills>
+			</bonus>
+		</quality>
+		<quality> <!-- Dracoform (Sea Drake) -->
+			<name>Dracoform (Sea Drake)</name>
+			<karma>15</karma>
+			<doublecareer>False</doublecareer>
+			<careeronly />
+			<forbidden>
+				<quality>Latent Dracomorphosis</quality>
+				<quality>Dracoform (Eastern Drake)</quality>
+				<quality>Dracoform (Western Drake)</quality>
+				<quality>Dracoform (Feathered Drake)</quality>
+			</forbidden>
+			<bonus amendoperation="Replace">
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Shift (Dracoform)</power>
+				</critterpowers>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<limitcritterpowercategory>Drake</limitcritterpowercategory>
+				<unlockskills>Breath</unlockskills>
+			</bonus>
+		</quality>
 	</qualities>
 </chummer>
