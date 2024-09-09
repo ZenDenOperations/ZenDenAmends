@@ -181,6 +181,40 @@
 			<source>BTB</source>
 			<page>160</page>
 		</quality>
+		<quality><!-- Items of Power -->
+		  <id>8f18e68a-fbaf-46b6-bf00-c99910292c20</id>
+		  <name>Items of Power I</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <canbuywithspellpoints>True</canbuywithspellpoints>
+		  <doublecareer>False</doublecareer>
+		  <bonus />
+		  <required>
+			<allof>
+			  <magenabled />
+			</allof>
+			<oneof>
+			  <skill>
+				<name>Artificing</name>
+				<val>3</val>
+			  </skill>
+			  <skill>
+				<name>Arcana</name>
+				<val>3</val>
+			  </skill>
+			</oneof>
+		  </required>
+		  <source>FA</source>
+		  <page>38</page>
+		</quality>
+		<quality>
+		    <name>Exceptional Attribute</name>
+			<forbidden amendoperation="remove" />
+		</quality>
+		<quality>
+		    <name>Lucky</name>
+			<forbidden amendoperation="remove" />
+		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality><!-- Better to be Feathered Than Loved -->
