@@ -32,12 +32,8 @@
     <power>
 	  <name>Plague Cloud</name>
       <hide />
-    </power>
-    <power>
-	  <name>Toxic Strike</name>
-      <hide />
-    </power>
-  <power> <!-- Duplicate Nerve Strike-->
+	</power>
+    <power> <!-- Duplicate Nerve Strike-->
       <id>a66b175c-512b-4a31-ad61-27eb3bd05055</id>
       <hide />
     </power>
