@@ -35,12 +35,8 @@
   <biowares>
     <bioware>
       <name>Synaptic Booster</name>
-      <bonus amendoperation ="replace">
-        <initiativepass precedence="0">Rating</initiativepass>
-        <specificattribute>
-          <name>REA</name>
-          <val>Rating</val>
-        </specificattribute>
+      <bonus>
+        <disablequality amendoperation="remove" />
       </bonus>
     </bioware>
     <bioware>
