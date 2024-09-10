@@ -24,14 +24,8 @@
       <hide />
     </power>
     <power> <!-- Additional Natural Weapons (Claws) -->
-      <name></name>
       <id>1c2b88fd-d2bb-4a82-ad8f-a51164ad34c9</id>
       <name>Natural Weapon (Claws)</name>
-      <category>Drake</category>
-      <action>None</action>
-      <type>P</type>
-      <duration>Always</duration>
-      <range>Touch</range>
       <bonus>
         <naturalweapon>
           <name>Dracoform Claws</name>
@@ -44,18 +38,10 @@
           <page>163</page>
         </naturalweapon>
       </bonus>
-      <karma>5</karma>
-      <source>HS</source>
-      <page>164</page>
     </power>
     <power> <!-- Additional Natural Weapons (Fangs)-->
       <id>b5dfe517-a722-4503-be5d-9fdd7a5653c4</id>
       <name>Natural Weapon (Fangs)</name>
-      <category>Drake</category>
-      <action>None</action>
-      <type>P</type>
-      <duration>Always</duration>
-      <range>Touch</range>  
       <bonus>
         <naturalweapon>
           <name>Dracoform Fangs</name>
@@ -68,20 +54,11 @@
           <page>163</page>
         </naturalweapon>
       </bonus>
-      <karma>5</karma>
-      <source>HS</source>
-      <page>164</page>
     </power>
     <power> <!-- Additional Natural Weapons (Tail) -->
       <id>82fea3f7-8e46-4a6a-a7fd-f5dc74046dac</id>
       <name>Natural Weapon (Tail)</name>
-      <category>Drake</category>
-      <action>None</action>
-      <type>P</type>
-      <duration>Always</duration>
-      <range>Touch</range>  
       <bonus>
-        <bonus>
         <naturalweapon>
           <name>Dracoform Tail</name>
           <reach>1</reach>
@@ -92,20 +69,11 @@
           <source>HS</source>
           <page>163</page>
         </naturalweapon>
-        </bonus>
       </bonus>
-      <karma>5</karma>
-      <source>HS</source>
-      <page>164</page>
     </power>
     <power> <!-- Additional Natural Weapons (Horns)-->
       <id>c8384789-1127-4846-bc28-3a6922b825a9</id>
       <name>Natural Weapon (Horns)</name>
-      <category>Drake</category>
-      <action>None</action>
-      <type>P</type>
-      <duration>Always</duration>
-      <range>Touch</range>  
       <bonus>
         <naturalweapon>
           <name>Dracoform Horns</name>
@@ -118,9 +86,6 @@
           <page>164</page>
         </naturalweapon>
       </bonus>
-      <karma>5</karma>
-      <source>HS</source>
-      <page>164</page>
     </power>
     <power><!-- Dracoform Mastery -->
       <name>Dracoform Mastery</name>
