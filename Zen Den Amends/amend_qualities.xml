@@ -4,7 +4,7 @@
 		<hide />
 	  </quality>
 	  <quality><!-- Cyber-snob -->
-		<name><!-- Cyber-snob --></name>
+		<name>Cyber-snob</name>
 		<karma>-6</karma>
 		<bonus amendoperation="replace">
 		  <disablebiowaregrade>Standard</disablebiowaregrade>
