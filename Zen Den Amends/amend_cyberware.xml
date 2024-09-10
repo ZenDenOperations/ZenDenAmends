@@ -45,20 +45,6 @@
     </grade>
   </grades>
   <cyberwares>
-    <cyberware>
-		<name>Move-by-Wire System</name>
-		<bonus>
-			<disablequality amendoperation="remove" />
-		</bonus>
-    </cyberware>
-    <cyberware>
-      <name>Wired Reflexes</name>
-      <ess amendoperation="replace">FixedValues(2,3,4)</ess>
-      <cost amendoperation="replace">FixedValues(50000,100000,150000)</cost>
-      <bonus>
-        <disablequality amendoperation="remove" />
-      </bonus>
-    </cyberware>
     <cyberware>  <!-- skilljack -->
       <id>c533c0db-3a04-4fdd-95f9-d4d9781a3e79</id>
       <hide />
