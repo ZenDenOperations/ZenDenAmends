@@ -45,20 +45,6 @@
     </grade>
   </grades>
   <cyberwares>
-    <cyberware>
-		<id>31d32ab0-107c-4410-9148-7b2501db12be</id>  <!-- Move-by-Wire-->
-		<bonus amendoperation ="replace">
-			<initiative precedence="0">FixedValues(3,6,9)</initiative>
-			<initiativepass precedence="0">FixedValues(0,1,1)</initiativepass>
-			<skillwire precedence="0">Rating * 2</skillwire>
-			<sociallimit>-Rating</sociallimit>
-			<specificattribute>
-				<name>REA</name>
-				<val>Rating</val>
-			</specificattribute>
-		</bonus>
-    </cyberware>
-	
     <cyberware>  <!-- skilljack -->
       <id>c533c0db-3a04-4fdd-95f9-d4d9781a3e79</id>
       <hide />

@@ -31,77 +31,377 @@
       <source>RF</source>
       <page>116</page>
     </power>
-	  <power>
-		<id>ee6ac7f2-09e6-4873-87e0-8dc67fdc532f</id>
-		<name>Infected Improvement (Strength)</name>
-		<bonus>
-		  <specificattribute>
-			<name>STR</name>
-			<min>1</min>
-		  </specificattribute>
-		</bonus>
-		<source>RF</source>
-		<page>116</page>
-	  </power>
-	  <power>
-		<id>66fdc416-a71b-4781-b70b-4ab7732e15bb</id>
-		<name>Infected Improvement (Reaction)</name>
-		<bonus>
-		  <specificattribute>
-			<name>REA</name>
-			<min>1</min>
-		  </specificattribute>
-		</bonus>
-		<source>RF</source>
-		<page>116</page>
-	  </power>
-	  <power>
-		<id>f4fcb86c-3157-4b29-a958-3df5c3433f34</id>
-		<name>Infected Improvement (Charisma)</name>
-		<bonus>
-		  <specificattribute>
-			<name>CHA</name>
-			<min>1</min>
-		  </specificattribute>
-		</bonus>
-		<source>RF</source>
-		<page>116</page>
-	  </power>
-	  <power>
-		<id>77bddbd4-d0dc-4e4c-ae1b-6ba8c0abee76</id>
-		<name>Infected Improvement (Logic)</name>
-		<bonus>
-		  <specificattribute>
-			<name>LOG</name>
-			<min>1</min>
-		  </specificattribute>
-		</bonus>
-		<source>RF</source>
-		<page>116</page>
-	  </power>
-	  <power>
-		<id>9baa20a1-54eb-4e54-b23e-8758cf610f68</id>
-		<name>Infected Improvement (Intuition)</name>
-		<bonus>
-		  <specificattribute>
-			<name>INT</name>
-			<min>1</min>
-		  </specificattribute>
-		</bonus>
-		<source>RF</source>
-		<page>116</page>
-	  </power>
-	  <power>
-		<id>97f24e7b-5c11-4579-824e-730347c0203e</id>
-		<name>Infected Improvement (Willpower)</name>
-		<bonus>
-		  <specificattribute>
-			<name>WIL</name>
-			<min>1</min>
-		  </specificattribute>
-		</bonus>
-		<source>RF</source>
-		<page>116</page>
-	  </power>
+    <power>
+    <id>ee6ac7f2-09e6-4873-87e0-8dc67fdc532f</id>
+    <name>Infected Improvement (Strength)</name>
+    <bonus>
+      <specificattribute>
+      <name>STR</name>
+      <min>1</min>
+      </specificattribute>
+    </bonus>
+    <source>RF</source>
+    <page>116</page>
+    </power>
+    <power>
+    <id>66fdc416-a71b-4781-b70b-4ab7732e15bb</id>
+    <name>Infected Improvement (Reaction)</name>
+    <bonus>
+      <specificattribute>
+      <name>REA</name>
+      <min>1</min>
+      </specificattribute>
+    </bonus>
+    <source>RF</source>
+    <page>116</page>
+    </power>
+    <power>
+    <id>f4fcb86c-3157-4b29-a958-3df5c3433f34</id>
+    <name>Infected Improvement (Charisma)</name>
+    <bonus>
+      <specificattribute>
+      <name>CHA</name>
+      <min>1</min>
+      </specificattribute>
+    </bonus>
+    <source>RF</source>
+    <page>116</page>
+    </power>
+    <power>
+    <id>77bddbd4-d0dc-4e4c-ae1b-6ba8c0abee76</id>
+    <name>Infected Improvement (Logic)</name>
+    <bonus>
+      <specificattribute>
+      <name>LOG</name>
+      <min>1</min>
+      </specificattribute>
+    </bonus>
+    <source>RF</source>
+    <page>116</page>
+    </power>
+    <power>
+    <id>9baa20a1-54eb-4e54-b23e-8758cf610f68</id>
+    <name>Infected Improvement (Intuition)</name>
+    <bonus>
+      <specificattribute>
+      <name>INT</name>
+      <min>1</min>
+      </specificattribute>
+    </bonus>
+    <source>RF</source>
+    <page>116</page>
+    </power>
+    <power>
+    <id>97f24e7b-5c11-4579-824e-730347c0203e</id>
+    <name>Infected Improvement (Willpower)</name>
+    <bonus>
+      <specificattribute>
+      <name>WIL</name>
+      <min>1</min>
+      </specificattribute>
+    </bonus>
+    <source>RF</source>
+    <page>116</page>
+    </power>
+    <!-- Drake powers-->
+    <power> <!-- Body -->
+      <id>baf877b5-f1fb-4d95-9aab-4cc916d41585</id>
+      <name>Drake Attribute (Body)</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>15</karma>  
+      <required>
+        <oneof>
+          <quality>Dracoform (Eastern Drake)</quality>
+          <quality>Dracoform (Western Drake)</quality>
+          <quality>Dracoform (Feathered Drake)</quality>
+          <quality>Dracoform (Sea Drake)</quality>
+        </oneof>
+      </required>
+      <bonus>
+        <specificattribute>
+          <name>BOD</name>
+          <min>1</min>
+        </specificattribute>
+      </bonus>
+      <source>HS</source>
+      <page>164</page>
+    </power>
+    <power> <!-- Agility -->
+      <id>c88df586-c168-423f-90f8-7f096bdd156c</id>
+      <name>Drake Attribute (Agility)</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>15</karma>  
+      <required>
+        <oneof>
+          <quality>Dracoform (Eastern Drake)</quality>
+          <quality>Dracoform (Feathered Drake)</quality>
+        </oneof>
+      </required>
+      <bonus>
+        <specificattribute>
+          <name>AGI</name>
+          <min>1</min>
+        </specificattribute>
+      </bonus>
+      <source>HS</source>
+      <page>164</page>
+    </power>
+    <power> <!-- Reaction -->
+      <id>af3097a7-80c8-4834-b665-a2d7ab87d613</id>
+      <name>Drake Attribute (Reaction)</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>15</karma>  
+      <required>
+        <oneof>
+          <quality>Dracoform (Feathered Drake)</quality>
+          <quality>Dracoform (Sea Drake)</quality>
+        </oneof>
+      </required>
+      <bonus>
+        <specificattribute>
+          <name>REA</name>
+          <min>1</min>
+        </specificattribute>
+      </bonus>
+      <source>HS</source>
+    <page>164</page>
+    </power>
+    <power> <!-- Strength -->
+      <id>ccc4d0ba-b31c-44ae-a827-0e2d74e93aa6</id>
+      <name>Drake Attribute (Strength)</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>15</karma>  
+      <required>
+        <oneof>
+          <quality>Dracoform (Eastern Drake)</quality>
+          <quality>Dracoform (Western Drake)</quality>
+          <quality>Dracoform (Feathered Drake)</quality>
+          <quality>Dracoform (Sea Drake)</quality>
+        </oneof>
+      </required>
+      <bonus>
+        <specificattribute>
+          <name>STR</name>
+          <min>1</min>
+        </specificattribute>
+      </bonus>
+      <source>HS</source>
+      <page>164</page>
+    </power>
+    <power> <!-- Charisma -->
+      <id>36009bae-f523-44c4-882c-fc48d45b0c73</id>
+      <name>Drake Attribute (Charisma)</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>15</karma>  
+      <required>
+        <oneof>
+          <quality>Dracoform (Western Drake)</quality>
+        </oneof>
+      </required>
+      <bonus>
+        <specificattribute>
+          <name>CHA</name>
+          <min>1</min>
+        </specificattribute>
+      </bonus>
+      <source>HS</source>
+      <page>164</page>
+    </power>
+    <power> <!-- Intuition -->
+      <id>572ffe8f-67eb-454d-a2a8-f0ad6fd45416</id>
+      <name>Drake Attribute (Intuition)</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>15</karma>  
+      <required>
+        <oneof>
+          <quality>Dracoform (Sea Drake)</quality>
+        </oneof>
+      </required>
+      <bonus>
+        <specificattribute>
+          <name>INT</name>
+          <min>1</min>
+        </specificattribute>
+      </bonus>
+      <source>HS</source>
+      <page>164</page>
+    </power>
+    <power> <!-- Logic -->
+      <id>4eb3e75c-d705-4aeb-8083-faa50d7ca51e</id>
+      <name>Drake Attribute (Logic)</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>15</karma>  
+      <required>
+        <oneof>
+          <quality>Dracoform (Eastern Drake)</quality>
+        </oneof>
+      </required>
+      <bonus>
+        <specificattribute>
+          <name>LOG</name>
+          <min>1</min>
+        </specificattribute>
+      </bonus>
+      <source>HS</source>
+      <page>164</page>
+    </power>
+    <power> <!-- Willpower -->
+      <id>481303f1-c1a7-4565-9dee-e0c131d8d6e8</id>
+      <name>Drake Attribute (Willpower)</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>15</karma>  
+      <required>
+        <oneof>
+          <quality>Dracoform (Feathered Drake)</quality>
+        </oneof>
+      </required>
+      <bonus>
+        <specificattribute>
+          <name>WIL</name>
+          <min>1</min>
+        </specificattribute>
+      </bonus>
+      <source>HS</source>
+      <page>164</page>
+    </power>
+    <power> <!-- Hardened Armor -->
+      <id>fb988ca8-e45a-41d7-80c0-f3ed3e1babc7</id>
+      <name>Hardened Armor</name>
+      <category>Drake</category>
+      <rating>True</rating>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>6</karma>
+      <source>HS</source>
+      <page>165</page>
+    </power>
+    <power> <!-- Hardened Mystic Armor -->
+      <id>6ff7758d-a840-49b0-9897-bdfd88902706</id>
+      <name>Hardened Mystic Armor</name>
+      <rating>True</rating>
+      <category>Drake</category>
+      <type>M</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <karma>6</karma>
+      <source>HS</source>
+      <page>165</page>
+    </power>
+    <power> <!-- Elemental Attack -->
+      <id>e9c227d9-1a76-44ff-afae-b51aeb13415b</id>
+      <name>Elemental Attack</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Complex</action>
+      <range>LOS</range>
+      <duration>Instant</duration>
+      <bonus>
+        <naturalweapon>
+          <name>Elemental Attack</name>
+          <reach>0</reach>
+          <damage>({MAG}*2)P</damage>
+          <ap>-({MAG})</ap>
+          <useskill>Breath</useskill>
+          <accuracy>Physical</accuracy>
+          <source>HS</source>
+          <page>163</page>
+        </naturalweapon>
+        <selecttext />
+      </bonus>
+      <karma>15</karma>
+      <source>HS</source>
+      <page>165</page>
+    </power>
+    <power> <!-- Vestigial Wings -->
+      <id>72ad9d11-d266-4e73-8902-6ad68cabeaa0</id>
+      <name>Vestigial Wings</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>None</action>
+      <range>Touch</range>
+      <duration>Always</duration>      
+      <required>
+        <oneof>
+          <quality>Dracoform (Eastern Drake)</quality>
+          <quality>Dracoform (Western Drake)</quality>
+          <quality>Dracoform (Feathered Drake)</quality>
+        </oneof>
+      </required>
+      <bonus>
+        <power>Vestigial Wings</power>
+      </bonus>
+      <karma>11</karma>
+      <source>HS</source>
+      <page>164</page>
+    </power>
+    <power> <!-- Underwater Adaptation -->
+      <id>4cc3a1fa-acbe-4f05-a4b9-2fc3979bc467</id>
+      <name>Underwater Adaptation</name>
+      <category>Drake</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Touch</range>
+      <duration>Always</duration>>
+      <required>
+        <oneof>
+          <quality>Dracoform (Sea Drake)</quality>
+        </oneof>
+      </required>
+      <bonus>
+        <movementreplace>
+          <category>Swim</category>
+          <speed>walk</speed>
+          <val>3</val>
+        </movementreplace>
+        <movementreplace>
+          <category>Swim</category>
+          <speed>run</speed>
+          <val>6</val>
+        </movementreplace>
+        <movementreplace>
+          <category>Swim</category>
+          <speed>sprint</speed>
+          <val>500</val>
+        </movementreplace>
+      </bonus>
+      <karma>11</karma>
+      <source>HS</source>
+      <page>164</page>
+    </power>
   </powers>
 </chummer>

@@ -34,32 +34,6 @@
   </grades>
   <biowares>
     <bioware>
-      <name>Synaptic Booster</name>
-      <bonus amendoperation ="replace">
-        <initiativepass precedence="0">Rating</initiativepass>
-        <specificattribute>
-          <name>REA</name>
-          <val>Rating</val>
-        </specificattribute>
-      </bonus>
-    </bioware>
-    <bioware>
-      <name>Boosted Reflexes</name>
-      <bonus amendoperation="replace">
-        <initiativepass precedence="0">1</initiativepass>
-      </bonus>
-    </bioware>
-    <bioware>
-      <name>Synaptic Acceleration</name>
-      <bonus amendoperation="replace">
-        <bonus>
-          <dodge>1</dodge>
-          <initiative precedence="0">1</initiative>
-          <initiativepass precedence="0">1</initiativepass>
-        </bonus>
-      </bonus>
-    </bioware>
-    <bioware>
       <name>Bone Density Augmentation</name>
       <ess>Rating * 0.25</ess>
     </bioware>

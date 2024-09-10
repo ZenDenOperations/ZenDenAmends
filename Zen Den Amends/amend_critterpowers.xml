@@ -1,19 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema critterpowers.xsd">
+ xsi:schemaLocation="http://www.w3.org/2001/XMLSchema critterpowers.xsd">
   <powers>
     <power>
       <name>Terrorscape</name>
       <required>
-        <oneof>
-			<quality>Infected: Vampire</quality>
-        </oneof>
+          <oneof>
+            <quality>Infected: Vampire</quality>
+          </oneof>
       </required>
     </power>
     <power>
       <name>Mimicry</name>
-	  <hide />
+      <hide />
+    </power>
+    <power>
+      <id>98928dbd-5b79-4dde-bc92-56dc317e293b</id>
+      <hide />
+    </power>
+    <power> <!-- Natural Weapons -->
+      <id>edd8b53d-ada6-4106-b8ef-111b5cb1fb40</id>
+      <hide />
+    </power>
+    <power> <!-- Additional Natural Weapons (Claws) -->
+      <id>1c2b88fd-d2bb-4a82-ad8f-a51164ad34c9</id>
+      <name>Natural Weapon (Claws)</name>
+      <bonus>
+        <naturalweapon>
+          <name>Dracoform Claws</name>
+          <reach>0</reach>
+          <damage>({STR}+1)P</damage>
+          <ap>-1</ap>
+          <useskill>Unarmed Combat</useskill>
+          <accuracy>Physical</accuracy>
+          <source>HS</source>
+          <page>163</page>
+        </naturalweapon>
+      </bonus>
+    </power>
+    <power> <!-- Additional Natural Weapons (Fangs)-->
+      <id>b5dfe517-a722-4503-be5d-9fdd7a5653c4</id>
+      <name>Natural Weapon (Fangs)</name>
+      <bonus>
+        <naturalweapon>
+          <name>Dracoform Fangs</name>
+          <reach>0</reach>
+          <damage>({STR}+2)P</damage>
+          <ap>-1</ap>
+          <useskill>Unarmed Combat</useskill>
+          <accuracy>Physical</accuracy>
+          <source>HS</source>
+          <page>163</page>
+        </naturalweapon>
+      </bonus>
+    </power>
+    <power> <!-- Additional Natural Weapons (Tail) -->
+      <id>82fea3f7-8e46-4a6a-a7fd-f5dc74046dac</id>
+      <name>Natural Weapon (Tail)</name>
+      <bonus>
+        <naturalweapon>
+          <name>Dracoform Tail</name>
+          <reach>1</reach>
+          <damage>({STR}+3)P</damage>
+          <ap>-1</ap>
+          <useskill>Unarmed Combat</useskill>
+          <accuracy>Physical</accuracy>
+          <source>HS</source>
+          <page>163</page>
+        </naturalweapon>
+      </bonus>
+    </power>
+    <power> <!-- Additional Natural Weapons (Horns)-->
+      <id>c8384789-1127-4846-bc28-3a6922b825a9</id>
+      <name>Natural Weapon (Horns)</name>
+      <bonus>
+        <naturalweapon>
+          <name>Dracoform Horns</name>
+          <reach>0</reach>
+          <damage>Special</damage>
+          <ap>0</ap>
+          <useskill>Breath</useskill>
+          <accuracy>Physical</accuracy>
+          <source>HS</source>
+          <page>164</page>
+        </naturalweapon>
+      </bonus>
+    </power>
+    <power><!-- Dracoform Mastery -->
+      <name>Dracoform Mastery</name>
+      <karma amendoperation="replace">25</karma>
+    </power>
+    <power><!-- Noxious Breath -->
+      <name>Noxious Breath</name>
+      <bonus amendoperation="Replace">
+        <naturalweapon>
+          <name>Noxious Breath</name>
+          <reach>0</reach>
+          <damage>Special</damage>
+          <ap>0</ap>
+          <useskill>Breath</useskill>
+          <accuracy>Physical</accuracy>
+          <source>HS</source>
+          <page>163</page>
+        </naturalweapon>
+      </bonus>
+    </power>
+    <power><!-- Corrosive Spit -->
+      <id>afa7c218-9171-4354-b694-14b1cecd93ff</id>
+      <name>Corrosive Spit</name>
+      <bonus amendoperation="Replace">
+        <naturalweapon>
+          <name>Corrosive Spit</name>
+          <reach>0</reach>
+          <damage>({MAG}*2)P</damage>
+          <ap>-({MAG})</ap>
+          <useskill>Breath</useskill>
+          <accuracy>Physical</accuracy>
+          <source>HS</source>
+          <page>163</page>
+        </naturalweapon>
+      </bonus>
     </power>
   </powers>
 </chummer>
