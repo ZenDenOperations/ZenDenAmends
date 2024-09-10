@@ -1399,6 +1399,7 @@
     <quality><!-- Latent Dracomorphosis -->
 	  <id>e132257f-14d8-4e5a-9f20-ae6af29649d5</id>
 	  <name>Latent Dracomorphosis</name>
+	  <doublecareer>False</doublecareer>
 	  <forbidden amendoperation="replace">
 		  <oneof>
 			<quality>Dracoform (Eastern Drake)</quality>
