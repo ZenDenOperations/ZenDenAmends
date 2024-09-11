@@ -933,6 +933,7 @@
 		  <required>
 			<allof>
 			  <magenabled />
+			  <quality>Items of Power I</quality>
 			</allof>
 			<oneof>
 			  <skill>
@@ -969,6 +970,7 @@
 		  <required>
 			<allof>
 			  <magenabled />
+			  <quality>Items of Power II</quality>
 			</allof>
 			<oneof>
 			  <skill>
@@ -979,7 +981,7 @@
 				<name>Arcana</name>
 				<val>9</val>
 			  </skill>
-			  <allof>
+			  <group>
 				<skill>
 					<name>Artificing</name>
 					<val>6</val>
@@ -988,8 +990,8 @@
 					<name>Arcana</name>
 					<val>3</val>
 				</skill>
-			  </allof>
-			  <allof>
+			  </group>
+			  <group>
 				<skill>
 					<name>Artificing</name>
 					<val>3</val>
@@ -998,7 +1000,7 @@
 					<name>Arcana</name>
 					<val>6</val>
 				</skill>
-			  </allof>
+			  </group>
 			</oneof>
 		  </required>
 		  <source>FA</source>
