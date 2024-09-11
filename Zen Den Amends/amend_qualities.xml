@@ -181,7 +181,7 @@
 		<canbuywithspellpoints>True</canbuywithspellpoints>
 		<doublecareer>False</doublecareer>
 		<bonus />
-		<required>
+		<required amendoperation="replace">
 		<allof>
 		  <magenabled />
 		</allof>
