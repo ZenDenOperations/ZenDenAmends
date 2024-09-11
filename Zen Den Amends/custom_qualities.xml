@@ -933,6 +933,7 @@
 		  <required>
 			<allof>
 			  <magenabled />
+			  <quality>Items of Power I</quality>
 			</allof>
 			<oneof>
 			  <skill>
@@ -969,6 +970,7 @@
 		  <required>
 			<allof>
 			  <magenabled />
+			  <quality>Items of Power II</quality>
 			</allof>
 			<oneof>
 			  <skill>
