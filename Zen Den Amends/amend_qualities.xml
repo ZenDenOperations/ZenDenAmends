@@ -181,7 +181,7 @@
 		<canbuywithspellpoints>True</canbuywithspellpoints>
 		<doublecareer>False</doublecareer>
 		<bonus />
-		<required>
+		<required amendoperation="replace">
 		<allof>
 		  <magenabled />
 		</allof>
@@ -207,6 +207,42 @@
 		  <name>Lucky</name>
 		<forbidden amendoperation="remove" />
 	  </quality>
+	  </quality>
+	  <quality>
+	    <name>Changeling (Class I SURGE)</name>
+	    <forbidden amendoperation="replace">
+	  	<oneof>
+		  <quality>Changeling (Class II SURGE)</quality>
+		  <quality>Changeling (Class III SURGE)</quality>
+		</oneof>
+	    </forbidden>
+	  </quality>
+	  <quality>
+	    <name>Changeling (Class II SURGE)</name>
+	    <forbidden amendoperation="replace">
+		<oneof>
+		  <quality>Changeling (Class I SURGE)</quality>
+		  <quality>Changeling (Class III SURGE)</quality>
+		</oneof>
+	    </forbidden>
+	  </quality>
+	  <quality>
+	    <name>Changeling (Class III SURGE)</name>
+	    <forbidden amendoperation="replace">
+		<oneof>
+		  <quality>Changeling (Class I SURGE)</quality>
+		  <quality>Changeling (Class II SURGE)</quality>
+		</oneof>
+	    </forbidden>
+	  </quality>
+	  <quality>
+		<name>Lightning Reflexes</name>
+		<bonus amendoperation="replace">
+			<dodge>1</dodge>
+			<initiative precedence="-1">1</initiative>
+			<initiativepass precedence="-1">1</initiativepass>
+		</bonus>
+	  </quality>	  
 	  <!-- End Region -->
 	  <!-- Region Banned Positive Qualities -->
 	  <quality><!-- Better to be Feathered Than Loved -->
