@@ -207,33 +207,32 @@
 		  <name>Lucky</name>
 		<forbidden amendoperation="remove" />
 	  </quality>
+	  <quality>
+		  <name>Changeling (Class I SURGE)</name>
+		  <forbidden amendoperation="replace">
+			<oneof>
+			  <quality>Changeling (Class II SURGE)</quality>
+			  <quality>Changeling (Class III SURGE)</quality>
+			</oneof>
+		  </forbidden>
 	  </quality>
 	  <quality>
-	    <name>Changeling (Class I SURGE)</name>
-	    <forbidden amendoperation="replace">
-	  	<oneof>
-		  <quality>Changeling (Class II SURGE)</quality>
-		  <quality>Changeling (Class III SURGE)</quality>
-		</oneof>
-	    </forbidden>
+		  <name>Changeling (Class II SURGE)</name>
+		  <forbidden amendoperation="replace">
+			<oneof>
+			  <quality>Changeling (Class I SURGE)</quality>
+			  <quality>Changeling (Class III SURGE)</quality>
+			</oneof>
+		  </forbidden>
 	  </quality>
 	  <quality>
-	    <name>Changeling (Class II SURGE)</name>
-	    <forbidden amendoperation="replace">
-		<oneof>
-		  <quality>Changeling (Class I SURGE)</quality>
-		  <quality>Changeling (Class III SURGE)</quality>
-		</oneof>
-	    </forbidden>
-	  </quality>
-	  <quality>
-	    <name>Changeling (Class III SURGE)</name>
-	    <forbidden amendoperation="replace">
-		<oneof>
-		  <quality>Changeling (Class I SURGE)</quality>
-		  <quality>Changeling (Class II SURGE)</quality>
-		</oneof>
-	    </forbidden>
+		  <name>Changeling (Class III SURGE)</name>
+		  <forbidden amendoperation="replace">
+			<oneof>
+			  <quality>Changeling (Class I SURGE)</quality>
+			  <quality>Changeling (Class II SURGE)</quality>
+			</oneof>
+		  </forbidden>
 	  </quality>
 	  <quality>
 		<name>Lightning Reflexes</name>
@@ -242,7 +241,7 @@
 			<initiative precedence="-1">1</initiative>
 			<initiativepass precedence="-1">1</initiativepass>
 		</bonus>
-	  </quality>	  
+	  </quality>
 	  <!-- End Region -->
 	  <!-- Region Banned Positive Qualities -->
 	  <quality><!-- Better to be Feathered Than Loved -->
@@ -1094,6 +1093,13 @@
 		<name>Soul Swallower</name>
 		<hide />
 	  </quality>
+	  <quality xpathfilter="id = 'f466b913-5df0-4370-abf0-fad4ab380d19' or id = 'b0460fde-7bf8-4e77-b402-6fe7143aa590' or id = 'ad81bcdf-2f45-4ca3-ab46-c766fd734800'">  <!-- Infected Optional Power: Armor, Infected Optional Power: Immunity (Pathogens), Infected Optional Power: Immunity (Toxins) -->
+		  <required>
+			<oneof>
+			  <quality amendoperation="addnode">Infected: Ghoul</quality>
+			</oneof>
+		  </required>
+      </quality>
 	  <!-- End Region -->
 	  <!-- Region Infected Optional Powers -->
 	  <quality><!-- Infected Optional Power: Compulsion -->
