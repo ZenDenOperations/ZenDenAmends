@@ -221,6 +221,11 @@
 			<order>4</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
+		<customdatadirectoryname>
+			<directoryname>90be9581-a053-45ec-b6a8-13b5ae139c09&gt;1.0</directoryname>
+			<order>5</order>
+			<enabled>True</enabled>
+		</customdatadirectoryname>
 	</customdatadirectorynames>
 	<buildmethod>SumtoTen</buildmethod>
 	<buildpoints>25</buildpoints>
@@ -229,6 +234,9 @@
 	<prioritytable>Standard</prioritytable>
 	<sumtoten>11</sumtoten>
 	<availability>12</availability>
+	<maxmartialarts>1</maxmartialarts>
+	<maxmartialtechniques>5</maxmartialtechniques>
+	<nuyencarryover>5000</nuyencarryover>
 	<nuyenmaxbp>10</nuyenmaxbp>
 	<bannedwaregrades>
 		<grade>Greyware</grade>
