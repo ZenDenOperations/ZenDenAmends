@@ -1140,27 +1140,10 @@
 	  </quality>
 	  <quality><!-- Infected Optional Power: Mist Form -->
 		<name>Infected Optional Power: Mist Form</name>
-		<required>
+		<required amendoperation="Replace">
 		  <oneof>
 			<quality>Infected: Banshee</quality>
 			<quality>Infected: Vampire</quality>
-		  </oneof>
-		</required>
-	  </quality>
-	  <quality><!-- Infected Optional Power: Armor -->
-		<name>Infected Optional Power: Armor</name>
-		<required amendoperation="replace">
-		  <oneof>
-			<quality>Infected: Dzoo-Noo-Qua</quality>
-			<quality>Infected: Dzoo-Noo-Qua (Cyclops)</quality>
-			<quality>Infected: Dzoo-Noo-Qua (Fomorian)</quality>
-			<quality>Infected: Dzoo-Noo-Qua (Giant)</quality>
-			<quality>Infected: Dzoo-Noo-Qua (Minotaur)</quality>
-			<quality>Infected: Gnawer</quality>
-			<quality>Infected: Gnawer (Gnome)</quality>
-			<quality>Infected: Gnawer (Hanuman)</quality>
-			<quality>Infected: Gnawer (Koborokuru)</quality>
-			<quality>Infected: Gnawer (Menehune)</quality>
 		  </oneof>
 		</required>
 	  </quality>
@@ -1169,20 +1152,9 @@
 		<required amendoperation="replace">
 		  <oneof>
 			<quality>Infected: Banshee</quality>
-			<quality>Infected: Banshee (Dryad)</quality>
-			<quality>Infected: Banshee (Nocturna)</quality>
-			<quality>Infected: Banshee (Xapiri Thepe)</quality>
 			<quality>Infected: Dzoo-Noo-Qua</quality>
-			<quality>Infected: Dzoo-Noo-Qua (Cyclops)</quality>
-			<quality>Infected: Dzoo-Noo-Qua (Fomorian)</quality>
-			<quality>Infected: Dzoo-Noo-Qua (Giant)</quality>
-			<quality>Infected: Dzoo-Noo-Qua (Minotaur)</quality>
 			<quality>Infected: Vampire</quality>
 			<quality>Infected: Wendigo</quality>
-			<quality>Infected: Wendigo (Hobgoblin)</quality>
-			<quality>Infected: Wendigo (Ogre)</quality>
-			<quality>Infected: Wendigo (Oni)</quality>
-			<quality>Infected: Wendigo (Satyr)</quality>
 		  </oneof>
 		</required>
 	  </quality>
@@ -1191,15 +1163,8 @@
 		<required amendoperation="replace">
 		  <oneof>
 			<quality>Infected: Banshee</quality>
-			<quality>Infected: Banshee (Dryad)</quality>
-			<quality>Infected: Banshee (Nocturna)</quality>
-			<quality>Infected: Banshee (Xapiri Thepe)</quality>
 			<quality>Infected: Vampire</quality>
 			<quality>Infected: Wendigo</quality>
-			<quality>Infected: Wendigo (Hobgoblin)</quality>
-			<quality>Infected: Wendigo (Ogre)</quality>
-			<quality>Infected: Wendigo (Oni)</quality>
-			<quality>Infected: Wendigo (Satyr)</quality>
 		  </oneof>
 		</required>
 	  </quality>
@@ -1208,10 +1173,6 @@
 		<required amendoperation="replace">
 		  <oneof>
 			<quality>Infected: Wendigo</quality>
-			<quality>Infected: Wendigo (Hobgoblin)</quality>
-			<quality>Infected: Wendigo (Ogre)</quality>
-			<quality>Infected: Wendigo (Oni)</quality>
-			<quality>Infected: Wendigo (Satyr)</quality>
 		  </oneof>
 		</required>
 	  </quality>
@@ -1220,40 +1181,6 @@
 		<required amendoperation="replace">
 		  <oneof>
 			<quality>Infected: Vampire</quality>
-		  </oneof>
-		</required>
-	  </quality>
-	  <quality><!-- Infected Optional Power: Immunity (Pathogens) -->
-		<name>Infected Optional Power: Immunity (Pathogens)</name>
-		<required amendoperation="replace">
-		  <oneof>
-			<quality>Infected: Banshee</quality>
-			<quality>Infected: Banshee (Dryad)</quality>
-			<quality>Infected: Banshee (Nocturna)</quality>
-			<quality>Infected: Banshee (Xapiri Thepe)</quality>
-			<quality>Infected: Vampire</quality>
-			<quality>Infected: Wendigo</quality>
-			<quality>Infected: Wendigo (Hobgoblin)</quality>
-			<quality>Infected: Wendigo (Ogre)</quality>
-			<quality>Infected: Wendigo (Oni)</quality>
-			<quality>Infected: Wendigo (Satyr)</quality>
-		  </oneof>
-		</required>
-	  </quality>
-	  <quality><!-- Infected Optional Power: Immunity (Toxins) -->
-		<name>Infected Optional Power: Immunity (Toxins)</name>
-		<required amendoperation="replace">
-		  <oneof>
-			<quality>Infected: Banshee</quality>
-			<quality>Infected: Banshee (Dryad)</quality>
-			<quality>Infected: Banshee (Nocturna)</quality>
-			<quality>Infected: Banshee (Xapiri Thepe)</quality>
-			<quality>Infected: Vampire</quality>
-			<quality>Infected: Wendigo</quality>
-			<quality>Infected: Wendigo (Hobgoblin)</quality>
-			<quality>Infected: Wendigo (Ogre)</quality>
-			<quality>Infected: Wendigo (Oni)</quality>
-			<quality>Infected: Wendigo (Satyr)</quality>
 		  </oneof>
 		</required>
 	  </quality>
