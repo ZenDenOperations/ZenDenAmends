@@ -207,6 +207,24 @@
 		  <name>Lucky</name>
 		<forbidden amendoperation="remove" />
 	  </quality>
+	  <quality><!-- Dedicated Spellslinger -->
+		  <name>EDedicated Spellslinger</name>
+		<forbidden>
+       			<oneof>
+          			<name>Dedicated Conjurer</name>
+				<name>Dedicated Alchemist</name>
+        		</oneof>
+      		</forbidden>
+	  </quality>
+	  <quality><!-- Dedicated Conjurer  -->
+		  <name>Dedicated Conjurer</name>
+		<forbidden>
+       			<oneof>
+          			<name>Dedicated Spellslinger</name>
+				<name>Dedicated Alchemist</name>
+        		</oneof>
+      		</forbidden>
+	  </quality>
 	  <quality>
 		  <name>Changeling (Class I SURGE)</name>
 		  <forbidden amendoperation="replace">
