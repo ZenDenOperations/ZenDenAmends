@@ -835,6 +835,12 @@
 					</skill>
 				</oneof>
 			</required>
+			<forbidden>
+       				<oneof>
+          				<name>Dedicated Conjurer</name>
+					<name>Dedicated Spellslinger</name>
+        			</oneof>
+      			</forbidden>
 			<source>ZDR</source>
 			<page>0</page>
 		</quality>
