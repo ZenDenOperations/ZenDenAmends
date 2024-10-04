@@ -1295,7 +1295,6 @@
 		<name>Dracoform (Eastern Drake)</name>
 		<karma>15</karma>
 		<doublecareer>False</doublecareer>
-		<careeronly />
 		<forbidden>
 		  <quality>Latent Dracomorphosis</quality>
 		  <quality>Dracoform (Western Drake)</quality>
@@ -1318,7 +1317,6 @@
 		<name>Dracoform (Western Drake)</name>
 		<karma>15</karma>
 		<doublecareer>False</doublecareer>
-		<careeronly />
 		<forbidden>
 		  <quality>Latent Dracomorphosis</quality>
 		  <quality>Dracoform (Eastern Drake)</quality>
@@ -1341,7 +1339,6 @@
 		<name>Dracoform (Feathered Drake)</name>
 		<karma>15</karma>
 		<doublecareer>False</doublecareer>
-		<careeronly />
 		<forbidden>
 		  <quality>Latent Dracomorphosis</quality>
 		  <quality>Dracoform (Eastern Drake)</quality>
@@ -1364,7 +1361,6 @@
 		<name>Dracoform (Sea Drake)</name>
 		<karma>15</karma>
 		<doublecareer>False</doublecareer>
-		<careeronly />
 		<forbidden>
 		  <quality>Latent Dracomorphosis</quality>
 		  <quality>Dracoform (Eastern Drake)</quality>
