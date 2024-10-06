@@ -261,13 +261,8 @@
 		</bonus>
 	  </quality>
 	  <quality><!-- Gifted Healer -->
-        <id>a8747e12-08b1-4665-8e48-23c30c047be6</id>
         <name>Gifted Healer</name>
-        <karma>2</karma>
-        <category>Positive</category>
         <bonus amendoperation="remove"></bonus>
-        <source>BB</source>
-        <page>11</page>
       </quality>
 	  <!-- End Region -->
 	  <!-- Region Banned Positive Qualities -->
