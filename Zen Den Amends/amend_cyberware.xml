@@ -20,15 +20,7 @@
 <chummer>
   <grades>
     <grade>
-      <name>Gammaware</name>
-	  <hide />
-	</grade>
-    <grade>
       <name>Omegaware</name>
-	  <hide />
-    </grade>
-    <grade>
-      <name>Greyware</name>
 	  <hide />
     </grade>
     <grade>
@@ -37,10 +29,6 @@
     </grade>
     <grade>
       <name>Omegaware (Adapsin)</name>
-	  <hide />
-    </grade>
-	<grade>
-      <name>Greyware (Adapsin)</name>
 	  <hide />
     </grade>
   </grades>
