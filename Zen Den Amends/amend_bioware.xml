@@ -19,16 +19,7 @@
 -->
 <chummer>
   <grades>
-    <grade>
-      <name>Gammaware</name>
-	  <hide />
-	</grade>
-    <grade>
       <name>Omegaware</name>
-	  <hide />
-    </grade>
-    <grade>
-      <name>Greyware</name>
 	  <hide />
     </grade>
   </grades>
