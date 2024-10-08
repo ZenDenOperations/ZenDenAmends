@@ -225,7 +225,7 @@
         		</oneof>
       		</forbidden>
 	  </quality>
-	  <quality>
+	  <quality><!-- Changeling (Class I SURGE) -->
 		  <name>Changeling (Class I SURGE)</name>
 		  <forbidden amendoperation="replace">
 			<oneof>
@@ -234,7 +234,7 @@
 			</oneof>
 		  </forbidden>
 	  </quality>
-	  <quality>
+	  <quality><!-- Changeling (Class II SURGE) -->
 		  <name>Changeling (Class II SURGE)</name>
 		  <forbidden amendoperation="replace">
 			<oneof>
@@ -243,7 +243,7 @@
 			</oneof>
 		  </forbidden>
 	  </quality>
-	  <quality>
+	  <quality><!-- Changeling (Class III SURGE) -->
 		  <name>Changeling (Class III SURGE)</name>
 		  <forbidden amendoperation="replace">
 			<oneof>
@@ -252,7 +252,7 @@
 			</oneof>
 		  </forbidden>
 	  </quality>
-	  <quality>
+	  <quality><!-- Lightning Reflexes -->
 		<name>Lightning Reflexes</name>
 		<bonus amendoperation="replace">
 			<dodge>1</dodge>
@@ -260,6 +260,10 @@
 			<initiativepass precedence="-1">1</initiativepass>
 		</bonus>
 	  </quality>
+	  <quality><!-- Gifted Healer -->
+        <name>Gifted Healer</name>
+        <bonus amendoperation="remove"></bonus>
+      </quality>
 	  <!-- End Region -->
 	  <!-- Region Banned Positive Qualities -->
 	  <quality><!-- Better to be Feathered Than Loved -->
