@@ -1133,8 +1133,8 @@
 			</notes>
 			<forbidden>
 				<oneof>
-					<quality>Wings 2 (functional)</quality>
-					<quality>Wings 3 (Magical Flight)</quality>
+					<quality>Functional Wings (Type II: Functional Wings)</quality>
+					<quality>Functional Wings (Type III: Magical Flight)</quality>
 				</oneof>
 			</forbidden>
 		</quality>
@@ -1187,14 +1187,14 @@
 			</bonus>
 			<forbidden>
 				<oneof>
-					<quality>Wings 1 (Gliders)</quality>
-					<quality>Wings 3 (Magical Flight)</quality>
+					<quality>Functional Wings (Type I: Gliders)</quality>
+					<quality>Functional Wings (Type III: Magical Flight)</quality>
 				</oneof>
 			</forbidden>
 		</quality>
 		<quality>
 			<id>593b87d6-efa8-4220-85a0-28ef1a08e791</id>
-			<name>Functional Wings (Type III: Functional Wings)</name>
+			<name>Functional Wings (Type III: Magical Flight)</name>
 			<karma>15</karma>
 			<category>Positive</category>
 			<metagenic>True</metagenic>
@@ -1235,8 +1235,8 @@ If you ever lose your magic attribute, you can't use the wings this way. Neverth
 			</bonus>
 			<forbidden>
 				<oneof>
-					<quality>Wings 1 (Gliders)</quality>
-					<quality>Wings 2 (functional)</quality>
+					<quality>Functional Wings (Type I: Gliders)</quality>
+					<quality>Functional Wings (Type II: Functional Wings)</quality>
 				</oneof>
 			</forbidden>
 		</quality>
