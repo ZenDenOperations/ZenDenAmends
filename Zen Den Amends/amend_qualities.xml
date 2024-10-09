@@ -261,8 +261,12 @@
 		</bonus>
 	  </quality>
 	  <quality><!-- Gifted Healer -->
-        <name>Gifted Healer</name>
-        <bonus amendoperation="remove"></bonus>
+        <bonus amendoperation="replace">
+			<specificskill>
+			  <name>First Aid</name>
+			  <bonus>1</bonus>
+			</specificskill>
+		</bonus>
       </quality>
 	  <!-- End Region -->
 	  <!-- Region Banned Positive Qualities -->
