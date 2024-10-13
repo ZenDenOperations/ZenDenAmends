@@ -103,6 +103,23 @@
     <source>RF</source>
     <page>116</page>
     </power>
+	<power>
+      <id>723e44aa-988e-4dc8-b796-7288ccd13fd1</id>
+      <name>Venom</name>
+      <category>Paranormal/Infected</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <required>
+        <oneof>
+          <quality>Infected: Goblin</quality>
+        </oneof>
+      </required>
+      <karma>12</karma>
+      <source>ZDR</source>
+      <page>1</page>
+    </power>
     <!-- Drake powers-->
     <power> <!-- Body -->
       <id>baf877b5-f1fb-4d95-9aab-4cc916d41585</id>
