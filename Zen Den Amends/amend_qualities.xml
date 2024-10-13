@@ -1358,7 +1358,7 @@
 	  </quality>
 	  <quality><!-- Infected: Loup-Garou -->
 		<name>Infected: Loup-Garou</name>
-        <bonus useselected="False">
+        <bonus amendoperation="replace">
           <armor>2</armor>
           <critterpowers>
             <power>Movement</power>
@@ -1445,7 +1445,7 @@
 	  </quality>
 	  <quality><!-- Infected: Mutaqua -->
 		<name>Infected: Mutaqua</name>
-        <bonus useselected="False">
+        <bonus amendoperation="replace">
           <armor>1</armor>
           <critterpowers>
             <power>Essence Drain</power>
@@ -1542,7 +1542,7 @@
 	  </quality>
 	  <quality><!-- Infected: Nosferatu -->
 		<name>Infected: Nosferatu</name>
-        <bonus useselected="False">
+        <bonus amendoperation="replace">
           <critterpowers>
             <power>Essence Drain</power>
             <power>Infection</power>
@@ -1815,7 +1815,7 @@
 	  </quality>
 	  <quality><!-- Infected: Wendigo -->
 		<name>Infected: Wendigo</name>
-		<bonus useselected="False">
+		<bonus amendoperation="replace">
 			<critterpowers>
 			  <power>Essence Drain</power>
 			  <power>Infection</power>
