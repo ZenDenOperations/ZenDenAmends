@@ -83,8 +83,14 @@
 			<max>1</max>
 		</specificattribute>
         <specificattribute>
+		    <name>LOG</name>
+			<max>-1</max>
+			<val>-1</val>
+		</specificattribute>
+        <specificattribute>
 		    <name>CHA</name>
 			<max>-2</max>
+			<val>-1</val>
 		</specificattribute>
         <essencepenalty>-1</essencepenalty>
         <limitcritterpowercategory>Infected</limitcritterpowercategory>

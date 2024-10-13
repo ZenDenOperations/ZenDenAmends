@@ -76,5 +76,9 @@
       <id>45abd151-b3d1-4367-9133-3ff458532172</id>
       <avail>16R</avail>
     </vehicle>
+	<vehicle> <!--Ares Venture (LAV)-->
+      <name>Ares Venture (LAV)</name>
+      <avail>124</avail>
+    </vehicle>
   </vehicles>
 </chummer>
