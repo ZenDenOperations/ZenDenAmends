@@ -78,7 +78,7 @@
     </vehicle>
 	<vehicle> <!--Ares Venture (LAV)-->
       <name>Ares Venture (LAV)</name>
-      <avail>124</avail>
+      <avail>12R</avail>
     </vehicle>
   </vehicles>
 </chummer>
