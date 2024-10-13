@@ -977,9 +977,11 @@
 		  <category>Positive</category>
 		  <bonus />
 		  <required>
-			<skill>Pistols</skill>
-			<val>6</val>
-            <spec>Revolvers</spec>
+			<allof>
+				<skill>Pistols</skill>
+				<val>6</val>
+				<spec>Revolvers</spec>
+			</allof>
 		  </required>
 		  <source>ZDR</source>
 		  <page>1</page>
@@ -991,8 +993,10 @@
 		  <category>Positive</category>
 		  <bonus />
 		  <required>
-			<skill>Pistols</skill>
-			<val>6</val>
+			<allof>
+				<skill>Pistols</skill>
+				<val>6</val>
+			</allof>
 		  </required>
 		  <source>ZDR</source>
 		  <page>1</page>
