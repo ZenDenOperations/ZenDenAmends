@@ -260,14 +260,15 @@
 			<initiativepass precedence="-1">1</initiativepass>
 		</bonus>
 	  </quality>
-	  <quality><!-- Gifted Healer -->
-        <bonus amendoperation="replace">
-			<specificskill>
-			  <name>First Aid</name>
-			  <bonus>1</bonus>
-			</specificskill>
-		</bonus>
-      </quality>
+	<quality><!-- Gifted Healer -->
+	    <name>Gifted Healer</name>
+	    <bonus amendoperation="replace">
+	      <specificskill>
+	        <name>First Aid</name>
+	        <bonus>1</bonus>
+	      </specificskill>
+	    </bonus>
+	</quality>
       <quality><!-- Arcane Bodyguard -->
         <name>Arcane Bodyguard</name>
         <required amendoperation="replace">
