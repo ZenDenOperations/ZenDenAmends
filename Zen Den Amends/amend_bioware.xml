@@ -19,6 +19,7 @@
 -->
 <chummer>
   <grades>
+    <grade>
       <name>Omegaware</name>
 	  <hide />
     </grade>
