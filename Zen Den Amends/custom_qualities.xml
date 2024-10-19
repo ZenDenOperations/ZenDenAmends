@@ -919,6 +919,7 @@
 			<doublecareer>False</doublecareer>
 			<source>4e</source>
 			<page>0</page>
+			<limit>99</limit>
 			<required>
 				<allof>
 					<attribute>
