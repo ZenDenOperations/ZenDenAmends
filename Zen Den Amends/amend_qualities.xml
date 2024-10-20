@@ -285,8 +285,38 @@
         </required>
       </quality>
 	  <quality>
-        <name>Bilingual</name>
+        <name>Bilingual</name><!-- Bilingual -->
         <chargenonly amendoperation="remove"></chargenonly>
+      </quality>
+      <quality><!-- Chain Breaker -->
+        <name>Chain Breaker</name>
+        <bonus amendoperation="replace">
+          <addspirit>
+            <spirit>Guardian Spirit</spirit>
+            <spirit>Guidance Spirit</spirit>
+            <spirit>Spirit of Air</spirit>
+            <spirit>Spirit of Beasts</spirit>
+            <spirit>Spirit of Earth</spirit>
+            <spirit>Spirit of Man</spirit>
+            <spirit>Spirit of Fire</spirit>
+            <spirit>Plant Spirit</spirit>
+            <spirit>Spirit of Water</spirit>
+            <spirit>Task Spirit</spirit>
+          </addspirit>
+          <addspirit>
+            <spirit>Guardian Spirit</spirit>
+            <spirit>Guidance Spirit</spirit>
+            <spirit>Spirit of Air</spirit>
+            <spirit>Spirit of Beasts</spirit>
+            <spirit>Spirit of Earth</spirit>
+            <spirit>Spirit of Man</spirit>
+            <spirit>Spirit of Fire</spirit>
+            <spirit>Plant Spirit</spirit>
+            <spirit>Spirit of Water</spirit>
+            <spirit>Task Spirit</spirit>
+          </addspirit>
+          <skilldisable>Binding</skilldisable>
+        </bonus>
       </quality>
 	  <!-- End Region -->
 	  <!-- Region Banned Positive Qualities -->
