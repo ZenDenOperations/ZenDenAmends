@@ -200,30 +200,30 @@
 		<page>38</page>
 	  </quality>
 	  <quality><!-- Exceptional Attribute -->
-		  <name>Exceptional Attribute</name>
+		<name>Exceptional Attribute</name>
 		<forbidden amendoperation="remove" />
 	  </quality>
 	  <quality><!-- Lucky -->
-		  <name>Lucky</name>
+		<name>Lucky</name>
 		<forbidden amendoperation="remove" />
 	  </quality>
 	  <quality><!-- Dedicated Spellslinger -->
-		  <name>EDedicated Spellslinger</name>
+		<name>Dedicated Spellslinger</name>
 		<forbidden>
-       			<oneof>
-          			<name>Dedicated Conjurer</name>
-				<name>Dedicated Alchemist</name>
-        		</oneof>
-      		</forbidden>
+       	  <oneof>
+          	<name>Dedicated Conjurer</name>
+			<name>Dedicated Alchemist</name>
+          </oneof>
+      	</forbidden>
 	  </quality>
 	  <quality><!-- Dedicated Conjurer  -->
-		  <name>Dedicated Conjurer</name>
+		<name>Dedicated Conjurer</name>
 		<forbidden>
-       			<oneof>
-          			<name>Dedicated Spellslinger</name>
-				<name>Dedicated Alchemist</name>
-        		</oneof>
-      		</forbidden>
+       	  <oneof>
+          	<name>Dedicated Spellslinger</name>
+			<name>Dedicated Alchemist</name>
+          </oneof>
+      	</forbidden>
 	  </quality>
 	  <quality><!-- Changeling (Class I SURGE) -->
 		  <name>Changeling (Class I SURGE)</name>
@@ -260,15 +260,15 @@
 			<initiativepass precedence="-1">1</initiativepass>
 		</bonus>
 	  </quality>
-	<quality><!-- Gifted Healer -->
+	  <quality><!-- Gifted Healer -->
 	    <name>Gifted Healer</name>
-	    <bonus amendoperation="replace">
-	      <specificskill>
-	        <name>First Aid</name>
-	        <bonus>1</bonus>
-	      </specificskill>
-	    </bonus>
-	</quality>
+        <bonus amendoperation="replace">
+			<specificskill>
+			  <name>First Aid</name>
+			  <bonus>1</bonus>
+			</specificskill>
+		</bonus>
+      </quality>
       <quality><!-- Arcane Bodyguard -->
         <name>Arcane Bodyguard</name>
         <required amendoperation="replace">
@@ -284,8 +284,8 @@
 		  </oneof>
         </required>
       </quality>
-	  <quality>
-        <name>Bilingual</name><!-- Bilingual -->
+	  <quality><!-- Bilingual -->
+        <name>Bilingual</name>
         <chargenonly amendoperation="remove"></chargenonly>
       </quality>
       <quality><!-- Chain Breaker -->
@@ -348,8 +348,12 @@
 		<name>Massive Network</name>
 		<hide />
 	  </quality>
+	  <quality>
+		<name>The Twisted Way</name>
+		<hide />
+	  </quality>
 	  <!-- End Region -->
-	  <!--Region Chrome Flesh Phenotype Adjustments as Positive Qualities -->
+	  <!-- Region Chrome Flesh Phenotype Adjustments as Positive Qualities -->
       <quality>
         <name>Phenotypic Variation - Genewipe</name>
         <chargenonly amendoperation="remove"></chargenonly>
@@ -612,7 +616,8 @@
             <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
             <initiative precedence="0">2</initiative>
         </bonus>
-      </quality>	  <!-- End Region -->
+      </quality>
+	  <!-- End Region -->
 	  <!-- Region Banned Negative Qualities -->
 	  <quality><!-- Alpha Junkie -->
 		<name>Alpha Junkie</name>
@@ -2104,6 +2109,22 @@
 		</bonus>
 	  </quality>
 	  <!-- Mysads -->
+      <quality>
+        <name>Apprentice</name>
+        <bonus amendoperation="replace">
+            <enableattribute>
+              <name>MAG</name>
+            </enableattribute>
+            <enabletab>
+              <name>magician</name>
+            </enabletab>
+            <limitspellcategory />
+            <limitspiritcategory />
+			<allowspellcategory>Rituals</allowspellcategory>
+            <unlockskills>Sorcery</unlockskills>
+            <unlockskills>Conjuring</unlockskills>
+        </bonus>
+      </quality>
 	  <!-- Drakes -->
 	  <quality><!-- Dracoform (Eastern Drake) -->
 		<name>Dracoform (Eastern Drake)</name>
