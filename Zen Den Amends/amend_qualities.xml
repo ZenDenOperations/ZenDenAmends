@@ -2121,7 +2121,6 @@
             <limitspellcategory />
             <limitspiritcategory />
 			<allowspellcategory>Rituals</allowspellcategory>
-			<allowspellcategory>Enchantments</allowspellcategory>
             <unlockskills>Sorcery</unlockskills>
             <unlockskills>Conjuring</unlockskills>
         </bonus>
