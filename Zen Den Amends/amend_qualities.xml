@@ -348,9 +348,13 @@
 		<name>Massive Network</name>
 		<hide />
 	  </quality>
-	  <quality>
+	  <quality><!-- The Twisted Way -->
 		<name>The Twisted Way</name>
 		<hide />
+	  </quality>
+	  <quality><!-- Enchanter -->
+		  <name>Enchanter</name>
+		  <hide />
 	  </quality>
 	  <!-- End Region -->
 	  <!-- Region Chrome Flesh Phenotype Adjustments as Positive Qualities -->
