@@ -19,12 +19,12 @@
 -->
 <chummer>
 	<spells>
-	<spell>
-      <name>Shape [Material]</name>
-      <bonus amendoperation="replace">
-        <selecttext xml="strings.xml" xpath="/chummer/materials/material" />
-      </bonus>
-    </spell>
+		<spell>
+			<name>Shape [Material]</name>
+			<bonus amendoperation="replace">
+				<selecttext xml="strings.xml" xpath="/chummer/materials/material" />
+			</bonus>
+		</spell>
 		<spell>
 			<name>Manablade</name>
 			<hide />
@@ -37,19 +37,23 @@
 			<name>Multiply Food</name>
 			<hide />
 		</spell>
-		<spell><!-- Double of Sound Barrier -->
+		<spell>
+			<!-- Double of Sound Barrier -->
 			<name>8b3edb22-35ab-44a3-aa9d-0553a1af4da4</name>
 			<hide />
 		</spell>
-		<spell><!-- Double of Fashion -->
+		<spell>
+			<!-- Double of Fashion -->
 			<id>547c0959-7a9b-487c-adec-54f639585695</id>
 			<hide />
 		</spell>
-		<spell><!-- Double of Vehicle Mask -->
+		<spell>
+			<!-- Double of Vehicle Mask -->
 			<id>58331f62-e907-4a4a-a59c-f9303d16dcbe</id>
 			<hide />
 		</spell>
-		<spell><!-- Double of Pulse -->
+		<spell>
+			<!-- Double of Pulse -->
 			<id>02b38262-db06-4698-b4b2-7a9e7f2452a9</id>
 			<hide />
 		</spell>
@@ -67,6 +71,10 @@
 		</spell>
 		<spell>
 			<name>Pollutant Wave</name>
+			<hide />
+		</spell>
+		<spell>
+			<name>Necro Summoning</name>
 			<hide />
 		</spell>
 	</spells>
