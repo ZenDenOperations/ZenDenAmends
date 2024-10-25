@@ -36,14 +36,6 @@
 			<name>Noble Sacrifice</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Harmonious Defense -->
-			<name>Harmonious Defense</name>
-			<hide />
-		</metamagic>
-		<metamagic><!-- Harmonious Reflection -->
-			<name>Harmonious Reflection</name>
-			<hide />
-		</metamagic>
 		<metamagic><!-- Predator Feast -->
 			<name>Predator Feast</name>
 			<hide />
