@@ -237,7 +237,7 @@
 	<maxmartialarts>1</maxmartialarts>
 	<maxmartialtechniques>5</maxmartialtechniques>
 	<nuyencarryover>5000</nuyencarryover>
-	<nuyenmaxbp>950</nuyenmaxbp>
+	<nuyenmaxbp>235</nuyenmaxbp>
 	<bannedwaregrades>
 		<grade>Greyware</grade>
 		<grade>Omegaware</grade>
