@@ -50,8 +50,8 @@
 		</metamagic>
 		<metamagic><!-- Echo Binding -->
 			<name>Echo Binding</name>
-		</metamagic>
 			<hide />
+		</metamagic>
 		<metamagic><!-- Reckless Necro Conjuring --> 
 			<name>Reckless Necro Conjuring</name>
 			<hide />
