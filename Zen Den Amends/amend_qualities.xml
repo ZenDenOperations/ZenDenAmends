@@ -2132,8 +2132,7 @@
 	  <!-- Drakes -->
 	  <quality><!-- Dracoform (Eastern Drake) -->
 		<name>Dracoform (Eastern Drake)</name>
-		<karma>15</karma>
-		<doublecareer>False</doublecareer>
+		<karma>50</karma>
 		<forbidden>
 		  <quality>Latent Dracomorphosis</quality>
 		  <quality>Dracoform (Western Drake)</quality>
@@ -2144,18 +2143,41 @@
 		  <critterpowers>
 			<power>Dual Natured</power>
 			<power>Shift (Dracoform)</power>
+            <power>Vestigial Wings</power>
+            <power rating="2">Hardened Armor</power>
+            <power rating="2">Hardened Mystic Armor</power>
+            <power select="Fire,Cold,Electricity,Water">Elemental Attack</power>
 		  </critterpowers>
 		  <enabletab>
 			<name>critter</name>
 		  </enabletab>
 		  <limitcritterpowercategory>Drake</limitcritterpowercategory>
 		  <unlockskills>Breath</unlockskills>
+		  <specificattribute>
+            <name>BOD</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
+          <specificattribute>
+            <name>STR</name>
+			<min>2</min>
+            <val>2</val>
+          </specificattribute>
+          <specificattribute>
+            <name>AGI</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
+          <specificattribute>
+            <name>LOG</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
 		</bonus>
 	  </quality>
 	  <quality><!-- Dracoform (Western Drake) -->
 		<name>Dracoform (Western Drake)</name>
-		<karma>15</karma>
-		<doublecareer>False</doublecareer>
+		<karma>50</karma>
 		<forbidden>
 		  <quality>Latent Dracomorphosis</quality>
 		  <quality>Dracoform (Eastern Drake)</quality>
@@ -2166,18 +2188,36 @@
 		  <critterpowers>
 			<power>Dual Natured</power>
 			<power>Shift (Dracoform)</power>
+            <power>Vestigial Wings</power>
+            <power rating="2">Hardened Armor</power>
+            <power rating="2">Hardened Mystic Armor</power>
+            <power select="Fire,Cold,Electricity,Water">Elemental Attack</power>
 		  </critterpowers>
 		  <enabletab>
 			<name>critter</name>
 		  </enabletab>
 		  <limitcritterpowercategory>Drake</limitcritterpowercategory>
 		  <unlockskills>Breath</unlockskills>
+		  <specificattribute>
+            <name>BOD</name>
+			<min>2</min>
+            <val>2</val>
+          </specificattribute>
+          <specificattribute>
+            <name>STR</name>
+			<min>2</min>
+            <val>2</val>
+          </specificattribute>
+          <specificattribute>
+            <name>CHA</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
 		</bonus>
 	  </quality>
 	  <quality><!-- Dracoform (Feathered Drake) -->
 		<name>Dracoform (Feathered Drake)</name>
-		<karma>15</karma>
-		<doublecareer>False</doublecareer>
+		<karma>50</karma>
 		<forbidden>
 		  <quality>Latent Dracomorphosis</quality>
 		  <quality>Dracoform (Eastern Drake)</quality>
@@ -2188,36 +2228,88 @@
 		  <critterpowers>
 			<power>Dual Natured</power>
 			<power>Shift (Dracoform)</power>
+            <power>Vestigial Wings</power>
+            <power rating="2">Hardened Armor</power>
+            <power rating="2">Hardened Mystic Armor</power>
+            <power select="Fire,Cold,Electricity,Water">Elemental Attack</power>
 		  </critterpowers>
 		  <enabletab>
 			<name>critter</name>
 		  </enabletab>
 		  <limitcritterpowercategory>Drake</limitcritterpowercategory>
 		  <unlockskills>Breath</unlockskills>
+          <specificattribute>
+            <name>BOD</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
+          <specificattribute>
+            <name>STR</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
+          <specificattribute>
+            <name>AGI</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
+          <specificattribute>
+            <name>REA</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
+          <specificattribute>
+            <name>WIL</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
 		</bonus>
 	  </quality>
 	  <quality><!-- Dracoform (Sea Drake) -->
 		<name>Dracoform (Sea Drake)</name>
-		<karma>15</karma>
-		<doublecareer>False</doublecareer>
+		<karma>50</karma>
 		<forbidden>
 		  <quality>Latent Dracomorphosis</quality>
 		  <quality>Dracoform (Eastern Drake)</quality>
 		  <quality>Dracoform (Western Drake)</quality>
 		  <quality>Dracoform (Feathered Drake)</quality>
 		</forbidden>
-		<bonus amendoperation="Replace">
-      <critterpowers>
-        <power>Dual Natured</power>
-        <power>Shift (Dracoform)</power>
-      </critterpowers>
-      <enabletab>
-        <name>critter</name>
-      </enabletab>
-      <limitcritterpowercategory>Drake</limitcritterpowercategory>
-      <unlockskills>Breath</unlockskills>
-    </bonus>
-  </quality>
+        <bonus amendoperation="Replace">
+          <critterpowers>
+            <power>Dual Natured</power>
+            <power>Shift (Dracoform)</power>
+            <id>4cc3a1fa-acbe-4f05-a4b9-2fc3979bc467</id>
+            <power rating="2">Hardened Armor</power>
+            <power rating="2">Hardened Mystic Armor</power>
+            <power select="Fire">Elemental Attack</power>
+          </critterpowers>
+          <enabletab>
+            <name>critter</name>
+          </enabletab>
+          <limitcritterpowercategory>Drake</limitcritterpowercategory>
+          <unlockskills>Breath</unlockskills>
+          <specificattribute>
+            <name>BOD</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
+          <specificattribute>
+            <name>STR</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
+          <specificattribute>
+            <name>REA</name>
+			<min>2</min>
+            <val>2</val>
+          </specificattribute>
+          <specificattribute>
+            <name>INT</name>
+			<min>1</min>
+            <val>1</val>
+          </specificattribute>
+        </bonus>
+      </quality>
       <quality><!-- Latent Dracomorphosis -->
 	    <id>e132257f-14d8-4e5a-9f20-ae6af29649d5</id>
 	    <name>Latent Dracomorphosis</name>
