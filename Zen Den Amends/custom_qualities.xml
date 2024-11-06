@@ -68,7 +68,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 			</forbidden>
@@ -130,7 +137,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 			</forbidden>
@@ -155,7 +169,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
@@ -226,7 +247,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
@@ -293,7 +321,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
@@ -368,7 +403,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
@@ -439,7 +481,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
@@ -486,7 +535,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
@@ -529,7 +585,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
@@ -571,7 +634,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
@@ -613,7 +683,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
@@ -647,7 +724,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
@@ -681,7 +765,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 			</forbidden>
@@ -715,7 +806,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 			</forbidden>
@@ -826,7 +924,14 @@
 			</bonus>
 			<required>
 				<allof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 				</allof>
 				<oneof>
 					<skill>
@@ -847,7 +952,7 @@
 		<quality><!-- Resonance [Program] -->
 			<id>65c1aa82-a228-4ed4-b02d-a2a55b6a1b95</id>
 			<name>Resonance [Program]</name>
-			<karma>10</karma>
+			<karma>5</karma>
 			<limit>99</limit>
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
@@ -929,6 +1034,22 @@
 				</allof>
 			</required>
 		</quality>
+		<quality><!-- Additional Echo -->
+			<id>82dce7dd-b897-4f8c-9eed-4e81612aeac0</id>
+			<name>Additional Echo</name>
+			<karma>15</karma>
+			<category>Positive</category>
+			<metagenic>False</metagenic>
+			<doublecareer>False</doublecareer>
+			<source>ZDR</source>
+			<page>0</page>
+			<limit>99</limit>
+			<required>
+				<allof>
+					<resenabled>True</resenabled>
+				</allof>
+			</required>
+		</quality>
 		<quality><!-- Items of Power II -->
 		  <id>70c5ccff-156d-4e58-a973-83964f759e7b</id>
 		  <name>Items of Power II</name>
@@ -999,6 +1120,54 @@
 				<val>6</val>
 			</allof>
 		  </required>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality><!-- Ware Overdriver -->
+		  <id>7050aca7-9882-4913-aba8-2e8da6b1c4b0</id>
+		  <name>Ware Overdriver</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <bonus />
+		  <forbidden>
+            <oneof>
+              <quality>Adept</quality>
+              <quality>Aware</quality>
+              <quality>Aspected Magician</quality>
+              <quality>Enchanter</quality>
+              <quality>Explorer</quality>
+              <quality>Apprentice</quality>
+              <quality>Magician</quality>
+		      <quality>Mystic Adept</quality>
+              <resenabled />
+            </oneof>
+		  </forbidden>
+		  <source>6e</source>
+		  <page>1</page>
+		</quality>
+		<quality><!-- Deck Optimization -->
+		  <id>db9c160c-c54b-4320-8fe8-a630c2e96005</id>
+		  <name>Deck Optimization</name>
+		  <karma>5</karma>
+		  <category>Positive</category>
+		  <bonus />
+		  <required>
+              <quality>Deck Builder</quality>
+              <quality>Overclocker</quality>
+		  </required>
+		  <forbidden>
+            <oneof>
+              <quality>Adept</quality>
+              <quality>Aware</quality>
+              <quality>Aspected Magician</quality>
+              <quality>Enchanter</quality>
+              <quality>Explorer</quality>
+              <quality>Apprentice</quality>
+              <quality>Magician</quality>
+		      <quality>Mystic Adept</quality>
+              <resenabled />
+            </oneof>
+		  </forbidden>
 		  <source>ZDR</source>
 		  <page>1</page>
 		</quality>

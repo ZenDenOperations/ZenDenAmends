@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a -->
+<chummer>
+  <echoes>
+    <echo>
+      <name>Predictive Analytics</name>
+      <source>KC</source>
+      <page>101</page>
+      <bonus amendoperation="replace">
+        <initiativepass>-1</initiativepass>
+      </bonus>
+    </echo>
+    <echo>
+      <name>Resonance [Program]</name>
+      <hide />
+    </echo>
+  </echoes>
+</chummer>

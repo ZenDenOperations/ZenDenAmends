@@ -48,7 +48,7 @@
         <bonus>
             <specialmodificationlimit>3</specialmodificationlimit>
         </bonus>
-        <forbidden>
+        <forbidden amendoperation="replace">
             <oneof>
               <quality>Adept</quality>
               <quality>Aware</quality>
