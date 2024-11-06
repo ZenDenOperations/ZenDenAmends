@@ -41,10 +41,29 @@
 	  </quality>
 	  <!-- Region Changed Qualities -->
 	  <quality><!-- Special Modifications -->
-		<name>Special Modifications</name>
-		<limit>3</limit>
-		<bonus amendoperation="remove" />
-	  </quality>
+        <name>Special Modifications</name>
+        <karma>5</karma>
+        <category>Positive</category>
+        <limit>3</limit>
+        <bonus>
+            <specialmodificationlimit>3</specialmodificationlimit>
+        </bonus>
+        <forbidden>
+            <oneof>
+              <quality>Adept</quality>
+              <quality>Aware</quality>
+              <quality>Aspected Magician</quality>
+              <quality>Enchanter</quality>
+              <quality>Explorer</quality>
+              <quality>Apprentice</quality>
+              <quality>Magician</quality>
+		      <quality>Mystic Adept</quality>
+              <resenabled />
+            </oneof>
+        </forbidden>
+        <source>BTB</source>
+        <page>161</page>
+      </quality>
 	  <quality><!-- Special Modifications (Prototype Materials) -->
 		<name>Special Modifications (Prototype Materials)</name>
 		<hide />
@@ -2146,8 +2165,13 @@
             <power>Vestigial Wings</power>
             <power rating="2">Hardened Armor</power>
             <power rating="2">Hardened Mystic Armor</power>
-            <power select="Fire,Cold,Electricity,Water">Elemental Attack</power>
 		  </critterpowers>
+		  <optionalpowers>
+		    <optionalpower select="Fire">Elemental Attack</optionalpower>
+		    <optionalpower select="Cold">Elemental Attack</optionalpower>
+		    <optionalpower select="Electricity">Elemental Attack</optionalpower>
+		    <optionalpower select="Water">Elemental Attack</optionalpower>
+		  </optionalpowers>
 		  <enabletab>
 			<name>critter</name>
 		  </enabletab>
@@ -2156,22 +2180,22 @@
 		  <specificattribute>
             <name>BOD</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
           <specificattribute>
             <name>STR</name>
 			<min>2</min>
-            <val>2</val>
+            <max>2</max>
           </specificattribute>
           <specificattribute>
             <name>AGI</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
           <specificattribute>
             <name>LOG</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
 		</bonus>
 	  </quality>
@@ -2191,8 +2215,13 @@
             <power>Vestigial Wings</power>
             <power rating="2">Hardened Armor</power>
             <power rating="2">Hardened Mystic Armor</power>
-            <power select="Fire,Cold,Electricity,Water">Elemental Attack</power>
 		  </critterpowers>
+		  <optionalpowers>
+		    <optionalpower select="Fire">Elemental Attack</optionalpower>
+		    <optionalpower select="Cold">Elemental Attack</optionalpower>
+		    <optionalpower select="Electricity">Elemental Attack</optionalpower>
+		    <optionalpower select="Water">Elemental Attack</optionalpower>
+		  </optionalpowers>
 		  <enabletab>
 			<name>critter</name>
 		  </enabletab>
@@ -2201,17 +2230,17 @@
 		  <specificattribute>
             <name>BOD</name>
 			<min>2</min>
-            <val>2</val>
+            <max>2</max>
           </specificattribute>
           <specificattribute>
             <name>STR</name>
 			<min>2</min>
-            <val>2</val>
+            <max>2</max>
           </specificattribute>
           <specificattribute>
             <name>CHA</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
 		</bonus>
 	  </quality>
@@ -2231,8 +2260,13 @@
             <power>Vestigial Wings</power>
             <power rating="2">Hardened Armor</power>
             <power rating="2">Hardened Mystic Armor</power>
-            <power select="Fire,Cold,Electricity,Water">Elemental Attack</power>
 		  </critterpowers>
+		  <optionalpowers>
+		    <optionalpower select="Fire">Elemental Attack</optionalpower>
+		    <optionalpower select="Cold">Elemental Attack</optionalpower>
+		    <optionalpower select="Electricity">Elemental Attack</optionalpower>
+		    <optionalpower select="Water">Elemental Attack</optionalpower>
+		  </optionalpowers>
 		  <enabletab>
 			<name>critter</name>
 		  </enabletab>
@@ -2241,27 +2275,27 @@
           <specificattribute>
             <name>BOD</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
           <specificattribute>
             <name>STR</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
           <specificattribute>
             <name>AGI</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
           <specificattribute>
             <name>REA</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
           <specificattribute>
             <name>WIL</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
 		</bonus>
 	  </quality>
@@ -2281,8 +2315,13 @@
             <id>4cc3a1fa-acbe-4f05-a4b9-2fc3979bc467</id>
             <power rating="2">Hardened Armor</power>
             <power rating="2">Hardened Mystic Armor</power>
-            <power select="Fire">Elemental Attack</power>
           </critterpowers>
+		  <optionalpowers>
+		    <optionalpower select="Fire">Elemental Attack</optionalpower>
+		    <optionalpower select="Cold">Elemental Attack</optionalpower>
+		    <optionalpower select="Electricity">Elemental Attack</optionalpower>
+		    <optionalpower select="Water">Elemental Attack</optionalpower>
+		  </optionalpowers>
           <enabletab>
             <name>critter</name>
           </enabletab>
@@ -2291,22 +2330,22 @@
           <specificattribute>
             <name>BOD</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
           <specificattribute>
             <name>STR</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
           <specificattribute>
             <name>REA</name>
 			<min>2</min>
-            <val>2</val>
+            <max>2</max>
           </specificattribute>
           <specificattribute>
             <name>INT</name>
 			<min>1</min>
-            <val>1</val>
+            <max>1</max>
           </specificattribute>
         </bonus>
       </quality>
