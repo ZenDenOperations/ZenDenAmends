@@ -42,8 +42,21 @@
 	  <!-- Region Changed Qualities -->
 	  <quality><!-- Special Modifications -->
 		<name>Special Modifications</name>
-		<limit>3</limit>
+		<limit>2</limit>
 		<bonus amendoperation="remove" />
+		  <forbidden amendoperation="replace">
+            <oneof>
+              <quality>Adept</quality>
+              <quality>Aware</quality>
+              <quality>Aspected Magician</quality>
+              <quality>Enchanter</quality>
+              <quality>Explorer</quality>
+              <quality>Apprentice</quality>
+              <quality>Magician</quality>
+		      <quality>Mystic Adept</quality>
+              <resenabled />
+            </oneof>
+        </forbidden>
 	  </quality>
 	  <quality><!-- Special Modifications (Prototype Materials) -->
 		<name>Special Modifications (Prototype Materials)</name>
