@@ -8,7 +8,7 @@
       <source>KC</source>
       <page>101</page>
       <bonus amendoperation="replace">
-        <initiativepass>-1</initiativepass>
+        <initiativepass precedence="-1">1</initiativepass>
       </bonus>
     </echo>
     <echo>
