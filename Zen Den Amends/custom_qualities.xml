@@ -70,7 +70,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 			</forbidden>
@@ -133,7 +140,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 			</forbidden>
@@ -159,7 +173,14 @@
 			<doublecareer>False</doublecareer>
 			<forbidden>
 				<oneof>
-					<magenabled />
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
 					<resenabled />
 				</oneof>
 				<oneof>
