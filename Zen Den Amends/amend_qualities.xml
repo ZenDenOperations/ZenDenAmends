@@ -1,2264 +1,2494 @@
 <chummer>
-  <qualities>
-	  <quality xpathfilter="contains(name,'Rank (')">
-		<hide />
-	  </quality>
-	  <quality><!-- Cyber-snob -->
-		<name>Cyber-snob</name>
-		<karma>-6</karma>
-		<bonus amendoperation="replace">
-		  <disablebiowaregrade>Standard</disablebiowaregrade>
-		  <disablebiowaregrade>Standard (Burnout's Way)</disablebiowaregrade>
-		  <disablebiowaregrade>Used</disablebiowaregrade>
-		  <disablebiowaregrade>Omegaware</disablebiowaregrade>
-		  <disablecyberwaregrade>Standard</disablecyberwaregrade>
-		  <disablecyberwaregrade>Standard (Burnout's Way)</disablecyberwaregrade>
-		  <disablecyberwaregrade>Used</disablecyberwaregrade>
-		  <disablecyberwaregrade>Omegaware</disablecyberwaregrade>
-		  <disablecyberwaregrade>Greyware</disablecyberwaregrade>
-		  <disablecyberwaregrade>Standard (Adapsin)</disablecyberwaregrade>
-		  <disablecyberwaregrade>Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
-		  <disablecyberwaregrade>Used (Adapsin)</disablecyberwaregrade>
-		  <disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
-		  <disablecyberwaregrade>Greyware (Adapsin)</disablecyberwaregrade>
-		</bonus>
-		<forbidden>
-		  <oneof>
-			<metatype>Pixie</metatype>
-		  </oneof>
-		</forbidden>
-		<required>
-		  <oneof>
-			<ess grade="Alphaware,Betaware,Deltaware,Gammaware">1</ess>
-		  </oneof>
-		</required>
-		<source>CF</source>
-		<page>57</page>
-	  </quality>
-	  <quality><!-- Code of Honor: Black Hat -->
-		<name>Code of Honor: Black Hat</name>
-		<required amendoperation="remove" />
-	  </quality>
-	  <!-- Region Changed Qualities -->
-	  <quality><!-- Special Modifications -->
-		<name>Special Modifications</name>
-		<limit>2</limit>
-		<bonus amendoperation="remove" />
-		  <forbidden amendoperation="replace">
-            <oneof>
-              <quality>Adept</quality>
-              <quality>Aware</quality>
-              <quality>Aspected Magician</quality>
-              <quality>Enchanter</quality>
-              <quality>Explorer</quality>
-              <quality>Apprentice</quality>
-              <quality>Magician</quality>
-		      <quality>Mystic Adept</quality>
-              <resenabled />
-            </oneof>
-        </forbidden>
-	  </quality>
-	  <quality><!-- Special Modifications (Prototype Materials) -->
-		<name>Special Modifications (Prototype Materials)</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Prototype Transhuman -->
-		<id>08c4dfad-3661-48d9-a265-43cce84e20d8</id>
-		<chargenonly />
-		<bonus amendoperation="replace">
-		  <prototypetranshuman>1</prototypetranshuman>
-		  <selectquality>
-			<quality>Allergy (Common, Mild)</quality>
-			<quality>Allergy (Uncommon, Moderate)</quality>
-			<quality>Astral Beacon</quality>
-			<quality>Blighted (12 Months)</quality>
-			<quality>Blind</quality>
-			<quality>Deaf</quality>
-			<quality rating="2">Dimmer Bulb</quality>
-			<quality rating="2">Illness</quality>
-			<quality>Incomplete Deprogramming</quality>
-			<quality>Insomnia (Basic)</quality>
-			<quality>Low Pain Tolerance</quality>
-			<quality>Paraplegic</quality>
-			<quality>Phobia (Common, Moderate)</quality>
-			<quality>Poor Self Control (Combat Monster)</quality>
-			<quality>Poor Self Control (Compulsive III, Public Broad Aspect)</quality>
-			<quality>Poor Self Control (Compulsive IV, Personal)</quality>
-			<quality>Reduce Sense (Touch)</quality>
-			<quality>Wanted</quality>
-			<quality>Weak Immune System</quality>
-		  </selectquality>
-		</bonus>
-	  </quality>
-	  <quality><!-- Black Market Pipeline -->
-		<name>Black Market Pipeline</name>
-		<chargenonly amendoperation="remove" />
-		<bonus amendoperation="replace">
-		  <blackmarketdiscount />
-		  <selectcontact />
-		</bonus>
-	  </quality>
-	  <quality><!-- Otaku to Technomancer -->
-		<name>Otaku to Technomancer</name>
-		<chargenonly />
-	  </quality>
-	  <quality><!-- Mentor Spirit -->
-		<id>ced3fecf-2277-4b20-b1e0-894162ca9ae2</id>
-		<required amendoperation="replace">
-		  <oneof>
-			<magenabled />
-		  </oneof>
-		</required>
-	  </quality>
-	  <quality><!-- SINner (Corporate) -->
-		<id>e00623e1-54b0-4a91-b234-3c7e141deef4</id>
-		<karma>-5</karma>
-		<bonus>
-		  <lifestylecost>10</lifestylecost>
-		</bonus>
-	  </quality>
-	  <quality><!-- SINner (National) -->
-		<id>9ac85feb-ae1e-4996-8514-3570d411e1d5</id>
-		<karma>-5</karma>
-		<bonus>
-		  <lifestylecost>15</lifestylecost>
-		</bonus>
-	  </quality>
-	  <quality><!-- SINner (Corporate Limited) -->
-		<id>318d2edd-833b-48c5-a3e1-343bf03848a5</id>
-		<karma>-10</karma>
-		<bonus>
-		  <lifestylecost>20</lifestylecost>
-		</bonus>
-	  </quality>
-	  <quality><!-- SINner (Criminal) -->
-		<id>d9479e5c-d44a-45b9-8fb4-d1e08a9487b2</id>
-		<karma>-10</karma>
-		<bonus>
-		  <lifestylecost>15</lifestylecost>
-		</bonus>
-	  </quality>
-	  <quality><!-- Ex-Con -->
-		<id>4fe8fa5e-e31b-4126-a880-3e719a0a5820</id>
-		<name>Ex-Con</name>
-		<karma>-20</karma>
-	  </quality>
-	  <quality><!-- Bad Rep -->
-		<name>Bad Rep</name>
-		<careeronly />
-	  </quality>
-	  <quality><!-- Human Lifespan -->
-		<name>Human Lifespan</name>
-		<karma amendoperation="replace">0</karma>
-		<chargenonly />
-		<required>
-		  <oneof>
-			<metatype>Ork</metatype>
-			<metatype>Troll</metatype>
-		  </oneof>
-		</required>
-	  </quality>
-	  <quality><!-- Cold-Blooded -->
-		<name>Cold-Blooded</name>
-		<notes>
+	<qualities>
+		<quality xpathfilter="contains(name,'Rank (')">
+			<hide />
+		</quality>
+		<quality>
+			<!-- Cyber-snob -->
+			<name>Cyber-snob</name>
+			<karma>-6</karma>
+			<bonus amendoperation="replace">
+				<disablebiowaregrade>Standard</disablebiowaregrade>
+				<disablebiowaregrade>Standard (Burnout's Way)</disablebiowaregrade>
+				<disablebiowaregrade>Used</disablebiowaregrade>
+				<disablebiowaregrade>Omegaware</disablebiowaregrade>
+				<disablecyberwaregrade>Standard</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Burnout's Way)</disablecyberwaregrade>
+				<disablecyberwaregrade>Used</disablecyberwaregrade>
+				<disablecyberwaregrade>Omegaware</disablecyberwaregrade>
+				<disablecyberwaregrade>Greyware</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Used (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Greyware (Adapsin)</disablecyberwaregrade>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<metatype>Pixie</metatype>
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<ess grade="Alphaware,Betaware,Deltaware,Gammaware">1</ess>
+				</oneof>
+			</required>
+			<source>CF</source>
+			<page>57</page>
+		</quality>
+		<quality>
+			<!-- Code of Honor: Black Hat -->
+			<name>Code of Honor: Black Hat</name>
+			<required amendoperation="remove" />
+		</quality>
+		<!-- Region Changed Qualities -->
+		<quality>
+			<!-- Special Modifications -->
+			<name>Special Modifications</name>
+			<limit>2</limit>
+			<bonus amendoperation="remove" />
+			<forbidden amendoperation="replace">
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<!-- Special Modifications (Prototype Materials) -->
+			<name>Special Modifications (Prototype Materials)</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Prototype Transhuman -->
+			<id>08c4dfad-3661-48d9-a265-43cce84e20d8</id>
+			<chargenonly />
+			<bonus amendoperation="replace">
+				<prototypetranshuman>1</prototypetranshuman>
+				<selectquality>
+					<quality>Allergy (Common, Mild)</quality>
+					<quality>Allergy (Uncommon, Moderate)</quality>
+					<quality>Astral Beacon</quality>
+					<quality>Blighted (12 Months)</quality>
+					<quality>Blind</quality>
+					<quality>Deaf</quality>
+					<quality rating="2">Dimmer Bulb</quality>
+					<quality rating="2">Illness</quality>
+					<quality>Incomplete Deprogramming</quality>
+					<quality>Insomnia (Basic)</quality>
+					<quality>Low Pain Tolerance</quality>
+					<quality>Paraplegic</quality>
+					<quality>Phobia (Common, Moderate)</quality>
+					<quality>Poor Self Control (Combat Monster)</quality>
+					<quality>Poor Self Control (Compulsive III, Public Broad Aspect)</quality>
+					<quality>Poor Self Control (Compulsive IV, Personal)</quality>
+					<quality>Reduce Sense (Touch)</quality>
+					<quality>Wanted</quality>
+					<quality>Weak Immune System</quality>
+				</selectquality>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Black Market Pipeline -->
+			<name>Black Market Pipeline</name>
+			<chargenonly amendoperation="remove" />
+			<bonus amendoperation="replace">
+				<blackmarketdiscount />
+				<selectcontact />
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Otaku to Technomancer -->
+			<name>Otaku to Technomancer</name>
+			<chargenonly />
+		</quality>
+		<quality>
+			<!-- Mentor Spirit -->
+			<id>ced3fecf-2277-4b20-b1e0-894162ca9ae2</id>
+			<required amendoperation="replace">
+				<oneof>
+					<magenabled />
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<!-- SINner (Corporate) -->
+			<id>e00623e1-54b0-4a91-b234-3c7e141deef4</id>
+			<karma>-5</karma>
+			<bonus>
+				<lifestylecost>10</lifestylecost>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- SINner (National) -->
+			<id>9ac85feb-ae1e-4996-8514-3570d411e1d5</id>
+			<karma>-5</karma>
+			<bonus>
+				<lifestylecost>15</lifestylecost>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- SINner (Corporate Limited) -->
+			<id>318d2edd-833b-48c5-a3e1-343bf03848a5</id>
+			<karma>-10</karma>
+			<bonus>
+				<lifestylecost>20</lifestylecost>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- SINner (Criminal) -->
+			<id>d9479e5c-d44a-45b9-8fb4-d1e08a9487b2</id>
+			<karma>-10</karma>
+			<bonus>
+				<lifestylecost>15</lifestylecost>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Ex-Con -->
+			<id>4fe8fa5e-e31b-4126-a880-3e719a0a5820</id>
+			<name>Ex-Con</name>
+			<karma>-20</karma>
+		</quality>
+		<quality>
+			<!-- Bad Rep -->
+			<name>Bad Rep</name>
+			<careeronly />
+		</quality>
+		<quality>
+			<!-- Human Lifespan -->
+			<name>Human Lifespan</name>
+			<karma amendoperation="replace">0</karma>
+			<chargenonly />
+			<required>
+				<oneof>
+					<metatype>Ork</metatype>
+					<metatype>Troll</metatype>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<!-- Cold-Blooded -->
+			<name>Cold-Blooded</name>
+			<notes>
 	  If a character with this quality is wearing a suitable piece of clothing/armor (such as a jacket) with the Insulation modification, then the negative effects are reduced. For the purposes of this negative quality, rating 4 Insulation or higher allows you to treat the temperature as up to ten degrees warmer, while rating 6 Insulation allows you to treat the temperature as up to twenty degrees warmer.
 	  </notes>
-	  </quality>
-	  <quality><!-- Exceptional Entity -->
-		<name>Exceptional Entity</name>
-		<karma>25</karma>
-		<category>Positive</category>
-		<doublecareer>False</doublecareer>
-	  </quality>
-	  <quality><!-- Lazy Fingers -->
-		<name>Lazy Fingers</name>
-		<karma>-6</karma>
-	  </quality>
-	  <quality><!-- Hi-Rez -->
-		<name>Hi-Rez</name>
-		<karma>4</karma>
-		<required amendoperation="replace">
-		  <oneof>
-			<quality>Technomancer</quality>
-			<quality>Reverberant</quality>
-		  </oneof>
-		</required>
-		<source>BTB</source>
-		<page>160</page>
-	  </quality>
-	  <quality><!-- Items of Power -->
-		<id>8f18e68a-fbaf-46b6-bf00-c99910292c20</id>
-		<name>Items of Power I</name>
-		<karma>10</karma>
-		<category>Positive</category>
-		<canbuywithspellpoints>True</canbuywithspellpoints>
-		<doublecareer>False</doublecareer>
-		<bonus />
-		<required amendoperation="replace">
-		<allof>
-		  <magenabled />
-		</allof>
-		<oneof>
-		  <skill>
-		  <name>Artificing</name>
-		  <val>3</val>
-		  </skill>
-		  <skill>
-		  <name>Arcana</name>
-		  <val>3</val>
-		  </skill>
-		</oneof>
-		</required>
-		<source>FA</source>
-		<page>38</page>
-	  </quality>
-	  <quality><!-- Exceptional Attribute -->
-		<name>Exceptional Attribute</name>
-		<forbidden amendoperation="remove" />
-	  </quality>
-	  <quality><!-- Lucky -->
-		<name>Lucky</name>
-		<forbidden amendoperation="remove" />
-	  </quality>
-	  <quality><!-- Dedicated Spellslinger -->
-		<name>Dedicated Spellslinger</name>
-		<forbidden>
-       	  <oneof>
-          	<name>Dedicated Conjurer</name>
-			<name>Dedicated Alchemist</name>
-          </oneof>
-      	</forbidden>
-	  </quality>
-	  <quality><!-- Dedicated Conjurer  -->
-		<name>Dedicated Conjurer</name>
-		<forbidden>
-       	  <oneof>
-          	<name>Dedicated Spellslinger</name>
-			<name>Dedicated Alchemist</name>
-          </oneof>
-      	</forbidden>
-	  </quality>
-	  <quality><!-- Changeling (Class I SURGE) -->
-		  <name>Changeling (Class I SURGE)</name>
-		  <forbidden amendoperation="replace">
-			<oneof>
-			  <quality>Changeling (Class II SURGE)</quality>
-			  <quality>Changeling (Class III SURGE)</quality>
-			</oneof>
-		  </forbidden>
-	  </quality>
-	  <quality><!-- Changeling (Class II SURGE) -->
-		  <name>Changeling (Class II SURGE)</name>
-		  <forbidden amendoperation="replace">
-			<oneof>
-			  <quality>Changeling (Class I SURGE)</quality>
-			  <quality>Changeling (Class III SURGE)</quality>
-			</oneof>
-		  </forbidden>
-	  </quality>
-	  <quality><!-- Changeling (Class III SURGE) -->
-		  <name>Changeling (Class III SURGE)</name>
-		  <forbidden amendoperation="replace">
-			<oneof>
-			  <quality>Changeling (Class I SURGE)</quality>
-			  <quality>Changeling (Class II SURGE)</quality>
-			</oneof>
-		  </forbidden>
-	  </quality>
-	  <quality><!-- Lightning Reflexes -->
-		<name>Lightning Reflexes</name>
-		<bonus amendoperation="replace">
-			<dodge>1</dodge>
-			<initiative precedence="-1">1</initiative>
-			<initiativepass precedence="-1">1</initiativepass>
-		</bonus>
-	  </quality>
-	  <quality><!-- Gifted Healer -->
-	    <name>Gifted Healer</name>
-        <bonus amendoperation="replace">
-			<specificskill>
-			  <name>First Aid</name>
-			  <bonus>1</bonus>
-			</specificskill>
-		</bonus>
-      </quality>
-      <quality><!-- Arcane Bodyguard -->
-        <name>Arcane Bodyguard</name>
-        <required amendoperation="replace">
-          <allof>
-            <magenabled />
-          </allof>
-		  <oneof>
-		    <skill>
-              <name>Counterspelling</name>
-              <val>4</val>
-            </skill>
-            <metamagic>Harmonious Defense</metamagic>
-		  </oneof>
-        </required>
-      </quality>
-	  <quality><!-- Bilingual -->
-        <name>Bilingual</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality><!-- Chain Breaker -->
-        <name>Chain Breaker</name>
-        <bonus amendoperation="replace">
-          <addspirit>
-            <spirit>Guardian Spirit</spirit>
-            <spirit>Guidance Spirit</spirit>
-            <spirit>Spirit of Air</spirit>
-            <spirit>Spirit of Beasts</spirit>
-            <spirit>Spirit of Earth</spirit>
-            <spirit>Spirit of Man</spirit>
-            <spirit>Spirit of Fire</spirit>
-            <spirit>Plant Spirit</spirit>
-            <spirit>Spirit of Water</spirit>
-            <spirit>Task Spirit</spirit>
-          </addspirit>
-          <addspirit>
-            <spirit>Guardian Spirit</spirit>
-            <spirit>Guidance Spirit</spirit>
-            <spirit>Spirit of Air</spirit>
-            <spirit>Spirit of Beasts</spirit>
-            <spirit>Spirit of Earth</spirit>
-            <spirit>Spirit of Man</spirit>
-            <spirit>Spirit of Fire</spirit>
-            <spirit>Plant Spirit</spirit>
-            <spirit>Spirit of Water</spirit>
-            <spirit>Task Spirit</spirit>
-          </addspirit>
-          <skilldisable>Binding</skilldisable>
-        </bonus>
-      </quality>
-	  <!-- End Region -->
-	  <!-- Region Banned Positive Qualities -->
-	  <quality><!-- Better to be Feathered Than Loved -->
-		<name>Better to be Feathered Than Loved</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Community Connection -->
-		<name>Community Connection</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Erased -->
-		<name>Erased</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Friends in High Places -->
-		<name>Friends in High Places</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Revels in Murder -->
-		<name>Revels in Murder</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Networker -->
-		<name>Networker</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Massive Network -->
-		<name>Massive Network</name>
-		<hide />
-	  </quality>
-	  <quality><!-- The Twisted Way -->
-		<name>The Twisted Way</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Enchanter -->
-		  <name>Enchanter</name>
-		  <hide />
-	  </quality>
-	  <!-- End Region -->
-	  <!-- Region Chrome Flesh Phenotype Adjustments as Positive Qualities -->
-      <quality>
-        <name>Phenotypic Variation - Genewipe</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Masque</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Reprint</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Shuffle</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Genetic Optimization (Body)</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Genetic Optimization (Agility)</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Genetic Optimization (Reaction)</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Genetic Optimization (Strength)</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Genetic Optimization (Charisma)</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Genetic Optimization (Intuition)</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Genetic Optimization (Logic)</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Genetic Optimization (Willpower)</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Cosmetic Alteration</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Print Removal</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <quality>
-        <name>Phenotypic Variation - Metaposeur</name>
-        <chargenonly amendoperation="remove"></chargenonly>
-      </quality>
-      <!-- End Region -->
-	  <!-- Region Blood Crystal Qualities -->
-      <quality>
-        <name>Crystal Breath</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-            <fatigueresist>1</fatigueresist>
-            <toxininhalationresist>2</toxininhalationresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Eye (One Eye)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Eye (Two Eyes)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Liver)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-25</essencepenaltyt100>
-            <essencepenaltymagonlyt100>25</essencepenaltymagonlyt100>
-            <fatigueresist>1</fatigueresist>
-            <toxiningestionresist>2</toxiningestionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Kidneys)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-25</essencepenaltyt100>
-            <essencepenaltymagonlyt100>25</essencepenaltymagonlyt100>
-            <fatigueresist>1</fatigueresist>
-            <toxininjectionresist>2</toxininjectionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Stomach)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-25</essencepenaltyt100>
-            <essencepenaltymagonlyt100>25</essencepenaltymagonlyt100>
-            <fatigueresist>1</fatigueresist>
-            <lifestylecost>-10</lifestylecost>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Intestines)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-25</essencepenaltyt100>
-            <essencepenaltymagonlyt100>25</essencepenaltymagonlyt100>
-            <fatigueresist>1</fatigueresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Liver, Kidneys)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-            <fatigueresist>2</fatigueresist>
-            <toxiningestionresist>2</toxiningestionresist>
-            <toxininjectionresist>2</toxininjectionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Liver, Stomach)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-            <fatigueresist>2</fatigueresist>
-            <lifestylecost>-10</lifestylecost>
-            <toxiningestionresist>2</toxiningestionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Liver, Intestines)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-            <fatigueresist>2</fatigueresist>
-            <toxiningestionresist>2</toxiningestionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Kidneys, Stomach)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-            <fatigueresist>2</fatigueresist>
-            <lifestylecost>-10</lifestylecost>
-            <toxininjectionresist>2</toxininjectionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Kidneys, Intestines)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-            <fatigueresist>2</fatigueresist>
-            <toxininjectionresist>2</toxininjectionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Stomach, Intestines)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-            <fatigueresist>2</fatigueresist>
-            <lifestylecost>-10</lifestylecost>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Liver, Kidneys, Stomach)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-75</essencepenaltyt100>
-            <essencepenaltymagonlyt100>75</essencepenaltymagonlyt100>
-            <fatigueresist>3</fatigueresist>
-            <lifestylecost>-10</lifestylecost>
-            <toxiningestionresist>2</toxiningestionresist>
-            <toxininjectionresist>2</toxininjectionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Liver, Kidneys, Intestines)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-75</essencepenaltyt100>
-            <essencepenaltymagonlyt100>75</essencepenaltymagonlyt100>
-            <fatigueresist>3</fatigueresist>
-            <toxiningestionresist>2</toxiningestionresist>
-            <toxininjectionresist>2</toxininjectionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Liver, Stomach, Intestines)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-75</essencepenaltyt100>
-            <essencepenaltymagonlyt100>75</essencepenaltymagonlyt100>
-            <fatigueresist>3</fatigueresist>
-            <lifestylecost>-10</lifestylecost>
-            <toxiningestionresist>2</toxiningestionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Kidneys, Stomach, Intestines)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-75</essencepenaltyt100>
-            <essencepenaltymagonlyt100>75</essencepenaltymagonlyt100>
-            <fatigueresist>3</fatigueresist>
-            <lifestylecost>-10</lifestylecost>
-            <toxininjectionresist>2</toxininjectionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Gut (Liver, Kidneys, Stomach, Intestines)</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-100</essencepenaltyt100>
-            <essencepenaltymagonlyt100>100</essencepenaltymagonlyt100>
-            <fatigueresist>4</fatigueresist>
-            <lifestylecost>-10</lifestylecost>
-            <toxiningestionresist>2</toxiningestionresist>
-            <toxininjectionresist>2</toxininjectionresist>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Jaw</name>
-        <bonus  amendoperation="replace">
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Limb (Arm)</name>
-        <bonus  amendoperation="replace">
-            <armor>1</armor>
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-            <selectside />
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Limb (Leg)</name>
-        <bonus  amendoperation="replace">
-            <armor>1</armor>
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-            <selectside />
-        </bonus>
-      </quality>
-      <quality>
-        <name>Crystal Spine</name>
-        <bonus  amendoperation="replace">
-            <armor>1</armor>
-            <essencepenaltyt100>-50</essencepenaltyt100>
-            <essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
-            <initiative precedence="0">2</initiative>
-        </bonus>
-      </quality>
-	  <!-- End Region -->
-	  <!-- Region Banned Negative Qualities -->
-	  <quality><!-- Alpha Junkie -->
-		<name>Alpha Junkie</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Amnesia (Surface Deletion) -->
-		<name>Amnesia (Surface Deletion)</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Bi-polar -->
-		<name>Bi-polar</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Borrowed Time -->
-		<name>Borrowed Time</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Carrier (HMHVV Strain II) -->
-		<name>Carrier (HMHVV Strain II)</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Carrier (HMHVV Strain III) -->
-		<name>Carrier (HMHVV Strain III)</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Code of Honor: Avenging Angel -->
-		<name>Code of Honor: Avenging Angel</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Code of Honor: Black Hat -->
-		<name>Code of Honor: Black Hat</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Consummate Professional -->
-		<name>Consummate Professional</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Data Liberator -->
-		<name>Data Liberator</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Dead Emotion -->
-		<name>Dead Emotion</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Dead SIN -->
-		<name>Dead SIN</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Earther -->
-		<name>Earther</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Echo Chamber -->
-		<name>Echo Chamber</name>
-		<karma>10</karma>
-		<category>Positive</category>
-		<notes>When Matrix Searching, the character benefits from a +2 dice pool bonus, but the number of rolls needed to get a glitch is decreased by 1.</notes>
-	  </quality>
-	  <quality><!-- Elevated Stress -->
-		<name>Elevated Stress</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Emotional Attachment -->
-		<name>Emotional Attachment</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Every Man For Himself -->
-		<name>Every Man For Himself</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Hung out to Dry -->
-		<name>Hung out to Dry</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Made Man -->
-		<name>Made Man</name>
-		<hide />
-	  </quality>
-	  <quality><!-- In Debt -->
-		<name>In Debt</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Information Auctioneer -->
-		<name>Information Auctioneer</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Latest and Greatest -->
-		<name>Latest and Greatest</name>
-		<hide />
-	  </quality>
-	  <quality><!-- LEEEEEEEROY JENKINS -->
-		<name>Leeeeeeeroy Jenkins</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Pie Iesu Domine. Dona Eis Requiem. -->
-		<name>Pie Iesu Domine. Dona Eis Requiem.</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Pregnant -->
-		<name>Pregnant</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Quadriplegic -->
-		<name>Quadriplegic</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Resonant Burnout -->
-		<name>Resonant Burnout</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Stolen Gear -->
-		<name>Stolen Gear</name>
-		<hide />
-	  </quality>
-	  <quality><!-- This Is Your Last Chance -->
-		<name>This Is Your Last Chance</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Tough and Targeted -->
-		<name>Tough and Targeted</name>
-		<hide />
-	  </quality>
-	  <quality><!-- 'Ware Intolerance -->
-		<name>'Ware Intolerance</name>
-		<hide />
-	  </quality>
-	  <!-- End Region -->
-	  <!-- Region Run Faster Infected Qualities -->
-	  <quality><!-- Infected: Bandersnatch -->
-        <name>Infected: Bandersnatch</name>
-        <bonus amendoperation="replace">
-          <critterpowers>
-            <power>Adaptive Coloration</power>
-            <power select="Sunlight, Mild">Allergy</power>
-            <power select="Metahuman Flesh">Dietary Requirement</power>
-          </critterpowers>
-          <enableattribute>
-            <name>MAG</name>
-          </enableattribute>
-          <enabletab>
-            <name>critter</name>
-          </enabletab>
-          <essencepenalty>-1</essencepenalty>
-          <limitcritterpowercategory>Infected</limitcritterpowercategory>
-          <reach>1</reach>
-		  <specificattribute>
-			<name>BOD</name>
-			<max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>REA</name>
-			<max>1</max>
-			<val>1</val>
-		  </specificattribute>
-		  <specificattribute>
-			<name>STR</name>
-			<max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>WIL</name>
-			<max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>LOG</name>
-			<max>-1</max>
-			<val>-1</val>
-		  </specificattribute>
-		  <specificattribute>
-			<name>INT</name>
-			<max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>CHA</name>
-			<max>-2</max>
-			<val>-1</val>
-		  </specificattribute>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-        </bonus>
-      </quality>
-	  <quality><!-- Infected: Banshee -->
-		<name>Infected: Banshee</name>
-		<bonus amendoperation="replace">
-		  <critterpowers>
-			<power>Dual Natured</power>
-			<power>Essence Drain</power>
-			<power select="Age">Immunity</power>
-			<power>Essence Loss</power>
-			<power select="Sunlight, Severe">Allergy</power>
-			<power select="Metahuman Blood">Dietary Requirement</power>
-			<power select="Silver">Vulnerability</power>
-			<power select="Wood">Vulnerability</power>
-		  </critterpowers>
-		  <enableattribute>
-			 <name>MAG</name>
-		  </enableattribute>
-		  <enabletab>
-			 <name>critter</name>
-		  </enabletab>
-		  <initiativepass precedence="-1">1</initiativepass>
-		  <limitcritterpowercategory>Infected</limitcritterpowercategory>
-		  <runmultiplier>
-			<category>Ground</category>
-			<val>1</val>
-		  </runmultiplier>
-			<walkmultiplier>
-			<category>Ground</category>
-			<val>1</val>
-		  </walkmultiplier>
-		  <walkmultiplier>
-			<category>Swim</category>
-			<val>1</val>
-		  </walkmultiplier>
-		  <optionalpowers>
-			 <optionalpower select="Hearing">Enhanced Senses</optionalpower>
-			 <optionalpower select="Toxins">Immunity</optionalpower>
-			 <optionalpower select="Smell">Enhanced Senses</optionalpower>
-			 <optionalpower select="Pathogens">Immunity</optionalpower>
-		  </optionalpowers>
-		  <specificattribute>
-			 <name>BOD</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>REA</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>STR</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>WIL</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>INT</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>CHA</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <optionalpowers>
-			 <optionalpower>Infected Improvement (Body)</optionalpower>
-			 <optionalpower>Infected Improvement (Reaction)</optionalpower>
-			 <optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			 <optionalpower>Infected Improvement (Body)</optionalpower>
-			 <optionalpower>Infected Improvement (Reaction)</optionalpower>
-			 <optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			 <optionalpower>Infected Improvement (Willpower)</optionalpower>
-			 <optionalpower>Infected Improvement (Intuition)</optionalpower>
-			 <optionalpower>Infected Improvement (Charisma)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			 <optionalpower>Infected Improvement (Willpower)</optionalpower>
-			 <optionalpower>Infected Improvement (Intuition)</optionalpower>
-			 <optionalpower>Infected Improvement (Charisma)</optionalpower>
-		  </optionalpowers>
-		</bonus>
-	  </quality>
-	  <quality><!-- Infected: Dzoo-Noo-Qua -->
-		<name>Infected: Dzoo-Noo-Qua</name>
-		<bonus amendoperation="replace">
-          <armor>1</armor>
-		  <critterpowers>
-			<power>Dual Natured</power>
-			<power>Essence Drain</power>
-			<power select="Age">Immunity</power>
-			<power>Infection</power>
-			<power>Essence Loss</power>
-			<power select="Sunlight, Moderate">Allergy</power>
-			<power select="Metahuman Flesh">Dietary Requirement</power>
-		  </critterpowers>
-		  <enableattribute>
-			<name>MAG</name>
-		  </enableattribute>
-		  <enabletab>
-			<name>critter</name>
-		  </enabletab>
-		  <initiativepass precedence="-1">1</initiativepass>
-		  <limitcritterpowercategory>Infected</limitcritterpowercategory>
-		  <specificattribute>
-			<name>BOD</name>
-			<max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>REA</name>
-			<max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>STR</name>
-			<max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>WIL</name>
-			<max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>INT</name>
-			<max>2</max>
-		  </specificattribute>
-		  <optionalpowers>
-			<optionalpower>Armor</optionalpower>
-			<optionalpower select="Hearing">Enhanced Senses</optionalpower>
-			<optionalpower select="Toxins">Immunity</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <runmultiplier>
-			<category>Ground</category>
-			<val>1</val>
-		  </runmultiplier>
-		  <walkmultiplier>
-			<category>Ground</category>
-			<val>1</val>
-		  </walkmultiplier>
-		  <walkmultiplier>
-			<category>Swim</category>
-			<val>1</val>
-		  </walkmultiplier>
-		</bonus>
-	  </quality>
-	  <quality><!-- Infected: Fomoraig -->
-        <name>Infected: Fomoraig</name>
-        <bonus amendoperation="replace">
-          <armor>1</armor>
-          <critterpowers>
-            <power>Corrosive Spit</power>
-            <power>Magical Guard</power>
-            <power>Dual Natured</power>
-            <power select="Air Pollution, Moderate">Allergy</power>
-            <power select="Sunlight, Moderate">Allergy</power>
-            <power select="Metahuman Flesh">Dietary Requirement</power>
-            <power rating="1">Armor</power>
-          </critterpowers>
-          <enableattribute>
-            <name>MAG</name>
-          </enableattribute>
-          <enabletab>
-            <name>critter</name>
-          </enabletab>
-          <essencepenalty>-1</essencepenalty>
-          <limitcritterpowercategory>Infected</limitcritterpowercategory>
-          <reach>1</reach>
-		  <specificattribute>
-			<name>BOD</name>
-			<max>3</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>REA</name>
-			<max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>STR</name>
-			<max>3</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>WIL</name>
-			<max>-2</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>LOG</name>
-			<max>-1</max>
-			<val>-1</val>
-		  </specificattribute>
-		  <specificattribute>
-			<name>INT</name>
-			<max>1</max>
-		  </specificattribute>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		</bonus>
-      </quality>
-	  <quality><!-- Infected: Ghoul (Dwarf) -->
-		<id>ed801fa4-0514-458a-b850-9eeddf0c2fed</id>
-		<hide />
-	  </quality>
-	  <quality><!-- Infected: Ghoul (Elf) -->
-		<id>e156dc45-66ca-4b45-baf8-5c875b9866c4</id>
-		<hide />
-	  </quality>
-	  <quality><!-- Infected: Ghoul (human) -->
-		<id>2d99bbb6-7af0-45c6-a83b-46d9d9f10838</id>
-		<hide />
-	  </quality>
-	  <quality><!-- Infected: Ghoul (Ork) -->
-		<id>ea7c269f-6843-488a-b0fa-8f79c935f568</id>
-		<hide />
-	  </quality>
-	  <quality><!-- Infected: Ghoul (Sasquatch) -->
-		<id>8325c7f3-c578-458a-9068-e159b2c686ef</id>
-		<hide />
-	  </quality>
-	  <quality><!-- Infected: Ghoul (Troll) -->
-		<id>92123580-1f4f-4c6a-b2f5-3b9c9031d705</id>
-		<hide />
-	  </quality>
-	  <quality><!-- Infected: Gnawer -->
-		<name>Infected: Gnawer</name>
-		<bonus amendoperation="replace">
-		  <armor>1</armor>
-		  <critterpowers>
-			<power select="Vermin">Animal Control</power>
-			<power>Dual Natured</power>	
-			<power select="Toxins">Immunity</power>
-			<power>Noxious Breath</power>
-			<power>Paralyzing Touch</power>
-			<power select="Sunlight, Moderate">Allergy</power>
-			<power select="Metahuman Bone">Dietary Requirement</power>
-		  </critterpowers>
-		  <enableattribute>
-			<name>MAG</name>
-		  </enableattribute>
-		  <enabletab>
-			<name>critter</name>
-		  </enabletab>
-		  <essencepenalty>-1</essencepenalty>
-		  <limitcritterpowercategory>Infected</limitcritterpowercategory>
-		  <specificattribute>
-			 <name>BOD</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>REA</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>STR</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>WIL</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>LOG</name>
-			 <max>-1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>INT</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>CHA</name>
-			 <max>-1</max>
-		  </specificattribute>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		</bonus>
-	  </quality>
-	  <quality><!-- Infected: Goblin -->
-        <name>Infected: Goblin</name>
-		<bonus amendoperation="replace">
-          <armor>1</armor>
-          <critterpowers>
-            <power>Dual Natured</power>
-            <power>Essence Drain</power>
-            <power select="Age">Immunity</power>
-            <power>Infection</power>
-            <power>Noxious Breath</power>
-            <power>Paralyzing Touch</power>
-            <power select="Sunlight, Moderate">Allergy</power>
-            <power select="Metahuman Flesh">Dietary Requirement</power>
-            <power select="Iron">Vulnerability</power>
-          </critterpowers>
-          <enableattribute>
-            <name>MAG</name>
-          </enableattribute>
-          <enabletab>
-            <name>critter</name>
-          </enabletab>
-          <initiativepass precedence="-1">1</initiativepass>
-          <limitcritterpowercategory>Infected</limitcritterpowercategory>
-          <optionalpowers>
-            <optionalpower select="Smell">Enhanced Senses</optionalpower>
-            <optionalpower select="Taste">Enhanced Senses</optionalpower>
-            <optionalpower select="Fire">Immunity</optionalpower>
-            <optionalpower select="Toxins">Immunity</optionalpower>
-          </optionalpowers>
-		  <specificattribute>
-			 <name>BOD</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>REA</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>STR</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>WIL</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>LOG</name>
-			 <max>-2</max>
-			 <val>-1</val>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>INT</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>CHA</name>
-			 <max>-1</max>
-			 <val>-1</val>
-		  </specificattribute>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <runmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </runmultiplier>
-          <walkmultiplier>
-            <category>Swim</category>
-            <val>1</val>
-          </walkmultiplier>
-          <walkmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </walkmultiplier>
-        </bonus>
-	  </quality>
-	  <quality><!-- Infected: Grendel -->
-		<name>Infected: Grendel</name>
-        <bonus amendoperation="replace">
-          <armor>1</armor>
-          <critterpowers>
-            <power>Animal Control</power>
-            <power>Dual Natured</power>
-            <power select="Toxins">Immunity</power>
-            <power>Noxious Breath</power>
-            <power>Paralyzing Touch</power>
-            <power select="Sunlight, Moderate">Allergy</power>
-            <power select="Metahuman Flesh">Dietary Requirement</power>
-            <power select="Iron">Vulnerability</power>
-          </critterpowers>
-          <enableattribute>
-            <name>MAG</name>
-          </enableattribute>
-          <enabletab>
-            <name>critter</name>
-          </enabletab>
-          <essencepenalty>-1</essencepenalty>
-          <initiative>1</initiative>
-          <limitcritterpowercategory>Infected</limitcritterpowercategory>
-          <optionalpowers>
-            <optionalpower select="Hearing">Enhanced Senses</optionalpower>
-            <optionalpower select="Taste">Enhanced Senses</optionalpower>
-            <optionalpower select="Fire">Immunity</optionalpower>
-            <optionalpower select="Toxins">Immunity</optionalpower>
-          </optionalpowers>
-		  <specificattribute>
-			 <name>BOD</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>REA</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>STR</name>
-			 <max>3</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>WIL</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>LOG</name>
-			 <max>-1</max>
-			 <val>-1</val>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>INT</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>CHA</name>
-			 <max>-1</max>
-			 <val>-1</val>
-		  </specificattribute>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-        </bonus>
-	  </quality>
-	  <quality><!-- Infected: Harvester -->
-		<name>Infected: Harvester</name>
-        <bonus amendoperation="replace">
-          <armor>2</armor>
-          <critterpowers>
-            <power>Movement</power>
-            <power select="Thermographic Vision">Enhanced Senses</power>
-            <power>Dual Natured</power>
-            <power select="Silver, Moderate">Allergy</power>
-            <power select="Sunlight, Moderate">Allergy</power>
-            <power select="Metahuman Flesh">Dietary Requirement</power>
-          </critterpowers>
-          <enableattribute>
-            <name>MAG</name>
-          </enableattribute>
-          <enabletab>
-            <name>critter</name>
-          </enabletab>
-          <essencepenalty>-1</essencepenalty>
-          <initiative>1</initiative>
-          <initiativepass precedence="-1">1</initiativepass>
-          <limitcritterpowercategory>Infected</limitcritterpowercategory>
-		  <specificattribute>
-			 <name>BOD</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>REA</name>
-			 <max>3</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>STR</name>
-			 <max>3</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>WIL</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>LOG</name>
-			 <max>-2</max>
-			 <val>-1</val>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>INT</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>CHA</name>
-			 <max>-4</max>
-			 <val>-3</val>
-		  </specificattribute>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <runmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </runmultiplier>
-          <walkmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </walkmultiplier>
-          <walkmultiplier>
-            <category>Swim</category>
-            <val>1</val>
-          </walkmultiplier>
-        </bonus>
-	  </quality>
-	  <quality><!-- Infected: Loup-Garou -->
-		<name>Infected: Loup-Garou</name>
-        <bonus amendoperation="replace">
-          <armor>2</armor>
-          <critterpowers>
-            <power>Movement</power>
-            <power select="Hearing">Enhanced Senses</power>
-            <power select="Low-Light Vision">Enhanced Senses</power>
-            <power select="Smell">Enhanced Senses</power>
-            <power select="Thermographic Vision">Enhanced Senses</power>
-            <power>Dual Natured</power>
-            <power select="Aconite a.k.a. Wolf's Bane, Moderate">Allergy</power>
-            <power select="Sunlight, Severe">Allergy</power>
-            <power select="Metahuman Flesh">Dietary Requirement</power>
-          </critterpowers>
-          <enableattribute>
-            <name>MAG</name>
-          </enableattribute>
-          <enabletab>
-            <name>critter</name>
-          </enabletab>
-          <essencepenalty>-1</essencepenalty>
-          <initiative>1</initiative>
-          <initiativepass precedence="-1">1</initiativepass>
-          <limitcritterpowercategory>Infected</limitcritterpowercategory>
-		  <specificattribute>
-			 <name>BOD</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>REA</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>STR</name>
-			 <max>4</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>WIL</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>LOG</name>
-			 <max>-1</max>
-			 <val>-1</val>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>INT</name>
-			 <max>3</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>CHA</name>
-			 <max>-2</max>
-			 <val>-1</val>
-		  </specificattribute>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <runmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </runmultiplier>
-		  <walkmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </walkmultiplier>
-          <walkmultiplier>
-            <category>Swim</category>
-            <val>1</val>
-          </walkmultiplier>
-        </bonus>
-	  </quality>
-	  <quality><!-- Infected: Mutaqua -->
-		<name>Infected: Mutaqua</name>
-        <bonus amendoperation="replace">
-          <armor>1</armor>
-          <critterpowers>
-            <power>Essence Drain</power>
-            <power select="Age">Immunity</power>
-            <power>Essence Loss</power>
-            <power>Dual Natured</power>
-            <power select="Fire">Vulnerability</power>
-            <power select="Wood, Severe">Allergy</power>
-            <power select="Sunlight, Extreme">Allergy</power>
-            <power select="Metahuman Flesh">Dietary Requirement</power>
-          </critterpowers>
-          <enableattribute>
-            <name>MAG</name>
-          </enableattribute>
-          <enabletab>
-            <name>adept</name>
-            <name>critter</name>
-          </enabletab>
-          <initiativepass precedence="-1">1</initiativepass>
-          <limitcritterpowercategory>Infected</limitcritterpowercategory>
-          <optionalpowers>
-            <optionalpower select="Hearing">Enhanced Senses</optionalpower>
-            <optionalpower select="Low-Light Vision">Enhanced Senses</optionalpower>
-            <optionalpower>Fear</optionalpower>
-            <optionalpower select="Toxins">Immunity</optionalpower>
-          </optionalpowers>
-          <reach>1</reach>
-		  <specificattribute>
-			 <name>BOD</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>AGI</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>REA</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>STR</name>
-			 <max>3</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>WIL</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>INT</name>
-			 <max>2</max>
-		  </specificattribute>
-          <runmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </runmultiplier>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-			<optionalpower>Infected Improvement (Agility)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-			<optionalpower>Infected Improvement (Agility)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-		  </optionalpowers>
-          <walkmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </walkmultiplier>
-          <walkmultiplier>
-            <category>Swim</category>
-            <val>1</val>
-          </walkmultiplier>
-        </bonus>
-        <required amendoperation="replace">
-          <allof>
-            <metatype>Troll</metatype>
-          </allof>
-		  <oneof>
-			<quality>Magician</quality>
-			<quality>Mystic Adept</quality>
-		  </oneof>
-        </required>
-	  </quality>
-	  <quality><!-- Infected: Nosferatu -->
-		<name>Infected: Nosferatu</name>
-        <bonus amendoperation="replace">
-          <critterpowers>
-            <power>Essence Drain</power>
-            <power>Infection</power>
-            <power select="Age">Immunity</power>
-            <power>Essence Loss</power>
-            <power>Dual Natured</power>
-            <power select="Wood, Severe">Allergy</power>
-            <power select="Sunlight, Extreme">Allergy</power>
-            <power select="Metahuman Blood">Dietary Requirement</power>
-            <power select="Lack of Air (Essence) Minutes">Induced Dormancy</power>
-          </critterpowers>
-          <enableattribute>
-            <name>MAG</name>
-          </enableattribute>
-          <enabletab>
-            <name>critter</name>
-          </enabletab>
-          <initiativepass precedence="-1">1</initiativepass>
-          <limitcritterpowercategory>Infected</limitcritterpowercategory>
-          <optionalpowers>
-            <optionalpower select="Hearing">Enhanced Senses</optionalpower>
-            <optionalpower select="Lowlight Vision">Enhanced Senses</optionalpower>
-            <optionalpower select="Thermographic Vision">Enhanced Senses</optionalpower>
-            <optionalpower select="Pathogens">Immunity</optionalpower>
-            <optionalpower select="Toxins">Immunity</optionalpower>
-          </optionalpowers>
-		  <specificattribute>
-			 <name>BOD</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>AGI</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>REA</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>STR</name>
-			 <max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>WIL</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>LOG</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>INT</name>
-			 <max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			 <name>CHA</name>
-			 <max>2</max>
-		  </specificattribute>
-          <runmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </runmultiplier>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-			<optionalpower>Infected Improvement (Agility)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Body)</optionalpower>
-			<optionalpower>Infected Improvement (Reaction)</optionalpower>
-			<optionalpower>Infected Improvement (Strength)</optionalpower>
-			<optionalpower>Infected Improvement (Agility)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-			<optionalpower>Infected Improvement (Charisma)</optionalpower>
-			<optionalpower>Infected Improvement (Logic)</optionalpower>
-		  </optionalpowers>
-		  <optionalpowers>
-			<optionalpower>Infected Improvement (Willpower)</optionalpower>
-			<optionalpower>Infected Improvement (Intuition)</optionalpower>
-			<optionalpower>Infected Improvement (Charisma)</optionalpower>
-			<optionalpower>Infected Improvement (Logic)</optionalpower>
-		  </optionalpowers>
-          <walkmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </walkmultiplier>
-          <walkmultiplier>
-            <category>Swim</category>
-            <val>1</val>
-          </walkmultiplier>
-        </bonus>
-		<required amendoperation="replace">
-          <allof>
-            <metatype>Human</metatype>
-          </allof>
-		  <oneof>
-			<quality>Magician</quality>
-			<quality>Mystic Adept</quality>
-		  </oneof>
-        </required>
-	  </quality>
-	  <quality><!-- Infected: Vampire -->
-		  <id>7d0a1679-846a-4cf2-b8b5-b5c686766a90</id>
-		  <name>Infected: Vampire</name>
-		  <bonus amendoperation="replace">
-			<critterpowers>
-			  <power>Essence Drain</power>
-			  <power select="Age">Immunity</power>
-			  <power>Essence Loss</power>
-			  <power>Dual Natured</power>
-			  <power>Infection</power>
-			  <power select="Wood, Severe">Allergy</power>
-			  <power select="Sunlight, Severe">Allergy</power>
-			  <power select="Metahuman Blood">Dietary Requirement</power>
-			  <power select="Lack of Air (Essence) Minutes">Induced Dormancy</power>
-			</critterpowers>
-			<enableattribute>
-			  <name>MAG</name>
-			</enableattribute>
-			<enabletab>
-			  <name>critter</name>
-			</enabletab>
-			<initiativepass precedence="-1">1</initiativepass>
-			<limitcritterpowercategory>Infected</limitcritterpowercategory>
-			<optionalpowers>
-			  <optionalpower select="Hearing">Enhanced Senses</optionalpower>
-			  <optionalpower select="Smell">Enhanced Senses</optionalpower>
-			  <optionalpower select="Thermographic Vision">Enhanced Senses</optionalpower>
-			  <optionalpower select="Pathogens">Immunity</optionalpower>
-			  <optionalpower select="Toxins">Immunity</optionalpower>
-			</optionalpowers>
-			<optionalpowers>
-			  <optionalpower>Infected Improvement (Body)</optionalpower>
-			  <optionalpower>Infected Improvement (Reaction)</optionalpower>
-			  <optionalpower>Infected Improvement (Strength)</optionalpower>
-			</optionalpowers>
-			<optionalpowers>
-			  <optionalpower>Infected Improvement (Body)</optionalpower>
-			  <optionalpower>Infected Improvement (Reaction)</optionalpower>
-			  <optionalpower>Infected Improvement (Strength)</optionalpower>
-			</optionalpowers>
-			<optionalpowers>
-			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
-			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
-			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
-			</optionalpowers>
-			<optionalpowers>
-			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
-			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
-			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
-			</optionalpowers>
-			<specificattribute>
-				<name>BOD</name>
-				<max>1</max>
-			</specificattribute>
-			<specificattribute>
-				<name>REA</name>
-				<max>2</max>
-			</specificattribute>
-			<specificattribute>
-				<name>STR</name>
-				<max>1</max>
-			</specificattribute>
-			<specificattribute>
-				<name>WIL</name>
-				<max>1</max>
-			</specificattribute>
-			<specificattribute>
-				<name>INT</name>
-				<max>1</max>
-			</specificattribute>
-			<specificattribute>
-				<name>CHA</name>
-				<max>2</max>
-			</specificattribute>
-			<runmultiplier>
-			  <category>Ground</category>
-			  <val>1</val>
-			</runmultiplier>
-			<walkmultiplier>
-			  <category>Ground</category>
-			  <val>1</val>
-			</walkmultiplier>
-			<walkmultiplier>
-			  <category>Swim</category>
-			  <val>1</val>
-			</walkmultiplier>
-		  </bonus>
 		</quality>
-	  <quality><!-- Infected: Vampire (Non-Human) -->
-		<name>Infected: Vampire (Non-Human)</name>
-		<hide />
-	  </quality>
-      <quality><!-- Infected: Sukuyan -->
-        <id>3c746778-bec5-4b9b-a1a4-62ac6eb98342</id>
-        <name>Infected: Sukuyan</name>
-        <bonus amendoperation="replace">
-          <critterpowers>
-            <power>Essence Drain</power>
-            <power select="Age">Immunity</power>
-            <power>Essence Loss</power>
-            <power>Dual Natured</power>
-            <power>Infection</power>
-            <power select="Wood, Severe">Allergy</power>
-            <power select="Sunlight, Severe">Allergy</power>
-            <power select="Metahuman Blood">Dietary Requirement</power>
-            <power select="Salt">Dietary Requirement</power>
-            <power select="Wood">Vulnerability</power>
-          </critterpowers>
-          <enableattribute>
-            <name>MAG</name>
-          </enableattribute>
-          <enabletab>
-            <name>critter</name>
-          </enabletab>
-          <initiativepass precedence="-1">1</initiativepass>
-          <limitcritterpowercategory>Infected</limitcritterpowercategory>
-          <optionalpowers>
-            <optionalpower select="Hearing">Enhanced Senses</optionalpower>
-            <optionalpower select="Smell">Enhanced Senses</optionalpower>
-            <optionalpower select="Thermographic Vision">Enhanced Senses</optionalpower>
-            <optionalpower select="Pathogens">Immunity</optionalpower>
-            <optionalpower select="Toxins">Immunity</optionalpower>
-          </optionalpowers>
-		  <specificattribute>
-			<name>BOD</name>
-			<max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>REA</name>
-			<max>2</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>STR</name>
-			<max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>WIL</name>
-			<max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>INT</name>
-			<max>1</max>
-		  </specificattribute>
-		  <specificattribute>
-			<name>CHA</name>
-			<max>2</max>
-		  </specificattribute>
-          <runmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </runmultiplier>
-          <walkmultiplier>
-            <category>Ground</category>
-            <val>1</val>
-          </walkmultiplier>
-          <walkmultiplier>
-            <category>Swim</category>
-            <val>1</val>
-          </walkmultiplier>
-        </bonus>
-      </quality>
-	  <quality><!-- Infected: Sukuyan (Non-Human) -->
-		<name>Infected: Sukuyan (Non-Human)</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Infected: Wendigo -->
-		<name>Infected: Wendigo</name>
-		<bonus amendoperation="replace">
-			<critterpowers>
-			  <power>Essence Drain</power>
-			  <power>Infection</power>
-			  <power select="Age">Immunity</power>
-			  <power>Essence Loss</power>
-			  <power>Dual Natured</power>
-			  <power select="Ferrous Metals, Moderate">Allergy</power>
-			  <power select="Sunlight, Severe">Allergy</power>
-			  <power select="Metahuman Flesh">Dietary Requirement</power>
-			</critterpowers>
-			<enableattribute>
-			  <name>MAG</name>
-			</enableattribute>
-			<enabletab>
-			  <name>critter</name>
-			</enabletab>
-			<initiativepass precedence="-1">1</initiativepass>
-			<limitcritterpowercategory>Infected</limitcritterpowercategory>
-			<optionalpowers>
-			  <optionalpower select="Hearing">Enhanced Senses</optionalpower>
-			  <optionalpower select="Smell">Enhanced Senses</optionalpower>
-			  <optionalpower select="Visual Acuity">Enhanced Senses</optionalpower>
-			  <optionalpower select="Pathogens">Immunity</optionalpower>
-			  <optionalpower select="Toxins">Immunity</optionalpower>
-			</optionalpowers>
-			<specificattribute>
-				<name>BOD</name>
-				<max>2</max>
-			</specificattribute>
-			<specificattribute>
-				<name>REA</name>
-				<max>2</max>
-			</specificattribute>
-			<specificattribute>
-				<name>STR</name>
-				<max>1</max>
-			</specificattribute>
-			<specificattribute>
-				<name>WIL</name>
-				<max>1</max>
-			</specificattribute>
-			<specificattribute>
-				<name>LOG</name>
-				<max>1</max>
-			</specificattribute>
-			<specificattribute>
-				<name>INT</name>
-				<max>1</max>
-			</specificattribute>
-			<specificattribute>
-				<name>CHA</name>
-				<max>2</max>
-			</specificattribute>
-			<runmultiplier>
-			  <category>Ground</category>
-			  <val>1</val>
-			</runmultiplier>
-			<optionalpowers>
-			  <optionalpower>Infected Improvement (Body)</optionalpower>
-			  <optionalpower>Infected Improvement (Reaction)</optionalpower>
-			  <optionalpower>Infected Improvement (Strength)</optionalpower>
-			</optionalpowers>
-			<optionalpowers>
-			  <optionalpower>Infected Improvement (Body)</optionalpower>
-			  <optionalpower>Infected Improvement (Reaction)</optionalpower>
-			  <optionalpower>Infected Improvement (Strength)</optionalpower>
-			</optionalpowers>
-			<optionalpowers>
-			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
-			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
-			  <optionalpower>Infected Improvement (Logic)</optionalpower>
-			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
-			</optionalpowers>
-			<optionalpowers>
-			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
-			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
-			  <optionalpower>Infected Improvement (Logic)</optionalpower>
-			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
-			</optionalpowers>
-			<walkmultiplier>
-			  <category>Ground</category>
-			  <val>1</val>
-			</walkmultiplier>
-			<walkmultiplier>
-			  <category>Swim</category>
-			  <val>1</val>
-			</walkmultiplier>
-		</bonus>
-		<required amendoperation="replace">
-		  <allof>
-            <metatype>Ork</metatype>
-		  </allof>
-		  <oneof>
-			<quality>Magician</quality>
-			<quality>Mystic Adept</quality>
-		  </oneof>
-		</required>
-	  </quality>
-	  <quality><!-- Wildcard Chimera -->
-		<name>Wildcard Chimera</name>
-		<hide />
-	  </quality>
-	  <quality xpathfilter="id = 'f466b913-5df0-4370-abf0-fad4ab380d19' or id = 'b0460fde-7bf8-4e77-b402-6fe7143aa590' or id = 'ad81bcdf-2f45-4ca3-ab46-c766fd734800'">  <!-- Infected Optional Power: Armor, Infected Optional Power: Immunity (Pathogens), Infected Optional Power: Immunity (Toxins) -->
-		  <required>
-			<oneof>
-			  <quality amendoperation="addnode">Infected: Ghoul</quality>
-			</oneof>
-		  </required>
-      </quality>
-	  <!-- End Region -->
-	  <!-- Region Infected Optional Powers -->
-	  <quality><!-- Infected Optional Power: Regeneration -->
-		<name>Infected Optional Power: Regeneration</name>
-		<hide />
-	  </quality>
-	  <quality><!-- Infected Optional Power: Mist Form -->
-		<name>Infected Optional Power: Mist Form</name>
-		<required amendoperation="Replace">
-		  <oneof>
-			<quality>Infected: Banshee</quality>
-			<quality>Infected: Vampire</quality>
-			<quality>Infected: Sukuyan</quality>
-		  </oneof>
-		</required>
-	  </quality>
-	  <quality><!-- Infected Optional Power: Enhanced Sense (Hearing) -->
-		<name>Infected Optional Power: Enhanced Sense (Hearing)</name>
-		<required amendoperation="replace">
-		  <oneof>
-			<quality>Infected: Banshee</quality>
-			<quality>Infected: Dzoo-Noo-Qua</quality>
-			<quality>Infected: Vampire</quality>
-			<quality>Infected: Wendigo</quality>
-			<quality>Infected: Ghoul</quality>
-			<quality>Infected: Loup-Garou</quality>
-			<quality>Infected: Mutaqua</quality>
-			<quality>Infected: Nosferatu</quality>
-			<quality>Infected: Sukuyan</quality>
-		  </oneof>
-		</required>
-	  </quality>
-	  <quality><!-- Infected Optional Power: Enhanced Sense (Smell) -->
-		<name>Infected Optional Power: Enhanced Sense (Smell)</name>
-		<required amendoperation="replace">
-		  <oneof>
-			<quality>Infected: Banshee</quality>
-			<quality>Infected: Vampire</quality>
-			<quality>Infected: Wendigo</quality>
-			<quality>Infected: Ghoul</quality>
-			<quality>Infected: Goblin</quality>
-			<quality>Infected: Grendel</quality>
-			<quality>Infected: Loup-Garou</quality>
-			<quality>Infected: Sukuyan</quality>
-		  </oneof>
-		</required>
-	  </quality>
-	  <quality><!-- Infected Optional Power: Enhanced Sense (Thermographic Vision) -->
-		<name>Infected Optional Power: Enhanced Sense (Thermographic Vision)</name>
-		<required amendoperation="replace">
-		  <oneof>
-			<quality>Infected: Vampire</quality>
-			<quality>Infected: Grendel</quality>
-			<quality>Infected: Harvester</quality>
-			<quality>Infected: Loup-Garou</quality>
-			<quality>Infected: Nosferatu</quality>
-			<quality>Infected: Sukuyan</quality>
-		  </oneof>
-		</required>
-	  </quality>
-	  <!-- End Region -->
-	  <!-- Region Non-multipurchaseable Qualities -->
-	  <quality><!-- Codeslinger -->
-		<name>Codeslinger</name>
-		<limit amendoperation="replace">True</limit>
-	  </quality>
-	  <quality><!-- Natural Immunity (Natural) -->
-		<name>Natural Immunity (Natural)</name>
-		<limit amendoperation="replace">True</limit>
-	  </quality>
-	  <quality><!-- Natural Immunity (Synthetic) -->
-		<name>Natural Immunity (Synthetic)</name>
-		<limit amendoperation="replace">True</limit>
-	  </quality>
-	  <quality><!-- Spirit Affinity -->
-		<name>Spirit Affinity</name>
-		<limit amendoperation="replace">True</limit>
-	  </quality>
-	  <quality><!-- Brand Loyalty (Manufacturer) -->
-		<name>Brand Loyalty (Manufacturer)</name>
-		<limit amendoperation="replace">True</limit>
-		<forbidden>
-		  <oneof>
-			<quality>Brand Loyalty (Product)</quality>
-		  </oneof>
-		</forbidden>
-	  </quality>
-	  <quality><!-- Brand Loyalty (Product) -->
-		<name>Brand Loyalty (Product)</name>
-		<limit amendoperation="replace">True</limit>
-		<forbidden>
-		  <oneof>
-			<quality>Brand Loyalty (Manufacturer)</quality>
-		  </oneof>
-		</forbidden>
-	  </quality>
-	  <quality><!-- Sensei -->
-		<name>Sensei</name>
-		<limit amendoperation="replace">True</limit>
-	  </quality>
-	  <quality><!-- Solid Rep -->
-		<name>Solid Rep</name>
-		<limit amendoperation="replace">True</limit>
-		<forbidden>
-		  <oneof>
-			<quality>Legendary Rep</quality>
-		  </oneof>
-		</forbidden>
-	  </quality>
-	  <quality><!-- Legendary Rep -->
-		<name>Legendary Rep</name>
-		<limit amendoperation="replace">True</limit>
-		<forbidden>
-		  <oneof>
-			<quality>Solid Rep</quality>
-		  </oneof>
-		</forbidden>
-	  </quality>
-	  <quality><!-- Metahuman Traits -->
-		<name>Metahuman Traits</name>
-		<limit amendoperation="replace">True</limit>
-	  </quality>
-	  <quality><!-- Elemental Focus -->
-		<name>Elemental Focus</name>
-		<limit amendoperation="replace">True</limit>
-	  </quality>
-	  <quality><!-- Sprite Affinity -->
-		<name>Sprite Affinity</name>
-		<limit amendoperation="replace">True</limit>
-	  </quality>
-	  <!-- End Region -->
-	  <!-- Mysads, am I right (laughter) -->
-	  <quality>
-		<name>Mystic Adept</name>
-		<bonus amendoperation="replace">
-		<enableattribute>
-		  <name>MAG</name>
-		</enableattribute>
-		<enabletab>
-		  <name>magician</name>
-		  <name>adept</name>
-		</enabletab>
-		<unlockskills>Sorcery,Conjuring,Enchanting</unlockskills>
-		<unlockskills>Sorcery,Conjuring,Enchanting</unlockskills>
-		<unlockskills>Aware</unlockskills>
-		</bonus>
-	  </quality>
-	  <!-- Mysads -->
-      <quality>
-        <name>Apprentice</name>
-        <bonus amendoperation="replace">
-            <enableattribute>
-              <name>MAG</name>
-            </enableattribute>
-            <enabletab>
-              <name>magician</name>
-            </enabletab>
-            <limitspellcategory />
-            <limitspiritcategory />
-			<allowspellcategory>Rituals</allowspellcategory>
-            <unlockskills>Sorcery</unlockskills>
-            <unlockskills>Conjuring</unlockskills>
-        </bonus>
-      </quality>
-	  <!-- Drakes -->
-	  <quality><!-- Dracoform (Eastern Drake) -->
-		<name>Dracoform (Eastern Drake)</name>
-		<karma>15</karma>
-		<doublecareer>False</doublecareer>
-		<forbidden>
-		  <quality>Latent Dracomorphosis</quality>
-		  <quality>Dracoform (Western Drake)</quality>
-		  <quality>Dracoform (Feathered Drake)</quality>
-		  <quality>Dracoform (Sea Drake)</quality>
-		</forbidden>
-		<bonus amendoperation="Replace">
-		  <critterpowers>
-			<power>Dual Natured</power>
-			<power>Shift (Dracoform)</power>
-		  </critterpowers>
-		  <enabletab>
-			<name>critter</name>
-		  </enabletab>
-		  <limitcritterpowercategory>Drake</limitcritterpowercategory>
-		  <unlockskills>Breath</unlockskills>
-		</bonus>
-	  </quality>
-	  <quality><!-- Dracoform (Western Drake) -->
-		<name>Dracoform (Western Drake)</name>
-		<karma>15</karma>
-		<doublecareer>False</doublecareer>
-		<forbidden>
-		  <quality>Latent Dracomorphosis</quality>
-		  <quality>Dracoform (Eastern Drake)</quality>
-		  <quality>Dracoform (Feathered Drake)</quality>
-		  <quality>Dracoform (Sea Drake)</quality>
-		</forbidden>
-		<bonus amendoperation="Replace">
-		  <critterpowers>
-			<power>Dual Natured</power>
-			<power>Shift (Dracoform)</power>
-		  </critterpowers>
-		  <enabletab>
-			<name>critter</name>
-		  </enabletab>
-		  <limitcritterpowercategory>Drake</limitcritterpowercategory>
-		  <unlockskills>Breath</unlockskills>
-		</bonus>
-	  </quality>
-	  <quality><!-- Dracoform (Feathered Drake) -->
-		<name>Dracoform (Feathered Drake)</name>
-		<karma>15</karma>
-		<doublecareer>False</doublecareer>
-		<forbidden>
-		  <quality>Latent Dracomorphosis</quality>
-		  <quality>Dracoform (Eastern Drake)</quality>
-		  <quality>Dracoform (Western Drake)</quality>
-		  <quality>Dracoform (Sea Drake)</quality>
-		</forbidden>
-		<bonus amendoperation="Replace">
-		  <critterpowers>
-			<power>Dual Natured</power>
-			<power>Shift (Dracoform)</power>
-		  </critterpowers>
-		  <enabletab>
-			<name>critter</name>
-		  </enabletab>
-		  <limitcritterpowercategory>Drake</limitcritterpowercategory>
-		  <unlockskills>Breath</unlockskills>
-		</bonus>
-	  </quality>
-	  <quality><!-- Dracoform (Sea Drake) -->
-		<name>Dracoform (Sea Drake)</name>
-		<karma>15</karma>
-		<doublecareer>False</doublecareer>
-		<forbidden>
-		  <quality>Latent Dracomorphosis</quality>
-		  <quality>Dracoform (Eastern Drake)</quality>
-		  <quality>Dracoform (Western Drake)</quality>
-		  <quality>Dracoform (Feathered Drake)</quality>
-		</forbidden>
-		<bonus amendoperation="Replace">
-      <critterpowers>
-        <power>Dual Natured</power>
-        <power>Shift (Dracoform)</power>
-      </critterpowers>
-      <enabletab>
-        <name>critter</name>
-      </enabletab>
-      <limitcritterpowercategory>Drake</limitcritterpowercategory>
-      <unlockskills>Breath</unlockskills>
-    </bonus>
-  </quality>
-      <quality><!-- Latent Dracomorphosis -->
-	    <id>e132257f-14d8-4e5a-9f20-ae6af29649d5</id>
-	    <name>Latent Dracomorphosis</name>
-	    <doublecareer>False</doublecareer>
-	    <forbidden amendoperation="replace">
-		  <oneof>
-			<quality>Dracoform (Eastern Drake)</quality>
-			<quality>Dracoform (Western Drake)</quality>
-			<quality>Dracoform (Feathered Drake)</quality>
-			<quality>Dracoform (Sea Drake)</quality>
-			<quality>Infected: Bandersnatch</quality>
-			<quality>Infected: Banshee</quality>
-			<quality>Infected: Dzoo-Noo-Qua</quality>
-			<quality>Infected: Fomoraig</quality>
-			<quality>Infected: Ghoul </quality>
-			<quality>Infected: Gnawer</quality>
-			<quality>Infected: Goblin</quality>
-			<quality>Infected: Grendel</quality>
-			<quality>Infected: Harvester</quality>
-			<quality>Infected: Loup-Garou</quality>
-			<quality>Infected: Mutaqua</quality>
-			<quality>Infected: Nosferatu</quality>
-			<quality>Infected: Vampire</quality>
-			<quality>Infected: Sukuyan (Human)</quality>
-			<quality>Infected: Sukuyan (Non-Human)</quality>
-			<quality>Infected: Wendigo</quality>
-		  </oneof>
-		</forbidden>
-      </quality>
-  </qualities>
+		<quality>
+			<!-- Exceptional Entity -->
+			<name>Exceptional Entity</name>
+			<karma>25</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+		</quality>
+		<quality>
+			<!-- Lazy Fingers -->
+			<name>Lazy Fingers</name>
+			<karma>-6</karma>
+		</quality>
+		<quality>
+			<!-- Hi-Rez -->
+			<name>Hi-Rez</name>
+			<karma>4</karma>
+			<required amendoperation="replace">
+				<oneof>
+					<quality>Technomancer</quality>
+					<quality>Reverberant</quality>
+				</oneof>
+			</required>
+			<source>BTB</source>
+			<page>160</page>
+		</quality>
+		<quality>
+			<!-- Items of Power -->
+			<id>8f18e68a-fbaf-46b6-bf00-c99910292c20</id>
+			<name>Items of Power I</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<canbuywithspellpoints>True</canbuywithspellpoints>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required amendoperation="replace">
+				<allof>
+					<magenabled />
+				</allof>
+				<oneof>
+					<skill>
+						<name>Artificing</name>
+						<val>3</val>
+					</skill>
+					<skill>
+						<name>Arcana</name>
+						<val>3</val>
+					</skill>
+				</oneof>
+			</required>
+			<source>FA</source>
+			<page>38</page>
+		</quality>
+		<quality>
+			<!-- Exceptional Attribute -->
+			<name>Exceptional Attribute</name>
+			<forbidden amendoperation="remove" />
+		</quality>
+		<quality>
+			<!-- Lucky -->
+			<name>Lucky</name>
+			<forbidden amendoperation="remove" />
+		</quality>
+		<quality>
+			<!-- Dedicated Spellslinger -->
+			<name>Dedicated Spellslinger</name>
+			<forbidden>
+				<oneof>
+					<name>Dedicated Conjurer</name>
+					<name>Dedicated Alchemist</name>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<!-- Dedicated Conjurer  -->
+			<name>Dedicated Conjurer</name>
+			<forbidden>
+				<oneof>
+					<name>Dedicated Spellslinger</name>
+					<name>Dedicated Alchemist</name>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<!-- Changeling (Class I SURGE) -->
+			<name>Changeling (Class I SURGE)</name>
+			<forbidden amendoperation="replace">
+				<oneof>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<!-- Changeling (Class II SURGE) -->
+			<name>Changeling (Class II SURGE)</name>
+			<forbidden amendoperation="replace">
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<!-- Changeling (Class III SURGE) -->
+			<name>Changeling (Class III SURGE)</name>
+			<forbidden amendoperation="replace">
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<!-- Lightning Reflexes -->
+			<name>Lightning Reflexes</name>
+			<bonus amendoperation="replace">
+				<dodge>1</dodge>
+				<initiative precedence="-1">1</initiative>
+				<initiativepass precedence="-1">1</initiativepass>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Gifted Healer -->
+			<name>Gifted Healer</name>
+			<bonus amendoperation="replace">
+				<specificskill>
+					<name>First Aid</name>
+					<bonus>1</bonus>
+				</specificskill>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Arcane Bodyguard -->
+			<name>Arcane Bodyguard</name>
+			<required amendoperation="replace">
+				<allof>
+					<magenabled />
+				</allof>
+				<oneof>
+					<skill>
+						<name>Counterspelling</name>
+						<val>4</val>
+					</skill>
+					<metamagic>Harmonious Defense</metamagic>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<!-- Bilingual -->
+			<name>Bilingual</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<!-- Chain Breaker -->
+			<name>Chain Breaker</name>
+			<bonus amendoperation="replace">
+				<addspirit>
+					<spirit>Guardian Spirit</spirit>
+					<spirit>Guidance Spirit</spirit>
+					<spirit>Spirit of Air</spirit>
+					<spirit>Spirit of Beasts</spirit>
+					<spirit>Spirit of Earth</spirit>
+					<spirit>Spirit of Man</spirit>
+					<spirit>Spirit of Fire</spirit>
+					<spirit>Plant Spirit</spirit>
+					<spirit>Spirit of Water</spirit>
+					<spirit>Task Spirit</spirit>
+				</addspirit>
+				<addspirit>
+					<spirit>Guardian Spirit</spirit>
+					<spirit>Guidance Spirit</spirit>
+					<spirit>Spirit of Air</spirit>
+					<spirit>Spirit of Beasts</spirit>
+					<spirit>Spirit of Earth</spirit>
+					<spirit>Spirit of Man</spirit>
+					<spirit>Spirit of Fire</spirit>
+					<spirit>Plant Spirit</spirit>
+					<spirit>Spirit of Water</spirit>
+					<spirit>Task Spirit</spirit>
+				</addspirit>
+				<skilldisable>Binding</skilldisable>
+			</bonus>
+		</quality>
+		<!-- End Region -->
+		<!-- Region Banned Positive Qualities -->
+		<quality>
+			<!-- Better to be Feathered Than Loved -->
+			<name>Better to be Feathered Than Loved</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Community Connection -->
+			<name>Community Connection</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Erased -->
+			<name>Erased</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Friends in High Places -->
+			<name>Friends in High Places</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Revels in Murder -->
+			<name>Revels in Murder</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Networker -->
+			<name>Networker</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Massive Network -->
+			<name>Massive Network</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- The Twisted Way -->
+			<name>The Twisted Way</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Enchanter -->
+			<name>Enchanter</name>
+			<hide />
+		</quality>
+		<!-- End Region -->
+		<!-- Region Chrome Flesh Phenotype Adjustments as Positive Qualities -->
+		<quality>
+			<name>Phenotypic Variation - Genewipe</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Masque</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Reprint</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Shuffle</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Genetic Optimization (Body)</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Genetic Optimization (Agility)</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Genetic Optimization (Reaction)</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Genetic Optimization (Strength)</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Genetic Optimization (Charisma)</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Genetic Optimization (Intuition)</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Genetic Optimization (Logic)</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Genetic Optimization (Willpower)</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Cosmetic Alteration</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Print Removal</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<quality>
+			<name>Phenotypic Variation - Metaposeur</name>
+			<chargenonly amendoperation="remove"></chargenonly>
+		</quality>
+		<!-- End Region -->
+		<!-- Region Blood Crystal Qualities -->
+		<quality>
+			<name>Crystal Breath</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+				<fatigueresist>1</fatigueresist>
+				<toxininhalationresist>2</toxininhalationresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Eye (One Eye)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Eye (Two Eyes)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Liver)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-25</essencepenaltyt100>
+				<essencepenaltymagonlyt100>25</essencepenaltymagonlyt100>
+				<fatigueresist>1</fatigueresist>
+				<toxiningestionresist>2</toxiningestionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Kidneys)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-25</essencepenaltyt100>
+				<essencepenaltymagonlyt100>25</essencepenaltymagonlyt100>
+				<fatigueresist>1</fatigueresist>
+				<toxininjectionresist>2</toxininjectionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Stomach)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-25</essencepenaltyt100>
+				<essencepenaltymagonlyt100>25</essencepenaltymagonlyt100>
+				<fatigueresist>1</fatigueresist>
+				<lifestylecost>-10</lifestylecost>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Intestines)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-25</essencepenaltyt100>
+				<essencepenaltymagonlyt100>25</essencepenaltymagonlyt100>
+				<fatigueresist>1</fatigueresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Liver, Kidneys)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+				<fatigueresist>2</fatigueresist>
+				<toxiningestionresist>2</toxiningestionresist>
+				<toxininjectionresist>2</toxininjectionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Liver, Stomach)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+				<fatigueresist>2</fatigueresist>
+				<lifestylecost>-10</lifestylecost>
+				<toxiningestionresist>2</toxiningestionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Liver, Intestines)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+				<fatigueresist>2</fatigueresist>
+				<toxiningestionresist>2</toxiningestionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Kidneys, Stomach)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+				<fatigueresist>2</fatigueresist>
+				<lifestylecost>-10</lifestylecost>
+				<toxininjectionresist>2</toxininjectionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Kidneys, Intestines)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+				<fatigueresist>2</fatigueresist>
+				<toxininjectionresist>2</toxininjectionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Stomach, Intestines)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+				<fatigueresist>2</fatigueresist>
+				<lifestylecost>-10</lifestylecost>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Liver, Kidneys, Stomach)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-75</essencepenaltyt100>
+				<essencepenaltymagonlyt100>75</essencepenaltymagonlyt100>
+				<fatigueresist>3</fatigueresist>
+				<lifestylecost>-10</lifestylecost>
+				<toxiningestionresist>2</toxiningestionresist>
+				<toxininjectionresist>2</toxininjectionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Liver, Kidneys, Intestines)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-75</essencepenaltyt100>
+				<essencepenaltymagonlyt100>75</essencepenaltymagonlyt100>
+				<fatigueresist>3</fatigueresist>
+				<toxiningestionresist>2</toxiningestionresist>
+				<toxininjectionresist>2</toxininjectionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Liver, Stomach, Intestines)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-75</essencepenaltyt100>
+				<essencepenaltymagonlyt100>75</essencepenaltymagonlyt100>
+				<fatigueresist>3</fatigueresist>
+				<lifestylecost>-10</lifestylecost>
+				<toxiningestionresist>2</toxiningestionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Kidneys, Stomach, Intestines)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-75</essencepenaltyt100>
+				<essencepenaltymagonlyt100>75</essencepenaltymagonlyt100>
+				<fatigueresist>3</fatigueresist>
+				<lifestylecost>-10</lifestylecost>
+				<toxininjectionresist>2</toxininjectionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Gut (Liver, Kidneys, Stomach, Intestines)</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-100</essencepenaltyt100>
+				<essencepenaltymagonlyt100>100</essencepenaltymagonlyt100>
+				<fatigueresist>4</fatigueresist>
+				<lifestylecost>-10</lifestylecost>
+				<toxiningestionresist>2</toxiningestionresist>
+				<toxininjectionresist>2</toxininjectionresist>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Jaw</name>
+			<bonus  amendoperation="replace">
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Limb (Arm)</name>
+			<bonus  amendoperation="replace">
+				<armor>1</armor>
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+				<selectside />
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Limb (Leg)</name>
+			<bonus  amendoperation="replace">
+				<armor>1</armor>
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+				<selectside />
+			</bonus>
+		</quality>
+		<quality>
+			<name>Crystal Spine</name>
+			<bonus  amendoperation="replace">
+				<armor>1</armor>
+				<essencepenaltyt100>-50</essencepenaltyt100>
+				<essencepenaltymagonlyt100>50</essencepenaltymagonlyt100>
+				<initiative precedence="0">2</initiative>
+			</bonus>
+		</quality>
+		<!-- End Region -->
+		<!-- Region Banned Negative Qualities -->
+		<quality>
+			<!-- Alpha Junkie -->
+			<name>Alpha Junkie</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Amnesia (Surface Deletion) -->
+			<name>Amnesia (Surface Deletion)</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Bi-polar -->
+			<name>Bi-polar</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Borrowed Time -->
+			<name>Borrowed Time</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Carrier (HMHVV Strain II) -->
+			<name>Carrier (HMHVV Strain II)</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Carrier (HMHVV Strain III) -->
+			<name>Carrier (HMHVV Strain III)</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Code of Honor: Avenging Angel -->
+			<name>Code of Honor: Avenging Angel</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Code of Honor: Black Hat -->
+			<name>Code of Honor: Black Hat</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Consummate Professional -->
+			<name>Consummate Professional</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Data Liberator -->
+			<name>Data Liberator</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Dead Emotion -->
+			<name>Dead Emotion</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Dead SIN -->
+			<name>Dead SIN</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Earther -->
+			<name>Earther</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Echo Chamber -->
+			<name>Echo Chamber</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<notes>When Matrix Searching, the character benefits from a +2 dice pool bonus, but the number of rolls needed to get a glitch is decreased by 1.</notes>
+		</quality>
+		<quality>
+			<!-- Elevated Stress -->
+			<name>Elevated Stress</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Emotional Attachment -->
+			<name>Emotional Attachment</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Every Man For Himself -->
+			<name>Every Man For Himself</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Hung out to Dry -->
+			<name>Hung out to Dry</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Made Man -->
+			<name>Made Man</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- In Debt -->
+			<name>In Debt</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Information Auctioneer -->
+			<name>Information Auctioneer</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Latest and Greatest -->
+			<name>Latest and Greatest</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- LEEEEEEEROY JENKINS -->
+			<name>Leeeeeeeroy Jenkins</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Pie Iesu Domine. Dona Eis Requiem. -->
+			<name>Pie Iesu Domine. Dona Eis Requiem.</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Pregnant -->
+			<name>Pregnant</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Quadriplegic -->
+			<name>Quadriplegic</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Resonant Burnout -->
+			<name>Resonant Burnout</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Stolen Gear -->
+			<name>Stolen Gear</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- This Is Your Last Chance -->
+			<name>This Is Your Last Chance</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Tough and Targeted -->
+			<name>Tough and Targeted</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- 'Ware Intolerance -->
+			<name>'Ware Intolerance</name>
+			<hide />
+		</quality>
+		<!-- End Region -->
+		<!-- Region Run Faster Infected Qualities -->
+		<quality>
+			<!-- Infected: Bandersnatch -->
+			<name>Infected: Bandersnatch</name>
+			<bonus amendoperation="replace">
+				<critterpowers>
+					<power>Adaptive Coloration</power>
+					<power select="Sunlight, Mild">Allergy</power>
+					<power select="Metahuman Flesh">Dietary Requirement</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<essencepenalty>-1</essencepenalty>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<reach>1</reach>
+				<specificattribute>
+					<name>BOD</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>1</max>
+					<val>1</val>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<max>-1</max>
+					<val>-1</val>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>-2</max>
+					<val>-1</val>
+				</specificattribute>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Banshee -->
+			<name>Infected: Banshee</name>
+			<bonus amendoperation="replace">
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Essence Drain</power>
+					<power select="Age">Immunity</power>
+					<power>Essence Loss</power>
+					<power select="Sunlight, Severe">Allergy</power>
+					<power select="Metahuman Blood">Dietary Requirement</power>
+					<power select="Silver">Vulnerability</power>
+					<power select="Wood">Vulnerability</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<initiativepass precedence="-1">1</initiativepass>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</runmultiplier>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+					<category>Swim</category>
+					<val>1</val>
+				</walkmultiplier>
+				<optionalpowers>
+					<optionalpower select="Hearing">Enhanced Senses</optionalpower>
+					<optionalpower select="Toxins">Immunity</optionalpower>
+					<optionalpower select="Smell">Enhanced Senses</optionalpower>
+					<optionalpower select="Pathogens">Immunity</optionalpower>
+				</optionalpowers>
+				<specificattribute>
+					<name>BOD</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>1</max>
+				</specificattribute>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+					<optionalpower>Infected Improvement (Charisma)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+					<optionalpower>Infected Improvement (Charisma)</optionalpower>
+				</optionalpowers>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Dzoo-Noo-Qua -->
+			<name>Infected: Dzoo-Noo-Qua</name>
+			<bonus amendoperation="replace">
+				<armor>1</armor>
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Essence Drain</power>
+					<power select="Age">Immunity</power>
+					<power>Infection</power>
+					<power>Essence Loss</power>
+					<power select="Sunlight, Moderate">Allergy</power>
+					<power select="Metahuman Flesh">Dietary Requirement</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<initiativepass precedence="-1">1</initiativepass>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<specificattribute>
+					<name>BOD</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>2</max>
+				</specificattribute>
+				<optionalpowers>
+					<optionalpower>Armor</optionalpower>
+					<optionalpower select="Hearing">Enhanced Senses</optionalpower>
+					<optionalpower select="Toxins">Immunity</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</runmultiplier>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+					<category>Swim</category>
+					<val>1</val>
+				</walkmultiplier>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Fomoraig -->
+			<name>Infected: Fomoraig</name>
+			<bonus amendoperation="replace">
+				<armor>1</armor>
+				<critterpowers>
+					<power>Corrosive Spit</power>
+					<power>Magical Guard</power>
+					<power>Dual Natured</power>
+					<power select="Air Pollution, Moderate">Allergy</power>
+					<power select="Sunlight, Moderate">Allergy</power>
+					<power select="Metahuman Flesh">Dietary Requirement</power>
+					<power rating="1">Armor</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<essencepenalty>-1</essencepenalty>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<reach>1</reach>
+				<specificattribute>
+					<name>BOD</name>
+					<max>3</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>3</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>-2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<max>-1</max>
+					<val>-1</val>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>1</max>
+				</specificattribute>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Ghoul (Dwarf) -->
+			<id>ed801fa4-0514-458a-b850-9eeddf0c2fed</id>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Infected: Ghoul (Elf) -->
+			<id>e156dc45-66ca-4b45-baf8-5c875b9866c4</id>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Infected: Ghoul (human) -->
+			<id>2d99bbb6-7af0-45c6-a83b-46d9d9f10838</id>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Infected: Ghoul (Ork) -->
+			<id>ea7c269f-6843-488a-b0fa-8f79c935f568</id>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Infected: Ghoul (Sasquatch) -->
+			<id>8325c7f3-c578-458a-9068-e159b2c686ef</id>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Infected: Ghoul (Troll) -->
+			<id>92123580-1f4f-4c6a-b2f5-3b9c9031d705</id>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Infected: Gnawer -->
+			<name>Infected: Gnawer</name>
+			<bonus amendoperation="replace">
+				<armor>1</armor>
+				<critterpowers>
+					<power select="Vermin">Animal Control</power>
+					<power>Dual Natured</power>
+					<power select="Toxins">Immunity</power>
+					<power>Noxious Breath</power>
+					<power>Paralyzing Touch</power>
+					<power select="Sunlight, Moderate">Allergy</power>
+					<power select="Metahuman Bone">Dietary Requirement</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<essencepenalty>-1</essencepenalty>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<specificattribute>
+					<name>BOD</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<max>-1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>-1</max>
+				</specificattribute>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Goblin -->
+			<name>Infected: Goblin</name>
+			<bonus amendoperation="replace">
+				<armor>1</armor>
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Essence Drain</power>
+					<power select="Age">Immunity</power>
+					<power>Infection</power>
+					<power>Noxious Breath</power>
+					<power>Paralyzing Touch</power>
+					<power select="Sunlight, Moderate">Allergy</power>
+					<power select="Metahuman Flesh">Dietary Requirement</power>
+					<power select="Iron">Vulnerability</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<initiativepass precedence="-1">1</initiativepass>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<optionalpowers>
+					<optionalpower select="Smell">Enhanced Senses</optionalpower>
+					<optionalpower select="Taste">Enhanced Senses</optionalpower>
+					<optionalpower select="Fire">Immunity</optionalpower>
+					<optionalpower select="Toxins">Immunity</optionalpower>
+				</optionalpowers>
+				<specificattribute>
+					<name>BOD</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<max>-2</max>
+					<val>-1</val>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>-1</max>
+					<val>-1</val>
+				</specificattribute>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</runmultiplier>
+				<walkmultiplier>
+					<category>Swim</category>
+					<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</walkmultiplier>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Grendel -->
+			<name>Infected: Grendel</name>
+			<bonus amendoperation="replace">
+				<armor>1</armor>
+				<critterpowers>
+					<power>Animal Control</power>
+					<power>Dual Natured</power>
+					<power select="Toxins">Immunity</power>
+					<power>Noxious Breath</power>
+					<power>Paralyzing Touch</power>
+					<power select="Sunlight, Moderate">Allergy</power>
+					<power select="Metahuman Flesh">Dietary Requirement</power>
+					<power select="Iron">Vulnerability</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<essencepenalty>-1</essencepenalty>
+				<initiative>1</initiative>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<optionalpowers>
+					<optionalpower select="Hearing">Enhanced Senses</optionalpower>
+					<optionalpower select="Taste">Enhanced Senses</optionalpower>
+					<optionalpower select="Fire">Immunity</optionalpower>
+					<optionalpower select="Toxins">Immunity</optionalpower>
+				</optionalpowers>
+				<specificattribute>
+					<name>BOD</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>3</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<max>-1</max>
+					<val>-1</val>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>-1</max>
+					<val>-1</val>
+				</specificattribute>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Harvester -->
+			<name>Infected: Harvester</name>
+			<bonus amendoperation="replace">
+				<armor>2</armor>
+				<critterpowers>
+					<power>Movement</power>
+					<power select="Thermographic Vision">Enhanced Senses</power>
+					<power>Dual Natured</power>
+					<power select="Silver, Moderate">Allergy</power>
+					<power select="Sunlight, Moderate">Allergy</power>
+					<power select="Metahuman Flesh">Dietary Requirement</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<essencepenalty>-1</essencepenalty>
+				<initiative>1</initiative>
+				<initiativepass precedence="-1">1</initiativepass>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<specificattribute>
+					<name>BOD</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>3</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>3</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<max>-2</max>
+					<val>-1</val>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>-4</max>
+					<val>-3</val>
+				</specificattribute>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</runmultiplier>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+					<category>Swim</category>
+					<val>1</val>
+				</walkmultiplier>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Loup-Garou -->
+			<name>Infected: Loup-Garou</name>
+			<bonus amendoperation="replace">
+				<armor>2</armor>
+				<critterpowers>
+					<power>Movement</power>
+					<power select="Hearing">Enhanced Senses</power>
+					<power select="Low-Light Vision">Enhanced Senses</power>
+					<power select="Smell">Enhanced Senses</power>
+					<power select="Thermographic Vision">Enhanced Senses</power>
+					<power>Dual Natured</power>
+					<power select="Aconite a.k.a. Wolf's Bane, Moderate">Allergy</power>
+					<power select="Sunlight, Severe">Allergy</power>
+					<power select="Metahuman Flesh">Dietary Requirement</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<essencepenalty>-1</essencepenalty>
+				<initiative>1</initiative>
+				<initiativepass precedence="-1">1</initiativepass>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<specificattribute>
+					<name>BOD</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>4</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<max>-1</max>
+					<val>-1</val>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>3</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>-2</max>
+					<val>-1</val>
+				</specificattribute>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</runmultiplier>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+					<category>Swim</category>
+					<val>1</val>
+				</walkmultiplier>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Mutaqua -->
+			<name>Infected: Mutaqua</name>
+			<bonus amendoperation="replace">
+				<armor>1</armor>
+				<critterpowers>
+					<power>Essence Drain</power>
+					<power select="Age">Immunity</power>
+					<power>Essence Loss</power>
+					<power>Dual Natured</power>
+					<power select="Fire">Vulnerability</power>
+					<power select="Wood, Severe">Allergy</power>
+					<power select="Sunlight, Extreme">Allergy</power>
+					<power select="Metahuman Flesh">Dietary Requirement</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>adept</name>
+					<name>critter</name>
+				</enabletab>
+				<initiativepass precedence="-1">1</initiativepass>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<optionalpowers>
+					<optionalpower select="Hearing">Enhanced Senses</optionalpower>
+					<optionalpower select="Low-Light Vision">Enhanced Senses</optionalpower>
+					<optionalpower>Fear</optionalpower>
+					<optionalpower select="Toxins">Immunity</optionalpower>
+				</optionalpowers>
+				<reach>1</reach>
+				<specificattribute>
+					<name>BOD</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>AGI</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>3</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>2</max>
+				</specificattribute>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</runmultiplier>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+					<optionalpower>Infected Improvement (Agility)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+					<optionalpower>Infected Improvement (Agility)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+					<category>Swim</category>
+					<val>1</val>
+				</walkmultiplier>
+			</bonus>
+			<required amendoperation="replace">
+				<allof>
+					<metatype>Troll</metatype>
+				</allof>
+				<oneof>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<!-- Infected: Nosferatu -->
+			<name>Infected: Nosferatu</name>
+			<bonus amendoperation="replace">
+				<critterpowers>
+					<power>Essence Drain</power>
+					<power>Infection</power>
+					<power select="Age">Immunity</power>
+					<power>Essence Loss</power>
+					<power>Dual Natured</power>
+					<power select="Wood, Severe">Allergy</power>
+					<power select="Sunlight, Extreme">Allergy</power>
+					<power select="Metahuman Blood">Dietary Requirement</power>
+					<power select="Lack of Air (Essence) Minutes">Induced Dormancy</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<initiativepass precedence="-1">1</initiativepass>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<optionalpowers>
+					<optionalpower select="Hearing">Enhanced Senses</optionalpower>
+					<optionalpower select="Lowlight Vision">Enhanced Senses</optionalpower>
+					<optionalpower select="Thermographic Vision">Enhanced Senses</optionalpower>
+					<optionalpower select="Pathogens">Immunity</optionalpower>
+					<optionalpower select="Toxins">Immunity</optionalpower>
+				</optionalpowers>
+				<specificattribute>
+					<name>BOD</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>AGI</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>2</max>
+				</specificattribute>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</runmultiplier>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+					<optionalpower>Infected Improvement (Agility)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+					<optionalpower>Infected Improvement (Agility)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+					<optionalpower>Infected Improvement (Charisma)</optionalpower>
+					<optionalpower>Infected Improvement (Logic)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+					<optionalpower>Infected Improvement (Charisma)</optionalpower>
+					<optionalpower>Infected Improvement (Logic)</optionalpower>
+				</optionalpowers>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+					<category>Swim</category>
+					<val>1</val>
+				</walkmultiplier>
+			</bonus>
+			<required amendoperation="replace">
+				<allof>
+					<metatype>Human</metatype>
+				</allof>
+				<oneof>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<!-- Infected: Vampire -->
+			<id>7d0a1679-846a-4cf2-b8b5-b5c686766a90</id>
+			<name>Infected: Vampire</name>
+			<bonus amendoperation="replace">
+				<critterpowers>
+					<power>Essence Drain</power>
+					<power select="Age">Immunity</power>
+					<power>Essence Loss</power>
+					<power>Dual Natured</power>
+					<power>Infection</power>
+					<power select="Wood, Severe">Allergy</power>
+					<power select="Sunlight, Severe">Allergy</power>
+					<power select="Metahuman Blood">Dietary Requirement</power>
+					<power select="Lack of Air (Essence) Minutes">Induced Dormancy</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<initiativepass precedence="-1">1</initiativepass>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<optionalpowers>
+					<optionalpower select="Hearing">Enhanced Senses</optionalpower>
+					<optionalpower select="Smell">Enhanced Senses</optionalpower>
+					<optionalpower select="Thermographic Vision">Enhanced Senses</optionalpower>
+					<optionalpower select="Pathogens">Immunity</optionalpower>
+					<optionalpower select="Toxins">Immunity</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Charisma)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Charisma)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+				</optionalpowers>
+				<specificattribute>
+					<name>BOD</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>2</max>
+				</specificattribute>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</runmultiplier>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+					<category>Swim</category>
+					<val>1</val>
+				</walkmultiplier>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Vampire (Non-Human) -->
+			<name>Infected: Vampire (Non-Human)</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Infected: Sukuyan -->
+			<id>3c746778-bec5-4b9b-a1a4-62ac6eb98342</id>
+			<name>Infected: Sukuyan</name>
+			<bonus amendoperation="replace">
+				<critterpowers>
+					<power>Essence Drain</power>
+					<power select="Age">Immunity</power>
+					<power>Essence Loss</power>
+					<power>Dual Natured</power>
+					<power>Infection</power>
+					<power select="Wood, Severe">Allergy</power>
+					<power select="Sunlight, Severe">Allergy</power>
+					<power select="Metahuman Blood">Dietary Requirement</power>
+					<power select="Salt">Dietary Requirement</power>
+					<power select="Wood">Vulnerability</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<initiativepass precedence="-1">1</initiativepass>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<optionalpowers>
+					<optionalpower select="Hearing">Enhanced Senses</optionalpower>
+					<optionalpower select="Smell">Enhanced Senses</optionalpower>
+					<optionalpower select="Thermographic Vision">Enhanced Senses</optionalpower>
+					<optionalpower select="Pathogens">Immunity</optionalpower>
+					<optionalpower select="Toxins">Immunity</optionalpower>
+				</optionalpowers>
+				<specificattribute>
+					<name>BOD</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>2</max>
+				</specificattribute>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</runmultiplier>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+					<category>Swim</category>
+					<val>1</val>
+				</walkmultiplier>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Infected: Sukuyan (Non-Human) -->
+			<name>Infected: Sukuyan (Non-Human)</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Infected: Wendigo -->
+			<name>Infected: Wendigo</name>
+			<bonus amendoperation="replace">
+				<critterpowers>
+					<power>Essence Drain</power>
+					<power>Infection</power>
+					<power select="Age">Immunity</power>
+					<power>Essence Loss</power>
+					<power>Dual Natured</power>
+					<power select="Ferrous Metals, Moderate">Allergy</power>
+					<power select="Sunlight, Severe">Allergy</power>
+					<power select="Metahuman Flesh">Dietary Requirement</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<initiativepass precedence="-1">1</initiativepass>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<optionalpowers>
+					<optionalpower select="Hearing">Enhanced Senses</optionalpower>
+					<optionalpower select="Smell">Enhanced Senses</optionalpower>
+					<optionalpower select="Visual Acuity">Enhanced Senses</optionalpower>
+					<optionalpower select="Pathogens">Immunity</optionalpower>
+					<optionalpower select="Toxins">Immunity</optionalpower>
+				</optionalpowers>
+				<specificattribute>
+					<name>BOD</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>2</max>
+				</specificattribute>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</runmultiplier>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Charisma)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+					<optionalpower>Infected Improvement (Logic)</optionalpower>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Charisma)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+					<optionalpower>Infected Improvement (Logic)</optionalpower>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+				</optionalpowers>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+					<category>Swim</category>
+					<val>1</val>
+				</walkmultiplier>
+			</bonus>
+			<required amendoperation="replace">
+				<allof>
+					<metatype>Ork</metatype>
+				</allof>
+				<oneof>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<!-- Wildcard Chimera -->
+			<name>Wildcard Chimera</name>
+			<hide />
+		</quality>
+		<quality xpathfilter="id = 'f466b913-5df0-4370-abf0-fad4ab380d19' or id = 'b0460fde-7bf8-4e77-b402-6fe7143aa590' or id = 'ad81bcdf-2f45-4ca3-ab46-c766fd734800'">
+			<!-- Infected Optional Power: Armor, Infected Optional Power: Immunity (Pathogens), Infected Optional Power: Immunity (Toxins) -->
+			<required>
+				<oneof>
+					<quality amendoperation="addnode">Infected: Ghoul</quality>
+				</oneof>
+			</required>
+		</quality>
+		<!-- End Region -->
+		<!-- Region Infected Optional Powers -->
+		<quality>
+			<!-- Infected Optional Power: Regeneration -->
+			<name>Infected Optional Power: Regeneration</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Infected Optional Power: Mist Form -->
+			<name>Infected Optional Power: Mist Form</name>
+			<required amendoperation="Replace">
+				<oneof>
+					<quality>Infected: Banshee</quality>
+					<quality>Infected: Vampire</quality>
+					<quality>Infected: Sukuyan</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<!-- Infected Optional Power: Enhanced Sense (Hearing) -->
+			<name>Infected Optional Power: Enhanced Sense (Hearing)</name>
+			<required amendoperation="replace">
+				<oneof>
+					<quality>Infected: Banshee</quality>
+					<quality>Infected: Dzoo-Noo-Qua</quality>
+					<quality>Infected: Vampire</quality>
+					<quality>Infected: Wendigo</quality>
+					<quality>Infected: Ghoul</quality>
+					<quality>Infected: Loup-Garou</quality>
+					<quality>Infected: Mutaqua</quality>
+					<quality>Infected: Nosferatu</quality>
+					<quality>Infected: Sukuyan</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<!-- Infected Optional Power: Enhanced Sense (Smell) -->
+			<name>Infected Optional Power: Enhanced Sense (Smell)</name>
+			<required amendoperation="replace">
+				<oneof>
+					<quality>Infected: Banshee</quality>
+					<quality>Infected: Vampire</quality>
+					<quality>Infected: Wendigo</quality>
+					<quality>Infected: Ghoul</quality>
+					<quality>Infected: Goblin</quality>
+					<quality>Infected: Grendel</quality>
+					<quality>Infected: Loup-Garou</quality>
+					<quality>Infected: Sukuyan</quality>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
+			<!-- Infected Optional Power: Enhanced Sense (Thermographic Vision) -->
+			<name>Infected Optional Power: Enhanced Sense (Thermographic Vision)</name>
+			<required amendoperation="replace">
+				<oneof>
+					<quality>Infected: Vampire</quality>
+					<quality>Infected: Grendel</quality>
+					<quality>Infected: Harvester</quality>
+					<quality>Infected: Loup-Garou</quality>
+					<quality>Infected: Nosferatu</quality>
+					<quality>Infected: Sukuyan</quality>
+				</oneof>
+			</required>
+		</quality>
+		<!-- End Region -->
+		<!-- Region Non-multipurchaseable Qualities -->
+		<quality>
+			<!-- Codeslinger -->
+			<name>Codeslinger</name>
+			<limit amendoperation="replace">True</limit>
+		</quality>
+		<quality>
+			<!-- Natural Immunity (Natural) -->
+			<name>Natural Immunity (Natural)</name>
+			<limit amendoperation="replace">True</limit>
+		</quality>
+		<quality>
+			<!-- Natural Immunity (Synthetic) -->
+			<name>Natural Immunity (Synthetic)</name>
+			<limit amendoperation="replace">True</limit>
+		</quality>
+		<quality>
+			<!-- Spirit Affinity -->
+			<name>Spirit Affinity</name>
+			<limit amendoperation="replace">True</limit>
+		</quality>
+		<quality>
+			<!-- Brand Loyalty (Manufacturer) -->
+			<name>Brand Loyalty (Manufacturer)</name>
+			<limit amendoperation="replace">True</limit>
+			<forbidden>
+				<oneof>
+					<quality>Brand Loyalty (Product)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<!-- Brand Loyalty (Product) -->
+			<name>Brand Loyalty (Product)</name>
+			<limit amendoperation="replace">True</limit>
+			<forbidden>
+				<oneof>
+					<quality>Brand Loyalty (Manufacturer)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<!-- Sensei -->
+			<name>Sensei</name>
+			<limit amendoperation="replace">True</limit>
+		</quality>
+		<quality>
+			<!-- Solid Rep -->
+			<name>Solid Rep</name>
+			<limit amendoperation="replace">True</limit>
+			<forbidden>
+				<oneof>
+					<quality>Legendary Rep</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<!-- Legendary Rep -->
+			<name>Legendary Rep</name>
+			<limit amendoperation="replace">True</limit>
+			<forbidden>
+				<oneof>
+					<quality>Solid Rep</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<!-- Metahuman Traits -->
+			<name>Metahuman Traits</name>
+			<limit amendoperation="replace">True</limit>
+		</quality>
+		<quality>
+			<!-- Elemental Focus -->
+			<name>Elemental Focus</name>
+			<limit amendoperation="replace">True</limit>
+		</quality>
+		<quality>
+			<!-- Sprite Affinity -->
+			<name>Sprite Affinity</name>
+			<limit amendoperation="replace">True</limit>
+		</quality>
+		<!-- End Region -->
+		<!-- Mysads, am I right (laughter) -->
+		<quality>
+			<name>Mystic Adept</name>
+			<bonus amendoperation="replace">
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>magician</name>
+					<name>adept</name>
+				</enabletab>
+				<unlockskills>Sorcery,Conjuring,Enchanting</unlockskills>
+				<unlockskills>Sorcery,Conjuring,Enchanting</unlockskills>
+				<unlockskills>Aware</unlockskills>
+			</bonus>
+		</quality>
+		<!-- Mysads -->
+		<quality>
+			<name>Apprentice</name>
+			<bonus amendoperation="replace">
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>magician</name>
+				</enabletab>
+				<limitspellcategory />
+				<limitspiritcategory />
+				<allowspellcategory>Rituals</allowspellcategory>
+				<unlockskills>Sorcery</unlockskills>
+				<unlockskills>Conjuring</unlockskills>
+			</bonus>
+		</quality>
+		<!-- Drakes -->
+		<quality>
+			<!-- Dracoform (Eastern Drake) -->
+			<name>Dracoform (Eastern Drake)</name>
+			<karma>50</karma>
+			<forbidden>
+				<quality>Latent Dracomorphosis</quality>
+				<quality>Dracoform (Western Drake)</quality>
+				<quality>Dracoform (Feathered Drake)</quality>
+				<quality>Dracoform (Sea Drake)</quality>
+			</forbidden>
+			<bonus amendoperation="Replace">
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Shift (Dracoform)</power>
+					<power>Vestigial Wings</power>
+					<power rating="2">Hardened Armor</power>
+					<power rating="2">Hardened Mystic Armor</power>
+				</critterpowers>
+				<optionalpowers>
+					<optionalpower select="Fire">Elemental Attack</optionalpower>
+					<optionalpower select="Cold">Elemental Attack</optionalpower>
+					<optionalpower select="Electricity">Elemental Attack</optionalpower>
+					<optionalpower select="Water">Elemental Attack</optionalpower>
+				</optionalpowers>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<limitcritterpowercategory>Drake</limitcritterpowercategory>
+				<unlockskills>Breath</unlockskills>
+				<specificattribute>
+					<name>BOD</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<min>2</min>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>AGI</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Dracoform (Western Drake) -->
+			<name>Dracoform (Western Drake)</name>
+			<karma>50</karma>
+			<forbidden>
+				<quality>Latent Dracomorphosis</quality>
+				<quality>Dracoform (Eastern Drake)</quality>
+				<quality>Dracoform (Feathered Drake)</quality>
+				<quality>Dracoform (Sea Drake)</quality>
+			</forbidden>
+			<bonus amendoperation="Replace">
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Shift (Dracoform)</power>
+					<power>Vestigial Wings</power>
+					<power rating="2">Hardened Armor</power>
+					<power rating="2">Hardened Mystic Armor</power>
+				</critterpowers>
+				<optionalpowers>
+					<optionalpower select="Fire">Elemental Attack</optionalpower>
+					<optionalpower select="Cold">Elemental Attack</optionalpower>
+					<optionalpower select="Electricity">Elemental Attack</optionalpower>
+					<optionalpower select="Water">Elemental Attack</optionalpower>
+				</optionalpowers>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<limitcritterpowercategory>Drake</limitcritterpowercategory>
+				<unlockskills>Breath</unlockskills>
+				<specificattribute>
+					<name>BOD</name>
+					<min>2</min>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<min>2</min>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Dracoform (Feathered Drake) -->
+			<name>Dracoform (Feathered Drake)</name>
+			<karma>50</karma>
+			<forbidden>
+				<quality>Latent Dracomorphosis</quality>
+				<quality>Dracoform (Eastern Drake)</quality>
+				<quality>Dracoform (Western Drake)</quality>
+				<quality>Dracoform (Sea Drake)</quality>
+			</forbidden>
+			<bonus amendoperation="Replace">
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Shift (Dracoform)</power>
+					<power>Vestigial Wings</power>
+					<power rating="2">Hardened Armor</power>
+					<power rating="2">Hardened Mystic Armor</power>
+				</critterpowers>
+				<optionalpowers>
+					<optionalpower select="Fire">Elemental Attack</optionalpower>
+					<optionalpower select="Cold">Elemental Attack</optionalpower>
+					<optionalpower select="Electricity">Elemental Attack</optionalpower>
+					<optionalpower select="Water">Elemental Attack</optionalpower>
+				</optionalpowers>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<limitcritterpowercategory>Drake</limitcritterpowercategory>
+				<unlockskills>Breath</unlockskills>
+				<specificattribute>
+					<name>BOD</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>AGI</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Dracoform (Sea Drake) -->
+			<name>Dracoform (Sea Drake)</name>
+			<karma>50</karma>
+			<forbidden>
+				<quality>Latent Dracomorphosis</quality>
+				<quality>Dracoform (Eastern Drake)</quality>
+				<quality>Dracoform (Western Drake)</quality>
+				<quality>Dracoform (Feathered Drake)</quality>
+			</forbidden>
+			<bonus amendoperation="Replace">
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power>Shift (Dracoform)</power>
+					<id>4cc3a1fa-acbe-4f05-a4b9-2fc3979bc467</id>
+					<power rating="2">Hardened Armor</power>
+					<power rating="2">Hardened Mystic Armor</power>
+				</critterpowers>
+				<optionalpowers>
+					<optionalpower select="Fire">Elemental Attack</optionalpower>
+					<optionalpower select="Cold">Elemental Attack</optionalpower>
+					<optionalpower select="Electricity">Elemental Attack</optionalpower>
+					<optionalpower select="Water">Elemental Attack</optionalpower>
+				</optionalpowers>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<limitcritterpowercategory>Drake</limitcritterpowercategory>
+				<unlockskills>Breath</unlockskills>
+				<specificattribute>
+					<name>BOD</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<min>2</min>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<min>1</min>
+					<max>1</max>
+				</specificattribute>
+			</bonus>
+		</quality>
+		<quality>
+			<!-- Latent Dracomorphosis -->
+			<id>e132257f-14d8-4e5a-9f20-ae6af29649d5</id>
+			<name>Latent Dracomorphosis</name>
+			<doublecareer>False</doublecareer>
+			<forbidden amendoperation="replace">
+				<oneof>
+					<quality>Dracoform (Eastern Drake)</quality>
+					<quality>Dracoform (Western Drake)</quality>
+					<quality>Dracoform (Feathered Drake)</quality>
+					<quality>Dracoform (Sea Drake)</quality>
+					<quality>Infected: Bandersnatch</quality>
+					<quality>Infected: Banshee</quality>
+					<quality>Infected: Dzoo-Noo-Qua</quality>
+					<quality>Infected: Fomoraig</quality>
+					<quality>Infected: Ghoul </quality>
+					<quality>Infected: Gnawer</quality>
+					<quality>Infected: Goblin</quality>
+					<quality>Infected: Grendel</quality>
+					<quality>Infected: Harvester</quality>
+					<quality>Infected: Loup-Garou</quality>
+					<quality>Infected: Mutaqua</quality>
+					<quality>Infected: Nosferatu</quality>
+					<quality>Infected: Vampire</quality>
+					<quality>Infected: Sukuyan (Human)</quality>
+					<quality>Infected: Sukuyan (Non-Human)</quality>
+					<quality>Infected: Wendigo</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+	</qualities>
 </chummer>
