@@ -544,5 +544,154 @@
 				</usegear>
 			</gears>
 		</gear>
+		<!-- Deck specmods -->
+		<gear>
+		  <id>187331d9-14e8-485b-81d2-a4fbaba893fd</id>
+		  <name>Deck Optimization: Sleaze</name>
+		  <category>Electronic Modification</category>
+		  <rating>0</rating>
+		  <source>ZDR</source>
+		  <page>0</page>
+		  <avail>0</avail>
+		  <armorcapacity>[2]</armorcapacity>
+		  <cost>0</cost>
+		  <modsleaze>1</modsleaze>
+		  <requireparent />
+		  <required>
+			<oneof>
+			  <quality>Deck Optimization</quality>
+			</oneof>
+			<geardetails>
+              <category>Cyberdecks</category>
+			</geardetails>
+		  </required>
+		</gear>
+		<gear>
+		  <id>33929f60-929a-4009-9afa-a6412476e680</id>
+		  <name>Deck Optimization: Attack</name>
+		  <category>Electronic Modification</category>
+		  <rating>0</rating>
+		  <source>ZDR</source>
+		  <page>0</page>
+		  <avail>0</avail>
+		  <armorcapacity>[2]</armorcapacity>
+		  <cost>0</cost>
+		  <modattack>1</modattack>
+		  <requireparent />
+		  <required>
+			<oneof>
+			  <quality>Deck Optimization</quality>
+			</oneof>
+			<geardetails>
+              <category>Cyberdecks</category>
+			</geardetails>
+		  </required>
+		</gear>
+		<gear>
+		  <id>4b97f195-a10f-4e5e-8314-9317cfbce67c</id>
+		  <name>Deck Optimization: Data Processing</name>
+		  <category>Electronic Modification</category>
+		  <rating>0</rating>
+		  <source>ZDR</source>
+		  <page>0</page>
+		  <avail>0</avail>
+		  <armorcapacity>[2]</armorcapacity>
+		  <cost>0</cost>
+		  <moddataprocessing>1</moddataprocessing>
+		  <requireparent />
+		  <required>
+			<oneof>
+			  <quality>Deck Optimization</quality>
+			</oneof>
+			<geardetails>
+              <category>Cyberdecks</category>
+			</geardetails>
+		  </required>
+		</gear>
+		<gear>
+		  <id>35b6dd13-1ba8-4b3a-8f50-0d289330475f</id>
+		  <name>Deck Optimization: Firewall</name>
+		  <category>Electronic Modification</category>
+		  <rating>0</rating>
+		  <source>ZDR</source>
+		  <page>0</page>
+		  <avail>0</avail>
+		  <armorcapacity>[2]</armorcapacity>
+		  <cost>0</cost>
+		  <modfirewall>1</modfirewall>
+		  <requireparent />
+		  <required>
+			<oneof>
+			  <quality>Deck Optimization</quality>
+			</oneof>
+			<geardetails>
+              <category>Cyberdecks</category>
+			</geardetails>
+		  </required>
+		</gear>
+		<gear>
+		  <id>58a32ca7-513b-493f-9f39-522c7d703c2f</id>
+		  <name>Deck Optimization: Module</name>
+		  <category>Electronic Modification</category>
+		  <rating>0</rating>
+		  <source>ZDR</source>
+		  <page>0</page>
+		  <avail>0</avail>
+		  <armorcapacity>[2]</armorcapacity>
+		  <cost>0</cost>
+		  <addoncategory>Cyberdeck Modules</addoncategory>
+		  <addoncategory>Custom</addoncategory>
+		  <requireparent />
+		  <required>
+			<oneof>
+			  <quality>Deck Optimization</quality>
+			</oneof>
+			<geardetails>
+              <category>Cyberdecks</category>
+			</geardetails>
+		  </required>
+		  <requireparent />
+		</gear>
+		<gear>
+		  <id>a3d2569c-82bc-431c-ac70-6a6157432336</id>
+		  <name>Deck Optimization: Noise</name>
+		  <category>Electronic Modification</category>
+		  <rating>0</rating>
+		  <source>ZDR</source>
+		  <page>0</page>
+		  <avail>0</avail>
+		  <armorcapacity>[2]</armorcapacity>
+		  <cost>0</cost>
+		  <requireparent />
+		  <required>
+			<oneof>
+			  <quality>Deck Optimization</quality>
+			</oneof>
+			<geardetails>
+              <category>Cyberdecks</category>
+			</geardetails>
+		  </required>
+		  <requireparent />
+		</gear>
+		<gear>
+		  <id>76479d6b-2c5c-4e6b-b919-b5cf6131b21e</id>
+		  <name>Deck Optimization: Program</name>
+		  <category>Electronic Modification</category>
+		  <rating>0</rating>
+		  <source>ZDR</source>
+		  <page>0</page>
+		  <avail>0</avail>
+		  <armorcapacity>[2]</armorcapacity>
+		  <cost>0</cost>
+		  <requireparent />
+		  <required>
+			<oneof>
+			  <quality>Deck Optimization</quality>
+			</oneof>
+			<geardetails>
+              <category>Cyberdecks</category>
+			</geardetails>
+		  </required>
+		</gear>
 	</gears>
 </chummer>

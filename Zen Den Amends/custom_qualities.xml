@@ -1149,11 +1149,14 @@
 		  <id>db9c160c-c54b-4320-8fe8-a630c2e96005</id>
 		  <name>Deck Optimization</name>
 		  <karma>5</karma>
+		  <limit>3</limit>
 		  <category>Positive</category>
 		  <bonus />
 		  <required>
+			<allof>
               <quality>Deck Builder</quality>
               <quality>Overclocker</quality>
+			</allof>
 		  </required>
 		  <forbidden>
             <oneof>
