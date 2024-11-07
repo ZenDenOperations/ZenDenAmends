@@ -3016,28 +3016,23 @@
           <metavariants>
             <metavariant>
               <name>Gnome</name>
-              <value>1</value>
+              <value>4</value>
               <karma>7</karma>
             </metavariant>
             <metavariant>
               <name>Hanuman</name>
-              <value>1</value>
+              <value>4</value>
               <karma>5</karma>
             </metavariant>
             <metavariant>
               <name>Koborokuru</name>
-              <value>1</value>
+              <value>4</value>
               <karma>0</karma>
             </metavariant>
             <metavariant>
               <name>Menehune</name>
-              <value>1</value>
+              <value>4</value>
               <karma>2</karma>
-            </metavariant>
-            <metavariant>
-              <name>Goblin</name>
-              <value>1</value>
-              <karma>27</karma>
             </metavariant>
           </metavariants>
         </metatype>
