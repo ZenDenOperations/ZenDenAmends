@@ -1031,6 +1031,29 @@
 			<page>1</page>
 		</quality>
 		<quality>
+			<!-- Ware Overdriver -->
+			<id>7050aca7-9882-4913-aba8-2e8da6b1c4b0</id>
+			<name>Ware Overdriver</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<bonus />
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>6e</source>
+			<page>1</page>
+		</quality>
+		<quality>
 			<!-- Deck Optimization -->
 			<id>db9c160c-c54b-4320-8fe8-a630c2e96005</id>
 			<name>Deck Optimization</name>
