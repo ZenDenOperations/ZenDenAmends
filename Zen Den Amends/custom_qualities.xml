@@ -867,7 +867,7 @@
 			<!-- Resonance [Program] -->
 			<id>65c1aa82-a228-4ed4-b02d-a2a55b6a1b95</id>
 			<name>Resonance [Program]</name>
-			<karma>10</karma>
+			<karma>5</karma>
 			<limit>99</limit>
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
@@ -891,7 +891,7 @@
 			<!-- Resonance [Program] But for Machinists-->
 			<id>8538d015-30c5-47f8-b336-569d9651bec1</id>
 			<name>Resonance [Program]</name>
-			<karma>10</karma>
+			<karma>5</karma>
 			<limit>99</limit>
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
@@ -1082,6 +1082,23 @@
 			</forbidden>
 			<source>ZDR</source>
 			<page>1</page>
+		</quality>
+		<quality>
+			<!-- Additional Echo -->
+			<id>82dce7dd-b897-4f8c-9eed-4e81612aeac0</id>
+			<name>Additional Echo</name>
+			<karma>15</karma>
+			<category>Positive</category>
+			<metagenic>False</metagenic>
+			<doublecareer>False</doublecareer>
+			<source>ZDR</source>
+			<page>0</page>
+			<limit>99</limit>
+			<required>
+				<allof>
+					<resenabled>True</resenabled>
+				</allof>
+			</required>
 		</quality>
 	</qualities>
 </chummer>
