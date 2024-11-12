@@ -26,18 +26,6 @@
 	<gears>
 		<!-- More Ammo Stuff -->
 		<gear>
-			<id>87b2d671-cb70-4e55-99d3-25ab7aa01755</id>
-			<name>Flametosser Fuel</name>
-			<category>Ammunition</category>
-			<rating>0</rating>
-			<source>CF</source>
-			<page>91</page>
-			<avail>12F</avail>
-			<cost>100</cost>
-			<costfor>10</costfor>
-			<ammoforweapontype>flame</ammoforweapontype>
-		</gear>
-		<gear>
 			<id>06272a4e-0583-4fcf-b0f3-61f5ce9922e7</id>
 			<name>Ammo: APDS (Assault Cannon)</name>
 			<category>Ammunition</category>
