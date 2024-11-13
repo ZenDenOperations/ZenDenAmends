@@ -239,7 +239,6 @@
 	<nuyencarryover>5000</nuyencarryover>
 	<nuyenmaxbp>235</nuyenmaxbp>
 	<bannedwaregrades>
-		<grade>Greyware</grade>
 		<grade>Omegaware</grade>
 		<grade>Gammaware</grade>
 		<grade>Deltaware</grade>
