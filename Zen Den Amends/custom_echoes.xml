@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+
+<chummer>
+  <echoes>
+    <echo>
+      <id>7366698f-7526-40a2-bca8-f6b385345dea</id>
+      <name>Mesh Reality</name>
+      <source>ZDR</source>
+      <page>1</page>
+	  <forbidden>
+	    <oneof>
+	      <ess grade="Used">0.0001</ess>
+	      <ess grade="Standard">0.0001</ess>
+	      <ess grade="Alphaware">0.0001</ess>
+	      <ess grade="Betaware">0.0001</ess>
+	      <ess grade="Deltaware">0.0001</ess>
+	      <ess grade="Gammaware">0.0001</ess>
+	      <ess grade="Omegaware">0.0001</ess>
+	    </oneof>
+	  </forbidden>
+    </echo>
+    <echo>
+      <id>59f602b0-242d-4124-a30f-47a99b42235d</id>
+      <name>Advanced Overclocking</name>
+      <source>ZDR</source>
+      <page>1</page>
+	  <forbidden>
+	    <oneof>
+	      <ess grade="Used">0.0001</ess>
+	      <ess grade="Standard">0.0001</ess>
+	      <ess grade="Alphaware">0.0001</ess>
+	      <ess grade="Betaware">0.0001</ess>
+	      <ess grade="Deltaware">0.0001</ess>
+	      <ess grade="Gammaware">0.0001</ess>
+	      <ess grade="Omegaware">0.0001</ess>
+	    </oneof>
+	  </forbidden>
+      <bonus>
+        <matrixinitiativedice precedence="-1">1</matrixinitiativedice>
+      </bonus>
+    </echo>
+  </echoes>
+</chummer>
