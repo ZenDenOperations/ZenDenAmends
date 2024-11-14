@@ -415,62 +415,91 @@
 		<quality>
 			<name>Phenotypic Variation - Genewipe</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Masque</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Reprint</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Shuffle</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Genetic Optimization (Body)</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Genetic Optimization (Agility)</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Genetic Optimization (Reaction)</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Genetic Optimization (Strength)</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Genetic Optimization (Charisma)</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Genetic Optimization (Intuition)</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Genetic Optimization (Logic)</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Genetic Optimization (Willpower)</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Cosmetic Alteration</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Print Removal</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
+			<contributetolimit>False</contributetolimit>
 		</quality>
 		<quality>
 			<name>Phenotypic Variation - Metaposeur</name>
 			<chargenonly amendoperation="remove"></chargenonly>
+			<doublecareer>False</doublecareer>
 		</quality>
 		<!-- End Region -->
 		<!-- Region Blood Crystal Qualities -->
