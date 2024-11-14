@@ -77,7 +77,6 @@
 	<dontusecyberlimbcalculation>False</dontusecyberlimbcalculation>
 	<alternatemetatypeattributekarma>False</alternatemetatypeattributekarma>
 	<reverseattributepriorityorder>False</reverseattributepriorityorder>
-	<allowobsolescentupgrade>False</allowobsolescentupgrade>
 	<allowbiowaresuites>False</allowbiowaresuites>
 	<freespiritpowerpointsmag>False</freespiritpowerpointsmag>
 	<compensateskillgroupkarmadifference>False</compensateskillgroupkarmadifference>
@@ -104,9 +103,9 @@
 	<minastralinitiativedice>3</minastralinitiativedice>
 	<maxastralinitiativedice>5</maxastralinitiativedice>
 	<mincoldsiminitiativedice>3</mincoldsiminitiativedice>
-	<maxcoldsiminitiativedice>5</maxcoldsiminitiativedice>
+	<maxcoldsiminitiativedice>6</maxcoldsiminitiativedice>
 	<minhotsiminitiativedice>4</minhotsiminitiativedice>
-	<maxhotsiminitiativedice>5</maxhotsiminitiativedice>
+	<maxhotsiminitiativedice>6</maxhotsiminitiativedice>
 	<karmacost>
 		<karmaattribute>5</karmaattribute>
 		<karmaquality>1</karmaquality>
