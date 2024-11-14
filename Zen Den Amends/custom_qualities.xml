@@ -1120,6 +1120,23 @@
 					<resenabled>True</resenabled>
 				</allof>
 			</required>
-		</quality>
+		</quality>        
+		<quality>
+          <id>49857764-5c82-45ce-aa89-df60c91fed4a</id>
+          <name>Additional Funds</name>
+		  <karma>2</karma>
+          <category>Positive</category>
+		  <limit>25</limit>
+          <source>ZDR</source>
+          <page>1</page>
+          <required>
+            <allof>
+              <quality>Trust Fund I</quality>
+              <quality>Trust Fund II</quality>
+              <quality>Trust Fund III</quality>
+              <quality>Trust Fund IV</quality>
+            </allof>
+          </required>
+        </quality>
 	</qualities>
 </chummer>

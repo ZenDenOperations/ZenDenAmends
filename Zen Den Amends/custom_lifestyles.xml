@@ -332,5 +332,21 @@
       <source>SR5</source>
       <page>450</page>
     </quality>
+    <quality>
+      <id>57119c1d-8d9c-4f0a-aded-07764239b443</id>
+      <name>Additional Funds</name>
+      <category>Positive</category>
+      <lp>0</lp>
+      <allowed>Low, Medium, High</allowed>
+      <cost>-1000</cost>
+	  <limit>25</limit>
+      <source>ZDR</source>
+      <page>1</page>
+      <required>
+        <allof>
+          <characterquality>Additional Funds</characterquality>
+        </allof>
+      </required>
+    </quality>
  </qualities>
 </chummer>
