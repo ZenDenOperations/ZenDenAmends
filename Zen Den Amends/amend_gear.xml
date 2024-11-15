@@ -292,5 +292,9 @@
 			<name>Grenade: Molotov Cocktail, Aerodynamic</name>
 			<hide />
 		</gear>
+		<gear>
+			<name>Ammo: Fuel Canister</name>
+			<avail>12F</avail>
+		</gear>
 	</gears>
 </chummer>
