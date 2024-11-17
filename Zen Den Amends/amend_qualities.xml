@@ -420,20 +420,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Genewipe</bioware>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -445,20 +445,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Masque</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -470,20 +470,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Reprint</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -495,20 +495,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Shuffle</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -520,20 +520,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Genetic Optimization (Body)</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -545,20 +545,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Genetic Optimization (Agility)</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -570,20 +570,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Genetic Optimization (Reaction)</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -595,20 +595,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Genetic Optimization (Strength)</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -620,20 +620,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Genetic Optimization (Charisma)</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -645,20 +645,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Genetic Optimization (Intuition)</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -670,20 +670,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Genetic Optimization (Logic)</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -695,20 +695,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Genetic Optimization (Willpower)</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -720,20 +720,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Cosmetic Alteration</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -745,20 +745,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Print Removal</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Metaposeur</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Metaposeur</quality>
 			  </oneof>
 			</forbidden>
 		</quality>
@@ -769,20 +769,20 @@
 			<forbidden>
 			  <oneof>
 				<bioware>Metaposeur</bioware>
-				<quality>Phenotypic Variation - Genewipe</quality>
-				<quality>Phenotypic Variation - Masque</quality>
-				<quality>Phenotypic Variation - Reprint</quality>
-				<quality>Phenotypic Variation - Shuffle</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Body)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Agility)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Reaction)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Strength)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Charisma)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Intuition)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Logic)</quality>
-				<quality>Phenotypic Variation - Genetic Optimization (Willpower)</quality>
-				<quality>Phenotypic Variation - Cosmetic Alteration</quality>
-				<quality>Phenotypic Variation - Print Removal</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genewipe</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Masque</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Reprint</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Shuffle</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Body)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Agility)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Reaction)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Strength)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Charisma)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Intuition)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Logic)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Genetic Optimization (Willpower)</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Cosmetic Alteration</quality>
+				<quality amendoperation="addnode">Phenotypic Variation - Print Removal</quality>
 			  </oneof>
 			</forbidden>
 		</quality>		<!-- End Region -->
