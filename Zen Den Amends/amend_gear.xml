@@ -150,6 +150,11 @@
 				<selecttradition />
 			</bonus>
 		</gear>
+		<gear>
+			<name>Datachip</name>
+			<cost>20</cost>
+      			<costfor />
+		</gear>
 		<!-- Pi-tac adjustments -->
 		<gear>
 			<name>PI-Tac Level I (Renraku Taka)</name>
