@@ -32,10 +32,6 @@
 			<name>Spirit Expansion: Shedim</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Noble Sacrifice -->
-			<name>Noble Sacrifice</name>
-			<hide />
-		</metamagic>
 		<metamagic><!-- Predator Feast -->
 			<name>Predator Feast</name>
 			<hide />
