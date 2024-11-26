@@ -32,6 +32,10 @@
 			<name>Spirit Expansion: Shedim</name>
 			<hide />
 		</metamagic>
+		<metamagic><!-- Noble Sacrifice -->
+			<name>Noble Sacrifice</name>
+			<hide />
+		</metamagic>
 		<metamagic><!-- Predator Feast -->
 			<name>Predator Feast</name>
 			<hide />
@@ -52,6 +56,15 @@
 			<name>Reckless Necro Conjuring</name>
 			<hide />
 		</metamagic>
+		<metamagic><!-- Harmonious Defense -->
+		  <name>Harmonious Defense</name>
+		  <required>
+			<allof>
+			  <martialart>Way of Unified Mana (Hapsum-Do)</martialart>
+			  <quality>Adept</quality>
+			</allof>
+		  </required>
+		</metamagic>	
 	</metamagics>
 	<arts>
 		<art>
