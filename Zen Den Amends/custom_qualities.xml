@@ -1138,5 +1138,26 @@
             </allof>
           </required>
         </quality>
+		<quality>
+		  <id>3a175667-66d2-49b6-b476-64a916e71552</id>
+		  <name>Obscure Aura</name>
+		  <karma>5</karma>
+		  <category>Positive</category>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+				</oneof>
+			</forbidden>
+		  <note>As a non-Awakened, your aura is more obscure than most. All attempts to assense you receive a dice pool penalty equal to your Willpower.</note>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
 	</qualities>
 </chummer>
