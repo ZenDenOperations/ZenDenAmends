@@ -1,0 +1,2269 @@
+<chummer>
+  <qualities>
+    <quality>
+      <id>f2533100-dab3-467d-99a0-283235730f40</id>
+      <name>Alchemical Armorer</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus>
+        <addspell alchemical="True">Alter Ballistics</addspell>
+      </bonus>
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <metamagic>Advanced Alchemy</metamagic>
+          <skill>
+            <name>Alchemy</name>
+            <val>4</val>
+          </skill>
+          <skill>
+            <name>Armorer</name>
+            <val>4</val>
+          </skill>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>31</page>
+    </quality>
+    <quality>
+      <id>d666e93a-2ed0-4ab5-8c6e-f6f812bf536a</id>
+      <name>Alchemical Bomb Maker</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <metamagic>Advanced Alchemy</metamagic>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Alchemy</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Alchemy</name>
+            <val>4</val>
+            <spec>Combat</spec>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>31</page>
+    </quality>
+    <quality>
+      <id>99f8ea07-94dc-44b5-8937-ecd9555c0217</id>
+      <name>Animal Familiar</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Animal Handling</name>
+            <val>5</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>31</page>
+    </quality>
+    <quality>
+      <id>fb6130eb-d89b-4f7e-9c5e-3ff21c157d36</id>
+      <name>Apt Pupil</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>Arcana</name>
+            <val>6</val>
+          </skill>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Magical Theory (Academic)</name>
+            <val>4</val>
+            <type>Knowledge</type>
+          </skill>
+          <skill>
+            <name>Magical Theory (Street)</name>
+            <val>4</val>
+            <type>Knowledge</type>
+          </skill>
+          <skill>
+            <name>Magical Theory</name>
+            <val>4</val>
+            <type>Knowledge</type>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>32</page>
+    </quality>
+    <quality>
+      <id>07b7604e-5d14-4732-b778-17efb8f82d34</id>
+      <name>Arcane Bodyguard</name>
+      <karma>20</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>Counterspelling</name>
+            <val>4</val>
+          </skill>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>32</page>
+    </quality>
+    <quality>
+      <id>edc0e453-d11f-49a2-b4d0-62db614a8176</id>
+      <name>Arcane Improviser</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <spellcategory>
+            <name>Combat</name>
+            <count>4</count>
+          </spellcategory>
+          <spellcategory>
+            <name>Detection</name>
+            <count>4</count>
+          </spellcategory>
+          <spellcategory>
+            <name>Health</name>
+            <count>4</count>
+          </spellcategory>
+          <spellcategory>
+            <name>Illusion</name>
+            <count>4</count>
+          </spellcategory>
+          <spellcategory>
+            <name>Manipulation</name>
+            <count>4</count>
+          </spellcategory>
+        </allof>
+        <oneof>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Counterspelling</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Arcana</name>
+              <val>5</val>
+              <spec>Spell Design</spec>
+            </skill>
+            <tradition>Chaos Magic</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Counterspelling</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Arcana</name>
+              <val>7</val>
+            </skill>
+            <tradition>Chaos Magic</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>6</val>
+            </skill>
+            <skill>
+              <name>Counterspelling</name>
+              <val>6</val>
+            </skill>
+            <skill>
+              <name>Arcana</name>
+              <val>7</val>
+              <spec>Spell Design</spec>
+            </skill>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>6</val>
+            </skill>
+            <skill>
+              <name>Counterspelling</name>
+              <val>6</val>
+            </skill>
+            <skill>
+              <name>Arcana</name>
+              <val>9</val>
+            </skill>
+          </group>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>32</page>
+    </quality>
+    <quality>
+      <id>85fb4e86-782f-4f81-aaab-7fcd19fcf09d</id>
+      <name>Archivist</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>Arcana</name>
+            <val>5</val>
+          </skill>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>32</page>
+    </quality>
+    <quality>
+      <id>195bbcbb-9913-4907-87d5-8838a627b2ad</id>
+      <name>Astral Bouncer</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Assensing</name>
+            <val>4</val>
+            <spec>Aura Reading</spec>
+          </skill>
+          <skill>
+            <name>Assensing</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>32</page>
+    </quality>
+    <quality>
+      <id>464bfa24-9db8-4939-842d-c784b067175a</id>
+      <name>Astral Infiltrator</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <initiategrade>1</initiategrade>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Astral Combat</name>
+            <val>5</val>
+            <spec>Astral Barriers</spec>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>7</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>32</page>
+    </quality>
+    <quality>
+      <id>530fd89f-daf6-4f6b-b468-51a8ba3e0c82</id>
+      <name>Blood Necromancer</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <metamagicart>Blood Magic</metamagicart>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>8</val>
+          </skill>
+          <skill>
+            <name>Spellcasting</name>
+            <val>6</val>
+            <spec>Health</spec>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>33</page>
+    </quality>
+    <quality>
+      <id>9e310c11-fba9-45f7-a962-efb61806124c</id>
+      <name>Chain Breaker</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <costdiscount>
+        <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+          </oneof>
+        </required>
+        <value>-5</value>
+      </costdiscount>
+      <doublecareer>False</doublecareer>
+      <bonus>
+        <addspirit />
+        <addspirit />
+        <skilldisable>Binding</skilldisable>
+      </bonus>
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>33</page>
+    </quality>
+    <quality>
+      <id>19a4b63e-0435-4410-8896-24c8b9b1a3f2</id>
+      <name>Chakra Interrupter</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <group>
+            <power>Nerve Strike</power>
+            <skill>
+              <name>Assensing</name>
+              <val>4</val>
+              <spec>Aura Reading</spec>
+            </skill>
+          </group>
+          <group>
+            <power>Nerve Strike</power>
+            <skill>
+              <name>Assensing</name>
+              <val>6</val>
+            </skill>
+          </group>
+          <group>
+            <martialtechnique>Dim Mak</martialtechnique>
+            <skill>
+              <name>Unarmed Combat</name>
+              <val>6</val>
+              <spec>[Martial Art]</spec>
+            </skill>
+            <skill>
+              <name>Assensing</name>
+              <val>6</val>
+            </skill>
+          </group>
+          <group>
+            <martialtechnique>Dim Mak</martialtechnique>
+            <skill>
+              <name>Unarmed Combat</name>
+              <val>6</val>
+              <spec>[Martial Art]</spec>
+            </skill>
+            <skill>
+              <name>Assensing</name>
+              <val>4</val>
+              <spec>Aura Reading</spec>
+            </skill>
+          </group>
+          <group>
+            <martialtechnique>Dim Mak</martialtechnique>
+            <skill>
+              <name>Unarmed Combat</name>
+              <val>8</val>
+            </skill>
+            <skill>
+              <name>Assensing</name>
+              <val>6</val>
+            </skill>
+          </group>
+          <group>
+            <martialtechnique>Dim Mak</martialtechnique>
+            <skill>
+              <name>Unarmed Combat</name>
+              <val>8</val>
+            </skill>
+            <skill>
+              <name>Assensing</name>
+              <val>4</val>
+              <spec>Aura Reading</spec>
+            </skill>
+          </group>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>34</page>
+    </quality>
+    <quality>
+      <id>ac0bebe1-86da-45a8-8c3c-2255a6b30d2e</id>
+      <name>Charlatan</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>Assensing</name>
+            <val>5</val>
+          </skill>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Palming</name>
+            <val>3</val>
+            <spec>Prestidigitation</spec>
+          </skill>
+          <skill>
+            <name>Palming</name>
+            <val>5</val>
+          </skill>
+          <skill>
+            <name>Performance</name>
+            <val>3</val>
+            <spec>Magic</spec>
+          </skill>
+          <skill>
+            <name>Performance</name>
+            <val>5</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>34</page>
+    </quality>
+    <quality>
+      <id>8abc559e-abe3-485d-8fa7-3678a25c8ade</id>
+      <name>Chosen Follower</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <quality>Mentor Spirit</quality>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>35</page>
+    </quality>
+    <quality>
+      <id>a96cb395-09d4-44cf-be40-611cf5ce130e</id>
+      <name>Close Combat Mage</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <limit>3</limit>
+      <nolevels />
+      <bonus>
+        <selecttext />
+      </bonus>
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <metamagic>Spell Shaping</metamagic>
+          <skill>
+            <name>Spellcasting</name>
+            <val>4</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>35</page>
+    </quality>
+    <quality>
+      <id>55b20aa5-b43c-4b69-bd0a-b37e885ee6d8</id>
+      <name>Dark Ally</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus>
+        <addspirit />
+      </bonus>
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Binding</name>
+            <val>7</val>
+          </skill>
+          <skill>
+            <name>Ritual Spellcasting</name>
+            <val>9</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>35</page>
+    </quality>
+    <quality>
+      <id>a7b94fc8-30c8-4a23-9977-66db736ceb9a</id>
+      <name>Death Dealer</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <limit>3</limit>
+      <bonus>
+        <spellcategorydamage>
+          <category>Combat</category>
+          <val>1</val>
+        </spellcategorydamage>
+        <spellcategorydrain>
+          <category>Combat</category>
+          <val>1</val>
+        </spellcategorydrain>
+      </bonus>
+      <forbidden>
+        <allof>
+          <quality>Adept</quality>
+          <quality>Mystic Adept</quality>
+        </allof>
+      </forbidden>
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Spellcasting</name>
+            <val>4</val>
+            <spec>Combat</spec>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>35</page>
+    </quality>
+    <quality>
+      <id>627e5803-d8dc-46f5-a0d4-a372b97a5b04</id>
+      <name>Dedicated Conjurer</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <costdiscount>
+        <required>
+          <oneof>
+            <quality>Apprentice</quality>
+            <quality>Aspected Magician</quality>
+            <quality>Aware</quality>
+            <quality>Enchanter</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        </required>
+        <value>-5</value>
+      </costdiscount>
+      <doublecareer>False</doublecareer>
+      <bonus>
+        <skilldisable>Spellcasting</skilldisable>
+      </bonus>
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Summoning</name>
+            <val>1</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>36</page>
+    </quality>
+    <quality>
+      <id>40b1a1fd-2339-44f4-b10c-254733898ced</id>
+      <name>Dedicated Spellslinger</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <costdiscount>
+        <required>
+          <oneof>
+            <quality>Apprentice</quality>
+            <quality>Aspected Magician</quality>
+            <quality>Aware</quality>
+            <quality>Enchanter</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        </required>
+        <value>-5</value>
+      </costdiscount>
+      <doublecareer>False</doublecareer>
+      <bonus>
+        <freespells skill="Spellcasting" />
+        <newspellkarmacost type="Spells">-1</newspellkarmacost>
+        <skilldisable>Summoning</skilldisable>
+        <skilldisable>Binding</skilldisable>
+      </bonus>
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>1</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>36</page>
+    </quality>
+    <quality><!-- Banisher (aspected) -->
+      <id>12f210b8-e448-44ff-b139-954052f5c37f</id>
+      <name>Banisher</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <doublecareer>False</doublecareer>
+      <required>
+        <oneof>
+          <quality>Aspected Magician</quality>
+          <quality>Apprentice</quality>
+          <quality>Explorer</quality>
+          </oneof>
+        <oneof>
+          <skill>
+            <name>Banishing</name>
+            <val>4</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>ZDR</source>
+      <page>0</page>
+    </quality>
+    <quality><!-- Advanced Banisher (aspected)-->
+      <id>26c215a5-0638-400e-81d9-58f2b278de68</id>
+      <name>Advanced Banisher</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <doublecareer>False</doublecareer>
+      <required>
+        <oneof>
+          <quality>Aspected Magician</quality>
+          <quality>Explorer</quality>
+          <quality>Apprentice</quality>
+        </oneof>
+        <allof>
+          <skill>
+            <name>Banishing</name>
+            <val>6</val>
+          </skill>
+          <quality>
+            <name>Banisher</name>
+          </quality>
+        </allof>
+      </required>
+      <source>ZDR</source>
+      <page>0</page>
+    </quality>
+    <quality><!-- Dedicated Alchemist (aspected) -->
+      <id>6c497217-8aa8-4d17-8fb7-44a87b2675f5</id>
+      <name>Dedicated Alchemist</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <costdiscount>
+        <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        </required>
+        <value>-5</value>
+      </costdiscount>
+      <doublecareer>False</doublecareer>
+      <bonus>
+        <freespells skill="Alchemy" />
+        <newspellkarmacost type="Preparations">-1</newspellkarmacost>
+        <skilldisable>Spellcasting</skilldisable>
+      </bonus>
+      <required>
+        <oneof>
+          <quality>Aspected Magician</quality>
+          <quality>Apprentice</quality>
+          <quality>Explorer</quality>
+          </oneof>
+        <oneof>
+          <skill>
+            <name>Alchemy</name>
+            <val>1</val>
+          </skill>
+        </oneof>
+      </required>
+      <forbidden>
+        <oneof>
+          <name>Dedicated Conjurer</name>
+          <name>Dedicated Spellslinger</name>
+        </oneof>
+      </forbidden>
+      <source>ZDR</source>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>fbbab821-5ded-429b-ae1c-41f629b5af8e</id>
+      <name>Dual-Natured Defender</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <critterpower>Dual Natured</critterpower>
+          <skill>
+            <name>Astral Combat</name>
+            <val>3</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>36</page>
+    </quality>
+    <quality>
+      <id>26af2ad4-57d8-4467-b5ce-6915e465c509</id>
+      <name>Durable Preparations</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Alchemy</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>36</page>
+    </quality>
+    <quality>
+      <id>08dac511-4961-4c9d-8158-dab04cf826fb</id>
+      <name>Elemental Master</name>
+      <karma>20</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <group>
+            <skill>
+              <name>Summoning</name>
+              <val>4</val>
+            </skill>
+            <tradition>Wuxing</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Summoning</name>
+              <val>2</val>
+              <spec>Spirits of Fire</spec>
+            </skill>
+            <tradition>Wuxing</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Summoning</name>
+              <val>2</val>
+              <spec>Spirits of Water</spec>
+            </skill>
+            <tradition>Wuxing</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Summoning</name>
+              <val>2</val>
+              <spec>Spirits of Air</spec>
+            </skill>
+            <tradition>Wuxing</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Summoning</name>
+              <val>2</val>
+              <spec>Spirits of Earth</spec>
+            </skill>
+            <tradition>Wuxing</tradition>
+          </group>
+          <skill>
+            <name>Summoning</name>
+            <val>4</val>
+            <spec>Spirits of Fire</spec>
+          </skill>
+          <skill>
+            <name>Summoning</name>
+            <val>4</val>
+            <spec>Spirits of Water</spec>
+          </skill>
+          <skill>
+            <name>Summoning</name>
+            <val>4</val>
+            <spec>Spirits of Earth</spec>
+          </skill>
+          <skill>
+            <name>Summoning</name>
+            <val>4</val>
+            <spec>Spirits of Air</spec>
+          </skill>
+          <skill>
+            <name>Summoning</name>
+            <val>6</val>
+          </skill>
+          <spelldescriptor>
+            <name>Elemental</name>
+            <count>5</count>
+          </spelldescriptor>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>36</page>
+    </quality>
+    <quality>
+      <id>27a58ed9-7b73-4f38-907d-236c3169c40d</id>
+      <name>Flesh Sculpter</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <limit>3</limit>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>Zoology</name>
+            <val>5</val>
+            <type>Knowledge</type>
+          </skill>
+        </allof>
+        <oneof>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+              <spec>Manipulation</spec>
+            </skill>
+            <spell>Shapechange</spell>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+              <spec>Manipulation</spec>
+            </skill>
+            <spell>[Critter] Form</spell>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>6</val>
+            </skill>
+            <spell>Shapechange</spell>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>6</val>
+            </skill>
+            <spell>[Critter] Form</spell>
+          </group>
+          <spell>Shapechange</spell>
+          <spell>[Critter] Form</spell>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>37</page>
+    </quality>
+    <quality>
+      <id>56182a57-da12-434f-b252-daad3ebd789c</id>
+      <name>Healer</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>First Aid</name>
+            <val>3</val>
+          </skill>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>4</val>
+            <spec>Health</spec>
+          </skill>
+          <skill>
+            <name>Spellcasting</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>37</page>
+    </quality>
+    <quality>
+      <id>19934721-730f-42db-8e0d-716b3878f696</id>
+      <name>Illusionist</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <limit>3</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Spellcasting</name>
+            <val>4</val>
+            <spec>Illusion</spec>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>37</page>
+    </quality>
+    <quality>
+      <id>a584cd8b-c432-4104-811b-d4a7511ce665</id>
+      <name>Items of Power I</name>
+      <karma>25</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Artificing</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>38</page>
+    </quality>
+    <quality><!-- Items of Power II (aspected) -->
+      <id>5214c9b2-933b-4df7-a311-a98b11c7017e</id>
+      <name>Items of Power II</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+        <allof>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+          <id>a584cd8b-c432-4104-811b-d4a7511ce665</id>
+          <skilltotal>
+            <skills>Arcana+Artificing</skills>
+            <val>6</val>
+          </skilltotal>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>38</page>
+    </quality>
+    <quality><!-- Items of Power III (aspected) -->
+      <id>0822a24c-d2ca-4de5-9bda-be242e00f62b</id>
+      <name>Items of Power III</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>  
+        <oneof>
+          <quality>Aspected Magician</quality>
+          <quality>Apprentice</quality>
+          <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <quality>Items of Power II</quality>
+          <skilltotal>
+            <skills>Arcana+Artificing</skills>
+            <val>9</val>
+          </skilltotal>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>38</page>
+    </quality>
+    <quality>
+      <id>0d050758-f32b-4e42-b626-2262b3cd03de</id>
+      <name>Mage Hunter I</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>4</val>
+            <spec>Combat</spec>
+          </skill>
+          <skill>
+            <name>Spellcasting</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>38</page>
+    </quality>
+    <quality>
+      <id>e9cb3cc6-5679-4451-b287-d6f76e0cd4df</id>
+      <name>Mage Hunter II</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <quality>Mage Hunter I</quality>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>7</val>
+            <spec>Combat</spec>
+          </skill>
+          <skill>
+            <name>Spellcasting</name>
+            <val>9</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>38</page>
+    </quality>
+    <quality>
+      <id>864dec12-c0d2-4178-9977-d1cb26223f02</id>
+      <name>Mage Hunter III</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <quality>Mage Hunter II</quality>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>9</val>
+            <spec>Combat</spec>
+          </skill>
+          <skill>
+            <name>Spellcasting</name>
+            <val>11</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>38</page>
+    </quality>
+    <quality>
+      <id>b3548d6c-1d2f-4edd-a1a0-5d2bb3324c62</id>
+      <name>Missile Deflector</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <power>Missile Parry</power>
+          <power>Counterstrike</power>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>38</page>
+    </quality>
+    <quality>
+      <id>57db4417-034a-4fad-91cc-03c8cbce856f</id>
+      <name>Mystic Foreman</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>Industrial Mechanic</name>
+            <val>4</val>
+          </skill>
+          <skill>
+            <name>Chemistry</name>
+            <val>4</val>
+          </skill>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>4</val>
+            <spec>Manipulation</spec>
+          </skill>
+          <skill>
+            <name>Spellcasting</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>38</page>
+    </quality>
+    <quality>
+      <id>a44e6261-5dc8-4dcd-94a8-78c980bcaba4</id>
+      <name>Mystic Pitcher</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <spell>Fling</spell>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>4</val>
+            <spec>Manipulation</spec>
+          </skill>
+          <skill>
+            <name>Spellcasting</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>38</page>
+    </quality>
+    <quality>
+      <id>2ac457ee-3c50-4079-86cd-025451c4368c</id>
+      <name>Potion Maker</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>Chemistry</name>
+            <val>4</val>
+          </skill>
+          <skill>
+            <name>Alchemy</name>
+            <val>4</val>
+          </skill>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>39</page>
+    </quality>
+    <quality>
+      <id>2e977eed-0bbd-4969-9128-c4139aa4c11b</id>
+      <name>Practiced Alchemist</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <group>
+            <skill>
+              <name>Alchemy</name>
+              <val>4</val>
+            </skill>
+            <tradition>Islam</tradition>
+          </group>
+          <skill>
+            <name>Alchemy</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>39</page>
+    </quality>
+    <quality>
+      <id>546f0468-456b-4e9e-928b-b08d748d5673</id>
+      <name>Puppet Master</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <limit>3</limit>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <group>
+            <skill>
+              <name>Psychology</name>
+              <val>5</val>
+              <type>Knowledge</type>
+            </skill>
+            <skill>
+              <name>Spellcasting</name>
+              <val>6</val>
+            </skill>
+          </group>
+          <group>
+            <skill>
+              <name>Psychology</name>
+              <val>5</val>
+              <type>Knowledge</type>
+            </skill>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+              <spec>Manipulation</spec>
+            </skill>
+          </group>
+          <group>
+            <skill>
+              <name>Psychology</name>
+              <val>3</val>
+              <type>Knowledge</type>
+            </skill>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+            </skill>
+            <grouponeof>
+              <tradition>Black Magic</tradition>
+              <tradition>Black Magic [Alt]</tradition>
+            </grouponeof>
+          </group>
+          <group>
+            <skill>
+              <name>Psychology</name>
+              <val>3</val>
+              <type>Knowledge</type>
+            </skill>
+            <skill>
+              <name>Spellcasting</name>
+              <val>2</val>
+              <spec>Manipulation</spec>
+            </skill>
+            <grouponeof>
+              <tradition>Black Magic</tradition>
+              <tradition>Black Magic [Alt]</tradition>
+            </grouponeof>
+          </group>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>39</page>
+    </quality>
+    <quality>
+      <id>3d55ddbe-bea5-4da4-afee-407226aae855</id>
+      <name>Reckless Spell Master</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <limit>6</limit>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>39</page>
+    </quality>
+    <quality>
+      <id>ca31e195-226d-44a0-985b-1ee2500b587e</id>
+      <name>Renaissance Ritualist</name>
+      <karma>8</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <group>
+            <skill>
+              <name>Arcana</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Ritual Spellcasting</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Magical Traditions</name>
+              <val>5</val>
+              <type>Knowledge</type>
+            </skill>
+          </group>
+          <group>
+            <skill>
+              <name>Arcana</name>
+              <val>2</val>
+            </skill>
+            <skill>
+              <name>Ritual Spellcasting</name>
+              <val>2</val>
+            </skill>
+            <skill>
+              <name>Magical Traditions</name>
+              <val>3</val>
+              <type>Knowledge</type>
+            </skill>
+            <tradition>Chaos Magic</tradition>
+          </group>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+    <quality>
+      <id>ddf54684-ef8e-4121-8d7b-3c60c8d0e3c8</id>
+      <name>Shock Mage</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Spellcasting</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+    <quality>
+      <id>ad08447d-5bcb-48a6-b931-30741a34c199</id>
+      <name>Skinwalker</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <limit>3</limit>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <spell>[Critter] Form</spell>
+        </allof>
+        <oneof>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>6</val>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>2</val>
+              <type>Knowledge</type>
+            </skill>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>2</val>
+              <type>Knowledge</type>
+            </skill>
+            <tradition>Sioux</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>2</val>
+              <spec>Manipulation</spec>
+            </skill>
+            <tradition>Sioux</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+              <spec>Manipulation</spec>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>2</val>
+              <type>Knowledge</type>
+            </skill>
+          </group>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+    <quality>
+      <id>58d6836c-16e7-449f-a24c-350a4b042cae</id>
+      <name>Spectral Warden</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+    <quality>
+      <id>932a4b31-e38c-4798-8298-6ce62322449c</id>
+      <name>Spell Jammer</name>
+      <karma>20</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Counterspelling</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+    <quality>
+      <id>f86f5485-f50d-4798-b747-10c3556fa528</id>
+      <name>Spirit Hunter I</name>
+      <karma>20</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <power>Killing Hands</power>
+          <skill>
+            <name>Banishing</name>
+            <val>4</val>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>4</val>
+            <spec>Spirits</spec>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+    <quality>
+      <id>6b1cab91-d9c5-4ae9-a78c-9c029dc25c2c</id>
+      <name>Spirit Hunter II</name>
+      <karma>20</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <quality>Spirit Hunter I</quality>
+        </allof>
+        <oneof>
+          <group>
+            <power>Killing Hands</power>
+            <skill>
+              <name>Astral Combat</name>
+              <spec>Spirits</spec>
+              <val>6</val>
+            </skill>
+          </group>
+          <skill>
+            <name>Banishing</name>
+            <val>8</val>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>8</val>
+            <spec>Spirits</spec>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>10</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+    <quality>
+      <id>3ae0d829-413c-4c42-a12b-22726c277df1</id>
+      <name>Spirit Hunter III</name>
+      <karma>20</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <quality>Spirit Hunter II</quality>
+        </allof>
+        <oneof>
+          <group>
+            <power>Killing Hands</power>
+            <skill>
+              <name>Astral Combat</name>
+              <spec>Spirits</spec>
+              <val>8</val>
+            </skill>
+          </group>
+          <skill>
+            <name>Banishing</name>
+            <val>12</val>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>12</val>
+            <spec>Spirits</spec>
+          </skill>
+          <skill>
+            <name>Astral Combat</name>
+            <val>14</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>40</page>
+    </quality>
+    <quality>
+      <id>5e36a925-b94e-4f36-bb1c-aab478ec765b</id>
+      <name>Spiritual Lodge</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>Ritual Spellcasting</name>
+            <val>6</val>
+          </skill>
+          <skill>
+            <name>Artisan</name>
+            <val>3</val>
+          </skill>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>41</page>
+    </quality>
+    <quality>
+      <id>0cadb8b6-a8f1-4227-a26f-bd87a1219e7d</id>
+      <name>Spiritual Pilgrim</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <group>
+            <skill>
+              <name>Assensing</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Magical Theory</name>
+              <val>3</val>
+              <type>Knowledge</type>
+            </skill>
+          </group>
+          <group>
+            <skill>
+              <name>Assensing</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Magical Theory (Street)</name>
+              <val>3</val>
+              <type>Knowledge</type>
+            </skill>
+          </group>
+          <group>
+            <skill>
+              <name>Assensing</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Magical Theory (Academic)</name>
+              <val>3</val>
+              <type>Knowledge</type>
+            </skill>
+          </group>
+          <group>
+            <skill>
+              <name>Assensing</name>
+              <val>2</val>
+            </skill>
+            <skill>
+              <name>Magical Theory</name>
+              <val>1</val>
+              <type>Knowledge</type>
+            </skill>
+            <tradition>Buddhism</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Assensing</name>
+              <val>2</val>
+            </skill>
+            <skill>
+              <name>Magical Theory (Academic)</name>
+              <val>1</val>
+              <type>Knowledge</type>
+            </skill>
+            <tradition>Buddhism</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Assensing</name>
+              <val>2</val>
+            </skill>
+            <skill>
+              <name>Magical Theory (Street)</name>
+              <val>1</val>
+              <type>Knowledge</type>
+            </skill>
+            <tradition>Buddhism</tradition>
+          </group>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>41</page>
+    </quality>
+    <quality>
+      <id>de11c81a-2bea-49f2-8c80-a41f6778a1fb</id>
+      <name>Sprawl Tamer</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Animal Handling</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>41</page>
+    </quality>
+    <quality>
+      <id>9db396ba-f8af-4f47-b4e6-9e1ddee49cab</id>
+      <name>Stalwart Ally</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>Binding</name>
+            <val>4</val>
+          </skill>
+          <spell>Create Ally Spirit</spell>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>42</page>
+    </quality>
+    <quality>
+      <id>ed97f2f8-6379-46d3-a7a1-ac90c9daf435</id>
+      <name>Taboo Transformer</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+              <spec>Manipulation</spec>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>5</val>
+              <type>Knowledge</type>
+            </skill>
+            <spell>Shapechange</spell>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+              <spec>Manipulation</spec>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>5</val>
+              <type>Knowledge</type>
+            </skill>
+            <spell>[Critter] Form</spell>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>6</val>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>5</val>
+              <type>Knowledge</type>
+            </skill>
+            <spell>[Critter] Form</spell>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>6</val>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>5</val>
+              <type>Knowledge</type>
+            </skill>
+            <spell>Shapechange</spell>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>2</val>
+              <spec>Manipulation</spec>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>3</val>
+              <type>Knowledge</type>
+            </skill>
+            <spell>Shapechange</spell>
+            <tradition>Wicca</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>2</val>
+              <spec>Manipulation</spec>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>3</val>
+              <type>Knowledge</type>
+            </skill>
+            <spell>[Critter] Form</spell>
+            <tradition>Wicca</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>3</val>
+              <type>Knowledge</type>
+            </skill>
+            <spell>[Critter] Form</spell>
+            <tradition>Wicca</tradition>
+          </group>
+          <group>
+            <skill>
+              <name>Spellcasting</name>
+              <val>4</val>
+            </skill>
+            <skill>
+              <name>Zoology</name>
+              <val>3</val>
+              <type>Knowledge</type>
+            </skill>
+            <spell>Shapechange</spell>
+            <tradition>Wicca</tradition>
+          </group>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>42</page>
+    </quality>
+    <quality>
+      <id>d326086e-5e89-42ce-b369-d379cbb305ee</id>
+      <name>Vexcraft</name>
+      <karma>7</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+        </allof>
+        <oneof>
+          <skill>
+            <name>Disenchanting</name>
+            <val>6</val>
+          </skill>
+        </oneof>
+      </required>
+      <source>FA</source>
+      <page>42</page>
+    </quality>
+    <quality>
+      <id>78fb9da0-78ab-4d6b-93f8-b4ed1341756e</id>
+      <name>Worship Leader</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <contributetolimit>False</contributetolimit>
+      <canbuywithspellpoints>True</canbuywithspellpoints>
+      <doublecareer>False</doublecareer>
+      <bonus />
+      <required>
+          <oneof>
+            <quality>Aspected Magician</quality>
+            <quality>Apprentice</quality>
+            <quality>Explorer</quality>
+          </oneof>
+        <allof>
+          <skill>
+            <name>Leadership</name>
+            <val>4</val>
+          </skill>
+          <skill>
+            <name>Ritual Spellcasting</name>
+            <val>5</val>
+          </skill>
+        </allof>
+      </required>
+      <source>FA</source>
+      <page>42</page>
+    </quality>
+  </qualities>
+</chummer> 
