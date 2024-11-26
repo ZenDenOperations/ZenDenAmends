@@ -428,6 +428,10 @@
       <name>Rolling Blades</name>
       <useskill>Blades</useskill>
     </weapon>
+    <weapon>
+      <name>Nodachi</name>
+      <conceal amendoperation="replace">+10</conceal>
+    </weapon>	
     <!--  Clubs -->
     <weapon>
       <name>Ballistic Shield</name>
