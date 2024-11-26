@@ -21,6 +21,9 @@
 <!-- *Asterisks* denote exotic specializations -->
 
 <chummer>
+  <skillgroups>
+	<name>Piloting</name>
+  </skillgroups>
   <skills>
     <skill>
       <name>Archery</name>
@@ -150,8 +153,44 @@
 		<spec>*Thagomizer Tail</spec>
         <spec>[Martial Art]</spec>
       </specs>
+      <skill>
+        <name>Pilot Aircraft</name>
+        <skillgroup amendoperation="replace">Piloting</skillgroup>
+        <specs amendoperation="replace">
+            <spec>Fixed-Wing</spec>
+            <spec>Lighter-Than-Air</spec>
+            <spec>Rotary Wing</spec>
+            <spec>Tilt Wing</spec>
+            <spec>Vectored Thrust</spec>
+            <spec>Deep Space</spec>
+            <spec>Launch Craft</spec>
+            <spec>Semiballistic</spec>
+            <spec>Suborbital</spec>
+            <spec>Remote Operation</spec>
+        </specs>
+      </skill>
+      <skill>
+        <name>Pilot Ground Craft</name>
+        <skillgroup amendoperation="replace">Piloting</skillgroup>
+        <specs amendoperation="replace">
+            <spec>Bike</spec>
+            <spec>Hovercraft</spec>
+            <spec>Remote Operation</spec>
+            <spec>Tracked</spec>
+            <spec>Wheeled</spec>
+            <spec>Biped</spec>
+            <spec>Multiped</spec>
+            <spec>Quadruped</spec>
+        </specs>
+      </skill>
+      <skill>
+        <name>Pilot Watercraft</name>
+        <skillgroup amendoperation="replace">Piloting</skillgroup>
+      </skill>
     </skill>
     <skill xpathfilter="name = 'Free-Fall'" amendoperation="remove" />
     <skill xpathfilter="name = 'Diving'" amendoperation="remove" />
+    <skill xpathfilter="name = 'Pilot Aerospace'" amendoperation="remove" />
+    <skill xpathfilter="name = 'Pilot Walker'" amendoperation="remove" />
   </skills>
 </chummer>
