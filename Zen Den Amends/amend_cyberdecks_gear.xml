@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <gears>
+	<gear>
+      <name>Erika MCD-1</name>
+      <cost>19800</cost>
+    </gear>
+    <gear>
+      <name>Microdeck Summit</name>
+      <cost>23200</cost>
+    </gear>
+    <gear>
+      <name>Microtrónica Azteca 200</name>
+      <cost>44100</cost>
+    </gear>
+    <gear>
+      <name>Hermes Chariot</name>
+      <cost>49200</cost>
+    </gear>
+    <gear>
+      <name>Novatech Navigator</name>
+      <cost>82300</cost>
+    </gear>
+    <gear>
+      <name>Renraku Tsurugi</name>
+      <cost>85650</cost>
+    </gear>
+    <gear>
+      <name>Sony CIY-720</name>
+      <cost>138000</cost>
+    </gear>
+    <gear>
+      <name>Shiawase Cyber-5</name>
+      <cost>219750</cost>
+    </gear>
+    <gear>
+      <name>Fairlight Excalibur</name>
+      <cost>329300</cost>
+    </gear>
+    <gear>
+      <name>Fuchi Cyber-N</name>
+      <rating>100000</rating>
+      <cost>Rating*2000</cost>
+    </gear>
+    <gear>
+      <name>Fuchi Cyber-Ex</name>
+      <rating>100000</rating>
+      <cost>Rating*4000</cost>
+    </gear>
+    <gear>
+      <name>[Custom Cyberdeck] Attack</name>
+      <cost>(Rating*Rating*Rating)*200</cost>
+    </gear>
+    <gear>
+      <name>[Custom Cyberdeck] Sleaze</name>
+      <cost>(Rating*Rating)*200</cost>
+    </gear>
+    <gear>
+      <name>[Custom Cyberdeck] Data Processing</name>
+      <cost>(Rating*Rating)*200</cost>
+    </gear>
+    <gear>
+      <id>37c5f8bc-025a-4eca-93a8-1e93e0cabcd9</id>
+      <name>[Custom Cyberdeck] Firewall</name>
+      <cost>(Rating*Rating*Rating)*200</cost>
+    </gear>
+    <gear>
+      <id>e89a1f81-d2f8-499e-9ebc-8e7230a0e4e8</id>
+      <name>[Custom Cyberdeck] Firewall</name>
+      <cost>(Rating*Rating*Rating)*200</cost>
+    </gear>
+    <!-- Region Security Decks -->
+    <gear>
+      <name>Security Deck: Guard</name>
+      <cost>9750</cost>
+    </gear>
+    <gear>
+      <name>Security Deck: Shield</name>
+      <cost>24500</cost>
+    </gear>
+    <gear>
+      <name>Security Deck: Fortress</name>
+      <cost>94250</cost>
+    </gear>
+    <gear>
+      <name>Security Deck: Great Wall</name>
+      <cost>193500</cost>
+    </gear>
+    <!-- End Region -->
+    <!-- Region Hunter Decks -->
+    <gear>
+      <name>Hunter Deck: Fox</name>
+      <cost>17125</cost>
+    </gear>
+    <gear>
+      <name>Hunter Deck: Wolf</name>
+      <cost>33250</cost>
+    </gear>
+    <gear>
+      <name>Hunter Deck: Tiger</name>
+      <cost>132500</cost>
+    </gear>
+    <gear>
+      <name>Hunter Deck: Shark</name>
+      <cost>258000</cost>
+    </gear>
+    <!-- End Region -->
+    <gear>
+      <name>Aztechnology Shadow Warrior</name>
+      <cost>90000</cost>
+    </gear>
+    <gear>
+      <name>Evo Sublime</name>
+      <cost>150000</cost>
+    </gear>
+    <gear>
+      <name>Fairlight Destiny Blade</name>
+      <cost>160000</cost>
+    </gear>
+    <gear>
+      <name>Aztechnology Defender</name>
+      <cost>224000</cost>
+    </gear>
+    <gear>
+      <name>Kitbashed Sleeper</name>
+      <cost>150000</cost>
+    </gear>
+    <gear>
+      <name>MCT Trainee</name>
+      <cost>4312</cost>
+    </gear>
+    <gear>
+      <name>Radio Shack PCD-500</name>
+      <cost>8400</cost>
+    </gear>
+    <gear>
+      <name>C-K Analyst</name>
+      <cost>20950</cost>
+    </gear>
+    <gear>
+      <name>Little Hornet</name>
+      <cost>35880</cost>
+    </gear>
+    <gear>
+      <name>Aztechnology Emissary</name>
+      <cost>42000</cost>
+    </gear>
+    <gear>
+      <name>Microtrónica Azteca 300</name>
+      <cost>80000</cost>
+    </gear>
+    <gear>
+      <name>Yak Killer</name>
+      <cost>48500</cost>
+    </gear>
+    <gear>
+      <name>Ring of Light Special</name>
+      <cost>60500</cost>
+    </gear>
+    <gear>
+      <name>Shiawase Cyber-4</name>
+      <cost>132400</cost>
+    </gear>
+    <gear>
+      <name>Xiao MPG-1</name>
+      <cost>120800</cost>
+    </gear>
+    <gear>
+      <name>Ares Echo Unlimited</name>
+      <cost>98975</cost>
+    </gear>
+    <gear>
+      <name>Fairlight Paladin</name>
+      <cost>420000</cost>
+    </gear>
+    <gear>
+      <name>Crystal Leviathan Shatterstar</name>
+      <cost>200000</cost>
+    </gear>
+    <!--<gear>
+      <name>Allegiance Sigma</name>
+      <cost>49500</cost>
+      </gears>
+    </gear>
+    <gear>
+      <name>Microdeck Peak</name>
+      <cost>58000</cost>
+      </gears>
+    </gear>
+    <gear>
+      <name>Radio Shack PCD-100</name>
+      <cost>110250</cost>
+      </gears>
+    </gear>
+    <gear>
+      <name>Allegiance Alpha</name>
+      <cost>123000</cost>
+      </gears>
+    </gear>
+    <gear>
+      <name>Sony CTY-360</name>
+      <cost>205750</cost>
+      </gears>
+    </gear>
+    <gear>
+      <name>Fuchi Cyber-4</name>
+      <cost>214125</cost>
+      </gears>
+    </gear>
+    <gear>
+      <name>Fuchi Cyber-6</name>
+      <cost>345000</cost>
+      </gears>
+    </gear>
+    <gear>
+      <name>Fuchi Cyber-7</name>
+      <cost>549375</cost>
+      </gears>
+    </gear>
+    <gear>
+      <name>Cyberdynamix Waterkant</name>
+      <cost>210000</cost>
+    </gear>
+    <gear>
+      <name>MSI Falke</name>
+      <cost>285000</cost>
+    </gear>-->
+    <!-- End Region -->
+  </gears>
+</chummer>
