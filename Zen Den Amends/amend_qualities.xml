@@ -3,8 +3,7 @@
 		<quality xpathfilter="contains(name,'Rank (')">
 			<hide />
 		</quality>
-		<quality>
-			<!-- Cyber-snob -->
+		<quality><!-- Cyber-snob -->
 			<name>Cyber-snob</name>
 			<karma>-6</karma>
 			<bonus amendoperation="replace">
@@ -36,14 +35,12 @@
 			<source>CF</source>
 			<page>57</page>
 		</quality>
-		<quality>
-			<!-- Code of Honor: Black Hat -->
+		<quality><!-- Code of Honor: Black Hat -->
 			<name>Code of Honor: Black Hat</name>
 			<required amendoperation="remove" />
 		</quality>
 		<!-- Region Changed Qualities -->
-		<quality>
-			<!-- Special Modifications -->
+		<quality><!-- Special Modifications -->
 			<name>Special Modifications</name>
 			<limit>2</limit>
 			<bonus amendoperation="remove" />
@@ -61,13 +58,11 @@
 				</oneof>
 			</forbidden>
 		</quality>
-		<quality>
-			<!-- Special Modifications (Prototype Materials) -->
+		<quality><!-- Special Modifications (Prototype Materials) -->
 			<name>Special Modifications (Prototype Materials)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Prototype Transhuman -->
+		<quality><!-- Prototype Transhuman -->
 			<id>08c4dfad-3661-48d9-a265-43cce84e20d8</id>
 			<chargenonly />
 			<bonus amendoperation="replace">
@@ -95,8 +90,7 @@
 				</selectquality>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- Black Market Pipeline -->
+		<quality><!-- Black Market Pipeline -->
 			<name>Black Market Pipeline</name>
 			<chargenonly amendoperation="remove" />
 			<bonus amendoperation="replace">
@@ -104,13 +98,11 @@
 				<selectcontact />
 			</bonus>
 		</quality>
-		<quality>
-			<!-- Otaku to Technomancer -->
+		<quality><!-- Otaku to Technomancer -->
 			<name>Otaku to Technomancer</name>
 			<chargenonly />
 		</quality>
-		<quality>
-			<!-- Mentor Spirit -->
+		<quality><!-- Mentor Spirit -->
 			<id>ced3fecf-2277-4b20-b1e0-894162ca9ae2</id>
 			<required amendoperation="replace">
 				<oneof>
@@ -118,51 +110,44 @@
 				</oneof>
 			</required>
 		</quality>
-		<quality>
-			<!-- SINner (Corporate) -->
+		<quality><!-- SINner (Corporate) -->
 			<id>e00623e1-54b0-4a91-b234-3c7e141deef4</id>
 			<karma>-5</karma>
 			<bonus>
 				<lifestylecost>10</lifestylecost>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- SINner (National) -->
+		<quality><!-- SINner (National) -->
 			<id>9ac85feb-ae1e-4996-8514-3570d411e1d5</id>
 			<karma>-5</karma>
 			<bonus>
 				<lifestylecost>15</lifestylecost>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- SINner (Corporate Limited) -->
+		<quality><!-- SINner (Corporate Limited) -->
 			<id>318d2edd-833b-48c5-a3e1-343bf03848a5</id>
 			<karma>-10</karma>
 			<bonus>
 				<lifestylecost>20</lifestylecost>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- SINner (Criminal) -->
+		<quality><!-- SINner (Criminal) -->
 			<id>d9479e5c-d44a-45b9-8fb4-d1e08a9487b2</id>
 			<karma>-10</karma>
 			<bonus>
 				<lifestylecost>15</lifestylecost>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- Ex-Con -->
+		<quality><!-- Ex-Con -->
 			<id>4fe8fa5e-e31b-4126-a880-3e719a0a5820</id>
 			<name>Ex-Con</name>
 			<karma>-20</karma>
 		</quality>
-		<quality>
-			<!-- Bad Rep -->
+		<quality><!-- Bad Rep -->
 			<name>Bad Rep</name>
 			<careeronly />
 		</quality>
-		<quality>
-			<!-- Human Lifespan -->
+		<quality><!-- Human Lifespan -->
 			<name>Human Lifespan</name>
 			<karma amendoperation="replace">0</karma>
 			<chargenonly />
@@ -173,27 +158,23 @@
 				</oneof>
 			</required>
 		</quality>
-		<quality>
-			<!-- Cold-Blooded -->
-			<name>Cold-Blooded</name>
-			<notes>
+		<quality><!-- Cold-Blooded -->
+		  <name>Cold-Blooded</name>
+		  <notes>
 	  If a character with this quality is wearing a suitable piece of clothing/armor (such as a jacket) with the Insulation modification, then the negative effects are reduced. For the purposes of this negative quality, rating 4 Insulation or higher allows you to treat the temperature as up to ten degrees warmer, while rating 6 Insulation allows you to treat the temperature as up to twenty degrees warmer.
-	  </notes>
+	      </notes>
 		</quality>
-		<quality>
-			<!-- Exceptional Entity -->
+		<quality><!-- Exceptional Entity -->
 			<name>Exceptional Entity</name>
 			<karma>25</karma>
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 		</quality>
-		<quality>
-			<!-- Lazy Fingers -->
+		<quality><!-- Lazy Fingers -->
 			<name>Lazy Fingers</name>
 			<karma>-6</karma>
 		</quality>
-		<quality>
-			<!-- Hi-Rez -->
+		<quality><!-- Hi-Rez -->
 			<name>Hi-Rez</name>
 			<karma>4</karma>
 			<required amendoperation="replace">
@@ -205,45 +186,15 @@
 			<source>BTB</source>
 			<page>160</page>
 		</quality>
-		<quality>
-			<!-- Items of Power -->
-			<id>8f18e68a-fbaf-46b6-bf00-c99910292c20</id>
-			<name>Items of Power I</name>
-			<karma>10</karma>
-			<category>Positive</category>
-			<canbuywithspellpoints>True</canbuywithspellpoints>
-			<doublecareer>False</doublecareer>
-			<bonus />
-			<required amendoperation="replace">
-				<allof>
-					<magenabled />
-				</allof>
-				<oneof>
-					<skill>
-						<name>Artificing</name>
-						<val>3</val>
-					</skill>
-					<skill>
-						<name>Arcana</name>
-						<val>3</val>
-					</skill>
-				</oneof>
-			</required>
-			<source>FA</source>
-			<page>38</page>
-		</quality>
-		<quality>
-			<!-- Exceptional Attribute -->
+		<quality><!-- Exceptional Attribute -->
 			<name>Exceptional Attribute</name>
 			<forbidden amendoperation="remove" />
 		</quality>
-		<quality>
-			<!-- Lucky -->
+		<quality><!-- Lucky -->
 			<name>Lucky</name>
 			<forbidden amendoperation="remove" />
 		</quality>
-		<quality>
-			<!-- Dedicated Spellslinger -->
+		<quality><!-- Dedicated Spellslinger -->
 			<name>Dedicated Spellslinger</name>
 			<forbidden>
 				<oneof>
@@ -251,9 +202,19 @@
 					<name>Dedicated Alchemist</name>
 				</oneof>
 			</forbidden>
+			<required>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+				</oneof>
+			</required>
 		</quality>
-		<quality>
-			<!-- Dedicated Conjurer  -->
+		<quality><!-- Dedicated Conjurer  -->
 			<name>Dedicated Conjurer</name>
 			<forbidden>
 				<oneof>
@@ -261,9 +222,19 @@
 					<name>Dedicated Alchemist</name>
 				</oneof>
 			</forbidden>
+			<required>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aware</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+				</oneof>
+			</required>
 		</quality>
-		<quality>
-			<!-- Changeling (Class I SURGE) -->
+		<quality><!-- Changeling (Class I SURGE) -->
 			<name>Changeling (Class I SURGE)</name>
 			<forbidden amendoperation="replace">
 				<oneof>
@@ -272,8 +243,7 @@
 				</oneof>
 			</forbidden>
 		</quality>
-		<quality>
-			<!-- Changeling (Class II SURGE) -->
+		<quality><!-- Changeling (Class II SURGE) -->
 			<name>Changeling (Class II SURGE)</name>
 			<forbidden amendoperation="replace">
 				<oneof>
@@ -282,8 +252,7 @@
 				</oneof>
 			</forbidden>
 		</quality>
-		<quality>
-			<!-- Changeling (Class III SURGE) -->
+		<quality><!-- Changeling (Class III SURGE) -->
 			<name>Changeling (Class III SURGE)</name>
 			<forbidden amendoperation="replace">
 				<oneof>
@@ -292,8 +261,7 @@
 				</oneof>
 			</forbidden>
 		</quality>
-		<quality>
-			<!-- Lightning Reflexes -->
+		<quality><!-- Lightning Reflexes -->
 			<name>Lightning Reflexes</name>
 			<bonus amendoperation="replace">
 				<dodge>1</dodge>
@@ -301,8 +269,7 @@
 				<initiativepass precedence="-1">1</initiativepass>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- Gifted Healer -->
+		<quality><!-- Gifted Healer -->
 			<name>Gifted Healer</name>
 			<bonus amendoperation="replace">
 				<specificskill>
@@ -311,29 +278,11 @@
 				</specificskill>
 			</bonus>
 		</quality>
-		<quality>
-			<!-- Arcane Bodyguard -->
-			<name>Arcane Bodyguard</name>
-			<required amendoperation="replace">
-				<allof>
-					<magenabled />
-				</allof>
-				<oneof>
-					<skill>
-						<name>Counterspelling</name>
-						<val>4</val>
-					</skill>
-					<metamagic>Harmonious Defense</metamagic>
-				</oneof>
-			</required>
-		</quality>
-		<quality>
-			<!-- Bilingual -->
+		<quality><!-- Bilingual -->
 			<name>Bilingual</name>
 			<chargenonly amendoperation="remove"></chargenonly>
 		</quality>
-		<quality>
-			<!-- Chain Breaker -->
+		<quality><!-- Chain Breaker -->
 			<name>Chain Breaker</name>
 			<bonus amendoperation="replace">
 				<addspirit>

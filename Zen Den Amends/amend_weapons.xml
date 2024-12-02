@@ -589,9 +589,14 @@
       <name>Grenade: Douser</name>
       <hide />
     </weapon>
-	<weapon>
+    <weapon>
       <name>Stoner-Ares M-22A1</name>
-      <hide />
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>13P</damage>
+      <ap>-5</ap>
+      <mode>FA</mode>
+      <rc>+2</rc>
     </weapon>
     <weapon>
       <name>Krime Carpet</name>
