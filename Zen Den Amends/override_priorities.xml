@@ -93,7 +93,7 @@
         </metatype>
         <metatype>
           <name>Dwarf</name>
-          <value>9</value>
+          <value>7</value>
           <karma>0</karma>
           <metavariants>
             <metavariant>
@@ -4547,6 +4547,61 @@
     </priority>
     <!-- End Region -->
 	<!-- Region Talents -->
+    <priority>
+      <id>9d58a295-7c59-4d3f-8001-a5565da6b836</id>
+      <name>A - Magician or Mystic Adept</name>
+      <value>A</value>
+      <category>Talent</category>
+      <talents>
+        <talent>
+          <name>Magician - 6 Magic/10 Spells</name>
+          <value>Magician</value>
+          <qualities>
+            <quality>Magician</quality>
+          </qualities>
+          <magic>6</magic>
+          <spells>10</spells>
+          <skillqty>2</skillqty>
+          <skillval>5</skillval>
+          <skilltype>magic</skilltype>
+          <forbidden>
+            <oneof>
+              <metatype>A.I.</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>Mystic Adept - 6 Magic/10 Spells</name>
+          <value>Mystic Adept</value>
+          <qualities>
+            <quality>Mystic Adept</quality>
+          </qualities>
+          <magic>6</magic>
+          <spells>10</spells>
+          <skillqty>2</skillqty>
+          <skillval>5</skillval>
+          <skilltype>magic</skilltype>
+          <forbidden>
+            <oneof>
+              <metatype>A.I.</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+        <talent>
+          <name>A.I. - 6 Depth</name>
+          <value>A.I.</value>
+          <depth>6</depth>
+          <skillqty>2</skillqty>
+          <skillval>5</skillval>
+          <skilltype>matrix</skilltype>
+          <required>
+            <oneof>
+              <metatype>A.I.</metatype>
+            </oneof>
+          </required>
+        </talent>
+      </talents>
+    </priority>
 	<priority>
       <id>774fd89a-ecea-4f5f-ad2b-c4476ca46f70</id>
       <name>B - Adept, Magician, or Technomancer</name>
@@ -4604,23 +4659,22 @@
           </forbidden>
         </talent>
         <talent>
-          <name>Technomancer - 4 Resonance/4 Complex Forms</name>
+          <name>Technomancer - 6 Resonance/7 Complex Forms</name>
           <value>Technomancer</value>
           <qualities>
             <quality>Technomancer</quality>
           </qualities>
-          <resonance>4</resonance>
-          <cfp>4</cfp>
+          <resonance>6</resonance>
+          <cfp>7</cfp>
           <skillqty>3</skillqty>
-          <skillval>4</skillval>
+          <skillval>5</skillval>
           <skilltype>resonance</skilltype>
           <required>
             <oneof>
               <metatypecategory>Metahuman</metatypecategory>
             </oneof>
           </required>
-        </talent>
-        <talent>
+        </talent>        <talent>
           <name>A.I. - 4 Depth</name>
           <value>A.I.</value>
           <depth>4</depth>
@@ -4750,23 +4804,23 @@
           </forbidden>
         </talent>
         <talent>
-          <name>Technomancer - 3 Resonance/3 Complex Forms</name>
+          <name>Technomancer - 4 Resonance/4 Complex Forms</name>
           <value>Technomancer</value>
           <qualities>
             <quality>Technomancer</quality>
           </qualities>
-          <resonance>3</resonance>
-          <cfp>3</cfp>
+          <resonance>4</resonance>
+          <cfp>4</cfp>
           <skillqty>3</skillqty>
-          <skillval>2</skillval>
+          <skillval>4</skillval>
           <skilltype>resonance</skilltype>
           <required>
             <oneof>
               <metatypecategory>Metahuman</metatypecategory>
             </oneof>
           </required>
-        </talent>
-        <talent>
+        </talent>        
+		<talent>
           <name>A.I. - 3 Depth</name>
           <value>A.I.</value>
           <depth>3</depth>
@@ -4783,7 +4837,7 @@
     </priority>
     <priority>
       <id>b97be625-a732-4c3c-80e4-06c4d88bac91</id>
-      <name>D - Adept or Aspected Magician</name>
+      <name>D - Adept, Aspected Magician or Technomancer</name>
       <value>D</value>
       <category>Talent</category>
       <talents>
@@ -4885,6 +4939,23 @@
               <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
+        </talent>
+		<talent>
+          <name>Technomancer - 3 Resonance/3 Complex Forms</name>
+          <value>Technomancer</value>
+          <qualities>
+            <quality>Technomancer</quality>
+          </qualities>
+          <resonance>3</resonance>
+          <cfp>3</cfp>
+          <skillqty>3</skillqty>
+          <skillval>2</skillval>
+          <skilltype>resonance</skilltype>
+          <required>
+            <oneof>
+              <metatypecategory>Metahuman</metatypecategory>
+            </oneof>
+          </required>
         </talent>
 		<talent>
           <name>A.I. - 2 Depth</name>
