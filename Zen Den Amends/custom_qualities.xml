@@ -69,7 +69,6 @@
 			<forbidden>
 				<oneof>
 					<quality>Adept</quality>
-					<quality>Aware</quality>
 					<quality>Aspected Magician</quality>
 					<quality>Enchanter</quality>
 					<quality>Explorer</quality>
@@ -138,7 +137,6 @@
 			<forbidden>
 				<oneof>
 					<quality>Adept</quality>
-					<quality>Aware</quality>
 					<quality>Aspected Magician</quality>
 					<quality>Enchanter</quality>
 					<quality>Explorer</quality>
@@ -170,7 +168,6 @@
 			<forbidden>
 				<oneof>
 					<quality>Adept</quality>
-					<quality>Aware</quality>
 					<quality>Aspected Magician</quality>
 					<quality>Enchanter</quality>
 					<quality>Explorer</quality>
@@ -792,7 +789,6 @@
 			<doublecareer>False</doublecareer>
 			<required>
 				<oneof>
-					  <quality>Aware</quality>
 					  <quality>Adept</quality>
 					  <quality>Magician</quality>
 					  <quality>Mystic Adept</quality>
@@ -815,7 +811,6 @@
 			<doublecareer>False</doublecareer>
 			<required>
 				<oneof>
-					  <quality>Aware</quality>
 					  <quality>Adept</quality>
 					  <quality>Magician</quality>
 					  <quality>Mystic Adept</quality>
@@ -844,8 +839,7 @@
 					<oneof>
 						<quality>Apprentice</quality>
 						<quality>Aspected Magician</quality>
-						<quality>Aware</quality>
-						<quality>Enchanter</quality>
+							<quality>Enchanter</quality>
 						<quality>Explorer</quality>
 					</oneof>
 				</required>
@@ -859,7 +853,6 @@
 			</bonus>
 			<required>
 				<oneof>
-					  <quality>Aware</quality>
 					  <quality>Adept</quality>
 					  <quality>Magician</quality>
 					  <quality>Mystic Adept</quality>
@@ -975,7 +968,6 @@
 			<bonus />
 			<required>
 				<oneof>
-					<quality>Aware</quality>
 					<quality>Adept</quality>
 					<quality>Magician</quality>
 					<quality>Mystic Adept</quality>
@@ -1001,7 +993,6 @@
 			<bonus />
 			<required>			
 				<oneof>
-					<quality>Aware</quality>
 					<quality>Adept</quality>
 					<quality>Magician</quality>
 					<quality>Mystic Adept</quality>
@@ -1057,7 +1048,6 @@
 			<forbidden>
 				<oneof>
 					<quality>Adept</quality>
-					<quality>Aware</quality>
 					<quality>Aspected Magician</quality>
 					<quality>Enchanter</quality>
 					<quality>Explorer</quality>
@@ -1086,7 +1076,6 @@
 			<forbidden>
 				<oneof>
 					<quality>Adept</quality>
-					<quality>Aware</quality>
 					<quality>Aspected Magician</quality>
 					<quality>Enchanter</quality>
 					<quality>Explorer</quality>
@@ -1124,12 +1113,12 @@
           <source>ZDR</source>
           <page>1</page>
           <required>
-            <allof>
+            <oneof>
               <quality>Trust Fund I</quality>
               <quality>Trust Fund II</quality>
               <quality>Trust Fund III</quality>
               <quality>Trust Fund IV</quality>
-            </allof>
+            </oneof>
           </required>
         </quality>
 		<quality><!-- Obscure Aura -->
@@ -1137,19 +1126,89 @@
 		  <name>Obscure Aura</name>
 		  <karma>5</karma>
 		  <category>Positive</category>
-			<forbidden>
-				<oneof>
-					<quality>Adept</quality>
-					<quality>Aware</quality>
-					<quality>Aspected Magician</quality>
-					<quality>Enchanter</quality>
-					<quality>Explorer</quality>
-					<quality>Apprentice</quality>
-					<quality>Magician</quality>
-					<quality>Mystic Adept</quality>
-				</oneof>
-			</forbidden>
+		  <forbidden>
+			<oneof>
+			  <quality>Adept</quality>
+			  <quality>Aspected Magician</quality>
+			  <quality>Enchanter</quality>
+			  <quality>Explorer</quality>
+			  <quality>Apprentice</quality>
+			  <quality>Magician</quality>
+			  <quality>Mystic Adept</quality>
+			</oneof>
+		  </forbidden>
 		  <note>As a non-Awakened, your aura is more obscure than most. All attempts to assense you receive a dice pool penalty equal to your Willpower.</note>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality> Augmentation Acclimation 
+		  <id>3acb3b86-f3da-4b35-be9a-e431056b7453</id>
+		  <name>Augmentation Acclimation</name>
+		  <karma>10</karma>
+		  <doublecareer>False</doublecareer>
+		  <category>Positive</category>
+		  <forbidden>
+			<oneof>
+			  <quality>Adept</quality>
+			  <quality>Aspected Magician</quality>
+			  <quality>Enchanter</quality>
+			  <quality>Explorer</quality>
+			  <quality>Apprentice</quality>
+			  <quality>Magician</quality>
+			  <quality>Mystic Adept</quality>
+			  <resenabled />
+			</oneof>
+		  </forbidden>
+		  <required>
+			<oneof>
+			  <ess>-3.0001</ess>
+			</oneof>
+		  </required>
+		  <bonus>
+		    <addware>
+			  <name>Essence Antihole</name>
+			  <rating>100</rating>
+			  <grade>None</grade>
+			  <type>Cyberware</type>
+			</addware>
+		  </bonus>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality> Cyborg 
+		  <id>61191c68-9ff0-4533-b084-3688831639f1</id>
+		  <name>Cyborg</name>
+		  <karma>30</karma>
+		  <doublecareer>False</doublecareer>
+		  <category>Positive</category>
+		  <costdiscount>
+			<required>
+			  <oneof>
+			    <quality>Adept</quality>
+			    <quality>Aspected Magician</quality>
+			    <quality>Enchanter</quality>
+			    <quality>Explorer</quality>
+			    <quality>Apprentice</quality>
+			    <quality>Magician</quality>
+			    <quality>Mystic Adept</quality>
+			    <resenabled />
+			  </oneof>
+			</required>
+			<value>+15</value>
+		  </costdiscount>
+		  <required>
+			<oneof>
+			  <ess>-5.0001</ess>
+			</oneof>
+		  </required>
+		  <bonus>
+		    <addware>
+			  <name>Essence Antihole</name>
+			  <rating>100</rating>
+			  <grade>None</grade>
+			  <type>Cyberware</type>
+			</addware>
+		  </bonus>
 		  <source>ZDR</source>
 		  <page>1</page>
 		</quality>
