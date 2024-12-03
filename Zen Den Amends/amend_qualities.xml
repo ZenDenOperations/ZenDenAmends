@@ -47,7 +47,6 @@
 			<forbidden amendoperation="replace">
 				<oneof>
 					<quality>Adept</quality>
-					<quality>Aware</quality>
 					<quality>Aspected Magician</quality>
 					<quality>Enchanter</quality>
 					<quality>Explorer</quality>
@@ -205,7 +204,6 @@
 			<required>
 				<oneof>
 					<quality>Adept</quality>
-					<quality>Aware</quality>
 					<quality>Enchanter</quality>
 					<quality>Explorer</quality>
 					<quality>Apprentice</quality>
@@ -225,7 +223,6 @@
 			<required>
 				<oneof>
 					<quality>Adept</quality>
-					<quality>Aware</quality>
 					<quality>Enchanter</quality>
 					<quality>Explorer</quality>
 					<quality>Apprentice</quality>
@@ -312,6 +309,14 @@
 				<skilldisable>Binding</skilldisable>
 			</bonus>
 		</quality>
+		<quality>
+          <id>dea0e693-05c5-422d-bd1b-f1d1eac9cd30</id>
+          <name>Aware</name>
+          <karma>15</karma>
+          <category>Positive</category>
+          <contributetolimit amendoperation="replace">True</contributetolimit>
+          <onlyprioritygiven amendoperation="remove"></onlyprioritygiven>
+        </quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality>
