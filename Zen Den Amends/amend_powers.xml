@@ -18,40 +18,56 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-  <powers>
-    <power>
-      <id>fea9e769-5f2c-4bae-9610-56c0825e145a</id>
-      <bonus amendoperation="replace">
-        <initiativepass>Rating</initiativepass>
-        <specificattribute>
-          <name>REA</name>
-          <val>Rating</val>
-        </specificattribute>
-      </bonus>
-    </power>
-    <power>
-	  <name>Plague Cloud</name>
-      <hide />
-	</power>
-    <power> <!-- Duplicate Nerve Strike-->
-      <id>a66b175c-512b-4a31-ad61-27eb3bd05055</id>
-      <hide />
-    </power>
-    <power> <!-- Duplicate Nimble Fingers-->
-      <id>4c7771f6-e071-46a4-a42b-5bfa7194f0b8</id>
-      <hide />
-    </power>
-    <power> <!-- Duplicate Living Focus-->
-      <id>ee72398d-9daf-493f-b79b-5dab81e84013</id>
-      <hide />
-    </power>
-    <power> <!-- Duplicate Keratin Control-->
-      <id>830de0b7-8d83-467b-91e4-ce10081838b0</id>
-      <hide />
-    </power>    
-    <power>
- 	<name>Toxic Strike</name>
- 	<hide />
-    </power>
-  </powers>
+	<powers>
+		<power>
+			<id>fea9e769-5f2c-4bae-9610-56c0825e145a</id>
+			<bonus amendoperation="replace">
+				<initiativepass>Rating</initiativepass>
+				<specificattribute>
+					<name>REA</name>
+					<val>Rating</val>
+				</specificattribute>
+			</bonus>
+		</power>
+		<power>
+			<name>Plague Cloud</name>
+			<hide />
+		</power>
+		<power>
+			<!-- Duplicate Nerve Strike-->
+			<id>a66b175c-512b-4a31-ad61-27eb3bd05055</id>
+			<hide />
+		</power>
+		<power>
+			<!-- Duplicate Nimble Fingers-->
+			<id>4c7771f6-e071-46a4-a42b-5bfa7194f0b8</id>
+			<hide />
+		</power>
+		<power>
+			<!-- Duplicate Living Focus-->
+			<id>ee72398d-9daf-493f-b79b-5dab81e84013</id>
+			<hide />
+		</power>
+		<power>
+			<!-- Duplicate Keratin Control-->
+			<id>830de0b7-8d83-467b-91e4-ce10081838b0</id>
+			<hide />
+		</power>
+		<power>
+			<name>Toxic Strike</name>
+			<hide />
+		</power>
+		<power>
+			<name>Iron Gut</name>
+			<points>0.5</points>
+		</power>
+		<power>
+			<name>Pain Resistance</name>
+			<points>0.25</points>
+		</power>
+		<power>
+			<name>Missile Parry</name>
+			<points>1</points>
+		</power>
+	</powers>
 </chummer>
