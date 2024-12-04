@@ -257,5 +257,71 @@
       <source>RF</source>
       <page>136</page>
     </quality>
+    <quality>
+      <id>15232c46-b9cd-4d14-bd0e-dd6db06627d8</id>
+      <name>Infected Optional Power: Regeneration (Minor)</name>
+      <karma>3</karma>
+      <category>Positive</category>
+      <doublecareer>False</doublecareer>
+      <bonus>
+        <critterpowers>
+          <power>Regeneration</power>
+        </critterpowers>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <critterpower>Regeneration (Minor)</critterpower>
+        </oneof>
+      </forbidden>
+      <required>
+        <oneof>
+          <quality>Infected: Banshee</quality>
+          <quality>Infected: Dzoo-Noo-Qua</quality>
+          <quality>Infected: Goblin</quality>
+          <quality>Infected: Mutaqua</quality>
+          <quality>Infected: Nosferatu</quality>
+          <quality>Infected: Vampire (Human)</quality>
+          <quality>Infected: Vampire (Non-Human)</quality>
+          <quality>Infected: Sukuyan (Human)</quality>
+          <quality>Infected: Sukuyan (Non-Human)</quality>
+          <quality>Infected: Wendigo</quality>
+        </oneof>
+      </required>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>0609c984-d63c-49a0-b3f9-0c15b8d1e713</id>
+      <name>Infected Optional Power: Regeneration (Lesser)</name>
+      <karma>3</karma>
+      <category>Positive</category>
+      <doublecareer>False</doublecareer>
+      <bonus>
+        <critterpowers>
+          <power>Regeneration</power>
+        </critterpowers>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <critterpower>Regeneration (Lesser)</critterpower>
+        </oneof>
+      </forbidden>
+      <required>
+        <oneof>
+          <quality>Infected: Banshee</quality>
+          <quality>Infected: Dzoo-Noo-Qua</quality>
+          <quality>Infected: Goblin</quality>
+          <quality>Infected: Mutaqua</quality>
+          <quality>Infected: Nosferatu</quality>
+          <quality>Infected: Vampire (Human)</quality>
+          <quality>Infected: Vampire (Non-Human)</quality>
+          <quality>Infected: Sukuyan (Human)</quality>
+          <quality>Infected: Sukuyan (Non-Human)</quality>
+          <quality>Infected: Wendigo</quality>
+        </oneof>
+      </required>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
   </qualities>
 </chummer>
