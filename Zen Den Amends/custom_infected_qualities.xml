@@ -18,244 +18,309 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-  <qualities>
-    <quality><!-- Infected: Ghoul -->
-      <id>25b62a16-33e3-410d-a2e0-213c94a6e638</id>
-      <name>Infected: Ghoul</name>
-      <karma>29</karma>
-      <category>Positive</category>
-      <contributetolimit>False</contributetolimit>
-      <naturalweapons>
-        <naturalweapon>
-          <name>Infected Claws</name>
-          <reach>0</reach>
-          <damage>({STR}+2)P</damage>
-          <ap>-1</ap>
-          <useskill>Unarmed Combat</useskill>
-          <accuracy>Physical</accuracy>
-          <source>RF</source>
-          <page>137</page>
-        </naturalweapon>
-        <naturalweapon>
-          <name>Infected Bite</name>
-          <reach>-1</reach>
-          <damage>({STR}+1)P</damage>
-          <ap>-1</ap>
-          <useskill>Unarmed Combat</useskill>
-          <accuracy>Physical</accuracy>
-          <source>RF</source>
-          <page>137</page>
-        </naturalweapon>
-      </naturalweapons>
-      <bonus>
-        <armor>1</armor>
-        <critterpowers>
-          <power>Dual Natured</power>
-          <power select="Hearing">Enhanced Senses</power>
-          <power select="Smell">Enhanced Senses</power>
-          <power select="Sunlight, Moderate">Allergy</power>
-          <power select="Metahuman Flesh">Dietary Requirement</power>
-        </critterpowers>
-        <enableattribute>
-          <name>MAG</name>
-        </enableattribute>
-        <enabletab>
-          <name>critter</name>
-        </enabletab>
-		<specificattribute>
-		    <name>BOD</name>
-			<max>4</max>
-		</specificattribute>
-        <specificattribute>
-		    <name>REA</name>
-			<max>2</max>
-		</specificattribute>
-        <specificattribute>
-		    <name>STR</name>
-			<max>3</max>
-		</specificattribute>
-        <specificattribute>
-		    <name>WIL</name>
-			<max>2</max>
-		</specificattribute>
-        <specificattribute>
-		    <name>INT</name>
-			<max>1</max>
-		</specificattribute>
-        <specificattribute>
-		    <name>LOG</name>
-			<max>-1</max>
-			<val>-1</val>
-		</specificattribute>
-        <specificattribute>
-		    <name>CHA</name>
-			<max>-2</max>
-			<val>-1</val>
-		</specificattribute>
-        <essencepenalty>-1</essencepenalty>
-        <limitcritterpowercategory>Infected</limitcritterpowercategory>
-        <optionalpowers>
-          <optionalpower>Infected Improvement (Body)</optionalpower>
-          <optionalpower>Infected Improvement (Reaction)</optionalpower>
-          <optionalpower>Infected Improvement (Strength)</optionalpower>
-        </optionalpowers>
-        <optionalpowers>
-          <optionalpower>Infected Improvement (Body)</optionalpower>
-          <optionalpower>Infected Improvement (Reaction)</optionalpower>
-          <optionalpower>Infected Improvement (Strength)</optionalpower>
-        </optionalpowers>
-        <optionalpowers>
-          <optionalpower>Infected Improvement (Willpower)</optionalpower>
-          <optionalpower>Infected Improvement (Intuition)</optionalpower>
-        </optionalpowers>
-        <optionalpowers>
-          <optionalpower>Infected Improvement (Willpower)</optionalpower>
-          <optionalpower>Infected Improvement (Intuition)</optionalpower>
-        </optionalpowers>
-      </bonus>
-      <forbidden>
-        <oneof>
-          <quality>Magic Resistance</quality>
-          <resenabled />
-          <depenabled />
-          <quality>Latent Dracomorphosis</quality>
-        </oneof>
-      </forbidden>
-      <source>RF</source>
-      <page>138</page>
-    </quality>
-    <quality><!-- Infected Advanced Power: Bone Spikes -->
-      <id>1ccc988a-b0bc-43af-85e9-854192bf1370</id>
-      <name>Infected Advanced Power: Bone Spikes</name>
-      <karma>5</karma>
-      <category>Positive</category>
-      <doublecareer>False</doublecareer>
-      <bonus>
-        <critterpowers>
-          <power>Bone Spikes</power>
-        </critterpowers>
-      </bonus>
-      <required>
-        <oneof>
-          <quality>Infected: Dzoo-Noo-Qua</quality>
-        </oneof>
-      </required>
-      <source>RF</source>
-      <page>136</page>
-    </quality>
-    <quality><!-- Infected Advanced Power: Corrosive Spit (Infected) -->
-      <id>f4274a62-38bb-4a28-8462-3c24d4d2be70</id>
-      <name>Infected Advanced Power: Corrosive Spit (Infected)</name>
-      <karma>9</karma>
-      <category>Positive</category>
-      <doublecareer>False</doublecareer>
-      <bonus>
-        <critterpowers>
-          <power>Corrosive Spit (Infected)</power>
-        </critterpowers>
-      </bonus>
-      <required>
-        <oneof>
-          <quality>Infected: Ghoul</quality>
-        </oneof>
-      </required>
-      <source>RF</source>
-      <page>136</page>
-    </quality>
-    <quality><!-- Infected Advanced Power: Gnashing Teeth -->
-      <id>e0304806-6657-46ae-95db-1883d486dd2e</id>
-      <name>Infected Advanced Power: Gnashing Teeth</name>
-      <karma>6</karma>
-      <category>Positive</category>
-      <doublecareer>False</doublecareer>
-      <bonus>
-        <critterpowers>
-          <power>Gnashing Teeth</power>
-        </critterpowers>
-      </bonus>
-      <required>
-        <oneof>
-          <quality>Infected: Gnawer</quality>
-        </oneof>
-      </required>
-      <source>RF</source>
-      <page>136</page>
-    </quality>
-    <quality><!-- Infected Advanced Power: Rat King -->
-      <id>b1c43d79-6fcf-4757-be3b-b1f60928fc0a</id>
-      <name>Infected Advanced Power: Rat King</name>
-      <karma>12</karma>
-      <category>Positive</category>
-      <doublecareer>False</doublecareer>
-      <bonus>
-        <critterpowers>
-          <power>Rat King</power>
-        </critterpowers>
-      </bonus>
-      <required>
-        <oneof>
-          <quality>Infected: Gnawer</quality>
-        </oneof>
-      </required>
-      <source>RF</source>
-      <page>136</page>
-    </quality>
-    <quality><!-- Infected Advanced Power: Secretion/Substance Extrusion (Anti-Coagulant) -->
-      <id>9f5c88da-18be-416f-b719-c2b3fe66c74d</id>
-      <name>Infected Advanced Power: Secretion/Substance Extrusion (Anti-Coagulant)</name>
-      <karma>9</karma>
-      <category>Positive</category>
-      <doublecareer>False</doublecareer>
-      <bonus>
-        <critterpowers>
-          <power>Secretion/Substance Extrusion (Anti-Coagulant)</power>
-        </critterpowers>
-      </bonus>
-      <required>
-        <oneof>
-          <quality>Infected: Vampire</quality>
-        </oneof>
-      </required>
-      <source>RF</source>
-      <page>136</page>
-    </quality>
-    <quality><!-- Infected Advanced Power: Sonic Shriek -->
-      <id>f08cdcf5-09e8-42ba-aed8-00c91793f79d</id>
-      <name>Infected Advanced Power: Sonic Shriek</name>
-      <karma>9</karma>
-      <category>Positive</category>
-      <doublecareer>False</doublecareer>
-      <bonus>
-        <critterpowers>
-          <power>Sonic Shriek</power>
-        </critterpowers>
-      </bonus>
-      <required>
-        <oneof>
-          <quality>Infected: Banshee</quality>
-        </oneof>
-      </required>
-      <source>RF</source>
-      <page>136</page>
-    </quality>
-    <quality><!-- Infected Advanced Power: Tunneling Claws -->
-      <id>d0df057d-f12c-48d7-97fe-dc4c3e546076</id>
-      <name>Infected Advanced Power: Tunneling Claws</name>
-      <karma>9</karma>
-      <category>Positive</category>
-      <doublecareer>False</doublecareer>
-      <bonus>
-        <critterpowers>
-          <power>Tunneling Claws</power>
-        </critterpowers>
-      </bonus>
-      <required>
-        <oneof>
-          <quality>Infected: Ghoul</quality>
-        </oneof>
-      </required>
-      <source>RF</source>
-      <page>136</page>
-    </quality>
-  </qualities>
+	<qualities>
+		<quality>
+			<!-- Infected: Ghoul -->
+			<id>25b62a16-33e3-410d-a2e0-213c94a6e638</id>
+			<name>Infected: Ghoul</name>
+			<karma>29</karma>
+			<category>Positive</category>
+			<contributetolimit>False</contributetolimit>
+			<naturalweapons>
+				<naturalweapon>
+					<name>Infected Claws</name>
+					<reach>0</reach>
+					<damage>({STR}+2)P</damage>
+					<ap>-1</ap>
+					<useskill>Unarmed Combat</useskill>
+					<accuracy>Physical</accuracy>
+					<source>RF</source>
+					<page>137</page>
+				</naturalweapon>
+				<naturalweapon>
+					<name>Infected Bite</name>
+					<reach>-1</reach>
+					<damage>({STR}+1)P</damage>
+					<ap>-1</ap>
+					<useskill>Unarmed Combat</useskill>
+					<accuracy>Physical</accuracy>
+					<source>RF</source>
+					<page>137</page>
+				</naturalweapon>
+			</naturalweapons>
+			<bonus>
+				<armor>1</armor>
+				<critterpowers>
+					<power>Dual Natured</power>
+					<power select="Hearing">Enhanced Senses</power>
+					<power select="Smell">Enhanced Senses</power>
+					<power select="Sunlight, Moderate">Allergy</power>
+					<power select="Metahuman Flesh">Dietary Requirement</power>
+				</critterpowers>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+				<specificattribute>
+					<name>BOD</name>
+					<max>4</max>
+				</specificattribute>
+				<specificattribute>
+					<name>REA</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>STR</name>
+					<max>3</max>
+				</specificattribute>
+				<specificattribute>
+					<name>WIL</name>
+					<max>2</max>
+				</specificattribute>
+				<specificattribute>
+					<name>INT</name>
+					<max>1</max>
+				</specificattribute>
+				<specificattribute>
+					<name>LOG</name>
+					<max>-1</max>
+					<val>-1</val>
+				</specificattribute>
+				<specificattribute>
+					<name>CHA</name>
+					<max>-2</max>
+					<val>-1</val>
+				</specificattribute>
+				<essencepenalty>-1</essencepenalty>
+				<limitcritterpowercategory>Infected</limitcritterpowercategory>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Body)</optionalpower>
+					<optionalpower>Infected Improvement (Reaction)</optionalpower>
+					<optionalpower>Infected Improvement (Strength)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+				<optionalpowers>
+					<optionalpower>Infected Improvement (Willpower)</optionalpower>
+					<optionalpower>Infected Improvement (Intuition)</optionalpower>
+				</optionalpowers>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Magic Resistance</quality>
+					<resenabled />
+					<depenabled />
+					<quality>Latent Dracomorphosis</quality>
+				</oneof>
+			</forbidden>
+			<source>RF</source>
+			<page>138</page>
+		</quality>
+		<quality>
+			<!-- Infected Advanced Power: Bone Spikes -->
+			<id>1ccc988a-b0bc-43af-85e9-854192bf1370</id>
+			<name>Infected Advanced Power: Bone Spikes</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Bone Spikes</power>
+				</critterpowers>
+			</bonus>
+			<required>
+				<oneof>
+					<quality>Infected: Dzoo-Noo-Qua</quality>
+				</oneof>
+			</required>
+			<source>RF</source>
+			<page>136</page>
+		</quality>
+		<quality>
+			<!-- Infected Advanced Power: Corrosive Spit (Infected) -->
+			<id>f4274a62-38bb-4a28-8462-3c24d4d2be70</id>
+			<name>Infected Advanced Power: Corrosive Spit (Infected)</name>
+			<karma>9</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Corrosive Spit (Infected)</power>
+				</critterpowers>
+			</bonus>
+			<required>
+				<oneof>
+					<quality>Infected: Ghoul</quality>
+				</oneof>
+			</required>
+			<source>RF</source>
+			<page>136</page>
+		</quality>
+		<quality>
+			<!-- Infected Advanced Power: Gnashing Teeth -->
+			<id>e0304806-6657-46ae-95db-1883d486dd2e</id>
+			<name>Infected Advanced Power: Gnashing Teeth</name>
+			<karma>6</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Gnashing Teeth</power>
+				</critterpowers>
+			</bonus>
+			<required>
+				<oneof>
+					<quality>Infected: Gnawer</quality>
+				</oneof>
+			</required>
+			<source>RF</source>
+			<page>136</page>
+		</quality>
+		<quality>
+			<!-- Infected Advanced Power: Rat King -->
+			<id>b1c43d79-6fcf-4757-be3b-b1f60928fc0a</id>
+			<name>Infected Advanced Power: Rat King</name>
+			<karma>12</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Rat King</power>
+				</critterpowers>
+			</bonus>
+			<required>
+				<oneof>
+					<quality>Infected: Gnawer</quality>
+				</oneof>
+			</required>
+			<source>RF</source>
+			<page>136</page>
+		</quality>
+		<quality>
+			<!-- Infected Advanced Power: Secretion/Substance Extrusion (Anti-Coagulant) -->
+			<id>9f5c88da-18be-416f-b719-c2b3fe66c74d</id>
+			<name>Infected Advanced Power: Secretion/Substance Extrusion (Anti-Coagulant)</name>
+			<karma>9</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Secretion/Substance Extrusion (Anti-Coagulant)</power>
+				</critterpowers>
+			</bonus>
+			<required>
+				<oneof>
+					<quality>Infected: Vampire</quality>
+				</oneof>
+			</required>
+			<source>RF</source>
+			<page>136</page>
+		</quality>
+		<quality>
+			<!-- Infected Advanced Power: Sonic Shriek -->
+			<id>f08cdcf5-09e8-42ba-aed8-00c91793f79d</id>
+			<name>Infected Advanced Power: Sonic Shriek</name>
+			<karma>9</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Sonic Shriek</power>
+				</critterpowers>
+			</bonus>
+			<required>
+				<oneof>
+					<quality>Infected: Banshee</quality>
+				</oneof>
+			</required>
+			<source>RF</source>
+			<page>136</page>
+		</quality>
+		<quality>
+			<!-- Infected Advanced Power: Tunneling Claws -->
+			<id>d0df057d-f12c-48d7-97fe-dc4c3e546076</id>
+			<name>Infected Advanced Power: Tunneling Claws</name>
+			<karma>9</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Tunneling Claws</power>
+				</critterpowers>
+			</bonus>
+			<required>
+				<oneof>
+					<quality>Infected: Ghoul</quality>
+				</oneof>
+			</required>
+			<source>RF</source>
+			<page>136</page>
+		</quality>
+		<quality>
+			<id>8890e4ca-b88a-4ccd-9ee3-3e5a9597377f</id>
+			<name>Infected Optional Power: Minor Regeneration</name>
+			<karma>3</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Minor Regeneration</power>
+				</critterpowers>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<critterpower>Minor Regeneration</critterpower>
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<quality>Infected: Banshee</quality>
+					<quality>Infected: Dzoo-Noo-Qua</quality>
+					<quality>Infected: Goblin</quality>
+					<quality>Infected: Mutaqua</quality>
+					<quality>Infected: Nosferatu</quality>
+					<quality>Infected: Vampire (Human)</quality>
+					<quality>Infected: Vampire (Non-Human)</quality>
+					<quality>Infected: Sukuyan (Human)</quality>
+					<quality>Infected: Sukuyan (Non-Human)</quality>
+					<quality>Infected: Wendigo</quality>
+				</oneof>
+			</required>
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>775a4180-4a3b-48a4-af49-3c1309c6f4f4</id>
+			<name>Infected Optional Power: Lesser Regeneration</name>
+			<karma>6</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Lesser Regeneration</power>
+				</critterpowers>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<critterpower>Lesser Regeneration</critterpower>
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<quality>Infected Optional Power: Minor Regeneration</quality>
+				</oneof>
+			</required>
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+	</qualities>
 </chummer>
