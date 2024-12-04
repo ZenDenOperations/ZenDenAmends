@@ -2377,7 +2377,11 @@
 		<quality>
 			<!-- Infected Optional Power: Regeneration -->
 			<name>Infected Optional Power: Regeneration</name>
-			<hide />
+			<required amendoperation="addnode">
+				<allof>
+					<quality>Infected Optional Power: Lesser Regeneration</quality>
+				</allof>
+			</required>
 		</quality>
 		<quality>
 			<!-- Infected Optional Power: Mist Form -->
@@ -2787,14 +2791,6 @@
 					<quality>Infected: Wendigo</quality>
 				</oneof>
 			</forbidden>
-		</quality>
-		<quality>
-			<name>Infected Optional Power: Regeneration</name>
-			<required amendoperation="replace">
-				<oneof>
-					<quality>Infected Optional Power: Lesser Regeneration</quality>
-				</oneof>
-			</required>
 		</quality>
 	</qualities>
 </chummer>
