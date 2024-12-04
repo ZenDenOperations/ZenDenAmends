@@ -2377,7 +2377,7 @@
 		<quality>
 			<!-- Infected Optional Power: Regeneration -->
 			<name>Infected Optional Power: Regeneration</name>
-			<required amendoperation="addnode">
+			<required amendoperation="Replace">
 				<allof>
 					<quality>Infected Optional Power: Lesser Regeneration</quality>
 				</allof>
