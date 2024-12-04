@@ -123,5 +123,81 @@
         </naturalweapon>
       </bonus>
     </power>
+    <power>
+      <id>174c27e7-157a-4b50-ab43-652c1145dbdd</id>
+      <name>Regeneration (Minor)</name>
+      <category>Paranormal</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <bonus>
+        <disablebiowaregrade>Standard</disablebiowaregrade>
+        <disablebiowaregrade>Standard (Burnout's Way)</disablebiowaregrade>
+        <disablebiowaregrade>Used</disablebiowaregrade>
+        <disablebiowaregrade>Alphaware</disablebiowaregrade>
+        <disablebiowaregrade>Betaware</disablebiowaregrade>
+        <disablebiowaregrade>Omegaware</disablebiowaregrade>
+        <disablebiowaregrade>Standard (Adapsin)</disablebiowaregrade>
+        <disablebiowaregrade>Standard (Burnout's Way) (Adapsin)</disablebiowaregrade>
+        <disablebiowaregrade>Used (Adapsin)</disablebiowaregrade>
+        <disablebiowaregrade>Alphaware (Adapsin)</disablebiowaregrade>
+        <disablebiowaregrade>Betaware (Adapsin)</disablebiowaregrade>
+        <disablebiowaregrade>Omegaware (Adapsin)</disablebiowaregrade>
+        <disablecyberwaregrade>Standard</disablecyberwaregrade>
+        <disablecyberwaregrade>Standard (Burnout's Way)</disablecyberwaregrade>
+        <disablecyberwaregrade>Used</disablecyberwaregrade>
+        <disablecyberwaregrade>Alphaware</disablecyberwaregrade>
+        <disablecyberwaregrade>Betaware</disablecyberwaregrade>
+        <disablecyberwaregrade>Omegaware</disablecyberwaregrade>
+        <disablecyberwaregrade>Standard (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Used (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Alphaware (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Betaware (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
+      </bonus>
+      <source>ZDR</source>
+      <page>1</page>
+      <notes>Make a (BOD + WIL) roll every hour, adding (BOD) autohits. Hits on the roll heal 1 box of physical or stun damage. Cannot heal ongoing damage, magical damage, or damage from Called Shot: Vitals.</notes>
+    </power>
+    <power>
+      <id>30d5d7e9-6599-4076-94dd-6737e5e78397</id>
+      <name>Regeneration (Lesser)</name>
+      <category>Paranormal</category>
+      <type>P</type>
+      <action>Auto</action>
+      <range>Self</range>
+      <duration>Always</duration>
+      <bonus>
+        <disablebiowaregrade>Standard</disablebiowaregrade>
+        <disablebiowaregrade>Standard (Burnout's Way)</disablebiowaregrade>
+        <disablebiowaregrade>Used</disablebiowaregrade>
+        <disablebiowaregrade>Alphaware</disablebiowaregrade>
+        <disablebiowaregrade>Betaware</disablebiowaregrade>
+        <disablebiowaregrade>Omegaware</disablebiowaregrade>
+        <disablebiowaregrade>Standard (Adapsin)</disablebiowaregrade>
+        <disablebiowaregrade>Standard (Burnout's Way) (Adapsin)</disablebiowaregrade>
+        <disablebiowaregrade>Used (Adapsin)</disablebiowaregrade>
+        <disablebiowaregrade>Alphaware (Adapsin)</disablebiowaregrade>
+        <disablebiowaregrade>Betaware (Adapsin)</disablebiowaregrade>
+        <disablebiowaregrade>Omegaware (Adapsin)</disablebiowaregrade>
+        <disablecyberwaregrade>Standard</disablecyberwaregrade>
+        <disablecyberwaregrade>Standard (Burnout's Way)</disablecyberwaregrade>
+        <disablecyberwaregrade>Used</disablecyberwaregrade>
+        <disablecyberwaregrade>Alphaware</disablecyberwaregrade>
+        <disablecyberwaregrade>Betaware</disablecyberwaregrade>
+        <disablecyberwaregrade>Omegaware</disablecyberwaregrade>
+        <disablecyberwaregrade>Standard (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Used (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Alphaware (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Betaware (Adapsin)</disablecyberwaregrade>
+        <disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
+      </bonus>
+      <source>ZDR</source>
+      <page>1</page>
+      <notes>Heals 1 box of physical or stun damage at the end of every combat turn. Cannot heal ongoing damage, magical damage, or damage from Called Shot: Vitals.</notes>
+    </power>
   </powers>
 </chummer>
