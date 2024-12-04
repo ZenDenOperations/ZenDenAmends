@@ -2346,7 +2346,11 @@
 		<quality>
 			<!-- Infected Optional Power: Regeneration -->
 			<name>Infected Optional Power: Regeneration</name>
-			<hide />
+			<required amendoperation="addnode">
+				<allof>
+					<quality>Infected Optional Power: Regeneration (Lesser)</quality>
+				</allof>
+			</required>
 		</quality>
 		<quality>
 			<!-- Infected Optional Power: Mist Form -->
