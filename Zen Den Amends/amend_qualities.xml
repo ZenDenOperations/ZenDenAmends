@@ -2791,8 +2791,8 @@
 		<quality>
 			<name>Infected Optional Power: Regeneration</name>
 			<required amendoperation="replace">
-				<allof>
-					<quality>Minor Regeneration</quality>
-				</allof>
+				<oneof>
+					<quality>Infected Optional Power: Lesser Regeneration</quality>
+				</oneof>
 			</required>
 		</chummer>
