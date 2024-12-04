@@ -2790,10 +2790,10 @@
 		</quality>
 		<quality>
 			<name>Infected Optional Power: Regeneration</name>
-			<required amendoperation="replace">
-				<oneof>
+			<required amendoperation="addnode">
+				<allof>
 					<quality>Infected Optional Power: Lesser Regeneration</quality>
-				</oneof>
+				</allof>
 			</required>
 		</quality>
 	</qualities>

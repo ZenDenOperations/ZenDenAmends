@@ -310,14 +310,12 @@
 				</critterpowers>
 			</bonus>
 			<forbidden>
-				<oneof>
-					<critterpower>Lesser Regeneration</critterpower>
-				</oneof>
+				<critterpower>Lesser Regeneration</critterpower>
 			</forbidden>
 			<required>
-				<oneof>
+				<allof>
 					<quality>Infected Optional Power: Minor Regeneration</quality>
-				</oneof>
+				</allof>
 			</required>
 			<source>ZDR</source>
 			<page>0</page>
