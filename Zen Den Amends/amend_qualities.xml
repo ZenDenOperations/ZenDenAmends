@@ -2795,4 +2795,6 @@
 					<quality>Infected Optional Power: Lesser Regeneration</quality>
 				</oneof>
 			</required>
-		</chummer>
+		</quality>
+	</qualities>
+</chummer>
