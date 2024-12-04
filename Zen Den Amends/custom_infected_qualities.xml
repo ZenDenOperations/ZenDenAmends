@@ -288,10 +288,8 @@
 					<quality>Infected: Goblin</quality>
 					<quality>Infected: Mutaqua</quality>
 					<quality>Infected: Nosferatu</quality>
-					<quality>Infected: Vampire (Human)</quality>
-					<quality>Infected: Vampire (Non-Human)</quality>
-					<quality>Infected: Sukuyan (Human)</quality>
-					<quality>Infected: Sukuyan (Non-Human)</quality>
+					<quality>Infected: Vampire</quality>
+					<quality>Infected: Sukuyan</quality>
 					<quality>Infected: Wendigo</quality>
 				</oneof>
 			</required>
