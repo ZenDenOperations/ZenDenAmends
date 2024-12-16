@@ -1043,11 +1043,11 @@
 			<bonus />
 			<required>
 				<allof>
-				 <skill>
-				  <name>Pistol</name>
-				  <val>6</val>
-				  <spec>Revolvers</spec>
-				 </skill>
+					<skill>
+				 	 <name>Pistol</name>
+					 <val>6</val>
+					 <spec>Revolvers</spec>
+					</skill>
 				</allof>
 			</required>
 			<source>ZDR</source>
@@ -1062,8 +1062,10 @@
 			<bonus />
 			<required>
 				<allof>
-					<skill>Pistols</skill>
-					<val>6</val>
+					<skill>
+				 	 <name>Pistol</name>
+					 <val>6</val>
+					</skill>
 				</allof>
 			</required>
 			<source>ZDR</source>
