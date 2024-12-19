@@ -257,5 +257,30 @@
       <source>ZDR</source>
       <page>1</page>
     </bioware>
+    <bioware>
+      <id>19c61a40-73e0-47c6-bea2-edf15d450e9b</id>
+      <name>Animal Olfaction</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>9</avail>
+      <cost>20000</cost>
+	  <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>1</bonus>
+        </skillcategory>
+        <specificskill>
+          <name>Perception</name>
+          <bonus>2</bonus>
+          <condition>Scent</condition>
+        </specificskill>
+      </bonus>
+      <notes>Social bonus only applies when you can smell the target.</notes>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
   </biowares>
 </chummer>
