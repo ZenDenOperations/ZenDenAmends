@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<chummer>
+  <biowares>
+    <bioware>
+      <id>20A870A1-7AFE-477E-9DAC-8DBBD04114B4</id>
+      <name>Arcane Inhibitor</name>
+      <category>Transgenics</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>15F</avail>
+      <cost>15000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <spellresistance>2</spellresistance>
+        <skilllinkedattribute>
+          <name>MAG</name>
+          <bonus>-1</bonus>
+        </skilllinkedattribute>
+      </bonus>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+    <bioware>
+      <id>34E78AC3-04FD-4DE0-81B4-BB5C28E7BD90</id>
+      <name>Fear Response Dampener</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>15R</avail>
+      <cost>25000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <notes>Immunity to the Fear and Terrorscape powers. +2 to resist mundane fear or intimidation. At the gamemaster’s discretion, the character must make a Logic + Willpower (2) Test to avoid risky behavior when the opportunity arises.</notes>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+    <bioware>
+      <id>02cc535e-3739-4481-90b7-2ce0d2407845</id>
+      <name>Expanded Visual Range (Thermographic)</name>
+      <category>Transgenics</category>
+      <ess>0.05</ess>
+      <capacity>0</capacity>
+      <avail>9</avail>
+      <cost>15000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <addqualities>
+          <addquality>Thermographic Vision</addquality>
+        </addqualities>
+      </bonus>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+    <bioware>
+      <id>02cc535e-3739-4481-90b7-2ce0d2407845</id>
+      <name>Expanded Visual Range (Low Light)</name>
+      <category>Transgenics</category>
+      <ess>0.05</ess>
+      <capacity>0</capacity>
+      <avail>9</avail>
+      <cost>15000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <addqualities>
+          <addquality>Low-Light Vision</addquality>
+        </addqualities>
+      </bonus>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+    <bioware>
+      <id>278E391C-02E1-4BA1-85C6-6221971246EB</id>
+      <name>Alpha Factor</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>18</avail>
+      <cost>45000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>CHA</name>
+          <val>1</val>
+        </specificattribute>
+        <skilllinkedattribute>
+          <name>MAG</name>
+          <bonus>-1</bonus>
+        </skilllinkedattribute>
+      </bonus>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+    <bioware>
+      <id>76D1365C-932F-4055-960E-B66E2EEE3908</id>
+      <name>Cerebellum Booster Enhancer</name>
+      <category>Complimentary Genetics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>15R</avail>
+      <cost>55000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>INT</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <required>
+        <oneof>
+          <bioware>Cerebellum Booster</bioware>
+        </oneof>
+      </required>
+      <forcegrade>None</forcegrade>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+    <bioware>
+      <id>922B10C8-5FA3-4228-B6F6-D47C22D4A34C</id>
+      <name>Cerebral Booster Enhancer</name>
+      <category>Complimentary Genetics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>15R</avail>
+      <cost>40000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>LOG</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <required>
+        <oneof>
+          <bioware>Cerebral Booster</bioware>
+        </oneof>
+      </required>
+      <forcegrade>None</forcegrade>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+    <bioware>
+      <id>6d7173e3-25d6-4595-8ea9-762109cbf08b</id>
+      <name>Optimized Trauma Response</name>
+      <category>Transgenics</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>9</avail>
+      <cost>30000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <physicalcmrecovery>3</physicalcmrecovery>
+        <stuncmrecovery>3</stuncmrecovery>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+    <bioware>
+      <id>4c78051c-1bc5-4f77-8484-5f277735e8c8</id>
+      <name>Aggression Pack</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.6</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>85000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>BOD</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>REA</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>STR</name>
+          <val>1</val>
+        </specificattribute>
+        <specificskill>
+          <name>Intimidation</name>
+          <bonus>2</bonus>
+        </specificskill>
+        <selectquality>
+          <quality>Poor Self Control (Combat Monster)</quality>
+          <quality>Uncouth</quality>
+          <quality>Insomnia (Basic)</quality>
+        </selectquality>
+      </bonus>
+      <notes>Manually add the relevant metagenetic negative quality by taking one of the SURGE qualities for free, adding the negative quality, and then removing the SURGE quality.</notes>
+      <forcegrade>None</forcegrade>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+    <bioware>
+      <id>9be130ec-30f5-4854-8923-1bf657ac6230</id>
+      <name>Catlike Reflexes</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>12</avail>
+      <cost>40000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>AGI</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>REA</name>
+          <val>1</val>
+        </specificattribute>
+        <specificskill>
+          <name>Gymnastics</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <bioware>Synaptic Booster</bioware>
+          <cyberware>Wired Reflexes</cyberware>
+          <cyberware>Reaction Enhancers</cyberware>
+          <cyberware>Move-by-Wire System</cyberware>
+        </oneof>
+      </forbidden>
+      <notes>Manually add the relevant metagenetic negative quality by taking one of the SURGE qualities for free, adding the negative quality, and then removing the SURGE quality.</notes>
+      <forcegrade>None</forcegrade>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+    <bioware>
+      <id>4A55F36A-1B53-4356-9834-46DF78C87015</id>
+      <name>Neuromuscular Density Enhancement</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>18</avail>
+      <cost>75000</cost>
+	  <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <skilllinkedattribute>
+          <name>AGI</name>
+          <bonus>1</bonus>
+        </skilllinkedattribute>
+      </bonus>
+      <source>ZDR</source>
+      <page>1</page>
+    </bioware>
+  </biowares>
+</chummer>
