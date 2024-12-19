@@ -99,6 +99,38 @@
 			</bonus>
 			<cost>Rating * 1000</cost>
 		</gear>
+		<!-- Sustaining Foci Changes -->
+		<!-- Combat Sustaining Foci changed to Generic -->
+		<gear>
+      			<id>39f2f34b-14e2-47f3-8e24-a401015a645a</id>
+      			<name>Sustaining Focus</name>
+      			<cost>Rating * 9000</cost>
+    		</gear>
+		<gear>
+      			<id>1215E656-51F6-4963-86A2-47A68A3C129F</id>
+      			<name>Sustaining Focus, Individualized, Partial</name>
+      			<cost>Rating * 9000</cost>
+    		</gear>
+		<gear>
+      			<id>068631C4-1834-4812-8121-DA4A07EF5D6D</id>
+      			<name>Sustaining Focus, Individualized, Complete</name>
+      			<cost>Rating * 9000</cost>
+    		</gear>
+		<gear xpathfilter="contains(name,'Sustaining Focus, Detection')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Sustaining Focus, Health')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Sustaining Focus, Illusion')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Sustaining Focus, Manipulation')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Sustaining Focus Formula')">
+			<hide />
+		</gear>
 		<!--Reagent Stuff-->
 		<gear xpathfilter="contains(name,'Reagents')">
 			<hide />
