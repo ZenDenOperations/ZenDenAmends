@@ -1291,5 +1291,65 @@
 		  <source>ZDR</source>
 		  <page>1</page>
 		</quality>
+		<quality>
+		  <id>60ef0147-cc20-4547-ae48-2920d994c9e1</id>
+		  <name>Redliner (2-3 limbs)</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <bonus>
+			<cyberseeker>AGI</cyberseeker>
+			<cyberseeker>STR</cyberseeker>
+            <conditionmonitor>
+              <physical>-1</physical>
+			</conditionmonitor>
+ 		  </bonus>
+          <source>CF</source>
+          <page>55</page>
+        </quality>
+		<quality>
+		  <id>db0c965f-e4ba-485e-a1f5-1db8ff10fda6</id>
+		  <name>Redliner (4-5 limbs)</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <bonus>
+			<cyberseeker>AGI</cyberseeker>
+			<cyberseeker>STR</cyberseeker>
+            <conditionmonitor>
+              <physical>-2</physical>
+			</conditionmonitor>
+ 		  </bonus>
+          <source>CF</source>
+          <page>55</page>
+        </quality>
+		<quality>
+		  <id>3e8168e5-d880-411d-8c5d-9023ba460ad4</id>
+		  <name>Redliner (6-7 limbs)</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <bonus>
+			<cyberseeker>AGI</cyberseeker>
+			<cyberseeker>STR</cyberseeker>
+            <conditionmonitor>
+              <physical>-3</physical>
+			</conditionmonitor>
+ 		  </bonus>
+          <source>CF</source>
+          <page>55</page>
+        </quality>
+		<quality>
+		  <id>bc522abd-c97b-4812-9245-922e2f5ed6cf</id>
+		  <name>Redliner (8 limbs)</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <bonus>
+			<cyberseeker>AGI</cyberseeker>
+			<cyberseeker>STR</cyberseeker>
+            <conditionmonitor>
+              <physical>-4</physical>
+			</conditionmonitor>
+ 		  </bonus>
+          <source>CF</source>
+          <page>55</page>
+        </quality>
 	</qualities>
 </chummer>
