@@ -163,6 +163,7 @@
       <source>ZDR</source>
       <page>1</page>
     </bioware>
+<!-- 6e Transgenic Infusions -->
     <bioware>
       <id>4c78051c-1bc5-4f77-8484-5f277735e8c8</id>
       <name>Aggression Pack</name>
@@ -281,6 +282,328 @@
       <notes>Social bonus only applies when you can smell the target.</notes>
       <source>ZDR</source>
       <page>1</page>
+    </bioware>
+<!-- Geneware Bioware Versions -->
+    <bioware>
+      <id>f5fe91f0-887b-4202-80d6-5f8234407b73</id>
+      <name>Dietware (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>4</avail>
+      <cost>700</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>701713ef-f505-408d-8920-2318ccfe6068</id>
+      <name>Gills (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>5600</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <fatigueresist>-2</fatigueresist>
+      </bonus>
+      <source>CF</source>
+      <page>113</page>
+    </bioware>
+    <bioware>
+      <id>3d0ddae5-271d-4724-ab33-27b1f20d61e6</id>
+      <name>Hand and Foot Webbing (Hands) (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.075</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>700</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <selectside />
+      <limit>{arm}</limit>
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>1</value>
+          <condition>LimitCondition_SkillsActiveSwimming</condition>
+        </limitmodifier>
+      </bonus>
+      <pairbonus>
+        <walkmultiplier>
+          <val>1</val>
+          <category>Swim</category>
+        </walkmultiplier>
+      </pairbonus>
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>3d0ddae5-271d-4724-ab33-27b1f20d61e6</id>
+      <name>Hand and Foot Webbing (Feet) (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.075</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>700</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <selectside />
+      <limit>{leg}</limit>
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>1</value>
+          <condition>LimitCondition_SkillsActiveSwimming</condition>
+        </limitmodifier>
+      </bonus>
+      <pairbonus>
+        <walkmultiplier>
+          <val>1</val>
+          <category>Swim</category>
+        </walkmultiplier>
+      </pairbonus>
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>24ecd3e2-6839-48b7-8006-a3d18b06fc7e</id>
+      <name>Nictitating Membranes (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.075</ess>
+      <capacity>0</capacity>
+      <avail>6</avail>
+      <cost>700</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>99e054c8-d33a-4086-a38d-ee5b1ec084bc</id>
+      <name>Tail (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>4</avail>
+      <cost>1400</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>93e0b3bf-1b65-4044-a856-6b762085b1a1</id>
+      <name>Tail, Prehensile (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0.75</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>5600</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>8f12d662-9fc6-475f-8435-a11829c14956</id>
+      <name>Tailored Critter Pheromones (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>Rating * 4</avail>
+      <cost>Rating * 1400</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <selecttext />
+      </bonus>
+      <rating>3</rating>
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>06e20b6b-e1ec-4c9e-8da7-f21133b75a95</id>
+      <name>Chemical Gland (Exhalation Sprayer) (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>12R or Gear</avail>
+      <cost>18200 + (74 * Gear Cost)</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <allowgear>
+        <gearcategory>Chemicals</gearcategory>
+        <gearcategory>Custom Drug</gearcategory>
+        <gearcategory>Drugs</gearcategory>
+        <gearcategory>Toxins</gearcategory>
+        <gearcategory>Custom</gearcategory>
+      </allowgear>
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>3b1b8d76-a3af-429b-a2ac-c5c0d4643483</id>
+      <name>Chemical Gland (Spitter) (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>12R or Gear</avail>
+      <cost>18200 + (74 * Gear Cost)</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <allowgear>
+        <gearcategory>Chemicals</gearcategory>
+        <gearcategory>Custom Drug</gearcategory>
+        <gearcategory>Drugs</gearcategory>
+        <gearcategory>Toxins</gearcategory>
+        <gearcategory>Custom</gearcategory>
+      </allowgear>
+      <forbidden>
+        <oneof>
+          <bioware>Chemical Gland (Spitter)</bioware>
+          <bioware>Chemical Gland (Spitter) (Transgenic)</bioware>
+        </oneof>
+      </forbidden>
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>e0b740c2-97e2-4df4-a13e-e356627f0e08</id>
+      <name>Chemical Gland (Weapon Reservoir) (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>12F or Gear</avail>
+      <cost>16800 + (74 * Gear Cost)</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <allowgear>
+        <gearcategory>Chemicals</gearcategory>
+        <gearcategory>Custom Drug</gearcategory>
+        <gearcategory>Drugs</gearcategory>
+        <gearcategory>Toxins</gearcategory>
+        <gearcategory>Custom</gearcategory>
+      </allowgear>
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>723e67d8-85a1-4468-9869-bbecbcb18c22</id>
+      <name>Stinger, Tiny (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0.075</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>70</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>766c4d7a-c8b9-41cc-b7cd-2060f7019e94</id>
+      <name>Stinger, Medium (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0.15</ess>
+      <capacity>0</capacity>
+      <avail>8R</avail>
+      <cost>1400</cost>
+      <addweapon>Medium Stinger</addweapon>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>02f1e315-5510-4041-be37-fe73508f94e7</id>
+      <name>Stinger, Large (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>12F</avail>
+      <cost>5600</cost>
+      <addweapon>Large Stinger</addweapon>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>36e5c1be-88ee-4c0f-9a47-4bd59d8ada7c</id>
+      <name>Tusk(s), Small (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>2</avail>
+      <cost>Rating*70</cost>
+      <notes>Rating is used to indicate number of tusks.</notes>
+      <rating>2</rating>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>2e6660a3-1c1b-418f-9b58-7016e0b3dea1</id>
+      <name>Tusk(s), Medium (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0.15*Rating</ess>
+      <capacity>0</capacity>
+      <avail>2</avail>
+      <cost>Rating*350</cost>
+      <addweapon>Medium Tusk(s)</addweapon>
+      <notes>Rating is used to indicate number of tusks.</notes>
+      <rating>2</rating>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>a1c13d13-965d-43a9-ae44-b06cbe0fd402</id>
+      <name>Tusk(s), Large (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0.3*Rating</ess>
+      <capacity>0</capacity>
+      <avail>8R</avail>
+      <cost>Rating*700</cost>
+      <addweapon>Large Tusk(s)</addweapon>
+      <notes>Rating is used to indicate number of tusks.</notes>
+      <rating>2</rating>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>04956838-6f24-49a0-86e9-b1c41e88abfa</id>
+      <name>Horns (Transgenic)</name>
+      <limit>False</limit>
+      <category>Transgenic Alteration</category>
+      <ess>0.15</ess>
+      <capacity>0</capacity>
+      <avail>4</avail>
+      <cost>350</cost>
+      <addweapon>Horns (Bio-Weapon)</addweapon>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
     </bioware>
   </biowares>
 </chummer>
