@@ -605,5 +605,126 @@
       <source>ZDR</source>
       <page>0</page>
     </bioware>
+    <bioware>
+      <id>9ecf5d0b-4814-4ab0-8854-be0687c499ea</id>
+      <name>Chemical Repulsion (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.375</ess>
+      <capacity>0</capacity>
+      <avail>12R</avail>
+      <cost>14000</cost>
+      <bonus>
+        <toxincontactresist>2</toxincontactresist>
+        <fatigueresist>-2</fatigueresist>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>b343a254-589e-4abb-a29f-e6754b636066</id>
+      <name>Dragon Hide (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.15</ess>
+      <capacity>0</capacity>
+      <avail>4</avail>
+      <cost>1400</cost>
+      <bonus>
+        <firearmor>2</firearmor>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>002aff7c-9c3a-4fa9-87cc-61255103e8e6</id>
+      <name>Insulation (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.15</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>5600</cost>
+      <bonus>
+        <electricityarmor>2</electricityarmor>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <bioware>Electroshock</bioware>
+	  <bioware>Electroshock (Transgenic)</bioware>
+        </oneof>
+      </forbidden>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>ac36b5b5-e5b7-47c8-8039-4db8b43332d2</id>
+      <name>Electroshock (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.375</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>5600</cost>
+      <bonus>
+        <electricityarmor>-2</electricityarmor>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <bioware>Insulation</bioware>
+        </oneof>
+      </forbidden>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>797063e4-f86c-4915-8170-7f3ee7c3894c</id>
+      <name>Penguin Blubber (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.15</ess>
+      <capacity>0</capacity>
+      <avail>4</avail>
+      <cost>1400</cost>
+      <bonus>
+        <coldarmor>2</coldarmor>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>39984ae3-bde4-46c6-bc65-3a12e7ea77eb</id>
+      <name>Sealskin (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.15</ess>
+      <capacity>0</capacity>
+      <avail>4</avail>
+      <cost>1400</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>58bc732d-5436-4f5c-9f90-562b4883335a</id>
+      <name>Sharkskin (Transgenic)</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.375</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>5600</cost>
+      <bonus>
+        <unarmedreach>1</unarmedreach>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
   </biowares>
 </chummer>
