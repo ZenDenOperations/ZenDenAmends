@@ -359,6 +359,10 @@
 				<cyberadeptdaemon amendoperation="remove"></cyberadeptdaemon>
 			</bonus>
 		</quality>
+		<quality>
+			<name>Redliner</name>
+			<hide />
+		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality>
