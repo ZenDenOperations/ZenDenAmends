@@ -353,6 +353,16 @@
 			<contributetolimit amendoperation="replace">True</contributetolimit>
 			<onlyprioritygiven amendoperation="remove"></onlyprioritygiven>
 		</quality>
+		<quality>
+			<name>Resonant Stream: Cyberadept</name>
+			<bonus>
+				<cyberadeptdaemon amendoperation="remove"></cyberadeptdaemon>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Redliner</name>
+			<hide />
+		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality>

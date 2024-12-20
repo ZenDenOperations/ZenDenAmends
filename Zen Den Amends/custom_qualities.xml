@@ -1178,8 +1178,7 @@
 			<source>ZDR</source>
 			<page>1</page>
 		</quality>
-		<quality> Augmentation Acclimation 
-		  
+		<quality> <!-- Augmentation Acclimation -->
 			<id>3acb3b86-f3da-4b35-be9a-e431056b7453</id>
 			<name>Augmentation Acclimation</name>
 			<karma>10</karma>
@@ -1213,9 +1212,8 @@
 			<source>ZDR</source>
 			<page>1</page>
 		</quality>
-		<quality> Cyborg 
-		  
-			<id>61191c68-9ff0-4533-b084-3688831639f1</id>
+		<quality> <!-- Cyborg -->
+		<id>61191c68-9ff0-4533-b084-3688831639f1</id>
 			<name>Cyborg</name>
 			<karma>30</karma>
 			<doublecareer>False</doublecareer>
@@ -1251,5 +1249,107 @@
 			<source>ZDR</source>
 			<page>1</page>
 		</quality>
+		<quality>
+		  <id>75d65060-a802-49cd-aa91-4f45514b23a1</id>
+		  <name>Acceleration</name>
+		  <karma>6</karma>
+		  <doublecareer>False</doublecareer>
+		  <category>Positive</category>
+		  <required>
+		    <allof>
+			  <Echo>Biowires</Echo>
+			  <Echo>Predictive Analytics</Echo>
+			</allof>
+		  </required>
+		  <bonus>
+            <specificattribute precedence="0">
+              <name>REA</name>
+              <val>Rating</val>
+            </specificattribute>
+  		  </bonus>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality>
+		  <id>101591a2-80e6-4f9e-87ce-c7184ef64201</id>
+		  <name>Emulate Smartlink</name>
+		  <karma>5</karma>
+		  <doublecareer>False</doublecareer>
+		  <category>Positive</category>
+		  <bonus>
+            <smartlink>2</smartlink>
+  		  </bonus>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality>
+		  <id>705ee3f9-c2b8-4ded-b3e7-665f617f14ec</id>
+		  <name>Emulate Simrig</name>
+		  <karma>5</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality>
+		  <id>60ef0147-cc20-4547-ae48-2920d994c9e1</id>
+		  <name>Redliner (2-3 limbs)</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <bonus>
+			<cyberseeker>AGI</cyberseeker>
+			<cyberseeker>STR</cyberseeker>
+            <conditionmonitor>
+              <physical>-1</physical>
+			</conditionmonitor>
+ 		  </bonus>
+          <source>CF</source>
+          <page>55</page>
+        </quality>
+		<quality>
+		  <id>db0c965f-e4ba-485e-a1f5-1db8ff10fda6</id>
+		  <name>Redliner (4-5 limbs)</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <bonus>
+			<cyberseeker>AGI</cyberseeker>
+			<cyberseeker>STR</cyberseeker>
+            <conditionmonitor>
+              <physical>-2</physical>
+			</conditionmonitor>
+ 		  </bonus>
+          <source>CF</source>
+          <page>55</page>
+        </quality>
+		<quality>
+		  <id>3e8168e5-d880-411d-8c5d-9023ba460ad4</id>
+		  <name>Redliner (6-7 limbs)</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <bonus>
+			<cyberseeker>AGI</cyberseeker>
+			<cyberseeker>STR</cyberseeker>
+            <conditionmonitor>
+              <physical>-3</physical>
+			</conditionmonitor>
+ 		  </bonus>
+          <source>CF</source>
+          <page>55</page>
+        </quality>
+		<quality>
+		  <id>bc522abd-c97b-4812-9245-922e2f5ed6cf</id>
+		  <name>Redliner (8 limbs)</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <bonus>
+			<cyberseeker>AGI</cyberseeker>
+			<cyberseeker>STR</cyberseeker>
+            <conditionmonitor>
+              <physical>-4</physical>
+			</conditionmonitor>
+ 		  </bonus>
+          <source>CF</source>
+          <page>55</page>
+        </quality>
 	</qualities>
 </chummer>
