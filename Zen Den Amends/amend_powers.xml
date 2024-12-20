@@ -69,5 +69,50 @@
 			<name>Missile Parry</name>
 			<points>1</points>
 		</power>
+		<power>
+			<name>Pain relief</name>
+			<points>0.5</points>
+		</power>
+		<power>
+			<name>Analytics</name>
+			<points>0.25</points>
+			<bonus>
+				<skillattribute>
+					<name>LOG</name>
+					<bonus>Rating</bonus>
+					<condition>Pattern recognition, evidence analysis, clue hunting, or solving puzzles (Analytics)</condition>
+				</skillattribute>
+			</bonus>
+		</power>
+		<power>
+			<name>Skate</name>
+			<points>0.5</points>
+		</power>
+		<power>
+			<name>Rapid healing</name>
+			<points>0.25</points>
+		</power>
+		<power>
+			<name>Iron Will</name>
+			<points>0.25</points>
+		</power>
+		<power>
+			<name>Counterstrike</name>
+			<points>0.5</points>
+		</power>
+		<power>
+			<name>Mimic</name>
+			<points>0.5</points>
+			<levels>False</levels>
+		</power>
+		<power>
+			<name>Osmosis</name>
+			<points>0.5</points>
+			<levels>False</levels>
+		</power>
+		<power>
+			<name>Voice control</name>
+			<points>0.25</points>
+		</power>
 	</powers>
 </chummer>
