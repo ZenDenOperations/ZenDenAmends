@@ -1178,8 +1178,7 @@
 			<source>ZDR</source>
 			<page>1</page>
 		</quality>
-		<quality> Augmentation Acclimation 
-		  
+		<quality> <!-- Augmentation Acclimation -->
 			<id>3acb3b86-f3da-4b35-be9a-e431056b7453</id>
 			<name>Augmentation Acclimation</name>
 			<karma>10</karma>
@@ -1213,9 +1212,8 @@
 			<source>ZDR</source>
 			<page>1</page>
 		</quality>
-		<quality> Cyborg 
-		  
-			<id>61191c68-9ff0-4533-b084-3688831639f1</id>
+		<quality> <!-- Cyborg -->
+		<id>61191c68-9ff0-4533-b084-3688831639f1</id>
 			<name>Cyborg</name>
 			<karma>30</karma>
 			<doublecareer>False</doublecareer>
@@ -1250,6 +1248,48 @@
 			</bonus>
 			<source>ZDR</source>
 			<page>1</page>
+		</quality>
+		<quality>
+		  <id>75d65060-a802-49cd-aa91-4f45514b23a1</id>
+		  <name>Acceleration</name>
+		  <karma>6</karma>
+		  <doublecareer>False</doublecareer>
+		  <category>Positive</category>
+		  <required>
+		    <allof>
+			  <Echo>Biowires</Echo>
+			  <Echo>Predictive Analytics</Echo>
+			</allof>
+		  </required>
+		  <bonus>
+            <specificattribute precedence="0">
+              <name>REA</name>
+              <val>Rating</val>
+            </specificattribute>
+  		  </bonus>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality>
+		  <id>101591a2-80e6-4f9e-87ce-c7184ef64201</id>
+		  <name>Emulate Smartlink</name>
+		  <karma>5</karma>
+		  <doublecareer>False</doublecareer>
+		  <category>Positive</category>
+		  <bonus>
+            <smartlink>2</smartlink>
+  		  </bonus>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality>
+		  <id>705ee3f9-c2b8-4ded-b3e7-665f617f14ec</id>
+		  <name>Emulate Simrig</name>
+		  <karma>5</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <source>ZDR</source>
+		  <page>1</page>
 		</quality>
 	</qualities>
 </chummer>
