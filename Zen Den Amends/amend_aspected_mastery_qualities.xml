@@ -849,6 +849,7 @@
     <quality>
       <id>8f18e68a-fbaf-46b6-bf00-c99910292c20</id>
       <name>Items of Power I</name>
+	    <karma>10</karma>
       <required amendoperation="replace">
         <oneof>
           <quality>Aware</quality>
