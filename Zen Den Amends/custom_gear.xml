@@ -26,6 +26,58 @@
 	<gears>
 		<!-- More Ammo Stuff -->
 		<gear>
+      			<id>486FE4DD-2878-4D81-877E-20ACF6AB8E88</id>
+      			<name>Ammo: Gyrojet</name>
+      			<category>Ammunition</category>
+      			<rating>0</rating>
+      			<source>SR5</source>
+      			<page>434</page>
+      			<avail>2R</avail>
+      			<cost>40</cost>
+      			<costfor>10</costfor>
+      			<ammoforweapontype>gyrojet</ammoforweapontype>
+    		</gear>
+    		<gear>
+      			<id>30F676EA-F51A-478B-95DB-B696BBE38A1B</id>
+      			<name>Ammo: Gyrojet Plus</name>
+      			<category>Ammunition</category>
+      			<rating>0</rating>
+      			<source>SR5</source>
+      			<page>434</page>
+      			<avail>9F</avail>
+      			<cost>160</cost>
+      			<costfor>10</costfor>
+      			<weaponbonus>
+        		<ap>-1</ap>
+        		<damage>1</damage>
+      			</weaponbonus>
+      			<ammoforweapontype>gyrojet</ammoforweapontype>
+    		</gear>
+	    	<gear>
+		      	<id>46C34D63-CF93-44B1-8D7B-A4DC65EE5760</id>
+		      	<name>Ammo: Gyrojet Tracker, Security Tag</name>
+		      	<category>Ammunition</category>
+		      	<rating>0</rating>
+		      	<source>RG</source>
+		      	<page>55</page>
+		      	<avail>16R</avail>
+		      	<cost>300</cost>
+		      	<costfor>10</costfor>
+		      	<ammoforweapontype>gyrojet</ammoforweapontype>
+	    	</gear>
+	    	<gear>
+		      	<id>1E2A4728-54CA-455D-87BE-18A31295BCE2</id>
+		      	<name>Ammo: Gyrojet Tracker, Stealth Tag</name>
+		      	<category>Ammunition</category>
+		      	<rating>0</rating>
+		     	<source>RG</source>
+		      	<page>55</page>
+		      	<avail>16R</avail>
+		      	<cost>300</cost>
+		      	<costfor>10</costfor>
+		      	<ammoforweapontype>gyrojet</ammoforweapontype>
+	    	</gear>
+		<gear>
 			<id>87b2d671-cb70-4e55-99d3-25ab7aa01755</id>
 			<name>Flametosser Fuel</name>
 			<category>Ammunition</category>
