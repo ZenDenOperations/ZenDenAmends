@@ -317,6 +317,15 @@
 			<name>Ammo: Subsonic</name>
 			<avail>8R</avail>
 		</gear>
+    		<gear>
+      			<id>911BB20E-E325-4399-8F7A-82FDCE13AE51</id>
+      			<name>Ammo: Gyrojet Taser</name>
+      			<weaponbonus>
+			<ap>-5</ap>
+        		<damage>-2</damage>
+        		<damagetype>S(e)</damagetype>
+      			</weaponbonus>
+    		</gear>
 		<gear>
 			<name>Grenade: Smokebomb, Aerodynamic</name>
 			<hide />
