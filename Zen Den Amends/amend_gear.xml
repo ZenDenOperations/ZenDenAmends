@@ -128,7 +128,21 @@
 		<gear xpathfilter="contains(name,'Sustaining Focus, Manipulation')">
 			<hide />
 		</gear>
-		<gear xpathfilter="contains(name,'Sustaining Focus Formula')">
+		<gear>
+		  <id>ba8fa866-ab50-45d8-b9c3-375d688d9d5f</id>
+		  <name>Sustaining Focus Formula</name>
+		  <cost>Rating * 1000</cost>
+		</gear>
+		<gear xpathfilter="contains(name,'Sustaining Focus Formula, Detection')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Sustaining Focus Formula, Health')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Sustaining Focus Formula, Illusion')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Sustaining Focus Formula, Manipulation')">
 			<hide />
 		</gear>
 		<!--Reagent Stuff-->
