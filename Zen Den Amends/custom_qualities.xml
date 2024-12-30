@@ -875,6 +875,8 @@
 					<quality>Adept</quality>
 					<quality>Magician</quality>
 					<quality>Mystic Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
 				</oneof>
 				<oneof>
 					<skill>
