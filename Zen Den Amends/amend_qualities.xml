@@ -237,6 +237,7 @@
 					<quality>Apprentice</quality>
 					<quality>Magician</quality>
 					<quality>Mystic Adept</quality>
+					<quality>Aspected Magician</quality>
 				</oneof>
 			</required>
 		</quality>
@@ -257,6 +258,7 @@
 					<quality>Apprentice</quality>
 					<quality>Magician</quality>
 					<quality>Mystic Adept</quality>
+					<quality>Aspected Magician</quality>
 				</oneof>
 			</required>
 		</quality>
