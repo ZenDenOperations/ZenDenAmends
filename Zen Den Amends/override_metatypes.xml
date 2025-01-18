@@ -138,61 +138,111 @@
     </metatype>
     <metatype>
       <id>79b7b632-2e2d-4d7f-b8c7-c99071bd9632</id>
-      <name>E-Ghost</name>
+      <name>A.I</name>
       <category>Metasapient</category>
       <karma>0</karma>
       <bodmin>1</bodmin>
-      <bodmax>6</bodmax>
-      <bodaug>10</bodaug>
+      <bodmax>3</bodmax>
+      <bodaug>3</bodaug>
       <agimin>1</agimin>
-      <agimax>6</agimax>
-      <agiaug>10</agiaug>
-      <reamin>2</reamin>
-      <reamax>7</reamax>
-      <reaaug>11</reaaug>
+      <agimax>3</agimax>
+      <agiaug>3</agiaug>
+      <reamin>1</reamin>
+      <reamax>3</reamax>
+      <reaaug>3</reaaug>
       <strmin>1</strmin>
-      <strmax>6</strmax>
-      <straug>10</straug>
+      <strmax>3</strmax>
+      <straug>3</straug>
       <chamin>1</chamin>
-      <chamax>6</chamax>
-      <chaaug>10</chaaug>
+      <chamax>3</chamax>
+      <chaaug>3</chaaug>
       <intmin>1</intmin>
-      <intmax>6</intmax>
-      <intaug>10</intaug>
-      <logmin>2</logmin>
-      <logmax>7</logmax>
-      <logaug>11</logaug>
+      <intmax>3</intmax>
+      <intaug>3</intaug>
+      <logmin>1</logmin>
+      <logmax>3</logmax>
+      <logaug>3</logaug>
       <wilmin>1</wilmin>
-      <wilmax>6</wilmax>
-      <wilaug>10</wilaug>
+      <wilmax>3</wilmax>
+      <wilaug>3</wilaug>
       <inimin>2</inimin>
-      <inimax>11</inimax>
-      <iniaug>19</iniaug>
-      <edgmin>2</edgmin>
-      <edgmax>7</edgmax>
-      <edgaug>7</edgaug>
+      <inimax>4</inimax>
+      <iniaug>4</iniaug>
+      <edgmin>1</edgmin>
+      <edgmax>1</edgmax>
+      <edgaug>1</edgaug>
       <magmin>0</magmin>
       <magmax>0</magmax>
       <magaug>0</magaug>
       <resmin>1</resmin>
-      <resmax>6</resmax>
-      <resaug>6</resaug>
+      <resmax>1</resmax>
+      <resaug>1</resaug>
       <essmin>0</essmin>
       <essmax>6</essmax>
       <essaug>6</essaug>
       <depmin>0</depmin>
       <depmax>0</depmax>
       <depaug>0</depaug>
-      <qualities>
-        <positive>
-          <quality>Photographic Memory</quality>
-          <quality>Hello World!</quality>
-		</positive>
-      </qualities>
       <movement>Special</movement>
       <source>DT</source>
       <page>135</page>
       <metavariants>
+	    <metavariant>
+		  <name>E-Ghost</name>
+		  <category>Metasapient</category>
+		  <karma>0</karma>
+		  <bodmin>1</bodmin>
+		  <bodmax>6</bodmax>
+		  <bodaug>10</bodaug>
+		  <agimin>1</agimin>
+		  <agimax>6</agimax>
+		  <agiaug>10</agiaug>
+		  <reamin>2</reamin>
+		  <reamax>7</reamax>
+		  <reaaug>11</reaaug>
+		  <strmin>1</strmin>
+		  <strmax>6</strmax>
+		  <straug>10</straug>
+		  <chamin>1</chamin>
+		  <chamax>6</chamax>
+		  <chaaug>10</chaaug>
+		  <intmin>1</intmin>
+		  <intmax>6</intmax>
+		  <intaug>10</intaug>
+		  <logmin>2</logmin>
+		  <logmax>7</logmax>
+		  <logaug>11</logaug>
+		  <wilmin>1</wilmin>
+		  <wilmax>6</wilmax>
+		  <wilaug>10</wilaug>
+		  <inimin>2</inimin>
+		  <inimax>11</inimax>
+		  <iniaug>19</iniaug>
+		  <edgmin>2</edgmin>
+		  <edgmax>7</edgmax>
+		  <edgaug>7</edgaug>
+		  <magmin>0</magmin>
+		  <magmax>0</magmax>
+		  <magaug>0</magaug>
+		  <resmin>1</resmin>
+		  <resmax>6</resmax>
+		  <resaug>6</resaug>
+		  <essmin>0</essmin>
+		  <essmax>6</essmax>
+		  <essaug>6</essaug>
+		  <depmin>0</depmin>
+		  <depmax>0</depmax>
+		  <depaug>0</depaug>
+		  <qualities>
+			<positive>
+			  <quality>Photographic Memory</quality>
+			  <quality>Hello World!</quality>
+			</positive>
+		  </qualities>
+		  <movement>Special</movement>
+		  <source>DT</source>
+		  <page>135</page>		
+		</metavariant>
         <metavariant>
 		  <name>Pilot AI</name>
 		  <id>47726579-3564-47c6-b9ab-f7eaf8bbe51a</id>
