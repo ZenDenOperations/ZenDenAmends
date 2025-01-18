@@ -229,6 +229,17 @@
 					<name>Dedicated Alchemist</name>
 				</oneof>
 			</forbidden>
+			<required>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Aspected Magician</quality>
+				</oneof>
+			</required>
 		</quality>
 		<quality>
 			<!-- Dedicated Conjurer  -->
@@ -239,6 +250,17 @@
 					<name>Dedicated Alchemist</name>
 				</oneof>
 			</forbidden>
+			<required>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Aspected Magician</quality>
+				</oneof>
+			</required>
 		</quality>
 		<quality>
 			<!-- Changeling (Class I SURGE) -->
@@ -2787,6 +2809,32 @@
 					<quality>Infected: Wendigo</quality>
 				</oneof>
 			</forbidden>
+		</quality>
+				<!-- AI bullshit -->
+		<quality>
+			<name>Chatty</name>
+			<karma>10</karma>
+		</quality>
+		<quality>
+			<name>Low Profile</name>
+			<karma>10</karma>
+		</quality>
+		<quality>
+			<name>Redundancy</name>
+			<karma>4</karma>
+		</quality>
+		<quality>
+			<name>Improved Restoration</name>
+			<karma>7</karma>
+		</quality>
+		<quality>
+			<name>Real World Naiveté</name>
+			<karma>-5</karma>
+		</quality>
+		<quality>
+			<name>Fragmentation</name>
+			<karma>-15</karma>
+			<limit>6</limit>
 		</quality>
 	</qualities>
 </chummer>
