@@ -72,36 +72,6 @@
             </negative>
           </qualities>
     </metatype>
-    <metatype>
-      <name>A.I.</name>
-      <karma amendoperation="replace">140</karma>
-      <halveattributepoints amendoperation="remove"/>
-	  <qualityrestriction amendoperation="remove"></qualityrestriction>
-      <metavariants>
-        <metavariant>
-          <name>E-Ghost</name>
-          <karma amendoperation="replace">140</karma>
-          <halveattributepoints amendoperation="remove"/>
-          <edgmin amendoperation="replace">2</edgmin>
-          <edgmax amendoperation="replace">7</edgmax>
-          <edgaug amendoperation="replace">7</edgaug>
-		  <qualityrestriction amendoperation="remove"></qualityrestriction>
-        </metavariant>
-        <metavariant>
-          <name>Xenosapient</name>
-          <karma amendoperation="replace">140</karma>
-          <halveattributepoints amendoperation="remove"/>
-		  <qualityrestriction amendoperation="remove"></qualityrestriction>
-        </metavariant>
-        <metavariant>
-          <name>Protosapient</name>
-          <karma amendoperation="replace">140</karma>
-          <halveattributepoints amendoperation="remove"/>
-		  <qualityrestriction amendoperation="remove"></qualityrestriction>
-		  <hide />
-        </metavariant>
-      </metavariants>
-    </metatype>
     <!-- End Region -->
   </metatypes>
 </chummer>
