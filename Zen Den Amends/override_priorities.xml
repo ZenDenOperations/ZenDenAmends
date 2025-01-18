@@ -30,7 +30,7 @@
       <category>Heritage</category>
       <metatypes>
         <metatype>
-          <name>A.I</name>
+          <name>A.I.</name>
           <value>0</value>
           <karma>0</karma>
           <metavariants>
@@ -1494,7 +1494,7 @@
       <category>Heritage</category>
       <metatypes>
         <metatype>
-          <name>A.I</name>
+          <name>A.I.</name>
           <value>0</value>
           <karma>0</karma>
           <metavariants>
@@ -2958,7 +2958,7 @@
       <category>Heritage</category>
       <metatypes>
         <metatype>
-          <name>A.I</name>
+          <name>A.I.</name>
           <value>0</value>
           <karma>0</karma>
           <metavariants>
@@ -4423,7 +4423,7 @@
       <category>Heritage</category>
       <metatypes>
         <metatype>
-          <name>A.I</name>
+          <name>A.I.</name>
           <value>0</value>
           <karma>0</karma>
           <metavariants>
@@ -4547,7 +4547,7 @@
     </priority>
     <priority>
       <id>91dccab9-c3fc-4868-abf8-1825b70e8a6c</id>
-      <name>E - Human or A.I</name>
+      <name>E - Human or A.I.</name>
       <value>E</value>
       <category>Heritage</category>
       <metatypes>
@@ -4564,7 +4564,7 @@
           </metavariants>
         </metatype>
         <metatype>
-          <name>A.I</name>
+          <name>A.I.</name>
           <value>0</value>
           <karma>0</karma>
             <metavariant>
@@ -4596,7 +4596,7 @@
           <skilltype>magic</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4613,7 +4613,7 @@
           <skilltype>magic</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4637,7 +4637,7 @@
           <skilltype xpath="not(attribute = 'RES' or attribute = 'DEP') and (not(category = 'Magical Active') or skillgroup = '' or not(skillgroup))">xpath</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4654,7 +4654,7 @@
           <skilltype>magic</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4671,7 +4671,7 @@
           <skilltype>magic</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4689,7 +4689,7 @@
           <required>
             <oneof>
               <metatypecategory>Metahuman</metatypecategory>
-			  <metatype>A.I</metatype>
+			  <metatype>A.I.</metatype>
             </oneof>
           </required>
         </talent>
@@ -4713,7 +4713,7 @@
           <skilltype xpath="not(attribute = 'RES' or attribute = 'DEP') and (not(category = 'Magical Active') or skillgroup = '' or not(skillgroup))">xpath</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4727,7 +4727,7 @@
           <spells>5</spells>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4741,7 +4741,7 @@
           <spells>5</spells>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4763,7 +4763,7 @@
           <skillgrouptype>grouped</skillgrouptype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4784,7 +4784,7 @@
           <skilltype>specific</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4805,7 +4805,7 @@
           <skillgrouptype>grouped</skillgrouptype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4823,7 +4823,7 @@
           <required>
             <oneof>
               <metatypecategory>Metahuman</metatypecategory>
-			  <metatype>A.I</metatype>
+			  <metatype>A.I.</metatype>
             </oneof>
           </required>
         </talent>        
@@ -4844,7 +4844,7 @@
           <magic>2</magic>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4866,7 +4866,7 @@
           <skillgrouptype>grouped</skillgrouptype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4887,7 +4887,7 @@
           <skilltype>specific</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4909,7 +4909,7 @@
           <skillgrouptype>grouped</skillgrouptype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4930,7 +4930,7 @@
           <skilltype>specific</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I</metatype>
+              <metatype>A.I.</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4948,7 +4948,7 @@
           <required>
             <oneof>
               <metatypecategory>Metahuman</metatypecategory>
-			  <metatype>A.I</metatype>
+			  <metatype>A.I.</metatype>
             </oneof>
           </required>
         </talent>
