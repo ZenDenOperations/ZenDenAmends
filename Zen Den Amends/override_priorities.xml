@@ -30,25 +30,25 @@
       <category>Heritage</category>
       <metatypes>
         <metatype>
-          <name>A.I.</name>
-          <value>8</value>
+          <name>E-Ghost</name>
+          <value>9</value>
           <karma>0</karma>
           <metavariants>
             <metavariant>
-              <name>E-Ghost</name>
-              <value>9</value>
-              <karma>0</karma>
-            </metavariant>
-            <metavariant>
-              <name>Xenosapient</name>
-              <value>5</value>
-              <karma>0</karma>
-            </metavariant>
-            <metavariant>
-              <name>Protosapient</name>
+              <name>Pilot AI</name>
               <value>7</value>
               <karma>0</karma>
-			  <hide />
+            </metavariant>
+            <metavariant>
+              <name>Realms AI</name>
+              <value>7</value>
+              <karma>0</karma>
+            </metavariant>
+            <metavariant>
+              <name>Deep Foundation AI</name>
+              <value>7</value>
+              <karma>0</karma>
+	          <hide />
             </metavariant>
           </metavariants>
         </metatype>
@@ -1489,25 +1489,25 @@
       <category>Heritage</category>
       <metatypes>
         <metatype>
-          <name>A.I.</name>
-          <value>6</value>
+          <name>E-Ghost</name>
+          <value>7</value>
           <karma>0</karma>
           <metavariants>
             <metavariant>
-              <name>E-Ghost</name>
-              <value>7</value>
+              <name>Pilot AI</name>
+              <value>5</value>
               <karma>0</karma>
             </metavariant>
             <metavariant>
-              <name>Xenosapient</name>
-              <value>3</value>
-              <karma>0</karma>
-            </metavariant>
-			<metavariant>
-              <name>Protosapient</name>
+              <name>Realms AI</name>
               <value>5</value>
               <karma>0</karma>
-			  <hide />
+            </metavariant>
+            <metavariant>
+              <name>Deep Foundation AI</name>
+              <value>5</value>
+              <karma>0</karma>
+	          <hide />
             </metavariant>
           </metavariants>
         </metatype>
@@ -2948,25 +2948,25 @@
       <category>Heritage</category>
       <metatypes>
         <metatype>
-          <name>A.I.</name>
-          <value>4</value>
+          <name>E-Ghost</name>
+          <value>5</value>
           <karma>0</karma>
           <metavariants>
             <metavariant>
-              <name>E-Ghost</name>
-              <value>5</value>
-              <karma>0</karma>
-            </metavariant>
-            <metavariant>
-              <name>Xenosapient</name>
-              <value>1</value>
-              <karma>0</karma>
-            </metavariant>
-            <metavariant>
-              <name>Protosapient</name>
+              <name>Pilot AI</name>
               <value>3</value>
               <karma>0</karma>
-			  <hide />
+            </metavariant>
+            <metavariant>
+              <name>Realms AI</name>
+              <value>3</value>
+              <karma>0</karma>
+            </metavariant>
+            <metavariant>
+              <name>Deep Foundation AI</name>
+              <value>3</value>
+              <karma>0</karma>
+	          <hide />
             </metavariant>
           </metavariants>
         </metatype>
@@ -4408,27 +4408,27 @@
       <category>Heritage</category>
       <metatypes>
         <metatype>
-        <name>A.I.</name>
-        <value>2</value>
-        <karma>0</karma>
-        <metavariants>
-          <metavariant>
-            <name>E-Ghost</name>
-            <value>3</value>
-            <karma>0</karma>
-          </metavariant>
-          <metavariant>
-              <name>Xenosapient</name>
-            <value>0</value>
-            <karma>0</karma>
-          </metavariant>
-              <metavariant>
-              <name>Protosapient</name>
+          <name>E-Ghost</name>
+          <value>3</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>Pilot AI</name>
               <value>1</value>
               <karma>0</karma>
-			  <hide />
             </metavariant>
-        </metavariants>
+            <metavariant>
+              <name>Realms AI</name>
+              <value>1</value>
+              <karma>0</karma>
+            </metavariant>
+            <metavariant>
+              <name>Deep Foundation AI</name>
+              <value>1</value>
+              <karma>0</karma>
+	          <hide />
+            </metavariant>
+          </metavariants>
         </metatype>
         <metatype>
           <name>Human</name>
@@ -4527,7 +4527,7 @@
     </priority>
     <priority>
       <id>91dccab9-c3fc-4868-abf8-1825b70e8a6c</id>
-      <name>E - Human</name>
+      <name>E - Human or E-Ghost</name>
       <value>E</value>
       <category>Heritage</category>
       <metatypes>
@@ -4542,6 +4542,11 @@
               <karma>0</karma>
             </metavariant>
           </metavariants>
+        </metatype>
+        <metatype>
+          <name>E-Ghost</name>
+          <value>1</value>
+          <karma>0</karma>
         </metatype>
       </metatypes>
     </priority>
@@ -4566,7 +4571,7 @@
           <skilltype>magic</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4583,22 +4588,9 @@
           <skilltype>magic</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
-        </talent>
-        <talent>
-          <name>A.I. - 6 Depth</name>
-          <value>A.I.</value>
-          <depth>6</depth>
-          <skillqty>2</skillqty>
-          <skillval>5</skillval>
-          <skilltype>matrix</skilltype>
-          <required>
-            <oneof>
-              <metatype>A.I.</metatype>
-            </oneof>
-          </required>
         </talent>
       </talents>
     </priority>
@@ -4620,7 +4612,7 @@
           <skilltype xpath="not(attribute = 'RES' or attribute = 'DEP') and (not(category = 'Magical Active') or skillgroup = '' or not(skillgroup))">xpath</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4637,7 +4629,7 @@
           <skilltype>magic</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4654,7 +4646,7 @@
           <skilltype>magic</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4672,18 +4664,7 @@
           <required>
             <oneof>
               <metatypecategory>Metahuman</metatypecategory>
-            </oneof>
-          </required>
-        </talent>        <talent>
-          <name>A.I. - 4 Depth</name>
-          <value>A.I.</value>
-          <depth>4</depth>
-          <skillqty>2</skillqty>
-          <skillval>4</skillval>
-          <skilltype>matrix</skilltype>
-          <required>
-            <oneof>
-              <metatype>A.I.</metatype>
+			  <metatype>E-Ghost</metatype>
             </oneof>
           </required>
         </talent>
@@ -4707,7 +4688,7 @@
           <skilltype xpath="not(attribute = 'RES' or attribute = 'DEP') and (not(category = 'Magical Active') or skillgroup = '' or not(skillgroup))">xpath</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4721,7 +4702,7 @@
           <spells>5</spells>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4735,7 +4716,7 @@
           <spells>5</spells>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4757,7 +4738,7 @@
           <skillgrouptype>grouped</skillgrouptype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4778,7 +4759,7 @@
           <skilltype>specific</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4799,7 +4780,7 @@
           <skillgrouptype>grouped</skillgrouptype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4817,22 +4798,10 @@
           <required>
             <oneof>
               <metatypecategory>Metahuman</metatypecategory>
+			  <metatype>E-Ghost</metatype>
             </oneof>
           </required>
         </talent>        
-		<talent>
-          <name>A.I. - 3 Depth</name>
-          <value>A.I.</value>
-          <depth>3</depth>
-          <skillqty>1</skillqty>
-          <skillval>2</skillval>
-          <skilltype>matrix</skilltype>
-          <required>
-            <oneof>
-              <metatype>A.I.</metatype>
-            </oneof>
-          </required>
-        </talent>
       </talents>
     </priority>
     <priority>
@@ -4850,7 +4819,7 @@
           <magic>2</magic>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4872,7 +4841,7 @@
           <skillgrouptype>grouped</skillgrouptype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4893,7 +4862,7 @@
           <skilltype>specific</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4915,7 +4884,7 @@
           <skillgrouptype>grouped</skillgrouptype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4936,7 +4905,7 @@
           <skilltype>specific</skilltype>
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>E-Ghost</metatype>
             </oneof>
           </forbidden>
         </talent>
@@ -4954,16 +4923,7 @@
           <required>
             <oneof>
               <metatypecategory>Metahuman</metatypecategory>
-            </oneof>
-          </required>
-        </talent>
-		<talent>
-          <name>A.I. - 2 Depth</name>
-          <value>A.I.</value>
-          <depth>2</depth>
-          <required>
-            <oneof>
-              <metatype>A.I.</metatype>
+			  <metatype>E-Ghost</metatype>
             </oneof>
           </required>
         </talent>
@@ -4973,35 +4933,35 @@
     <!-- Region Attributes -->
     <priority>
       <id>1c4a7955-1ae1-4a5b-9ed4-5ab8525d13b0</id>
-      <name>A - 24 (16) Attributes</name>
+      <name>A - 24 Attributes</name>
       <value>A</value>
       <category>Attributes</category>
       <attributes>24</attributes>
     </priority>
     <priority>
       <id>521c1f60-f382-479e-af3b-a3eda5201f22</id>
-      <name>B - 20 (13) Attributes</name>
+      <name>B - 20 Attributes</name>
       <value>B</value>
       <category>Attributes</category>
       <attributes>20</attributes>
     </priority>
     <priority>
       <id>0a224d86-d355-4cd6-8e4e-b94e31f97c4b</id>
-      <name>C - 16 (10) Attributes</name>
+      <name>C - 16 Attributes</name>
       <value>C</value>
       <category>Attributes</category>
       <attributes>16</attributes>
     </priority>
     <priority>
       <id>984600d8-5b2f-437c-86eb-693a5bbff030</id>
-      <name>D - 14 (8) Attributes</name>
+      <name>D - 14 Attributes</name>
       <value>D</value>
       <category>Attributes</category>
       <attributes>14</attributes>
     </priority>
     <priority>
       <id>f6a36071-41ab-4f8e-884d-3cee92d8f181</id>
-      <name>E - 12 (6) Attributes</name>
+      <name>E - 12 Attributes</name>
       <value>E</value>
       <category>Attributes</category>
       <attributes>12</attributes>
