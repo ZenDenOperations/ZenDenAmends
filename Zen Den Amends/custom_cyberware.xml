@@ -18,11 +18,14 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
+  <categories>
+    <category blackmarket="Codemods">Codemods</category>
+  </categories>
   <cyberwares>
     <cyberware>
       <id>4148eaa1-0e94-49a9-b843-136c366ff5b8</id>
       <name>One-Shot Dartgun</name>
-      <limit>False</limit>
+      <Limit>False</Limit>
       <category>Cyber Implant Weapon</category>
       <ess>0.1</ess>
       <capacity>[2]</capacity>
@@ -34,6 +37,492 @@
       <allowsubsystems>
         <category>Cyber Implant Weapon Accessory</category>
       </allowsubsystems>
+    </cyberware>
+	<!-- AI bullshit -->
+    <cyberware>
+      <id>29f22110-d41d-4d0a-88b5-c98d6617f757</id>
+      <name>Attribute Augmentation (Wilpower)</name>
+      <rating>4</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <avail>Rating * 6</avail>
+      <cost>Rating * 34000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+      <bonus>
+        <specificattribute>
+          <name>WIL</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <id>107a034c-4116-492b-8bde-dbc206754fe8</id>
+      <name>Attribute Augmentation (Charisma)</name>
+      <rating>4</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <avail>Rating * 6</avail>
+      <cost>Rating * 34000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+      <bonus>
+        <specificattribute>
+          <name>LOG</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <id>8a966046-52ed-4ca8-bec3-df43cac6dde2</id>
+      <name>Attribute Augmentation (Intuition)</name>
+      <rating>4</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <avail>Rating * 6</avail>
+      <cost>Rating * 34000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+      <bonus>
+        <specificattribute>
+          <name>LOG</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <id>0b191790-5aeb-40bf-a8ba-7875734f5aaa</id>
+      <name>Attribute Augmentation (Logic)</name>
+      <rating>4</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <avail>Rating * 6</avail>
+      <cost>Rating * 34000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+      <bonus>
+        <specificattribute>
+          <name>LOG</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <id>f4f18fb7-1301-4e32-b0bf-4116cf48396c</id>
+      <name>Attack Augmentation</name>
+      <rating>4</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <avail>Rating * 4</avail>
+      <cost>Rating * 12000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+      <bonus>
+        <specificattribute>
+          <name>STR</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <id>3caadbc0-3c89-410d-9dbe-54a12acd783c</id>
+      <name>Sleaze Augmentation</name>
+      <rating>4</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <avail>Rating * 4</avail>
+      <cost>Rating * 12000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+      <bonus>
+        <specificattribute>
+          <name>AGI</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <id>bee0f8d8-4079-4bb5-bc65-6bbda41d0ff8</id>
+      <name>Data Processing Augmentation</name>
+      <rating>4</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <avail>Rating * 4</avail>
+      <cost>Rating * 12000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+      <bonus>
+        <specificattribute>
+          <name>REA</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <id>058bda61-c7bd-456e-ba98-d3d6e8adf17e</id>
+      <name>Firewall Augmentation</name>
+      <rating>4</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <avail>Rating * 4</avail>
+      <cost>Rating * 12000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+      <bonus>
+        <specificattribute>
+          <name>BOD</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <id>179f1601-95e7-4f4c-a21d-3f5edbb5604a</id>
+      <name>Quantum Processor</name>
+      <rating>4</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.5</ess>
+      <avail>(Rating * 6)R</avail>
+      <cost>Rating * 30000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+      <bonus>
+        <initiativepass precedence="0">Rating</initiativepass>
+        <initiative precedence="0">Rating</initiative>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <id>9a6ef10e-373b-49c1-9024-e18207a2f12b</id>
+      <name>Core Code Redundancy</name>
+      <rating>4</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <avail>Rating * 3</avail>
+      <cost>Rating * 12000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+      <bonus>
+		<conditionmonitor>
+		  <physical>1</physical>
+		</conditionmonitor>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <id>fa59d0ca-6f6f-497b-b37d-b4b8dfa2e04b</id>
+      <name>Core Code Shielding</name>
+      <rating>6</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <avail>Rating * 3</avail>
+      <cost>Rating * 4000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>49986a0d-5be9-4f29-936a-8087e9d5b06e</id>
+      <name>Damage Mitigation Protocols</name>
+      <rating>6</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <avail>(Rating * 16)R</avail>
+      <cost>Rating * 18500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>2057ff73-492d-4ce2-b52e-e3ec0ccd3e37</id>
+      <name>Damage Response Overrides</name>
+      <rating>12</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <avail>Rating * 3</avail>
+      <cost>Rating * 3000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <conditionmonitor>
+          <sharedthresholdoffset>Rating</sharedthresholdoffset>
+        </conditionmonitor>
+      </bonus>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>0ecb955e-9e55-49d1-b8fd-bc8cf72c1385</id>
+      <name>RCC Emulator</name>
+      <rating>8</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <avail>Rating * 3</avail>
+      <cost>Rating * 7500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>1d650653-550f-4dea-b43b-c60726ad1015</id>
+      <name>Sideload Processor</name>
+      <rating>12</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <avail>Rating</avail>
+      <cost>Rating * 2000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>221469e7-70b1-4e25-998a-a8308b30808d</id>
+      <name>Synthetic Skill Driver: Activesoft</name>
+      <rating>6</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <avail>Rating * 3</avail>
+      <cost>Rating * 25000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <bonus>
+        <skillsoftaccess precedence="0">Rating</skillsoftaccess>
+        <skillwire precedence="0">Rating</skillwire>
+	  </bonus>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>dc7c8afc-9378-4cca-b20a-bee76c56ae69</id>
+      <name>Synthetic Skill Driver: Knowsoft</name>
+      <category>Codemods</category>
+      <ess>0.1</ess>
+      <avail>5</avail>
+      <cost>5000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <bonus>
+        <skillsoftaccess precedence="0">FixedValues(6)</skillsoftaccess>
+	  </bonus>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>da29f8c5-29ff-489e-b3f4-80378c89e517</id>
+      <name>Synthetic Skill Driver: Linguasoft </name>
+      <rating>6</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <avail>Rating * 5</avail>
+      <cost>Rating * 4000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <bonus>
+        <skillsoftaccess precedence="0">Rating</skillsoftaccess>
+	  </bonus>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>1e6a7ae1-0287-48cf-ac0d-de1519780ade</id>
+      <name>Active Signal Filter</name>
+      <rating>6</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <avail>Rating * 3</avail>
+      <cost>Rating * 7000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>fed98406-b2ff-42d2-a03a-acb870482dbe</id>
+      <name>ECM Integration</name>
+      <category>Codemods</category>
+      <ess>0.1</ess>
+      <avail>4F</avail>
+      <cost>2500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>6f85206e-fcec-4ffd-94bd-ea1dd800a000</id>
+      <name>PAN Emulation</name>
+	  <rating>3</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <avail>Rating * 6</avail>
+      <cost>Rating * 10000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>0cd30a99-0f22-42e7-ae53-ad55d31f0550</id>
+      <name>Control Rig Integration</name>
+	  <rating>3</rating>
+      <category>Codemods</category>
+      <ess>Rating * 0.8</ess>
+      <avail>(Rating * 5)R</avail>
+      <cost>Rating * 50000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>ae25485d-4beb-48b5-9a8d-22e015bcd061</id>
+      <name>Simsense Integration</name>
+      <category>Codemods</category>
+      <ess>0.15</ess>
+      <avail>8R</avail>
+      <cost>6000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>9961fdab-dc4e-471b-aef7-12813fb37ed2</id>
+      <name>Smartlink Adapter</name>
+      <category>Codemods</category>
+      <ess>0.2</ess>
+      <avail>10R</avail>
+      <cost>4000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <smartlink>2</smartlink>
+      </bonus>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>79052040-f161-4f0a-99eb-7d86047d62e3</id>
+      <name>Slashing Strike</name>
+      <category>Codemods</category>
+      <ess>0.25</ess>
+      <avail>8R</avail>
+      <cost>8000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
+    </cyberware>
+    <cyberware>
+      <id>e077293a-fad0-4935-a9c9-b255a4aa04d0</id>
+      <name>Thunderstrike</name>
+      <category>Codemods</category>
+      <ess>0.5</ess>
+      <avail>12F</avail>
+      <cost>12000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+	  <required>
+		<allof>
+          <metatype>A.I.</metatype>
+        </allof>
+	  </required>
     </cyberware>
   </cyberwares>
 </chummer>
