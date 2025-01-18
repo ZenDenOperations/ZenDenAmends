@@ -1353,5 +1353,72 @@
           <source>CF</source>
           <page>55</page>
         </quality>
+		<!-- AI bullshit -->
+		<quality>
+		  <id>784990b5-953f-4198-bc3a-0876e2e156d7</id>
+		  <name>Sprite Power</name>
+		  <karma>12</karma>
+		  <category>Positive</category>
+		  <bonus>
+			<selecttext />
+		  </bonus>
+		  <required>
+			<allof>
+			  <resenabled />
+			  <metatype>A.I.</metatype>
+			</allof>
+		  </required>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality>
+		  <id>90b47c11-9de3-4fcd-b172-feec2d879363</id>
+		  <name>Pump’n’dump</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <forbidden>
+			<allof>
+			  <resenabled />
+			</allof>
+		  </forbidden>
+		  <required>
+			<allof>
+			  <metatype>A.I.</metatype>
+			</allof>
+		  </required>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality>
+		  <id>3fdc9e49-4759-4af2-92f7-6860d5be7470</id>
+		  <name>Cascading Failure</name>
+		  <karma>-9</karma>
+		  <category>Negative</category>
+		  <required>
+			<allof>
+			  <metatype>A.I.</metatype>
+			</allof>
+		  </required>
+		  <bonus>
+			<conditionmonitor>
+			  <thresholdoffset>-2</thresholdoffset>
+			</conditionmonitor>
+		  </bonus>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
+		<quality>
+		  <id>e92243b7-708a-4ade-a0cb-42361f8833f9</id>
+		  <name>Out of Memory Exception</name>
+		  <karma>-3</karma>
+		  <category>Negative</category>
+		  <required>
+			<allof>
+			  <metatype>A.I.</metatype>
+			</allof>
+		  </required>
+		  <source>ZDR</source>
+		  <page>1</page>
+		</quality>
 	</qualities>
 </chummer>
