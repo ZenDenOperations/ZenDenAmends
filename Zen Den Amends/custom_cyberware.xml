@@ -25,7 +25,7 @@
     <cyberware>
       <id>4148eaa1-0e94-49a9-b843-136c366ff5b8</id>
       <name>One-Shot Dartgun</name>
-      <rating>False</rating>
+      <Limit>False</Limit>
       <category>Cyber Implant Weapon</category>
       <ess>0.1</ess>
       <capacity>[2]</capacity>
