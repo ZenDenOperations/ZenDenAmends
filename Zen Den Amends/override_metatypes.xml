@@ -190,7 +190,7 @@
 	    <metavariant>
 		  <name>E-Ghost</name>
 		  <id>d771c9a2-1c97-4638-8485-ed93f74aa113</id>
-		  <category>Metasapient</category>
+		  <category>Metavariant</category>
 		  <karma>0</karma>
 		  <bodmin>1</bodmin>
 		  <bodmax>6</bodmax>
@@ -247,7 +247,7 @@
         <metavariant>
 		  <name>Pilot AI</name>
 		  <id>47726579-3564-47c6-b9ab-f7eaf8bbe51a</id>
-		  <category>Metasapient</category>
+		  <category>Metavariant</category>
 		  <karma>50</karma>
 		  <bodmin>1</bodmin>
 		  <bodmax>6</bodmax>
@@ -304,7 +304,7 @@
         <metavariant>
 		  <name>Deep Foundation AI</name>
 		  <id>74f567a4-d6c5-4bc1-ae10-079d6bd0f82d</id>
-		  <category>Metasapient</category>
+		  <category>Metavariant</category>
 		  <karma>50</karma>
 		  <bodmin>2</bodmin>
 		  <bodmax>7</bodmax>
@@ -363,7 +363,7 @@
 		<metavariant>
 		  <name>Realms AI</name>
 		  <id>7973925b-ca60-4587-bd8f-191775300200</id>
-		  <category>Metasapient</category>
+		  <category>Metavariant</category>
 		  <karma>50</karma>
 		  <bodmin>2</bodmin>
 		  <bodmax>7</bodmax>
