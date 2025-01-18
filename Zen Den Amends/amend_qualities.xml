@@ -2822,6 +2822,20 @@
 		<quality>
 			<name>Redundancy</name>
 			<karma>4</karma>
+			<bonus amendoperation="replace">
+				<conditionmonitor>
+					<physical>1</physical>
+				</conditionmonitor>
+			</bonus>
+		</quality>
+		<quality>
+			<name>Designer</name>
+			<bonus amendoperation="replace">
+				<specificattribute>
+					<name>REA</name>
+					<val>Rating</val>
+				</specificattribute>
+			</bonus>
 		</quality>
 		<quality>
 			<name>Improved Restoration</name>
