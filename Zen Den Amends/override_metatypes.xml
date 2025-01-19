@@ -237,7 +237,7 @@
 		  <qualities>
 			<positive>
 			  <quality>Photographic Memory</quality>
-			  <quality>Hello World!</quality>
+			  <quality removable="True">Hello World!</quality>
 			</positive>
 		  </qualities>
 		  <movement>Special</movement>
@@ -293,7 +293,7 @@
 		  <depaug>0</depaug>
 		  <qualities>
 			<positive>
-              <quality>Pilot Origins</quality>
+              <quality removable="True">Pilot Origins</quality>
               <quality>Sensor Upgrade</quality>
 			</positive>
 		  </qualities>
@@ -353,7 +353,7 @@
               <quality>Photographic Memory</quality>
 			</positive>
 			<negative>
-              <quality>Real World Naiveté</quality>
+              <quality removable="True">Real World Naiveté</quality>
 			</negative>
 		  </qualities>
 		  <movement>Special</movement>
@@ -410,10 +410,10 @@
 		  <qualities>
 			<positive>
               <quality>Photographic Memory</quality>
-              <quality>Hello World!</quality>
+              <quality removable="True">Hello World!</quality>
 			</positive>
 			<negative>
-              <quality>Real World Naiveté</quality>
+              <quality removable="True">Real World Naiveté</quality>
 			</negative>
 		  </qualities>
 		  <movement>Special</movement>
