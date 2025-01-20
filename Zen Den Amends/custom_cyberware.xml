@@ -25,7 +25,7 @@
     <cyberware>
       <id>4148eaa1-0e94-49a9-b843-136c366ff5b8</id>
       <name>One-Shot Dartgun</name>
-      <Limit>False</Limit>
+      <rating>False</rating>
       <category>Cyber Implant Weapon</category>
       <ess>0.1</ess>
       <capacity>[2]</capacity>
@@ -78,7 +78,7 @@
 	  </required>
       <bonus>
         <specificattribute>
-          <name>LOG</name>
+          <name>CHA</name>
           <val>Rating</val>
         </specificattribute>
       </bonus>
@@ -100,7 +100,7 @@
 	  </required>
       <bonus>
         <specificattribute>
-          <name>LOG</name>
+          <name>INT</name>
           <val>Rating</val>
         </specificattribute>
       </bonus>
