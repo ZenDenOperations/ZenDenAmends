@@ -1420,5 +1420,18 @@
 		  <source>ZDR</source>
 		  <page>1</page>
 		</quality>
+		<quality>
+      <id>97d33a2f-7ce5-4209-bb09-404363d17cf3</id>
+      <name>Scarred Aura</name>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus>
+        <addqualities>
+          <addquality select="Scarred Aura">Distinctive Style</addquality>
+        </addqualities>
+      </bonus>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
 	</qualities>
 </chummer>
