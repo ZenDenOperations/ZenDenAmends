@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<profession>
+		<license>Bodyguard License</license>
+        <license>Bounty Hunter License</license>
+        <license>Hunting License</license>
+        <license>Locksmith License</license>
+        <license>Matrix Security License</license>
+        <license>Medical License</license>
+        <license>Private Investigator License</license>
+        <license>Ritualist License</license>
+        <license>Security Penetration Testing License</license>
+        <license>Talismonger License</license>
+    </profession>
+    <combat>
+        <license>Concealed Carry Permit</license>
+        <license>Explosives License</license>
+        <license>Restricted Ammunition License</license>
+        <license>Restricted Armor License</license>
+        <license>Restricted Exotic Weapons License</license>
+        <license>Restricted Firearms License</license>
+        <license>Restricted Melee Weapons License</license>
+        <license>Restricted Restricted Projectiles License</license>
+    </combat>
+    <augmentation>
+        <license>Restricted Bioware License</license>
+        <license>Restricted Cyberware License</license>
+        <license>Restricted Geneware License</license>
+        <license>Restricted Nanoware License</license>
+    </augmentation>
+</chummer>
