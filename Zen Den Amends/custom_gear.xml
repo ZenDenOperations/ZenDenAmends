@@ -26,57 +26,57 @@
 	<gears>
 		<!-- More Ammo Stuff -->
 		<gear>
-      			<id>486FE4DD-2878-4D81-877E-20ACF6AB8E88</id>
-      			<name>Ammo: Gyrojet</name>
-      			<category>Ammunition</category>
-      			<rating>0</rating>
-      			<source>SR5</source>
-      			<page>434</page>
-      			<avail>2R</avail>
-      			<cost>40</cost>
-      			<costfor>10</costfor>
-      			<ammoforweapontype>gyrojet</ammoforweapontype>
-    		</gear>
-    		<gear>
-      			<id>30F676EA-F51A-478B-95DB-B696BBE38A1B</id>
-      			<name>Ammo: Gyrojet Plus</name>
-      			<category>Ammunition</category>
-      			<rating>0</rating>
-      			<source>SR5</source>
-      			<page>434</page>
-      			<avail>9F</avail>
-      			<cost>160</cost>
-      			<costfor>10</costfor>
-      			<weaponbonus>
-        		<ap>-1</ap>
-        		<damage>1</damage>
-      			</weaponbonus>
-      			<ammoforweapontype>gyrojet</ammoforweapontype>
-    		</gear>
-	    	<gear>
-		      	<id>46C34D63-CF93-44B1-8D7B-A4DC65EE5760</id>
-		      	<name>Ammo: Gyrojet Tracker, Security Tag</name>
-		      	<category>Ammunition</category>
-		      	<rating>0</rating>
-		      	<source>RG</source>
-		      	<page>55</page>
-		      	<avail>16R</avail>
-		      	<cost>300</cost>
-		      	<costfor>10</costfor>
-		      	<ammoforweapontype>gyrojet</ammoforweapontype>
-	    	</gear>
-	    	<gear>
-		      	<id>1E2A4728-54CA-455D-87BE-18A31295BCE2</id>
-		      	<name>Ammo: Gyrojet Tracker, Stealth Tag</name>
-		      	<category>Ammunition</category>
-		      	<rating>0</rating>
-		     	<source>RG</source>
-		      	<page>55</page>
-		      	<avail>16R</avail>
-		      	<cost>300</cost>
-		      	<costfor>10</costfor>
-		      	<ammoforweapontype>gyrojet</ammoforweapontype>
-	    	</gear>
+			<id>486FE4DD-2878-4D81-877E-20ACF6AB8E88</id>
+			<name>Ammo: Gyrojet</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>SR5</source>
+			<page>434</page>
+			<avail>2R</avail>
+			<cost>40</cost>
+			<costfor>10</costfor>
+			<ammoforweapontype>gyrojet</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>30F676EA-F51A-478B-95DB-B696BBE38A1B</id>
+			<name>Ammo: Gyrojet Plus</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>SR5</source>
+			<page>434</page>
+			<avail>9F</avail>
+			<cost>160</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<ap>-1</ap>
+				<damage>1</damage>
+			</weaponbonus>
+			<ammoforweapontype>gyrojet</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>46C34D63-CF93-44B1-8D7B-A4DC65EE5760</id>
+			<name>Ammo: Gyrojet Tracker, Security Tag</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>RG</source>
+			<page>55</page>
+			<avail>16R</avail>
+			<cost>300</cost>
+			<costfor>10</costfor>
+			<ammoforweapontype>gyrojet</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>1E2A4728-54CA-455D-87BE-18A31295BCE2</id>
+			<name>Ammo: Gyrojet Tracker, Stealth Tag</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>RG</source>
+			<page>55</page>
+			<avail>16R</avail>
+			<cost>300</cost>
+			<costfor>10</costfor>
+			<ammoforweapontype>gyrojet</ammoforweapontype>
+		</gear>
 		<gear>
 			<id>87b2d671-cb70-4e55-99d3-25ab7aa01755</id>
 			<name>Flametosser Fuel</name>
@@ -607,6 +607,92 @@
 					<category>Hacking Programs</category>
 				</usegear>
 			</gears>
+		</gear>
+		<gear>
+			<id>b3038c84-80c5-4de7-8a38-b3112aec4355</id>
+			<name>Fake Profession License</name>
+			<category>ID/Credsticks</category>
+			<rating>6</rating>
+			<source>SR5</source>
+			<page>443</page>
+			<avail>(Rating * 3)F</avail>
+			<bonus>
+				<selecttext xml="licenses.xml" xpath="/chummer/profession/license" allowedit="True" />
+			</bonus>
+			<cost>Rating * 200</cost>
+			<required>
+				<geardetails>
+					<OR>
+						<category>Custom</category>
+						<name>Fake SIN</name>
+						<name>Credstick, Fake (2050)</name>
+						<name>Credstick, Standard (2050)</name>
+					</OR>
+				</geardetails>
+			</required>
+			<allowrename>True</allowrename>
+		</gear>
+		<gear>
+			<id>7fdb0033-6237-43aa-854a-a6064ad062b1</id>
+			<name>Fake Combat License</name>
+			<category>ID/Credsticks</category>
+			<rating>6</rating>
+			<source>SR5</source>
+			<page>443</page>
+			<avail>(Rating * 3)F</avail>
+			<bonus>
+				<selecttext xml="licenses.xml" xpath="/chummer/combat/license" allowedit="True" />
+			</bonus>
+			<cost>Rating * 200</cost>
+			<required>
+				<geardetails>
+					<OR>
+						<category>Custom</category>
+						<name>Fake SIN</name>
+						<name>Credstick, Fake (2050)</name>
+						<name>Credstick, Standard (2050)</name>
+					</OR>
+				</geardetails>
+			</required>
+			<allowrename>True</allowrename>
+		</gear>
+		<gear>
+			<id>055ac5af-8afa-412c-9b9b-d16392f886ad</id>
+			<name>Fake Augmentation License</name>
+			<category>ID/Credsticks</category>
+			<rating>6</rating>
+			<source>SR5</source>
+			<page>443</page>
+			<avail>(Rating * 3)F</avail>
+			<bonus>
+				<selecttext xml="licenses.xml" xpath="/chummer/augmentation/license" allowedit="True" />
+			</bonus>
+			<cost>Rating * 200</cost>
+			<required>
+				<geardetails>
+					<OR>
+						<category>Custom</category>
+						<name>Fake SIN</name>
+						<name>Credstick, Fake (2050)</name>
+						<name>Credstick, Standard (2050)</name>
+					</OR>
+				</geardetails>
+			</required>
+			<allowrename>True</allowrename>
+		</gear>
+		<gear>
+			<id>f14561fe-e0a1-4d72-810f-1eaf89a75d5f</id>
+			<name>Fake Forbidden Permit</name>
+			<category>ID/Credsticks</category>
+			<rating>6</rating>
+			<source>SR5</source>
+			<page>443</page>
+			<avail>(Rating * 5)F</avail>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<cost>Rating * 2000</cost>
+			<allowrename>True</allowrename>
 		</gear>
 	</gears>
 </chummer>
