@@ -1435,5 +1435,13 @@
 			<source>ZDR</source>
 			<page>1</page>
 		</quality>
+		<quality>
+			<id>2ef8c275-dab8-47f7-b67a-e7f1de7be193</id>
+			<name>Lightning Strikes</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+		</quality>
 	</qualities>
 </chummer>
