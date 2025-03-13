@@ -195,6 +195,10 @@
       <name>Crystal Leviathan Shatterstar</name>
       <cost>200000</cost>
     </gear>
+    <gear>
+      <name>Transys Graygul</name>
+      <cost>315898</cost>
+    </gear>
     <!--<gear>
       <name>Allegiance Sigma</name>
       <cost>49500</cost>

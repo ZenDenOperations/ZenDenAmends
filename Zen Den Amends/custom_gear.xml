@@ -694,5 +694,14 @@
 			<cost>Rating * 2000</cost>
 			<allowrename>True</allowrename>
 		</gear>
+		<gear>
+			<id>91c14f4d-426d-4107-8d75-ba3e614cbe27</id>
+			<name>Magnetic Deflection Array</name>
+			<category>Survival Gear</category>
+			<source>LCD</source>
+			<page>208</page>
+			<avail>30F</avail>
+			<cost>100000</cost>
+		</gear>
 	</gears>
 </chummer>
