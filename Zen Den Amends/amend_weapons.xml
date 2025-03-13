@@ -642,5 +642,24 @@
 			<name>Narcoject PEP</name>
 			<ammo>2x10(c) + energy</ammo>
 		</weapon>
+		<weapon>
+			<name>Repeating Laser</name>
+			<useskill>Directed Energy Weapons</useskill>
+			<damage>9P</damage>
+			<cost>35000</cost>
+		</weapon>
+		<weapon>
+			<name>Microwave Gun, High Frequency</name>
+			<useskill>Directed Energy Weapons</useskill>
+			<damage>8P</damage>
+			<ap>-half</ap>
+			<cost>50000</cost>
+		</weapon>
+		<weapon>
+			<name>Microwave Gun, Low Frequency</name>
+			<useskill>Directed Energy Weapons</useskill>
+			<damage>Special</damage>
+			<cost>50000</cost>
+		</weapon>
 	</weapons>
 </chummer>
