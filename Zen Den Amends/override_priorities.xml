@@ -4567,11 +4567,13 @@
           <name>A.I.</name>
           <value>0</value>
           <karma>0</karma>
-            <metavariant>
-              <name>E-Ghost</name>
-              <value>1</value>
-              <karma>0</karma>
-            </metavariant>
+			<metavariants>
+              <metavariant>
+                <name>E-Ghost</name>
+                <value>1</value>
+                <karma>0</karma>
+              </metavariant>
+			</metavariants>
         </metatype>
       </metatypes>
     </priority>
