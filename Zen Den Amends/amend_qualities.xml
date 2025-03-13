@@ -365,6 +365,42 @@
 			<name>Redliner</name>
 			<hide />
 		</quality>
+		<quality>
+			<name>Mystic Foreman</name>
+			<required amendoperation="replace">
+				<allof>
+					<magenabled />
+					<skill>
+						<name>Chemistry</name>
+						<val>4</val>
+					</skill>
+				</allof>
+				<oneof>
+					<skill>
+						<name>Industrial Engineering</name>
+						<val>4</val>
+						<type>Knowledge</type>
+					</skill>
+					<skill>
+						<name>Industrial Mechanic</name>
+						<val>4</val>
+					</skill>
+				</oneof>
+				<oneof>
+					<skill>
+						<name>Spellcasting</name>
+						<val>4</val>
+						<spec>Manipulation</spec>
+					</skill>
+					<skill>
+						<name>Spellcasting</name>
+						<val>6</val>
+					</skill>
+				</oneof>
+			</required>
+			<source>FA</source>
+			<page>38</page>
+		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality>
@@ -2810,7 +2846,7 @@
 				</oneof>
 			</forbidden>
 		</quality>
-				<!-- AI bullshit -->
+		<!-- AI bullshit -->
 		<quality>
 			<name>Chatty</name>
 			<karma>10</karma>
