@@ -1275,25 +1275,35 @@
 			<page>1</page>
 		</quality>
 		<quality>
-			<id>101591a2-80e6-4f9e-87ce-c7184ef64201</id>
-			<name>Emulate Smartlink</name>
-			<karma>5</karma>
-			<doublecareer>False</doublecareer>
-			<category>Positive</category>
-			<bonus>
-				<smartlink>2</smartlink>
-			</bonus>
-			<source>ZDR</source>
-			<page>1</page>
+		  <id>101591a2-80e6-4f9e-87ce-c7184ef64201</id>
+		  <name>Emulate Smartlink</name>
+		  <karma>5</karma>
+		  <doublecareer>False</doublecareer>
+		  <category>Positive</category>
+		  <bonus>
+            <smartlink>2</smartlink>
+  		  </bonus>
+		  <required>
+			<allof>
+			  <resenabled />
+			</allof>
+		  </required>
+		  <source>ZDR</source>
+		  <page>1</page>
 		</quality>
 		<quality>
-			<id>705ee3f9-c2b8-4ded-b3e7-665f617f14ec</id>
-			<name>Emulate Simrig</name>
-			<karma>5</karma>
-			<category>Positive</category>
-			<doublecareer>False</doublecareer>
-			<source>ZDR</source>
-			<page>1</page>
+		  <id>705ee3f9-c2b8-4ded-b3e7-665f617f14ec</id>
+		  <name>Emulate Simrig</name>
+		  <karma>5</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <required>
+			<allof>
+			  <resenabled />
+			</allof>
+		  </required>
+		  <source>ZDR</source>
+		  <page>1</page>
 		</quality>
 		<quality>
 			<id>60ef0147-cc20-4547-ae48-2920d994c9e1</id>
