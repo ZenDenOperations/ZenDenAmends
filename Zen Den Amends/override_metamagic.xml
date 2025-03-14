@@ -19,14 +19,6 @@
 -->
 <chummer>
   <metamagics>
-    <metamagic>
-      <id>bb1431df-c546-4799-8dd4-ec42125f1a47</id>
-      <name>Anchoring</name>
-      <adept>False</adept>
-      <magician>True</magician>
-      <source>SG</source>
-      <page>152</page>
-   </metamagic>
    <metamagic>
       <id>bffb21bd-30d2-4af8-a632-1d10109a1d25</id>
       <name>Advanced Alchemy</name>
