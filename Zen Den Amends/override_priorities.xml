@@ -4956,6 +4956,46 @@
 				</talent>
 			</talents>
 		</priority>
+		<priority>
+			<id>9753a254-94b0-46e8-83f4-e7627bdb8571</id>
+			<name>E - Mundane</name>
+			<value>E</value>
+			<category>Talent</category>
+			<talents>
+				<talent>
+					<name>Mundane</name>
+					<value>Mundane</value>
+					<forbidden>
+						<oneof>
+							<metatype>A.I.</metatype>
+						</oneof>
+					</forbidden>
+				</talent>
+				<talent>
+					<name>A.I. - 1 Depth</name>
+					<value>A.I.</value>
+					<depth>1</depth>
+					<required>
+						<oneof>
+							<metatype>A.I.</metatype>
+						</oneof>
+					</required>
+				</talent>
+				<talent>
+					<name>Aware - 1 Magic</name>
+					<value>Aware</value>
+					<qualities>
+						<quality>Aware</quality>
+					</qualities>
+					<magic>1</magic>
+					<forbidden>
+						<oneof>
+							<metatype>A.I.</metatype>
+						</oneof>
+					</forbidden>
+				</talent>
+			</talents>
+		</priority>
 		<!-- End Region -->
 		<!-- Region Attributes -->
 		<priority>
