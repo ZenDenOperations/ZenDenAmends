@@ -19,66 +19,90 @@
 -->
 <!-- Uses the stats from Hero Lab to define the Ram Plate availability, cost and slots used. -->
 <chummer>
-  <mods>
-    <mod> <!-- Ram Plate -->
-      <id>0f9a2625-5496-4a9f-9e2e-7deddf0a6920</id>
-      <avail>6R</avail>
-      <cost>Body * 250</cost>
-      <slots>2</slots>
-    </mod>
-    <mod> <!-- Gyro-Stabilization -->
-      <id>f89a112e-600a-4278-8731-9b14cf3737c9</id>
-      <page>162</page>
-      <source>R5</source>
-      <avail>8</avail>
-      <category>Powertrain</category>
-      <cost>Body * 1000</cost>
-      <rating>0</rating>
-      <slots>1</slots>
-      <required amendoperation="remove" />
-    </mod>
-    <mod> <!-- Realistic Features (Drone) -->
-      <id>b5b9cd7e-dbb3-42e9-abcd-f805f6a4b10e</id>
-      <cost>Rating * (number(Body = 0) * 500 + Body * 1000)</cost>
-    </mod>
-    <mod> <!-- Duplicate Chameleon Coating -->
-      <id>6a8805ee-2e3b-4010-8671-c196a1c44b51</id>
-      <hide />
-    </mod>
-    <mod> <!-- Duplicate Morphing License Plate -->
-      <id>290ca406-2bd8-496a-9c1e-2b46eb7df4f8</id>
-      <hide />
-    </mod>
-    <mod> <!-- Duplicate Spoof Chips -->
-      <id>d36e13b2-205a-48b6-b423-64a272df3eab</id>
-      <hide />
-    </mod>
-  </mods>
-  <vehicles>
-    <vehicle> <!--Krime runner fix-->
-      <id>6c20873e-12bf-44a0-951a-5f2ffb213e31</id>
-      <category>Drones: Small</category>
-    </vehicle>
-    <vehicle> <!--Kaburaya-->
-      <id>006ea45a-cc35-496c-8d01-94eb64d8febb</id>
-      <accel>4</accel>
-      <cost>8500</cost>
-    </vehicle>
-    <vehicle> <!--Avibras nissan an 822-->
-      <id>c659ace5-1dfb-4eeb-b49d-5867b3153649</id>
-      <accel>3</accel>
-    </vehicle>
-    <vehicle> <!--barco de pesca-->
-      <id>61cb015d-236b-4236-a91a-f8ef3b2842c2</id>
-      <speed>1/4</speed>
-    </vehicle>
-    <vehicle> <!--i8 Interceptor-->
-      <id>45abd151-b3d1-4367-9133-3ff458532172</id>
-      <avail>16R</avail>
-    </vehicle>
-	<vehicle> <!--Ares Venture (LAV)-->
-      <name>Ares Venture (LAV)</name>
-      <avail>12R</avail>
-    </vehicle>
-  </vehicles>
+	<mods>
+		<mod>
+			<!-- Ram Plate -->
+			<id>0f9a2625-5496-4a9f-9e2e-7deddf0a6920</id>
+			<avail>6R</avail>
+			<cost>Body * 250</cost>
+			<slots>2</slots>
+		</mod>
+		<mod>
+			<!-- Gyro-Stabilization -->
+			<id>f89a112e-600a-4278-8731-9b14cf3737c9</id>
+			<page>162</page>
+			<source>R5</source>
+			<avail>8</avail>
+			<category>Powertrain</category>
+			<cost>Body * 1000</cost>
+			<rating>0</rating>
+			<slots>1</slots>
+			<required amendoperation="remove" />
+		</mod>
+		<mod>
+			<!-- Realistic Features (Drone) -->
+			<id>b5b9cd7e-dbb3-42e9-abcd-f805f6a4b10e</id>
+			<cost>Rating * (number(Body = 0) * 500 + Body * 1000)</cost>
+		</mod>
+		<mod>
+			<!-- Duplicate Chameleon Coating -->
+			<id>6a8805ee-2e3b-4010-8671-c196a1c44b51</id>
+			<hide />
+		</mod>
+		<mod>
+			<!-- Duplicate Morphing License Plate -->
+			<id>290ca406-2bd8-496a-9c1e-2b46eb7df4f8</id>
+			<hide />
+		</mod>
+		<mod>
+			<!-- Duplicate Spoof Chips -->
+			<id>d36e13b2-205a-48b6-b423-64a272df3eab</id>
+			<hide />
+		</mod>
+	</mods>
+	<vehicles>
+		<vehicle>
+			<!--Krime runner fix-->
+			<id>6c20873e-12bf-44a0-951a-5f2ffb213e31</id>
+			<category>Drones: Small</category>
+		</vehicle>
+		<vehicle>
+			<!--Kaburaya-->
+			<id>006ea45a-cc35-496c-8d01-94eb64d8febb</id>
+			<accel>4</accel>
+			<cost>8500</cost>
+		</vehicle>
+		<vehicle>
+			<!--Avibras nissan an 822-->
+			<id>c659ace5-1dfb-4eeb-b49d-5867b3153649</id>
+			<accel>3</accel>
+		</vehicle>
+		<vehicle>
+			<!--barco de pesca-->
+			<id>61cb015d-236b-4236-a91a-f8ef3b2842c2</id>
+			<speed>1/4</speed>
+		</vehicle>
+		<vehicle>
+			<!--i8 Interceptor-->
+			<id>45abd151-b3d1-4367-9133-3ff458532172</id>
+			<avail>16R</avail>
+		</vehicle>
+		<vehicle>
+			<!--Ares Venture (LAV)-->
+			<name>Ares Venture (LAV)</name>
+			<avail>12R</avail>
+		</vehicle>
+		<vehicle>
+			<name>GMC Banshee (Thunderbird)</name>
+			<cost>1300000</cost>
+		</vehicle>
+		<vehicle>
+			<name>GMC Gryphon</name>
+			<cost>1700000</cost>
+		</vehicle>
+		<vehicle>
+			<name>Evo-Krime Krime Wing</name>
+			<cost>1200000</cost>
+		</vehicle>
+	</vehicles>
 </chummer>
