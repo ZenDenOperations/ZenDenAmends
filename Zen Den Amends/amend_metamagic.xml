@@ -1,76 +1,69 @@
 <chummer>
 	<metamagics>
-		<metamagic><!-- Taint -->
+		<metamagic>
+			<!-- Taint -->
 			<name>Taint</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Corruption -->
+		<metamagic>
+			<!-- Corruption -->
 			<name>Corruption</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Sacrifice -->
-			<name>Sacrifice</name>
-			<hide />
-		</metamagic>
-		<metamagic><!-- Power Bleed -->
-			<name>Power Bleed</name>
-			<hide />
-		</metamagic>
-		<metamagic><!-- Cannibalize -->
-			<name>Cannibalize</name>
-			<hide />
-		</metamagic>
-		<metamagic><!-- Paradigm Shift: Insect Shaman -->
+		<metamagic>
+			<!-- Paradigm Shift: Insect Shaman -->
 			<name>Paradigm Shift: Insect Shaman</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Paradigm Shift: Toxic -->
+		<metamagic>
+			<!-- Paradigm Shift: Toxic -->
 			<name>Paradigm Shift: Toxic</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Spirit Expansion: Shedim -->
+		<metamagic>
+			<!-- Spirit Expansion: Shedim -->
 			<name>Spirit Expansion: Shedim</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Noble Sacrifice -->
+		<metamagic>
+			<!-- Noble Sacrifice -->
 			<name>Noble Sacrifice</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Predator Feast -->
+		<metamagic>
+			<!-- Predator Feast -->
 			<name>Predator Feast</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Soul Tether -->
+		<metamagic>
+			<!-- Soul Tether -->
 			<name>Soul Tether</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Spiritual Sacrifice -->
+		<metamagic>
+			<!-- Spiritual Sacrifice -->
 			<name>Spiritual Sacrifice</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Echo Binding -->
+		<metamagic>
+			<!-- Echo Binding -->
 			<name>Echo Binding</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Reckless Necro Conjuring --> 
+		<metamagic>
+			<!-- Reckless Necro Conjuring -->
 			<name>Reckless Necro Conjuring</name>
 			<hide />
 		</metamagic>
-		<metamagic><!-- Harmonious Defense -->
-		  <name>Harmonious Defense</name>
-		  <required>
-			<allof>
-			  <martialart>Way of Unified Mana (Hapsum-Do)</martialart>
-			  <quality>Adept</quality>
-			</allof>
-		  </required>
-		</metamagic>	
+		<metamagic>
+			<!-- Harmonious Defense -->
+			<name>Harmonious Defense</name>
+			<required>
+				<allof>
+					<martialart>Way of Unified Mana (Hapsum-Do)</martialart>
+					<quality>Adept</quality>
+				</allof>
+			</required>
+		</metamagic>
 	</metamagics>
-	<arts>
-		<art>
-			<!-- Blood Magic -->
-			<name>Blood Magic</name>
-			<hide />
-		</art>
-	</arts>
 </chummer>
