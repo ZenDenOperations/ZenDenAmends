@@ -2640,7 +2640,6 @@
 					<name>critter</name>
 				</enabletab>
 				<limitcritterpowercategory>Drake</limitcritterpowercategory>
-				<unlockskills>Breath</unlockskills>
 				<specificattribute>
 					<name>BOD</name>
 					<min>1</min>
@@ -2691,7 +2690,6 @@
 					<name>critter</name>
 				</enabletab>
 				<limitcritterpowercategory>Drake</limitcritterpowercategory>
-				<unlockskills>Breath</unlockskills>
 				<specificattribute>
 					<name>BOD</name>
 					<min>2</min>
@@ -2737,7 +2735,6 @@
 					<name>critter</name>
 				</enabletab>
 				<limitcritterpowercategory>Drake</limitcritterpowercategory>
-				<unlockskills>Breath</unlockskills>
 				<specificattribute>
 					<name>BOD</name>
 					<min>1</min>
@@ -2793,7 +2790,6 @@
 					<name>critter</name>
 				</enabletab>
 				<limitcritterpowercategory>Drake</limitcritterpowercategory>
-				<unlockskills>Breath</unlockskills>
 				<specificattribute>
 					<name>BOD</name>
 					<min>1</min>
