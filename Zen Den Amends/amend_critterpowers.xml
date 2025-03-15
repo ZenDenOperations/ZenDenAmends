@@ -81,7 +81,7 @@
           <reach>0</reach>
           <damage>Special</damage>
           <ap>0</ap>
-          <useskill>Breath</useskill>
+          <useskill>Unarmed</useskill>
           <accuracy>Physical</accuracy>
           <source>HS</source>
           <page>164</page>
@@ -100,7 +100,7 @@
           <reach>0</reach>
           <damage>Special</damage>
           <ap>0</ap>
-          <useskill>Breath</useskill>
+          <useskill>Spray Weapons</useskill>
           <accuracy>Physical</accuracy>
           <source>HS</source>
           <page>163</page>
@@ -116,7 +116,7 @@
           <reach>0</reach>
           <damage>({MAG}*2)P</damage>
           <ap>-({MAG})</ap>
-          <useskill>Breath</useskill>
+          <useskill>Spray Weapons</useskill>
           <accuracy>Physical</accuracy>
           <source>HS</source>
           <page>163</page>
