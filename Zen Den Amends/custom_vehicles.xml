@@ -421,28 +421,13 @@
       </gears>
       <mods>
         <name>Drone Arm</name>
-          <subsystems>
-            <cyberware>
-              <name rating="8">Customized Agility</name>
-            </cyberware>
-            <cyberware>
-              <name rating="9">Customized Strength</name>
-            </cyberware>
-          </subsystems>
         <name>Drone Arm</name>
-          <subsystems>
-            <cyberware>
-              <name rating="8">Customized Agility</name>
-            </cyberware>
-            <cyberware>
-              <name rating="9">Customized Strength</name>
-            </cyberware>
-          </subsystems>
         <name rating="3">Signature Masking</name>
         <name rating="2">Life Support</name>
         <name>Rigger Interface</name>
         <name>Suncell</name>
       </mods>
+      <notes>The Shadowdancer's Drone Arms have Agility 8 and Strength 9.</notes>
     </vehicle>
   </vehicles>
   <mods>
