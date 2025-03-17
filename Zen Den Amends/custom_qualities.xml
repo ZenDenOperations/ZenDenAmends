@@ -1461,5 +1461,27 @@
 				</oneof>
 			</required>
 		</quality>
+		<quality>
+			<id>c945df8e-0bf6-447c-a0cb-6c5eff8dfbd8</id>
+			<name>Cyberadept Resonance Restored</name>
+			<limit>6</limit>
+			<karma>0</karma>
+			<doublecareer>False</doublecareer>
+			<category>Positive</category>
+			<source>ZDR</source>
+			<page>1</page>
+			<required>
+				<oneof>
+					<quality>Resonant Stream: Cyberadept</quality>
+				</oneof>
+			</required>
+			<bonus>
+				<specificattribute>
+					<name>RES</name>
+					<aug>Rating</aug>
+					<val>Rating</val>
+				</specificattribute>
+			</bonus>
+		</quality>
 	</qualities>
 </chummer>
