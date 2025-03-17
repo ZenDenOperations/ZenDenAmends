@@ -356,5 +356,9 @@
 			<name>Ammo: Fuel Canister</name>
 			<avail>12F</avail>
 		</gear>
+		<gear>
+			<name>Crazy-Repeller</name>
+			<hide />
+		</gear>
 	</gears>
 </chummer>
