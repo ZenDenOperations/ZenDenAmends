@@ -1483,5 +1483,27 @@
 				</specificattribute>
 			</bonus>
 		</quality>
+		<quality>
+			<!-- Critter Magnet -->
+			<id>9fdc08e8-d9a0-40b2-94ce-cc08f85a01b8</id>
+			<name>Critter Magnet</name>
+			<karma>-6</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<specificskill>
+				  <name>Animal Handling</name>
+				  <bonus>2</bonus>
+				</specificskill>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<name>Critter Spook</name>
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Non Hostile Critters in 10 meters follow you for 10 5d6 minutes, giving up to -3 to physical and appropriate social tests</notes>
+		</quality>
 	</qualities>
 </chummer>
