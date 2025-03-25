@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--This file is part of Chummer5a.
 
     Chummer5a is free software: you can redistribute it and/or modify
@@ -17,15 +17,32 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
-<chummer>
-  <metamagics>
-   <metamagic>
-      <id>bffb21bd-30d2-4af8-a632-1d10109a1d25</id>
-      <name>Advanced Alchemy</name>
-      <adept>False</adept>
-      <magician>True</magician>
-      <source>SG</source>
-      <page>153</page>
-    </metamagic>
-  </metamagics>
+<chummer
+	xmlns=""
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema metamagic.xsd">
+	<metamagics>
+		<!-- Ally Spirit Metamagic for all -->
+		<metamagic>
+			<id>100e8eaf-08cb-42b5-a10f-336c5d780217</id>
+			<name>Ally Spirit</name>
+			<adept>True</adept>
+			<magician>True</magician>
+			<source>SG</source>
+			<page>200</page>
+			<forbidden>
+				<oneof>
+					<quality>Magician</quality>
+					<skill>
+						<name>Binding</name>
+						<val>1</val>
+					</skill>
+					<skill>
+						<name>Summoning</name>
+						<val>1</val>
+					</skill>
+				</oneof>
+			</forbidden>
+		</metamagic>
+	</metamagics>
 </chummer>

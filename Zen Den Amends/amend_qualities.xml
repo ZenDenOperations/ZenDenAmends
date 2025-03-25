@@ -2640,7 +2640,6 @@
 					<name>critter</name>
 				</enabletab>
 				<limitcritterpowercategory>Drake</limitcritterpowercategory>
-				<unlockskills>Breath</unlockskills>
 				<specificattribute>
 					<name>BOD</name>
 					<min>1</min>
@@ -2691,7 +2690,6 @@
 					<name>critter</name>
 				</enabletab>
 				<limitcritterpowercategory>Drake</limitcritterpowercategory>
-				<unlockskills>Breath</unlockskills>
 				<specificattribute>
 					<name>BOD</name>
 					<min>2</min>
@@ -2737,7 +2735,6 @@
 					<name>critter</name>
 				</enabletab>
 				<limitcritterpowercategory>Drake</limitcritterpowercategory>
-				<unlockskills>Breath</unlockskills>
 				<specificattribute>
 					<name>BOD</name>
 					<min>1</min>
@@ -2793,7 +2790,6 @@
 					<name>critter</name>
 				</enabletab>
 				<limitcritterpowercategory>Drake</limitcritterpowercategory>
-				<unlockskills>Breath</unlockskills>
 				<specificattribute>
 					<name>BOD</name>
 					<min>1</min>
@@ -2885,6 +2881,31 @@
 			<name>Fragmentation</name>
 			<karma>-15</karma>
 			<limit>6</limit>
+		</quality>
+		<quality>
+			<name>Resonant Stream: Cyberadept</name>
+			<amendoperation="replace">
+				<specificskill>
+					<name>Compiling</name>
+					<bonus>2</bonus>
+					<condition>Fault Sprite</condition>
+				</specificskill>
+				<specificskill>
+					<name>Compiling</name>
+					<bonus>2</bonus>
+					<condition>Companion Sprite</condition>
+				</specificskill>
+				<specificskill>
+					<name>Decompiling</name>
+					<bonus>2</bonus>
+					<condition>Fault Sprite</condition>
+				</specificskill>
+				<specificskill>
+					<name>Decompiling</name>
+					<bonus>2</bonus>
+					<condition>Companion Sprite</condition>
+				</specificskill>
+			</bonus>
 		</quality>
 	</qualities>
 </chummer>

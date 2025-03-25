@@ -115,4 +115,135 @@
 			<points>0.25</points>
 		</power>
 	</powers>
+	<enhancements>
+		<enhancement>
+			<name>Air Walking</name>
+			<required amendoperation="replace">
+				<allof>
+					<power>Light Body</power>
+				</allof>
+				<oneof>
+					<quality>The Athlete's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+		<enhancement>
+			<name>Pied Piper</name>
+			<required amendoperation="replace">
+				<oneof>
+					<quality>The Artist's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+		<enhancement>
+			<name>Skin Artist</name>
+			<required amendoperation="replace">
+				<allof>
+					<power>Melanin Control</power>
+				</allof>
+				<oneof>
+					<quality>The Artist's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+		<enhancement>
+			<name>Claws</name>
+			<required amendoperation="replace">
+				<allof>
+					<power>Keratin Control</power>
+				</allof>
+				<oneof>
+					<quality>The Beast's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+		<enhancement>
+			<name>Hot Qi</name>
+			<required amendoperation="replace">
+				<allof>
+					<power>Living Focus</power>
+				</allof>
+				<oneof>
+					<quality>The Burnout's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+		<enhancement>
+			<name>Shadow Touch</name>
+			<required amendoperation="replace">
+				<allof>
+					<power>Traceless Walk</power>
+				</allof>
+				<oneof>
+					<quality>The Invisible Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+		<enhancement>
+			<name>Digital Celerity</name>
+			<required amendoperation="replace">
+				<allof>
+					<power>Nimble Fingers</power>
+				</allof>
+				<oneof>
+					<quality>The Magician's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+		<enhancement>
+			<name>Master of the Nine Chakras</name>
+			<required amendoperation="replace">
+				<allof>
+					<power>Nerve Strike</power>
+				</allof>
+				<oneof>
+					<quality>The Magician's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+		<enhancement>
+			<name>Silver-Tongued Devil</name>
+			<required amendoperation="replace">
+				<allof>
+					<power>Commanding Voice</power>
+				</allof>
+				<oneof>
+					<quality>The Speaker's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+		<enhancement>
+			<name>Barrage</name>
+			<required amendoperation="replace">
+				<allof>
+					<power>Missile Mastery</power>
+				</allof>
+				<oneof>
+					<quality>The Warrior's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+		<enhancement>
+			<name>Master of Taijiquan</name>
+			<required amendoperation="replace">
+				<allof>
+					<power>Counterstrike</power>
+				</allof>
+				<oneof>
+					<quality>The Warrior's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+			</required>
+		</enhancement>
+	</enhancements>
 </chummer>

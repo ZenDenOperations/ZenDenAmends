@@ -191,19 +191,19 @@
 		<!--  Chainsaws -->
 		<weapon>
 			<name>Ash Arms Combat Chainsaw</name>
-			<useskill>Chainsaws</useskill>
+			<useskill>Blades</useskill>
 		</weapon>
 		<weapon>
 			<name>Ash Arms Monofilament Chainsaw</name>
-			<useskill>Chainsaws</useskill>
+			<useskill>Blades</useskill>
 		</weapon>
 		<weapon>
 			<name>Monofilament Chainsaw</name>
-			<useskill>Chainsaws</useskill>
+			<useskill>Blades</useskill>
 		</weapon>
 		<weapon>
 			<name>Underbarrel Chainsaw</name>
-			<useskill>Chainsaws</useskill>
+			<useskill>Blades</useskill>
 		</weapon>
 		<!--  Directed Energy Weapons -->
 		<weapon>
@@ -233,11 +233,11 @@
 		<!--  Flame Weapons -->
 		<weapon>
 			<name>Flame Bracer</name>
-			<useskill>Flame Weapons</useskill>
+			<useskill>Spray Weapons</useskill>
 		</weapon>
 		<weapon>
 			<name>Halloweener Barbecue Lighter</name>
-			<useskill>Flame Weapons</useskill>
+			<useskill>Spray Weapons</useskill>
 			<accessorymounts amendoperation="Append">
 				<mount>Top</mount>
 				<mount>Side</mount>
@@ -246,7 +246,7 @@
 		</weapon>
 		<weapon>
 			<name>Shiawase Arms Incinerator</name>
-			<useskill>Flame Weapons</useskill>
+			<useskill>Spray Weapons</useskill>
 			<accessorymounts amendoperation="Append">
 				<mount>Top</mount>
 				<mount>Side</mount>
@@ -255,7 +255,7 @@
 		</weapon>
 		<weapon>
 			<name>Shiawase Blazer</name>
-			<useskill>Flame Weapons</useskill>
+			<useskill>Spray Weapons</useskill>
 			<accessorymounts amendoperation="Append">
 				<mount>Top</mount>
 				<mount>Side</mount>
@@ -264,12 +264,12 @@
 		</weapon>
 		<weapon>
 			<name>Underbarrel Flamethrower</name>
-			<useskill>Flame Weapons</useskill>
+			<useskill>Spray Weapons</useskill>
 		</weapon>
 		<!--  Lasers -->
 		<weapon>
 			<name>Ares Archon Heavy MP Laser</name>
-			<useskill>Lasers</useskill>
+			<useskill>Directed Energy Weapons</useskill>
 			<damage>12P</damage>
 			<accessorymounts amendoperation="Append">
 				<mount>Top</mount>
@@ -280,7 +280,7 @@
 		</weapon>
 		<weapon>
 			<name>Ares Armatus</name>
-			<useskill>Lasers</useskill>
+			<useskill>Directed Energy Weapons</useskill>
 			<damage>8P</damage>
 			<accessorymounts amendoperation="Append">
 				<mount>Top</mount>
@@ -291,7 +291,7 @@
 		</weapon>
 		<weapon>
 			<name>Ares Lancer MP Laser</name>
-			<useskill>Lasers</useskill>
+			<useskill>Directed Energy Weapons</useskill>
 			<damage>9P</damage>
 			<accessorymounts amendoperation="Append">
 				<mount>Top</mount>
@@ -302,7 +302,7 @@
 		</weapon>
 		<weapon>
 			<name>Ares Redline</name>
-			<useskill>Lasers</useskill>
+			<useskill>Directed Energy Weapons</useskill>
 			<damage>7P</damage>
 			<accessorymounts amendoperation="Append">
 				<mount>Top</mount>
@@ -312,7 +312,7 @@
 		</weapon>
 		<weapon>
 			<name>Underbarrel Laser</name>
-			<useskill>Lasers</useskill>
+			<useskill>Directed Energy Weapons</useskill>
 			<damage>7P</damage>
 		</weapon>
 		<!--  Monofilament Weapons -->
@@ -335,7 +335,7 @@
 		<!--  Spray Guns -->
 		<weapon>
 			<name>Ares S-III Super Squirt</name>
-			<useskill>Spray Guns</useskill>
+			<useskill>Spray Weapons</useskill>
 			<accessorymounts amendoperation="Append">
 				<mount>Top</mount>
 				<mount>Underbarrel</mount>
@@ -345,11 +345,11 @@
 		</weapon>
 		<weapon>
 			<name>Modified Spray Pen</name>
-			<useskill>Spray Guns</useskill>
+			<useskill>Spray Weapons</useskill>
 		</weapon>
 		<weapon>
 			<name>Narcoject Gas Gun</name>
-			<useskill>Spray Guns</useskill>
+			<useskill>Spray Weapons</useskill>
 			<accessorymounts amendoperation="Append">
 				<mount>Top</mount>
 				<mount>Side</mount>
@@ -358,7 +358,7 @@
 		</weapon>
 		<weapon>
 			<name>Narcoject Trackstopper</name>
-			<useskill>Spray Guns</useskill>
+			<useskill>Spray Weapons</useskill>
 			<accessorymounts amendoperation="Append">
 				<mount>Top</mount>
 				<mount>Side</mount>
@@ -367,11 +367,11 @@
 		</weapon>
 		<weapon>
 			<name>Pepper Punch Pen</name>
-			<useskill>Spray Guns</useskill>
+			<useskill>Spray Weapons</useskill>
 		</weapon>
 		<weapon>
 			<name>Hold-Fast Sprayer</name>
-			<useskill>Spray Guns</useskill>
+			<useskill>Spray Weapons</useskill>
 		</weapon>
 		<!--  Archery -->
 		<weapon>

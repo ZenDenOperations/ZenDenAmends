@@ -396,6 +396,39 @@
       </gears>
       <seats>6</seats>
     </vehicle>
+    <vehicle>
+      <id>ae157cb7-0bfa-418f-92fe-d0dce4d77c1c</id>
+      <name>Ares Shadowdancer Armor</name>
+      <page>1</page>
+      <source>ZDR</source>
+      <accel>2</accel>
+      <armor>18</armor>
+      <avail>24F</avail>
+      <body>6</body>
+      <category>Corpsec/Police/Military</category>
+      <cost>231000</cost>
+      <handling>3</handling>
+      <pilot>1</pilot>
+      <seats>1</seats>
+      <sensor>4</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>4</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Drone Arm</name>
+        <name>Drone Arm</name>
+        <name rating="3">Signature Masking</name>
+        <name rating="2">Life Support</name>
+        <name>Rigger Interface</name>
+        <name>Suncell</name>
+      </mods>
+      <notes>The Shadowdancer's Drone Arms have Agility 8 and Strength 9.</notes>
+    </vehicle>
   </vehicles>
   <mods>
     <mod>
