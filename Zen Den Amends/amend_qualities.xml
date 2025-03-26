@@ -2884,7 +2884,7 @@
 		</quality>
 		<quality>
 			<name>Resonant Stream: Cyberadept</name>
-			<amendoperation="replace">
+			<bonus amendoperation="replace">
 				<specificskill>
 					<name>Compiling</name>
 					<bonus>2</bonus>
