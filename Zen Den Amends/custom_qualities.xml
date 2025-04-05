@@ -1074,9 +1074,9 @@
 			<page>1</page>
 		</quality>
 		<quality>
-			<!-- Ware Overdriver -->
+			<!-- 'Ware Overdriver -->
 			<id>7050aca7-9882-4913-aba8-2e8da6b1c4b0</id>
-			<name>Ware Overdriver</name>
+			<name>'Ware Overdriver</name>
 			<karma>10</karma>
 			<category>Positive</category>
 			<bonus />
@@ -1444,6 +1444,14 @@
 			</bonus>
 			<source>ZDR</source>
 			<page>1</page>
+		</quality>
+		<quality>
+			<id>2ef8c275-dab8-47f7-b67a-e7f1de7be193</id>
+			<name>Lightning Strikes</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
 		</quality>
 		<quality>
 			<id>c7db2317-bd32-4e9a-9f76-a26c7b8e87c6</id>
