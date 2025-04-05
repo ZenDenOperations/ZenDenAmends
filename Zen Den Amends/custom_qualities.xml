@@ -1452,6 +1452,8 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
 		</quality>
 		<quality>
 			<id>c7db2317-bd32-4e9a-9f76-a26c7b8e87c6</id>
