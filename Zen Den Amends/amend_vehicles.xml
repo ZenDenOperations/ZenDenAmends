@@ -104,5 +104,8 @@
 			<name>Evo-Krime Krime Wing</name>
 			<cost>1200000</cost>
 		</vehicle>
+		<vehicle xpathfilter="contains(name,'corporate')">
+			<hide />
+		</vehicle>
 	</vehicles>
 </chummer>

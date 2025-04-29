@@ -1074,9 +1074,9 @@
 			<page>1</page>
 		</quality>
 		<quality>
-			<!-- Ware Overdriver -->
+			<!-- 'Ware Overdriver -->
 			<id>7050aca7-9882-4913-aba8-2e8da6b1c4b0</id>
-			<name>Ware Overdriver</name>
+			<name>'Ware Overdriver</name>
 			<karma>10</karma>
 			<category>Positive</category>
 			<bonus />
@@ -1446,6 +1446,16 @@
 			<page>1</page>
 		</quality>
 		<quality>
+			<id>2ef8c275-dab8-47f7-b67a-e7f1de7be193</id>
+			<name>Lightning Strikes</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
 			<id>c7db2317-bd32-4e9a-9f76-a26c7b8e87c6</id>
 			<name>Dilettante</name>
 			<limit>99</limit>
@@ -1482,6 +1492,28 @@
 					<val>Rating</val>
 				</specificattribute>
 			</bonus>
+		</quality>
+		<quality>
+			<!-- Critter Magnet -->
+			<id>9fdc08e8-d9a0-40b2-94ce-cc08f85a01b8</id>
+			<name>Critter Magnet</name>
+			<karma>-6</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<bonus>
+				<specificskill>
+				  <name>Animal Handling</name>
+				  <bonus>2</bonus>
+				</specificskill>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<name>Critter Spook</name>
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Non Hostile Critters in 10 meters follow you for 10 5d6 minutes, giving up to -3 to physical and appropriate social tests</notes>
 		</quality>
 	</qualities>
 </chummer>
