@@ -2028,7 +2028,7 @@
 					<metatype>Troll</metatype>
 				</allof>
 				<oneof>
-					<quality>Magician</quality>
+					<quality>Adept</quality>
 					<quality>Mystic Adept</quality>
 				</oneof>
 			</required>
