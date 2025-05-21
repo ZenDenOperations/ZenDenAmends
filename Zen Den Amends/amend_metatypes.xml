@@ -68,7 +68,7 @@
       </bonus>
       <qualities>
             <negative>
-              <quality removable="True">'Ware Intolerance</quality>
+              <quality amendoperation="addnode" removable="True">'Ware Intolerance</quality>
             </negative>
           </qualities>
     </metatype>
