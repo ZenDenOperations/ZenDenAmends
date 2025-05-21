@@ -18,56 +18,64 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-  <traditions>
-	<tradition>
-      <name>Black Magic [Alt]</name>
-	  <hide />
-    </tradition>
-	<tradition>
-      <name>Buddhism [Traditionalist]</name>
-	  <hide />
-    </tradition>
-	<tradition>
-      <name>Christian Theurgy [Vigila Evangelica]</name>
-	  <hide />
-    </tradition>
-	<tradition>
-      <name>Christian Theurgy [Westphalian]</name>
-	  <hide />
-    </tradition>
-	<tradition>
-      <id>9394d173-eee7-4e5a-b520-edfdfac3cf8b</id>
-	  <hide />
-    </tradition>
-	<tradition>
-      <name>Draconic</name>
-	  <hide />
-    </tradition>
-	<tradition>
-      <name>Islam [Licit Qur'anic]</name>
-	  <hide />
-    </tradition>
-    <tradition>
-      <name>Islam [Islamic Alchemist]</name>
-      <bonus>
-        <skilldisable>Ritual Spellcasting</skilldisable>
-        <skilldisable>Spellcasting</skilldisable>
-        <metamagiclimit>
-          <metamagic grade="1">Fixation</metamagic>
-          <metamagic grade="2">Advanced Alchemy</metamagic>
-        </metamagiclimit>
-      </bonus>
-    </tradition>
-    <tradition>
-      <name>Pariah</name>
-      <drain>{WIL} + {LOG}</drain>
-      <metamagiclimit>
-        <metamagic grade="2">Reflection</metamagic>
-      </metamagiclimit>
-    </tradition>
-	<tradition>
-      <name>Romani</name>
-	  <hide />
-    </tradition>  
-  </traditions>
+	<traditions>
+		<tradition>
+			<name>Black Magic [Alt]</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Norse [Godi/Runemaster]</name>
+			<bonus>
+				<addqualities>
+					<addquality forced="True">Durable Preparations</addquality>
+				</addqualities>
+			</bonus>
+		</tradition>
+		<tradition>
+			<name>Buddhism [Traditionalist]</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Christian Theurgy [Vigila Evangelica]</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Christian Theurgy [Westphalian]</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<id>9394d173-eee7-4e5a-b520-edfdfac3cf8b</id>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Draconic</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Islam [Licit Qur'anic]</name>
+			<hide />
+		</tradition>
+		<tradition>
+			<name>Islam [Islamic Alchemist]</name>
+			<bonus>
+				<skilldisable>Ritual Spellcasting</skilldisable>
+				<skilldisable>Spellcasting</skilldisable>
+				<metamagiclimit>
+					<metamagic grade="1">Fixation</metamagic>
+					<metamagic grade="2">Advanced Alchemy</metamagic>
+				</metamagiclimit>
+			</bonus>
+		</tradition>
+		<tradition>
+			<name>Pariah</name>
+			<drain>{WIL} + {LOG}</drain>
+			<metamagiclimit>
+				<metamagic grade="2">Reflection</metamagic>
+			</metamagiclimit>
+		</tradition>
+		<tradition>
+			<name>Romani</name>
+			<hide />
+		</tradition>
+	</traditions>
 </chummer>
