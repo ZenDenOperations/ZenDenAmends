@@ -18,7 +18,9 @@
     https://github.com/chummer5a/chummer5a
 -->
 
-<!-- Everything here is to address our rule that allows Aspected to break the quality limit at chargen with Mastery qualities. --><chummer>
+<!-- Everything here is to address our rule that allows Aspected to break the quality limit at chargen with Mastery qualities. -->
+
+<chummer>
 	<qualities>
 		<quality>
 			<id>dcba5a01-849b-412c-83ba-f0ac5aa46e71</id>
