@@ -630,5 +630,24 @@
 			<hide />
 			<limbslot>leg</limbslot>
 		</cyberware>
+		<cyberware>
+			<id>4b8eddec-d0a8-454f-8afd-fb6f00dc662c</id>
+			<name>Commlink</name>
+			<limit>False</limit>
+			<category>Headware</category>
+			<ess>0.2</ess>
+			<capacity>2</capacity>
+			<avail>0</avail>
+			<cost>2000</cost>
+			<source>SR5</source>
+			<page>451</page>
+			<allowgear>
+				<gearcategory>Commlinks</gearcategory>
+			</allowgear>
+			<bannedwaregrades>
+				<grade>Greyware</grade>
+				<grade>Greyware (Adapsin)</grade>
+			</bannedwaregrades>
+		</cyberware>
 	</cyberwares>
 </chummer>
