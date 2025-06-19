@@ -21,8 +21,8 @@
 <chummer>
 	<skillgroups>
 		<name amendoperation="addnode">Piloting</name>
-    <name amendoperation="addnode">Thievery</name>
-    <name amendoperation="addnode">Fabricating</name>
+    	<name amendoperation="addnode">Thievery</name>
+    	<name amendoperation="addnode">Fabricating</name>
 	</skillgroups>
 	<skills>
 		<skill>
