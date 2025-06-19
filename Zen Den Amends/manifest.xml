@@ -19,7 +19,7 @@
 -->
 <manifest xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ../manifest.xsd">
   <guid>6bcce4e0-6ae0-4c7d-b6c8-912606db090d</guid>
-  <version>11.6</version>
+  <version>12.0</version>
   <authors>
     <author>
       <name>Zen Den Gurus</name>
@@ -28,7 +28,7 @@
   </authors>
   <descriptions>
     <description>
-      <text>This custom data file contains the house rules of the Zen Den. Special thanks to the following contributors: EfimEvgen, Teksura</text>
+      <text>This custom data file contains the house rules of the Zen Den. Special thanks to the following contributors: EfimEvgen, Teksura, EmmjayXII, JDub-76</text>
       <lang>en-us</lang>
     </description>
   </descriptions>
