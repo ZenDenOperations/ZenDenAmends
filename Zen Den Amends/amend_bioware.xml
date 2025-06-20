@@ -107,5 +107,12 @@
       <name>Horns</name>
       <ess>0</ess>
     </bioware>
+    <bioware>
+      <name>Synaptic Booster</name>
+      <bonus>
+	<disablequality amendoperation="remove">3564b678-7721-4a8d-ac79-1600cf92dc14</disablequality>
+	<initiativepass amendoperation="replace">Rating</initiativepass>
+      </bonus>
+    </bioware>
   </biowares>
 </chummer>
