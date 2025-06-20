@@ -726,5 +726,64 @@
       <source>ZDR</source>
       <page>0</page>
     </bioware>
+    <bioware>
+      <id>76D1365C-932F-4055-960E-B66E2EEE3908</id>
+      <name>Dareadrenaline II</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>18</avail>
+      <cost>35000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>WIL</name>
+          <val>1</val>
+        </specificattribute>
+		<conditionmonitor>
+          <stun>1</stun>
+        </conditionmonitor>
+        <skilllinkedattribute>
+          <name>MAG</name>
+          <bonus>-1</bonus>
+        </skilllinkedattribute>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <required>
+        <oneof>
+          <bioware>Dareadrenaline</bioware>
+        </oneof>
+      </required>
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
+    <bioware>
+      <id>922B10C8-5FA3-4228-B6F6-D47C22D4A34C</id>
+      <name>NeoElastian</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>12</avail>
+      <cost>30000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>BOD</name>
+          <val>1</val>
+        </specificattribute>
+		<conditionmonitor>
+          <physical>1</physical>
+        </conditionmonitor>
+      </bonus>
+      <required>
+        <oneof>
+          <bioware>Double Elastin</bioware>
+        </oneof>
+      </required>
+      <source>ZDR</source>
+      <page>0</page>
+    </bioware>
   </biowares>
 </chummer>
