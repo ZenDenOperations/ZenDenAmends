@@ -59,6 +59,23 @@
 			<id>d36e13b2-205a-48b6-b423-64a272df3eab</id>
 			<hide />
 		</mod>
+		<mod>
+			<!-- 6e Gliding System  -->
+			<id>fd32b5eb-c791-4117-a9fe-5d5d86952827</id>
+			<name>Glide Package</name>
+			      <avail>6</avail>
+       <cost>number(Body = 0) * 1000 + Body * 2000</cost>
+      <slots>4</slots>
+		</mod>
+
+				<mod>
+			<!-- 6e Rocket Booster  -->
+			<id>95c6e249-c82f-4a9b-87ae-d438b4042990</id>
+      <cost>number(Body = 0) * 3000 + Body * 6000</cost>
+      <rating>0</rating>
+      <slots>6</slots>
+		</mod>
+
 	</mods>
 	<vehicles>
 		<vehicle>
