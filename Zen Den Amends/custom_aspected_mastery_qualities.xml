@@ -1,3 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+
+<!-- Everything here is to address our rule that allows Aspected to break the quality limit at chargen with Mastery qualities. -->
 <chummer>
   <qualities>
     <quality>
@@ -688,7 +709,7 @@
     </quality>
     <quality>
       <id>627e5803-d8dc-46f5-a0d4-a372b97a5b04</id>
-      <name>Dedicated Conjurer</name>
+      <name>Dedicated Conjurer (Aspected)</name>
       <karma>10</karma>
       <category>Positive</category>
       <contributetolimit>False</contributetolimit>
