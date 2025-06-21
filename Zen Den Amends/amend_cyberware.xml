@@ -144,5 +144,10 @@
 			<id>6b219dfa-310a-45ab-98af-40a62e2431cf</id>
 			<requireparent />
 		</cyberware>
+		<cyberware>
+			<!-- Cyberdeck  -->
+			<id>754a2083-9d89-4034-b43f-31bd5bb43595</id>
+			<requireparent />
+		</cyberware>
 	</cyberwares>
 </chummer>
