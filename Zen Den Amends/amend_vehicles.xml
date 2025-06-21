@@ -121,7 +121,9 @@
 			<name>Evo-Krime Krime Wing</name>
 			<cost>1200000</cost>
 		</vehicle>
-		<vehicle xpathfilter="contains(name,'corporate')">
+		<vehicle>
+			<!--Ares Ropadmaster coorporate command center-->
+			<id>ee67b675-6acf-4edc-9d95-2797ddbd2f1a</id>
 			<hide />
 		</vehicle>
 	</vehicles>

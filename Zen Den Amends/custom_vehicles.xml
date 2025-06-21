@@ -460,17 +460,17 @@
       <name>Crotch Rocker</name>
       <page>62</page>
       <source>SL</source>
-      <accel>1</accel>
+      <accel>1/2</accel>
       <armor>12</armor>
       <avail>20R</avail>
       <body>6</body>
       <category>Bikes</category>
       <cost>250000</cost>
-      <handling>6</handling>
+      <handling>6/4</handling>
       <pilot>2</pilot>
       <seats>1</seats>
       <sensor>4</sensor>
-      <speed>1</speed>
+      <speed>1/2</speed>
       <gears>
         <gear>
           <name>Sensor Array</name>
@@ -483,9 +483,6 @@
   system. When disengaged, these Attributes both become 2 instead but the handling gets reduced to 4. Its speed tier is always 5
 </notes>
     </vehicle>
-
-
-
 
   </vehicles>
   <mods>
