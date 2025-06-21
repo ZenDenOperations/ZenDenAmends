@@ -431,30 +431,6 @@
     </vehicle>
 
 
-     <vehicle>
-      <id>349e9cdf-fa51-4da1-87ee-2ecd535fd019</id>
-      <name>BMW X Infinity</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>2</accel>
-      <armor>13</armor>
-      <avail>10</avail>
-      <body>14</body>
-      <category>Cars</category>
-      <cost>72000</cost>
-      <handling>5/5</handling>
-      <pilot>2</pilot>
-      <sensor>4</sensor>
-      <speed>4</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>4</rating>
-          <maxrating>4</maxrating>
-        </gear>
-      </gears>
-      <seats>6</seats>
-    </vehicle>
     <vehicle>
       <id>35b350af-f7b0-4935-919f-eb5d485dcb05</id>
       <name>Crotch Rocker</name>
