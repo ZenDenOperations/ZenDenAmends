@@ -630,5 +630,65 @@
 			<hide />
 			<limbslot>leg</limbslot>
 		</cyberware>
+		<cyberware>
+			<id>4b8eddec-d0a8-454f-8afd-fb6f00dc662c</id>
+			<name>Commlink</name>
+			<limit>False</limit>
+			<category>Headware</category>
+			<ess>0.2</ess>
+			<capacity>2</capacity>
+			<avail>0</avail>
+			<cost>2000</cost>
+			<source>SR5</source>
+			<page>451</page>
+			<allowgear>
+				<gearcategory>Commlinks</gearcategory>
+			</allowgear>
+			<bannedwaregrades>
+				<grade>Greyware</grade>
+				<grade>Greyware (Adapsin)</grade>
+			</bannedwaregrades>
+			<allowsubsystems>
+        			<name>Attention Coprocessor</name>
+				<name>Datajack</name>
+				<name>Datajack Plus</name>
+				<name>Dream Link</name>
+				<name>Flashback System</name>
+				<name>Math SPU</name>
+				<name>Simrig</name>
+				<name>Skilljack</name>
+				<name>Visualizer</name>
+      			</allowsubsystems>
+		</cyberware>
+		<cyberware>
+			<id>f6a75e7c-394d-47a6-af02-7cb0d48e7dac</id>
+			<name>Cyberdeck</name>
+			<limit>False</limit>
+			<category>Headware</category>
+			<ess>0.4</ess>
+			<capacity>4</capacity>
+			<avail>5R</avail>
+			<cost>5000</cost>
+			<source>SR5</source>
+			<page>452</page>
+			<allowgear>
+				<gearcategory>Cyberdecks</gearcategory>
+			</allowgear>
+			<bannedwaregrades>
+				<grade>Greyware</grade>
+				<grade>Greyware (Adapsin)</grade>
+			</bannedwaregrades>
+			<allowsubsystems>
+        			<name>Attention Coprocessor</name>
+				<name>Datajack</name>
+				<name>Datajack Plus</name>
+				<name>Dream Link</name>
+				<name>Flashback System</name>
+				<name>Math SPU</name>
+				<name>Simrig</name>
+				<name>Skilljack</name>
+				<name>Visualizer</name>
+      			</allowsubsystems>
+		</cyberware>
 	</cyberwares>
 </chummer>
