@@ -61,6 +61,17 @@
 			<id>ea676290-1859-4a56-86f8-a3fb90decc32</id>
 			<capacity>8</capacity>
 			<avail>8</avail>
+			<allowsubsystems amendoperation="append">
+        			<name>Attention Coprocessor</name>
+				<name>Datajack</name>
+				<name>Datajack Plus</name>
+				<name>Dream Link</name>
+				<name>Flashback System</name>
+				<name>Math SPU</name>
+				<name>Simrig</name>
+				<name>Skilljack</name>
+				<name>Visualizer</name>
+      			</allowsubsystems>
 		</cyberware>
 		<cyberware>
 			<!-- Synthetic Torso  -->
@@ -78,6 +89,17 @@
 			<!-- Partial Skull  -->
 			<id>4630313c-aca9-4aa3-8fce-ba064423b1c7</id>
 			<avail>6</avail>
+			<allowsubsystems amendoperation="append">
+        			<name>Attention Coprocessor</name>
+				<name>Datajack</name>
+				<name>Datajack Plus</name>
+				<name>Dream Link</name>
+				<name>Flashback System</name>
+				<name>Math SPU</name>
+				<name>Simrig</name>
+				<name>Skilljack</name>
+				<name>Visualizer</name>
+      			</allowsubsystems>
 		</cyberware>
 		<cyberware>
 			<name>False Face</name>
