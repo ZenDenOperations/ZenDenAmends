@@ -61,6 +61,9 @@
 			<id>ea676290-1859-4a56-86f8-a3fb90decc32</id>
 			<capacity>8</capacity>
 			<avail>8</avail>
+			<allowsubsystems amendoperation="append">
+				<category>Skullware</category>
+			</allowsubsystems>
 		</cyberware>
 		<cyberware>
 			<!-- Synthetic Torso  -->
@@ -78,6 +81,9 @@
 			<!-- Partial Skull  -->
 			<id>4630313c-aca9-4aa3-8fce-ba064423b1c7</id>
 			<avail>6</avail>
+			<allowsubsystems amendoperation="append">
+				<category>Skullware</category>
+			</allowsubsystems>
 		</cyberware>
 		<cyberware>
 			<name>False Face</name>
@@ -142,6 +148,11 @@
 		<cyberware>
 			<!-- Commlink  -->
 			<id>6b219dfa-310a-45ab-98af-40a62e2431cf</id>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<!-- Cyberdeck  -->
+			<id>754a2083-9d89-4034-b43f-31bd5bb43595</id>
 			<requireparent />
 		</cyberware>
 	</cyberwares>
