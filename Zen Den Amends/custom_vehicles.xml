@@ -429,6 +429,36 @@
       </mods>
       <notes>The Shadowdancer's Drone Arms have Agility 8 and Strength 9.</notes>
     </vehicle>
+
+    <vehicle>
+      <id>35b350af-f7b0-4935-919f-eb5d485dcb05</id>
+      <name>Crotch Rocker</name>
+      <page>62</page>
+      <source>SL</source>
+      <accel>1/2</accel>
+      <armor>12</armor>
+      <avail>20R</avail>
+      <body>6</body>
+      <category>Bikes</category>
+      <cost>250000</cost>
+      <handling>6/4</handling>
+      <pilot>2</pilot>
+      <seats>1</seats>
+      <sensor>4</sensor>
+      <speed>1/2</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>4</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+
+      <notes>The Speed and Accel are typically controlled by a governor
+  system. When disengaged, these Attributes both become 2 instead but the handling gets reduced to 4. Its speed tier is always 5
+</notes>
+    </vehicle>
+
   </vehicles>
   <mods>
     <mod>
@@ -459,5 +489,73 @@
         </vehicledetails>
       </required>
     </mod>
+     <mod>
+      <id>1644ac56-c6fa-4cf1-aede-90738f84814a</id>
+      <name>Secondary Propulsion (Vector Thrust, LAV)</name>
+      <page>1</page>
+      <source>ZDR</source>
+      <avail>14R</avail>
+      <category>Powertrain</category>
+      <cost>number(Body = 0) * 4500 + Body * 9000</cost>
+      <rating>0</rating>
+      <slots>10</slots>
+    </mod>
+
+    <mod>
+      <id>a4191237-f6a8-403a-b87b-9e5e40b0aea3</id>
+      <name>Secondary Propulsion (Wheeled)</name>
+      <page>1</page>
+      <source>ZDR</source>
+      <avail>6</avail>
+      <category>Powertrain</category>
+      <cost>number(Body = 0) * 500 + Body * 1000</cost>
+      <rating>0</rating>
+      <slots>4</slots>
+    </mod>
+
+    <mod>
+      <id>b99a30cc-cb91-4907-a033-cdfc08fde36a</id>
+      <name>Secondary Propulsion (Winged)</name>
+      <page>1</page>
+      <source>ZDR</source>
+      <avail>10R</avail>
+      <category>Powertrain</category>
+      <cost>number(Body = 0) * 200 + Body * 4000</cost>
+      <rating>0</rating>
+      <slots>8</slots>
+    </mod>
+    <mod>
+      <id>cadc77d6-576c-435b-b710-979bd56be556</id>
+      <name>Secondary Propulsion (Gravdrive)</name>
+      <page>1</page>
+      <source>ZDR</source>
+      <avail>50R</avail>
+      <category>Powertrain</category>
+      <cost>number(Body = 0) * 12500 + Body * 25000</cost>
+      <rating>0</rating>
+      <slots>8</slots>
+    </mod>
+
+        <mod>
+      <id>8a2f9e41-1eb7-48a0-a154-519803bb85c8</id>
+      <name>Engine Replacement (Gravdrive)</name>
+      <page>1</page>
+      <source>ZDR</source>
+      <avail>50R</avail>
+      <category>Powertrain</category>
+      <cost>450000</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+      <required>
+        <vehicledetails>
+          <OR>
+            <category>VTOL/VSTOL</category>
+            <category>Fixed-Wing Aircraft</category>
+          </OR>
+        </vehicledetails>
+      </required>
+
+    </mod>
+
   </mods>
 </chummer>
