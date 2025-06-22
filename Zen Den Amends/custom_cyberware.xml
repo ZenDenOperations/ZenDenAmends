@@ -20,6 +20,7 @@
 <chummer>
 	<categories>
 		<category blackmarket="Codemods">Codemods</category>
+		<category>Skullware</category>
 	</categories>
 	<cyberwares>
 		<cyberware>
@@ -647,6 +648,113 @@
 				</specificattribute>
 			</bonus>
 			<rating>3</rating>
+		</cyberware>
+		<cyberware>
+			<id>193ff186-6c07-4472-8dbb-bd17b4c89af0</id>
+			<name>Datajack</name>
+			<limit>False</limit>
+			<category>Skullware</category>
+			<capacity>[1]</capacity>
+			<avail>2</avail>
+			<cost>1000</cost>
+			<gears>
+				<usegear>
+					<name>Universal Connector Cord</name>
+					<category>Tools</category>
+					<rating>1</rating>
+				</usegear>
+			</gears>
+			<!--<wirelessbonus><noiserereduction>1</noiserereduction></wirelessbonus> -->
+			<source>SR5</source>
+			<page>452</page>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>d04e1206-738f-4411-8355-c9ba9743adf7</id>
+			<name>Datajack Plus</name>
+			<limit>False</limit>
+			<category>Skullware</category>
+			<capacity>[2]</capacity>
+			<avail>4</avail>
+			<cost>Rating*3500</cost>
+			<rating>3</rating>
+			<programs>Rating</programs>
+			<gears>
+				<usegear>
+					<name>Universal Connector Cord</name>
+					<category>Tools</category>
+					<rating>1</rating>
+				</usegear>
+			</gears>
+			<allowgear>
+				<gearcategory>Common Programs</gearcategory>
+				<gearcategory>Hacking Programs</gearcategory>
+			</allowgear>
+			<source>KC</source>
+			<page>65</page>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>a8a3aa2e-0ee8-48be-a404-f7d9a0d651de</id>
+			<name>Dream Link</name>
+			<category>Skullware</category>
+			<capacity>[1]</capacity>
+			<avail>8</avail>
+			<cost>1000</cost>
+			<source>CF</source>
+			<page>79</page>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>95f17f10-44b5-47cf-a3b1-9704b250c6a2</id>
+			<name>Flashback System</name>
+			<category>Skullware</category>
+			<capacity>[3]</capacity>
+			<avail>8R</avail>
+			<cost>6000</cost>
+			<source>CF</source>
+			<page>151</page>
+			<bannedwaregrades>
+				<grade>Greyware</grade>
+				<grade>Greyware (Adapsin)</grade>
+			</bannedwaregrades>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>fcfb906c-0981-471b-8b7a-3aa561a7596a</id>
+			<name>Simrig</name>
+			<category>Skullware</category>
+			<capacity>[1]</capacity>
+			<avail>12R</avail>
+			<cost>4000</cost>
+			<source>SR5</source>
+			<page>452</page>
+		</cyberware>
+		<cyberware>
+			<id>66b1e393-dc70-4907-85c5-f30369b260d8</id>
+			<name>Skilljack</name>
+			<category>Skullware</category>
+			<capacity>[1]</capacity>
+			<avail>Rating * 2</avail>
+			<cost>Rating * 20000</cost>
+			<source>SR5</source>
+			<page>452</page>
+			<bonus>
+				<skillsoftaccess precedence="0">Rating</skillsoftaccess>
+			</bonus>
+			<rating>6</rating>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>937b4f17-8953-4fd3-8a0b-d53a1c33e253</id>
+			<name>Visualizer</name>
+			<category>Skullware</category>
+			<capacity>[1]]</capacity>
+			<avail>8</avail>
+			<cost>2000</cost>
+			<source>CF</source>
+			<page>81</page>
+			<requireparent />
 		</cyberware>
 	</cyberwares>
 </chummer>
