@@ -20,6 +20,7 @@
 <chummer>
 	<categories>
 		<category blackmarket="Codemods">Codemods</category>
+		<category>Skullware</category>
 	</categories>
 	<cyberwares>
 		<cyberware>
@@ -599,6 +600,79 @@
 			<limbslot>leg</limbslot>
 		</cyberware>
 		<cyberware>
+      		<id>4591da8d-f504-4cb3-8b57-a44c1a514dd9</id>
+      		<name>Dermal Sheath</name>
+		      <category>Bodyware</category>
+		      <ess>FixedValues(0.6,1,1.6)</ess>
+		      <capacity>0</capacity>
+		      <avail>FixedValues(8,12,16)</avail>
+		      <cost>FixedValues(12500,15500,18500)</cost>
+		      <source>ZDR</source>
+		      <page>1</page>
+		      <bonus>
+			<armor>Rating + 1</armor>
+		      </bonus>
+		      <forbidden>
+		        <oneof>
+			  <cyberware>Dermal Plating</cyberware>
+		          <bioware>Orthoskin</bioware>
+		        </oneof>
+		      </forbidden>
+		      <minrating>1</minrating>
+		      <rating>3</rating>
+    		</cyberware>
+		<cyberware>
+      		<id>39f0a166-3759-40a0-a521-dede0a08a72e</id>
+      		<name>Blood Circuit Control System</name>
+		      <category>Bodyware</category>
+		      <ess>1</ess>
+		      <capacity>0</capacity>
+		      <avail>15</avail>
+		      <cost>30000</cost>
+		      <source>ZDR</source>
+		      <page>1</page>
+		      <bonus>
+		        <conditionmonitor>
+		          <overflow>2</overflow>
+		        </conditionmonitor>
+		      </bonus>
+			<wirelessbonus>
+		        <specificattribute>
+		          <name>BOD</name>
+		          <val>1</val>
+		        </specificattribute>
+      			</wirelessbonus>
+    		</cyberware>
+		<cyberware>
+      		<id>8b9cc824-0378-4934-97e2-be888c58e67f</id>
+      		<name>Encephalon</name>
+		      <category>Headware</category>
+		      <ess>0.75</ess>
+		      <capacity>0</capacity>
+		      <avail>6</avail>
+		      <cost>30000</cost>
+		      <source>ZDR</source>
+		      <page>1</page>
+		      <bonus>
+		        <skilllinkedattribute>
+		          <name>LOG</name>
+		          <bonus>1</bonus>
+		        </skilllinkedattribute>
+        		<mentallimit>1</mentallimit>
+		      </bonus>
+			<wirelessbonus>
+				<skillgroup>
+			          <name>Cracking</name>
+			          <bonus>1</bonus>
+			        </skillgroup>
+				<skillgroup>
+			          <name>Electronics</name>
+			          <bonus>1</bonus>
+			        </skillgroup>
+      			</wirelessbonus>
+      			<notes>This can be taken by AIs. The wireless bonus represents the effects of the Encephalon while in VR.</notes>
+    		</cyberware>
+		<cyberware>
 			<id>dd18b5ae-0084-431f-a2af-6d48bdb8bb8f</id>
 			<name>Lamia Right Arm</name>
 			<category>Cyberlimb</category>
@@ -631,64 +705,129 @@
 			<limbslot>leg</limbslot>
 		</cyberware>
 		<cyberware>
-			<id>4b8eddec-d0a8-454f-8afd-fb6f00dc662c</id>
-			<name>Commlink</name>
-			<limit>False</limit>
-			<category>Headware</category>
-			<ess>0.2</ess>
-			<capacity>2</capacity>
-			<avail>0</avail>
-			<cost>2000</cost>
-			<source>SR5</source>
-			<page>451</page>
-			<allowgear>
-				<gearcategory>Commlinks</gearcategory>
-			</allowgear>
-			<bannedwaregrades>
-				<grade>Greyware</grade>
-				<grade>Greyware (Adapsin)</grade>
-			</bannedwaregrades>
-			<allowsubsystems>
-        			<name>Attention Coprocessor</name>
-				<name>Datajack</name>
-				<name>Datajack Plus</name>
-				<name>Dream Link</name>
-				<name>Flashback System</name>
-				<name>Math SPU</name>
-				<name>Simrig</name>
-				<name>Skilljack</name>
-				<name>Visualizer</name>
-      			</allowsubsystems>
+			<id>5a69bb26-1a2d-4562-bcfa-bff91b0df745</id>
+			<name>Mechanical Heart</name>
+			<category>Bodyware</category>
+			<ess>Rating * 0.3</ess>
+			<capacity>0</capacity>
+			<avail>(Rating * 5)</avail>
+			<cost>Rating * 30000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<specificattribute>
+					<name>BOD</name>
+					<val>Rating</val>
+				</specificattribute>
+			</bonus>
+			<rating>3</rating>
 		</cyberware>
 		<cyberware>
-			<id>f6a75e7c-394d-47a6-af02-7cb0d48e7dac</id>
-			<name>Cyberdeck</name>
+			<id>193ff186-6c07-4472-8dbb-bd17b4c89af0</id>
+			<name>Datajack</name>
 			<limit>False</limit>
-			<category>Headware</category>
-			<ess>0.4</ess>
-			<capacity>4</capacity>
-			<avail>5R</avail>
-			<cost>5000</cost>
+			<category>Skullware</category>
+			<capacity>[1]</capacity>
+			<avail>2</avail>
+			<cost>1000</cost>
+			<gears>
+				<usegear>
+					<name>Universal Connector Cord</name>
+					<category>Tools</category>
+					<rating>1</rating>
+				</usegear>
+			</gears>
+			<!--<wirelessbonus><noiserereduction>1</noiserereduction></wirelessbonus> -->
 			<source>SR5</source>
 			<page>452</page>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>d04e1206-738f-4411-8355-c9ba9743adf7</id>
+			<name>Datajack Plus</name>
+			<limit>False</limit>
+			<category>Skullware</category>
+			<capacity>[2]</capacity>
+			<avail>4</avail>
+			<cost>Rating*3500</cost>
+			<rating>3</rating>
+			<programs>Rating</programs>
+			<gears>
+				<usegear>
+					<name>Universal Connector Cord</name>
+					<category>Tools</category>
+					<rating>1</rating>
+				</usegear>
+			</gears>
 			<allowgear>
-				<gearcategory>Cyberdecks</gearcategory>
+				<gearcategory>Common Programs</gearcategory>
+				<gearcategory>Hacking Programs</gearcategory>
 			</allowgear>
+			<source>KC</source>
+			<page>65</page>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>a8a3aa2e-0ee8-48be-a404-f7d9a0d651de</id>
+			<name>Dream Link</name>
+			<category>Skullware</category>
+			<capacity>[1]</capacity>
+			<avail>8</avail>
+			<cost>1000</cost>
+			<source>CF</source>
+			<page>79</page>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>95f17f10-44b5-47cf-a3b1-9704b250c6a2</id>
+			<name>Flashback System</name>
+			<category>Skullware</category>
+			<capacity>[3]</capacity>
+			<avail>8R</avail>
+			<cost>6000</cost>
+			<source>CF</source>
+			<page>151</page>
 			<bannedwaregrades>
 				<grade>Greyware</grade>
 				<grade>Greyware (Adapsin)</grade>
 			</bannedwaregrades>
-			<allowsubsystems>
-        			<name>Attention Coprocessor</name>
-				<name>Datajack</name>
-				<name>Datajack Plus</name>
-				<name>Dream Link</name>
-				<name>Flashback System</name>
-				<name>Math SPU</name>
-				<name>Simrig</name>
-				<name>Skilljack</name>
-				<name>Visualizer</name>
-      			</allowsubsystems>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>fcfb906c-0981-471b-8b7a-3aa561a7596a</id>
+			<name>Simrig</name>
+			<category>Skullware</category>
+			<capacity>[1]</capacity>
+			<avail>12R</avail>
+			<cost>4000</cost>
+			<source>SR5</source>
+			<page>452</page>
+		</cyberware>
+		<cyberware>
+			<id>66b1e393-dc70-4907-85c5-f30369b260d8</id>
+			<name>Skilljack</name>
+			<category>Skullware</category>
+			<capacity>[1]</capacity>
+			<avail>Rating * 2</avail>
+			<cost>Rating * 20000</cost>
+			<source>SR5</source>
+			<page>452</page>
+			<bonus>
+				<skillsoftaccess precedence="0">Rating</skillsoftaccess>
+			</bonus>
+			<rating>6</rating>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>937b4f17-8953-4fd3-8a0b-d53a1c33e253</id>
+			<name>Visualizer</name>
+			<category>Skullware</category>
+			<capacity>[1]]</capacity>
+			<avail>8</avail>
+			<cost>2000</cost>
+			<source>CF</source>
+			<page>81</page>
+			<requireparent />
 		</cyberware>
 	</cyberwares>
 </chummer>
