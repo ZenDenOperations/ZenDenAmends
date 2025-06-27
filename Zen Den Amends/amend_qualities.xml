@@ -2907,5 +2907,21 @@
 				</specificskill>
 			</bonus>
 		</quality>
+		<quality>
+			<!-- Explorer -->
+			<name>Explorer</name>
+			<bonus amendoperation="replace">
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
+				<enabletab>
+					<name>magician</name>
+				</enabletab>
+				<unlockskills>Explorer</unlockskills>
+				<unlockskills name="Banishing">Name</unlockskills>
+				<unlockskills name="Spellcasting">Name</unlockskills>
+				<unlockskills name="Counterspelling">Name</unlockskills>
+			</bonus>
+		</quality>
 	</qualities>
 </chummer>
