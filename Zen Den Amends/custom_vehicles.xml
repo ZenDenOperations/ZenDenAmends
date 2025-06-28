@@ -536,7 +536,7 @@
       <slots>8</slots>
     </mod>
 
-        <mod>
+    <mod>
       <id>8a2f9e41-1eb7-48a0-a154-519803bb85c8</id>
       <name>Engine Replacement (Gravdrive)</name>
       <page>1</page>
@@ -556,6 +556,24 @@
       </required>
 
     </mod>
+
+    <mod>
+      <id>ff8d6e0a-4035-45f9-9eb7-137848749763</id>
+      <name>Self Built (It just has to fit)</name>
+      <page>1</page>
+      <source>ZDR</source>
+      <avail>0</avail>
+      <category>Powertrain</category>
+      <cost>Variable(0-1000000)</cost>
+      <rating>body</rating>
+      <slots>-Rating</slots>
+      <required>
+        <oneof>
+          <quality>It just has to fit</quality>
+        </oneof>
+      </required>
+    </mod>
+
 
   </mods>
 </chummer>
