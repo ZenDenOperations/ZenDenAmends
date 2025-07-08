@@ -809,7 +809,7 @@
 			<category>Skullware</category>
 			<capacity>[1]</capacity>
 			<avail>Rating * 2</avail>
-			<cost>Rating * 20000</cost>
+			<cost>Rating * 1000</cost>
 			<source>SR5</source>
 			<page>452</page>
 			<bonus>
