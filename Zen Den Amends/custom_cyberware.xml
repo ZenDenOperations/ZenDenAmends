@@ -822,12 +822,52 @@
 			<id>937b4f17-8953-4fd3-8a0b-d53a1c33e253</id>
 			<name>Visualizer</name>
 			<category>Skullware</category>
-			<capacity>[1]]</capacity>
+			<capacity>[1]</capacity>
 			<avail>8</avail>
 			<cost>2000</cost>
 			<source>CF</source>
 			<page>81</page>
 			<requireparent />
 		</cyberware>
+        <cyberware>
+          <id>e58d684d-58c7-4cd8-ae4d-7dacc29ca413</id>
+          <name>Commlink Slot</name>
+          <limit>False</limit>
+          <category>Skullware</category>
+          <ess>0</ess>
+          <capacity>[0]</capacity>
+          <avail>0</avail>
+          <cost>0</cost>
+          <source>ZDR</source>
+          <page>1</page>
+          <allowgear>
+            <gearcategory>Commlinks</gearcategory>
+          </allowgear>
+          <required>
+            <parentdetails>
+                <name>Commlink</name>
+            </parentdetails>
+          </required>
+        </cyberware>
+        <cyberware>
+          <id>c10de60f-9e96-4841-bef5-c97fc331f0de</id>
+          <name>Cyberdeck Slot</name>
+          <limit>False</limit>
+          <category>Skullware</category>
+          <ess>0</ess>
+          <capacity>[0]</capacity>
+          <avail>0</avail>
+          <cost>0</cost>
+          <source>ZDR</source>
+          <page>1</page>
+          <allowgear>
+            <gearcategory>Cyberdecks</gearcategory>
+          </allowgear>
+          <required>
+            <parentdetails>
+                <name>Cyberdeck</name>
+            </parentdetails>
+          </required>
+        </cyberware>
 	</cyberwares>
 </chummer>
