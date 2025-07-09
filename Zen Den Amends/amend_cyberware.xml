@@ -76,6 +76,9 @@
 			<id>992fbf6b-8f9a-4c27-a527-8705ecc3341f</id>
 			<capacity>4</capacity>
 			<avail>6</avail>
+			<allowsubsystems amendoperation="append">
+				<category>Skullware</category>
+			</allowsubsystems>
 		</cyberware>
 		<cyberware>
 			<!-- Partial Skull  -->
@@ -148,12 +151,28 @@
 		<cyberware>
 			<!-- Commlink  -->
 			<id>6b219dfa-310a-45ab-98af-40a62e2431cf</id>
-			<requireparent />
+			<capacity>2/[2]</capacity>
+			<allowsubsystems>
+				<category>Skullware</category>
+			</allowsubsystems>
+			<subsystems>
+	        	<cyberware>
+	        		<name>Commlink Slot</name>
+		        </cyberware>
+	      	</subsystems>
 		</cyberware>
 		<cyberware>
 			<!-- Cyberdeck  -->
 			<id>754a2083-9d89-4034-b43f-31bd5bb43595</id>
-			<requireparent />
+			<capacity>4/[4]</capacity>
+			<allowsubsystems>
+				<category>Skullware</category>
+			</allowsubsystems>
+			<subsystems>
+	        	<cyberware>
+	        		<name>Cyberdeck Slot</name>
+		        </cyberware>
+	      	</subsystems>
 		</cyberware>
 	</cyberwares>
 </chummer>
