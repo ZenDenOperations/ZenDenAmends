@@ -1265,10 +1265,11 @@
 					<Echo>Predictive Analytics</Echo>
 				</allof>
 			</required>
+			<limit>3</limit>
 			<bonus>
-				<specificattribute precedence="0">
+				<specificattribute>
 					<name>REA</name>
-					<val>Rating</val>
+					<val>1</val>
 				</specificattribute>
 			</bonus>
 			<source>ZDR</source>
