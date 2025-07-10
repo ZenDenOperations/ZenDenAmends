@@ -600,6 +600,79 @@
 			<limbslot>leg</limbslot>
 		</cyberware>
 		<cyberware>
+      		<id>4591da8d-f504-4cb3-8b57-a44c1a514dd9</id>
+      		<name>Dermal Sheath</name>
+		      <category>Bodyware</category>
+		      <ess>FixedValues(0.6,1,1.6)</ess>
+		      <capacity>0</capacity>
+		      <avail>FixedValues(8,12,16)</avail>
+		      <cost>FixedValues(12500,15500,18500)</cost>
+		      <source>ZDR</source>
+		      <page>1</page>
+		      <bonus>
+			<armor>Rating + 1</armor>
+		      </bonus>
+		      <forbidden>
+		        <oneof>
+			  <cyberware>Dermal Plating</cyberware>
+		          <bioware>Orthoskin</bioware>
+		        </oneof>
+		      </forbidden>
+		      <minrating>1</minrating>
+		      <rating>3</rating>
+    		</cyberware>
+		<cyberware>
+      		<id>39f0a166-3759-40a0-a521-dede0a08a72e</id>
+      		<name>Blood Circuit Control System</name>
+		      <category>Bodyware</category>
+		      <ess>1</ess>
+		      <capacity>0</capacity>
+		      <avail>15</avail>
+		      <cost>30000</cost>
+		      <source>ZDR</source>
+		      <page>1</page>
+		      <bonus>
+		        <conditionmonitor>
+		          <overflow>2</overflow>
+		        </conditionmonitor>
+		      </bonus>
+			<wirelessbonus>
+		        <specificattribute>
+		          <name>BOD</name>
+		          <val>1</val>
+		        </specificattribute>
+      			</wirelessbonus>
+    		</cyberware>
+		<cyberware>
+      		<id>8b9cc824-0378-4934-97e2-be888c58e67f</id>
+      		<name>Encephalon</name>
+		      <category>Headware</category>
+		      <ess>0.75</ess>
+		      <capacity>0</capacity>
+		      <avail>6</avail>
+		      <cost>30000</cost>
+		      <source>ZDR</source>
+		      <page>1</page>
+		      <bonus>
+		        <skilllinkedattribute>
+		          <name>LOG</name>
+		          <bonus>1</bonus>
+		        </skilllinkedattribute>
+        		<mentallimit>1</mentallimit>
+		      </bonus>
+			<wirelessbonus>
+				<skillgroup>
+			          <name>Cracking</name>
+			          <bonus>1</bonus>
+			        </skillgroup>
+				<skillgroup>
+			          <name>Electronics</name>
+			          <bonus>1</bonus>
+			        </skillgroup>
+      			</wirelessbonus>
+      			<notes>This can be taken by AIs. The wireless bonus represents the effects of the Encephalon while in VR.</notes>
+    		</cyberware>
+		<cyberware>
 			<id>dd18b5ae-0084-431f-a2af-6d48bdb8bb8f</id>
 			<name>Lamia Right Arm</name>
 			<category>Cyberlimb</category>
@@ -736,7 +809,7 @@
 			<category>Skullware</category>
 			<capacity>[1]</capacity>
 			<avail>Rating * 2</avail>
-			<cost>Rating * 20000</cost>
+			<cost>Rating * 1000</cost>
 			<source>SR5</source>
 			<page>452</page>
 			<bonus>
@@ -749,12 +822,52 @@
 			<id>937b4f17-8953-4fd3-8a0b-d53a1c33e253</id>
 			<name>Visualizer</name>
 			<category>Skullware</category>
-			<capacity>[1]]</capacity>
+			<capacity>[1]</capacity>
 			<avail>8</avail>
 			<cost>2000</cost>
 			<source>CF</source>
 			<page>81</page>
 			<requireparent />
 		</cyberware>
+        <cyberware>
+          <id>e58d684d-58c7-4cd8-ae4d-7dacc29ca413</id>
+          <name>Commlink Slot</name>
+          <limit>False</limit>
+          <category>Skullware</category>
+          <ess>0</ess>
+          <capacity>[0]</capacity>
+          <avail>0</avail>
+          <cost>0</cost>
+          <source>ZDR</source>
+          <page>1</page>
+          <allowgear>
+            <gearcategory>Commlinks</gearcategory>
+          </allowgear>
+          <required>
+            <parentdetails>
+                <name>Commlink</name>
+            </parentdetails>
+          </required>
+        </cyberware>
+        <cyberware>
+          <id>c10de60f-9e96-4841-bef5-c97fc331f0de</id>
+          <name>Cyberdeck Slot</name>
+          <limit>False</limit>
+          <category>Skullware</category>
+          <ess>0</ess>
+          <capacity>[0]</capacity>
+          <avail>0</avail>
+          <cost>0</cost>
+          <source>ZDR</source>
+          <page>1</page>
+          <allowgear>
+            <gearcategory>Cyberdecks</gearcategory>
+          </allowgear>
+          <required>
+            <parentdetails>
+                <name>Cyberdeck</name>
+            </parentdetails>
+          </required>
+        </cyberware>
 	</cyberwares>
 </chummer>

@@ -4779,6 +4779,9 @@
 						<skill>Arcana</skill>
 						<skill>Assensing</skill>
 						<skill>Astral Combat</skill>
+						<skill>Spellcasting</skill>
+                        			<skill>Counterspelling</skill>
+                        			<skill>Banishing</skill>
 					</skillchoices>
 					<magic>6</magic>
 					<skillqty>2</skillqty>
@@ -4925,6 +4928,9 @@
 						<skill>Arcana</skill>
 						<skill>Assensing</skill>
 						<skill>Astral Combat</skill>
+						<skill>Spellcasting</skill>
+                        			<skill>Counterspelling</skill>
+                        			<skill>Banishing</skill>
 					</skillchoices>
 					<magic>4</magic>
 					<skillqty>2</skillqty>

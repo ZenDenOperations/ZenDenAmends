@@ -1515,5 +1515,18 @@
 			<page>1</page>
 			<notes>Non Hostile Critters in 10 meters follow you for 10 5d6 minutes, giving up to -3 to physical and appropriate social tests</notes>
 		</quality>
+
+		<quality>
+			<id>1398a0db-04ab-44d3-ba5a-0d7bd633852c</id>
+			<name>It just has to fit</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<limit>3</limit>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Allow the ability to build in one powertrain mod at half the capactiy cost but 50% extra nuyen (extended threshold with availabilitX2</notes>
+		</quality>
 	</qualities>
 </chummer>

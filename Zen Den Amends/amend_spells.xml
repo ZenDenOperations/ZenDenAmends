@@ -83,5 +83,26 @@
 			<name>Disrupt Focus</name>
 			<bonus />
 		</spell>
+
+		<spell>
+			<!-- Lash -->
+			<id>d5312f77-833f-4942-93e5-0a109996bca6</id>
+			<dv>F-3</dv>
+		</spell>
+		<!-- Slash-->
+			<spell>
+			<id>271cbaa4-c7fe-450a-b7e2-65ad90621b6f</id>
+			<dv>F-1</dv>
+		</spell>
+		<!-- Claw -->
+		<spell>
+			<id>b28accd7-e2b5-491e-ab0c-00a74be62f1a</id>
+			<dv>F-3</dv>
+		</spell>
+		<spell>
+		<!-- Barrage -->
+			<id>a63280c2-3bf8-4007-9578-58580a684b03</id>
+			<dv>F-1</dv>
+		</spell>
 	</spells>
 </chummer>
