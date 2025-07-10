@@ -17,204 +17,176 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
+
 <!-- *Asterisks* denote exotic specializations -->
+
 <chummer>
-	<skillgroups>
-		<name amendoperation="addnode">Piloting</name>
-    	<name amendoperation="addnode">Thievery</name>
-    	<name amendoperation="addnode">Fabricating</name>
-	</skillgroups>
-	<skills>
-		<skill>
-			<name>Archery</name>
-			<specs amendoperation="replace">
-				<spec>*Blowgun</spec>
-				<spec>Bow</spec>
-				<spec>Crossbow</spec>
-				<spec>*Grapple Guns</spec>
-				<spec>*Net Guns</spec>
-				<spec>Non-Standard Ammunition</spec>
-				<spec>Underbarrel Bola Launcher</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Blades</name>
-			<specs amendoperation="replace">
-				<spec>Axes</spec>
-				<spec>*Bladed Skatedboard</spec>
-				<spec>*Chakram (Melee)</spec>
-				<spec>*Injector Pen</spec>
-				<spec>Knives</spec>
-				<spec>*Rolling Blades</spec>
-				<spec>Parrying</spec>
-				<spec>Swords</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Clubs</name>
-			<specs amendoperation="replace">
-				<spec>Batons</spec>
-				<spec>*Battering Rams</spec>
-				<spec>Hammers</spec>
-				<spec>*Hardened Skateboard</spec>
-				<spec>*Krime Stun Lance</spec>
-				<spec>Saps</spec>
-				<spec>*Shields</spec>
-				<spec>Staves</spec>
-				<spec>Parrying</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Gymnastics</name>
-			<specs amendoperation="replace">
-				<spec>Balance</spec>
-				<spec>Climbing</spec>
-				<spec>Dance</spec>
-				<spec>Dodging</spec>
-				<spec>Free-Fall</spec>
-				<spec>Leaping</spec>
-				<spec>Parkour</spec>
-				<spec>Rappelling</spec>
-				<spec>Rolling</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Heavy Weapons</name>
-			<specs amendoperation="replace">
-				<spec>Assault Cannons</spec>
-				<spec>Grenade Launchers</spec>
-				<spec>Guided Missiles</spec>
-				<spec>Machine Guns</spec>
-				<spec>Rocket Launchers</spec>
-				<spec>*Shiawase/Nemesis Mancatcher</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Longarms</name>
-			<specs amendoperation="replace">
-				<spec>Extended-Range Shots</spec>
-				<spec>*Gun Canes</spec>
-				<spec>Long-Range Shots</spec>
-				<spec>*Parashield Dart Rifle</spec>
-				<spec>Shotguns</spec>
-				<spec>Sniper Rifles</spec>
-				<spec>Sporting Rifles</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Palming</name>
-			<default>True</default>
-		</skill>
-		<skill>
-			<name>Pistols</name>
-			<specs amendoperation="replace">
-				<spec>*FN-AAL Gyrojet Pistol</spec>
-				<spec>Holdouts</spec>
-				<spec>*Micro Flare Launcher</spec>
-				<spec>*Parashield Dart Pistol</spec>
-				<spec>Revolvers</spec>
-				<spec>Semi-Automatics</spec>
-				<spec>*Shooting Bracers</spec>
-				<spec>Tasers</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Throwing Weapons</name>
-			<specs amendoperation="replace">
-				<spec>Aerodynamic</spec>
-				<spec>*Bladed Yo-Yos</spec>
-				<spec>Blades</spec>
-				<spec>*Bola</spec>
-				<spec>*Bullwhip</spec>
-				<spec>*Chakram (Throwing)</spec>
-				<spec>*Net</spec>
-				<spec>Non-Aerodynamic</spec>
-				<spec>*Throwing Syringe</spec>
-				<spec>*Gunstock War Clubs (Thrown)</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Unarmed Combat</name>
-			<specs amendoperation="replace">
-				<spec>Blocking</spec>
-				<spec>Cyber Implants</spec>
-				<spec>*Frog Tongue</spec>
-				<spec>*Garrote</spec>
-				<spec>*Goring Horns</spec>
-				<spec>*Oral Slasher</spec>
-				<spec>*Proboscis</spec>
-				<spec>*Quills</spec>
-				<spec>Subduing Combat</spec>
-				<spec>*Thagomizer Tail</spec>
-				<spec>[Martial Art]</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Pilot Aircraft</name>
-			<skillgroup amendoperation="replace">Piloting</skillgroup>
-			<specs amendoperation="replace">
-				<spec>Fixed-Wing</spec>
-				<spec>Lighter-Than-Air</spec>
-				<spec>Remote Operation</spec>
-				<spec>Rotary Wing</spec>
-				<spec>Tilt Wing</spec>
-				<spec>Vectored Thrust</spec>
-				<spec>Deep Space</spec>
-				<spec>Launch Craft</spec>
-				<spec>Semiballistic</spec>
-				<spec>Suborbital</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Pilot Ground Craft</name>
-			<skillgroup amendoperation="replace">Piloting</skillgroup>
-			<specs amendoperation="replace">
-				<spec>Bike</spec>
-				<spec>Hovercraft</spec>
-				<spec>Tracked</spec>
-				<spec>Wheeled</spec>
-				<spec>Biped</spec>
-				<spec>Multiped</spec>
-				<spec>Quadruped</spec>
-				<spec>Remote Operation</spec>
-			</specs>
-		</skill>
-		<skill>
-			<name>Pilot Watercraft</name>
-			<skillgroup amendoperation="replace">Piloting</skillgroup>
-		</skill>
+  <skillgroups>
+	<name amendoperation="addnode">Piloting</name>
+  </skillgroups>
+  <skills>
     <skill>
-			<name>Escape Artist</name>
-			<skillgroup amendoperation="replace">Thievery</skillgroup>
-		</skill>
+      <name>Archery</name>
+	  <specs amendoperation="replace">
+	    <spec>*Blowgun</spec>
+		<spec>Bow</spec>
+        <spec>Crossbow</spec>
+        <spec>*Grapple Guns</spec>
+        <spec>*Net Guns</spec>
+		<spec>Non-Standard Ammunition</spec>
+        <spec>Underbarrel Bola Launcher</spec>
+      </specs>
+    </skill>
+	<skill>
+      <name>Blades</name>
+      <specs amendoperation="replace">
+        <spec>Axes</spec>
+		<spec>*Bladed Skatedboard</spec>
+		<spec>*Chakram (Melee)</spec>
+		<spec>*Injector Pen</spec>
+        <spec>Knives</spec>
+		<spec>*Rolling Blades</spec>
+		<spec>Parrying</spec>
+        <spec>Swords</spec>
+      </specs>
+    </skill>
+	<skill>
+      <name>Clubs</name>
+      <specs amendoperation="replace">
+		<spec>Batons</spec>
+        <spec>*Battering Rams</spec>
+        <spec>Hammers</spec>
+		<spec>*Hardened Skateboard</spec>
+		<spec>*Krime Stun Lance</spec>
+        <spec>Saps</spec>
+		<spec>*Shields</spec>
+        <spec>Staves</spec>
+        <spec>Parrying</spec>
+      </specs>
+    </skill>
+	<skill>
+      <name>Gymnastics</name>
+      <specs amendoperation="replace">
+        <spec>Balance</spec>
+        <spec>Climbing</spec>
+        <spec>Dance</spec>
+        <spec>Dodging</spec>
+		<spec>Free-Fall</spec>
+        <spec>Leaping</spec>
+        <spec>Parkour</spec>
+		<spec>Rappelling</spec>
+        <spec>Rolling</spec>
+      </specs>
+    </skill>
+	<skill>
+      <name>Heavy Weapons</name>
+      <specs amendoperation="replace">
+        <spec>Assault Cannons</spec>
+        <spec>Grenade Launchers</spec>
+        <spec>Guided Missiles</spec>
+        <spec>Machine Guns</spec>
+        <spec>Rocket Launchers</spec>
+		<spec>*Shiawase/Nemesis Mancatcher</spec>
+      </specs>
+    </skill>
+	<skill>
+      <name>Longarms</name>
+      <specs amendoperation="replace">
+        <spec>Extended-Range Shots</spec>
+		<spec>*Gun Canes</spec>
+        <spec>Long-Range Shots</spec>
+		<spec>*Parashield Dart Rifle</spec>
+        <spec>Shotguns</spec>
+        <spec>Sniper Rifles</spec>
+        <spec>Sporting Rifles</spec>
+      </specs>
+    </skill>
+	<skill>
+      <name>Palming</name>
+      <default>True</default>
+    </skill>
+	<skill>
+      <name>Pistols</name>
+      <specs amendoperation="replace">
+        <spec>*FN-AAL Gyrojet Pistol</spec>
+		<spec>Holdouts</spec>
+		<spec>*Micro Flare Launcher</spec>
+		<spec>*Parashield Dart Pistol</spec>
+        <spec>Revolvers</spec>
+        <spec>Semi-Automatics</spec>
+		<spec>*Shooting Bracers</spec>
+        <spec>Tasers</spec>
+      </specs>
+    </skill>
+	<skill>
+      <name>Throwing Weapons</name>
+      <specs amendoperation="replace">
+        <spec>Aerodynamic</spec>
+		<spec>*Bladed Yo-Yos</spec>
+        <spec>Blades</spec>
+		<spec>*Bola</spec>
+		<spec>*Bullwhip</spec>
+		<spec>*Chakram (Throwing)</spec>
+		<spec>*Net</spec>
+        <spec>Non-Aerodynamic</spec>
+		<spec>*Throwing Syringe</spec>
+		<spec>*Gunstock War Clubs (Thrown)</spec>
+      </specs>
+    </skill>
+	<skill>
+      <name>Unarmed Combat</name>
+      <specs amendoperation="replace">
+        <spec>Blocking</spec>
+        <spec>Cyber Implants</spec>
+		<spec>*Frog Tongue</spec>
+		<spec>*Garrote</spec>
+		<spec>*Goring Horns</spec>
+		<spec>*Oral Slasher</spec>
+		<spec>*Proboscis</spec>
+		<spec>*Quills</spec>
+        <spec>Subduing Combat</spec>
+		<spec>*Thagomizer Tail</spec>
+        <spec>[Martial Art]</spec>
+      </specs>
+    </skill>   
     <skill>
-			<name>Forgery</name>
-			<skillgroup amendoperation="replace">Thievery</skillgroup>
-		</skill>
+      <name>Pilot Aircraft</name>
+      <skillgroup amendoperation="replace">Piloting</skillgroup>
+      <specs amendoperation="replace">
+        <spec>Fixed-Wing</spec>
+        <spec>Lighter-Than-Air</spec>
+        <spec>Remote Operation</spec>
+        <spec>Rotary Wing</spec>
+        <spec>Tilt Wing</spec>
+        <spec>Vectored Thrust</spec>
+        <spec>Deep Space</spec>
+        <spec>Launch Craft</spec>
+        <spec>Semiballistic</spec>
+        <spec>Suborbital</spec>
+      </specs>
+    </skill>
     <skill>
-			<name>Locksmith</name>
-			<skillgroup amendoperation="replace">Thievery</skillgroup>
-		</skill>
-    <skill>
-			<name>Artisan</name>
-			<skillgroup amendoperation="replace">Fabricating</skillgroup>
-		</skill>
-    <skill>
-			<name>Armorer</name>
-			<skillgroup amendoperation="replace">Fabricating</skillgroup>
-		</skill>
-    <skill>
-			<name>Demolitions</name>
-			<skillgroup amendoperation="replace">Fabricating</skillgroup>
-		</skill>
-    <skill>
-			<name>Artisan</name>
-			<skillgroup amendoperation="replace">Fabricating</skillgroup>
-		</skill>
-		<skill xpathfilter="name = 'Free-Fall'" amendoperation="remove" />
-		<skill xpathfilter="name = 'Diving'" amendoperation="remove" />
-		<skill xpathfilter="name = 'Pilot Walker'" amendoperation="remove" />
-		<skill xpathfilter="name = 'Pilot Aerospace'" amendoperation="remove" />
-		<skill xpathfilter="name = 'Free-Fall'" amendoperation="remove" />
-	</skills>
+      <name>Pilot Ground Craft</name>
+      <skillgroup amendoperation="replace">Piloting</skillgroup>
+      <specs amendoperation="replace">
+        <spec>Bike</spec>
+        <spec>Hovercraft</spec>
+        <spec>Tracked</spec>
+        <spec>Wheeled</spec>
+        <spec>Biped</spec>
+        <spec>Multiped</spec>
+        <spec>Quadruped</spec>
+        <spec>Remote Operation</spec>
+      </specs>
+    </skill>
+	<skill>
+      <name>Pilot Watercraft</name>
+      <skillgroup amendoperation="replace">Piloting</skillgroup>
+    </skill>
+    <skill xpathfilter="name = 'Free-Fall'" amendoperation="remove" />
+    <skill xpathfilter="name = 'Diving'" amendoperation="remove" />
+    <skill xpathfilter="name = 'Pilot Walker'" amendoperation="remove" />
+    <skill xpathfilter="name = 'Pilot Aerospace'" amendoperation="remove" />
+    <skill xpathfilter="name = 'Free-Fall'" amendoperation="remove" />
+  </skills>
 </chummer>
