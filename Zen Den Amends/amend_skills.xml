@@ -21,8 +21,8 @@
 <chummer>
 	<skillgroups>
 		<name amendoperation="addnode">Piloting</name>
-    <name amendoperation="addnode">Thievery</name>
-    <name amendoperation="addnode">Fabricating</name>
+		<name amendoperation="addnode">Thievery</name>
+		<name amendoperation="addnode">Fabricating</name>
 	</skillgroups>
 	<skills>
 		<skill>
@@ -183,31 +183,31 @@
 			<name>Pilot Watercraft</name>
 			<skillgroup amendoperation="replace">Piloting</skillgroup>
 		</skill>
-    <skill>
+		<skill>
 			<name>Escape Artist</name>
 			<skillgroup amendoperation="replace">Thievery</skillgroup>
 		</skill>
-    <skill>
+		<skill>
 			<name>Forgery</name>
 			<skillgroup amendoperation="replace">Thievery</skillgroup>
 		</skill>
-    <skill>
+		<skill>
 			<name>Locksmith</name>
 			<skillgroup amendoperation="replace">Thievery</skillgroup>
 		</skill>
-    <skill>
+		<skill>
 			<name>Artisan</name>
 			<skillgroup amendoperation="replace">Fabricating</skillgroup>
 		</skill>
-    <skill>
+		<skill>
 			<name>Armorer</name>
 			<skillgroup amendoperation="replace">Fabricating</skillgroup>
 		</skill>
-    <skill>
+		<skill>
 			<name>Demolitions</name>
 			<skillgroup amendoperation="replace">Fabricating</skillgroup>
 		</skill>
-    <skill>
+		<skill>
 			<name>Artisan</name>
 			<skillgroup amendoperation="replace">Fabricating</skillgroup>
 		</skill>
