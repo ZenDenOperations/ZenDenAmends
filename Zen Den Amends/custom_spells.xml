@@ -18,69 +18,71 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-	<spell>
-		<id>f89b384a-110a-44fb-bc9d-d65b31bd81d8</id>
-		<name>Electrocute</name>
-		<page>0</page>
-		<source>ZDR</source>
-		<category>Combat</category>
-		<damage>P</damage>
-		<descriptor>Indirect, Elemental</descriptor>
-		<duration>I</duration>
-		<dv>F-5</dv>
-		<range>T</range>
-		<type>P</type>
-	</spell>
-	<spell>
-		<id>56500b06-24ae-4d38-b5f5-92747e58f407</id>
-		<name>Stun Prod</name>
-		<page>0</page>
-		<source>ZDR</source>
-		<category>Combat</category>
-		<damage>S</damage>
-		<descriptor>Indirect, Elemental</descriptor>
-		<duration>I</duration>
-		<dv>F-5</dv>
-		<range>T</range>
-		<type>P</type>
-	</spell>
-	<spell>
-		<id>bad17dd8-620d-4ab4-b2d5-3f5d37cfff87</id>
-		<name>Flamestrike</name>
-		<page>0</page>
-		<source>ZDR</source>
-		<category>Combat</category>
-		<damage>P</damage>
-		<descriptor>Indirect, Elemental</descriptor>
-		<duration>I</duration>
-		<dv>F-5</dv>
-		<range>T</range>
-		<type>P</type>
-	</spell>
-	<spell>
-		<id>f2594f6b-f4f0-4cfc-9dc4-859e974fd743</id>
-		<name>Caustic Strike</name>
-		<page>0</page>
-		<source>ZDR</source>
-		<category>Combat</category>
-		<damage>P</damage>
-		<descriptor>Indirect, Elemental</descriptor>
-		<duration>I</duration>
-		<dv>F-5</dv>
-		<range>T</range>
-		<type>P</type>
-	</spell>
-	<spell>
-		<id>00f7e2d3-8cd4-482c-88f9-ed2e430f9987</id>
-		<name>Freezing Touch</name>
-		<page>0</page>
-		<source>ZDR</source>
-		<category>Combat</category>
-		<damage>P</damage>
-		<descriptor>Indirect, Elemental</descriptor>
-		<duration>I</duration>
-		<dv>F-5</dv>
-		<range>T</range>
-		<type>P</type>
-	</spell>
+	<spells>
+		<spell>
+			<id>f89b384a-110a-44fb-bc9d-d65b31bd81d8</id>
+			<name>Electrocute</name>
+			<page>0</page>
+			<source>ZDR</source>
+			<category>Combat</category>
+			<damage>P</damage>
+			<descriptor>Indirect, Elemental</descriptor>
+			<duration>I</duration>
+			<dv>F-5</dv>
+			<range>T</range>
+			<type>P</type>
+		</spell>
+		<spell>
+			<id>56500b06-24ae-4d38-b5f5-92747e58f407</id>
+			<name>Stun Prod</name>
+			<page>0</page>
+			<source>ZDR</source>
+			<category>Combat</category>
+			<damage>S</damage>
+			<descriptor>Indirect, Elemental</descriptor>
+			<duration>I</duration>
+			<dv>F-5</dv>
+			<range>T</range>
+			<type>P</type>
+		</spell>
+		<spell>
+			<id>bad17dd8-620d-4ab4-b2d5-3f5d37cfff87</id>
+			<name>Flamestrike</name>
+			<page>0</page>
+			<source>ZDR</source>
+			<category>Combat</category>
+			<damage>P</damage>
+			<descriptor>Indirect, Elemental</descriptor>
+			<duration>I</duration>
+			<dv>F-5</dv>
+			<range>T</range>
+			<type>P</type>
+		</spell>
+		<spell>
+			<id>f2594f6b-f4f0-4cfc-9dc4-859e974fd743</id>
+			<name>Caustic Strike</name>
+			<page>0</page>
+			<source>ZDR</source>
+			<category>Combat</category>
+			<damage>P</damage>
+			<descriptor>Indirect, Elemental</descriptor>
+			<duration>I</duration>
+			<dv>F-5</dv>
+			<range>T</range>
+			<type>P</type>
+		</spell>
+		<spell>
+			<id>00f7e2d3-8cd4-482c-88f9-ed2e430f9987</id>
+			<name>Freezing Touch</name>
+			<page>0</page>
+			<source>ZDR</source>
+			<category>Combat</category>
+			<damage>P</damage>
+			<descriptor>Indirect, Elemental</descriptor>
+			<duration>I</duration>
+			<dv>F-5</dv>
+			<range>T</range>
+			<type>P</type>
+		</spell>
+	</spells>
 </chummer>
