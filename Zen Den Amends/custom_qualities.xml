@@ -1046,7 +1046,7 @@
 			<required>
 				<allof>
 					<skill>
-						<name>Pistol</name>
+						<name>Pistols</name>
 						<val>6</val>
 						<spec>Revolvers</spec>
 					</skill>
@@ -1065,7 +1065,7 @@
 			<required>
 				<allof>
 					<skill>
-						<name>Pistol</name>
+						<name>Pistols</name>
 						<val>6</val>
 					</skill>
 				</allof>
