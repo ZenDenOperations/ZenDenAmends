@@ -156,7 +156,7 @@
 		<vehicle>
 			<!--Corporate Garbage Hauler(Dodge Ram industrial:Narrow)-->
 			<id>bd45e719-82a5-443d-83bd-976abdcf786b</id>
-			<cost></cost>
+			<cost>147000</cost>
 			<seats>4</seats>
 		</vehicle>
 
@@ -169,7 +169,7 @@
 		<vehicle>
 			<!--Corporate Ambulance (GMC Endurance)-->
 			<id>2ddf358f-0681-4521-b2a4-735797752aba</id>
-			<cost>147000</cost>
+			<cost>105000</cost>
 			<seats>8</seats>
 		</vehicle>
   		<vehicle>
