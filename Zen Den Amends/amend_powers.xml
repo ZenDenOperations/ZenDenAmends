@@ -24,6 +24,10 @@
 			<bonus amendoperation="replace">
 				<disablequality amendoperation="remove">3564b678-7721-4a8d-ac79-1600cf92dc14</disablequality>
 				<initiativepass amendoperation="replace">Rating</initiativepass>
+				<specificattribute amendoperation="replace">
+          			<name>REA</name>
+          			<val>Rating</val>
+        			</specificattribute>
 			</bonus>
 		</power>
 		<power>
