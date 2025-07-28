@@ -790,7 +790,7 @@
 		</bioware>
 		<bioware>
 			<id>b25a0ee7-a76a-4f1f-b1ca-bac2bd942aa2</id>
-			<name>Reflex Recorder (Athletics)</name>
+			<name>Skill Group Reflex Recorder</name>
 			<limit>False</limit>
 			<category>Cultured</category>
 			<bannedgrades>
@@ -802,166 +802,11 @@
 			<avail>12</avail>
 			<cost>35000</cost>
 			<bonus>
-				<skillgroup>
-					<name>Athletics</name>
+				<selectskillgroup excludecategory="Magical Active,Resonance Active,Social Active,Technical Active,Vechicle Active">
 					<bonus>1</bonus>
-				</skillgroup>
+				</selectskillgroup>
 			</bonus>
-			<source>6E</source>
-			<page>1</page>
-		</bioware>
-		<bioware>
-			<id>88dbec80-4450-44b3-8785-60ba8392e0a0</id>
-			<name>Reflex Recorder (Close Combat)</name>
-			<limit>False</limit>
-			<category>Cultured</category>
-			<bannedgrades>
-				<grade>Used</grade>
-				<grade>Used (Adapsin)</grade>
-			</bannedgrades>
-			<ess>0.2</ess>
-			<capacity>0</capacity>
-			<avail>12</avail>
-			<cost>35000</cost>
-			<bonus>
-				<skillgroup>
-					<name>Close Combat</name>
-					<bonus>1</bonus>
-				</skillgroup>
-			</bonus>
-			<source>6E</source>
-			<page>1</page>
-		</bioware>
-		<bioware>
-			<id>7f7f6c43-8f4c-49d3-8ff2-8b504b045fdf</id>
-			<name>Reflex Recorder (Firearms)</name>
-			<limit>False</limit>
-			<category>Cultured</category>
-			<bannedgrades>
-				<grade>Used</grade>
-				<grade>Used (Adapsin)</grade>
-			</bannedgrades>
-			<ess>0.2</ess>
-			<capacity>0</capacity>
-			<avail>12</avail>
-			<cost>35000</cost>
-			<bonus>
-				<skillgroup>
-					<name>Firearms</name>
-					<bonus>1</bonus>
-				</skillgroup>
-			</bonus>
-			<source>6E</source>
-			<page>1</page>
-		</bioware>
-		<bioware>
-			<id>c421e2d6-9284-47f4-8889-fdc34390fbea</id>
-			<name>Reflex Recorder (Stealth)</name>
-			<limit>False</limit>
-			<category>Cultured</category>
-			<bannedgrades>
-				<grade>Used</grade>
-				<grade>Used (Adapsin)</grade>
-			</bannedgrades>
-			<ess>0.2</ess>
-			<capacity>0</capacity>
-			<avail>12</avail>
-			<cost>35000</cost>
-			<bonus>
-				<skillgroup>
-					<name>Stealth</name>
-					<bonus>1</bonus>
-				</skillgroup>
-			</bonus>
-			<source>6E</source>
-			<page>1</page>
-		</bioware>
-		<bioware>
-			<id>8683b1df-ccab-475d-8b33-254907b657e1</id>
-			<name>Reflex Recorder (Piloting)</name>
-			<limit>False</limit>
-			<category>Cultured</category>
-			<bannedgrades>
-				<grade>Used</grade>
-				<grade>Used (Adapsin)</grade>
-			</bannedgrades>
-			<ess>0.2</ess>
-			<capacity>0</capacity>
-			<avail>12</avail>
-			<cost>35000</cost>
-			<bonus>
-				<skillgroup>
-					<name>Piloting</name>
-					<bonus>1</bonus>
-				</skillgroup>
-			</bonus>
-			<source>6E</source>
-			<page>1</page>
-		</bioware>
-		<bioware>
-			<id>41612afd-738b-4be7-8a45-12a8b12ded66</id>
-			<name>Reflex Recorder (Thievery)</name>
-			<limit>False</limit>
-			<category>Cultured</category>
-			<bannedgrades>
-				<grade>Used</grade>
-				<grade>Used (Adapsin)</grade>
-			</bannedgrades>
-			<ess>0.2</ess>
-			<capacity>0</capacity>
-			<avail>12</avail>
-			<cost>35000</cost>
-			<bonus>
-				<skillgroup>
-					<name>Thievery</name>
-					<bonus>1</bonus>
-				</skillgroup>
-			</bonus>
-			<source>6E</source>
-			<page>1</page>
-		</bioware>
-		<bioware>
-			<id>abfdec8a-33ec-4e81-900c-a8d7838e9368</id>
-			<name>Reflex Recorder (Fabricating)</name>
-			<limit>False</limit>
-			<category>Cultured</category>
-			<bannedgrades>
-				<grade>Used</grade>
-				<grade>Used (Adapsin)</grade>
-			</bannedgrades>
-			<ess>0.2</ess>
-			<capacity>0</capacity>
-			<avail>12</avail>
-			<cost>35000</cost>
-			<bonus>
-				<skillgroup>
-					<name>Fabricating</name>
-					<bonus>1</bonus>
-				</skillgroup>
-			</bonus>
-			<source>6E</source>
-			<page>1</page>
-		</bioware>
-		<bioware>
-			<id>ec6c5e37-2046-43f8-95ce-7c46aea3ca98</id>
-			<name>Reflex Recorder (Engineering)</name>
-			<limit>False</limit>
-			<category>Cultured</category>
-			<bannedgrades>
-				<grade>Used</grade>
-				<grade>Used (Adapsin)</grade>
-			</bannedgrades>
-			<ess>0.2</ess>
-			<capacity>0</capacity>
-			<avail>12</avail>
-			<cost>35000</cost>
-			<bonus>
-				<skillgroup>
-					<name>Engineering</name>
-					<bonus>1</bonus>
-				</skillgroup>
-			</bonus>
-			<source>6E</source>
+			<source>ZDR</source>
 			<page>1</page>
 		</bioware>
 	</biowares>
