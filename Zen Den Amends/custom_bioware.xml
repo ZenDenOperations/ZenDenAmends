@@ -797,12 +797,12 @@
 				<grade>Used</grade>
 				<grade>Used (Adapsin)</grade>
 			</bannedgrades>
-			<ess>0.2</ess>
+			<ess>0.1</ess>
 			<capacity>0</capacity>
 			<avail>12</avail>
 			<cost>35000</cost>
 			<bonus>
-				<selectskillgroup excludecategory="Magical Active,Resonance Active,Social Active,Technical Active,Vechicle Active">
+				<selectskillgroup excludecategory="Magical Active,Resonance Active,Social Active,Technical Active">
 					<bonus>1</bonus>
 				</selectskillgroup>
 			</bonus>
