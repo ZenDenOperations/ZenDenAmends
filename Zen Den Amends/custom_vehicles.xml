@@ -18,562 +18,565 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-  <vehicles>
-    <vehicle>
-      <id>116f6efe-2bb0-4fd4-80de-c25d6fa721bd</id>
-      <name>BMW M8</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>3</accel>
-      <armor>11</armor>
-      <avail>10</avail>
-      <body>12</body>
-      <category>Cars</category>
-      <cost>76000</cost>
-      <handling>4/3</handling>
-      <pilot>1</pilot>
-      <sensor>2</sensor>
-      <speed>6</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>7</maxrating>
-        </gear>
-      </gears>
-      <seats>4</seats>
-    </vehicle>
-    <vehicle>
-      <id>1a50c08f-6c44-4e2d-b15c-457cc98f10b9</id>
-      <name>Mercury Cruiser</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>3</accel>
-      <armor>11</armor>
-      <avail>0</avail>
-      <body>14</body>
-      <category>Cars</category>
-      <cost>21000</cost>
-      <handling>4/3</handling>
-      <pilot>1</pilot>
-      <sensor>2</sensor>
-      <speed>3</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>2</maxrating>
-        </gear>
-      </gears>
-      <seats>5</seats>
-    </vehicle>
-    <vehicle>
-      <id>1eb827c6-cda1-40fe-b855-8a1f41a34700</id>
-      <name>Mercedes-Benz CityMog</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>1</accel>
-      <armor>10</armor>
-      <avail>0</avail>
-      <body>18</body>
-      <category>Cars</category>
-      <cost>44000</cost>
-      <handling>5/4</handling>
-      <pilot>2</pilot>
-      <sensor>2</sensor>
-      <speed>3</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>2</maxrating>
-        </gear>
-      </gears>
-      <seats>3</seats>
-    </vehicle>
-    <vehicle>
-      <id>122a3919-dc05-4d8d-89b3-fa0ac9e1d669</id>
-      <name>Mercedes-Benz CityMog CM-X (Pickup)</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>1</accel>
-      <armor>10</armor>
-      <avail>0</avail>
-      <body>18</body>
-      <category>Cars</category>
-      <cost>42000</cost>
-      <handling>5/4</handling>
-      <pilot>2</pilot>
-      <sensor>2</sensor>
-      <speed>3</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>2</maxrating>
-        </gear>
-      </gears>
-      <seats>5</seats>
-    </vehicle>
-    <vehicle>
-      <id>e0a63cca-ce9b-4b1b-b88b-1d496c37e82d</id>
-      <name>Mercedes-Benz CityMog Traveler</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>1</accel>
-      <armor>10</armor>
-      <avail>0</avail>
-      <body>18</body>
-      <category>Cars</category>
-      <cost>56000</cost>
-      <handling>5/4</handling>
-      <pilot>3</pilot>
-      <sensor>2</sensor>
-      <speed>3</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>2</maxrating>
-        </gear>
-      </gears>
-      <mods>
-        <name>Amenities (Middle)</name>
-      </mods>
-      <seats>20</seats>
-    </vehicle>
-    <vehicle>
-      <id>04b54f68-d1df-42f7-a03e-0bc465e42024</id>
-      <name>Mercedes-Benz CityMog Elite</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>1</accel>
-      <armor>12</armor>
-      <avail>0</avail>
-      <body>18</body>
-      <category>Cars</category>
-      <cost>96000</cost>
-      <handling>5/3</handling>
-      <pilot>3</pilot>
-      <sensor>4</sensor>
-      <speed>3</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>4</rating>
-          <maxrating>4</maxrating>
-        </gear>
-      </gears>
-      <mods>
-        <name>Amenities (High)</name>
-      </mods>
-      <seats>12</seats>
-    </vehicle>
-    <vehicle>
-      <id>b52811c6-03d4-4dee-8a2e-04ea043b79e8</id>
-      <name>Volkswagen Multicity</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>1</accel>
-      <armor>4</armor>
-      <avail>0</avail>
-      <body>12</body>
-      <category>Cars</category>
-      <cost>18000</cost>
-      <handling>3/2</handling>
-      <pilot>1</pilot>
-      <sensor>1</sensor>
-      <speed>4</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>1</rating>
-          <maxrating>1</maxrating>
-        </gear>
-      </gears>
-      <seats>3</seats>
-    </vehicle>
-    <vehicle>
-      <id>8abe349d-d687-45a0-a1c9-d6189e4eac39</id>
-      <name>Volkswagen Urban Explorer</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>1</accel>
-      <armor>6</armor>
-      <avail>0</avail>
-      <body>13</body>
-      <category>Cars</category>
-      <cost>28000</cost>
-      <handling>3/3</handling>
-      <pilot>2</pilot>
-      <sensor>2</sensor>
-      <speed>3</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>2</maxrating>
-        </gear>
-      </gears>
-      <mods>
-        <name>Amenities (Middle)</name>
-        <name>SunCell</name>
-      </mods>
-      <seats>4</seats>
-    </vehicle>
-    <vehicle>
-      <id>9b5cf9b8-c3ce-4853-91c7-215a73ad4ed2</id>
-      <name>Volkswagen Urban Transporter</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>1</accel>
-      <armor>6</armor>
-      <avail>0</avail>
-      <body>13</body>
-      <category>Cars</category>
-      <cost>19500</cost>
-      <handling>3/3</handling>
-      <pilot>2</pilot>
-      <sensor>2</sensor>
-      <speed>3</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>2</maxrating>
-        </gear>
-      </gears>
-      <seats>2</seats>
-    </vehicle>
-    <vehicle>
-      <id>61c57dad-8683-464e-92e1-3ad57776365e</id>
-      <name>Volkswagen Urban Traveler</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>1</accel>
-      <armor>6</armor>
-      <avail>0</avail>
-      <body>13</body>
-      <category>Cars</category>
-      <cost>29500</cost>
-      <handling>3/3</handling>
-      <pilot>2</pilot>
-      <sensor>2</sensor>
-      <speed>3</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>2</maxrating>
-        </gear>
-      </gears>
-      <seats>9</seats>
-    </vehicle>
-    <vehicle>
-      <id>1581a0b7-d198-46ba-bf68-88871554fcf1</id>
-      <name>Volkswagen Urban Watcher</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>1</accel>
-      <armor>10</armor>
-      <avail>12R</avail>
-      <body>16</body>
-      <category>Cars</category>
-      <cost>65000</cost>
-      <handling>3/3</handling>
-      <pilot>2</pilot>
-      <sensor>2</sensor>
-      <speed>3</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>2</maxrating>
-        </gear>
-      </gears>
-      <mods>
-        <name>Landing Drone Rack (Medium)</name>
-        <name>Landing Drone Rack (Medium)</name>
-        <name>Landing Drone Rack (Medium)</name>
-        <name>Landing Drone Rack (Medium)</name>
-        <name>Retrans Unit</name>
-      </mods>
-      <seats>4</seats>
-    </vehicle>
-    <vehicle>
-      <id>98dc1868-0c72-468a-bf82-a87dbbcd0002</id>
-      <name>Dodge Hurricane</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>2</accel>
-      <armor>12</armor>
-      <avail>0</avail>
-      <body>15</body>
-      <category>Cars</category>
-      <cost>37000</cost>
-      <handling>4/4</handling>
-      <pilot>1</pilot>
-      <sensor>2</sensor>
-      <speed>4</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>2</maxrating>
-        </gear>
-      </gears>
-      <seats>3</seats>
-    </vehicle>
-    <vehicle>
-      <id>31a6d5b8-025e-4391-b302-ff4ae38ae196</id>
-      <name>Dodge Hurricane Crew Model</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>2</accel>
-      <armor>12</armor>
-      <avail>0</avail>
-      <body>16</body>
-      <category>Cars</category>
-      <cost>43000</cost>
-      <handling>3/3</handling>
-      <pilot>1</pilot>
-      <sensor>2</sensor>
-      <speed>4</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>2</rating>
-          <maxrating>2</maxrating>
-        </gear>
-      </gears>
-      <seats>6</seats>
-    </vehicle>
-    <vehicle>
-      <id>6a8c2884-7ca3-4070-a87f-5aff00b852f8</id>
-      <name>Dodge Hurricane Security Model</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>2</accel>
-      <armor>14</armor>
-      <avail>0</avail>
-      <body>16</body>
-      <category>Cars</category>
-      <cost>67000</cost>
-      <handling>4/3</handling>
-      <pilot>3</pilot>
-      <sensor>3</sensor>
-      <speed>4</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>3</rating>
-          <maxrating>3</maxrating>
-        </gear>
-      </gears>
-      <seats>5</seats>
-    </vehicle>
-    <vehicle>
-      <id>349e9cdf-fa51-4da1-87ee-2ecd535fd019</id>
-      <name>BMW X Infinity</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>2</accel>
-      <armor>13</armor>
-      <avail>10</avail>
-      <body>14</body>
-      <category>Cars</category>
-      <cost>72000</cost>
-      <handling>5/5</handling>
-      <pilot>2</pilot>
-      <sensor>4</sensor>
-      <speed>4</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>4</rating>
-          <maxrating>4</maxrating>
-        </gear>
-      </gears>
-      <seats>6</seats>
-    </vehicle>
-    <vehicle>
-      <id>ae157cb7-0bfa-418f-92fe-d0dce4d77c1c</id>
-      <name>Ares Shadowdancer Armor</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <accel>2</accel>
-      <armor>18</armor>
-      <avail>24F</avail>
-      <body>6</body>
-      <category>Corpsec/Police/Military</category>
-      <cost>231000</cost>
-      <handling>3</handling>
-      <pilot>1</pilot>
-      <seats>1</seats>
-      <sensor>4</sensor>
-      <speed>4</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>4</rating>
-          <maxrating>6</maxrating>
-        </gear>
-      </gears>
-      <mods>
-        <name>Drone Arm</name>
-        <name>Drone Arm</name>
-        <name rating="3">Signature Masking</name>
-        <name rating="2">Life Support</name>
-        <name>Rigger Interface</name>
-        <name>Suncell</name>
-      </mods>
-      <notes>The Shadowdancer's Drone Arms have Agility 8 and Strength 9.</notes>
-    </vehicle>
-
-    <vehicle>
-      <id>35b350af-f7b0-4935-919f-eb5d485dcb05</id>
-      <name>Crotch Rocker</name>
-      <page>62</page>
-      <source>SL</source>
-      <accel>1/2</accel>
-      <armor>12</armor>
-      <avail>20R</avail>
-      <body>6</body>
-      <category>Bikes</category>
-      <cost>250000</cost>
-      <handling>6/4</handling>
-      <pilot>2</pilot>
-      <seats>1</seats>
-      <sensor>4</sensor>
-      <speed>1/2</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>4</rating>
-          <maxrating>6</maxrating>
-        </gear>
-      </gears>
-
-      <notes>The Speed and Accel are typically controlled by a governor
+	<vehicles>
+		<vehicle>
+			<id>116f6efe-2bb0-4fd4-80de-c25d6fa721bd</id>
+			<name>BMW M8</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>3</accel>
+			<armor>11</armor>
+			<avail>10</avail>
+			<body>12</body>
+			<category>Cars</category>
+			<cost>76000</cost>
+			<handling>4/3</handling>
+			<pilot>1</pilot>
+			<sensor>2</sensor>
+			<speed>6</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<seats>4</seats>
+		</vehicle>
+		<vehicle>
+			<id>1a50c08f-6c44-4e2d-b15c-457cc98f10b9</id>
+			<name>Mercury Cruiser</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>3</accel>
+			<armor>11</armor>
+			<avail>0</avail>
+			<body>14</body>
+			<category>Cars</category>
+			<cost>21000</cost>
+			<handling>4/3</handling>
+			<pilot>1</pilot>
+			<sensor>2</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+			<seats>5</seats>
+		</vehicle>
+		<vehicle>
+			<id>1eb827c6-cda1-40fe-b855-8a1f41a34700</id>
+			<name>Mercedes-Benz CityMog</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>10</armor>
+			<avail>0</avail>
+			<body>18</body>
+			<category>Cars</category>
+			<cost>44000</cost>
+			<handling>5/4</handling>
+			<pilot>2</pilot>
+			<sensor>2</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+			<seats>3</seats>
+		</vehicle>
+		<vehicle>
+			<id>122a3919-dc05-4d8d-89b3-fa0ac9e1d669</id>
+			<name>Mercedes-Benz CityMog CM-X (Pickup)</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>10</armor>
+			<avail>0</avail>
+			<body>18</body>
+			<category>Cars</category>
+			<cost>42000</cost>
+			<handling>5/4</handling>
+			<pilot>2</pilot>
+			<sensor>2</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+			<seats>5</seats>
+		</vehicle>
+		<vehicle>
+			<id>e0a63cca-ce9b-4b1b-b88b-1d496c37e82d</id>
+			<name>Mercedes-Benz CityMog Traveler</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>10</armor>
+			<avail>0</avail>
+			<body>18</body>
+			<category>Cars</category>
+			<cost>56000</cost>
+			<handling>5/4</handling>
+			<pilot>3</pilot>
+			<sensor>2</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Amenities (Middle)</name>
+			</mods>
+			<seats>20</seats>
+		</vehicle>
+		<vehicle>
+			<id>04b54f68-d1df-42f7-a03e-0bc465e42024</id>
+			<name>Mercedes-Benz CityMog Elite</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>12</armor>
+			<avail>0</avail>
+			<body>18</body>
+			<category>Cars</category>
+			<cost>96000</cost>
+			<handling>5/3</handling>
+			<pilot>3</pilot>
+			<sensor>4</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>4</rating>
+					<maxrating>4</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Amenities (High)</name>
+			</mods>
+			<seats>12</seats>
+		</vehicle>
+		<vehicle>
+			<id>b52811c6-03d4-4dee-8a2e-04ea043b79e8</id>
+			<name>Volkswagen Multicity</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>4</armor>
+			<avail>0</avail>
+			<body>12</body>
+			<category>Cars</category>
+			<cost>18000</cost>
+			<handling>3/2</handling>
+			<pilot>1</pilot>
+			<sensor>1</sensor>
+			<speed>4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>1</rating>
+					<maxrating>1</maxrating>
+				</gear>
+			</gears>
+			<seats>3</seats>
+		</vehicle>
+		<vehicle>
+			<id>8abe349d-d687-45a0-a1c9-d6189e4eac39</id>
+			<name>Volkswagen Urban Explorer</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>6</armor>
+			<avail>0</avail>
+			<body>13</body>
+			<category>Cars</category>
+			<cost>28000</cost>
+			<handling>3/3</handling>
+			<pilot>2</pilot>
+			<sensor>2</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Amenities (Middle)</name>
+				<name>SunCell</name>
+			</mods>
+			<seats>4</seats>
+		</vehicle>
+		<vehicle>
+			<id>9b5cf9b8-c3ce-4853-91c7-215a73ad4ed2</id>
+			<name>Volkswagen Urban Transporter</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>6</armor>
+			<avail>0</avail>
+			<body>13</body>
+			<category>Cars</category>
+			<cost>19500</cost>
+			<handling>3/3</handling>
+			<pilot>2</pilot>
+			<sensor>2</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+			<seats>2</seats>
+		</vehicle>
+		<vehicle>
+			<id>61c57dad-8683-464e-92e1-3ad57776365e</id>
+			<name>Volkswagen Urban Traveler</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>6</armor>
+			<avail>0</avail>
+			<body>13</body>
+			<category>Cars</category>
+			<cost>29500</cost>
+			<handling>3/3</handling>
+			<pilot>2</pilot>
+			<sensor>2</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+			<seats>9</seats>
+		</vehicle>
+		<vehicle>
+			<id>1581a0b7-d198-46ba-bf68-88871554fcf1</id>
+			<name>Volkswagen Urban Watcher</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>10</armor>
+			<avail>12R</avail>
+			<body>16</body>
+			<category>Cars</category>
+			<cost>65000</cost>
+			<handling>3/3</handling>
+			<pilot>2</pilot>
+			<sensor>2</sensor>
+			<speed>3</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Landing Drone Rack (Medium)</name>
+				<name>Landing Drone Rack (Medium)</name>
+				<name>Landing Drone Rack (Medium)</name>
+				<name>Landing Drone Rack (Medium)</name>
+				<name>Retrans Unit</name>
+			</mods>
+			<seats>4</seats>
+		</vehicle>
+		<vehicle>
+			<id>98dc1868-0c72-468a-bf82-a87dbbcd0002</id>
+			<name>Dodge Hurricane</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>2</accel>
+			<armor>12</armor>
+			<avail>0</avail>
+			<body>15</body>
+			<category>Cars</category>
+			<cost>37000</cost>
+			<handling>4/4</handling>
+			<pilot>1</pilot>
+			<sensor>2</sensor>
+			<speed>4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+			<seats>3</seats>
+		</vehicle>
+		<vehicle>
+			<id>31a6d5b8-025e-4391-b302-ff4ae38ae196</id>
+			<name>Dodge Hurricane Crew Model</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>2</accel>
+			<armor>12</armor>
+			<avail>0</avail>
+			<body>16</body>
+			<category>Cars</category>
+			<cost>43000</cost>
+			<handling>3/3</handling>
+			<pilot>1</pilot>
+			<sensor>2</sensor>
+			<speed>4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+			<seats>6</seats>
+		</vehicle>
+		<vehicle>
+			<id>6a8c2884-7ca3-4070-a87f-5aff00b852f8</id>
+			<name>Dodge Hurricane Security Model</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>2</accel>
+			<armor>14</armor>
+			<avail>0</avail>
+			<body>16</body>
+			<category>Cars</category>
+			<cost>67000</cost>
+			<handling>4/3</handling>
+			<pilot>3</pilot>
+			<sensor>3</sensor>
+			<speed>4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>3</rating>
+					<maxrating>3</maxrating>
+				</gear>
+			</gears>
+			<seats>5</seats>
+		</vehicle>
+		<vehicle>
+			<id>349e9cdf-fa51-4da1-87ee-2ecd535fd019</id>
+			<name>BMW X Infinity</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>2</accel>
+			<armor>13</armor>
+			<avail>10</avail>
+			<body>14</body>
+			<category>Cars</category>
+			<cost>72000</cost>
+			<handling>5/5</handling>
+			<pilot>2</pilot>
+			<sensor>4</sensor>
+			<speed>4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>4</rating>
+					<maxrating>4</maxrating>
+				</gear>
+			</gears>
+			<seats>6</seats>
+		</vehicle>
+		<vehicle>
+			<id>ae157cb7-0bfa-418f-92fe-d0dce4d77c1c</id>
+			<name>Ares Shadowdancer Armor</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>2</accel>
+			<armor>18</armor>
+			<avail>24F</avail>
+			<body>6</body>
+			<category>Corpsec/Police/Military</category>
+			<cost>231000</cost>
+			<handling>3</handling>
+			<pilot>1</pilot>
+			<seats>1</seats>
+			<sensor>4</sensor>
+			<speed>4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>4</rating>
+					<maxrating>6</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Drone Arm</name>
+				<name>Drone Arm</name>
+				<name rating="3">Signature Masking</name>
+				<name rating="2">Life Support</name>
+				<name>Rigger Interface</name>
+				<name>Suncell</name>
+			</mods>
+			<notes>The Shadowdancer's Drone Arms have Agility 8 and Strength 9.</notes>
+		</vehicle>
+		<vehicle>
+			<id>35b350af-f7b0-4935-919f-eb5d485dcb05</id>
+			<name>Crotch Rocker</name>
+			<page>62</page>
+			<source>SL</source>
+			<accel>1/2</accel>
+			<armor>12</armor>
+			<avail>20R</avail>
+			<body>6</body>
+			<category>Bikes</category>
+			<cost>250000</cost>
+			<handling>6/4</handling>
+			<pilot>2</pilot>
+			<seats>1</seats>
+			<sensor>4</sensor>
+			<speed>1/2</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>4</rating>
+					<maxrating>6</maxrating>
+				</gear>
+			</gears>
+			<notes>The Speed and Accel are typically controlled by a governor
   system. When disengaged, these Attributes both become 2 instead but the handling gets reduced to 4. Its speed tier is always 5
 </notes>
-    </vehicle>
-
-  </vehicles>
-  <mods>
-    <mod>
-      <id>3433b962-0ed6-49e9-9807-0a160642ae91</id>
-      <name>Ejection seat</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <avail>8R</avail>
-      <category>Protection</category>
-      <cost>750</cost>
-      <rating>0</rating>
-      <slots>1</slots>
-      <required>
-        <vehicledetails>
-          <OR>
-            <category>Bikes</category>
-            <category>Cars</category>
-            <category>Trucks</category>
-            <category>Municipal/Construction</category>
-            <category>Corpsec/Police/Military</category>
-            <category>Boats</category>
-            <category>Submarines</category>
-            <category>Fixed-Wing Aircraft</category>
-            <category>LTAV</category>
-            <category>Rotorcraft</category>
-            <category>VTOL/VSTOL</category>
-          </OR>
-        </vehicledetails>
-      </required>
-    </mod>
-     <mod>
-      <id>1644ac56-c6fa-4cf1-aede-90738f84814a</id>
-      <name>Secondary Propulsion (Vector Thrust, LAV)</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <avail>14R</avail>
-      <category>Powertrain</category>
-      <cost>number(Body = 0) * 4500 + Body * 9000</cost>
-      <rating>0</rating>
-      <slots>10</slots>
-    </mod>
-
-    <mod>
-      <id>a4191237-f6a8-403a-b87b-9e5e40b0aea3</id>
-      <name>Secondary Propulsion (Wheeled)</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <avail>6</avail>
-      <category>Powertrain</category>
-      <cost>number(Body = 0) * 500 + Body * 1000</cost>
-      <rating>0</rating>
-      <slots>4</slots>
-    </mod>
-
-    <mod>
-      <id>b99a30cc-cb91-4907-a033-cdfc08fde36a</id>
-      <name>Secondary Propulsion (Winged)</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <avail>10R</avail>
-      <category>Powertrain</category>
-      <cost>number(Body = 0) * 200 + Body * 4000</cost>
-      <rating>0</rating>
-      <slots>8</slots>
-    </mod>
-    <mod>
-      <id>cadc77d6-576c-435b-b710-979bd56be556</id>
-      <name>Secondary Propulsion (Gravdrive)</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <avail>50R</avail>
-      <category>Powertrain</category>
-      <cost>number(Body = 0) * 12500 + Body * 25000</cost>
-      <rating>0</rating>
-      <slots>8</slots>
-    </mod>
-
-    <mod>
-      <id>8a2f9e41-1eb7-48a0-a154-519803bb85c8</id>
-      <name>Engine Replacement (Gravdrive)</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <avail>50R</avail>
-      <category>Powertrain</category>
-      <cost>450000</cost>
-      <rating>0</rating>
-      <slots>0</slots>
-      <required>
-        <vehicledetails>
-          <OR>
-            <category>VTOL/VSTOL</category>
-            <category>Fixed-Wing Aircraft</category>
-          </OR>
-        </vehicledetails>
-      </required>
-
-    </mod>
-
-    <mod>
-      <id>ff8d6e0a-4035-45f9-9eb7-137848749763</id>
-      <name>Self Built (It just has to fit)</name>
-      <page>1</page>
-      <source>ZDR</source>
-      <avail>0</avail>
-      <category>Powertrain</category>
-      <cost>Variable(0-1000000)</cost>
-      <rating>body</rating>
-      <slots>-Rating</slots>
-      <required>
-        <oneof>
-          <quality>It just has to fit</quality>
-        </oneof>
-      </required>
-    </mod>
-
-
-  </mods>
+		</vehicle>
+	</vehicles>
+	<mods>
+		<mod>
+			<id>3433b962-0ed6-49e9-9807-0a160642ae91</id>
+			<name>Ejection seat</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<avail>8R</avail>
+			<category>Protection</category>
+			<cost>750</cost>
+			<rating>0</rating>
+			<slots>1</slots>
+			<required>
+				<vehicledetails>
+					<OR>
+						<category>Bikes</category>
+						<category>Cars</category>
+						<category>Trucks</category>
+						<category>Municipal/Construction</category>
+						<category>Corpsec/Police/Military</category>
+						<category>Boats</category>
+						<category>Submarines</category>
+						<category>Fixed-Wing Aircraft</category>
+						<category>LTAV</category>
+						<category>Rotorcraft</category>
+						<category>VTOL/VSTOL</category>
+					</OR>
+				</vehicledetails>
+			</required>
+		</mod>
+		<mod>
+			<id>1644ac56-c6fa-4cf1-aede-90738f84814a</id>
+			<name>Secondary Propulsion (Vector Thrust, LAV)</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<avail>14R</avail>
+			<category>Powertrain</category>
+			<cost>number(Body = 0) * 4500 + Body * 9000</cost>
+			<rating>0</rating>
+			<slots>10</slots>
+		</mod>
+		<mod>
+			<id>a4191237-f6a8-403a-b87b-9e5e40b0aea3</id>
+			<name>Secondary Propulsion (Wheeled)</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<avail>6</avail>
+			<category>Powertrain</category>
+			<cost>number(Body = 0) * 500 + Body * 1000</cost>
+			<rating>0</rating>
+			<slots>4</slots>
+		</mod>
+		<mod>
+			<id>b99a30cc-cb91-4907-a033-cdfc08fde36a</id>
+			<name>Secondary Propulsion (Winged)</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<avail>10R</avail>
+			<category>Powertrain</category>
+			<cost>number(Body = 0) * 200 + Body * 4000</cost>
+			<rating>0</rating>
+			<slots>8</slots>
+		</mod>
+		<mod>
+			<id>cadc77d6-576c-435b-b710-979bd56be556</id>
+			<name>Secondary Propulsion (Gravdrive)</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<avail>50R</avail>
+			<category>Powertrain</category>
+			<cost>number(Body = 0) * 12500 + Body * 25000</cost>
+			<rating>0</rating>
+			<slots>8</slots>
+		</mod>
+		<mod>
+			<id>8a2f9e41-1eb7-48a0-a154-519803bb85c8</id>
+			<name>Engine Replacement (Gravdrive)</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<avail>50R</avail>
+			<category>Powertrain</category>
+			<cost>450000</cost>
+			<rating>0</rating>
+			<slots>0</slots>
+			<required>
+				<vehicledetails>
+					<OR>
+						<category>VTOL/VSTOL</category>
+						<category>Fixed-Wing Aircraft</category>
+					</OR>
+				</vehicledetails>
+			</required>
+		</mod>
+		<mod>
+			<id>ff8d6e0a-4035-45f9-9eb7-137848749763</id>
+			<name>Self Built (It just has to fit)</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<avail>0</avail>
+			<category>Powertrain</category>
+			<cost>Variable(0-1000000)</cost>
+			<rating>body</rating>
+			<slots>-Rating</slots>
+			<required>
+				<oneof>
+					<quality>It just has to fit</quality>
+				</oneof>
+			</required>
+		</mod>
+		<mod>
+			<id>32bad502-5454-47d5-a233-e557fb7c6622</id>
+			<name>It Just Has To Fit Discount</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<avail>0</avail>
+			<category>Powertrain</category>
+			<cost>0</cost>
+			<rating>99</rating>
+			<ratinglabel>String_UpgradedRating</ratinglabel>
+			<slots>-1</slots>
+			<optionaldrone />
+		</mod>
+	</mods>
 </chummer>
