@@ -32,6 +32,18 @@
 			<page>116</page>
 		</power>
 		<power>
+			<id>acb29f01-52cb-4d37-8b53-70ce00162543</id>
+			<name>Infected Improvement (Agility)</name>
+			<bonus>
+				<specificattribute>
+					<name>AGI</name>
+					<min>1</min>
+				</specificattribute>
+			</bonus>
+			<source>RF</source>
+			<page>116</page>
+		</power>
+		<power>
 			<id>ee6ac7f2-09e6-4873-87e0-8dc67fdc532f</id>
 			<name>Infected Improvement (Strength)</name>
 			<bonus>
