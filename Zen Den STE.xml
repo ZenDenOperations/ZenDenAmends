@@ -18,7 +18,7 @@
 	<knowledgepointsexpression>({INTUnaug} + {LOGUnaug}) * 2</knowledgepointsexpression>
 	<chargenkarmatonuyenexpression>{Karma} * 2000 + {PriorityNuyen}</chargenkarmatonuyenexpression>
 	<boundspiritexpression>{CHA}</boundspiritexpression>
-	<compiledspriteexpression>{LOG}</compiledspriteexpression>
+	<registeredspriteexpression>{LOG}</registeredspriteexpression>
 	<essencemodifierpostexpression>{Modifier}</essencemodifierpostexpression>
 	<liftlimitexpression>{STR} * 15</liftlimitexpression>
 	<carrylimitexpression>{STR} * 10</carrylimitexpression>
@@ -174,6 +174,7 @@
 		<book>TVG</book>
 		<book>SPS</book>
 		<book>SFB</book>
+		<book>LCD</book>
 		<book>SFM</book>
 		<book>SFME</book>
 		<book>CA</book>
@@ -190,7 +191,6 @@
 		<book>NF</book>
 		<book>KK</book>
 		<book>SW</book>
-		<book>LCD</book>
 		<book>4e</book>
 		<book>6e</book>
 		<book>ZDR</book>
@@ -224,6 +224,11 @@
 		<customdatadirectoryname>
 			<directoryname>90be9581-a053-45ec-b6a8-13b5ae139c09&gt;1.0</directoryname>
 			<order>5</order>
+			<enabled>True</enabled>
+		</customdatadirectoryname>
+		<customdatadirectoryname>
+			<directoryname>1255df46-9edb-4d90-8611-deff595017e3&gt;1.0</directoryname>
+			<order>6</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 	</customdatadirectorynames>
