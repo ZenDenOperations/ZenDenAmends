@@ -16,7 +16,7 @@
 	<cyberlegmovement>True</cyberlegmovement>
 	<contactpointsexpression>{CHAUnaug} * 3</contactpointsexpression>
 	<knowledgepointsexpression>({INTUnaug} + {LOGUnaug}) * 2</knowledgepointsexpression>
-	<chargenkarmatonuyenexpression>{Karma} * 2000 + {PriorityNuyen}</chargenkarmatonuyenexpression>
+	<chargenkarmatonuyenexpression>{Karma} * 3000 + {PriorityNuyen}</chargenkarmatonuyenexpression>
 	<boundspiritexpression>{CHA}</boundspiritexpression>
 	<registeredspriteexpression>{LOG}</registeredspriteexpression>
 	<essencemodifierpostexpression>{Modifier}</essencemodifierpostexpression>
