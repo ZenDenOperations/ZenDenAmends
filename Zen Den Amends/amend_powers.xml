@@ -86,6 +86,15 @@
 			</bonus>
 		</power>
 		<power>
+			<name>Critical Strike</name>
+			<bonus amendoperation="replace">
+				<weaponcategorydv>
+					<selectskill limittoskill="Astral Combat,Blades,Clubs,Exotic Melee Weapon,Monofilament Weapons,Unarmed Combat" />
+					<bonus>1</bonus>
+				</weaponcategorydv>
+			</bonus>
+		</power>
+		<power>
 			<name>Skate</name>
 			<points>0.5</points>
 		</power>
@@ -248,3 +257,4 @@
 		</enhancement>
 	</enhancements>
 </chummer>
+
