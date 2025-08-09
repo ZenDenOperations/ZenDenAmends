@@ -4,6 +4,31 @@
 			<hide />
 		</quality>
 		<quality>
+      		<name>Superhuman Psychosis</name>
+      	<bonus>
+        <skillgroup>
+          <name>Close Combat</name>
+          <bonus>1</bonus>
+        </skillgroup>
+        <specificskill>
+          <name>Exotic Melee Weapon</name>
+          <bonus>1</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Monofilament Weapons</name>
+          <bonus>1</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Etiquette</name>
+          <bonus>-2</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Leadership</name>
+          <bonus>-2</bonus>
+        </specificskill>
+      </bonus>
+    </quality>
+		<quality>
 			<!-- Focused Concentration -->
 			<name>Focused Concentration</name>
 			<karma>12</karma>
@@ -2925,3 +2950,4 @@
 		</quality>
 	</qualities>
 </chummer>
+
