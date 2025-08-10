@@ -802,6 +802,7 @@
 			<cost>4000</cost>
 			<source>SR5</source>
 			<page>452</page>
+			<requireparent />
 		</cyberware>
 		<cyberware>
 			<id>66b1e393-dc70-4907-85c5-f30369b260d8</id>
