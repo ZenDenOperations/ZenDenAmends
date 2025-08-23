@@ -610,6 +610,10 @@
 			<name>Functional Tail (Thagomizer)</name>
 			<useskill>Unarmed Combat</useskill>
 		</weapon>
+		<weapon>
+			<name>Stimtouch Hosiery</name>
+			<category>Unarmed</category>
+		</weapon>
 		<!--  END EXOTIC WEAPON SKILLS -->
 		<!--Banned Items-->
 		<weapon>
@@ -663,3 +667,4 @@
 		</weapon>
 	</weapons>
 </chummer>
+
