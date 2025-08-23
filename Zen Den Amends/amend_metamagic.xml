@@ -28,7 +28,7 @@
 		<metamagic>
 			<!-- Noble Sacrifice -->
 			<name>Noble Sacrifice</name>
-			<hide />
+			<adept>True</adept>
 		</metamagic>
 		<metamagic>
 			<!-- Predator Feast -->
