@@ -830,6 +830,53 @@
 			<page>81</page>
 			<requireparent />
 		</cyberware>
+		<cyberware>
+			<id>0e09f431-cb63-4b8a-9c70-a456d760da85</id>
+			<name>Math SPU</name>
+			<category>Skullware</category>
+			<capacity>[1]</capacity>
+      		<avail>8</avail>
+      		<cost>2000</cost>
+      		<source>CF</source>
+      		<page>80</page>
+      		<bonus>
+        		<limitmodifier>
+          			<limit>Mental</limit>
+          			<value>1</value>
+          		<condition>LimitCondition_SkillsKnowledgeScientificTechnical</condition>
+        	</limitmodifier>
+        	<specificskill>
+          		<name>Mathematics</name>
+          		<bonus>4</bonus>
+        	</specificskill>
+      		</bonus>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>c6837921-101c-4da3-8a69-378dc1b8c19f</id>
+			<name>Attention Coprocessor</name>
+			<category>Skullware</category>
+			<capacity>[1]</capacity>
+			<avail>8</avail>
+      		<avail>8</avail>
+      		<cost>3000</cost>
+      		<source>CF</source>
+      		<page>78</page>
+      		<bonus>
+        		<limitmodifier>
+          		<limit>Mental</limit>
+          		<value>1</value>
+          		<condition>LimitCondition_SkillsActivePerception</condition>
+        		</limitmodifier>
+      		</bonus>
+      		<wirelessbonus>
+        		<specificskill>
+          		<name>Perception</name>
+          		<bonus>1</bonus>
+        		</specificskill>
+      		</wirelessbonus>
+			<requireparent />
+		</cyberware>
         <cyberware>
           <id>e58d684d-58c7-4cd8-ae4d-7dacc29ca413</id>
           <name>Commlink Slot</name>
