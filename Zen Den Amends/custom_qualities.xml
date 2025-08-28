@@ -1516,7 +1516,6 @@
 			<page>1</page>
 			<notes>Non Hostile Critters in 10 meters follow you for 10 5d6 minutes, giving up to -3 to physical and appropriate social tests</notes>
 		</quality>
-
 		<quality>
 			<id>1398a0db-04ab-44d3-ba5a-0d7bd633852c</id>
 			<name>It Just Has To Fit</name>
@@ -1528,6 +1527,50 @@
 			<source>ZDR</source>
 			<page>1</page>
 			<notes>Allow the ability to build in one powertrain mod at half the capactiy cost but 50% extra nuyen (extended threshold with availabilitX2</notes>
+		</quality>
+		<quality>
+			<id>1471bcfe-f8d8-4418-945a-60043e904d07</id>
+			<name>Cyberlimb Armor Reduction</name>
+			<karma>0</karma>
+			<category>Negative</category>
+      		<limit>99</limit>
+			<doublecareer>False</doublecareer>
+      		<bonus>
+        		<armor>-1</armor>
+      		</bonus>
+			<required>
+				<oneof>
+                    <cyberwarecontains>Arm</cyberwarecontains>
+                    <cyberwarecontains>Leg</cyberwarecontains>
+                    <cyberwarecontains>Torso</cyberwarecontains>
+                    <cyberwarecontains>Skull</cyberwarecontains>
+				</oneof>
+			</required>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Each replacement limb after the first reduces the Armor or damage resistance provided by other augmentations by 1. Damage resistance is reduced before armor.</notes>
+		</quality>
+		<quality>
+			<id>98c28e75-ec55-42e1-869a-a444acf1997d</id>
+			<name>Cyberlimb Damage Resistance Reduction</name>
+			<karma>0</karma>
+			<category>Negative</category>
+      		<limit>99</limit>
+			<doublecareer>False</doublecareer>
+      		<bonus>
+        		<damageresistance>-1</damageresistance>
+      		</bonus>
+			<required>
+				<oneof>
+                    <cyberwarecontains>Arm</cyberwarecontains>
+                    <cyberwarecontains>Leg</cyberwarecontains>
+                    <cyberwarecontains>Torso</cyberwarecontains>
+                    <cyberwarecontains>Skull</cyberwarecontains>
+				</oneof>
+			</required>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Each replacement limb after the first reduces the Armor or damage resistance provided by other augmentations by 1. Damage resistance is reduced before armor.</notes>
 		</quality>
 	</qualities>
 </chummer>
