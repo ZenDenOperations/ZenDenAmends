@@ -130,7 +130,7 @@
           <name>Smartgun System, Internal</name>
         </accessory>
         <accessory>
-          <name>Sawed Off/Shortbarrel and Stock Removal</name>
+          <name>Sawed Off/Shortbarrel</name>
         </accessory>
         <accessory>
           <name>Folding Stock</name>
@@ -245,7 +245,6 @@
       <accessorymounts>
         <mount>Stock</mount>
         <mount>Side</mount>
-        <mount>Barrel</mount>
         <mount>Top</mount>
         <mount>Under</mount>
       </accessorymounts>
