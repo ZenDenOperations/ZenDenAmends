@@ -665,6 +665,18 @@
 			<damage>Special</damage>
 			<cost>50000</cost>
 		</weapon>
+		<weapon>
+      		<name>Rheinmetall Wrecking Ball (Morningstar Mode)</name>
+      		<category>Clubs</category>
+		</weapon>
+		<weapon>
+      		<name>Krupp Munitions 3E Firefighting Cannon</name>
+      		<category>Spray Weapons</category>
+		</weapon>
+    	<weapon>
+      		<id>ad28b2dd-4f4f-4089-af6b-39f3ff6900fd</id>
+      		<name>HK Urban Fighter (German)</name>
+    	</weapon>
 	</weapons>
 </chummer>
 

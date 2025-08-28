@@ -76,5 +76,181 @@
       <range>Tasers</range>
       <spec>Semi-Automatics</spec>
     </weapon>
+    <weapon>
+      <id>a5ea3ccf-45d1-4f60-add9-588e9506738b</id>
+      <name>Terracotta Arms Ferrus Minor</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-3</ap>
+      <mode>SA/BF</mode>
+      <rc>2</rc>
+      <ammo>20(c) + energy</ammo>
+      <avail>12F</avail>
+      <cost>2550</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+      <range>Submachine Guns</range>
+      <weapontype>magnetic</weapontype>
+    </weapon>
+    <weapon>
+      <id>49610a79-a23e-4a75-a6fb-08aee6a31313</id>
+      <name>Terracotta Arms Ferrus Major</name>
+      <category>Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-3</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>4</rc>
+      <ammo>40(c) + energy</ammo>
+      <avail>15F</avail>
+      <cost>3500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Sawed Off/Shortbarrel and Stock Removal</name>
+        </accessory>
+        <accessory>
+          <name>Folding Stock</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <range>Assault Rifles</range>
+      <weapontype>magnetic</weapontype>
+    </weapon>
+    <weapon>
+      <id>86e7718f-532f-41b0-9359-6da041ef7a9d</id>
+      <name>Terracotta Arms Ferrus Prime</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-5</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>3</rc>
+      <ammo>40(c) + energy</ammo>
+      <avail>18F</avail>
+      <cost>9400</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <range>Sporting Rifles</range>
+      <weapontype>magnetic</weapontype>
+    </weapon>
+    <weapon>
+      <id>caec20ef-e4af-4edc-a244-d303f5227004</id>
+      <name>Terracotta Arms Ferrus Maximus</name>
+      <category>Sniper Rifles</category>
+      <type>Ranged</type>
+      <conceal>8</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-8</ap>
+      <mode>SA</mode>
+      <rc>2</rc>
+      <ammo>10(c) + energy</ammo>
+      <avail>21F</avail>
+      <cost>33700</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Long Barrel</name>
+        </accessory>
+        <accessory>
+          <name>Shock Pad</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <weapontype>magnetic</weapontype>
+    </weapon>
+    <weapon>
+      <id>3f87fc7a-762e-479d-b7b6-9c0716017634</id>
+      <name>YNT Colossus Chemrail</name>
+      <category>Assault Cannons</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>16P</damage>
+      <ap>-10</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>10(d) + energy</ammo>
+      <avail>27F</avail>
+      <cost>62000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Long Barrel</name>
+        </accessory>
+        <accessory>
+          <name>Foregrip</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <range>Sniper Rifles</range>
+      <weapontype>magnetic</weapontype>
+    </weapon>
   </weapons>
 </chummer>
