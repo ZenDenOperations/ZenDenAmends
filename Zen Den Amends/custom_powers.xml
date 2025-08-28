@@ -9,7 +9,6 @@
       <levels>True</levels>
       <source>ZDR</source>
       <page>1</page>
-      <action>Free</action>
       <bonus>
         <sprintbonus>
           <category>Ground</category>
@@ -212,3 +211,4 @@
     </power>
   </powers>
 </chummer>
+
