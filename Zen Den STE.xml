@@ -20,8 +20,8 @@
 	<boundspiritexpression>{CHA}</boundspiritexpression>
 	<registeredspriteexpression>{LOG}</registeredspriteexpression>
 	<essencemodifierpostexpression>{Modifier}</essencemodifierpostexpression>
-	<liftlimitexpression>{STR} * 15</liftlimitexpression>
-	<carrylimitexpression>{STR} * 10</carrylimitexpression>
+	<liftlimitexpression>{STR} * {STR} * 10</liftlimitexpression>
+	<carrylimitexpression>{STR} * {STR} * 5</carrylimitexpression>
 	<encumbranceintervalexpression>15</encumbranceintervalexpression>
 	<doencumbrancepenaltyphysicallimit>True</doencumbrancepenaltyphysicallimit>
 	<doencumbrancepenaltymovementspeed>False</doencumbrancepenaltymovementspeed>
@@ -180,6 +180,7 @@
 		<book>CA</book>
 		<book>BOTL</book>
 		<book>FA</book>
+		<book>SAG</book>
 		<book>TCT</book>
 		<book>SFCC</book>
 		<book>DTR</book>
@@ -189,6 +190,7 @@
 		<book>BTB</book>
 		<book>AET</book>
 		<book>NF</book>
+		<book>SOTG</book>
 		<book>KK</book>
 		<book>SW</book>
 		<book>4e</book>
