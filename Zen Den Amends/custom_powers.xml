@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<chummer>
+  <powers>
+    <power>
+      <id>281B1842-389A-41B8-BD91-B6EE8711D827</id>
+      <name>Dash</name>
+      <points>0.25</points>
+      <levels>True</levels>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <sprintbonus>
+          <category>Ground</category>
+          <val>Rating * 100</val>
+        </sprintbonus>
+      </bonus>
+    </power>
+    <power>
+      <id>154267C7-76B1-4290-AD60-247DD1527252</id>
+      <name>Improved Mental Attribute</name>
+      <points>1</points>
+      <levels>True</levels>
+      <limit>12</limit>
+      <source>ZDR</source>
+      <page>1</page>
+      <adeptway>0.5</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Artisan's Way</quality>
+            <quality>The Artist's Way</quality>
+            <quality>The Speaker's Way</quality>
+            <quality>The Spiritual Way</quality>
+			      <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <bonus>
+        <selectattribute>
+          <attribute>CHA</attribute>
+          <attribute>INT</attribute>
+          <attribute>LOG</attribute>
+          <attribute>WIL</attribute>
+          <val>Rating</val>
+        </selectattribute>
+      </bonus>
+      <notes>
+      Attribute Discounts: 
+      CHA (Speaker's, Artist's, Spiritual)
+      INT (Beast's, Invisible, Artist's Artisan's, Warrior's)
+      LOG (Invisible, Athlete's)
+      WIL (Athlete's, Beast's, Warrior's, Spiritual)
+      </notes>
+    </power>
+    <power>
+      <id>08B55206-5164-498B-A0E9-9950703C1CEE</id>
+      <name>Improved Ability (Skill Group)</name>
+      <points>1</points>
+      <levels>True</levels>
+      <limit>100</limit>
+      <source>ZDR</source>
+      <page>1</page>
+      <adeptway>0.5</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Artisan's Way</quality>
+            <quality>The Artist's Way</quality>
+            <quality>The Athlete's Way</quality>
+            <quality>The Speaker's Way</quality>
+            <quality>The Spiritual Way</quality>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+			<bonus>
+				<selectskillgroup excludecategory="Magical Active,Resonance Active">
+					<bonus>Rating</bonus>
+				</selectskillgroup>
+			</bonus>
+    </power>
+    <power>
+      <id>3FAD1B82-7BB6-4CAB-95A0-DCD636367655</id>
+      <name>Cosmetic Control</name>
+      <points>1</points>
+      <levels>True</levels>
+      <limit>2</limit>
+      <source>ZDR</source>
+      <page>1</page>
+      <adeptway>0.5</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Speaker's Way</quality>
+			      <quality>The Invisible Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <bonus>
+		    <specificskill>
+          <name>Disguise</name>
+          <bonus>(Rating * 2)</bonus>
+        </specificskill>
+      </bonus>
+    </power>
+    <power>
+      <id>79b41c96-e28a-432b-bcc7-f9ed88435175</id>
+      <name>Distance Strike</name>
+      <points>2</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>ZDR</source>
+      <page>1</page>
+      <action>Complex</action>
+      <adeptway>1</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+      May make a ranged Unarmed attack against anyone up to (MAG) meters away. Applies any applicable powers and augmentations which were paid for via essence.
+      </notes>
+    </power>
+    <power>
+      <id>cc1ab658-82ab-461f-9f5b-731bb6bb5937</id>
+      <name>Multitasking</name>
+      <points>1</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>ZDR</source>
+      <page>1</page>
+      <adeptway>0.5</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Artisan's Way</quality>
+            <quality>The Artist's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+      The adept gains 2 additional Free actions per initiative pass, and may Observe in Detail as a Free action.
+      </notes>
+    </power>
+    <power>
+      <id>f79be704-bb73-4606-bd39-532b651ce8c2</id>
+      <name>Quick March</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>ZDR</source>
+      <page>1</page>
+      <adeptway>0.25</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Warrior's Way</quality>
+            <quality>The Athlete's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+      The adept can Run for (MAG) hours or Sprint for (MAG/2) hours without suffering fatigue.
+      </notes>
+    </power>
+    <power>
+      <id>42e4619b-5c00-46b8-a5c1-d049949314a9</id>
+      <name>Nail Driver</name>
+      <points>1</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>ZDR</source>
+      <page>1</page>
+      <adeptway>0.5</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Warrior's Way</quality>
+            <quality>The Athlete's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <bonus>
+        <weaponskillaccuracy>
+          <value>1</value>
+        </weaponskillaccuracy>
+        <weaponskillaccuracy>
+          <name>Clubs</name>
+          <value>-1</value>
+        </weaponskillaccuracy>
+        <weaponskillaccuracy>
+          <name>Blades</name>
+          <value>-1</value>
+        </weaponskillaccuracy>
+        <weaponskillaccuracy>
+          <name>Unarmed</name>
+          <value>-1</value>
+        </weaponskillaccuracy>
+        <weaponskillaccuracy>
+          <name>Monofilament Weapons</name>
+          <value>-1</value>
+        </weaponskillaccuracy>
+      </bonus>
+      <notes>
+      +1 Accuracy to all ranged attacks. The effective distance between the adept and their target is reduced by (MAG * 5) meters for range calculations.
+      </notes>
+    </power>
+  </powers>
+</chummer>
+
