@@ -4,14 +4,19 @@
 			<hide />
 		</quality>
 		<quality>
-      		<name>Superhuman Psychosis</name>
-      	<bonus>
-        <specificskill amendoperation="addnode">
-          <name>Monofilament Weapons</name>
-          <bonus>1</bonus>
-        </specificskill>
-      </bonus>
-    </quality>
+			<name>Superhuman Psychosis</name>
+			<bonus>
+				<specificskill amendoperation="addnode">
+					<name>Monofilament Weapons</name>
+					<bonus>1</bonus>
+				</specificskill>
+			</bonus>
+		</quality>
+		<quality xpathfilter="contains(name,'Fame (')">
+			<bonus>
+				<selecttext />
+			</bonus>
+		</quality>
 		<quality>
 			<!-- Focused Concentration -->
 			<name>Focused Concentration</name>
@@ -2934,5 +2939,6 @@
 		</quality>
 	</qualities>
 </chummer>
+
 
 
