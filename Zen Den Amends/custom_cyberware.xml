@@ -917,5 +917,242 @@
             </parentdetails>
           </required>
         </cyberware>
+		<cyberware>
+			<id>3c695dcc-0cd9-4de1-bec5-48a60dcee37d</id>
+			<name>Cyberwings</name>
+			<category>Bodyware</category>
+			<ess>2</ess>
+			<capacity>[7]</capacity>
+			<avail>18R</avail>
+			<cost>50000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<movementreplace>
+				<category>Fly</category>
+				<speed>walk</speed>
+				<val>2</val>
+				</movementreplace>
+				<movementreplace>
+				<category>Fly</category>
+				<speed>run</speed>
+				<val>8</val>
+				</movementreplace>
+				<movementreplace>
+				<category>Fly</category>
+				<speed>sprint</speed>
+				<val>300</val>
+				</movementreplace>
+			</bonus>
+		</cyberware>
+		<cyberware>
+			<id>b6fee7e0-ad5d-46e7-9a9b-0742364295fb</id>
+			<name>Speed Booster</name>
+			<category>Bodyware</category>
+			<ess>0.5</ess>
+			<capacity>0</capacity>
+			<avail>12R</avail>
+			<cost>25000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Running and Sprinting no longer take actions and do not penalize attacks. The first use of Dodge or RFYL in a combat turn does not cost Initiative.</notes> 
+		</cyberware>
+		<cyberware>
+			<id>8e40965d-c9e7-4b7d-be87-097a5c1548a7</id>
+			<name>Grey Mana Dermal Plating</name>
+			<category>Bodyware</category>
+			<ess>Rating * 0.1</ess>
+			<capacity>0</capacity>
+			<avail>15R</avail>
+			<cost>10000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<spellresistance>Rating</spellresistance>
+			</bonus>
+			<requires>
+				<oneof>
+				<cyberware>Dermal Plating</cyberware>
+				</oneof>
+			</requires>
+			<rating>6</rating>
+			<notes>Grey Mana Dermal Plating's rating and grade must match your Dermal Plating rating and grade.</notes>
+		</cyberware>
+		<cyberware>
+			<id>545419f9-284d-4544-8383-f7d921b47e4d</id>
+			<name>Grey Mana Bone Lacing</name>
+			<category>Bodyware</category>
+			<ess>0.2</ess>
+			<capacity>0</capacity>
+			<avail>15R</avail>
+			<cost>5000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<spellresistance>Rating</spellresistance>
+			</bonus>
+			<requires>
+				<oneof>
+				<cyberware>Bone Lacing (Plastic)</cyberware>
+				<cyberware>Bone Lacing (Aluminum)</cyberware>
+          		<cyberware>Bone Lacing (Titanium)</cyberware>
+				</oneof>
+			</requires>
+			<notes>Subtracts 1 hit from any Health, mana-based Illusion, or mental Manipulation spells that affect the character. Bare-handed unarmed attacks ignore ItNW. Must be of identical grade to the character's Bone Lacing.</notes>
+		</cyberware>
+		<cyberware>
+		<id>f609cf3f-d4ae-4779-9d24-5e05f5d4ce8a</id>
+		<name>Active Control Rig</name>
+		<category>Headware</category>
+		<ess>Rating * 0.8</ess>
+		<capacity>0</capacity>
+		<avail>9</avail>
+		<cost>Rating * 37,500</cost>
+		<source>ZDR</source>
+		<page>1</page>
+		<minrating>1</minrating>
+		<rating>2</rating>
+		<gears>
+			<usegear>
+			<name>Sim Module, Hot</name>
+			<category>Commlink Accessories</category>
+			</usegear>
+		</gears>
+		<subsystems>
+			<cyberware>
+			<name>Datajack</name>
+			</cyberware>
+		</subsystems>
+		</cyberware>
+		<cyberware>
+		<id>92af05b9-0b9d-41f1-b240-4eed8fd6e994</id>
+		<name>Simsense Interface Overdrive</name>
+		<category>Headware</category>
+		<ess>Rating * 0.2</ess>
+		<capacity>0</capacity>
+		<avail>(Rating * 6)R</avail>
+		<cost>Rating * 15000</cost>
+		<source>ZDR</source>
+		<page>1</page>
+		<bonus>
+			<specificattribute>
+			<name>INT</name>
+			<val>Rating</val>
+			</specificattribute>
+		</bonus>
+		<rating>4</rating>
+		<notes>This cyberware only functions while in VR.</notes>
+		</cyberware>
+		<cyberware>
+		<id>e4e84ec3-f6e1-41eb-9dd5-2324664d8a6b</id>
+		<name>Grey Mana Cyberlimb Armor</name>
+		<limit>False</limit>
+		<category>Cyberlimb Enhancement</category>
+		<ess>0</ess>
+		<capacity>[1]</capacity>
+		<avail>15R</avail>
+		<cost>6000</cost>
+		<source>ZDR</source>
+		<page>1</page>
+		<bonus>
+			<spellresistance>1</spellresistance>
+		</bonus>
+		<requireparent />
+		</cyberware>
+		<cyberware>
+		<id>20b0469d-dde3-4c68-a3f6-4d3d6a784526</id>
+		<name>Additional Cyberarm Mount</name>
+		<category>Cyberlimb</category>
+		<ess>Rating * 0.2</ess>
+		<capacity>0</capacity>
+		<avail>8</avail>
+		<cost>Rating * 5000</cost>
+		<source>ZDR</source>
+		<page>1</page>
+		<bonus>
+			<addlimb>
+			<limbslot>arm</limbslot>
+			<val>Rating</val>
+			</addlimb>
+		</bonus>
+		<rating>4</rating>
+		</cyberware>
+		<cyberware>
+		<id>0009af73-1be2-43be-abd6-311b8dd4d903</id>
+		<name>Tentacle Modification</name>
+		<limit>False</limit>
+		<category>Cyberlimb Enhancement</category>
+		<ess>0</ess>
+		<capacity>[5]</capacity>
+		<avail>12</avail>
+		<cost>2000</cost>
+		<source>ZDR</source>
+		<page>1</page>
+		<bonus>
+			<limitmodifier>
+			<limit>Physical</limit>
+			<value>1</value>
+			<condition>Subdual combat</condition>
+			</limitmodifier>
+		</bonus>
+		<requireparent />
+		<required>
+			<parentdetails>
+			<OR>
+				<NONE />
+				<name operation="contains">Full Arm</name>
+				<name operation="contains">Lower Arm</name>
+				<name operation="contains">Hand</name>
+				<name operation="contains">Drone Arm</name>
+			</OR>
+			</parentdetails>
+		</required>
+		<notes>Subudal attacks gain +1 DV and -2 AP per tentacle.</notes>
+		</cyberware>
+		<cyberware>
+			<id>d14ec953-2298-4645-96d6-8f345b347251</id>
+			<name>Articulated Weapons Mount</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon</category>
+			<ess>1.5</ess>
+			<capacity>[4]</capacity>
+			<avail>9F</avail>
+			<cost>10000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Can hold a single weapon of up to Assault Rifle size. Uses Torso Agility + (Autosoft or Activesoft Rating) to attack.</notes>
+		</cyberware>
+		<cyberware>
+			<id>e06aec1f-64c8-4467-968d-fa07f1ce4dbc</id>
+			<name>Shotgun Palm/Knee</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon</category>
+			<ess>0.6</ess>
+			<capacity>[5]</capacity>
+			<avail>9F</avail>
+			<cost>5000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<addweapon>Shotgun Palm/Knee</addweapon>
+			<allowsubsystems>
+				<category>Cyber Implant Weapon Accessory</category>
+			</allowsubsystems>
+		</cyberware>
+		<cyberware>
+			<id>cfea3aa0-9d0e-4743-9cd8-b12e8ec9329e</id>
+			<name>Tesla Coil</name>
+			<limit>False</limit>
+			<category>Cyber Implant Weapon</category>
+			<ess>1</ess>
+			<capacity>[8]</capacity>
+			<avail>21F</avail>
+			<cost>15000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<addweapon>Tesla Coil</addweapon>
+			<allowsubsystems>
+				<category>Cyber Implant Weapon Accessory</category>
+			</allowsubsystems>
+		</cyberware>
 	</cyberwares>
 </chummer>

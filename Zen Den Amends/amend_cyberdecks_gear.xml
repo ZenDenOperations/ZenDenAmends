@@ -199,6 +199,14 @@
       <name>Transys Graygul</name>
       <cost>315898</cost>
     </gear>
+    <gear>
+      <name>Cyberdynamix Waterkant</name>
+      <cost>84000</cost>
+    </gear>
+    <gear>
+      <name>MSI Falke</name>
+      <cost>114000</cost>
+    </gear>
     <!--<gear>
       <name>Allegiance Sigma</name>
       <cost>49500</cost>
@@ -238,14 +246,6 @@
       <name>Fuchi Cyber-7</name>
       <cost>549375</cost>
       </gears>
-    </gear>
-    <gear>
-      <name>Cyberdynamix Waterkant</name>
-      <cost>210000</cost>
-    </gear>
-    <gear>
-      <name>MSI Falke</name>
-      <cost>285000</cost>
     </gear>-->
     <!-- End Region -->
   </gears>
