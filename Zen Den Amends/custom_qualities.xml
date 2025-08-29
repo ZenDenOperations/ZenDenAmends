@@ -1548,7 +1548,7 @@
 			</required>
 			<source>ZDR</source>
 			<page>1</page>
-			<notes>Each replacement limb after the first reduces the Armor or damage resistance provided by other augmentations by 1. Armor is reduced before damage resistance.</notes>
+			<notes>Each replacement limb after the first reduces the Armor or damage resistance provided by other augmentations by 1. Damage resistance is reduced before armor.</notes>
 		</quality>
 		<quality>
 			<id>98c28e75-ec55-42e1-869a-a444acf1997d</id>
@@ -1570,7 +1570,7 @@
 			</required>
 			<source>ZDR</source>
 			<page>1</page>
-			<notes>Each replacement limb after the first reduces the Armor or damage resistance provided by other augmentations by 1. Armor is reduced before damage resistance.</notes>
+			<notes>Each replacement limb after the first reduces the Armor or damage resistance provided by other augmentations by 1. Damage resistance is reduced before armor.</notes>
 		</quality>
 	</qualities>
 </chummer>
