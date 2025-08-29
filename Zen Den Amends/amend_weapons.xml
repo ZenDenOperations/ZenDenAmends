@@ -20,9 +20,74 @@
 <chummer>
 	<accessories>
 		<accessory>
+		<name>Belt-Feed, 100-round</name>
+		<required>
+			<weapondetails>
+			<OR>
+				<name>RPK HMG</name>
+				<name>Ruhrmetall SF-20</name>
+				<name>Ultamax HMG-2</name>
+				<name>Ingram Valiant</name>
+				<name>Krime Wave</name>
+				<name>Shiawase Armaments Nemesis</name>
+				<name>FN MAG-5</name>
+				<name>Stoner-Ares M202</name>
+				<name>Ultamax MMG</name>
+				<name>Ingram Black Knight</name>
+			</OR>
+			</weapondetails>
+		</required>
+		</accessory>
+		<!-- Railguns can't use Gas Vents or Silencers. -->
+		<accessory>
+			<name>Silencer/Suppressor</name>
+			<forbidden>
+				<weapondetails>
+				<name operation="contains">Ferrus</name>
+				</weapondetails>
+			</forbidden>
+		</accessory>
+		<accessory>
+			<name>Gas-Vent 1 System</name>
+			<forbidden>
+				<weapondetails>
+				<name operation="contains">Ferrus</name>
+				</weapondetails>
+			</forbidden>
+		</accessory>
+		<accessory>
+			<name>Gas-Vent 2 System</name>
+			<forbidden>
+				<weapondetails>
+				<name operation="contains">Ferrus</name>
+				</weapondetails>
+			</forbidden>
+		</accessory>
+		<accessory>
+			<name>Gas-Vent 3 System</name>
+			<forbidden>
+				<weapondetails>
+				<name operation="contains">Ferrus</name>
+				</weapondetails>
+			</forbidden>
+		</accessory>
+		<accessory>
+			<name>Krime Loudener</name>
+			<forbidden>
+				<weapondetails>
+				<name operation="contains">Ferrus</name>
+				</weapondetails>
+			</forbidden>
+		</accessory>
+		<accessory>
 			<!-- Electronic Firing -->
 			<id>2da4f104-cf0c-4e0c-a001-4a6da4c2b46b</id>
 			<mount>Internal</mount>
+			<forbidden>
+				<weapondetails>
+				<name operation="contains">Ferrus</name>
+				</weapondetails>
+			</forbidden>
 		</accessory>
 		<!-- Region Special Modifications -->
 		<accessory>
@@ -665,6 +730,18 @@
 			<damage>Special</damage>
 			<cost>50000</cost>
 		</weapon>
+		<weapon>
+      		<name>Rheinmetall Wrecking Ball (Morningstar Mode)</name>
+      		<category>Clubs</category>
+		</weapon>
+		<weapon>
+      		<name>Krupp Munitions 3E Firefighting Cannon</name>
+      		<category>Spray Weapons</category>
+		</weapon>
+    	<weapon>
+      		<id>ad28b2dd-4f4f-4089-af6b-39f3ff6900fd</id>
+      		<name>HK Urban Fighter (German)</name>
+    	</weapon>
 	</weapons>
 </chummer>
 

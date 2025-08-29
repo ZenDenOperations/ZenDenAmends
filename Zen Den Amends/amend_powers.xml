@@ -121,7 +121,7 @@
 			<levels>False</levels>
 		</power>
 		<power>
-			<name>Voice control</name>
+			<name>Voice Control</name>
 			<points>0.25</points>
 		</power>
 	</powers>
@@ -162,9 +162,10 @@
 		<enhancement>
 			<name>Claws</name>
 			<required amendoperation="replace">
-				<allof>
+				<oneof>
 					<power>Keratin Control</power>
-				</allof>
+					<power>Cosmetic Control</power>
+				</oneof>
 				<oneof>
 					<quality>The Beast's Way</quality>
 					<quality>Dilettante</quality>

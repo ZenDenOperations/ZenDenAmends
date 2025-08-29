@@ -31,6 +31,99 @@
       <name>Tohu Wa-Bohu</name>
       <hide />
     </mentor>
+     <mentor>
+      <name>Eurasian Jay</name>
+      <disadvantage>Eurasian Jay loves to divide his possessions. You must possess at least two Lifestyles and Fake SINs. If you do not meet this requirement, you cannot spend nuyen on anything other than lifestyle upkeep or purchasing new SINs and lifestyles.</disadvantage>
+    </mentor>
+     <mentor>
+      <name>Tide</name>
+      <choices amendoperation="replace">
+        <choice>
+          <name>Magician: +2 dice summoning spirits of water or earth (The type of spirit for which this bonus applies changes every 6 hours).</name>
+          <bonus>
+            <specificskill>
+              <name>Summoning</name>
+              <bonus>2</bonus>
+              <condition>Spirits of Water (High Tide)</condition>
+            </specificskill>
+            <specificskill>
+              <name>Summoning</name>
+              <bonus>2</bonus>
+              <condition>Spirits of Earth (Low Tide)</condition>
+            </specificskill>
+          </bonus>
+        </choice>
+        <choice>
+          <name>Adept: Gain 1 free level of Heightened Concentration and Metabolic Control.</name>
+          <bonus>
+            <specificpower>
+              <name>Heightened Concentration</name>
+              <val>1</val>
+            </specificpower>
+            <specificpower>
+              <name>Metabolic Control</name>
+              <val>1</val>
+            </specificpower>
+          </bonus>
+        </choice>
+      </choices>
+    </mentor>
+     <mentor>
+      <name>Heinzelmännchen</name>
+      <disadvantage>Heinzelmännchen prefers to work in secret. If a follower attempts to cast a spell, summon a spirit, or use an Adept power which requires an action to activate in public or under close observation, they'll have to make a Willpower + Charisma (3) Test or else their magic ceases to function for the moment.</disadvantage>
+    </mentor>
+     <mentor>
+      <name>Weimaraner</name>
+      <disadvantage>If a follower has an opportunity to use a skill they have at Rating 4 or higher to help progress the run, they must succeed a Composure (3) test if they do not wish to use their skill.</disadvantage>
+    </mentor>
+     <mentor>
+      <name>Mystic Guardian</name>
+      <disadvantage>If any ally you are aware of may come to serious harm, you must make a Composure (3) test. Otherwise, you must aid them in any way possible, including the Lucky Duck Edge move, I am the Firewall, Intervene, and Protect the Principle.</disadvantage>
+    </mentor>
+     <mentor>
+      <name>Little Red Riding Hood</name>
+      <choices amendoperation="replace">
+        <choice>
+          <name>Magician: +2 dice to Contractual Rituals</name>
+          <bonus>
+            <specificskill>
+              <name>Ritual Spellcasting</name>
+              <bonus>2</bonus>
+              <condition>Contractual</condition>
+            </specificskill>
+          </bonus>
+        </choice>
+        <choice>
+          <name>Adept: Gain the Linguist quality and 2 levels of Lie Detector for free</name>
+          <bonus>
+            <addqualities>
+              <addquality>Linguist</addquality>
+            </addqualities>
+            <specificpower>
+              <name>Lie Detector</name>
+              <val>2</val>
+            </specificpower>
+          </bonus>
+        </choice>
+      </choices>
+    </mentor>
+     <mentor>
+      <name>Treasure Hunter</name>
+      <disadvantage>Gain the Driven Quality. You do not get bonus karma for this negative quality.</disadvantage>
+      <bonus amendoperation="replace">
+        <specificskill>
+          <name>Navigation</name>
+          <bonus>1</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Locksmith</name>
+          <bonus>1</bonus>
+        </specificskill>
+        <addqualities>
+          <addquality>Driven</addquality>
+        </addqualities>
+      </bonus>
+    </mentor>    
     <mentor>
       <name>Death</name>
       <choices amendoperation="replace">

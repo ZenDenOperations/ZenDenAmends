@@ -20,6 +20,119 @@
 <chummer>
   <accessories>
     <accessory>
+      <id>123c201b-7443-4418-bec4-fe160a6fef17</id>
+      <name>Spare Clip (Ammo Skip)</name>
+      <mount />
+      <avail>4</avail>
+      <cost>30</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <ammoslots>1</ammoslots>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <OR>
+            <ammo operation="contains">(c)</ammo>
+            <ammo operation="contains">(d)</ammo>
+          </OR>
+        </weapondetails>
+        <accessory>Ammo Skip</accessory>
+      </required>
+    </accessory>
+    <accessory>
+      <id>7d55c967-a8d6-4444-9cf8-468d7d9fd985</id>
+      <name>Improved Dikote</name>
+      <mount />
+      <avail>14</avail>
+      <cost>Weapon Cost</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accuracy>1</accuracy>
+      <ap>-2</ap>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+            <category>Blades</category>
+        </weapondetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <accessory>Ruthenium Coating (Melee)</accessory>
+          <accessory>Smart Materials</accessory>
+          <weapondetails>
+				    <name operation="contains">Victorinox Memory</name>
+				  </weapondetails>
+        </oneof>
+      </forbidden>
+    </accessory>
+    <accessory>
+      <id>8391a558-410c-4e42-b7d4-e5c05b2cd731</id>
+      <name>Ruthenium Coating (Melee)</name>
+      <mount />
+      <avail>12F</avail>
+      <cost>1000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <conceal>-2</conceal>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+              <OR>
+                <category>Blades</category>
+                <category>Clubs</category>
+                <category>Unarmed</category>
+              </OR>
+        </weapondetails>
+      </required>
+      <forbidden>
+        <accessory>Improved Dikote</accessory>
+      </forbidden>
+    </accessory>
+    <accessory>
+      <id>682e9d91-1517-4cb0-a854-f7fe5a85a2e8</id>
+      <name>Smart Materials</name>
+      <mount />
+      <avail>+3</avail>
+      <cost>Weapon Cost</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <wirelessweaponbonus>
+        <ap>-1</ap>
+        <reach>1</reach>
+      </wirelessweaponbonus>
+      <accuracy>2</accuracy>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+              <OR>
+                <category>Blades</category>
+                <category>Clubs</category>
+                <category>Unarmed</category>
+              </OR>
+        </weapondetails>
+      </required>
+      <forbidden>
+        <accessory>Improved Dikote</accessory>
+      </forbidden>
+    </accessory>
+    <accessory>
+      <id>587bd927-d121-468e-b59b-984440d78171</id>
+      <name>Zapper Coating</name>
+      <mount />
+      <avail>+3</avail>
+      <cost>275</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <ap>-1</ap>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <category>Clubs</category>
+        </weapondetails>
+      </required>
+    <notes>The weapon's damage becomes Electricity.</notes>
+    </accessory>
+    <accessory>
       <id>4dc36cf7-5d17-4e6c-a58b-f416cd0318b0</id>
       <name>Laser Sight (Bow)</name>
       <mount />
@@ -75,6 +188,923 @@
       <weapontype>dartgun</weapontype>
       <range>Tasers</range>
       <spec>Semi-Automatics</spec>
+    </weapon>
+    <weapon>
+      <id>a5ea3ccf-45d1-4f60-add9-588e9506738b</id>
+      <name>Terracotta Arms Ferrus Minor</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-3</ap>
+      <mode>SA/BF</mode>
+      <rc>2</rc>
+      <ammo>20(c) + energy</ammo>
+      <avail>12F</avail>
+      <cost>2550</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+      <range>Submachine Guns</range>
+      <weapontype>magnetic</weapontype>
+    </weapon>
+    <weapon>
+      <id>49610a79-a23e-4a75-a6fb-08aee6a31313</id>
+      <name>Terracotta Arms Ferrus Major</name>
+      <category>Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-3</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>4</rc>
+      <ammo>40(c) + energy</ammo>
+      <avail>15F</avail>
+      <cost>3500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Sawed Off/Shortbarrel</name>
+        </accessory>
+        <accessory>
+          <name>Folding Stock</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <range>Assault Rifles</range>
+      <weapontype>magnetic</weapontype>
+    </weapon>
+    <weapon>
+      <id>86e7718f-532f-41b0-9359-6da041ef7a9d</id>
+      <name>Terracotta Arms Ferrus Prime</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-5</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>3</rc>
+      <ammo>40(c) + energy</ammo>
+      <avail>18F</avail>
+      <cost>9400</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <range>Sporting Rifles</range>
+      <weapontype>magnetic</weapontype>
+    </weapon>
+    <weapon>
+      <id>caec20ef-e4af-4edc-a244-d303f5227004</id>
+      <name>Terracotta Arms Ferrus Maximus</name>
+      <category>Sniper Rifles</category>
+      <type>Ranged</type>
+      <conceal>8</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-8</ap>
+      <mode>SA</mode>
+      <rc>2</rc>
+      <ammo>10(c) + energy</ammo>
+      <avail>21F</avail>
+      <cost>33700</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Long Barrel</name>
+        </accessory>
+        <accessory>
+          <name>Shock Pad</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <weapontype>magnetic</weapontype>
+    </weapon>
+    <weapon>
+      <id>3f87fc7a-762e-479d-b7b6-9c0716017634</id>
+      <name>YNT Colossus Chemrail</name>
+      <category>Assault Cannons</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>16P</damage>
+      <ap>-10</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>10(d) + energy</ammo>
+      <avail>27F</avail>
+      <cost>62000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Long Barrel</name>
+        </accessory>
+        <accessory>
+          <name>Foregrip</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <range>Sniper Rifles</range>
+      <weapontype>magnetic</weapontype>
+    </weapon>
+    <weapon>
+      <id>f1ed6685-ec29-4f28-a41e-890d7c7b7097</id>
+      <name>rEVOlution Arms Raven</name>
+      <category>Light Pistols</category>
+      <type>Ranged</type>
+      <conceal>-2</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>16(c)</ammo>
+      <avail>12R</avail>
+      <cost>450</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Ammo Skip</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
+    <weapon>
+      <id>27246449-61da-41ba-81a2-2fc02ca359e8</id>
+      <name>Ruger Lawbringer CS</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>-1</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>SA/BF</mode>
+      <rc>1</rc>
+      <ammo>9(c)</ammo>
+      <avail>12R</avail>
+      <cost>950</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
+    <weapon>
+      <id>05f29c05-be58-4b43-bb4f-38d0f69547d2</id>
+      <name>Ares Predator VI</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>SA/BF</mode>
+      <rc>0</rc>
+      <ammo>15(c)</ammo>
+      <avail>6R</avail>
+      <cost>1200</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Ammo Skip</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
+    <weapon>
+      <id>7a6f99a7-1da8-4902-abca-bb447867c8d9</id>
+      <name>Colt Government 2066TC</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-2</ap>
+      <mode>SA</mode>
+      <rc>1</rc>
+      <ammo>14(c)</ammo>
+      <avail>36R</avail>
+      <cost>2700</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Long Barrel</name>
+        </accessory>
+        <accessory>
+          <name>Melee Hardening</name>
+        </accessory>
+        <accessory>
+          <name>Advanced Safety System, Basic</name>
+        </accessory>
+        <accessory>
+          <name>Personalized Grip</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
+    <weapon>
+      <id>bb106d64-5357-4e8c-883c-94af1feb5163</id>
+      <name>Ruger Lawbringer</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>BF</mode>
+      <rc>3</rc>
+      <ammo>16(c)</ammo>
+      <avail>18F</avail>
+      <cost>3250</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Ammo Skip</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 3 System</name>
+        </accessory>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Advanced Safety System, Electro Shocker</name>
+        </accessory>
+        <accessory>
+          <name>Weapon Commlink</name>
+          <gears>
+            <usegear>
+              <name>Custom Commlink</name>
+              <category>Commlinks</category>
+              <rating>4</rating>
+            </usegear>
+          </gears>
+        </accessory>
+        <accessory>
+          <name>Safe Target System, Base</name>
+        </accessory>
+        <accessory>
+          <name>Tracker</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>b39f533d-c969-4a35-ba23-87b52db6aba1</id>
+      <name>rEVOlution Arms Iron Eagle</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>8(c)</ammo>
+      <avail>12R</avail>
+      <cost>1200</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Metahuman Adaptation</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
+    <weapon>
+      <id>c3261901-e857-4897-b881-9cd3d6a9c1e1</id>
+      <name>Cavalier Sheriff</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-5</ap>
+      <mode>SS</mode>
+      <rc>-2</rc>
+      <ammo>5(cy)</ammo>
+      <avail>20F</avail>
+      <cost>1500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Trigger Removal</name>
+        </accessory>
+        <accessory>
+          <name>Melee Hardening</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <spec>Revolvers</spec>
+      <weapontype>hipower</weapontype>
+    </weapon>
+    <weapon>
+      <id>695d03a4-9aae-4267-a947-8a881cc35722</id>
+      <name>Colt M24</name>
+      <category>Machine Pistols</category>
+      <type>Ranged</type>
+      <conceal>1</conceal>
+      <accuracy>3</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>-2</rc>
+      <ammo>30(c)</ammo>
+      <avail>12F</avail>
+      <cost>720</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
+    <weapon>
+      <id>be996cc7-be3c-41fb-9e7a-9104644bbb95</id>
+      <name>Cavalier/Parashield Emergency Responder</name>
+      <category>Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-</ap>
+      <mode>SA/BF</mode>
+      <rc>1</rc>
+      <ammo>32(c)</ammo>
+      <avail>9R</avail>
+      <cost>1600</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Electronic Firing</name>
+        </accessory>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <underbarrels>
+        <underbarrel>Cavalier/Parashield Emergency Responder Dart Gun</underbarrel>
+      </underbarrels>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>b1b89f64-4e68-4492-9570-06ee0b95917d</id>
+      <name>Cavalier/Parashield Emergency Responder Dart Gun</name>
+      <category>Exotic Ranged Weapons</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>As Drug/Toxin</damage>
+      <ap>0</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>6(c)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <hide />
+      <range>Heavy Pistols</range>
+      <useskill>Automatics</useskill>
+      <weapontype>dartgun</weapontype>
+    </weapon>
+    <weapon>
+      <id>cfc569f1-0226-4d17-a751-2a89d2ba58e8</id>
+      <name>rEVOlution Arms Cheetah</name>
+      <category>Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-</ap>
+      <mode>SA/BF</mode>
+      <rc>0</rc>
+      <ammo>30(c)</ammo>
+      <avail>6R</avail>
+      <cost>875</cost>
+      <source>SR5</source>
+      <page>428</page>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <notes>The Cheetah is a Super Machine Gun and can fire Narrow Bursts.</notes>
+    </weapon>
+    <weapon>
+      <id>38e6d4c9-5698-4c61-a8c3-24f0f93038dd</id>
+      <name>Rhipsalis</name>
+      <category>Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>10P(f)</damage>
+      <ap>+5</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>80(c)</ammo>
+      <avail>15R</avail>
+      <cost>850</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Sound Suppressor</name>
+        </accessory>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 2 System</name>
+        </accessory>
+        <accessory>
+          <name>Flashlight, Standard</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>e6fbab0a-c106-400e-8643-f72f4a101f5e</id>
+      <name>Onotari Arms Kali II</name>
+      <category>Carbines</category>
+      <type>Ranged</type>
+      <conceal>4</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>32(c)</ammo>
+      <avail>14F</avail>
+      <cost>3500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Melee Hardening</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Under</mount>
+        <mount>Top</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>c201f84f-f6bc-40b7-990a-1246555342e7</id>
+      <name>Shiawase Arms Tactical Model 73</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-4</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>2</rc>
+      <ammo>100(c)</ammo>
+      <avail>15F</avail>
+      <cost>5500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>d6a48bed-4e7d-4a6b-9c8a-79afaedbffcf</id>
+      <name>rEVOlution Arms Black Wolf</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>40(c)</ammo>
+      <avail>16F</avail>
+      <cost>2500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Ammo Skip</name>
+        </accessory>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>b2ec8eac-83b9-4c69-b85c-40452ffe23d6</id>
+      <name>Onotari Arms Rhino Hunter</name>
+      <category>Sporting Rifles</category>
+      <type>Ranged</type>
+      <conceal>8</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>14P</damage>
+      <ap>-4</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>7(m)</ammo>
+      <avail>15R</avail>
+      <cost>20000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Melee Hardening</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>fa188996-2637-4829-bc51-482d436167cb</id>
+      <name>Crackshot Arms Roaring Thunder</name>
+      <category>Light Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>3</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-1</ap>
+      <mode>BF/FA</mode>
+      <rc>2</rc>
+      <ammo>100(belt)</ammo>
+      <avail>14F</avail>
+      <cost>5500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <spec>Machine Guns</spec>
+      <ammocategory>Shotguns</ammocategory>
+      <alternaterange>Submachine Guns</alternaterange>
+      <range>Assault Rifles</range>
+      <notes>May use Minigun suppression.</notes>
+    </weapon>
+    <weapon>
+      <id>9952c50f-6825-4aa2-89c6-ddd311c765b4</id>
+      <name>Ingram Black Knight</name>
+      <category>Heavy Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-5</ap>
+      <mode>BF/FA</mode>
+      <rc>2</rc>
+      <ammo>50(c)</ammo>
+      <avail>20F</avail>
+      <cost>18400</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Internal Smartgun System</name>
+        </accessory>
+        <accessory>
+          <name>Safe Target System, Base</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 3 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <range>Medium/Heavy Machinegun</range>
+      <spec>Machine Guns</spec>
+      <notes>Base Accuracy is 5 when firing FA.</notes>
+    </weapon>
+    <weapon>
+      <id>66668b66-837f-42b2-af0f-ad4cf40e851a</id>
+      <name>rEVOlution Arms Megalodon</name>
+      <category>Assault Cannons</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>17P</damage>
+      <ap>-4</ap>
+      <mode>SA/BF</mode>
+      <rc>0</rc>
+      <ammo>8(c)</ammo>
+      <avail>24F</avail>
+      <cost>48000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>06f8effe-c112-40e3-966a-3025e521b9df</id>
+      <name>Ares Scylla</name>
+      <category>Exotic Ranged Weapons</category>
+			<useskill>Directed Energy Weapons</useskill>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>13S(e)</damage>
+      <ap>-5</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>External Source</ammo>
+      <avail>24F</avail>
+      <cost>25000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+			<accessorymounts>
+				<mount>Top</mount>
+				<mount>Side</mount>
+				<mount>Under</mount>
+			</accessorymounts>
+      <range>Flamethrowers</range>
+    </weapon>
+    <weapon>
+      <id>b5ca6fcd-6027-46b8-a710-3b7705d7a75b</id>
+      <name>Ares Firebolt</name>
+      <category>Laser Weapons</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>9</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-10</ap>
+      <mode>SA/BF</mode>
+      <rc>0</rc>
+      <ammo>10(c) or External Source</ammo>
+      <avail>14F</avail>
+      <cost>8750</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Internal Smartgun System</name>
+        </accessory>
+      </accessories>
+			<accessorymounts>
+				<mount>Top</mount>
+				<mount>Side</mount>
+				<mount>Internal</mount>
+			</accessorymounts>
+      <range>Submachine Guns</range>
+      <useskill>Directed Energy Weapons</useskill>
+      <useskillspec>Laser Weapons</useskillspec>
+    </weapon>
+    <weapon>
+      <id>19dd1135-a365-4482-a1f1-62bf72f7485e</id>
+      <name>Ares Lancer MP Laser</name>
+      <category>Laser Weapons</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-10</ap>
+      <mode>SA/BF</mode>
+      <rc>0</rc>
+      <ammo>2x10(c) or External Source</ammo>
+      <avail>18F</avail>
+      <cost>18750</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Internal Smartgun System</name>
+        </accessory>
+      </accessories>
+			<accessorymounts>
+				<mount>Top</mount>
+				<mount>Side</mount>
+				<mount>Stock</mount>
+				<mount>Internal</mount>
+        <mount>Under</mount>
+			</accessorymounts>
+      <range>Assault Rifles</range>
+      <useskill>Directed Energy Weapons</useskill>
+      <useskillspec>Laser Weapons</useskillspec>
+    </weapon>
+    <weapon>
+      <id>d6aef6b5-1ff2-47f8-95e2-e4550cf3395c</id>
+      <name>Ares Firebird Heavy Laser</name>
+      <category>Laser Weapons</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>12P</damage>
+      <ap>-10</ap>
+      <mode>SA/BF</mode>
+      <rc>0</rc>
+      <ammo>External Source</ammo>
+      <avail>24F</avail>
+      <cost>44300</cost>
+      <source>RG</source>
+      <page>49</page>
+      <accessories>
+        <accessory>
+          <name>Internal Smartgun System</name>
+        </accessory>
+      </accessories>
+			<accessorymounts>
+				<mount>Top</mount>
+				<mount>Side</mount>
+				<mount>Under</mount>
+				<mount>Stock</mount>
+			</accessorymounts>
+      <range>Sniper Rifles</range>
+      <useskill>Directed Energy Weapons</useskill>
+      <useskillspec>Laser Weapons</useskillspec>
     </weapon>
   </weapons>
 </chummer>

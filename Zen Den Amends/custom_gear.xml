@@ -179,6 +179,33 @@
 			<costfor>10</costfor>
 			<ammoforweapontype>cannon</ammoforweapontype>
 		</gear>
+		<gear>
+			<id>a191dd66-b73f-4c27-a2ec-1e32b70f97f9</id>
+			<name>Ammo: Railgun</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>12F</avail>
+			<cost>120</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<ap>-4</ap>
+			</weaponbonus>
+			<ammoforweapontype noextra="True">magnetic</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>1061d046-4ba4-40f8-a650-dd145cbcdcd2</id>
+			<name>Ammo: High Powered Rounds</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>20F</avail>
+			<cost>160</cost>
+			<costfor>10</costfor>
+			<ammoforweapontype>hipower</ammoforweapontype>
+		</gear>
 		<!-- More Minigrenades -->
 		<gear>
 			<id>215f8266-ea78-48b6-b232-984b0d1975df</id>

@@ -24,6 +24,10 @@
 			<hide />
 		</tradition>
 		<tradition>
+      		<name>Armanentradition</name>
+			<hide />
+		</tradition>
+		<tradition>
 			<name>Norse [Godi/Runemaster]</name>
 			<bonus>
 				<addqualities>
