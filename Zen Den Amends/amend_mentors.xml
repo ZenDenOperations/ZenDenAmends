@@ -83,7 +83,6 @@
      <mentor>
       <name>Little Red Riding Hood</name>
       <choices amendoperation="replace">
-      <choices>
         <choice>
           <name>Magician: +2 dice to Contractual Rituals</name>
           <bonus>

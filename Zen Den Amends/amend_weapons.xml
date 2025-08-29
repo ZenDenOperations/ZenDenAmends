@@ -19,6 +19,25 @@
 -->
 <chummer>
 	<accessories>
+		<accessory>
+		<name>Belt-Feed, 100-round</name>
+		<required>
+			<weapondetails>
+			<OR>
+				<name>RPK HMG</name>
+				<name>Ruhrmetall SF-20</name>
+				<name>Ultamax HMG-2</name>
+				<name>Ingram Valiant</name>
+				<name>Krime Wave</name>
+				<name>Shiawase Armaments Nemesis</name>
+				<name>FN MAG-5</name>
+				<name>Stoner-Ares M202</name>
+				<name>Ultamax MMG</name>
+				<name>Ingram Black Knight</name>
+			</OR>
+			</weapondetails>
+		</required>
+		</accessory>
 		<!-- Railguns can't use Gas Vents or Silencers. -->
 		<accessory>
 			<name>Silencer/Suppressor</name>
