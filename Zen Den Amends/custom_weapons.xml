@@ -1106,5 +1106,55 @@
       <useskill>Directed Energy Weapons</useskill>
       <useskillspec>Laser Weapons</useskillspec>
     </weapon>
+    <weapon>
+      <id>88c468fd-0b14-411f-9cd1-166c4122afe0</id>
+      <name>Shotgun Palm/Knee</name>
+      <category>Unarmed</category>
+      <type>Melee</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>13P</damage>
+      <ap>-1</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>3(ml)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <cyberware>True</cyberware>
+      <hide />
+      <spec>Cyber Implants</spec>
+      <useskill>Unarmed Combat</useskill>
+      <ammocategory>Shotguns</ammocategory>
+    </weapon>
+    <weapon>
+      <id>a5f25e97-fd9e-4246-94b3-f1291450b234</id>
+      <name>Tesla Coil</name>
+      <category>Exotic Ranged Weapons</category>
+			<useskill>Directed Energy Weapons</useskill>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>12S(e)</damage>
+      <ap>-5</ap>
+      <mode>SA/BF</mode>
+      <rc>0</rc>
+      <ammo>2x10(c) or External Source</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <accessories>
+        <accessory>
+          <name>Internal Smartgun System</name>
+        </accessory>
+      </accessories>
+      <range>Flamethrowers</range>
+      <cyberware>True</cyberware>
+      <hide />
+    </weapon>
   </weapons>
 </chummer>

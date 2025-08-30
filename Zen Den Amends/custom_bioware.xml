@@ -809,5 +809,123 @@
 			<source>ZDR</source>
 			<page>1</page>
 		</bioware>
+		<bioware>
+			<id>b45fdde5-f8ff-4821-88e8-4aad82641ea3</id>
+			<name>Quadmod</name>
+			<category>Basic</category>
+			<ess>Rating * 0.1</ess>
+			<capacity>0</capacity>
+			<avail>12</avail>
+			<cost>Rating * 7500</cost>
+			<bonus>
+				<specificskill>
+				<name>Gymnastics</name>
+				<bonus>Rating</bonus>
+				<condition>Jumping</condition>
+				</specificskill>
+				<sprintbonus>
+				<category>Ground</category>
+				<val>Rating * 100</val>
+				</sprintbonus>
+				<runmultiplier>
+				<category>Ground</category>
+				<val>Rating</val>
+				</runmultiplier>
+			</bonus>
+			<rating>3</rating>
+			<source>ZDR</source>
+			<page>1</page>
+		</bioware>
+		<bioware>
+			<id>3871eebf-0a0a-4eea-9391-53bf43edb81b</id>
+			<name>False Front</name>
+			<category>Basic</category>
+			<ess>Rating * 0.2</ess>
+			<capacity>0</capacity>
+			<avail>(Rating * 6)F</avail>
+			<cost>Rating * 12000</cost>
+			<bonus>
+				<specificskill>
+				<name>Disguise</name>
+				<bonus>Rating</bonus>
+				</specificskill>
+			</bonus>
+			<rating>4</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Requires signal drug (50 nuyen/dose) to activate.</notes>
+		</bioware>
+		<bioware>
+			<id>83bb80be-6feb-4c16-a24a-d214b2055b08</id>
+			<name>False Front Mimic Option</name>
+			<category>Basic</category>
+			<ess>0</ess>
+			<capacity>0</capacity>
+			<avail>(Rating * 6)F</avail>
+			<cost>10000</cost>
+			<bonus>
+				<specificskill>
+				<name>Impersonation</name>
+				<bonus>Rating</bonus>
+				</specificskill>
+			</bonus>
+			<rating>4</rating>
+			<required>
+				<oneof>
+				<bioware>False Front</bioware>
+				</oneof>
+			</required>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Rating and grade must match False Front. Requires signal drug (500 nuyen/dose) to activate.</notes>
+		</bioware>
+		<bioware>
+			<id>d5bae04f-2fb2-4701-a0d5-542f984af620</id>
+			<name>Cognitive Shield</name>
+			<category>Cultured</category>
+			<bannedgrades>
+				<grade>Used</grade>
+				<grade>Used (Adapsin)</grade>
+			</bannedgrades>
+			<ess>Rating * 0.15</ess>
+			<capacity>0</capacity>
+			<avail>18</avail>
+			<cost>Rating * 25000</cost>
+			<bonus>
+        		<disablequality>e96c7280-b9b0-4112-8b65-a3568c7ca13e</disablequality>
+				<mentalmanipulationresist>Rating</mentalmanipulationresist>
+			</bonus>
+			<rating>3</rating>
+			<source>ZDR</source>
+			<page>1</page>
+		</bioware>
+		<bioware>
+			<id>1831532b-1a26-4c23-8654-4c8988d37a4e</id>
+			<name>Cognitive Shield</name>
+			<category>Cultured</category>
+			<bannedgrades>
+				<grade>Used</grade>
+				<grade>Used (Adapsin)</grade>
+			</bannedgrades>
+			<ess>0.15</ess>
+			<capacity>0</capacity>
+			<avail>18</avail>
+			<cost>25000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Provides Magic Sense, using INT/2 instead of MAG to calculate range.</notes>
+		</bioware>
+		<bioware>
+			<id>52b455cc-6f55-4079-a098-d60decbd1bdb</id>
+			<name>Booster Endosont</name>
+			<category>Symbionts</category>
+			<ess>0.2</ess>
+			<capacity>0</capacity>
+			<avail>15</avail>
+			<cost>17500</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>+1 to Firewall for a single owned device.</notes>
+		</bioware>
 	</biowares>
 </chummer>
