@@ -1154,5 +1154,162 @@
 				<category>Cyber Implant Weapon Accessory</category>
 			</allowsubsystems>
 		</cyberware>
+		<!-- 6e Nanoware -->
+	<cyberware>
+      <id>26D26829-5993-4403-A3FA-230483C4151A</id>
+      <name>Nano Health Suite</name>
+      <limit>False</limit>
+      <category>Hard Nanoware</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>6R</avail>
+      <cost>Rating * 600</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <pathogencontactresist>Rating</pathogencontactresist>
+        <pathogeningestionresist>Rating</pathogeningestionresist>
+        <pathogeninhalationresist>Rating</pathogeninhalationresist>
+        <pathogeninjectionresist>Rating</pathogeninjectionresist>
+	    <toxincontactresist>Rating</toxincontactresist>
+        <toxiningestionresist>Rating</toxiningestionresist>
+        <toxininhalationresist>Rating</toxininhalationresist>
+        <toxininjectionresist>Rating</toxininjectionresist>
+      </bonus>
+	  <forcegrade>None</forcegrade>
+      <rating>6</rating>
+    </cyberware>
+    <cyberware>
+      <id>97ECDCD3-3E00-4BD7-B312-77408EC8B82E</id>
+      <name>Augmented Neural Network</name>
+      <limit>False</limit>
+      <category>Soft Nanoware</category>
+      <ess>0</ess>
+      <capacity>[Rating]</capacity>
+      <avail>15F</avail>
+      <cost>Rating * 1000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <initiativepass precedence="0">1</initiativepass>
+        <dodge>Rating * .33</dodge>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <rating>6</rating>
+    </cyberware>
+    <cyberware>
+      <id>FF7204BD-67C8-481D-8842-AA6CE795B433</id>
+      <name>Bio-Response Override</name>
+      <limit>False</limit>
+      <category>Soft Nanoware</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>18F</avail>
+      <cost>Rating * 700</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <specificattribute>
+          <name>WIL</name>
+          <val>1</val>
+        </specificattribute>
+        <conditionmonitor>
+          <thresholdoffset>Rating</thresholdoffset>
+        </conditionmonitor>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <rating>6</rating>
+    </cyberware>
+    <cyberware>
+      <id>DEA88B93-C1DE-480F-AD4F-624EEB004F58</id>
+      <name>Extracellular Reinforcement</name>
+      <limit>False</limit>
+      <category>Hard Nanoware</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>12F</avail>
+      <cost>Rating * 1000</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+		<damageresistance>Rating * 0.33</damageresistance>
+		<conditionmonitor>
+          <physical>1</physical>
+        </conditionmonitor>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <rating>6</rating>
+    </cyberware>
+    <cyberware>
+      <id>9A8B4529-D2B8-4914-9DAE-D0AD4FD0308F</id>
+      <name>Neural Pattern Reinforcement</name>
+      <limit>False</limit>
+      <category>Soft Nanoware</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>15F</avail>
+      <cost>Rating * 1400</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <forcegrade>None</forcegrade>
+      <rating>6</rating>
+    </cyberware>
+    <cyberware>
+      <id>be4ce4e8-471a-45db-a492-038f3ed34fee</id>
+      <name>NPR Skill Boost</name>
+      <limit>False</limit>
+      <category>Soft Nanoware</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <selectskill limittoattribute="BOD,AGI,REA,STR">
+          <val>1</val>
+        </selectskill>
+      </bonus>
+      <forcegrade>None</forcegrade>
+    </cyberware>
+    <cyberware>
+      <id>510A56FA-5076-4F8D-BBA3-4F173BDAD419</id>
+      <name>Neurochemical Regulator</name>
+      <limit>False</limit>
+      <category>Hard Nanoware</category>
+      <ess>0</ess>
+      <capacity>[Rating]</capacity>
+      <avail>15F</avail>
+      <cost>Rating * 900</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <specificattribute>
+          <name>CHA</name>
+          <val>1</val>
+        </specificattribute>
+        <composure>Rating</composure>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <rating>6</rating>
+    </cyberware>
+    <cyberware>
+      <id>1CB8D1EB-C204-467E-86B0-68416C80A1C7</id>
+      <name>Muscular Amplfiier</name>
+      <limit>False</limit>
+      <category>Hard Nanoware</category>
+      <ess>0</ess>
+      <capacity>[Rating]</capacity>
+      <avail>12F</avail>
+      <cost>Rating * 1500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <unarmedap>-Rating</unarmedap>
+      </bonus>
+      <forcegrade>None</forcegrade>
+      <rating>3</rating>
+	  <notes>The AP bonus actually applies to all melee attacks, but chummer doesn't support doing so.</notes>
+    </cyberware>
 	</cyberwares>
 </chummer>
