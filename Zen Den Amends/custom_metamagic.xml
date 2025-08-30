@@ -44,5 +44,32 @@
 				</oneof>
 			</forbidden>
 		</metamagic>
+		<metamagic>
+			<id>9a0064a5-17db-4fe4-8c2f-1f4ffe8a2319</id>
+			<name>Durable Astral Form</name>
+			<adept>True</adept>
+			<magician>True</magician>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Adds (Initiate Grade) to Astral Armor.
+		</metamagic>
+		<metamagic>
+			<id>5e7d5ade-be3d-4531-a60f-1d318b72d582</id>
+			<name>Spell Blade</name>
+			<adept>False</adept>
+			<magician>True</magician>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>can use any Close Combat skill to make touch attacks for T range spells. Reach is IG/2 or 4, whichever is lower.</notes>
+		</metamagic>
+		<metamagic>
+			<id>b0179b99-246f-4d60-822a-f42d460c6ada</id>
+			<name>Stealth Effect</name>
+			<adept>False</adept>
+			<magician>True</magician>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Use a Free action and take +2 Drain to make a spell invisible to visual detection. The spell's effect is not stealthed.</notes>
+		</metamagic>
 	</metamagics>
 </chummer>
