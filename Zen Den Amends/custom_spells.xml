@@ -84,5 +84,70 @@
 			<range>T</range>
 			<type>P</type>
 		</spell>
+		<spell>
+			<id>63bbc75f-9d9a-4caa-bba3-030cdf090ecc</id>
+			<name>Hose</name>
+			<page>0</page>
+			<source>ZDR</source>
+			<category>Combat</category>
+			<damage>S</damage>
+			<descriptor>Indirect, Elemental</descriptor>
+			<duration>I</duration>
+			<dv>F-3</dv>
+			<range>LOS</range>
+			<type>P</type>
+		</spell>
+		<spell>
+			<id>63bbc75f-9d9a-4caa-bba3-030cdf090ecc</id>
+			<name>Tsunami</name>
+			<page>0</page>
+			<source>ZDR</source>
+			<category>Combat</category>
+			<damage>S</damage>
+			<descriptor>Indirect, Elemental</descriptor>
+			<duration>I</duration>
+			<dv>F-1</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		</spell>
+		<spell>
+			<id>489b5aa5-10d6-49b5-8750-02c45b1eab8c</id>
+			<name>Designate Target</name>
+			<page>0</page>
+			<source>ZDR</source>
+			<category>Detection</category>
+			<damage>0</damage>
+			<descriptor>Active</descriptor>
+			<duration>S</duration>
+			<dv>F-3</dv>
+			<range>LOS</range>
+			<type>M</type>
+		</spell>
+		<spell>
+			<id>85ecda76-1949-4c17-8ccf-fce7061ee53e</id>
+			<name>Earthworks</name>
+			<page>0</page>
+			<source>ZDR</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Elemental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		</spell>
+		<spell>
+			<id>853dd652-c729-45a4-b183-92041122e0ab</id>
+			<name>Flare</name>
+			<page>0</page>
+			<source>ZDR</source>
+			<category>Manipulation</category>
+			<damage>0</damage>
+			<descriptor>Environmental, Area</descriptor>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+		</spell>
 	</spells>
 </chummer>

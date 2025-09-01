@@ -20,6 +20,21 @@
 <chummer>
   <accessories>
     <accessory>
+      <id>083deafa-389d-4da1-8c87-88d788e59a74</id>
+      <name>Underbarrel Carbine</name>
+      <mount>Under</mount>
+      <avail>9F</avail>
+      <cost>1125</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <useskill>Heavy Weapons</useskill>
+        </weapondetails>
+      </required>
+    </accessory>
+    <accessory>
       <id>123c201b-7443-4418-bec4-fe160a6fef17</id>
       <name>Spare Clip (Ammo Skip)</name>
       <mount />
@@ -1043,7 +1058,7 @@
     </weapon>
     <weapon>
       <id>19dd1135-a365-4482-a1f1-62bf72f7485e</id>
-      <name>Ares Lancer MP Laser</name>
+      <name>Ares Firebrand MP Laser</name>
       <category>Laser Weapons</category>
       <type>Ranged</type>
       <conceal>6</conceal>
