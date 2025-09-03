@@ -1529,6 +1529,72 @@
 			<notes>Allow the ability to build in one powertrain mod at half the capactiy cost but 50% extra nuyen (extended threshold with availabilitX2</notes>
 		</quality>
 		<quality>
+			<id>05c9a59c-3ac3-4e5b-b0f3-a323dc529e31</id>
+			<name>Improved Tactical Network</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<specificskill>
+				<name>Perception</name>
+				<bonus>1</bonus>
+				</specificskill>
+				<specificskill>
+				<name>Sneaking</name>
+				<bonus>1</bonus>
+				</specificskill>
+				<skillgroup>
+				<name>Close Combat</name>
+				<bonus>1</bonus>
+				</skillgroup>
+				<skillgroup>
+				<name>Firearms</name>
+				<bonus>1</bonus>
+				</skillgroup>
+			</bonus>
+			<required>
+				<oneof>
+				<Echo>Tactical Network</Echo>
+				</oneof>
+			</required>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Provides Pi-Tac II benefits (except for Trauma Module + Host Enhancement). Combat Mode bonus is only to one combat active skill at a time.</notes>
+		</quality>
+		<quality>
+			<id>1085ca10-9c9e-4d98-8d6a-5afdbef8b048</id>
+			<name>Transcendent Tactical Network</name>
+			<karma>35</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<specificskill>
+				<name>Perception</name>
+				<bonus>1</bonus>
+				</specificskill>
+				<specificskill>
+				<name>Sneaking</name>
+				<bonus>1</bonus>
+				</specificskill>
+				<skillgroup>
+				<name>Close Combat</name>
+				<bonus>1</bonus>
+				</skillgroup>
+				<skillgroup>
+				<name>Firearms</name>
+				<bonus>1</bonus>
+				</skillgroup>
+			</bonus>
+			<required>
+				<oneof>
+				<quality>Improved Tactical Network</quality>
+				</oneof>
+			</required>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Provides Pi-Tac III benefits (except for Trauma Module + Host Enhancement). Combat Mode bonus is only to one combat active skill at a time.</notes>
+		</quality>
+		<quality>
 			<id>1471bcfe-f8d8-4418-945a-60043e904d07</id>
 			<name>Cyberlimb Armor Reduction</name>
 			<karma>0</karma>
@@ -1570,7 +1636,7 @@
 			</required>
 			<source>ZDR</source>
 			<page>1</page>
-			<notes>Each replacement limb after the first reduces the Armor or damage resistance provided by other augmentations by 1. Damage resistance is reduced before armor.</notes>
+			<notes>Each replacement limb after the first reduces the Armor or damage resistance provided by other augmentations by 1. Armor is reduced before damage resistance.</notes>
 		</quality>
 	</qualities>
 </chummer>
