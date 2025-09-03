@@ -20,6 +20,21 @@
 <chummer>
   <accessories>
     <accessory>
+      <id>083deafa-389d-4da1-8c87-88d788e59a74</id>
+      <name>Underbarrel Carbine</name>
+      <mount>Under</mount>
+      <avail>9F</avail>
+      <cost>1125</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <useskill>Heavy Weapons</useskill>
+        </weapondetails>
+      </required>
+    </accessory>
+    <accessory>
       <id>123c201b-7443-4418-bec4-fe160a6fef17</id>
       <name>Spare Clip (Ammo Skip)</name>
       <mount />
@@ -164,6 +179,25 @@
     </accessory>
   </accessories>
   <weapons>
+    <weapon>
+      <id>3aa5c859-6536-4e6d-9857-610e600492f3</id>
+      <name>Kitsune Bite</name>
+      <category>Unarmed</category>
+      <type>Melee</type>
+      <conceal>0</conceal>
+      <accuracy>7</accuracy>
+      <reach>0</reach>
+      <damage>5P</damage>
+      <ap>-8</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <hide />
+    </weapon>
     <weapon>
       <id>911df3af-65b0-4415-bd77-f96a785a4a8b</id>
       <name>One-Shot Dartgun</name>
@@ -1043,7 +1077,7 @@
     </weapon>
     <weapon>
       <id>19dd1135-a365-4482-a1f1-62bf72f7485e</id>
-      <name>Ares Lancer MP Laser</name>
+      <name>Ares Firebrand MP Laser</name>
       <category>Laser Weapons</category>
       <type>Ranged</type>
       <conceal>6</conceal>

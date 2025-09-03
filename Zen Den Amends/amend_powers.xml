@@ -22,12 +22,11 @@
 		<power>
 			<id>fea9e769-5f2c-4bae-9610-56c0825e145a</id>
 			<bonus amendoperation="replace">
-				<disablequality amendoperation="remove">3564b678-7721-4a8d-ac79-1600cf92dc14</disablequality>
-				<initiativepass amendoperation="replace">Rating</initiativepass>
-				<specificattribute amendoperation="replace">
+				<initiativepass precedence="0">Rating</initiativepass>
+				<specificattribute>
           			<name>REA</name>
           			<val>Rating</val>
-        			</specificattribute>
+        		</specificattribute>
 			</bonus>
 		</power>
 		<power>
