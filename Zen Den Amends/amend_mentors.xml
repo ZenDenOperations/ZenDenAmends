@@ -19,10 +19,6 @@
 -->
 <chummer>
   <mentors>
-    <mentor>
-      <name>Arcana</name>
-      <hide />
-    </mentor>
      <mentor>
       <name>Holy Text</name>
       <hide />
