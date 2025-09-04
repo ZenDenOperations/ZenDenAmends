@@ -149,5 +149,21 @@
 			<range>LOS (A)</range>
 			<type>P</type>
 		</spell>
+		<spell>
+			<id>abdce446-aef5-45a3-8a12-23b7eed03bc3</id>
+			<name>[Element] Burst</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<category>Combat</category>
+			<damage>0</damage>
+			<descriptor>Indirect, Area, Elemental</descriptor>
+			<duration>P</duration>
+			<dv>F</dv>
+			<range>LOS (A)</range>
+			<type>P</type>
+			<bonus>
+				<selecttext />
+			</bonus>
+		</spell>
 	</spells>
 </chummer>
