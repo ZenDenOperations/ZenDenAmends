@@ -4,19 +4,22 @@
 			<hide />
 		</quality>
 		<quality>
-			<name>Superhuman Psychosis</name>
-			<bonus>
-				<specificskill amendoperation="addnode">
-					<name>Monofilament Weapons</name>
-					<bonus>1</bonus>
-				</specificskill>
-			</bonus>
+			<name>Arcology Tantrum</name>
+			<hide />
 		</quality>
-		<quality xpathfilter="contains(name,'Fame (')">
-			<bonus>
-				<selecttext />
-			</bonus>
+		<quality>
+			<name>People's SIN</name>
+			<hide />
 		</quality>
+		<quality>
+      		<name>Superhuman Psychosis</name>
+      	<bonus>
+        <specificskill amendoperation="addnode">
+          <name>Monofilament Weapons</name>
+          <bonus>1</bonus>
+        </specificskill>
+      </bonus>
+    </quality>
 		<quality>
 			<!-- Focused Concentration -->
 			<name>Focused Concentration</name>
@@ -2674,6 +2677,9 @@
 					<min>1</min>
 					<max>1</max>
 				</specificattribute>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
 			</bonus>
 		</quality>
 		<quality>
@@ -2719,6 +2725,9 @@
 					<min>1</min>
 					<max>1</max>
 				</specificattribute>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
 			</bonus>
 		</quality>
 		<quality>
@@ -2774,6 +2783,9 @@
 					<min>1</min>
 					<max>1</max>
 				</specificattribute>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
 			</bonus>
 		</quality>
 		<quality>
@@ -2824,6 +2836,9 @@
 					<min>1</min>
 					<max>1</max>
 				</specificattribute>
+				<enableattribute>
+					<name>MAG</name>
+				</enableattribute>
 			</bonus>
 		</quality>
 		<quality>
@@ -2939,6 +2954,5 @@
 		</quality>
 	</qualities>
 </chummer>
-
 
 

@@ -456,6 +456,140 @@
   system. When disengaged, these Attributes both become 2 instead but the handling gets reduced to 4. Its speed tier is always 5
 </notes>
 		</vehicle>
+		<vehicle>
+			<id>76ff1cd5-7a19-4645-bf52-56282b66972d</id>
+			<name>CV-9 "Devil Rat APC</name>
+			<source>ZDR</source>
+			<page>1</page>
+			<accel>2</accel>
+			<armor>18</armor>
+			<body>18</body>
+			<category>Corpsec/Police/Military</category>
+			<avail>18R</avail>
+			<cost>77500</cost>
+			<handling>3/3</handling>
+			<pilot>2</pilot>
+			<sensor>2</sensor>
+			<speed>4</speed>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>2</maxrating>
+				</gear>
+			</gears>
+		<mods>
+			<name>Gun Port</name>
+			<name>Gun Port</name>
+			<name>Gun Port</name>
+			<name>Gun Port</name>
+			<name>Secondary Propulsion (Amphibious, Surface)</name>
+		</mods>
+		<weaponmounts>
+			<weaponmount>
+				<control>Remote</control>
+				<flexibility>Turret</flexibility>
+				<size>Heavy</size>
+				<visibility>External</visibility>
+			</weaponmount>
+		</weaponmounts>
+			<seats>12</seats>
+		</vehicle>
+		<vehicle>
+			<id>e2f6e155-62f1-4b1a-894d-243c429be911</id>
+			<name>Evo Nightwing (Small Drone)</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>0</armor>
+			<avail>15R</avail>
+			<body>1</body>
+			<category>Drones: Small</category>
+			<cost>12500</cost>
+			<handling>2</handling>
+			<pilot>4</pilot>
+			<sensor>6</sensor>
+			<speed>1</speed>
+			<gears>
+				<gear rating="6">Electronic Warfare Autosoft</gear>
+				<gear>
+				<name>Sensor Array</name>
+				<rating>6</rating>
+				<maxrating>6</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Improved Economy</name>
+				<name rating="6">Signature Masking</name>
+				<name>Rigger Interface</name>
+			</mods>
+		</vehicle>
+		<vehicle>
+			<id>859fbbbb-efa5-48a4-a537-25704955406f</id>
+			<name>Renraku Kitsune (Medium Drone)</name>
+			<page>1</page>
+			<source>ZDR</source>
+			<accel>1</accel>
+			<armor>4</armor>
+			<avail>24F</avail>
+			<body>4</body>
+			<category>Drones: Medium</category>
+			<cost>12500</cost>
+			<handling>5</handling>
+			<pilot>6</pilot>
+			<sensor>6</sensor>
+			<speed>1</speed>
+			<gears>
+        		<gear select="Kitsune Bite" rating="6">[Weapon] Melee Autosoft</gear>
+      			<gear select="Renraku Kitsune (Medium Drone)" rating="6">[Model] Stealth Autosoft</gear>
+        		<gear rating="6" select="Locksmith">Skill Autosoft</gear>
+        		<gear rating="6">Clearsight Autosoft</gear>
+				<gear rating="6">Electronic Warfare Autosoft</gear>
+				<gear rating="4">Maglock Passkey</gear>
+        		<gear rating="6">Autopicker</gear>
+				<gear>
+				<name>Sensor Array</name>
+				<rating>6</rating>
+				<maxrating>6</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<mod>
+				<name>Drone Arm</name>
+				<subsystems>
+					<cyberware>
+      				<name>Cyberfinger (Glass Cutter)</name>
+					</cyberware>
+				</subsystems>
+				</mod>
+				<mod>
+				<name>Drone Arm</name>
+				<subsystems>
+					<cyberware>
+      				<name>Cyberfinger (Glass Cutter)</name>
+					</cyberware>
+				</subsystems>
+				</mod>
+				<name>Drone Arm</name>
+				<name>Drone Arm</name>
+				<name rating="6">Signature Masking</name>
+				<name>Chameleon Coating</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+				<control>Remote</control>
+				<flexibility>Fixed</flexibility>
+				<size>Built-In</size>
+				<visibility>Concealed</visibility>
+				<allowedweapons>Kitsune Bite</allowedweapons>
+				</weaponmount>
+			</weaponmounts>
+			<weapons>
+				<weapon>
+				<name>Kitsune Bite</name>
+				</weapon>
+			</weapons>
+		</vehicle>
 	</vehicles>
 	<mods>
 		<mod>

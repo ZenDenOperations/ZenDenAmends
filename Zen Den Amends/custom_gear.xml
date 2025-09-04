@@ -730,5 +730,140 @@
 			<avail>30F</avail>
 			<cost>100000</cost>
 		</gear>
+		<gear>
+			<id>f94a8980-d225-45e9-a1c2-417818edb4c1</id>
+			<name>Ruger Lawbringer (Commlink)</name>
+			<category>Commlinks</category>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>0</avail>
+			<capacity>0</capacity>
+			<cost>0</cost>
+			<devicerating>4</devicerating>
+			<dataprocessing>4</dataprocessing>
+			<firewall>4</firewall>
+			<hide />
+			<canformpersona>Self</canformpersona>
+			<gears>
+				<usegear>
+				<name>Commlink Functionality</name>
+				<category>Electronics Accessories</category>
+				</usegear>
+			</gears>
+		</gear>
+		<gear>
+			<id>da608ed8-00e6-4b68-9823-255dbccae614</id>
+			<name>Black Tide</name>
+			<category>Drugs</category>
+			<addoncategory>Drug Grades</addoncategory>
+			<addoncategory>Custom</addoncategory>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>12F</avail>
+			<cost>3000</cost>
+			<notes>Addiction Rating 11, Threshold 4 (Both), Injection Vector. +1 BOD/AGI/WIL, +2d6 Init, High Pain Tolerance 3 for duration.</notes>
+		</gear>
+		<gear>
+			<id>bcbc9cf5-2a0c-40b0-b9b1-115e21eb2567</id>
+			<name>Eel</name>
+			<category>Drugs</category>
+			<addoncategory>Drug Grades</addoncategory>
+			<addoncategory>Custom</addoncategory>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>16F</avail>
+			<cost>900</cost>
+			<ammoforweapontype noextra="True">spraypen</ammoforweapontype>
+			<notes>Addiction Rating 11, Threshold 3 (Both), Injection + Inhalation Vector. -3 STR, +4 REA, +3 INT, +1 WIL for duration.</notes>
+		</gear>
+		<gear>
+			<id>62c438ba-f738-4f63-87f5-7f45011a1eb2</id>
+			<name>Eel</name>
+			<category>Drugs</category>
+			<addoncategory>Drug Grades</addoncategory>
+			<addoncategory>Custom</addoncategory>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>16F</avail>
+			<cost>900</cost>
+			<ammoforweapontype noextra="True">spraypen</ammoforweapontype>
+			<notes>Addiction Rating 11, Threshold 3 (Both), Injection + Inhalation Vector. -3 STR, +4 REA, +3 INT, +1 WIL for duration.</notes>
+		</gear>
+		<gear>
+			<id>610ecd42-a8f7-4532-bca6-89bd01ce83eb</id>
+			<name>Grey's Resistor</name>
+			<category>Drugs</category>
+			<addoncategory>Drug Grades</addoncategory>
+			<addoncategory>Custom</addoncategory>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>12F</avail>
+			<cost>750</cost>
+			<notes>Addiction Rating 8, Threshold 2 (Both), Injection Vector. Magic Resistance 4 for duration.</notes>
+		</gear>
+		<gear>
+			<id>36f6d56b-4351-4ad9-ad6f-8d93f7db9adf</id>
+			<name>Manaproof IPA</name>
+			<category>Drugs</category>
+			<addoncategory>Drug Grades</addoncategory>
+			<addoncategory>Custom</addoncategory>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>12</avail>
+			<cost>280</cost>
+			<notes>Addiction Rating 8, Threshold 2 (Psychological), Ingestion Vector. -1 REA, -1 LOG, gains a 4d spell defense pool.</notes>
+		</gear>
+		<gear>
+			<id>1765fe1a-6444-477f-aae0-c301f146c2d5</id>
+			<name>Spell Stripper</name>
+			<category>Toxins</category>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>12F</avail>
+			<cost>750</cost>
+			<ammoforweapontype noextra="True">spraypen</ammoforweapontype>
+			<notes>Power 11. Inhalation + Injection. Unresisted Power is treated as hits on dispelling and banishing against the target.</notes>
+		</gear>
+		<gear>
+			<id>14964a6d-5ced-4542-a38b-dfecec3f2c77</id>
+			<name>Voidburst</name>
+			<category>Toxins</category>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>12F</avail>
+			<cost>1050</cost>
+			<ammoforweapontype noextra="True">spraypen</ammoforweapontype>
+			<notes>Power 11. Inhalation + Injection. Unresisted Power is added to Drain (no more than double drain).</notes>
+		</gear>
+		<gear>
+			<id>7ba5b001-a952-4f05-9e8f-3613f3c7223b</id>
+			<name>God Chip BTL</name>
+			<category>BTLs</category>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>15F</avail>
+			<cost>1250</cost>
+			<notes>+1 to all physical attributes, -2 WIL.</notes>
+		</gear>
+		<gear>
+			<id>d374f9f8-4f90-4256-a532-37295d0d2a39</id>
+			<name>Vulcan BTL</name>
+			<category>BTLs</category>
+			<rating>0</rating>
+			<source>ZDR</source>
+			<page>1</page>
+			<avail>8R</avail>
+			<cost>300</cost>
+			<notes>+1 LOG/WIL, -1 CHA/INT.</notes>
+		</gear>
 	</gears>
 </chummer>

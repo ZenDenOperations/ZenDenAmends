@@ -20,6 +20,7 @@
 
 <chummer>
   <echoes>
+<!-- 4e Techno Stuff -->
     <echo>
       <id>7366698f-7526-40a2-bca8-f6b385345dea</id>
       <name>Mesh Reality</name>
@@ -73,7 +74,34 @@
 	  <source>ZDR</source>
 	  <page>1</page>
 	</echo>
-<!-- 4e Techno Stuff -->
+	<echo>
+	  <id>328aae14-e0f1-4cb2-9608-9a98fd290846</id>
+	  <name>E-Sensing</name>
+	  <source>ZDR</source>
+	  <page>1</page>
+	  <notes>Provides Technosense (RES + SG)m range and a Rating (SG/2) Radar Sensor (CF 81)</notes>
+	</echo>
+	<echo>
+	  <id>48a8b85c-b58a-44a0-b7a9-7202e6f3ca90</id>
+	  <name>Multiprocessing</name>
+	  <source>ZDR</source>
+	  <page>1</page>
+	  <notes>2 extra Free actions per pass, Observe in Detail is a Free Action</notes>
+	</echo>
+	<echo>
+	  <id>49d929fc-5784-43cd-8219-eac8f853d852</id>
+	  <name>Tactical Network</name>
+	  <bonus>
+        <specificskill>
+          <name>Perception</name>
+          <bonus>1</bonus>
+        </specificskill>
+	  </bonus>
+	  <source>ZDR</source>
+	  <page>1</page>
+	  <notes>Benefits as Level 1 Pi-Tac.</notes>
+	</echo>
+<!-- 6e Techno Stuff -->
 	<echo>
 	  <id>3d62563d-99cc-4708-8259-44e95cd13376</id>
 	  <name>Symbiosis</name>

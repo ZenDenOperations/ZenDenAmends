@@ -24,5 +24,13 @@
       <name>Resonance [Program]</name>
       <hide />
     </echo>
+    <echo>
+      <name>Mind Over Machine</name>
+	    <required>
+        <Echo>MMRI</Echo>
+	    </required>
+      <limit>1</limit>
+      <notes>the Technomancer can jump into any non-implanted device, even if it does not have a Rigger Interface.</notes>
+    </echo>
   </echoes>
 </chummer>
