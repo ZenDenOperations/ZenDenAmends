@@ -24,11 +24,11 @@
 			<!-- Natural Athlete -->
 			<name>Natural Athlete</name>
 			<bonus>
-				<specificskill>
+				<specificskill amendoperation="addnode">
 					<name>Swimming</name>
 					<bonus>2</bonus>
 				</specificskill>
-				<specificskill>
+				<specificskill amendoperation="addnode">
 					<name>Flight</name>
 					<bonus>2</bonus>
 				</specificskill>
@@ -2968,6 +2968,7 @@
 		</quality>
 	</qualities>
 </chummer>
+
 
 
 
