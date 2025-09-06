@@ -1007,7 +1007,7 @@
 		<ess>Rating * 0.8</ess>
 		<capacity>0</capacity>
 		<avail>9</avail>
-		<cost>Rating * 37,500</cost>
+		<cost>Rating * 37500</cost>
 		<source>ZDR</source>
 		<page>1</page>
 		<minrating>1</minrating>
@@ -1265,6 +1265,11 @@
       <cost>0</cost>
       <source>ZDR</source>
       <page>1</page>
+	  <required>
+	  		<oneof>
+			<cyberware>Neural Pattern Reinforcement</cyberware>
+			</oneof>
+	  </required>
       <bonus>
         <selectskill limittoattribute="BOD,AGI,REA,STR">
           <val>1</val>
@@ -1278,7 +1283,7 @@
       <limit>False</limit>
       <category>Hard Nanoware</category>
       <ess>0</ess>
-      <capacity>[Rating]</capacity>
+      <capacity>0</capacity>
       <avail>15F</avail>
       <cost>Rating * 900</cost>
       <source>ZDR</source>
@@ -1299,7 +1304,7 @@
       <limit>False</limit>
       <category>Hard Nanoware</category>
       <ess>0</ess>
-      <capacity>[Rating]</capacity>
+      <capacity>0</capacity>
       <avail>12F</avail>
       <cost>Rating * 1500</cost>
       <source>ZDR</source>

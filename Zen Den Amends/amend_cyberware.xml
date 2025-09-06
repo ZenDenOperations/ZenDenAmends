@@ -35,6 +35,14 @@
 			<cost amendoperation="replace">FixedValues(50000,100000,150000)</cost>
 		</cyberware>
 		<cyberware>
+			<name>Nanohive, Hard</name>
+      		<ess>0.25</ess>
+		</cyberware>
+		<cyberware>
+			<name>Nanohive, Soft</name>
+      		<ess>0.2</ess>
+		</cyberware>
+		<cyberware>
 			<!-- skilljack -->
 			<id>c533c0db-3a04-4fdd-95f9-d4d9781a3e79</id>
 			<hide />
@@ -173,6 +181,72 @@
 	        		<name>Cyberdeck Slot</name>
 		        </cyberware>
 	      	</subsystems>
+		</cyberware>
+			<!-- nanoware cost reductions -->
+		<cyberware>
+			<name>Anti-Rad</name>
+      		<cost>Rating * 1200</cost>
+		</cyberware>
+		<cyberware>
+			<name>Control Rig Booster</name>
+      		<cost>Rating * 1200</cost>
+		</cyberware>
+		<cyberware>
+			<name>Implant Medic</name>
+			<bonus />
+      		<cost>Rating * 1000</cost>
+		</cyberware>
+		<cyberware>
+			<name>Nanite Hunters</name>
+      		<cost>Rating * 1000</cost>
+		</cyberware>
+		<cyberware>
+			<name>Markers</name>
+      		<cost>Rating * 400</cost>
+		</cyberware>
+		<cyberware>
+			<name>Trauma Control System</name>
+      		<cost>Rating * 800</cost>
+		</cyberware>
+		<cyberware>
+			<name>Anti-Tox</name>
+      		<cost>Rating * 1000</cost>
+		</cyberware>
+		<cyberware>
+			<name>Carcerand-Plus</name>
+      		<cost>300</cost>
+		</cyberware>
+		<cyberware>
+			<name>Nanosymbiotes</name>
+      		<cost>Rating * 1200</cost>
+		</cyberware>
+		<cyberware>
+			<name>Nantidotes</name>
+      		<cost>Rating * 300</cost>
+		</cyberware>
+		<cyberware>
+			<name>Neural Amplifiers (Learning Stimulus)</name>
+      		<cost>Rating * 1000</cost>
+		</cyberware>
+		<cyberware>
+			<name>Neural Amplifiers (Limbic)</name>
+      		<cost>Rating * 1500</cost>
+		</cyberware>
+		<cyberware>
+			<name>Neural Amplifiers (Neocortical)</name>
+      		<cost>Rating * 1500</cost>
+		</cyberware>
+		<cyberware>
+			<name>Neural Amplifiers (Recall)</name>
+      		<cost>Rating * 700</cost>
+		</cyberware>
+		<cyberware>
+			<name>O-Cells</name>
+      		<cost>Rating * 1000</cost>
+		</cyberware>
+		<cyberware>
+			<name>Oxyrush</name>
+      		<cost>Rating * 300</cost>
 		</cyberware>
 	</cyberwares>
 </chummer>
