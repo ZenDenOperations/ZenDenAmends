@@ -842,15 +842,15 @@
 			<category>Basic</category>
 			<ess>Rating * 0.2</ess>
 			<capacity>0</capacity>
-			<avail>(Rating * 6)F</avail>
-			<cost>Rating * 12000</cost>
+			<avail>(Rating * 8)F</avail>
+			<cost>Rating * 18000</cost>
 			<bonus>
 				<specificskill>
 				<name>Disguise</name>
-				<bonus>Rating</bonus>
+				<bonus>Rating * 2</bonus>
 				</specificskill>
 			</bonus>
-			<rating>4</rating>
+			<rating>2</rating>
 			<source>ZDR</source>
 			<page>1</page>
 			<notes>Requires signal drug (50 nuyen/dose) to activate.</notes>
@@ -861,15 +861,15 @@
 			<category>Basic</category>
 			<ess>0</ess>
 			<capacity>0</capacity>
-			<avail>(Rating * 6)F</avail>
+			<avail>(Rating * 8)F</avail>
 			<cost>10000</cost>
 			<bonus>
 				<specificskill>
 				<name>Impersonation</name>
-				<bonus>Rating</bonus>
+				<bonus>Rating * 2</bonus>
 				</specificskill>
 			</bonus>
-			<rating>4</rating>
+			<rating>2</rating>
 			<required>
 				<oneof>
 				<bioware>False Front</bioware>
