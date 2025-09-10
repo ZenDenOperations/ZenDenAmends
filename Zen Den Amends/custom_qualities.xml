@@ -62,6 +62,153 @@
 			<notes>If ever your Magic rating changes, you must remove and re-add this quality to ensure your power points are properly calculated.</notes>
 		</quality>
 		<quality>
+			<!--Beast Bond-->
+			<id>a81256b2-ff3e-4367-84fa-e812eeaf7364</id>
+			<name>Beast Bond</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<required>
+				<oneof>
+					<skill>
+						<name>Animal Handling</name>
+						<val>6</val>
+					</skill>
+				</oneof>
+			</required>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<!--Flexible Spellcaster Still needs the known spells and alchemy prereq -->
+			<id>386e27f0-6ac1-47a9-aa32-dd350c56409c</id>
+			<name>Flexible Spellcaster</name>
+			<karma>15</karma>
+			<category>Positive</category>
+			<required>
+				<allof>
+					<skill>
+						<name>Arcana</name>
+						<val>7</val>
+					</skill>
+					<skill>
+						<name>Alchemy</name>
+						<val>6</val>
+					</skill>
+					<skill>
+						<name>Spellcasting</name>
+						<val>6</val>
+					</skill>
+					<skill>
+						<name>Cybercombat</name>
+						<val>6</val>
+					</skill>
+				</allof>
+				<oneof>
+					<skill>
+						<name>Magical Theory (Street)</name>
+						<val>6</val>
+					</skill>
+					<skill>
+						<name>Magical Theory (Academic)</name>
+						<val>6</val>
+					</skill>
+				</oneof>
+			</required>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<!--Keyboard Warrior -->
+			<id>47b39695-7e8e-44d1-bd32-ffe4ae0c25c1</id>
+			<name>Keyboard Warrior</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<required>
+				<oneof>
+					<skill>
+						<name>Cybercombat</name>
+						<val>6</val>
+					</skill>
+				</oneof>
+			</required>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<!-- Laser Commander -->
+			<id>9d70496f-0a5b-48f7-a25f-2276bff19d57</id>
+			<name>Laser Commander</name>
+			<karma>12</karma>
+			<category>Positive</category>
+			<required>
+				<oneof>
+					<skill>
+						<name>Directed Energy Weapons</name>
+						<val>6</val>
+					</skill>
+				</oneof>
+			</required>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<!-- Morphine Master -->
+			<id>fd8d528a-f8b5-43b9-a350-b83b3541127d</id>
+			<name>Morphine Master</name>
+			<karma>6</karma>
+			<category>Positive</category>
+			<required>
+				<oneof>
+					<skill>
+						<name>First Aid</name>
+						<val>6</val>
+					</skill>
+				</oneof>
+			</required>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<!-- Pain Train -->
+			<id>3fd9e3cf-b3f1-4963-88fc-6046772d8f49</id>
+			<name>Pain Train</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<required>
+				<oneof>
+					<skill>
+						<name>Running</name>
+						<val>4</val>
+					</skill>
+				</oneof>
+			</required>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<!-- Pull Your Punches -->
+			<id>0a96a4ae-acf4-47b5-9a9d-912e1369e6e9</id>
+			<name>Pull Your Punches</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
 			<!-- Bodyguard -->
 			<id>9754ad0e-be2d-4028-94c9-d62b53a030ba</id>
 			<name>Bodyguard</name>
@@ -938,6 +1085,299 @@
 			<page>258</page>
 		</quality>
 		<quality>
+			<!-- Specialist  -->
+			<id>8064e85d-fca4-47d1-8676-1743f6fde540</id>
+			<name>Specialist</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<bonus>
+				<skillcategoryspecializationkarmacostmultiplier>
+					<name>Combat Active</name>
+					<val>50</val>
+				</skillcategoryspecializationkarmacostmultiplier>
+				<skillcategoryspecializationkarmacostmultiplier>
+					<name>Physical Active</name>
+					<val>50</val>
+				</skillcategoryspecializationkarmacostmultiplier>
+				<skillcategoryspecializationkarmacostmultiplier>
+					<name>Social Active</name>
+					<val>50</val>
+				</skillcategoryspecializationkarmacostmultiplier>
+				<skillcategoryspecializationkarmacostmultiplier>
+					<name>Pseudo-Magical Active</name>
+					<val>50</val>
+				</skillcategoryspecializationkarmacostmultiplier>
+				<skillcategoryspecializationkarmacostmultiplier>
+					<name>Technical Active</name>
+					<val>50</val>
+				</skillcategoryspecializationkarmacostmultiplier>
+				<skillcategoryspecializationkarmacostmultiplier>
+					<name>Vehicle Active</name>
+					<val>50</val>
+				</skillcategoryspecializationkarmacostmultiplier>
+			</bonus>
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Polymath  -->
+			<id>e4e3b769-94ed-4beb-a8e5-23be6998af9f</id>
+			<name>Polymath</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<activeskillkarmacost>
+				<name />
+				<val>-2</val>
+				<min>6</min>
+				<condition>career</condition>
+			</activeskillkarmacost>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<quality>Jack of All Trades Master of None</quality>
+				</oneof>
+			</required>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Never Tell Me The Odds -->
+			<id>c6a646a4-6f3e-4ca9-a5f1-63d01a96ba1d</id>
+			<name>Never Tell Me The Odds</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<required>
+				<oneof>
+					<ess>6</ess>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+					<quality>Aware</quality>
+					<quality>Prototype Transhuman</quality>
+				</oneof>
+			</forbidden>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Menacing Presence -->
+			<id>e5956e99-88ba-4bdf-ba00-357301952302</id>
+			<name>Menacing Presence</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Mana Affinity -->
+			<id>5220228c-56e7-44c8-8ee9-762958b4a035</id>
+			<name>Mana Affinity</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<required>
+				<oneof>
+					<skill>
+						<name>Arcana</name>
+						<val>2</val>
+					</skill>
+				</oneof>
+			</required>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Like The Back Of My Hand -->
+			<id>0569c55a-25d8-4433-8b75-29da15e2e0ba</id>
+			<name>Like The Back Of My Hand</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Like A Terminator -->
+			<id>6e272c63-8f11-48e7-ab8f-8d66e53ac2f7</id>
+			<name>Like A Terminator</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Let Me Make It Clear -->
+			<id>033454e7-6291-43e7-99ae-6689fc5b54dd</id>
+			<name>Let Me Make It Clear</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Intellectual Liar -->
+			<id>5aaa1f77-6d79-4ddc-a801-71b4dd45804b</id>
+			<name>Intellectual Liar</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Gifted Genetics - Not sure how to implement the actual free geneware. Help please. -->
+			<id>f66a2b8a-9ade-46ed-a90f-e4282b8566a9</id>
+			<name>Gifted Genetics</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<chargenonly />
+			<forbidden>
+				<oneof>
+					<quality>Designer Baby</quality>
+					<quality>Prototype Transhuman</quality>
+				</oneof>
+			</forbidden>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Designer Baby -->
+			<id>3d85e107-b024-4602-9963-2393ff3f31d7</id>
+			<name>Designer Baby</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<chargenonly />
+			<forbidden>
+				<oneof>
+					<quality>Gifted Genetics</quality>
+					<quality>Prototype Transhuman</quality>
+					<quality>Biocompatibility (Geneware)</quality>
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<quality>Records on File</quality>
+					<quality>SINner (Corporate)</quality>
+					<quality>SINner (Criminal)</quality>
+					<quality>SINner (National)</quality>
+					<quality>SINner (Corporate Limited)</quality>
+				</oneof>
+			</required>
+			<bonus>
+				<genetechessmultiplier>90</genetechessmultiplier>
+				<genetechcostmultiplier>80</genetechcostmultiplier>
+			</bonus>
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Crash Test Dummy -->
+			<id>745cce10-d866-48aa-9a0b-e317edbec449</id>
+			<name>Crash Test Dummy</name>
+			<karma>12</karma>
+			<category>Positive</category>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Conceal, Don’t Feel -->
+			<id>aeca4cf5-5893-479c-82cd-c769dbaafea2</id>
+			<name>Conceal, Don’t Feel</name>
+			<karma>6</karma>
+			<category>Positive</category>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Better Lucky Than Good -->
+			<id>103a1c74-fba6-4cf9-b38b-c3682df33101</id>
+			<name>Better Lucky Than Good</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+					<quality>Aware</quality>
+				</oneof>
+			</forbidden>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Baseline Biology -->
+			<id>2f4890b8-dd70-480e-80ac-fe2e45889485</id>
+			<name>Baseline Biology</name>
+			<karma>7</karma>
+			<category>Positive</category>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+					<quality>Aware</quality>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+					<quality>Changeling (Class III SURGE)</quality>
+				</oneof>
+			</forbidden>
+			<bonus />
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
 			<!-- Vice -->
 			<id>60af9dc3-9446-4538-9d8b-4b3efca7bac8</id>
 			<name>Vice</name>
@@ -1447,6 +1887,107 @@
 			<page>1</page>
 		</quality>
 		<quality>
+			<id>dffc5f08-a74c-4870-a7f4-90e48dc2b516</id>
+			<name>Buggy Cyberware</name>
+			<karma>-2</karma>
+			<limit>4</limit>
+			<category>Negative</category>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<id>213e9e29-1df5-464c-a34d-e342083dda3d</id>
+			<name>Butter Fingers</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<id>902bea29-a6ce-4c95-8f40-42802101545f</id>
+			<name>Gun Gremlin</name>
+			<karma>-12</karma>
+			<category>Negative</category>
+			<required>
+				<oneof>
+					<skill>
+						<name>Pistols</name>
+						<val>4</val>
+					</skill>
+					<skill>
+						<name>Automatics</name>
+						<val>4</val>
+					</skill>
+					<skill>
+						<name>Longarms</name>
+						<val>4</val>
+					</skill>
+					<skill>
+						<name>Heavy Weapons</name>
+						<val>4</val>
+					</skill>
+					<skill>
+						<name>Directed Energy Weapons</name>
+						<val>4</val>
+					</skill>
+				</oneof>
+			</required>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<id>487efa55-e259-41d4-b26c-31261b4c3a6e</id>
+			<name>Mind Like A Sieve</name>
+			<karma>-2</karma>
+			<category>Negative</category>
+			<limit>3</limit>
+			<bonus>
+				<memory>-1</memory>
+			</bonus>
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<id>34b735a5-9333-45c7-ad02-829bfe213062</id>
+			<name>Pop Culture Wizard</name>
+			<karma>-2</karma>
+			<limit>4</limit>
+			<category>Negative</category>
+			<required>
+				<oneof>
+					<skill>
+						<name>Spellcasting</name>
+						<val>1</val>
+					</skill>
+				</oneof>
+			</required>
+			<bonus />
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<id>b6a9d750-2ef1-48f7-9ccf-32430114911a</id>
+			<name>Sprite Block</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<limit>False</limit>
+			<required>
+				<oneof>
+					<quality>
+						<name>Technomancer</name>
+					</quality>
+				</oneof>
+			</required>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>ZDR</source>
+			<page>1</page>
+		</quality>
+		<quality>
 			<id>2ef8c275-dab8-47f7-b67a-e7f1de7be193</id>
 			<name>Lightning Strikes</name>
 			<karma>20</karma>
@@ -1503,8 +2044,8 @@
 			<metagenic>True</metagenic>
 			<bonus>
 				<specificskill>
-				  <name>Animal Handling</name>
-				  <bonus>2</bonus>
+					<name>Animal Handling</name>
+					<bonus>2</bonus>
 				</specificskill>
 			</bonus>
 			<forbidden>
@@ -1536,25 +2077,25 @@
 			<doublecareer>False</doublecareer>
 			<bonus>
 				<specificskill>
-				<name>Perception</name>
-				<bonus>1</bonus>
+					<name>Perception</name>
+					<bonus>1</bonus>
 				</specificskill>
 				<specificskill>
-				<name>Sneaking</name>
-				<bonus>1</bonus>
+					<name>Sneaking</name>
+					<bonus>1</bonus>
 				</specificskill>
 				<skillgroup>
-				<name>Close Combat</name>
-				<bonus>1</bonus>
+					<name>Close Combat</name>
+					<bonus>1</bonus>
 				</skillgroup>
 				<skillgroup>
-				<name>Firearms</name>
-				<bonus>1</bonus>
+					<name>Firearms</name>
+					<bonus>1</bonus>
 				</skillgroup>
 			</bonus>
 			<required>
 				<oneof>
-				<Echo>Tactical Network</Echo>
+					<Echo>Tactical Network</Echo>
 				</oneof>
 			</required>
 			<source>ZDR</source>
@@ -1569,25 +2110,25 @@
 			<doublecareer>False</doublecareer>
 			<bonus>
 				<specificskill>
-				<name>Perception</name>
-				<bonus>1</bonus>
+					<name>Perception</name>
+					<bonus>1</bonus>
 				</specificskill>
 				<specificskill>
-				<name>Sneaking</name>
-				<bonus>1</bonus>
+					<name>Sneaking</name>
+					<bonus>1</bonus>
 				</specificskill>
 				<skillgroup>
-				<name>Close Combat</name>
-				<bonus>1</bonus>
+					<name>Close Combat</name>
+					<bonus>1</bonus>
 				</skillgroup>
 				<skillgroup>
-				<name>Firearms</name>
-				<bonus>1</bonus>
+					<name>Firearms</name>
+					<bonus>1</bonus>
 				</skillgroup>
 			</bonus>
 			<required>
 				<oneof>
-				<quality>Improved Tactical Network</quality>
+					<quality>Improved Tactical Network</quality>
 				</oneof>
 			</required>
 			<source>ZDR</source>
@@ -1599,17 +2140,17 @@
 			<name>Cyberlimb Armor Reduction</name>
 			<karma>0</karma>
 			<category>Negative</category>
-      		<limit>99</limit>
+			<limit>99</limit>
 			<doublecareer>False</doublecareer>
-      		<bonus>
-        		<armor>-1</armor>
-      		</bonus>
+			<bonus>
+				<armor>-1</armor>
+			</bonus>
 			<required>
 				<oneof>
-                    <cyberwarecontains>Arm</cyberwarecontains>
-                    <cyberwarecontains>Leg</cyberwarecontains>
-                    <cyberwarecontains>Torso</cyberwarecontains>
-                    <cyberwarecontains>Skull</cyberwarecontains>
+					<cyberwarecontains>Arm</cyberwarecontains>
+					<cyberwarecontains>Leg</cyberwarecontains>
+					<cyberwarecontains>Torso</cyberwarecontains>
+					<cyberwarecontains>Skull</cyberwarecontains>
 				</oneof>
 			</required>
 			<source>ZDR</source>
@@ -1621,17 +2162,17 @@
 			<name>Cyberlimb Damage Resistance Reduction</name>
 			<karma>0</karma>
 			<category>Negative</category>
-      		<limit>99</limit>
+			<limit>99</limit>
 			<doublecareer>False</doublecareer>
-      		<bonus>
-        		<damageresistance>-1</damageresistance>
-      		</bonus>
+			<bonus>
+				<damageresistance>-1</damageresistance>
+			</bonus>
 			<required>
 				<oneof>
-                    <cyberwarecontains>Arm</cyberwarecontains>
-                    <cyberwarecontains>Leg</cyberwarecontains>
-                    <cyberwarecontains>Torso</cyberwarecontains>
-                    <cyberwarecontains>Skull</cyberwarecontains>
+					<cyberwarecontains>Arm</cyberwarecontains>
+					<cyberwarecontains>Leg</cyberwarecontains>
+					<cyberwarecontains>Torso</cyberwarecontains>
+					<cyberwarecontains>Skull</cyberwarecontains>
 				</oneof>
 			</required>
 			<source>ZDR</source>
