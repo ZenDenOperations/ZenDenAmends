@@ -1892,6 +1892,9 @@
 			<karma>-2</karma>
 			<limit>4</limit>
 			<category>Negative</category>
+			<required>
+				<cyberwarecontains>*</cyberwarecontains>
+			</required>
 			<bonus />
 			<source>ZDR</source>
 			<page>1</page>
