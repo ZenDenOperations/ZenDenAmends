@@ -81,7 +81,7 @@
 			<page>1</page>
 		</quality>
 		<quality>
-			<!--Flexible Spellcaster Still needs the known spells and alchemy prereq -->
+			<!--Flexible Spellcaster -Still needs the known spells and alchemy prereq -->
 			<id>386e27f0-6ac1-47a9-aa32-dd350c56409c</id>
 			<name>Flexible Spellcaster</name>
 			<karma>15</karma>
@@ -100,19 +100,17 @@
 						<name>Spellcasting</name>
 						<val>6</val>
 					</skill>
-					<skill>
-						<name>Cybercombat</name>
-						<val>6</val>
-					</skill>
 				</allof>
 				<oneof>
 					<skill>
 						<name>Magical Theory (Street)</name>
 						<val>6</val>
+						<type>Knowledge</type>
 					</skill>
 					<skill>
 						<name>Magical Theory (Academic)</name>
 						<val>6</val>
+						<type>Knowledge</type>
 					</skill>
 				</oneof>
 			</required>
