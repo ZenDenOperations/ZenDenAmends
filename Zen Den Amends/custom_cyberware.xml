@@ -1281,7 +1281,7 @@
       <id>510A56FA-5076-4F8D-BBA3-4F173BDAD419</id>
       <name>Neurochemical Regulator</name>
       <limit>False</limit>
-      <category>Hard Nanoware</category>
+      <category>Soft Nanoware</category>
       <ess>0</ess>
       <capacity>0</capacity>
       <avail>15F</avail>
