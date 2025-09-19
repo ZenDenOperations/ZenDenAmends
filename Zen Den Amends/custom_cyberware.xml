@@ -600,78 +600,78 @@
 			<limbslot>leg</limbslot>
 		</cyberware>
 		<cyberware>
-      		<id>4591da8d-f504-4cb3-8b57-a44c1a514dd9</id>
-      		<name>Dermal Sheath</name>
-		      <category>Bodyware</category>
-		      <ess>FixedValues(0.6,1,1.6)</ess>
-		      <capacity>0</capacity>
-		      <avail>FixedValues(8,12,16)</avail>
-		      <cost>FixedValues(12500,15500,18500)</cost>
-		      <source>ZDR</source>
-		      <page>1</page>
-		      <bonus>
-			<armor>Rating + 1</armor>
-		      </bonus>
-		      <forbidden>
-		        <oneof>
-			  <cyberware>Dermal Plating</cyberware>
-		          <bioware>Orthoskin</bioware>
-		        </oneof>
-		      </forbidden>
-		      <minrating>1</minrating>
-		      <rating>3</rating>
-    		</cyberware>
+			<id>4591da8d-f504-4cb3-8b57-a44c1a514dd9</id>
+			<name>Dermal Sheath</name>
+			<category>Bodyware</category>
+			<ess>FixedValues(0.6,1,1.6)</ess>
+			<capacity>0</capacity>
+			<avail>FixedValues(8,12,16)</avail>
+			<cost>FixedValues(12500,15500,18500)</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<armor>Rating + 1</armor>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<cyberware>Dermal Plating</cyberware>
+					<bioware>Orthoskin</bioware>
+				</oneof>
+			</forbidden>
+			<minrating>1</minrating>
+			<rating>3</rating>
+		</cyberware>
 		<cyberware>
-      		<id>39f0a166-3759-40a0-a521-dede0a08a72e</id>
-      		<name>Blood Circuit Control System</name>
-		      <category>Bodyware</category>
-		      <ess>1</ess>
-		      <capacity>0</capacity>
-		      <avail>15</avail>
-		      <cost>30000</cost>
-		      <source>ZDR</source>
-		      <page>1</page>
-		      <bonus>
-		        <conditionmonitor>
-		          <overflow>2</overflow>
-		        </conditionmonitor>
-		      </bonus>
+			<id>39f0a166-3759-40a0-a521-dede0a08a72e</id>
+			<name>Blood Circuit Control System</name>
+			<category>Bodyware</category>
+			<ess>1</ess>
+			<capacity>0</capacity>
+			<avail>15</avail>
+			<cost>30000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<conditionmonitor>
+					<overflow>2</overflow>
+				</conditionmonitor>
+			</bonus>
 			<wirelessbonus>
-		        <specificattribute>
-		          <name>BOD</name>
-		          <val>1</val>
-		        </specificattribute>
-      			</wirelessbonus>
-    		</cyberware>
+				<specificattribute>
+					<name>BOD</name>
+					<val>1</val>
+				</specificattribute>
+			</wirelessbonus>
+		</cyberware>
 		<cyberware>
-      		<id>8b9cc824-0378-4934-97e2-be888c58e67f</id>
-      		<name>Encephalon</name>
-		      <category>Headware</category>
-		      <ess>0.75</ess>
-		      <capacity>0</capacity>
-		      <avail>6</avail>
-		      <cost>30000</cost>
-		      <source>ZDR</source>
-		      <page>1</page>
-		      <bonus>
-		        <skilllinkedattribute>
-		          <name>LOG</name>
-		          <bonus>1</bonus>
-		        </skilllinkedattribute>
-        		<mentallimit>1</mentallimit>
-		      </bonus>
+			<id>8b9cc824-0378-4934-97e2-be888c58e67f</id>
+			<name>Encephalon</name>
+			<category>Headware</category>
+			<ess>0.75</ess>
+			<capacity>0</capacity>
+			<avail>6</avail>
+			<cost>30000</cost>
+			<source>4e</source>
+			<page>1</page>
+			<bonus>
+				<skilllinkedattribute>
+					<name>LOG</name>
+					<bonus>1</bonus>
+				</skilllinkedattribute>
+				<mentallimit>1</mentallimit>
+			</bonus>
 			<wirelessbonus>
 				<skillgroup>
-			          <name>Cracking</name>
-			          <bonus>1</bonus>
-			        </skillgroup>
+					<name>Cracking</name>
+					<bonus>1</bonus>
+				</skillgroup>
 				<skillgroup>
-			          <name>Electronics</name>
-			          <bonus>1</bonus>
-			        </skillgroup>
-      			</wirelessbonus>
-      			<notes>This can be taken by AIs. The wireless bonus represents the effects of the Encephalon while in VR.</notes>
-    		</cyberware>
+					<name>Electronics</name>
+					<bonus>1</bonus>
+				</skillgroup>
+			</wirelessbonus>
+			<notes>This can be taken by AIs. The wireless bonus represents the effects of the Encephalon while in VR.</notes>
+		</cyberware>
 		<cyberware>
 			<id>dd18b5ae-0084-431f-a2af-6d48bdb8bb8f</id>
 			<name>Lamia Right Arm</name>
@@ -835,21 +835,21 @@
 			<name>Math SPU</name>
 			<category>Skullware</category>
 			<capacity>[1]</capacity>
-      		<avail>8</avail>
-      		<cost>2000</cost>
-      		<source>CF</source>
-      		<page>80</page>
-      		<bonus>
-        		<limitmodifier>
-          			<limit>Mental</limit>
-          			<value>1</value>
-          		<condition>LimitCondition_SkillsKnowledgeScientificTechnical</condition>
-        	</limitmodifier>
-        	<specificskill>
-          		<name>Mathematics</name>
-          		<bonus>4</bonus>
-        	</specificskill>
-      		</bonus>
+			<avail>8</avail>
+			<cost>2000</cost>
+			<source>CF</source>
+			<page>80</page>
+			<bonus>
+				<limitmodifier>
+					<limit>Mental</limit>
+					<value>1</value>
+					<condition>LimitCondition_SkillsKnowledgeScientificTechnical</condition>
+				</limitmodifier>
+				<specificskill>
+					<name>Mathematics</name>
+					<bonus>4</bonus>
+				</specificskill>
+			</bonus>
 			<requireparent />
 		</cyberware>
 		<cyberware>
@@ -858,65 +858,65 @@
 			<category>Skullware</category>
 			<capacity>[1]</capacity>
 			<avail>8</avail>
-      		<avail>8</avail>
-      		<cost>3000</cost>
-      		<source>CF</source>
-      		<page>78</page>
-      		<bonus>
-        		<limitmodifier>
-          		<limit>Mental</limit>
-          		<value>1</value>
-          		<condition>LimitCondition_SkillsActivePerception</condition>
-        		</limitmodifier>
-      		</bonus>
-      		<wirelessbonus>
-        		<specificskill>
-          		<name>Perception</name>
-          		<bonus>1</bonus>
-        		</specificskill>
-      		</wirelessbonus>
+			<avail>8</avail>
+			<cost>3000</cost>
+			<source>CF</source>
+			<page>78</page>
+			<bonus>
+				<limitmodifier>
+					<limit>Mental</limit>
+					<value>1</value>
+					<condition>LimitCondition_SkillsActivePerception</condition>
+				</limitmodifier>
+			</bonus>
+			<wirelessbonus>
+				<specificskill>
+					<name>Perception</name>
+					<bonus>1</bonus>
+				</specificskill>
+			</wirelessbonus>
 			<requireparent />
 		</cyberware>
-        <cyberware>
-          <id>e58d684d-58c7-4cd8-ae4d-7dacc29ca413</id>
-          <name>Commlink Slot</name>
-          <limit>False</limit>
-          <category>Skullware</category>
-          <ess>0</ess>
-          <capacity>[0]</capacity>
-          <avail>0</avail>
-          <cost>0</cost>
-          <source>ZDR</source>
-          <page>1</page>
-          <allowgear>
-            <gearcategory>Commlinks</gearcategory>
-          </allowgear>
-          <required>
-            <parentdetails>
-                <name>Commlink</name>
-            </parentdetails>
-          </required>
-        </cyberware>
-        <cyberware>
-          <id>c10de60f-9e96-4841-bef5-c97fc331f0de</id>
-          <name>Cyberdeck Slot</name>
-          <limit>False</limit>
-          <category>Skullware</category>
-          <ess>0</ess>
-          <capacity>[0]</capacity>
-          <avail>0</avail>
-          <cost>0</cost>
-          <source>ZDR</source>
-          <page>1</page>
-          <allowgear>
-            <gearcategory>Cyberdecks</gearcategory>
-          </allowgear>
-          <required>
-            <parentdetails>
-                <name>Cyberdeck</name>
-            </parentdetails>
-          </required>
-        </cyberware>
+		<cyberware>
+			<id>e58d684d-58c7-4cd8-ae4d-7dacc29ca413</id>
+			<name>Commlink Slot</name>
+			<limit>False</limit>
+			<category>Skullware</category>
+			<ess>0</ess>
+			<capacity>[0]</capacity>
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<allowgear>
+				<gearcategory>Commlinks</gearcategory>
+			</allowgear>
+			<required>
+				<parentdetails>
+					<name>Commlink</name>
+				</parentdetails>
+			</required>
+		</cyberware>
+		<cyberware>
+			<id>c10de60f-9e96-4841-bef5-c97fc331f0de</id>
+			<name>Cyberdeck Slot</name>
+			<limit>False</limit>
+			<category>Skullware</category>
+			<ess>0</ess>
+			<capacity>[0]</capacity>
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<allowgear>
+				<gearcategory>Cyberdecks</gearcategory>
+			</allowgear>
+			<required>
+				<parentdetails>
+					<name>Cyberdeck</name>
+				</parentdetails>
+			</required>
+		</cyberware>
 		<cyberware>
 			<id>3c695dcc-0cd9-4de1-bec5-48a60dcee37d</id>
 			<name>Cyberwings</name>
@@ -929,19 +929,19 @@
 			<page>1</page>
 			<bonus>
 				<movementreplace>
-				<category>Fly</category>
-				<speed>walk</speed>
-				<val>2</val>
+					<category>Fly</category>
+					<speed>walk</speed>
+					<val>2</val>
 				</movementreplace>
 				<movementreplace>
-				<category>Fly</category>
-				<speed>run</speed>
-				<val>8</val>
+					<category>Fly</category>
+					<speed>run</speed>
+					<val>8</val>
 				</movementreplace>
 				<movementreplace>
-				<category>Fly</category>
-				<speed>sprint</speed>
-				<val>300</val>
+					<category>Fly</category>
+					<speed>sprint</speed>
+					<val>300</val>
 				</movementreplace>
 			</bonus>
 		</cyberware>
@@ -955,7 +955,7 @@
 			<cost>25000</cost>
 			<source>ZDR</source>
 			<page>1</page>
-			<notes>Running and Sprinting no longer take actions and do not penalize attacks. The first use of Dodge or RFYL in a combat turn does not cost Initiative.</notes> 
+			<notes>Running and Sprinting no longer take actions and do not penalize attacks. The first use of Dodge or RFYL in a combat turn does not cost Initiative.</notes>
 		</cyberware>
 		<cyberware>
 			<id>8e40965d-c9e7-4b7d-be87-097a5c1548a7</id>
@@ -972,7 +972,7 @@
 			</bonus>
 			<requires>
 				<oneof>
-				<cyberware>Dermal Plating</cyberware>
+					<cyberware>Dermal Plating</cyberware>
 				</oneof>
 			</requires>
 			<rating>6</rating>
@@ -993,121 +993,121 @@
 			</bonus>
 			<requires>
 				<oneof>
-				<cyberware>Bone Lacing (Plastic)</cyberware>
-				<cyberware>Bone Lacing (Aluminum)</cyberware>
-          		<cyberware>Bone Lacing (Titanium)</cyberware>
+					<cyberware>Bone Lacing (Plastic)</cyberware>
+					<cyberware>Bone Lacing (Aluminum)</cyberware>
+					<cyberware>Bone Lacing (Titanium)</cyberware>
 				</oneof>
 			</requires>
 			<notes>Subtracts 1 hit from any Health, mana-based Illusion, or mental Manipulation spells that affect the character. Bare-handed unarmed attacks ignore ItNW. Must be of identical grade to the character's Bone Lacing.</notes>
 		</cyberware>
 		<cyberware>
-		<id>f609cf3f-d4ae-4779-9d24-5e05f5d4ce8a</id>
-		<name>Active Control Rig</name>
-		<category>Headware</category>
-		<ess>Rating * 0.8</ess>
-		<capacity>0</capacity>
-		<avail>9</avail>
-		<cost>Rating * 37500</cost>
-		<source>ZDR</source>
-		<page>1</page>
-		<minrating>1</minrating>
-		<rating>2</rating>
-		<gears>
-			<usegear>
-			<name>Sim Module, Hot</name>
-			<category>Commlink Accessories</category>
-			</usegear>
-		</gears>
-		<subsystems>
-			<cyberware>
-			<name>Datajack</name>
-			</cyberware>
-		</subsystems>
+			<id>f609cf3f-d4ae-4779-9d24-5e05f5d4ce8a</id>
+			<name>Active Control Rig</name>
+			<category>Headware</category>
+			<ess>Rating * 0.8</ess>
+			<capacity>0</capacity>
+			<avail>9</avail>
+			<cost>Rating * 37500</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<minrating>1</minrating>
+			<rating>2</rating>
+			<gears>
+				<usegear>
+					<name>Sim Module, Hot</name>
+					<category>Commlink Accessories</category>
+				</usegear>
+			</gears>
+			<subsystems>
+				<cyberware>
+					<name>Datajack</name>
+				</cyberware>
+			</subsystems>
 		</cyberware>
 		<cyberware>
-		<id>92af05b9-0b9d-41f1-b240-4eed8fd6e994</id>
-		<name>Simsense Interface Overdrive</name>
-		<category>Headware</category>
-		<ess>Rating * 0.2</ess>
-		<capacity>0</capacity>
-		<avail>(Rating * 6)R</avail>
-		<cost>Rating * 15000</cost>
-		<source>ZDR</source>
-		<page>1</page>
-		<bonus>
-			<specificattribute>
-			<name>INT</name>
-			<val>Rating</val>
-			</specificattribute>
-		</bonus>
-		<rating>4</rating>
-		<notes>This cyberware only functions while in VR.</notes>
+			<id>92af05b9-0b9d-41f1-b240-4eed8fd6e994</id>
+			<name>Simsense Interface Overdrive</name>
+			<category>Headware</category>
+			<ess>Rating * 0.2</ess>
+			<capacity>0</capacity>
+			<avail>(Rating * 6)R</avail>
+			<cost>Rating * 15000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<specificattribute>
+					<name>INT</name>
+					<val>Rating</val>
+				</specificattribute>
+			</bonus>
+			<rating>4</rating>
+			<notes>This cyberware only functions while in VR.</notes>
 		</cyberware>
 		<cyberware>
-		<id>e4e84ec3-f6e1-41eb-9dd5-2324664d8a6b</id>
-		<name>Grey Mana Cyberlimb Armor</name>
-		<limit>False</limit>
-		<category>Cyberlimb Enhancement</category>
-		<ess>0</ess>
-		<capacity>[1]</capacity>
-		<avail>15R</avail>
-		<cost>6000</cost>
-		<source>ZDR</source>
-		<page>1</page>
-		<bonus>
-			<spellresistance>1</spellresistance>
-		</bonus>
-		<requireparent />
+			<id>e4e84ec3-f6e1-41eb-9dd5-2324664d8a6b</id>
+			<name>Grey Mana Cyberlimb Armor</name>
+			<limit>False</limit>
+			<category>Cyberlimb Enhancement</category>
+			<ess>0</ess>
+			<capacity>[1]</capacity>
+			<avail>15R</avail>
+			<cost>6000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<spellresistance>1</spellresistance>
+			</bonus>
+			<requireparent />
 		</cyberware>
 		<cyberware>
-		<id>20b0469d-dde3-4c68-a3f6-4d3d6a784526</id>
-		<name>Additional Cyberarm Mount</name>
-		<category>Cyberlimb</category>
-		<ess>Rating * 0.2</ess>
-		<capacity>0</capacity>
-		<avail>8</avail>
-		<cost>Rating * 5000</cost>
-		<source>ZDR</source>
-		<page>1</page>
-		<bonus>
-			<addlimb>
-			<limbslot>arm</limbslot>
-			<val>Rating</val>
-			</addlimb>
-		</bonus>
-		<rating>4</rating>
+			<id>20b0469d-dde3-4c68-a3f6-4d3d6a784526</id>
+			<name>Additional Cyberarm Mount</name>
+			<category>Cyberlimb</category>
+			<ess>Rating * 0.2</ess>
+			<capacity>0</capacity>
+			<avail>8</avail>
+			<cost>Rating * 5000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<addlimb>
+					<limbslot>arm</limbslot>
+					<val>Rating</val>
+				</addlimb>
+			</bonus>
+			<rating>4</rating>
 		</cyberware>
 		<cyberware>
-		<id>0009af73-1be2-43be-abd6-311b8dd4d903</id>
-		<name>Tentacle Modification</name>
-		<limit>False</limit>
-		<category>Cyberlimb Enhancement</category>
-		<ess>0</ess>
-		<capacity>[5]</capacity>
-		<avail>12</avail>
-		<cost>2000</cost>
-		<source>ZDR</source>
-		<page>1</page>
-		<bonus>
-			<limitmodifier>
-			<limit>Physical</limit>
-			<value>1</value>
-			<condition>Subdual combat</condition>
-			</limitmodifier>
-		</bonus>
-		<requireparent />
-		<required>
-			<parentdetails>
-			<OR>
-				<NONE />
-				<name operation="contains">Full Arm</name>
-				<name operation="contains">Lower Arm</name>
-				<name operation="contains">Hand</name>
-				<name operation="contains">Drone Arm</name>
-			</OR>
-			</parentdetails>
-		</required>
-		<notes>Subudal attacks gain +1 DV and -2 AP per tentacle.</notes>
+			<id>0009af73-1be2-43be-abd6-311b8dd4d903</id>
+			<name>Tentacle Modification</name>
+			<limit>False</limit>
+			<category>Cyberlimb Enhancement</category>
+			<ess>0</ess>
+			<capacity>[5]</capacity>
+			<avail>12</avail>
+			<cost>2000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<limitmodifier>
+					<limit>Physical</limit>
+					<value>1</value>
+					<condition>Subdual combat</condition>
+				</limitmodifier>
+			</bonus>
+			<requireparent />
+			<required>
+				<parentdetails>
+					<OR>
+						<NONE />
+						<name operation="contains">Full Arm</name>
+						<name operation="contains">Lower Arm</name>
+						<name operation="contains">Hand</name>
+						<name operation="contains">Drone Arm</name>
+					</OR>
+				</parentdetails>
+			</required>
+			<notes>Subudal attacks gain +1 DV and -2 AP per tentacle.</notes>
 		</cyberware>
 		<cyberware>
 			<id>d14ec953-2298-4645-96d6-8f345b347251</id>
@@ -1155,166 +1155,166 @@
 			</allowsubsystems>
 		</cyberware>
 		<!-- 6e Nanoware -->
-	<cyberware>
-      <id>26D26829-5993-4403-A3FA-230483C4151A</id>
-      <name>Nano Health Suite</name>
-      <limit>False</limit>
-      <category>Hard Nanoware</category>
-      <ess>0</ess>
-      <capacity>0</capacity>
-      <avail>6R</avail>
-      <cost>Rating * 600</cost>
-      <source>ZDR</source>
-      <page>1</page>
-      <bonus>
-        <pathogencontactresist>Rating</pathogencontactresist>
-        <pathogeningestionresist>Rating</pathogeningestionresist>
-        <pathogeninhalationresist>Rating</pathogeninhalationresist>
-        <pathogeninjectionresist>Rating</pathogeninjectionresist>
-	    <toxincontactresist>Rating</toxincontactresist>
-        <toxiningestionresist>Rating</toxiningestionresist>
-        <toxininhalationresist>Rating</toxininhalationresist>
-        <toxininjectionresist>Rating</toxininjectionresist>
-      </bonus>
-	  <forcegrade>None</forcegrade>
-      <rating>6</rating>
-    </cyberware>
-    <cyberware>
-      <id>97ECDCD3-3E00-4BD7-B312-77408EC8B82E</id>
-      <name>Augmented Neural Network</name>
-      <limit>False</limit>
-      <category>Soft Nanoware</category>
-      <ess>0</ess>
-      <capacity>[Rating]</capacity>
-      <avail>15F</avail>
-      <cost>Rating * 1000</cost>
-      <source>ZDR</source>
-      <page>1</page>
-      <bonus>
-        <initiativepass precedence="0">1</initiativepass>
-        <dodge>Rating * .33</dodge>
-      </bonus>
-      <forcegrade>None</forcegrade>
-      <rating>6</rating>
-    </cyberware>
-    <cyberware>
-      <id>FF7204BD-67C8-481D-8842-AA6CE795B433</id>
-      <name>Bio-Response Override</name>
-      <limit>False</limit>
-      <category>Soft Nanoware</category>
-      <ess>0</ess>
-      <capacity>0</capacity>
-      <avail>18F</avail>
-      <cost>Rating * 700</cost>
-      <source>ZDR</source>
-      <page>1</page>
-      <bonus>
-        <specificattribute>
-          <name>WIL</name>
-          <val>1</val>
-        </specificattribute>
-        <conditionmonitor>
-          <thresholdoffset>Rating</thresholdoffset>
-        </conditionmonitor>
-      </bonus>
-      <forcegrade>None</forcegrade>
-      <rating>6</rating>
-    </cyberware>
-    <cyberware>
-      <id>DEA88B93-C1DE-480F-AD4F-624EEB004F58</id>
-      <name>Extracellular Reinforcement</name>
-      <limit>False</limit>
-      <category>Hard Nanoware</category>
-      <ess>0</ess>
-      <capacity>0</capacity>
-      <avail>12F</avail>
-      <cost>Rating * 1000</cost>
-      <source>ZDR</source>
-      <page>1</page>
-      <bonus>
-		<damageresistance>Rating * 0.33</damageresistance>
-		<conditionmonitor>
-          <physical>1</physical>
-        </conditionmonitor>
-      </bonus>
-      <forcegrade>None</forcegrade>
-      <rating>6</rating>
-    </cyberware>
-    <cyberware>
-      <id>9A8B4529-D2B8-4914-9DAE-D0AD4FD0308F</id>
-      <name>Neural Pattern Reinforcement</name>
-      <limit>False</limit>
-      <category>Soft Nanoware</category>
-      <ess>0</ess>
-      <capacity>0</capacity>
-      <avail>15F</avail>
-      <cost>Rating * 1400</cost>
-      <source>ZDR</source>
-      <page>1</page>
-      <forcegrade>None</forcegrade>
-      <rating>6</rating>
-    </cyberware>
-    <cyberware>
-      <id>be4ce4e8-471a-45db-a492-038f3ed34fee</id>
-      <name>NPR Skill Boost</name>
-      <limit>False</limit>
-      <category>Soft Nanoware</category>
-      <ess>0</ess>
-      <capacity>0</capacity>
-      <avail>0</avail>
-      <cost>0</cost>
-      <source>ZDR</source>
-      <page>1</page>
-	  <required>
-	  		<oneof>
-			<cyberware>Neural Pattern Reinforcement</cyberware>
-			</oneof>
-	  </required>
-      <bonus>
-        <selectskill limittoattribute="BOD,AGI,REA,STR">
-          <val>1</val>
-        </selectskill>
-      </bonus>
-      <forcegrade>None</forcegrade>
-    </cyberware>
-    <cyberware>
-      <id>510A56FA-5076-4F8D-BBA3-4F173BDAD419</id>
-      <name>Neurochemical Regulator</name>
-      <limit>False</limit>
-      <category>Soft Nanoware</category>
-      <ess>0</ess>
-      <capacity>0</capacity>
-      <avail>15F</avail>
-      <cost>Rating * 900</cost>
-      <source>ZDR</source>
-      <page>1</page>
-      <bonus>
-        <specificattribute>
-          <name>CHA</name>
-          <val>1</val>
-        </specificattribute>
-        <composure>Rating</composure>
-      </bonus>
-      <forcegrade>None</forcegrade>
-      <rating>6</rating>
-    </cyberware>
-    <cyberware>
-      <id>1CB8D1EB-C204-467E-86B0-68416C80A1C7</id>
-      <name>Muscular Amplfiier</name>
-      <limit>False</limit>
-      <category>Hard Nanoware</category>
-      <ess>0</ess>
-      <capacity>0</capacity>
-      <avail>12F</avail>
-      <cost>Rating * 1500</cost>
-      <source>ZDR</source>
-      <page>1</page>
-      <bonus>
-        <unarmedap>-Rating</unarmedap>
-      </bonus>
-      <forcegrade>None</forcegrade>
-      <rating>3</rating>
-	  <notes>The AP bonus actually applies to all melee attacks, but chummer doesn't support doing so.</notes>
-    </cyberware>
+		<cyberware>
+			<id>26D26829-5993-4403-A3FA-230483C4151A</id>
+			<name>Nano Health Suite</name>
+			<limit>False</limit>
+			<category>Hard Nanoware</category>
+			<ess>0</ess>
+			<capacity>0</capacity>
+			<avail>6R</avail>
+			<cost>Rating * 600</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<pathogencontactresist>Rating</pathogencontactresist>
+				<pathogeningestionresist>Rating</pathogeningestionresist>
+				<pathogeninhalationresist>Rating</pathogeninhalationresist>
+				<pathogeninjectionresist>Rating</pathogeninjectionresist>
+				<toxincontactresist>Rating</toxincontactresist>
+				<toxiningestionresist>Rating</toxiningestionresist>
+				<toxininhalationresist>Rating</toxininhalationresist>
+				<toxininjectionresist>Rating</toxininjectionresist>
+			</bonus>
+			<forcegrade>None</forcegrade>
+			<rating>6</rating>
+		</cyberware>
+		<cyberware>
+			<id>97ECDCD3-3E00-4BD7-B312-77408EC8B82E</id>
+			<name>Augmented Neural Network</name>
+			<limit>False</limit>
+			<category>Soft Nanoware</category>
+			<ess>0</ess>
+			<capacity>[Rating]</capacity>
+			<avail>15F</avail>
+			<cost>Rating * 1000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<initiativepass precedence="0">1</initiativepass>
+				<dodge>Rating * .33</dodge>
+			</bonus>
+			<forcegrade>None</forcegrade>
+			<rating>6</rating>
+		</cyberware>
+		<cyberware>
+			<id>FF7204BD-67C8-481D-8842-AA6CE795B433</id>
+			<name>Bio-Response Override</name>
+			<limit>False</limit>
+			<category>Soft Nanoware</category>
+			<ess>0</ess>
+			<capacity>0</capacity>
+			<avail>18F</avail>
+			<cost>Rating * 700</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<specificattribute>
+					<name>WIL</name>
+					<val>1</val>
+				</specificattribute>
+				<conditionmonitor>
+					<thresholdoffset>Rating</thresholdoffset>
+				</conditionmonitor>
+			</bonus>
+			<forcegrade>None</forcegrade>
+			<rating>6</rating>
+		</cyberware>
+		<cyberware>
+			<id>DEA88B93-C1DE-480F-AD4F-624EEB004F58</id>
+			<name>Extracellular Reinforcement</name>
+			<limit>False</limit>
+			<category>Hard Nanoware</category>
+			<ess>0</ess>
+			<capacity>0</capacity>
+			<avail>12F</avail>
+			<cost>Rating * 1000</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<damageresistance>Rating * 0.33</damageresistance>
+				<conditionmonitor>
+					<physical>1</physical>
+				</conditionmonitor>
+			</bonus>
+			<forcegrade>None</forcegrade>
+			<rating>6</rating>
+		</cyberware>
+		<cyberware>
+			<id>9A8B4529-D2B8-4914-9DAE-D0AD4FD0308F</id>
+			<name>Neural Pattern Reinforcement</name>
+			<limit>False</limit>
+			<category>Soft Nanoware</category>
+			<ess>0</ess>
+			<capacity>0</capacity>
+			<avail>15F</avail>
+			<cost>Rating * 1400</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<forcegrade>None</forcegrade>
+			<rating>6</rating>
+		</cyberware>
+		<cyberware>
+			<id>be4ce4e8-471a-45db-a492-038f3ed34fee</id>
+			<name>NPR Skill Boost</name>
+			<limit>False</limit>
+			<category>Soft Nanoware</category>
+			<ess>0</ess>
+			<capacity>0</capacity>
+			<avail>0</avail>
+			<cost>0</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<required>
+				<oneof>
+					<cyberware>Neural Pattern Reinforcement</cyberware>
+				</oneof>
+			</required>
+			<bonus>
+				<selectskill limittoattribute="BOD,AGI,REA,STR">
+					<val>1</val>
+				</selectskill>
+			</bonus>
+			<forcegrade>None</forcegrade>
+		</cyberware>
+		<cyberware>
+			<id>510A56FA-5076-4F8D-BBA3-4F173BDAD419</id>
+			<name>Neurochemical Regulator</name>
+			<limit>False</limit>
+			<category>Soft Nanoware</category>
+			<ess>0</ess>
+			<capacity>0</capacity>
+			<avail>15F</avail>
+			<cost>Rating * 900</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<specificattribute>
+					<name>CHA</name>
+					<val>1</val>
+				</specificattribute>
+				<composure>Rating</composure>
+			</bonus>
+			<forcegrade>None</forcegrade>
+			<rating>6</rating>
+		</cyberware>
+		<cyberware>
+			<id>1CB8D1EB-C204-467E-86B0-68416C80A1C7</id>
+			<name>Muscular Amplfiier</name>
+			<limit>False</limit>
+			<category>Hard Nanoware</category>
+			<ess>0</ess>
+			<capacity>0</capacity>
+			<avail>12F</avail>
+			<cost>Rating * 1500</cost>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<unarmedap>-Rating</unarmedap>
+			</bonus>
+			<forcegrade>None</forcegrade>
+			<rating>3</rating>
+			<notes>The AP bonus actually applies to all melee attacks, but chummer doesn't support doing so.</notes>
+		</cyberware>
 	</cyberwares>
 </chummer>
