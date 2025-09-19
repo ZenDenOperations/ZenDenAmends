@@ -65,5 +65,11 @@
 				</allof>
 			</required>
 		</metamagic>
+		<metamagic>
+			<name>Supernatural Prowess</name>
+			<bonus>
+        		<selecttext xml="skills.xml" xpath="/chummer/skills/skill" allowedit="True" />
+      		</bonus>
+		</metamagic>
 	</metamagics>
 </chummer>

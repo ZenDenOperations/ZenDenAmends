@@ -85,6 +85,7 @@
       <name>Cosmetic Control</name>
       <points>1</points>
       <levels>True</levels>
+      <maxlevels>2</maxlevels>
       <limit>2</limit>
       <source>ZDR</source>
       <page>1</page>
@@ -210,5 +211,50 @@
       </notes>
     </power>
   </powers>
+  <enhancements>
+    <enhancement>
+      <id>a396d1f5-0770-4b57-a3b9-a5cbfb63a315</id>
+      <name>Stride</name>
+      <power>Dash</power>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <walkmultiplier>
+          <category>Ground</category>
+          <percent>100</percent>
+        </walkmultiplier>
+        <runmultiplier>
+          <category>Ground</category>
+          <percent>100</percent>
+        </runmultiplier>
+      </bonus>
+      <required>
+        <allof>
+          <power>Dash</power>
+        </allof>
+				<oneof>
+					<quality>The Athlete's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+      </required>
+      <notes>Incompatible with the Skimmers cyberware or the Movement power.</notes>
+    </enhancement>
+    <enhancement>
+      <id>2b78a688-d9ad-4b13-8135-b03fca6874c7</id>
+      <name>Skyfall</name>
+      <power>Freefall</power>
+      <source>ZDR</source>
+      <page>1</page>
+      <required>
+        <allof>
+          <power>Freefall</power>
+        </allof>
+				<oneof>
+					<quality>The Athlete's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+      </required>
+    </enhancement>
+  </enhancements>
 </chummer>
 

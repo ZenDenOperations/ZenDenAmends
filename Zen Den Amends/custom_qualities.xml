@@ -81,7 +81,7 @@
 			<page>1</page>
 		</quality>
 		<quality>
-			<!--Flexible Spellcaster -Still needs the known spells and alchemy prereq -->
+			<!--Flexible Spellcaster Still needs the known spells and alchemy prereq -->
 			<id>386e27f0-6ac1-47a9-aa32-dd350c56409c</id>
 			<name>Flexible Spellcaster</name>
 			<karma>15</karma>
@@ -100,17 +100,19 @@
 						<name>Spellcasting</name>
 						<val>6</val>
 					</skill>
+					<skill>
+						<name>Cybercombat</name>
+						<val>6</val>
+					</skill>
 				</allof>
 				<oneof>
 					<skill>
 						<name>Magical Theory (Street)</name>
 						<val>6</val>
-						<type>Knowledge</type>
 					</skill>
 					<skill>
 						<name>Magical Theory (Academic)</name>
 						<val>6</val>
-						<type>Knowledge</type>
 					</skill>
 				</oneof>
 			</required>
@@ -1890,9 +1892,6 @@
 			<karma>-2</karma>
 			<limit>4</limit>
 			<category>Negative</category>
-			<required>
-				<cyberwarecontains>*</cyberwarecontains>
-			</required>
 			<bonus />
 			<source>ZDR</source>
 			<page>1</page>
@@ -2179,6 +2178,25 @@
 			<source>ZDR</source>
 			<page>1</page>
 			<notes>Each replacement limb after the first reduces the Armor or damage resistance provided by other augmentations by 1. Armor is reduced before damage resistance.</notes>
+		</quality>
+			<quality>
+			<id>e6b1f737-0a42-46ee-adc8-ac09074e84bc</id>
+			<name>Pentathlete</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<canbuywithspellpoints>True</canbuywithspellpoints>
+			<doublecareer>False</doublecareer>
+			<limit>4</limit>
+			<nolevels />
+			<bonus>
+				<selecttext xml="skills.xml" xpath="/chummer/skills/skill" allowedit="True" />
+			</bonus>
+			<required>
+				<metamagic>Supernatural Prowess</metamagic>
+			</required>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Permits the use of Supernatural Prowess with one additional skill per purchase.</notes>
 		</quality>
 	</qualities>
 </chummer>
