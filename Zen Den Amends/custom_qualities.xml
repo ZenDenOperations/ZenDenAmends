@@ -100,10 +100,6 @@
 						<name>Spellcasting</name>
 						<val>6</val>
 					</skill>
-					<skill>
-						<name>Cybercombat</name>
-						<val>6</val>
-					</skill>
 				</allof>
 				<oneof>
 					<skill>
