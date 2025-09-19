@@ -109,10 +109,12 @@
 					<skill>
 						<name>Magical Theory (Street)</name>
 						<val>6</val>
+						<type>Knowledge</type>
 					</skill>
 					<skill>
 						<name>Magical Theory (Academic)</name>
 						<val>6</val>
+						<type>Knowledge</type>
 					</skill>
 				</oneof>
 			</required>
@@ -1892,6 +1894,9 @@
 			<karma>-2</karma>
 			<limit>4</limit>
 			<category>Negative</category>
+			<required>
+				<cyberwarecontains>*</cyberwarecontains>
+			</required>
 			<bonus />
 			<source>ZDR</source>
 			<page>1</page>
