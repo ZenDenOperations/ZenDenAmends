@@ -187,9 +187,6 @@
       </adeptwayrequires>
       <bonus>
         <weaponskillaccuracy>
-          <value>1</value>
-        </weaponskillaccuracy>
-        <weaponskillaccuracy>
           <name>Clubs</name>
           <value>-1</value>
         </weaponskillaccuracy>
@@ -205,10 +202,28 @@
           <name>Monofilament Weapons</name>
           <value>-1</value>
         </weaponskillaccuracy>
+        <weaponskillaccuracy>
+          <value>1</value>
+        </weaponskillaccuracy>
       </bonus>
       <notes>
       +1 Accuracy to all ranged attacks. The effective distance between the adept and their target is reduced by (MAG * 5) meters for range calculations.
       </notes>
+    </power>
+    <power>
+      <id>fc1d7ff9-61a7-49e8-9caa-852657eb04d0</id>
+      <name>Additional Adept Spells</name>
+      <points>0.25</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>ZDR</source>
+      <page>1</page>
+      <required>
+        <oneof>
+          <power>Adept Spell</power>
+        </oneof>
+      </required>
+      <notes>Add 1 spell per level in this power via the Improvements tab.</notes>
     </power>
   </powers>
   <enhancements>

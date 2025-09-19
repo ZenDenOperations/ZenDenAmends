@@ -262,7 +262,6 @@
 			</forbidden>
 			<required>
 				<oneof>
-					<quality>Adept</quality>
 					<quality>Enchanter</quality>
 					<quality>Explorer</quality>
 					<quality>Apprentice</quality>
