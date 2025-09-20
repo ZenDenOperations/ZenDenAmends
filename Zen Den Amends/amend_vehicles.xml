@@ -112,6 +112,8 @@
 		<vehicle>
 			<name>GMC Banshee (Thunderbird)</name>
 			<cost>1300000</cost>
+			<armor>20</armor>
+			<body>24</body>
 		</vehicle>
 		<vehicle>
 			<name>GMC Gryphon</name>
