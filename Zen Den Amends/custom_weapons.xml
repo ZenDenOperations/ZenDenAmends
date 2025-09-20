@@ -177,6 +177,196 @@
         </weapondetails>
       </required>
     </accessory>
+    <!-- Mundane Mastery Qualities Weapon Adjustments -->
+    <accessory>
+      <id>f3f2ba17-ed6f-4c55-a789-c3b543a72dc5</id>
+      <name>Hard Skin Torso Accuracy Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <accuracy>1</accuracy>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <cyberware>Obvious Torso</cyberware>
+          </group>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <cyberware>Synthetic Torso</cyberware>
+          </group>
+          <group>
+            <characterquality>Hard Skin</characterquality>
+            <metatype>Cyborg</metatype>
+          </group>
+        </oneof>
+      </required>
+    </accessory>
+    <accessory>
+      <id>b25496f8-bb3e-49a3-923f-f779528f220b</id>
+      <name>Trajectory Mastery Accuracy Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <accuracy>3</accuracy>
+      <required>
+        <oneof>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Smartgun System, External</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Smartgun System, Internal</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Krime Dual-Mode External Smartgun Link</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Laser Sight</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Red Dot Sight</accessory>
+          </group>
+        </oneof>
+      </required>
+      <forbidden>
+        <oneof>
+          <accessory>Ceramic/Plasteel Components</accessory>
+          <accessory>Collapsible Traditional Bow</accessory>
+          <accessory>Vintage</accessory>
+        </oneof>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>774d4974-0a24-44c1-87d9-b43fa8078eed</id>
+      <name>Augmented Strength Mastery Accuracy Boost</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <accuracy>4</accuracy>
+      <required>
+        <allof>
+          <weapondetails>
+            <type>Melee</type>
+          </weapondetails>
+          <quality>Augmented Strength Mastery</quality>
+        </allof>
+      </required>
+      <forbidden />
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>4c6b1978-02a4-418e-81fb-54d614b88f21</id>
+      <name>Trajectory Mastery Damage Boost</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <damage>+1</damage>
+      <required>
+        <oneof>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Smartgun System, External</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Smartgun System, Internal</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Krime Dual-Mode External Smartgun Link</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Laser Sight</accessory>
+          </group>
+          <group>
+            <quality>Trajectory Mastery</quality>
+            <accessory>Red Dot Sight</accessory>
+          </group>
+        </oneof>
+      </required>
+      <forbidden>
+        <oneof>
+          <accessory>Ceramic/Plasteel Components</accessory>
+          <accessory>Collapsible Traditional Bow</accessory>
+          <accessory>Vintage</accessory>
+        </oneof>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>1e0ae700-f5d2-4bfb-bad7-17a1d9739018</id>
+      <name>Augmented Strength Mastery Damage Boost</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <damage>+1</damage>
+      <required>
+        <allof>
+          <weapondetails>
+            <type>Melee</type>
+          </weapondetails>
+          <quality>Augmented Strength Mastery</quality>
+        </allof>
+      </required>
+      <forbidden>
+        <weapondetails>
+          <type>Ranged</type>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+    </accessory>
+    <accessory>
+      <id>803d6aa0-8e6b-47a5-8256-f3fb8895777d</id>
+      <name>Deft Thrower Damage Boost</name>
+      <limit>False</limit>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <damage>+1</damage>
+      <required>
+        <allof>
+          <weapondetails>
+            <type>Ranged</type>
+          </weapondetails>
+          <quality>Deft Thrower</quality>
+        </allof>
+      </required>
+      <forbidden>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+      <source>DM</source>
+      <page>0</page>
+      <notes>Can NOT be applied to grenades!</notes>
+    </accessory>
   </accessories>
   <weapons>
     <weapon>
@@ -1192,3 +1382,4 @@
     </weapon>
   </weapons>
 </chummer>
+
