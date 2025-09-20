@@ -587,6 +587,22 @@
 				<mount>Stock</mount>
 			</accessorymounts>
 		</weapon>
+		<weapon>
+			<name>Krime Stopper-II</name>
+			<useskill>Longarms</useskill>
+		</weapon>
+		<weapon>
+			<name>Krime Stopper-II (Shopkeeper)</name>
+			<useskill>Longarms</useskill>
+		</weapon>
+		<weapon>
+			<name>Krime Stopper-II (Homeguard)</name>
+			<useskill>Longarms</useskill>
+		</weapon>
+		<weapon>
+			<name>Krime Saint Nicholas</name>
+			<useskill>Longarms</useskill>
+		</weapon>
 		<!--  Pistols -->
 		<weapon>
 			<name>Shiawase Arms Simoom</name>
