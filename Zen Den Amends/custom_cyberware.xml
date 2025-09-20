@@ -24,6 +24,27 @@
 	</categories>
 	<cyberwares>
 		<cyberware>
+			<id>230e61d4-c6a1-4da1-a68b-be0fd55c7422</id>
+      		<name>Hard Skin Mastery Armor</name>
+     		<limit>False</limit>
+      		<category>Bodyware</category>
+      		<ess>0</ess>
+      		<capacity>0</capacity>
+      		<avail>0</avail>
+      		<cost>0</cost>
+      		<source>DM</source>
+      		<page>0</page>
+      		<bonus>
+        		<armor>Rating</armor>
+      		</bonus>
+      		<rating>3</rating>
+            <required>
+              <oneof>
+                <quality>Hard Skin</quality>
+              </oneof>
+            </required>
+		</cyberware>
+		<cyberware>
 			<id>4148eaa1-0e94-49a9-b843-136c366ff5b8</id>
 			<name>One-Shot Dartgun</name>
 			<rating>False</rating>
