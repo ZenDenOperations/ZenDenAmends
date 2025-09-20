@@ -1563,6 +1563,18 @@
 			<page>1</page>
 		</quality>
 		<quality>
+			<!-- Hacker Combo -->
+			<id>60bfe350-6afe-43dc-979d-b04f71c39288</id>
+			<name>Hacker Combo</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>6e</source>
+			<page>1</page>
+		</quality>
+		<quality>
 			<!-- Additional Echo -->
 			<id>82dce7dd-b897-4f8c-9eed-4e81612aeac0</id>
 			<name>Additional Echo</name>
