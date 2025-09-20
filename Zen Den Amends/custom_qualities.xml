@@ -2352,6 +2352,7 @@
 					<cyberware>Smartskin</cyberware>
 					<cyberware>Obvious Torso</cyberware>
 					<cyberware>Synthetic Torso</cyberware>
+					<cyberware>Dermal Sheath</cyberware>
 				</oneof>
 			</required>
 			<forbidden>
@@ -2373,7 +2374,7 @@
 				If smartskin is installed, gain 2 DV with your smartskin melee attacks, and for every 2 points of
 				rating, gain +1 armor.
 
-				If dermal sheathing is installed, the character gains +1 armor at R1 and +2 armor for R2 or R3 dermal sheathing.
+				If a dermal sheath is installed, the character gains +1 armor at R1 and +2 armor for R2 or R3 dermal sheathing.
 
 				If a cybertorso is installed, either obvious or synthetic, gain +2 armor and +1 limit to all combat
 				actions.
@@ -2388,6 +2389,7 @@
 			<bonus />
 			<required>
 				<oneof>
+					<cyberware>Blood Circuit Control System</cyberware>
 					<bioware>Platelet Factories</bioware>
 					<bioware>Double Elastin</bioware>
 				</oneof>
@@ -2401,8 +2403,8 @@
 			<source>ZDR</source>
         	<page>0</page>
 			<notes>
-				Whenever your Platelet Factories or Double Elastin would trigger and reduce the damage taken by 1,
-				you may reduce that damage by 2 instead, to a minimum of 2 total damage received.
+				If the character takes 4 or more damage and that damage would be reduced by any of the prerequisite ware the character has installed, 
+				the damage is reduced by 2 (to a minimum of 2) instead of 1.
 			</notes>
 		</quality>
 		<quality>
