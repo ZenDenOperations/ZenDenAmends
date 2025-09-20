@@ -85,6 +85,7 @@
       <name>Cosmetic Control</name>
       <points>1</points>
       <levels>True</levels>
+      <maxlevels>2</maxlevels>
       <limit>2</limit>
       <source>ZDR</source>
       <page>1</page>
@@ -186,9 +187,6 @@
       </adeptwayrequires>
       <bonus>
         <weaponskillaccuracy>
-          <value>1</value>
-        </weaponskillaccuracy>
-        <weaponskillaccuracy>
           <name>Clubs</name>
           <value>-1</value>
         </weaponskillaccuracy>
@@ -204,11 +202,74 @@
           <name>Monofilament Weapons</name>
           <value>-1</value>
         </weaponskillaccuracy>
+        <weaponskillaccuracy>
+          <value>1</value>
+        </weaponskillaccuracy>
       </bonus>
       <notes>
       +1 Accuracy to all ranged attacks. The effective distance between the adept and their target is reduced by (MAG * 5) meters for range calculations.
       </notes>
     </power>
+    <power>
+      <id>fc1d7ff9-61a7-49e8-9caa-852657eb04d0</id>
+      <name>Additional Adept Spells</name>
+      <points>0.25</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>ZDR</source>
+      <page>1</page>
+      <required>
+        <oneof>
+          <power>Adept Spell</power>
+        </oneof>
+      </required>
+      <notes>Add 1 spell per level in this power via the Improvements tab.</notes>
+    </power>
   </powers>
+  <enhancements>
+    <enhancement>
+      <id>a396d1f5-0770-4b57-a3b9-a5cbfb63a315</id>
+      <name>Stride</name>
+      <power>Dash</power>
+      <source>ZDR</source>
+      <page>1</page>
+      <bonus>
+        <walkmultiplier>
+          <category>Ground</category>
+          <percent>100</percent>
+        </walkmultiplier>
+        <runmultiplier>
+          <category>Ground</category>
+          <percent>100</percent>
+        </runmultiplier>
+      </bonus>
+      <required>
+        <allof>
+          <power>Dash</power>
+        </allof>
+				<oneof>
+					<quality>The Athlete's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+      </required>
+      <notes>Incompatible with the Skimmers cyberware or the Movement power.</notes>
+    </enhancement>
+    <enhancement>
+      <id>2b78a688-d9ad-4b13-8135-b03fca6874c7</id>
+      <name>Skyfall</name>
+      <power>Freefall</power>
+      <source>ZDR</source>
+      <page>1</page>
+      <required>
+        <allof>
+          <power>Freefall</power>
+        </allof>
+				<oneof>
+					<quality>The Athlete's Way</quality>
+					<quality>Dilettante</quality>
+				</oneof>
+      </required>
+    </enhancement>
+  </enhancements>
 </chummer>
 

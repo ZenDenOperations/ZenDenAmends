@@ -71,5 +71,19 @@
 			<page>1</page>
 			<notes>Use a Free action and take +2 Drain to make a spell invisible to visual detection. The spell's effect is not stealthed.</notes>
 		</metamagic>
+		<metamagic>
+			<id>807ecaec-a75b-4d26-b438-a9fb3cd949a0</id>
+			<name>Peak Performance</name>
+			<adept>True</adept>
+			<magician>False</magician>
+			<required>
+				<oneof>
+				<quality>The Athlete's Way</quality>
+				</oneof>
+			</required>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Reroll up to (IG+1) failed dice on non-combat tests involving skills in the Athletics skill group or attribute-only tests using only physical attributes.</notes>
+		</metamagic>
 	</metamagics>
 </chummer>
