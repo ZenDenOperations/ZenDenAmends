@@ -2211,5 +2211,312 @@
 			<page>1</page>
 			<notes>Permits the use of Supernatural Prowess with one additional skill per purchase.</notes>
 		</quality>
+		<!--Mundane Masteries-->
+		<quality>
+			<id>25e12560-5f00-436d-ac72-152ee7a87366</id>
+			<name>Trajectory Mastery</name>
+			<karma>15 </karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<cyberware>Smartlink</cyberware>
+                    <cyberware operation="contains">Targeting Laser</cyberware>
+				</oneof>
+			</required>
+			<source>ZDR</source>
+        	<page>1</page>
+			<notes>
+				When using a ranged weapon equipped with a Smartgun system or a laser sight, you gain an additional
+				DV for every six ranks that you have in the associated weapon skill, provided the mod applies.
+				Additionally, you always gain +3 accuracy with the weapon. Does not apply with throwing weapons.
+			</notes>
+		</quality>
+		<quality>
+			<id>82851905-4e1b-49a0-a978-3205c0bf4b31</id>
+			<name>Deft Thrower</name>
+			<karma>15</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+			<page>0</page>
+			<notes>
+				When attacking with a non-explosive throwing weapon, you gain an additional DV for every 6 ranks
+				that you have in the associated weapon skill. This bonus applies for both the Throwing Weapons skill
+				and any Exotic Throwing Weapons skill.  When taking the Multiple Attack action with a qualifying
+				throwing weapon, gain +4 to the total dice pool.
+			</notes>
+		</quality>
+		<quality>
+			<id>455dfd37-5a5c-4036-9b98-d6005809512c</id>
+			<name>Augmented Strength Mastery</name>
+			<karma>15</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<bioware>Muscle Augmentation</bioware>
+					<cyberware>Muscle Replacement</cyberware>
+					<cyberware>Enhanced Strength</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+        	<page>0</page>
+			<notes>
+				When using a melee weapon, you gain an additional DV for every six ranks you have in the associated
+				weapon skill. Additionally, you gain +4 accuracy with all melee weapons. You gain an additional Free
+				Action once per combat, on the character’s first pass.
+			</notes>
+		</quality>
+		<quality>
+			<id>1c1e0898-1768-4b85-8819-4c5c16b3726b</id>
+			<name>Corner Shooter</name>
+			<karma>4</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<cyberware>Smartlink</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+        	<page>0</page>
+			<notes>
+				When using a ranged weapon equipped with a Smartgun system, you reduce the penalty from “Attacker
+				Firing From Cover With Imaging Device” to 0.
+			</notes>
+		</quality>
+		<quality>
+			<id>59495ad4-4f8e-4f60-bb25-7691caf72384</id>
+			<name>Master Brawler</name>
+			<karma>4</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<bioware>Muscle Augmentation</bioware>
+					<cyberware>Muscle Replacement</cyberware>
+					<cyberware>Enhanced Strength</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+        	<page>0</page>
+			<notes>
+				Whenever you make a location-specific called-shot with a melee or unarmed weapon, you reduce the
+				called shot penalty by 3.
+			</notes>
+		</quality>
+		<quality>
+			<id>15e8b663-c862-47bb-b79e-bc7ea5c219d8</id>
+			<name>Hard Skin</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<bioware>Orthoskin</bioware>
+					<cyberware>Dermal Plating</cyberware>
+					<cyberware>Smartskin</cyberware>
+					<cyberware>Obvious Torso</cyberware>
+					<cyberware>Synthetic Torso</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+        	<page>0</page>
+			<notes>
+				The effect of this quality varies based on the type of ware installed.
+
+				If orthoskin is installed, for every 2 points of ware rating, gain +1 armor.
+
+				If dermal plating is installed, for every 2 points of ware rating, gain +1 armor. For every 3 points of
+				ware rating, gain an auto-success in any soak tests where armor is included.
+
+				If smartskin is installed, gain 2 DV with your smartskin melee attacks, and for every 2 points of
+				rating, gain +1 armor.
+
+				If dermal sheathing is installed, the character gains +1 armor at R1 and +2 armor for R2 or R3 dermal sheathing.
+
+				If a cybertorso is installed, either obvious or synthetic, gain +2 armor and +1 limit to all combat
+				actions.
+			</notes>
+		</quality>
+		<quality>
+			<id>97bf000d-c813-4e70-ad84-3669d9ba04db</id>
+			<name>Shock Abrogation Training</name>
+			<karma>8</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<bioware>Platelet Factories</bioware>
+					<bioware>Double Elastin</bioware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+        	<page>0</page>
+			<notes>
+				Whenever your Platelet Factories or Double Elastin would trigger and reduce the damage taken by 1,
+				you may reduce that damage by 2 instead, to a minimum of 2 total damage received.
+			</notes>
+		</quality>
+		<quality>
+			<id>b15c9a12-695c-4e5f-9149-932cbeb285b2</id>
+			<name>No Pain, No Gain</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<bioware>Adrenaline Pump</bioware>
+					<bioware>Damage Compensators</bioware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+        	<page>0</page>
+			<notes>
+				You have adapted your nervous system to the sensation of pain and use it as a performance booster.
+				For every 2 boxes of damage compensated for by your Damage Compensator or Adrenaline Pump, gain +1 dice
+				to offensive actions. (Includes ranged/melee attacks, attack actions on the matrix etc)
+			</notes>
+		</quality>
+		<quality>
+			<id>3ba42158-9a6a-4bda-8e55-3c4c28d8ae56</id>
+			<name>Skillsoft Adaptation</name>
+			<karma>6</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<cyberware>Skilljack</cyberware>
+					<cyberware>Knowledge Hardwires</cyberware>
+                    <cyberware>Active Hardwires</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+        	<page>0</page>
+			<notes>
+				Once per 24 hour period, you may apply edge to a skill test involving an Activesoft, Knowsoft,
+				Linguasoft, Knowledge Hardwire, or Active Hardwire.
+			</notes>
+		</quality>
+		<quality>
+			<id>815bbb11-3708-4f8d-9cfa-6d4b503dcc42</id>
+			<name>Redundant Protection</name>
+			<karma>4</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<oneof>
+					<cyberware>Eye Protector (Plastic)</cyberware>
+					<cyberware>Eye Protector (Ballistic Glass)</cyberware>
+					<cyberware>Ear Protector</cyberware>
+					<cyberware>Damper</cyberware>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+        	<page>0</page>
+			<notes>
+				The protection given to your senses have moved beyond just a shield, and become a natural state of
+				being. The weaknesses of biology have no hold on you anymore. You are immune to Called Shot: Shake Up.
+				If you have Eye Protectors, you are immune to Called Shot: Eye. If you have Ear Protectors or Dampers,
+				you are immune to Called Shot: Ear.
+			</notes>
+		</quality>
+		<quality>
+			<id>27b653f6-d967-4388-a59c-50f84039c3dc</id>
+			<name>Instinctive Optimization</name>
+			<karma>6</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<allof>
+					<cyberware>Math SPU</cyberware>
+					<attribute>
+						<name>LOG</name>
+						<val>4</val>
+					</attribute>
+				</allof>
+			</required>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>ZDR</source>
+        	<page>0</page>
+			<notes>
+				Immediately before initiative is rolled, you may make either a Tag action or a Calibrate action. The
+				effects of this action are applied before initiative is ordered for the first pass.
+			</notes>
+		</quality>
 	</qualities>
 </chummer>
