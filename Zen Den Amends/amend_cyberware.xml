@@ -74,15 +74,76 @@
 			</allowsubsystems>
 		</cyberware>
 		<cyberware>
-			<!-- Synthetic Torso  -->
+		        <!-- Synthetic Torso  -->
 			<id>40878e5d-cabc-4980-ad87-0dd5d5f5c037</id>
-			<capacity>7</capacity>
+			<capacity>11</capacity>
 			<avail>6</avail>
+		</cyberware>
+		<cyberware>
+			<!-- Synthetic Full Arm  -->
+			<id>f4a48c40-29df-4435-8d09-b1f3153d61ee</id>
+			<capacity>12</capacity>
+		</cyberware>
+		<cyberware>
+			<!-- Synthetic Lower Arm  -->
+			<id>4e8c4c99-b0bf-494f-b82c-1ab15ec26eb7</id>
+			<capacity>8</capacity>
+		</cyberware>
+		<cyberware>
+			<!-- Synthetic Hand  -->
+			<id>a1591e59-d859-40fc-aaf8-30fde5cf6a42</id>
+			<capacity>3</capacity>
+		</cyberware>
+		<cyberware>
+			<!-- Synthetic Full Leg  -->
+			<id>bf29ff5e-839a-4fd3-8063-371ce05065d6</id>
+			<capacity>17</capacity>
+		</cyberware>
+		<cyberware>
+			<!-- Synthetic Lower Leg  -->
+			<id>d3a7e6f2-cb8c-42c0-9aef-c88b26648859</id>
+			<capacity>10</capacity>
+		</cyberware>
+		<cyberware>
+			<!-- Synthetic Foot -->
+			<id>1e511ad7-4806-4862-8685-a04887b1bec9</id>
+			<capacity>3</capacity>
+		</cyberware>
+		<!-- Splitter Temp - delete if you see this -->
+		<cyberware>
+			<!-- Modular Synthetic Full Arm  -->
+			<id>c0f408f6-31b2-4070-b972-832a5520d489</id>
+			<capacity>9</capacity>
+		</cyberware>
+		<cyberware>
+			<!-- Modular Synthetic Lower Arm  -->
+			<id>fe8d9997-f263-4f8d-9b0f-afb8d08b8408</id>
+			<capacity>6</capacity>
+		</cyberware>
+		<cyberware>
+			<!-- Modular Synthetic Hand  -->
+			<id>caab6000-8907-417d-acdb-8ba6cc2f6492</id>
+			<capacity>2</capacity>
+		</cyberware>
+		<cyberware>
+			<!-- Modular Synthetic Full Leg  -->
+			<id>cbdbdef3-cddb-4aec-87af-fdd4f0860708</id>
+			<capacity>14</capacity>
+		</cyberware>
+		<cyberware>
+			<!-- Modular Synthetic Lower Leg  -->
+			<id>1edf519a-74ee-42ee-8441-6f7e5c7a8f64</id>
+			<capacity>8</capacity>
+		</cyberware>
+		<cyberware>
+			<!-- Modular Synthetic Foot -->
+			<id>41e8fa49-c2e7-46d5-bc75-50024b937483</id>
+			<capacity>2</capacity>
 		</cyberware>
 		<cyberware>
 			<!-- Synthetic Skull  -->
 			<id>992fbf6b-8f9a-4c27-a527-8705ecc3341f</id>
-			<capacity>4</capacity>
+			<capacity>6</capacity>
 			<avail>6</avail>
 			<allowsubsystems amendoperation="append">
 				<category>Skullware</category>
