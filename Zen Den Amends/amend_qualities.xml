@@ -21,6 +21,14 @@
 			</bonus>
 		</quality>
 		<quality>
+			<name>Shoot First, Don't Ask Questions</name>
+			<karma>5</karma>
+			<bonus>
+				<initiative>1</initiative>
+				<surprise>1</surprise>
+			</bonus>
+		</quality>
+		<quality>
 			<!-- Natural Athlete -->
 			<name>Natural Athlete</name>
 			<bonus>
@@ -2967,6 +2975,7 @@
 		</quality>
 	</qualities>
 </chummer>
+
 
 
 
