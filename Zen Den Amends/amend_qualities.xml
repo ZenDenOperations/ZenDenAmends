@@ -330,6 +330,247 @@
 				</oneof>
 			</forbidden>
 		</quality>
+		<!-- Metagenic Quality Changes -->
+		<quality>
+			<name>360-degree Eyesight</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Animal Pelage (Camo Fur)</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Animal Pelage (Insulating Pelt)</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Animal Pelage (Quills)</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Balance Receptor</name>
+			<karma>3</karma>
+		</quality>
+		<quality>
+			<name>Beak</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Raptor Beak</name>
+			<karma>3</karma>
+		</quality>
+		<quality>
+			<name>Bicardiac</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Biosonar</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Bone Spikes</name>
+			<karma>3</karma>
+		</quality>
+		<quality>
+			<name>Broadened Auditory System (Infrasound)</name>
+			<karma>1</karma>
+		</quality>
+		<quality>
+			<name>Broadened Auditory System (Ultrasound)</name>
+			<karma>1</karma>
+		</quality>
+		<quality>
+			<name>Camouflage</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Dynamic Coloration</name>
+			<karma>4</karma>
+		</quality>
+		<quality>
+			<name>Claws</name>
+			<karma>1</karma>
+		</quality>
+		<quality>
+			<name>Razor Claws</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Retractable Claws</name>
+			<karma>3</karma>
+		</quality>
+		<quality>
+			<name>Climate Adaptation (Arctic)</name>
+			<karma>1</karma>
+		</quality>
+		<quality>
+			<name>Climate Adaptation (Desert)</name>
+			<karma>1</karma>
+		</quality>
+		<quality>
+			<name>Corrosive Spit</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Defensive Secretion</name>
+			<karma>1</karma>
+		</quality>
+		<quality>
+			<name>Electroception (Electrosense)</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Electroception (Technosense)</name>
+			<karma>4</karma>
+		</quality>
+		<quality>
+			<name>Fangs</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Frog Tongue</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Functional Tail (Balance)</name>
+			<karma>3</karma>
+		</quality>
+		<quality>
+			<name>Functional Tail (Paddle)</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Functional Tail (Prehensile)</name>
+			<karma>3</karma>
+		</quality>
+		<quality>
+			<name>Gills (Air)</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Gills (Aqua)</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Gills (Full)</name>
+			<karma>4</karma>
+		</quality>
+		<quality>
+			<name>Glamour</name>
+			<karma>10</karma>
+		</quality>
+		<quality>
+			<name>Goring Horns</name>
+			<karma>4</karma>
+		</quality>
+		<quality>
+			<name>Greasy Skin</name>
+			<karma>1</karma>
+		</quality>
+		<quality>
+			<name>Keen-Eared</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Larger Tusks</name>
+			<karma>3</karma>
+		</quality>
+		<quality>
+			<name>Low-Light Vision (Changeling)</name>
+			<karma>3</karma>
+		</quality>
+		<quality>
+			<name>Low-Light Vision (Feline)</name>
+			<karma>1</karma>
+		</quality>
+		<quality>
+			<name>Magic Sense</name>
+			<karma>5</karma>
+		</quality>
+		<quality>
+			<name>Magnetoception</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Exhaled, Mild)</name>
+			<karma>3</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Exhaled, Moderate)</name>
+			<karma>5</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Exhaled, Serious)</name>
+			<karma>7</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Exhaled, Deadly)</name>
+			<karma>9</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Spat, Mild)</name>
+			<karma>4</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Spat, Moderate)</name>
+			<karma>6</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Spat, Serious)</name>
+			<karma>8</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Spat, Deadly)</name>
+			<karma>10</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Injected, Mild)</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Injected, Moderate)</name>
+			<karma>4</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Injected, Serious)</name>
+			<karma>6</karma>
+		</quality>
+		<quality>
+			<name>Natural Venom (Injected, Deadly)</name>
+			<karma>8</karma>
+		</quality>
+		<quality>
+			<name>Ogre Stomach</name>
+			<karma>4</karma>
+		</quality>
+		<quality>
+			<name>Photometabolism</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Proboscis</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Setae</name>
+			<karma>1</karma>
+		</quality>
+		<quality>
+			<name>Thermal Sensitivity</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Underwater Vision</name>
+			<karma>1</karma>
+		</quality>
+		<quality>
+			<name>Vomeronasal Organ</name>
+			<karma>2</karma>
+		</quality>
+		<quality>
+			<name>Webbed Digits</name>
+			<karma>2</karma>
+		</quality>
 		<quality>
 			<!-- Lightning Reflexes -->
 			<name>Lightning Reflexes</name>

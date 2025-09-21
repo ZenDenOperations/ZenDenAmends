@@ -1090,7 +1090,7 @@
 		<quality>
 			<id>db0ba470-55a0-4ee0-8ad0-4a632b94935e</id>
 			<name>Regrowth</name>
-			<karma>5</karma>
+			<karma>3</karma>
 			<category>Positive</category>
 			<metagenic>True</metagenic>
 			<bonus>
@@ -1104,7 +1104,7 @@
 		<quality>
 			<id>4b5e0741-a15e-4cf2-b062-e418f3a566cb</id>
 			<name>Electrogenesis</name>
-			<karma>10</karma>
+			<karma>5</karma>
 			<category>Positive</category>
 			<metagenic>True</metagenic>
 			<source>6e</source>
@@ -1114,7 +1114,7 @@
 		<quality>
 			<id>4494b375-f658-4180-b0ba-f8ac3b91bf1c</id>
 			<name>Ink</name>
-			<karma>8</karma>
+			<karma>4</karma>
 			<category>Positive</category>
 			<metagenic>True</metagenic>
 			<source>6e</source>
@@ -1124,7 +1124,7 @@
 		<quality>
 			<id>c844d133-799f-4184-a8b8-9fb881a6ff69</id>
 			<name>Functional Wings (Type I: Gliders)</name>
-			<karma>8</karma>
+			<karma>4</karma>
 			<category>Positive</category>
 			<metagenic>True</metagenic>
 			<source>6e</source>
@@ -1141,7 +1141,7 @@
 		<quality>
 			<id>131c05eb-3925-4e0b-95d6-a022b902b33f</id>
 			<name>Functional Wings (Type II: Functional Wings)</name>
-			<karma>12</karma>
+			<karma>6</karma>
 			<category>Positive</category>
 			<metagenic>True</metagenic>
 			<source>6e</source>
