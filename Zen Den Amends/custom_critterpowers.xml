@@ -602,5 +602,27 @@
 			You may want to have an Improvement set to remove these improvements when not in dracoform.
 			</notes>
 		</power>
+		<power>
+      <id>bc6ed13c-a2c1-4528-a191-f95a174daa7e</id>
+      <name>Attribute Enhancement</name>
+      <category>Chimeric Modification</category>
+      <type />
+      <action />
+      <range />
+      <duration />
+      <bonus>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+			<excludeattribute>MAG</excludeattribute>
+			<excludeattribute>RES</excludeattribute>
+            <max>2</max>
+			<min>2</min>
+          </selectattribute>
+        </selectattributes>
+      </bonus>
+      <source>HS</source>
+      <page>170</page>
+    </power>
 	</powers>
 </chummer>
