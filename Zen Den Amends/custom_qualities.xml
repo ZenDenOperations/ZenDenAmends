@@ -1423,6 +1423,70 @@
 			</required>
 		</quality>
 		<quality>
+			<!-- Anchor Imbuing -->
+			<id>5e943227-fc29-4691-880e-b7d20e7a8696</id>
+			<name>Anchor Imbuing</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<metagenic>False</metagenic>
+			<doublecareer>False</doublecareer>
+			<source>ZDR</source>
+			<page>0</page>
+			<required>
+				<allof>
+					<magenabled />
+					<skill>
+						<name>Arcana</name>
+						<val>4</val>
+					</skill>
+					<skill>
+						<name>Ritual Spellcasting</name>
+						<val>4</val>
+						<spec>Anchored</spec>
+					</skill>
+				</allof>
+				<oneof>
+				<skill>
+					<name>Magical Theory (Academic)</name>
+					<val>4</val>
+					<type>Knowledge</type>
+				</skill>
+				<skill>
+					<name>Magical Theory (Street)</name>
+					<val>4</val>
+					<type>Knowledge</type>
+				</skill>
+				<skill>
+					<name>Magical Theory</name>
+					<val>4</val>
+					<type>Knowledge</type>
+				</skill>
+				</oneof>
+				<oneof>
+					<skill>
+						<name>Alchemy</name>
+						<val>4</val>
+					</skill>
+					<skill>
+						<name>Alchemy</name>
+						<val>4</val>
+						<type>Knowledge</type>
+					</skill>
+				</oneof>
+				<oneof>
+					<skill>
+						<name>Artificing</name>
+						<val>4</val>
+					</skill>
+					<skill>
+						<name>Artificing</name>
+						<val>4</val>
+						<type>Knowledge</type>
+					</skill>
+				</oneof>
+			</required>
+		</quality>
+		<quality>
 			<!-- Items of Power II -->
 			<id>70c5ccff-156d-4e58-a973-83964f759e7b</id>
 			<name>Items of Power II</name>
