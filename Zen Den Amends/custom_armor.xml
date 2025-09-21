@@ -429,6 +429,18 @@
       <notes>Availability is equal to the armor being upgraded. Cannot be used along with a helmet or ballistic mask.</notes>
     </mod>
     <mod>
+      <id>8724c315-70e1-46c7-8b30-9c8a1e354a86</id>
+      <name>Quick Release</name>
+      <category>General</category>
+      <maxrating>1</maxrating>
+      <armorcapacity>[2]</armorcapacity>
+      <avail>0</avail>
+      <cost>8500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <notes>Allows removing armor with 1 Complex action. Wireless: armor can be removed as a Simple action.</notes>
+    </mod>
+    <mod>
       <id>a3b83b98-ecca-4696-bb32-eaf3c743127e</id>
       <name>Transforming Garment (Armor)</name>
       <category>General</category>
