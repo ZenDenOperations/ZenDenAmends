@@ -416,7 +416,7 @@
     </armors>
 	<mods>
     <mod>
-      <id>8724c315-70e1-46c7-8b30-9c8a1e354a86</id>
+      <id>acc2f9d9-041b-4288-95a8-1151613ca902</id>
       <name>Ballistic Hood</name>
       <category>General</category>
       <armor>+1</armor>
@@ -429,7 +429,7 @@
       <notes>Availability is equal to the armor being upgraded. Cannot be used along with a helmet or ballistic mask.</notes>
     </mod>
     <mod>
-      <id>acc2f9d9-041b-4288-95a8-1151613ca902</id>
+      <id>8724c315-70e1-46c7-8b30-9c8a1e354a86</id>
       <name>Quick Release</name>
       <category>General</category>
       <maxrating>1</maxrating>
