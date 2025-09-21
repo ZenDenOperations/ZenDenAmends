@@ -135,5 +135,37 @@
         </naturalweapon>
       </bonus>
     </power>
+    <power>
+      <name>Attribute Enhancement (Body)</name>
+      <hide />
+    </power>
+    <power>
+      <name>Attribute Enhancement (Agility)</name>
+      <hide />
+    </power>
+    <power>
+      <name>Attribute Enhancement (Reaction)</name>
+      <hide />
+    </power>
+    <power>
+      <name>Attribute Enhancement (Strength)</name>
+      <hide />
+    </power>
+    <power>
+      <name>Attribute Enhancement (Charisma)</name>
+      <hide />
+    </power>
+    <power>
+      <name>Attribute Enhancement (Intuition)</name>
+      <hide />
+    </power>
+    <power>
+      <name>Attribute Enhancement (Logic)</name>
+      <hide />
+    </power>
+    <power>
+      <name>Attribute Enhancement (Willpower)</name>
+      <hide />
+    </power>
   </powers>
 </chummer>
