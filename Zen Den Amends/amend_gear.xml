@@ -224,6 +224,11 @@
 				</specificskill>
 			</bonus>
 		</gear>
+		<gear>
+			<name>Fuchi Cyber-Ex</name>
+			<rating>7</rating>
+			<programs>{Rating}</programs>
+		</gear>
 		<!-- Dongle Stuff -->
 		<!-- Heh heh heh... He said "Dongle" -->
 		<!-- Heh heh heh... Shut up Beevis -->
