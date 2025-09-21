@@ -24,6 +24,18 @@
       <id>edd8b53d-ada6-4106-b8ef-111b5cb1fb40</id>
       <hide />
     </power>
+    <power><!-- Improved Natural Armor -->
+      <name>Improved Natural Armor</name>
+      <hide />
+    </power>
+    <power><!-- Heavy Scales -->
+      <name>Heavy Scales</name>
+      <karma>15</karma>
+    </power>
+    <power><!-- Transcend Form -->
+      <name>Transcend Form</name>
+      <karma>5</karma>
+    </power>
     <power><!-- Additional Natural Weapons (Claws) -->
       <id>1c2b88fd-d2bb-4a82-ad8f-a51164ad34c9</id>
       <name>Natural Weapon (Claws)</name>

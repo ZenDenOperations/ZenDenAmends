@@ -251,6 +251,7 @@
 				<disablecyberwaregrade>Betaware (Adapsin)</disablecyberwaregrade>
 				<disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
 			</bonus>
+			<notes>May make a Regeneration test (BOD+MAG, heals Stun/Physical equal to net hits) every hour.</notes>
 			<source>ZDR</source>
 			<page>0</page>
 		</power>
@@ -288,8 +289,318 @@
 				<disablecyberwaregrade>Betaware (Adapsin)</disablecyberwaregrade>
 				<disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
 			</bonus>
+			<notes>Heals 1 stun or physical damage box every Combat Turn.</notes>
 			<source>ZDR</source>
 			<page>0</page>
+		</power>
+		<power>
+			<id>76b4aa97-3c07-48f5-83b8-b5827db4e4fa</id>
+			<name>Draconic Attunement</name>
+			<category>Drake</category>
+			<type>M</type>
+			<action>Auto</action>
+			<range>Self</range>
+			<duration>Special</duration>
+			<karma>0</karma>
+			<bonus>
+				<selectquality>
+				<quality contributetobp="True" forced="True">360-degree Eyesight</quality>
+				<quality contributetobp="True" forced="True">Animal Pelage (Quills)</quality>
+				<quality contributetobp="True" forced="True">Animal Pelage (Insulating Pelt)</quality>
+				<quality contributetobp="True" forced="True">Animal Pelage (Camo Fur)</quality>
+				<quality contributetobp="True" forced="True">Arcane Arrester</quality>
+				<quality contributetobp="True" forced="True">Balance Receptor</quality>
+				<quality contributetobp="True" forced="True">Beak</quality>
+				<quality contributetobp="True" forced="True">Raptor Beak)</quality>
+				<quality contributetobp="True" forced="True">Bicardiac</quality>
+				<quality contributetobp="True" forced="True">Biosonar)</quality>
+				<quality contributetobp="True" forced="True">Bone Spikes</quality>
+				<quality contributetobp="True" forced="True">Broadened Auditory System (Infrasound)</quality>
+				<quality contributetobp="True" forced="True">Broadened Auditory System (Ultrasound)</quality>
+				<quality contributetobp="True" forced="True">Camouflage</quality>
+				<quality contributetobp="True" forced="True">Dynamic Coloration</quality>
+				<quality contributetobp="True" forced="True">Celerity</quality>
+				<quality contributetobp="True" forced="True">Claws</quality>
+				<quality contributetobp="True" forced="True">Razor Claws</quality>
+				<quality contributetobp="True" forced="True">Retractable Claws</quality>
+				<quality contributetobp="True" forced="True">Climate Adaptation (Arctic)</quality>
+				<quality contributetobp="True" forced="True">Climate Adaptation (Desert)</quality>
+				<quality contributetobp="True" forced="True">Corrosive Spit</quality>
+				<quality contributetobp="True" forced="True">Dermal Alteration (Blubber)</quality>
+				<quality contributetobp="True" forced="True">Dermal Alteration (Dragon Skin)</quality>
+				<quality contributetobp="True" forced="True">Defensive Secretion</quality>
+				<quality contributetobp="True" forced="True">Electroception (Electrosense)</quality>
+				<quality contributetobp="True" forced="True">Electroception (Technosense)</quality>
+				<quality contributetobp="True" forced="True">Elongated Limbs</quality>
+				<quality contributetobp="True" forced="True">Fangs</quality>
+				<quality contributetobp="True" forced="True">Frog Tongue</quality>
+				<quality contributetobp="True" forced="True">Functional Tail (Balance)</quality>
+				<quality contributetobp="True" forced="True">Functional Tail (Paddle)</quality>
+				<quality contributetobp="True" forced="True">Functional Tail (Prehensile)</quality>
+				<quality contributetobp="True" forced="True">Functional Tail (Thagomizer)</quality>
+				<quality contributetobp="True" forced="True">Gills (Full)</quality>
+				<quality contributetobp="True" forced="True">Glamour</quality>
+				<quality contributetobp="True" forced="True">Greasy Skin</quality>
+				<quality contributetobp="True" forced="True">Goring Horns</quality>
+				<quality contributetobp="True" forced="True">Keen-Eared</quality>
+				<quality contributetobp="True" forced="True">Larger Tusks</quality>
+				<quality contributetobp="True" forced="True">Magic Sense</quality>
+				<quality contributetobp="True" forced="True">Magnetoception</quality>
+				<quality contributetobp="True" forced="True">Marsupial Pouch</quality>
+				<quality contributetobp="True" forced="True">Monkey Paws</quality>
+				<quality contributetobp="True" forced="True">Nasty Vibe</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Exhaled, Mild)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Exhaled, Moderate)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Exhaled, Serious)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Exhaled, Deadly)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Spat, Mild)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Spat, Moderate)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Spat, Serious)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Spat, Deadly)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Injected, Mild)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Injected, Moderate)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Injected, Serious)</quality>
+				<quality contributetobp="True" forced="True">Natural Venom (Injected, Deadly)</quality>
+				<quality contributetobp="True" forced="True">Ogre Stomach</quality>
+				<quality contributetobp="True" forced="True">Photometabolism</quality>
+				<quality contributetobp="True" forced="True">Proboscis</quality>
+				<quality contributetobp="True" forced="True">Setae</quality>
+				<quality contributetobp="True" forced="True">Shiva Arms (Pair)</quality>
+				<quality contributetobp="True" forced="True">Thermal Sensitivity</quality>
+				<quality contributetobp="True" forced="True">Thorns</quality>
+				<quality contributetobp="True" forced="True">Underwater Vision</quality>
+				<quality contributetobp="True" forced="True">Vomeronasal Organ</quality>
+				<quality contributetobp="True" forced="True">Webbed Digits</quality>
+				<quality contributetobp="True" forced="True">Regrowth</quality>
+				<quality contributetobp="True" forced="True">Electrogenesis</quality>
+				<quality contributetobp="True" forced="True">Ink</quality>
+				<quality contributetobp="True" forced="True">Functional Wings (Type I: Gliders)</quality>
+				<quality contributetobp="True" forced="True">Functional Wings (Type II: Functional Wings)</quality>
+				<quality contributetobp="True" forced="True">Functional Wings (Type III: Magical Flight)</quality>
+				</selectquality>
+			</bonus>
+			<required>
+						<oneof>
+						<quality>Dracoform (Eastern Drake)</quality>
+						<quality>Dracoform (Western Drake)</quality>
+						<quality>Dracoform (Feathered Drake)</quality>
+						<quality>Dracoform (Sea Drake)</quality>
+						</oneof>
+			</required>
+			<source>ZDR</source>
+			<page>1</page>
+		</power>
+		<power>
+			<id>7d700231-5eec-447a-a4f2-319b9036ec03</id>
+			<name>Accelerated</name>
+			<category>Drake</category>
+			<type>P</type>
+			<action>Auto</action>
+			<range>Self</range>
+			<duration>Always</duration>
+			<karma>5</karma>
+			<bonus>
+				<walkmultiplier>
+				<category>Ground</category>
+				<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+				<category>Fly</category>
+				<val>1</val>
+				</walkmultiplier>
+				<walkmultiplier>
+				<category>Swim</category>
+				<val>1</val>
+				</walkmultiplier>
+			</bonus>
+			<karma>5</karma>
+			<notes>Only active in dracoform.</notes>
+			<source>ZDR</source>
+			<page>1</page>
+		</power>
+		<power>
+			<id>a264c505-e3cc-4f0d-8072-ad10cd28b527</id>
+			<name>Additional Elemental Attack</name>
+			<category>Drake</category>
+			<type>P</type>
+			<action>Complex</action>
+			<range>LOS</range>
+			<duration>Instant</duration>
+			<bonus>
+				<naturalweapon>
+					<name>Elemental Attack</name>
+					<reach>0</reach>
+					<damage>({MAG}*2)P</damage>
+					<ap>-({MAG})</ap>
+					<useskill>Spray Weapons</useskill>
+					<accuracy>Physical</accuracy>
+					<source>HS</source>
+					<page>163</page>
+				</naturalweapon>
+				<selecttext />
+			</bonus>
+			<karma>7</karma>
+			<source>ZDR</source>
+			<page>1</page>
+		</power>
+		<power>
+			<id>fe1b82ff-c6f7-49f1-b851-dcf248c2d042</id>
+			<name>Draconic Fury</name>
+			<category>Drake</category>
+			<rating>True</rating>
+			<type>P</type>
+			<action>Free</action>
+			<range>Self</range>
+			<duration>Special</duration>
+			<karma>18</karma>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Acts as an equivalent-rating Adrenaline Pump. Max rating 3.</notes>
+		</power>
+		<power>
+			<id>1f408b25-2df5-4ca9-8f88-a9fffbc36caa</id>
+			<name>Draconic Reflexes</name>
+			<category>Drake</category>
+			<type>P</type>
+			<action>Auto</action>
+			<range>Self</range>
+			<duration>Always</duration>
+			<bonus>
+			<initiativepass>1</initiativepass>
+			</bonus>
+			<karma>10</karma>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Dracoform-Only.
+			
+			You may want to have an Improvement set to remove these improvements when not in dracoform.
+			</notes>
+		</power>
+		<power>
+			<id>0d55c104-350c-466f-a994-f47def8d50fc</id>
+			<name>Elemental Resistance</name>
+			<category>Drake</category>
+			<type>P</type>
+			<action>Auto</action>
+			<range>Self</range>
+			<duration>Always</duration>
+			<bonus>
+				<selecttext xml="strings.xml" xpath="/chummer/elements/element" allowedit="True" />
+			</bonus>
+			<karma>10</karma>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>+MAG dice to resist damage of the chosen element. Must have an Elemental Attack of that element.</notes>
+		</power>
+		<power>
+			<id>de738d60-c326-4fcc-ba50-a2b74f2da3b9</id>
+			<name>Magnificent Specimen</name>
+			<category>Drake</category>
+			<type>P</type>
+			<action>Auto</action>
+			<range>Self</range>
+			<duration>Always</duration>
+			<bonus>
+				<selectattribute>
+					<val>1</val>
+				</selectattribute>
+			</bonus>
+			<karma>4</karma>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Dracoform-Only. Can only be applied to an attribute enhanced by your dracoform. 
+			
+			You may want to have an Improvement set to remove these improvements when not in dracoform.
+			</notes>
+		</power>
+		<power>
+			<id>6a9aed06-88b0-498b-910f-714a08e45955</id>
+			<name>Manifest Power</name>
+			<category>Drake</category>
+			<rating>True</rating>
+			<type>P</type>
+			<action>Free</action>
+			<range>Special</range>
+			<duration>Instant</duration>
+			<karma>2</karma>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Can only be applied to an attribute enhanced by your dracoform.</notes>
+		</power>
+		<power>
+			<id>b1fa64c2-c75f-484d-be78-434759084523</id>
+			<name>Monstrous Form (Exclusive)</name>
+			<category>Drake</category>
+			<type>M</type>
+			<action>Complex</action>
+			<range>Self</range>
+			<duration>Special</duration>
+			<karma>0</karma>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>
+			Monstrous Form provides +8 Hardened Armor, +3 STR/BOD (and +3 to STR/BOD augmax), +1 Reach, and +2 Physical/Stun CM boxes.
+			
+			The drake's base ground speeds are x2/x7/+2, and base flight speed is x3/x6/+2. 
+			
+			Elemental Attack becomes a Simple action. No armor, equipment, or non-geneware augmentations can be used. Fine manipulation suffers a -8 penalty.
+
+			A drake with this power can only transform into monstrous form.
+			</notes>
+		</power>
+		<power>
+			<id>af82b2a6-e26a-4334-a985-08fe1e74dd7b</id>
+			<name>Monstrous Form (Variable)</name>
+			<category>Drake</category>
+			<type>M</type>
+			<action>Complex</action>
+			<range>Self</range>
+			<duration>Special</duration>
+			<karma>20</karma>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>
+			Monstrous Form provides +8 Hardened Armor, +3 STR/BOD (and +3 to STR/BOD augmax), +1 Reach, and +2 Physical/Stun CM boxes.
+			
+			The drake's base ground speeds are x2/x7/+2, and base flight speed is x3/x6/+2. 
+			
+			Elemental Attack becomes a Simple action. No armor, equipment, or non-geneware augmentations can be used. Fine manipulation suffers a -8 penalty.
+
+			A drake with this power can use either basic Dracoform or Monstrous Form.
+			</notes>
+		</power>
+		<power>
+			<id>831569b2-0047-4841-b2ff-c6ba5eed7b58</id>
+			<name>Penetrating Natural Weapons</name>
+			<category>Drake</category>
+			<type>P</type>
+			<action>Auto</action>
+			<range>Self</range>
+			<duration>Always</duration>
+			<karma>7</karma>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Create the improved natural weapons manually.</notes>
+		</power>
+		<power>
+			<id>dba950dd-87e5-4eed-be71-8068a9c90887</id>
+			<name>Quicksilver Reflexes</name>
+			<category>Drake</category>
+			<rating>True</rating>
+			<type>P</type>
+			<action>Auto</action>
+			<range>Self</range>
+			<duration>Always</duration>
+			<bonus>
+			<initiativepass precedence="0">Rating</initiativepass>
+			</bonus>
+			<karma>6</karma>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Dracoform-Only.
+			
+			You may want to have an Improvement set to remove these improvements when not in dracoform.
+			</notes>
 		</power>
 	</powers>
 </chummer>

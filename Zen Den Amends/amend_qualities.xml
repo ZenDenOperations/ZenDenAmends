@@ -2906,8 +2906,8 @@
 					<power>Dual Natured</power>
 					<power>Shift (Dracoform)</power>
 					<power>Vestigial Wings</power>
-					<power rating="2">Hardened Armor</power>
-					<power rating="2">Hardened Mystic Armor</power>
+					<power rating="6">Hardened Armor</power>
+					<power rating="6">Hardened Mystic Armor</power>
 				</critterpowers>
 				<optionalpowers>
 					<optionalpower select="Fire">Elemental Attack</optionalpower>
@@ -2959,8 +2959,8 @@
 					<power>Dual Natured</power>
 					<power>Shift (Dracoform)</power>
 					<power>Vestigial Wings</power>
-					<power rating="2">Hardened Armor</power>
-					<power rating="2">Hardened Mystic Armor</power>
+					<power rating="6">Hardened Armor</power>
+					<power rating="6">Hardened Mystic Armor</power>
 				</critterpowers>
 				<optionalpowers>
 					<optionalpower select="Fire">Elemental Attack</optionalpower>
@@ -3007,8 +3007,8 @@
 					<power>Dual Natured</power>
 					<power>Shift (Dracoform)</power>
 					<power>Vestigial Wings</power>
-					<power rating="2">Hardened Armor</power>
-					<power rating="2">Hardened Mystic Armor</power>
+					<power rating="6">Hardened Armor</power>
+					<power rating="6">Hardened Mystic Armor</power>
 				</critterpowers>
 				<optionalpowers>
 					<optionalpower select="Fire">Elemental Attack</optionalpower>
@@ -3065,8 +3065,8 @@
 					<power>Dual Natured</power>
 					<power>Shift (Dracoform)</power>
 					<id>4cc3a1fa-acbe-4f05-a4b9-2fc3979bc467</id>
-					<power rating="2">Hardened Armor</power>
-					<power rating="2">Hardened Mystic Armor</power>
+					<power rating="6">Hardened Armor</power>
+					<power rating="6">Hardened Mystic Armor</power>
 				</critterpowers>
 				<optionalpowers>
 					<optionalpower select="Fire">Elemental Attack</optionalpower>
