@@ -636,6 +636,206 @@
 			</gears>
 		</gear>
 		<gear>
+			<id>a2ebc7fd-1c86-4432-bbf4-f1ee8d5cdaa1</id>
+			<name>Deck Optimization: Firewall</name>
+			<!-- Category was arbitrarily chosen btw -->
+			<category>Electronic Modification</category>
+			<rating>3</rating>
+			<source>ZDR</source>
+			<page>0</page>
+			<avail>0</avail>
+			<cost>0</cost>
+			<modfirewall>{Rating}</modfirewall>
+			<required>
+					<geardetails>
+						<category>Cyberdecks</category>
+					</geardetails>
+			</required>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+        </gear>
+		<gear>
+			<id>6a3a5374-4277-4d43-92ec-908ac9e93c0a</id>
+			<name>Deck Optimization: Data Processing</name>
+			<!-- Category was arbitrarily chosen btw -->
+			<category>Electronic Modification</category>
+			<rating>3</rating>
+			<source>ZDR</source>
+			<page>0</page>
+			<avail>0</avail>
+			<cost>0</cost>
+			<moddataprocessing>{Rating}</moddataprocessing>
+			<required>
+					<geardetails>
+						<category>Cyberdecks</category>
+					</geardetails>
+			</required>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+        </gear>
+		<gear>
+			<id>4bebac38-a795-47a5-8960-0acb8d68206e</id>
+			<name>Deck Optimization: Attack</name>
+			<!-- Category was arbitrarily chosen btw -->
+			<category>Electronic Modification</category>
+			<rating>3</rating>
+			<source>ZDR</source>
+			<page>0</page>
+			<avail>0</avail>
+			<cost>0</cost>
+			<modattack>{Rating}</modattack>
+			<required>
+					<geardetails>
+						<category>Cyberdecks</category>
+					</geardetails>
+			</required>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+        </gear>
+		<gear>
+			<id>a3470eb8-0d67-4628-9943-42cb8802233d</id>
+			<name>Deck Optimization: Sleaze</name>
+			<!-- Category was arbitrarily chosen btw -->
+			<category>Electronic Modification</category>
+			<rating>3</rating>
+			<source>ZDR</source>
+			<page>0</page>
+			<avail>0</avail>
+			<cost>0</cost>
+			<modsleaze>{Rating}</modsleaze>
+			<required>
+					<geardetails>
+						<category>Cyberdecks</category>
+					</geardetails>
+			</required>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+        </gear>
+		<gear>
+			<id>962761a3-9a22-48b0-a20a-f5d72058023b</id>
+			<name>Deck Optimization: Additional Cyberdeck Module</name>
+			<!-- Category was arbitrarily chosen btw -->
+			<category>Electronic Modification</category>
+			<rating>3</rating>
+			<source>ZDR</source>
+			<page>0</page>
+			<avail>0</avail>
+			<cost>0</cost>
+			<required>
+					<geardetails>
+						<category>Cyberdecks</category>
+					</geardetails>
+			</required>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+        </gear>
+		<gear>
+			<id>ebfbbd63-0976-4cc3-b181-e52b7d35d1c3</id>
+			<name>Deck Optimization: Additional Program Slot</name>
+			<!-- Category was arbitrarily chosen btw -->
+			<category>Electronic Modification</category>
+			<rating>3</rating>
+			<source>ZDR</source>
+			<page>0</page>
+			<avail>0</avail>
+			<cost>0</cost>
+			<required>
+					<geardetails>
+						<category>Cyberdecks</category>
+					</geardetails>
+			</required>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+        </gear>
+		<gear>
+			<id>4bcb0f79-fd56-440d-97ea-1c4fd163d67b</id>
+			<name>Deck Optimization: Noise Reduction</name>
+			<!-- Category was arbitrarily chosen btw -->
+			<category>Electronic Modification</category>
+			<rating>3</rating>
+			<source>ZDR</source>
+			<page>0</page>
+			<avail>0</avail>
+			<cost>0</cost>
+			<required>
+					<geardetails>
+						<category>Cyberdecks</category>
+					</geardetails>
+			</required>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+        </gear>
+		<gear>
 			<id>b3038c84-80c5-4de7-8a38-b3112aec4355</id>
 			<name>Fake Profession License</name>
 			<category>ID/Credsticks</category>
