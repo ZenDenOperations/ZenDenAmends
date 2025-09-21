@@ -2584,5 +2584,54 @@
 				effects of this action are applied before initiative is ordered for the first pass.
 			</notes>
 		</quality>
+		<quality>
+			<id>98ec991a-e414-41b7-bcd9-80ee48cf1fc5</id>
+			<name>Dracoform Minor Regeneration</name>
+			<karma>3</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Minor Regeneration</power>
+				</critterpowers>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<critterpower>Minor Regeneration</critterpower>
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+				<quality>Dracoform (Eastern Drake)</quality>
+				<quality>Dracoform (Western Drake)</quality>
+				<quality>Dracoform (Feathered Drake)</quality>
+				<quality>Dracoform (Sea Drake)</quality>
+				</oneof>
+			</required>
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>e204902f-1346-4fc9-aef1-04d3a2e6ebbf</id>
+			<name>Dracoform Lesser Regeneration</name>
+			<karma>6</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Lesser Regeneration</power>
+				</critterpowers>
+			</bonus>
+			<forbidden>
+				<critterpower>Lesser Regeneration</critterpower>
+			</forbidden>
+			<required>
+				<allof>
+					<quality>Dracoform Minor Regeneration</quality>
+				</allof>
+			</required>
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
 	</qualities>
 </chummer>
