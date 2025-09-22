@@ -140,25 +140,6 @@
 			</required>
 		</quality>
 		<quality>
-			<id>9f02d7f6-6fe3-4a9c-8c0e-83ae788f1985</id>
-			<name>Arcane Bodyguard</name>
-			<required amendoperation="replace">
-				<oneof>
-					<quality>Aware</quality>
-					<quality>Adept</quality>
-					<quality>Magician</quality>
-					<quality>Mystic Adept</quality>
-				</oneof>
-				<allof>
-					<skill>
-						<name>Counterspelling</name>
-						<val>4</val>
-						<metamagic>Harmonious Defense</metamagic>
-					</skill>
-				</allof>
-			</required>
-		</quality>
-		<quality>
 			<id>ec302d7a-1955-43bb-9c1f-2c32da7ca8c0</id>
 			<name>Arcane Improviser</name>
 			<required amendoperation="replace">
@@ -1343,24 +1324,6 @@
 					<quality>Adept</quality>
 					<quality>Magician</quality>
 					<quality>Mystic Adept</quality>
-				</oneof>
-			</required>
-		</quality>
-		<quality>
-			<id>632aebb2-e6f2-4b38-81c7-be494964c614</id>
-			<name>Spell Jammer</name>
-			<required amendoperation="replace">
-				<oneof>
-					<quality>Aware</quality>
-					<quality>Adept</quality>
-					<quality>Magician</quality>
-					<quality>Mystic Adept</quality>
-				</oneof>
-				<oneof>
-					<skill>
-						<name>Counterspelling</name>
-						<val>6</val>
-					</skill>
 				</oneof>
 			</required>
 		</quality>
