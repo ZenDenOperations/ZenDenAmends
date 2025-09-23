@@ -35,7 +35,7 @@
     </quality>
     <quality>
       <name>Local Bar Patron</name>
-      <cost>10000</cost>
+      <cost amendoperation="remove">
     </quality>
     <quality>
       <name>Sports Court - Small</name>
