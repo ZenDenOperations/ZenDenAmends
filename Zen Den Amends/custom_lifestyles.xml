@@ -348,5 +348,178 @@
         </allof>
       </required>
     </quality>
+    <quality>
+      <id>ff1e7256-8ec7-4f71-8de3-e0f74060ba4a</id>
+      <name>Garage (Boat (Body 11 or higher))</name>
+      <category>Entertainment - Asset</category>
+      <lp>2</lp>
+      <cost>1500</cost>
+      <allowed>High,Luxury</allowed>
+      <allowmultiple />
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>677b3688-60c4-4cea-b9dc-bf4a16849764</id>
+      <name>Cramped Garage (Boat (Body 11 or higher))</name>
+      <category>Entertainment - Asset</category>
+      <lp>2</lp>
+      <cost>1350</cost>
+      <allowed>High,Luxury</allowed>
+      <allowmultiple />
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>25b5f277-f0cc-471b-ae16-c95d3066c283</id>
+      <name>Personal runway for non-Vtol</name>
+      <category>Entertainment - Asset</category>
+      <lp>1</lp>
+      <cost>2000</cost>
+      <allowed>Luxury</allowed>
+      <allowmultiple />
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>b53260a9-12f3-401d-9cf7-db8a975e4f79</id>
+      <name>Personal ManaLine (R1)</name>
+      <category>Entertainment - Asset</category>
+      <lp>2</lp>
+      <cost>2500</cost>
+      <allowed>Medium,High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>2ef144c5-5810-440c-85f5-5d497ecd75a4</id>
+      <name>Personal ManaLine (R2)</name>
+      <category>Entertainment - Asset</category>
+      <lp>3</lp>
+      <cost>5000</cost>
+      <allowed>High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>e12bc78d-72d9-4a2d-bd43-cdf747a56cd2</id>
+      <name>Personal ManaLine (R3)</name>
+      <category>Entertainment - Asset</category>
+      <lp>3</lp>
+      <cost>10000</cost>
+      <allowed>Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>3cfa5341-d58d-4151-9e51-fd8cc8880e06</id>
+      <name>Resonance Well (R1)</name>
+      <category>Entertainment - Asset</category>
+      <lp>2</lp>
+      <cost>2500</cost>
+      <allowed>Medium,High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>c372db81-59f2-4e1d-a01d-7ddf509820a0</id>
+      <name>Resonance Well (R2)</name>
+      <category>Entertainment - Asset</category>
+      <lp>3</lp>
+      <cost>5000</cost>
+      <allowed>High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>666fc13e-9f50-4a1d-b7fc-638d8d9ee753</id>
+      <name>Resonance Well (R3)</name>
+      <category>Entertainment - Asset</category>
+      <lp>3</lp>
+      <cost>10000</cost>
+      <allowed>Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>1dfab628-4cc3-46e9-8184-ac0dee9e00af</id>
+      <name>Feng Shui (R1)</name>
+      <category>Entertainment - Asset</category>
+      <lp>2</lp>
+      <cost>2500</cost>
+      <allowed>Medium,High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>d8c0b30b-c465-45a5-b991-87969e3d72e1</id>
+      <name>Feng Shui (R2)</name>
+      <category>Entertainment - Asset</category>
+      <lp>3</lp>
+      <cost>5000</cost>
+      <allowed>High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>de04771b-f88b-4344-8bfc-dd5ae5790545</id>
+      <name>Feng Shui (R3)</name>
+      <category>Entertainment - Asset</category>
+      <lp>3</lp>
+      <cost>10000</cost>
+      <allowed>Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>e06e2768-0ed4-46c1-b80f-18e6248d7667</id>
+      <name>Astral repellant</name>
+      <category>Entertainment - Asset</category>
+      <lp>2</lp>
+      <cost>2000</cost>
+      <allowed>Low,Medium,High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>faedb301-1c63-4dab-9435-40e2d62941d4</id>
+      <name>Free Access</name>
+      <category>Entertainment - Asset</category>
+      <lp>2</lp>
+      <cost>2000</cost>
+      <allowed>Low,Medium,High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>bfb566df-3ec4-4912-b8b7-a31afba71cbc</id>
+      <name>Friendly Neighbours</name>
+      <category>Entertainment - Asset</category>
+      <lp>1</lp>
+      <cost />
+      <allowed>Street,Squatter,Low,Medium,High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>9ea321bb-3ea5-422f-b606-9b195464a341</id>
+      <name>Critter Friendly adaptation</name>
+      <category>Entertainment - Asset</category>
+      <lp>1</lp>
+      <cost>1000</cost>
+      <allowed>Street,Squatter,Low,Medium,High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>e420cb4d-6415-4624-a133-6b27c9452d34</id>
+      <name>Well made</name>
+      <category>Entertainment - Asset</category>
+      <lp>1</lp>
+      <cost />
+      <allowed>Low,Medium,High,Luxury</allowed>
+      <source>ZDR</source>
+      <page>1</page>
+    </quality>	
  </qualities>
 </chummer>
