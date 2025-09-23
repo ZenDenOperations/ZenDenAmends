@@ -63,6 +63,10 @@
 					<martialart>Way of Unified Mana (Hapsum-Do)</martialart>
 					<quality>Adept</quality>
 				</allof>
+				<oneof>
+					<power>Astral Perception</power>
+					<critterpower>Dual Natured</critterpower>
+				</oneof>
 			</required>
 		</metamagic>
 		<metamagic>
