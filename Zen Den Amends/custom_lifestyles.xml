@@ -496,7 +496,6 @@
       <name>Friendly Neighbours</name>
       <category>Entertainment - Asset</category>
       <lp>1</lp>
-      <cost />
       <allowed>Street,Squatter,Low,Medium,High,Luxury</allowed>
       <source>ZDR</source>
       <page>1</page>
@@ -516,8 +515,7 @@
       <name>Well made</name>
       <category>Entertainment - Asset</category>
       <lp>1</lp>
-      <cost />
-      <allowed>Low,Medium,High,Luxury</allowed>
+      <allowed>Medium,High,Luxury</allowed>
       <source>ZDR</source>
       <page>1</page>
     </quality>	
