@@ -38,11 +38,6 @@
       <cost amendoperation="remove">
     </quality>
     <quality>
-      <name>Armory</name>
-      <lp>2</lp>
-      <cost>1000</cost>
-    </quality>
-    <quality>
       <name>Sports Court - Small</name>
       <lp>2</lp>
       <cost>1000</cost>
