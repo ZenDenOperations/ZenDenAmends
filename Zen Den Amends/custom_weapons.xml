@@ -186,7 +186,7 @@
       <cost>0</cost>
       <accuracy>1</accuracy>
       <rating>0</rating>
-      <source>DM</source>
+      <source>ZDR</source>
       <page>0</page>
       <required>
         <oneof>
@@ -247,7 +247,7 @@
         </weapondetails>
       </forbidden>
       <rating>0</rating>
-      <source>DM</source>
+      <source>ZDR</source>
       <page>0</page>
     </accessory>
     <accessory>
@@ -267,7 +267,7 @@
       </required>
       <forbidden />
       <rating>0</rating>
-      <source>DM</source>
+      <source>ZDR</source>
       <page>0</page>
     </accessory>
     <accessory>
@@ -313,7 +313,7 @@
         </weapondetails>
       </forbidden>
       <rating>0</rating>
-      <source>DM</source>
+      <source>ZDR</source>
       <page>0</page>
     </accessory>
     <accessory>
@@ -338,7 +338,7 @@
         </weapondetails>
       </forbidden>
       <rating>0</rating>
-      <source>DM</source>
+      <source>ZDR</source>
       <page>0</page>
     </accessory>
     <accessory>
@@ -363,7 +363,7 @@
         </weapondetails>
       </forbidden>
       <rating>0</rating>
-      <source>DM</source>
+      <source>ZDR</source>
       <page>0</page>
       <notes>Can NOT be applied to grenades!</notes>
     </accessory>
