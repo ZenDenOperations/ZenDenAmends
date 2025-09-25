@@ -1094,8 +1094,8 @@
 			<category>Positive</category>
 			<metagenic>True</metagenic>
 			<bonus>
-		        <physicalcmrecovery>2</physicalcmrecovery>
-		        <stuncmrecovery>2</stuncmrecovery>
+				<physicalcmrecovery>2</physicalcmrecovery>
+				<stuncmrecovery>2</stuncmrecovery>
 			</bonus>
 			<source>6e</source>
 			<page>1</page>
@@ -1396,6 +1396,225 @@ Individuals have widened upper aural helices, often with some adjustment to the 
 			<notes>It’s one thing to be bald, another to be hairless. This individual no longer has any hair or hair follicles anywhere on their body (though skin pores do exist). This affects the entire dermal biome and overall appearance. Sweating is more difficult, and social engagements with metahumans can be awkward. First social encounters with metahumans are done with a –1 dice pool modifier. The individual also shows up more easily on thermographic vision and thermal sensors, giving +1 for Perception tests to see them. Incompatible with Hair based bioware or cyberware.
 			</notes>
 		</quality>
-		
+		<quality>
+			<id>89654866-19c4-4f2d-be92-6961e095b1ba</id>
+			<name>Living Hair</name>
+			<karma>4</karma>
+			<category>Positive</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Your hair is made up of tendrils, tentacles, snakes or some other wriggly things (up to you). It flows and moves like a living organism and while you have limited control over it, it also seems to have a mind of its own, acting involuntarily based on your subconscious.
+Your hair can hold onto items but it has difficulty with fine manipulation. Apply a -6 dice modifier to any attempt at fine manipulation of an object with your hair, such as pressing a button, pulling a trigger or making an attack. Your Living Hair has an effective Strength equal to half the character's unaugmented strength and Agility equal to  the character’s unaugmented agility (rounded down) and a Reach of -1. Living Hair does not provide any extra attacks. If you have the Natural Venom quality (RF 117), the venom can be administered via stinger cells at the end of your Living Hair as an Injection Vector.
+Physical or emotional stress can cause your Living Hair to react unpredictably, forcing you to make a Composure (3) Test (SR5 152). Failing the test will cause the hair to lash out and try to attack anyone nearby (preferably the cause of the stress), injecting any venom if available. The hair doesn’t suffer from the -6 dice penalty and has 6 ranks in Unarmed when making this attack. This can cause surrounding people to react negatively or with outright hostility.
+Characters with this quality will normally incur social modifiers (Freaks sidebar, RF 123). However, when making an Intimidation test, you don’t suffer from Freak Modifiers, instead you gain a +1 dice bonus as long as your Living Hair is fully visible. This quality is incompatible with any other natural or artificial hair modifications such as Feathers (RF 120) or Mood Hair (RF 121).
+			</notes>
+		</quality>
+		<quality>
+			<id>5ca478e1-302d-4004-820d-839be03b919fa</id>
+			<name>Slime Glands</name>
+			<karma>1</karma>
+			<category>Positive</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<specificskill>
+					<name>Escape Artist</name>
+					<bonus>2</bonus>
+				</specificskill>
+			</bonus>
+			<notes>The character has developed cutaneous mucous glands. The character gains +2 dice bonus to Escape Artists tests. Additionally, when making defense tests to avoid being Subdued (SR5 195) or Clinched (RF 119) as well as tests made to escape Subdue or Clinch, the character gains a +2 dice bonus. If the character has the Natural Venom quality (RF 117), the venom can be secreted as a Contact Vector Toxin via the cutaneous slime.
+The character leaves slime wherever they go. Not a lot, but just enough to be noticeable and disgusting. Characters with this quality will normally incur social modifiers (Freaks sidebar, RF 123). Moreover, any test to Clinch, Subdue, Climb and maintain a grip on things is made at a -2 dice penalty. It’s also almost impossible to not leave some genetic marker behind. Matrix Search tests and other tests to identify or locate the character are made with a +1 die bonus. This quality is incompatible with Dermal Alteration (RF 113) or artificial skin modifications, but is compatible with other natural skin modifications such as Dermal Deposits or Defensive Secretion (RF 114).
+			</notes>
+		</quality>
+		<quality>
+			<id>2f8cdbba-5019-4cdd-9838-e248dce2196d</id>
+			<name>Brachycephalic Syndrome</name>
+			<karma>4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<skillcategory>
+					<name>Physical Active</name>
+					<bonus>-2</bonus>
+				</skillcategory>
+				<specificskill>
+					<name>Perception</name>
+					<bonus>-1</bonus>
+					<condition>Olfactory</condition>
+				</specificskill>
+			</bonus>
+			<notes>Characters with this quality have a nose similar to an old flat vid villain, snake or pug. Due to this deformity, they have trouble breathing, can’t keep a partner for snoring and wheezing, and physical activity is more difficult for them.
+The character takes a -2 dice penalty to all Physical Active Skills. The character also suffers an added -1 dice penalty to olfactory Perception tests. Finally, fatigue DV from running (SR5 172) is increased by a cumulative +1S, every time you make a fatigue resistance test for running. Characters with this quality will normally incur social modifiers (Freaks sidebar, RF 123).
+			</notes>
+		</quality>
+		<quality>
+			<id>1be0f544-89f0-4a32-8613-f2a57d464140</id>
+			<name>Demonic Features</name>
+			<karma>-6</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<addqualities>
+				<addquality>Distinctive Style</addquality>
+			</addqualities>
+			<notes>You have unfortunately developed multiple features that resemble demons as portrayed by many cultures. The features can be fangs, horns, wings, tail, etc. Whatever they may be, they are cosmetic only, and provide no mechanical benefit unless an appropriate quality is also chosen. Characters with this quality will normally incur social modifiers (Freaks sidebar, RF 123) as well as the effects of the Distinctive Style quality (SR5 80).
+It also causes the character to suffer the Hostile (SR5 140) social modifier when encountering any religious NPCs. The NPC may outrightly refuse to deal with this character or even act with hostility. If drawn into combat, such people may attack the character first (to remove the apparent evil).
+			</notes>
+		</quality>
+		<quality>
+			<id>6869ccbc-77e0-4cfd-877d-fe3ca0d4f072</id>
+			<name>Diurnal</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>All Mental attributes are reduced by 1 during night hours (after sunset, before sunrise) due to weariness.
+			</notes>
+		</quality>
+		<quality>
+			<id>42d83893-32ab-464e-b47b-31e750c2ea8d</id>
+			<name>Excessive Molting</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<lifestylecost>20</lifestylecost>
+			</bonus>
+			<notes>You shed your skin, scales, or fur with alarming regularity. The process is uncomfortable and happens during days least predicted. At the beginning of each run, you must make a Body (2) test to see if you start molting. If you fail this roll, you suffer a -1 die penalty to all skill tests for the length of the run due to discomfort of your skin slowly molting throughout the entire run. In addition, your skin requires special care and maintenance to avoid infections, increasing your lifestyle cost by +20%.
+			</notes>
+		</quality>
+		<quality>
+			<id>d0792966-ab70-4aef-86b8-84963274de88</id>
+			<name>Intermittent Hibernation</name>
+			<karma>-8</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<lifestylecost>10</lifestylecost>
+			</bonus>
+			<notes>Your genetic template includes something that enters regular hibernation, unfortunately, that’s crossed with your metahuman DNA, leading to a massive appetite and outrageous sleeping habits. You suffer a 10% increase in lifestyle costs, and lose one Monthly Focus.
+			</notes>
+		</quality>
+		<quality>
+			<id>3e1d5d52-782b-428b-9e97-b5e4ea73ff54</id>
+			<name>Muzzle</name>
+			<karma>-4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>Your nose and lips are much closer to that of an animal. Your jaws are elongated, making your mouth look like an animal muzzle. This slightly impedes your ability to speak, such as having difficulty pronouncing some words. Any Skill Test involving speech takes a -1 die penalty. Characters with this quality will normally incur social modifiers (Freaks sidebar, RF 123).
+On the plus side, if you have the Fangs quality (RF 115), the Accuracy of your fangs is improved by +1. This quality is incompatible with the bioware modification Muzzle (CF 121).
+			</notes>
+		</quality>
+		<quality>
+			<id>443cca52-ec48-426a-9de7-6644c30de99f</id>
+			<name>Necrotic Flesh</name>
+			<karma>-8</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<physicalcmrecovery>-3</physicalcmrecovery>
+				<stuncmrecovery>-3</stuncmrecovery>
+				<conditionmonitor>
+					<thresholdoffset>2</thresholdoffset>
+				</conditionmonitor>
+			</bonus>
+			<notes>You embody death and decay, creatures that feed on carrion regularly call you their home. You resemble something akin to a traditional, decomposing zombie with a stench of decay. Only the strongest of will and stomach can take more than a short conversation in your presence. Any person within conversation distance of you will need to take a Composure (2) test to remain in your presence. If they fail, they will move away from you out of disgust and you will suffer an additional -3 dice penalty to all Social tests against that person. Your necrotic flesh makes healing difficult as your own immune system fights off any attempts to heal. All Healing tests performed on you, including natural healing are done at a -3 dice penalty.
+On the plus side, you feel less pain and can ignore two additional boxes of damage when calculating Wound Modifiers (SR5 169). Characters with this quality will normally incur social modifiers (Freaks sidebar, RF 123).
+			</notes>
+		</quality>
+		<quality>
+			<id>788cf922-b697-4625-a778-bb06cab04752</id>
+			<name>Reptilian Auditory Apparatus</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<specificskill>
+				<name>Perception</name>
+				<bonus>-3</bonus>
+				<condition>Hearing</condition>
+			</specificskill>
+			<notes>The character no longer has earlobes common to metahumans. Instead, their auditory organs formed like those of a lizard. They cannot wear eyeglasses, for they have no ears upon which to rest the temples. However, a metahuman is not a lizard and though the hearing of a reptile is generally known to be rather good, it doesn’t translate well for the character.
+Any test involving hearing takes a -3 dice penalty. The character’s hearing cannot be repaired or corrected (even with cyber ears) due to the internal differences of a normal metahuman ear and the character’s. Characters with this quality will normally incur social modifiers (Freaks sidebar, RF 124).
+			</notes>
+		</quality>
+		<quality>
+			<id>c77e96d8-5290-48e7-8d0f-18690d4ec6dd</id>
+			<name>Spirit Blight</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<notes>For some reason, you are an anathema to all spirit kind. Similar to Spirit Bane (SR5 85), a character with this quality really pisses off spirits, of all kinds. Any spirit within five meters of the character, that has not been summoned by them, reacts with hostility towards the character. Spirits will always use lethal force against characters with the Spirit Blight quality.
+A character with this quality has a difficult time summoning or binding spirits and in combat an opposing spirit will seek her out and attempt to destroy the character first.
+
+The character suffers a -2 dice pool modifier to summon or bind spirits. If the character tries to banish a spirit, the spirit receives a +2 dice pool modifier for resisting their attempt. Spirit Blight is compatible with the Spirit Bane quality and the penalties stack.
+			</notes>
+		</quality>
+		<quality>
+			<id>12edea09-93c7-40e9-893d-687884647d26</id>
+			<name>Stubby Legs</name>
+			<karma>4</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<bonus>
+				<skillgroup>
+					<name>Athletics</name>
+					<bonus>-1</bonus>
+				</skillgroup>
+				<walkmultiplier>
+					<category>Ground</category>
+					<val>0.5</val>
+				</walkmultiplier>
+				<runmultiplier>
+					<category>Ground</category>
+					<val>0.5</val>
+				</runmultiplier>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<quality>Albinism</quality>
+				</oneof>
+			</forbidden>
+			<notes>Instead of normal leg length, the character has stubby legs resulting from skeletal dysplasia. The character suffers a -1 penalty for the Athletics skill group. Additionally, their movement speed is halved. This quality is incompatible with any other quality that modifies movement speed.
+			</notes>
+		</quality>
+		<quality>
+			<id>b1ddc4b2-2954-4ba0-9a15-2963d44f79f4</id>
+			<name>Translucent skin</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<metagenic>True</metagenic>
+			<source>ZDR</source>
+			<page>1</page>
+			<forbidden>
+				<oneof>
+					<quality>Albinism</quality>
+				</oneof>
+			</forbidden>
+			<notes>This is like albinism, but worse. Instead of a simple lack of pigment, the skin is translucent. The veins of the character are clearly visible, giving their skin a blue tint. Like an albino, their skin and hair have a complete lack of pigment, resulting in pink or crystal blue irises and bright red pupils with pure white hair.
+They face a Weak Glare penalty (SR5 175) to all actions when working in regular indoor lighting or an overcast day, and a Moderate Glare penalty when working on a sunny day. All other Glare modifiers are increased by one level. Normal compensation methods work to mitigate the modifiers.
+Due to the lack of protective pigmentation, they suffer sunburn more quickly and harshly. Halve the duration between resistance tests when exposed to the sun for extended periods and increase the base DV by 1 as per the Sunburn rules (RG 147).
+Characters with this quality will normally incur social modifiers (Freaks sidebar, RF 123). This quality is incompatible with Albinism (RF 151) or any other natural or artificial skin modification.
+			</notes>
+		</quality>
 	</qualities>
 </chummer>
