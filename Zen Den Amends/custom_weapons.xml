@@ -1379,9 +1379,9 @@
       <range>Flamethrowers</range>
       <cyberware>True</cyberware>
       <hide />
-    </weapon>	  
+    </weapon>
     <weapon>
-      <id>be544ba0-bc14-472c-81f9-b72999621769</id>
+      <id>0df03a3e-5091-4b95-8e65-05c33610d40a</id>
       <name>Electrogenesis</name>
       <category>Unarmed</category>
       <type>Melee</type>
@@ -1401,5 +1401,3 @@
     </weapon>
   </weapons>
 </chummer>
-
-
