@@ -3214,8 +3214,16 @@
 				<unlockskills name="Counterspelling">Name</unlockskills>
 			</bonus>
 		</quality>
+		<quality>
+			<name>Albinism</name>
+			<forbidden>
+				<oneof>
+					<quality>Translucent Skin</quality>
+				</oneof>
+			</forbidden>
 	</qualities>
 </chummer>
+
 
 
 
