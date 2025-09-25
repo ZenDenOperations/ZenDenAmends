@@ -1379,7 +1379,27 @@
       <range>Flamethrowers</range>
       <cyberware>True</cyberware>
       <hide />
+    </weapon>	  
+    <weapon>
+      <id>be544ba0-bc14-472c-81f9-b72999621769</id>
+      <name>Electrogenesis</name>
+      <category>Unarmed</category>
+      <type>Melee</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>{BOD}P</damage>
+      <ap>-5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>6e</source>
+      <page>1</page>
+      <hide />
     </weapon>
   </weapons>
 </chummer>
+
 
