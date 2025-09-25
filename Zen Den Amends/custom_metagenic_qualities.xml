@@ -1599,7 +1599,7 @@ The character suffers a -2 dice pool modifier to summon or bind spirits. If the 
 		</quality>
 		<quality>
 			<id>b1ddc4b2-2954-4ba0-9a15-2963d44f79f4</id>
-			<name>Translucent skin</name>
+			<name>Translucent Skin</name>
 			<karma>-10</karma>
 			<category>Negative</category>
 			<metagenic>True</metagenic>
