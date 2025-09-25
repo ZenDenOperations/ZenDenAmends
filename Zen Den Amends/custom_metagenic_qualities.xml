@@ -1397,7 +1397,7 @@ Individuals have widened upper aural helices, often with some adjustment to the 
 			</notes>
 		</quality>
 		<quality>
-			<id>a226e003-6743-4bde-affc-9e2eb159d2a4</id>
+			<id>b2b94039-8bf2-430a-a02f-d111c0aababb</id>
 			<name>Living Hair</name>
 			<karma>4</karma>
 			<category>Positive</category>
@@ -1411,7 +1411,7 @@ Characters with this quality will normally incur social modifiers (Freaks sideba
 			</notes>
 		</quality>
 		<quality>
-			<id>5ca478e1-302d-4004-820d-839be03b919fa</id>
+			<id>5fb897ea-b370-4b0f-bf78-00b7a8e50ba4</id>
 			<name>Slime Glands</name>
 			<karma>1</karma>
 			<category>Positive</category>
@@ -1429,7 +1429,7 @@ The character leaves slime wherever they go. Not a lot, but just enough to be no
 			</notes>
 		</quality>
 		<quality>
-			<id>2f8cdbba-5019-4cdd-9838-e248dce2196d</id>
+			<id>929dd5e8-dc93-4076-b041-2b6a71188298</id>
 			<name>Brachycephalic Syndrome</name>
 			<karma>4</karma>
 			<category>Negative</category>
@@ -1452,7 +1452,7 @@ The character takes a -2 dice penalty to all Physical Active Skills. The charact
 			</notes>
 		</quality>
 		<quality>
-			<id>1be0f544-89f0-4a32-8613-f2a57d464140</id>
+			<id>00d3e0dd-2db0-4420-a7e7-dd6306024980</id>
 			<name>Demonic Features</name>
 			<karma>-6</karma>
 			<category>Negative</category>
@@ -1467,7 +1467,7 @@ It also causes the character to suffer the Hostile (SR5 140) social modifier whe
 			</notes>
 		</quality>
 		<quality>
-			<id>6869ccbc-77e0-4cfd-877d-fe3ca0d4f072</id>
+			<id>6589aeee-c36d-4f7c-a66c-32e4109d450e</id>
 			<name>Diurnal</name>
 			<karma>-5</karma>
 			<category>Negative</category>
@@ -1478,7 +1478,7 @@ It also causes the character to suffer the Hostile (SR5 140) social modifier whe
 			</notes>
 		</quality>
 		<quality>
-			<id>42d83893-32ab-464e-b47b-31e750c2ea8d</id>
+			<id>9c255b1e-39d4-4c9a-8f26-747d9056a2d2</id>
 			<name>Excessive Molting</name>
 			<karma>-10</karma>
 			<category>Negative</category>
@@ -1492,7 +1492,7 @@ It also causes the character to suffer the Hostile (SR5 140) social modifier whe
 			</notes>
 		</quality>
 		<quality>
-			<id>d0792966-ab70-4aef-86b8-84963274de88</id>
+			<id>4d3994a1-1c8c-4abe-867d-3eebbc211595</id>
 			<name>Intermittent Hibernation</name>
 			<karma>-8</karma>
 			<category>Negative</category>
@@ -1506,7 +1506,7 @@ It also causes the character to suffer the Hostile (SR5 140) social modifier whe
 			</notes>
 		</quality>
 		<quality>
-			<id>3e1d5d52-782b-428b-9e97-b5e4ea73ff54</id>
+			<id>b747ed18-9ecc-45bd-ab79-b0fcd1469410</id>
 			<name>Muzzle</name>
 			<karma>-4</karma>
 			<category>Negative</category>
@@ -1518,7 +1518,7 @@ On the plus side, if you have the Fangs quality (RF 115), the Accuracy of your f
 			</notes>
 		</quality>
 		<quality>
-			<id>443cca52-ec48-426a-9de7-6644c30de99f</id>
+			<id>0111dd1f-f2e0-496d-ac41-a8305da42a95</id>
 			<name>Necrotic Flesh</name>
 			<karma>-8</karma>
 			<category>Negative</category>
@@ -1537,7 +1537,7 @@ On the plus side, you feel less pain and can ignore two additional boxes of dama
 			</notes>
 		</quality>
 		<quality>
-			<id>788cf922-b697-4625-a778-bb06cab04752</id>
+			<id>953836aa-37c0-4794-bcdb-494de917179a</id>
 			<name>Reptilian Auditory Apparatus</name>
 			<karma>-5</karma>
 			<category>Negative</category>
@@ -1554,7 +1554,7 @@ Any test involving hearing takes a -3 dice penalty. The character’s hearing ca
 			</notes>
 		</quality>
 		<quality>
-			<id>c77e96d8-5290-48e7-8d0f-18690d4ec6dd</id>
+			<id>9845b740-7fa4-4672-a531-a8d4813c1d71</id>
 			<name>Spirit Blight</name>
 			<karma>-10</karma>
 			<category>Negative</category>
@@ -1568,7 +1568,7 @@ The character suffers a -2 dice pool modifier to summon or bind spirits. If the 
 			</notes>
 		</quality>
 		<quality>
-			<id>12edea09-93c7-40e9-893d-687884647d26</id>
+			<id>ac6df19e-9035-464b-a392-bb108fe7d88f</id>
 			<name>Stubby Legs</name>
 			<karma>4</karma>
 			<category>Negative</category>
@@ -1582,11 +1582,11 @@ The character suffers a -2 dice pool modifier to summon or bind spirits. If the 
 				</skillgroup>
 				<walkmultiplier>
 					<category>Ground</category>
-					<val>0.5</val>
+					<val>-1</val>
 				</walkmultiplier>
 				<runmultiplier>
 					<category>Ground</category>
-					<val>0.5</val>
+					<val>-2</val>
 				</runmultiplier>
 			</bonus>
 			<forbidden>
@@ -1598,7 +1598,7 @@ The character suffers a -2 dice pool modifier to summon or bind spirits. If the 
 			</notes>
 		</quality>
 		<quality>
-			<id>b1ddc4b2-2954-4ba0-9a15-2963d44f79f4</id>
+			<id>9775b4ae-f524-4891-b4c0-a24dfa873565</id>
 			<name>Translucent Skin</name>
 			<karma>-10</karma>
 			<category>Negative</category>
