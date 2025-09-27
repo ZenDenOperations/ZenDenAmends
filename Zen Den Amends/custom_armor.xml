@@ -38,7 +38,7 @@
     <addmodcategory> the category of available modifications/addons to the armor
 -->
 
-<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema armor.xsd">
+<chummer>
     <armors>
       <armor>
         <id>afde04df-1d67-4a42-bb55-d682ffe4a0e8</id>
