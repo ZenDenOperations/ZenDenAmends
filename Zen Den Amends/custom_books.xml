@@ -17,7 +17,7 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
-<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema books.xsd">
+<chummer>
     <books>
         <book>
             <id>29343593-ceb9-4d22-bfab-32fae650a7b0</id>
@@ -36,3 +36,4 @@
         </book>
     </books>
 </chummer>
+
