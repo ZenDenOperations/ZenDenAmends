@@ -18,9 +18,7 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
-<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema complexforms.xsd">
-
+<chummer>
   <complexforms>	
     <complexform>
       <id>2dc54100-085e-4f09-9c95-e0061c221f6a</id>
