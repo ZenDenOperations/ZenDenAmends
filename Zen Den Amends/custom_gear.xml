@@ -204,7 +204,7 @@
 			<avail>20F</avail>
 			<cost>160</cost>
 			<costfor>10</costfor>
-			<ammoforweapontype>hipower</ammoforweapontype>
+			<ammoforweapontype noextra="True">hipower</ammoforweapontype>
 		</gear>
 		<!-- More Minigrenades -->
 		<gear>
