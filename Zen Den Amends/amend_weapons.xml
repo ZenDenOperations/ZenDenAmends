@@ -737,8 +737,9 @@
 			<name>Microwave Gun, High Frequency</name>
 			<useskill>Directed Energy Weapons</useskill>
 			<damage>8P</damage>
-			<ap>-half</ap>
+			<ap>Special</ap>
 			<cost>50000</cost>
+			<notes>Halves the armor of the target hit.</notes>
 		</weapon>
 		<weapon>
 			<name>Microwave Gun, Low Frequency</name>
@@ -760,4 +761,5 @@
     	</weapon>
 	</weapons>
 </chummer>
+
 
