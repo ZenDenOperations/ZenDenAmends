@@ -2633,5 +2633,44 @@
 			<source>ZDR</source>
 			<page>0</page>
 		</quality>
+		<quality>
+			<id>f2403632-766d-4448-80a7-b7043b83aafe</id>
+			<name>Warform</name>
+			<karma>0</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<genetechessmultiplier>90</genetechessmultiplier>
+				<genetechcostmultiplier>80</genetechcostmultiplier>
+				<biowareessmultiplier>90</biowareessmultiplier>
+				<addware>
+					<name>Essence Antihole</name>
+					<rating>100</rating>
+					<grade>None</grade>
+					<type>Cyberware</type>
+				</addware>
+				<selectattributes>
+				<selectattribute>
+					<excludeattribute>EDG</excludeattribute>
+					<max>1</max>
+					<min>1</min>
+				</selectattribute>
+				<selectattribute>
+					<excludeattribute>EDG</excludeattribute>
+					<max>1</max>
+					<min>1</min>
+				</selectattribute>
+			</selectattributes>
+			</bonus>
+			<source>HS</source>
+			<page>170</page>
+			<forbidden>
+				<oneof>
+					<metatypecategory>Shapeshifter</metatypecategory>
+					<metatypecategory>Metahuman</metatypecategory>
+					<metatypecategory>Metasapient</metatypecategory>
+				</oneof>
+			</forbidden>
+			</quality>
 	</qualities>
 </chummer>
