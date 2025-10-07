@@ -2383,13 +2383,6 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<bonus />
-			<required>
-				<oneof>
-					<bioware>Muscle Augmentation</bioware>
-					<cyberware>Muscle Replacement</cyberware>
-					<cyberware>Enhanced Strength</cyberware>
-				</oneof>
-			</required>
 			<forbidden>
 				<oneof>
 					<magenabled />
