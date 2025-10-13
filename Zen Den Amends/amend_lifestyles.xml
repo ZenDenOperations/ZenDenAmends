@@ -143,27 +143,6 @@
       <bonus amendoperation="remove" />
     </quality>
   </qualities>
-  <qualities amendoperation="append">
-   <!-- Adds a Lifestyle quality when you have Trust Fund.-->
-    <quality>
-      <id>b9a9f683-acd4-4689-8330-42bf36dc69a7</id>
-      <name>Trust Fund</name>
-      <category>Positive</category>
-      <lp>0</lp>
-      <allowed>Low, Medium, High</allowed>
-      <multiplier>-100</multiplier>
-      <required>
-        <oneof>
-          <characterquality>Trust Fund I</characterquality>
-          <characterquality>Trust Fund II</characterquality>
-          <characterquality>Trust Fund III</characterquality>
-          <characterquality>Trust Fund IV</characterquality>
-        </oneof>
-      </required>
-      <source>RF</source>
-      <page>151</page>
-    </quality>
-  </qualities>
    <!-- Lifestyle changes -->
   <lifestyles>
     <lifestyle>
@@ -238,5 +217,6 @@
     </security>
   </securities>
 </chummer>
+
 
 
