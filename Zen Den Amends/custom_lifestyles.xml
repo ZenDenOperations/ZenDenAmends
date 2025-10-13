@@ -517,5 +517,23 @@
       <source>ZDR</source>
       <page>1</page>
     </quality>	
+	<quality>
+      <id>72e13f07-4582-4c4e-935b-5c0938ad899a</id>
+      <name>Trust Fund</name>
+      <category>Positive</category>
+      <lp>0</lp>
+      <allowed>Low, Medium, High</allowed>
+      <multiplier>-100</multiplier>
+      <required>
+        <oneof>
+          <characterquality>Trust Fund I</characterquality>
+          <characterquality>Trust Fund II</characterquality>
+          <characterquality>Trust Fund III</characterquality>
+          <characterquality>Trust Fund IV</characterquality>
+        </oneof>
+      </required>
+      <source>RF</source>
+      <page>151</page>
+    </quality>
  </qualities>
 </chummer>
