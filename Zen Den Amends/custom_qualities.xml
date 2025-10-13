@@ -1044,7 +1044,7 @@
 			<id>65c1aa82-a228-4ed4-b02d-a2a55b6a1b95</id>
 			<name>Resonance [Program]</name>
 			<karma>5</karma>
-			<limit>99</limit>
+			<limit>False</limit>
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<bonus>
