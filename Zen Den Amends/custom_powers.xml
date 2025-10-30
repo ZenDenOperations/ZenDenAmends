@@ -20,7 +20,7 @@
       <id>154267C7-76B1-4290-AD60-247DD1527252</id>
       <name>Improved Mental Attribute</name>
       <points>1</points>
-      <levels>True</levels>
+      <levels>False</levels>
       <limit>12</limit>
       <source>ZDR</source>
       <page>1</page>
@@ -32,7 +32,7 @@
             <quality>The Artist's Way</quality>
             <quality>The Speaker's Way</quality>
             <quality>The Spiritual Way</quality>
-			      <quality>The Warrior's Way</quality>
+			<quality>The Warrior's Way</quality>
           </oneof>
         </required>
       </adeptwayrequires>
@@ -272,4 +272,5 @@
     </enhancement>
   </enhancements>
 </chummer>
+
 
