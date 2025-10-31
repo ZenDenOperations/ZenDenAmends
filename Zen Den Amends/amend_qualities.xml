@@ -1705,7 +1705,6 @@
 			<!-- Infected: Fomoraig -->
 			<name>Infected: Fomoraig</name>
 			<bonus amendoperation="replace">
-				<armor>1</armor>
 				<critterpowers>
 					<power>Corrosive Spit</power>
 					<power>Magical Guard</power>
@@ -3224,6 +3223,7 @@
 		</quality>
 	</qualities>
 </chummer>
+
 
 
 
