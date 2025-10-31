@@ -20,7 +20,7 @@
       <id>154267C7-76B1-4290-AD60-247DD1527252</id>
       <name>Improved Mental Attribute</name>
       <points>1</points>
-      <levels>False</levels>
+      <levels>True</levels>
       <limit>12</limit>
       <source>ZDR</source>
       <page>1</page>
@@ -272,5 +272,6 @@
     </enhancement>
   </enhancements>
 </chummer>
+
 
 
