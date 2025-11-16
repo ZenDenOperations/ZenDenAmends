@@ -144,11 +144,40 @@
 		</gear>
 		<gear xpathfilter="contains(name,'Sustaining Focus Formula, Manipulation')">
 			<hide />
-		</gear>
+		</gear>		
 		<!--Reagent Stuff-->
-		<gear xpathfilter="contains(name,'Reagents')">
+		<gear xpathfilter="contains(name,'Baseline Reagents')">
+            <hide />
+        </gear>
+		<gear xpathfilter="contains(name,'Subpar Reagents')">
+            <hide />
+        </gear>
+		<gear xpathfilter="contains(name,'Tainted Reagents')">
+            <hide />
+        </gear>
+		<gear xpathfilter="contains(name,'Prime Reagents')">
+            <hide />
+        </gear>
+		<gear xpathfilter="contains(name,'Superior Reagents')">
+            <hide />
+        </gear>
+		<gear xpathfilter="contains(name,'Inferior Reagents')">
+            <hide />
+        </gear>
+		<gear>
+            <name>Reagents, per dram</name>
 			<hide />
-		</gear>
+        </gear>
+		<gear>
+		<!-- Shadow Spells Refined Reagents -->
+			<id>76e908e1-9f0b-4846-bf9e-d9a3b7fe0e7c</id>
+			<hide />
+        </gear>
+		<gear>
+		<!-- Shadow Spells Radical Reagents -->
+			<id>377cfe85-9280-46f9-a0c6-570b862fea70</id>
+			<hide />
+        </gear>
 		<gear amendoperation = "append">
 			<id>ad78405e-b330-4f20-b454-5aeb9b34dc77</id>
 			<name>Raw Reagents</name>
