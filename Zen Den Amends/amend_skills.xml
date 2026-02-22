@@ -216,5 +216,14 @@
 		<skill xpathfilter="name = 'Pilot Walker'" amendoperation="remove" />
 		<skill xpathfilter="name = 'Pilot Aerospace'" amendoperation="remove" />
 		<skill xpathfilter="name = 'Free-Fall'" amendoperation="remove" />
+		<skill>
+			<name>Exotic Ranged Weapon</name>
+			<specs amendoperation="append">
+				<spec>Breath</spec>
+			</specs>
+			<source>SR5</source>
+			<page>131</page>
+		</skill>
 	</skills>
 </chummer>
+
