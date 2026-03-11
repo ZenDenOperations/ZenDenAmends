@@ -159,7 +159,7 @@
 			<descriptor>Indirect, Area, Elemental</descriptor>
 			<duration>P</duration>
 			<dv>F</dv>
-			<range>LOS (A)</range>
+			<range>Self (A)</range>
 			<type>P</type>
 			<bonus>
 				<selecttext />
