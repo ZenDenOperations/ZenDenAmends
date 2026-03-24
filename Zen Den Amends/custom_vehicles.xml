@@ -19,6 +19,8 @@
 -->
 <chummer>
 	<vehicles>
+	<!-- Vehicles Added by SHB
+
 		<vehicle>
 			<id>116f6efe-2bb0-4fd4-80de-c25d6fa721bd</id>
 			<name>BMW M8</name>
@@ -396,6 +398,7 @@
 			</gears>
 			<seats>6</seats>
 		</vehicle>
+		End Vehicles added by SHB -->
 		<vehicle>
 			<id>ae157cb7-0bfa-418f-92fe-d0dce4d77c1c</id>
 			<name>Ares Shadowdancer Armor</name>
