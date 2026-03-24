@@ -2,6 +2,7 @@
 <settings>
 	<id>00000000-0000-0000-0000-000000000000</id>
 	<name>Zen Den Amends</name>
+	<gameplayoptionname />
 	<licenserestricted>False</licenserestricted>
 	<morelethalgameplay>False</morelethalgameplay>
 	<spiritforcebasedontotalmag>False</spiritforcebasedontotalmag>
@@ -74,6 +75,7 @@
 	<breakskillgroupsincreatemode>False</breakskillgroupsincreatemode>
 	<allowpointbuyspecializationsonkarmaskills>True</allowpointbuyspecializationsonkarmaskills>
 	<extendanydetectionspell>False</extendanydetectionspell>
+	<allowlimitedspellsforbarehandedadept>False</allowlimitedspellsforbarehandedadept>
 	<dontusecyberlimbcalculation>False</dontusecyberlimbcalculation>
 	<alternatemetatypeattributekarma>False</alternatemetatypeattributekarma>
 	<reverseattributepriorityorder>False</reverseattributepriorityorder>
@@ -169,6 +171,7 @@
 		<book>CF</book>
 		<book>HT</book>
 		<book>BLB</book>
+		<book>SHB</book>
 		<book>R5</book>
 		<book>HS</book>
 		<book>TVG</book>
@@ -214,7 +217,7 @@
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 		<customdatadirectoryname>
-			<directoryname>6bcce4e0-6ae0-4c7d-b6c8-912606db090d&gt;1.0</directoryname>
+			<directoryname>6bcce4e0-6ae0-4c7d-b6c8-912606db090d&gt;12.6</directoryname>
 			<order>3</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
@@ -231,11 +234,6 @@
 		<customdatadirectoryname>
 			<directoryname>1255df46-9edb-4d90-8611-deff595017e3&gt;1.0</directoryname>
 			<order>6</order>
-			<enabled>True</enabled>
-		</customdatadirectoryname>
-		<customdatadirectoryname>
-			<directoryname>6bcce4e0-6ae0-4c7d-b6c8-912606db090d&gt;12.6</directoryname>
-			<order>7</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 	</customdatadirectorynames>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<chummer
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema critters.xsd">
+	<metatypes>
+		<metatype>
+			<id>c85569c8-fe0d-4f26-a424-947c26c2cf6b</id>
+			<name>Talis Cat</name>
+			<category>4e Paranormal Critters</category>
+			<karma>0</karma>
+			<bodmin>5</bodmin>
+			<bodmax>5</bodmax>
+			<bodaug>5</bodaug>
+			<agimin>5</agimin>
+			<agimax>5</agimax>
+			<agiaug>5</agiaug>
+			<reamin>4</reamin>
+			<reamax>4</reamax>
+			<reaaug>4</reaaug>
+			<strmin>4</strmin>
+			<strmax>4</strmax>
+			<straug>4</straug>
+			<chamin>3</chamin>
+			<chamax>3</chamax>
+			<chaaug>3</chaaug>
+			<intmin>3</intmin>
+			<intmax>3</intmax>
+			<intaug>3</intaug>
+			<logmin>2</logmin>
+			<logmax>2</logmax>
+			<logaug>2</logaug>
+			<wilmin>3</wilmin>
+			<wilmax>3</wilmax>
+			<wilaug>3</wilaug>
+			<inimin>7</inimin>
+			<inimax>7</inimax>
+			<iniaug>7</iniaug>
+			<edgmin>1</edgmin>
+			<edgmax>1</edgmax>
+			<edgaug>1</edgaug>
+			<magmin>0</magmin>
+			<magmax>0</magmax>
+			<magaug>0</magaug>
+			<resmin>0</resmin>
+			<resmax>0</resmax>
+			<resaug>0</resaug>
+			<depmin>0</depmin>
+			<depmax>0</depmax>
+			<depaug>0</depaug>
+			<essmin>0</essmin>
+			<essmax>6</essmax>
+			<essaug>6</essaug>
+			<walk>2/0/0</walk>
+			<run>8/0/0</run>
+			<sprint>0/0/0</sprint>
+			<bonus>
+				<enabletab>
+					<name>critter</name>
+				</enabletab>
+			</bonus>
+			<powers>
+				<power>Aura Masking</power>
+				<power select="Cat Form Only">Desire Reflection</power>
+				<power select="Low Light Vision">Enhanced Senses</power>
+				<power>Movement (Self Only)</power>
+				<power>Shift</power>
+				<power select="Cheetah Form Only: Claw/Bite: DV 7P, AP 0">Natural Weapon</power>
+			</powers>
+			<skills>
+				<skill rating="3">Gymnastics</skill>
+				<skill rating="3">Sneaking</skill>
+				<skill rating="3">Perception</skill>
+				<skill rating="7">Running</skill>
+				<skill rating="3">Tracking</skill>
+				<skill rating="4">Unarmed Combat</skill>
+			</skills>
+			<source>ZDR</source>
+			<page>32</page>
+		</metatype>
+	</metatypes>
+</chummer>

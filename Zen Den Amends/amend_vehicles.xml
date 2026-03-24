@@ -186,5 +186,31 @@
 			<cost>93000</cost>
 			<seats>2</seats>
 		</vehicle>
+		<!-- Region Unapproved German Vehicles -->
+		<vehicle>
+			<name>Mercury Comet Cruiser-S</name>
+			<hide />
+		</vehicle>
+		<vehicle>
+			<name>Chrysler-Nissan Bobcat T</name>
+			<hide />
+		</vehicle>
+		<vehicle>
+			<name>Mercedes-Benz Tornado</name>
+			<hide />
+		</vehicle>
+		<vehicle>
+			<name>Mercedes-Benz Tornado Crew</name>
+			<hide />
+		</vehicle>
+		<vehicle>
+			<name>Mercedes-Benz Tornado Security</name>
+			<hide />
+		</vehicle>
+		<vehicle>
+			<name>E-Foil</name>
+			<hide />
+		</vehicle>
+		<!-- End Region Unapproved German Vehicles -->
 	</vehicles>
 </chummer>

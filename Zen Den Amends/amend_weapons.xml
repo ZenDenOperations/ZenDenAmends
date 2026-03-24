@@ -723,6 +723,20 @@
 			<hide />
 		</weapon>
 		<!--End Region Banned Items-->
+		<!--Region Unapproved German Items-->
+		<weapon>
+			<name>Onotari Arms Troublemaker</name>
+			<hide />
+		</weapon>
+		<weapon>
+			<name>Altmayr SPX</name>
+			<hide />
+		</weapon>
+		<weapon>
+			<name>Onotari Arms SIG-6</name>
+			<hide />
+		</weapon>
+		<!--Region Unapproved German Items-->
 		<weapon>
 			<name>Narcoject PEP</name>
 			<ammo>2x10(c) + energy</ammo>
