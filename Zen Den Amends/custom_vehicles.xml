@@ -461,8 +461,8 @@
 		</vehicle>
 		<vehicle>
 			<id>76ff1cd5-7a19-4645-bf52-56282b66972d</id>
-			<name>CV-9 "Devil Rat APC</name>
-			<source>ZDR</source>
+			<name>CV-9 "Devil Rat" APC</name>
+			<source>6e</source>
 			<page>1</page>
 			<accel>2</accel>
 			<armor>18</armor>
