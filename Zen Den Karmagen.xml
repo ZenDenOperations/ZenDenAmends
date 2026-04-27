@@ -199,6 +199,15 @@
 		<book>4e</book>
 		<book>6e</book>
 		<book>ZDR</book>
+		<book>HP</book>
+		<book>PZ</book>
+		<book>PZ2</book>
+		<book>RW</book>
+		<book>SR4</book>
+		<book>SM</book>
+		<book>UN</book>
+		<book>RC</book>
+		<book>SOX</book>
 	</books>
 	<customdatadirectorynames>
 		<customdatadirectoryname>
@@ -234,6 +243,11 @@
 		<customdatadirectoryname>
 			<directoryname>1255df46-9edb-4d90-8611-deff595017e3&gt;1.0</directoryname>
 			<order>6</order>
+			<enabled>True</enabled>
+		</customdatadirectoryname>
+		<customdatadirectoryname>
+			<directoryname>3c9636b8-f5f6-49d4-ae8f-12f8f8371334&gt;1.0</directoryname>
+			<order>7</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 	</customdatadirectorynames>
