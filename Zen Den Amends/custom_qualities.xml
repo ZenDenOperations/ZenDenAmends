@@ -1775,11 +1775,11 @@
 			<category>Positive</category>
 			<required>
 				<allof>
-					<Echo>Biowires</Echo>
-					<Echo>Predictive Analytics</Echo>
+					<echo>Biowires</echo>
+					<echo>Predictive Analytics</echo>
 				</allof>
 			</required>
-			<limit>3</limit>
+			<limit>4</limit>
 			<bonus>
 				<specificattribute>
 					<name>REA</name>
