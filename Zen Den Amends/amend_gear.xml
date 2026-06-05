@@ -23,9 +23,7 @@
 		<gear>
 			<id>80137629-41f0-41da-bfed-c8a1388b759e</id>
 			<name>Evasion Autosoft</name>
-			<bonus>
-				<selecttext xml="skills.xml" xpath="/chummer/skills/skill[contains(name, 'Pilot')]/specs/spec" allowedit="True" />
-			</bonus>
+			<hide />
 		</gear>
 		<gear>
 			<id>9d81218f-ee70-4304-9a09-ac865d84b8e0</id>
