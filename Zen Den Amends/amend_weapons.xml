@@ -716,7 +716,7 @@
 		</weapon>
 		<weapon>
 			<name>Krime Calliope</name>
-			<hide />
+			<mode>SA</mode>
 		</weapon>
 		<weapon>
 			<name>Krime Ripper</name>
