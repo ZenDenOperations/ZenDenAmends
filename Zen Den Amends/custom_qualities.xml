@@ -191,8 +191,12 @@
 				</oneof>
 			</required>
 			<doublecareer>False</doublecareer>
-			<bonus />
-			<source>ZDR</source>
+			<bonus>
+				<sprintbonus>
+					<category>Ground</category>
+					<val>200</val>
+				</sprintbonus>
+			</bonus>			<source>ZDR</source>
 			<page>1</page>
 		</quality>
 		<quality>
