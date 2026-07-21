@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--This file is part of Chummer5a.
 
     Chummer5a is free software: you can redistribute it and/or modify
@@ -19,59 +18,63 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-  <metatypes>
-    <!-- Region Metasapient -->
-    <metatype>
-      <name>Pixie</name>
-      <bodmin>1</bodmin>
-      <bodmax>3</bodmax>
-      <bodaug>7</bodaug>
-      <agimin>3</agimin>
-      <agimax>8</agimax>
-      <agiaug>12</agiaug>
-      <reamin>3</reamin>
-      <reamax>8</reamax>
-      <reaaug>12</reaaug>
-      <strmin>1</strmin>
-      <strmax>2</strmax>
-      <straug>6</straug>
-      <chamin>1</chamin>
-      <chamax>5</chamax>
-      <chaaug>9</chaaug>
-      <intmin>2</intmin>
-      <intmax>7</intmax>
-      <intaug>11</intaug>
-      <logmin>1</logmin>
-      <logmax>4</logmax>
-      <logaug>8</logaug>
-      <wilmin>1</wilmin>
-      <wilmax>6</wilmax>
-      <wilaug>10</wilaug>
-      <edgmin>1</edgmin>
-      <edgmax>5</edgmax>
-      <edgaug>5</edgaug>
-      <bonus>
-        <disablebiowaregrade amendoperation="addnode">Standard</disablebiowaregrade>
-        <disablebiowaregrade amendoperation="addnode">Standard (Burnout's Way)</disablebiowaregrade>
-        <disablebiowaregrade amendoperation="addnode">Used</disablebiowaregrade>
-        <disablebiowaregrade amendoperation="addnode">Omegaware</disablebiowaregrade>
-        <disablecyberwaregrade amendoperation="addnode">Standard</disablecyberwaregrade>
-        <disablecyberwaregrade amendoperation="addnode">Standard (Burnout's Way)</disablecyberwaregrade>
-        <disablecyberwaregrade amendoperation="addnode">Used</disablecyberwaregrade>
-        <disablecyberwaregrade amendoperation="addnode">Omegaware</disablecyberwaregrade>
-        <disablecyberwaregrade amendoperation="addnode">Greyware</disablecyberwaregrade>
-        <disablecyberwaregrade amendoperation="addnode">Standard (Adapsin)</disablecyberwaregrade>
-        <disablecyberwaregrade amendoperation="addnode">Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
-        <disablecyberwaregrade amendoperation="addnode">Used (Adapsin)</disablecyberwaregrade>
-        <disablecyberwaregrade amendoperation="addnode">Omegaware (Adapsin)</disablecyberwaregrade>
-        <disablecyberwaregrade amendoperation="addnode">Greyware (Adapsin)</disablecyberwaregrade>
-      </bonus>
-      <qualities>
-            <negative>
-              <quality amendoperation="addnode" removable="True">'Ware Intolerance</quality>
-            </negative>
-          </qualities>
-    </metatype>
-    <!-- End Region -->
-  </metatypes>
+	<metatypes>
+		<metatype xpathfilter="contains(category,Shapeshifter)">
+			<logmax amendoperation="replace">6</logmax>
+			<logaug amendoperation="replace">10</logaug>
+		</metatype>
+		<!-- Region Metasapient -->
+		<metatype>
+			<name>Pixie</name>
+			<bodmin>1</bodmin>
+			<bodmax>3</bodmax>
+			<bodaug>7</bodaug>
+			<agimin>3</agimin>
+			<agimax>8</agimax>
+			<agiaug>12</agiaug>
+			<reamin>3</reamin>
+			<reamax>8</reamax>
+			<reaaug>12</reaaug>
+			<strmin>1</strmin>
+			<strmax>2</strmax>
+			<straug>6</straug>
+			<chamin>1</chamin>
+			<chamax>5</chamax>
+			<chaaug>9</chaaug>
+			<intmin>2</intmin>
+			<intmax>7</intmax>
+			<intaug>11</intaug>
+			<logmin>1</logmin>
+			<logmax>4</logmax>
+			<logaug>8</logaug>
+			<wilmin>1</wilmin>
+			<wilmax>6</wilmax>
+			<wilaug>10</wilaug>
+			<edgmin>1</edgmin>
+			<edgmax>5</edgmax>
+			<edgaug>5</edgaug>
+			<bonus>
+				<disablebiowaregrade amendoperation="addnode">Standard</disablebiowaregrade>
+				<disablebiowaregrade amendoperation="addnode">Standard (Burnout's Way)</disablebiowaregrade>
+				<disablebiowaregrade amendoperation="addnode">Used</disablebiowaregrade>
+				<disablebiowaregrade amendoperation="addnode">Omegaware</disablebiowaregrade>
+				<disablecyberwaregrade amendoperation="addnode">Standard</disablecyberwaregrade>
+				<disablecyberwaregrade amendoperation="addnode">Standard (Burnout's Way)</disablecyberwaregrade>
+				<disablecyberwaregrade amendoperation="addnode">Used</disablecyberwaregrade>
+				<disablecyberwaregrade amendoperation="addnode">Omegaware</disablecyberwaregrade>
+				<disablecyberwaregrade amendoperation="addnode">Greyware</disablecyberwaregrade>
+				<disablecyberwaregrade amendoperation="addnode">Standard (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade amendoperation="addnode">Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade amendoperation="addnode">Used (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade amendoperation="addnode">Omegaware (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade amendoperation="addnode">Greyware (Adapsin)</disablecyberwaregrade>
+			</bonus>
+			<qualities>
+				<negative>
+					<quality amendoperation="addnode" removable="True">'Ware Intolerance</quality>
+				</negative>
+			</qualities>
+		</metatype>
+		<!-- End Region -->
+	</metatypes>
 </chummer>
