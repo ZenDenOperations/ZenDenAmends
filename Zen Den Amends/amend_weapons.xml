@@ -19,6 +19,9 @@
 -->
 <chummer>
 	<accessories>
+		<accessory xpathfilter="contains(name,'Peak-Discharge Battery Pack')">
+			<avail>12F</avail>
+		</accessory>
 		<accessory>
 		<name>Belt-Feed, 100-round</name>
 		<required>
