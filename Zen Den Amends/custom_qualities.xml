@@ -1052,7 +1052,7 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<bonus>
-				<selecttext xml="gear.xml" xpath="/chummer/gears/gear[contains(category, 'Hacking Programs')]/name | /chummer/gears/gear[contains(category, 'Common Programs')]/name" allowedit="True" />
+				<selecttext xml="gear.xml" xpath="/chummer/gears/gear[contains(category, 'Hacking Programs')]/name | /chummer/gears/gear[contains(name, 'Swarm')]/name | /chummer/gears/gear[contains(category, 'Common Programs')]/name"  allowedit="True" />
 			</bonus>
 			<required>
 				<oneof>
