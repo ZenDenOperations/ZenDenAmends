@@ -93,8 +93,8 @@
       <adeptwayrequires>
         <required>
           <oneof>
-            <quality>The Speaker's Way</quality>
-			      <quality>The Invisible Way</quality>
+            <quality>The Artist's Way</quality>
+			<quality>The Invisible Way</quality>
           </oneof>
         </required>
       </adeptwayrequires>
