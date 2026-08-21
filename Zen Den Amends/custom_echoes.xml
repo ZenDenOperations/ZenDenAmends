@@ -28,15 +28,7 @@
       <page>1</page>
 	  <required>
 	    <oneof>
-		  <allof>
-	        <ess grade="Used">0</ess>
-	        <ess grade="Standard">0</ess>
-	        <ess grade="Alphaware">0</ess>
-	        <ess grade="Betaware">0</ess>
-	        <ess grade="Deltaware">0</ess>
-	        <ess grade="Gammaware">0</ess>
-	        <ess grade="Omegaware">0</ess>
-		  </allof>
+	      <ess>6</ess>
 		  <quality>Resonant Stream: Cyberadept</quality>
 	    </oneof>
 	  </required>
@@ -48,15 +40,7 @@
       <page>1</page>
 	  <required>
 	    <oneof>
-		  <allof>
-	        <ess grade="Used">0</ess>
-	        <ess grade="Standard">0</ess>
-	        <ess grade="Alphaware">0</ess>
-	        <ess grade="Betaware">0</ess>
-	        <ess grade="Deltaware">0</ess>
-	        <ess grade="Gammaware">0</ess>
-	        <ess grade="Omegaware">0</ess>
-		  </allof>
+	      <ess>6</ess>
 		  <quality>Resonant Stream: Cyberadept</quality>
 	    </oneof>
 	  </required>
