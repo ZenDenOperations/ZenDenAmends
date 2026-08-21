@@ -2197,7 +2197,7 @@
 			</bonus>
 			<required>
 				<oneof>
-					<Echo>Tactical Network</Echo>
+					<echo>Tactical Network</echo>
 				</oneof>
 			</required>
 			<source>ZDR</source>
