@@ -96,6 +96,7 @@
 		<power>
 			<name>Skate</name>
 			<points>0.5</points>
+			<adeptway>0.25</adeptway
 		</power>
 		<power>
 			<name>Rapid healing</name>
