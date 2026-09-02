@@ -18,26 +18,40 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-  <armors>
-	<armor>
-		<name>Hardened Mil-Spec Battle Armor: Light</name>
-		<hide />	
-	</armor>
-	<armor>
-		<name>Hardened Mil-Spec Battle Armor: Medium</name>
-		<hide />	
-	</armor>
-	<armor>
-		<name>Hardened Mil-Spec Battle Armor: Heavy</name>
-		<hide />	
-	</armor>
-	<armor>
-		<name>Hardened Mil-Spec Battle Armor: Helmet</name>
-		<hide />	
-	</armor>
-    <armor>
-      <name>Critter Body Armor</name>
-      <hide />
-    </armor>
-  </armors>
+	<armors>
+		<armor>
+			<name>Hardened Mil-Spec Battle Armor: Light</name>
+			<hide />
+		</armor>
+		<armor>
+			<name>Hardened Mil-Spec Battle Armor: Medium</name>
+			<hide />
+		</armor>
+		<armor>
+			<name>Hardened Mil-Spec Battle Armor: Heavy</name>
+			<hide />
+		</armor>
+		<armor>
+			<name>Hardened Mil-Spec Battle Armor: Helmet</name>
+			<hide />
+		</armor>
+		<armor>
+			<name>Critter Body Armor</name>
+			<hide />
+		</armor>
+		<!-- Region Hamburg -->
+		<armor>
+			<name>FleetHead Sou'wester</name>
+			<hide />
+		</armor>
+		<armor>
+			<name>Rheingold Oilskin</name>
+			<hide />
+		</armor>
+		<armor>
+			<name>Ares Victory Oilskin</name>
+			<hide />
+		</armor>
+		<!-- End Region -->
+	</armors>
 </chummer>

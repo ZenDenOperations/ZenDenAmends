@@ -23,30 +23,30 @@
 			<avail>12F</avail>
 		</accessory>
 		<accessory>
-		<name>Belt-Feed, 100-round</name>
-		<required>
-			<weapondetails>
-			<OR>
-				<name>RPK HMG</name>
-				<name>Ruhrmetall SF-20</name>
-				<name>Ultamax HMG-2</name>
-				<name>Ingram Valiant</name>
-				<name>Krime Wave</name>
-				<name>Shiawase Armaments Nemesis</name>
-				<name>FN MAG-5</name>
-				<name>Stoner-Ares M202</name>
-				<name>Ultamax MMG</name>
-				<name>Ingram Black Knight</name>
-			</OR>
-			</weapondetails>
-		</required>
+			<name>Belt-Feed, 100-round</name>
+			<required>
+				<weapondetails>
+					<OR>
+						<name>RPK HMG</name>
+						<name>Ruhrmetall SF-20</name>
+						<name>Ultamax HMG-2</name>
+						<name>Ingram Valiant</name>
+						<name>Krime Wave</name>
+						<name>Shiawase Armaments Nemesis</name>
+						<name>FN MAG-5</name>
+						<name>Stoner-Ares M202</name>
+						<name>Ultamax MMG</name>
+						<name>Ingram Black Knight</name>
+					</OR>
+				</weapondetails>
+			</required>
 		</accessory>
 		<!-- Railguns can't use Gas Vents or Silencers. -->
 		<accessory>
 			<name>Silencer/Suppressor</name>
 			<forbidden>
 				<weapondetails>
-				<name operation="contains">Ferrus</name>
+					<name operation="contains">Ferrus</name>
 				</weapondetails>
 			</forbidden>
 		</accessory>
@@ -54,7 +54,7 @@
 			<name>Gas-Vent 1 System</name>
 			<forbidden>
 				<weapondetails>
-				<name operation="contains">Ferrus</name>
+					<name operation="contains">Ferrus</name>
 				</weapondetails>
 			</forbidden>
 		</accessory>
@@ -62,7 +62,7 @@
 			<name>Gas-Vent 2 System</name>
 			<forbidden>
 				<weapondetails>
-				<name operation="contains">Ferrus</name>
+					<name operation="contains">Ferrus</name>
 				</weapondetails>
 			</forbidden>
 		</accessory>
@@ -70,7 +70,7 @@
 			<name>Gas-Vent 3 System</name>
 			<forbidden>
 				<weapondetails>
-				<name operation="contains">Ferrus</name>
+					<name operation="contains">Ferrus</name>
 				</weapondetails>
 			</forbidden>
 		</accessory>
@@ -78,7 +78,7 @@
 			<name>Krime Loudener</name>
 			<forbidden>
 				<weapondetails>
-				<name operation="contains">Ferrus</name>
+					<name operation="contains">Ferrus</name>
 				</weapondetails>
 			</forbidden>
 		</accessory>
@@ -88,7 +88,7 @@
 			<mount>Internal</mount>
 			<forbidden>
 				<weapondetails>
-				<name operation="contains">Ferrus</name>
+					<name operation="contains">Ferrus</name>
 				</weapondetails>
 			</forbidden>
 		</accessory>
@@ -739,7 +739,15 @@
 			<name>Onotari Arms SIG-6</name>
 			<hide />
 		</weapon>
-		<!--Region Unapproved German Items-->
+		<weapon>
+			<name>Electro-Fishing Rod</name>
+			<hide />
+		</weapon>
+		<weapon>
+			<name>Electro-Net</name>
+			<hide />
+		</weapon>
+		<!--End Region Unapproved German Items-->
 		<weapon>
 			<name>Narcoject PEP</name>
 			<ammo>2x10(c) + energy</ammo>
@@ -765,17 +773,17 @@
 			<cost>50000</cost>
 		</weapon>
 		<weapon>
-      		<name>Rheinmetall Wrecking Ball (Morningstar Mode)</name>
-      		<category>Clubs</category>
+			<name>Rheinmetall Wrecking Ball (Morningstar Mode)</name>
+			<category>Clubs</category>
 		</weapon>
 		<weapon>
-      		<name>Krupp Munitions 3E Firefighting Cannon</name>
-      		<category>Spray Weapons</category>
+			<name>Krupp Munitions 3E Firefighting Cannon</name>
+			<category>Spray Weapons</category>
 		</weapon>
-    	<weapon>
-      		<id>ad28b2dd-4f4f-4089-af6b-39f3ff6900fd</id>
-      		<name>HK Urban Fighter (German)</name>
-    	</weapon>
+		<weapon>
+			<id>ad28b2dd-4f4f-4089-af6b-39f3ff6900fd</id>
+			<name>HK Urban Fighter (German)</name>
+		</weapon>
 	</weapons>
 </chummer>
 

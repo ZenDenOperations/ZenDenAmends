@@ -100,20 +100,20 @@
 		<!-- Sustaining Foci Changes -->
 		<!-- Combat Sustaining Foci changed to Generic -->
 		<gear>
-      			<id>39f2f34b-14e2-47f3-8e24-a401015a645a</id>
-      			<name>Sustaining Focus</name>
-      			<cost>Rating * 9000</cost>
-    		</gear>
+			<id>39f2f34b-14e2-47f3-8e24-a401015a645a</id>
+			<name>Sustaining Focus</name>
+			<cost>Rating * 9000</cost>
+		</gear>
 		<gear>
-      			<id>1215E656-51F6-4963-86A2-47A68A3C129F</id>
-      			<name>Sustaining Focus, Individualized, Partial</name>
-      			<cost>Rating * 9000</cost>
-    		</gear>
+			<id>1215E656-51F6-4963-86A2-47A68A3C129F</id>
+			<name>Sustaining Focus, Individualized, Partial</name>
+			<cost>Rating * 9000</cost>
+		</gear>
 		<gear>
-      			<id>068631C4-1834-4812-8121-DA4A07EF5D6D</id>
-      			<name>Sustaining Focus, Individualized, Complete</name>
-      			<cost>Rating * 9000</cost>
-    		</gear>
+			<id>068631C4-1834-4812-8121-DA4A07EF5D6D</id>
+			<name>Sustaining Focus, Individualized, Complete</name>
+			<cost>Rating * 9000</cost>
+		</gear>
 		<gear xpathfilter="contains(name,'Sustaining Focus, Detection')">
 			<hide />
 		</gear>
@@ -127,9 +127,9 @@
 			<hide />
 		</gear>
 		<gear>
-		  <id>ba8fa866-ab50-45d8-b9c3-375d688d9d5f</id>
-		  <name>Sustaining Focus Formula</name>
-		  <cost>Rating * 1000</cost>
+			<id>ba8fa866-ab50-45d8-b9c3-375d688d9d5f</id>
+			<name>Sustaining Focus Formula</name>
+			<cost>Rating * 1000</cost>
 		</gear>
 		<gear xpathfilter="contains(name,'Sustaining Focus Formula, Detection')">
 			<hide />
@@ -142,40 +142,40 @@
 		</gear>
 		<gear xpathfilter="contains(name,'Sustaining Focus Formula, Manipulation')">
 			<hide />
-		</gear>		
+		</gear>
 		<!--Reagent Stuff-->
 		<gear xpathfilter="contains(name,'Baseline Reagents')">
-            <hide />
-        </gear>
-		<gear xpathfilter="contains(name,'Subpar Reagents')">
-            <hide />
-        </gear>
-		<gear xpathfilter="contains(name,'Tainted Reagents')">
-            <hide />
-        </gear>
-		<gear xpathfilter="contains(name,'Prime Reagents')">
-            <hide />
-        </gear>
-		<gear xpathfilter="contains(name,'Superior Reagents')">
-            <hide />
-        </gear>
-		<gear xpathfilter="contains(name,'Inferior Reagents')">
-            <hide />
-        </gear>
-		<gear>
-            <name>Reagents, per dram</name>
 			<hide />
-        </gear>
+		</gear>
+		<gear xpathfilter="contains(name,'Subpar Reagents')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Tainted Reagents')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Prime Reagents')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Superior Reagents')">
+			<hide />
+		</gear>
+		<gear xpathfilter="contains(name,'Inferior Reagents')">
+			<hide />
+		</gear>
 		<gear>
-		<!-- Shadow Spells Refined Reagents -->
+			<name>Reagents, per dram</name>
+			<hide />
+		</gear>
+		<gear>
+			<!-- Shadow Spells Refined Reagents -->
 			<id>76e908e1-9f0b-4846-bf9e-d9a3b7fe0e7c</id>
 			<hide />
-        </gear>
+		</gear>
 		<gear>
-		<!-- Shadow Spells Radical Reagents -->
+			<!-- Shadow Spells Radical Reagents -->
 			<id>377cfe85-9280-46f9-a0c6-570b862fea70</id>
 			<hide />
-        </gear>
+		</gear>
 		<gear amendoperation = "append">
 			<id>ad78405e-b330-4f20-b454-5aeb9b34dc77</id>
 			<name>Raw Reagents</name>
@@ -226,7 +226,7 @@
 		<gear>
 			<name>Datachip</name>
 			<cost>20</cost>
-      			<costfor />
+			<costfor />
 		</gear>
 		<!-- Pi-tac adjustments -->
 		<gear>
@@ -359,15 +359,15 @@
 			<name>Ammo: Subsonic</name>
 			<avail>8R</avail>
 		</gear>
-    		<gear>
-      			<id>911BB20E-E325-4399-8F7A-82FDCE13AE51</id>
-      			<name>Ammo: Gyrojet Taser</name>
-      			<weaponbonus>
-			<ap>-5</ap>
-        		<damage>-2</damage>
-        		<damagetype>S(e)</damagetype>
-      			</weaponbonus>
-    		</gear>
+		<gear>
+			<id>911BB20E-E325-4399-8F7A-82FDCE13AE51</id>
+			<name>Ammo: Gyrojet Taser</name>
+			<weaponbonus>
+				<ap>-5</ap>
+				<damage>-2</damage>
+				<damagetype>S(e)</damagetype>
+			</weaponbonus>
+		</gear>
 		<gear>
 			<name>Grenade: Smokebomb, Aerodynamic</name>
 			<hide />
@@ -386,6 +386,10 @@
 		</gear>
 		<gear>
 			<name>Crazy-Repeller</name>
+			<hide />
+		</gear>
+		<gear>
+			<name>Electro-Net</name>
 			<hide />
 		</gear>
 	</gears>
