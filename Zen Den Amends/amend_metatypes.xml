@@ -76,5 +76,24 @@
 			</qualities>
 		</metatype>
 		<!-- End Region -->
+		<!-- Shifter Errata -->
+		<metatype xpathfilter="contains(name,'Shapeshifter')">
+        <metavariants>
+           <metavariant>
+              <powers amendoperation="addnode">
+                 <power select="Silver, Severe">Allergy</power>
+              </powers>
+              <powers amendoperation="addnode">
+                 <power removable="False">Dual Natured</power>
+              </powers>
+              <powers amendoperation="addnode">
+                 <power removable="False">Minor Regeneration</power>
+              </powers>
+              <powers amendoperation="addnode">
+                 <power select="Silver">Vulnerability</power>
+              </powers>
+           </metavariant>
+        </metavariants>
+      </metatype>
 	</metatypes>
 </chummer>
