@@ -1724,7 +1724,6 @@
 			<id>3acb3b86-f3da-4b35-be9a-e431056b7453</id>
 			<name>Augmentation Acclimation</name>
 			<karma>10</karma>
-			<doublecareer>False</doublecareer>
 			<category>Positive</category>
 			<forbidden>
 				<oneof>
@@ -1759,7 +1758,6 @@
 			<id>61191c68-9ff0-4533-b084-3688831639f1</id>
 			<name>Cyborg</name>
 			<karma>30</karma>
-			<doublecareer>False</doublecareer>
 			<category>Positive</category>
 			<costdiscount>
 				<required>
@@ -2165,7 +2163,6 @@
 			<karma>8</karma>
 			<category>Positive</category>
 			<limit>3</limit>
-			<doublecareer>False</doublecareer>
 			<bonus />
 			<source>ZDR</source>
 			<page>1</page>
@@ -2647,6 +2644,54 @@
 				<allof>
 					<quality>Dracoform Minor Regeneration</quality>
 				</allof>
+			</required>
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>d94c572b-8d99-4a58-90e7-7d6a7c573dd9</id>
+			<name>Shapeshifter Lesser Regeneration</name>
+			<karma>6</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Lesser Regeneration</power>
+				</critterpowers>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<critterpower>Lesser Regeneration</critterpower>
+					<critterpower>Regeneration</critterpower>
+				</oneof>
+			</forbidden>
+			<required>
+				<metatypecategory>Shapeshifter</metatypecategory>
+			</required>
+			<source>ZDR</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>1f1c33d6-078e-45ef-a594-34038b64302a</id>
+			<name>Shapeshifter Regeneration</name>
+			<karma>12</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<critterpowers>
+					<power>Regeneration</power>
+				</critterpowers>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<critterpower>Regeneration</critterpower>
+				</oneof>
+			</forbidden>
+			<required>
+				<allof>
+					<metatypecategory>Shapeshifter</metatypecategory>
+					<critterpower>Lesser Regeneration</critterpower>
+				</allof>					
 			</required>
 			<source>ZDR</source>
 			<page>0</page>
