@@ -196,7 +196,8 @@
 					<category>Ground</category>
 					<val>200</val>
 				</sprintbonus>
-			</bonus>			<source>ZDR</source>
+			</bonus>
+			<source>ZDR</source>
 			<page>1</page>
 		</quality>
 		<quality>
@@ -2691,7 +2692,7 @@
 				<allof>
 					<metatypecategory>Shapeshifter</metatypecategory>
 					<critterpower>Lesser Regeneration</critterpower>
-				</allof>					
+				</allof>
 			</required>
 			<source>ZDR</source>
 			<page>0</page>
@@ -2734,6 +2735,25 @@
 					<metatypecategory>Metasapient</metatypecategory>
 				</oneof>
 			</forbidden>
+		</quality>
+		<quality>
+			<id>59cad6ea-1072-4dfc-ba52-c5c0f5fc0c3f</id>
+			<name>Hand Loaded Ammo</name>
+			<karma>15</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<bonus />
+			<required>
+				<allof>
+					<quality>Special Modifications</quality>
+					<skill>
+						<name>Armorer</name>
+						<val>4</val>
+					</skill>
+				</allof>
+			</required>
+			<source>ZDR</source>
+			<page>0</page>
 		</quality>
 	</qualities>
 </chummer>
