@@ -1399,5 +1399,25 @@
       <page>1</page>
       <hide />
     </weapon>
+    <weapon>
+      <id>c3e4c8b5-7422-409a-82ad-041a5d7ba765</id>
+      <name>Rolling Blades (Unarmed)</name>
+      <category>Exotic Melee Weapons</category>
+      <useskill>Unarmed Combat</useskill>
+      <type>Melee</type>
+      <conceal>-4</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>12R</avail>
+      <cost>600</cost>
+      <source>NF</source>
+      <page>171</page>
+      <hide />
+    </weapon>
   </weapons>
 </chummer>
