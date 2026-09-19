@@ -124,6 +124,16 @@
 			<name>Voice Control</name>
 			<points>0.25</points>
 		</power>
+		<power xpathfilter="contains(name,'Power Swimming')">
+			<adeptway>0.5</adeptway>
+      		<adeptwayrequires>
+        		<required>
+          			<oneof>
+            			<quality>The Athlete's Way</quality>
+          			</oneof>
+        		</required>
+      		</adeptwayrequires>
+		</power>
 	</powers>
 	<enhancements>
 		<enhancement>
