@@ -508,5 +508,18 @@
       <page>1</page>
       <notes>Identical effects to Cyberwings. Flight speed is x2/x8/+3.</notes>
     </mod>
+    <mod>
+      <id>4854ce2d-f3d1-431d-8fc0-7ef6e3f3c556</id>
+      <name>Murder Armor Blood Packs</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[4]</armorcapacity>
+      <avail>8</avail>
+      <cost>1500</cost>
+      <source>ZDR</source>
+      <page>1</page>
+      <notes>Provides the same effects as Murder Armor (R&G p. 72). New blood packs may be purchased for 200¥.</notes>
+    </mod>
 	</mods>
 </chummer>
