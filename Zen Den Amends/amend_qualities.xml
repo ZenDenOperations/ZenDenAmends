@@ -29,6 +29,10 @@
 			</bonus>
 		</quality>
 		<quality>
+			<name>Animal Familiar</name>
+			<limit>99</limit>
+		</quality>
+		<quality>
 			<!-- Natural Athlete -->
 			<name>Natural Athlete</name>
 			<bonus>
