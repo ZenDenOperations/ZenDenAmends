@@ -521,6 +521,7 @@
 		<weapon>
 			<name>Rolling Blades</name>
 			<useskill>Blades</useskill>
+			<addweapon>Rolling Blades (Unarmed)</addweapon>
 		</weapon>
 		<weapon>
 			<name>Nodachi</name>
