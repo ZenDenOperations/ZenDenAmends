@@ -21,10 +21,10 @@
   <powers>
     <power><!-- Terrorscape -->
       <name>Terrorscape</name>
-      <required>
+      <required amendoperation="replace">
           <oneof>
             <quality>Infected: Vampire</quality>
-			<quality>Infected: Sukuyan</quality>
+			      <quality>Infected: Sukuyan</quality>
           </oneof>
       </required>
     </power>
