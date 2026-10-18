@@ -19,7 +19,8 @@
 -->
 <manifest>
   <guid>6bcce4e0-6ae0-4c7d-b6c8-912606db090d</guid>
-  <version>15.1</version>
+  <version>15.2</version>
+  <updatelocation>https://github.com/ZenDenOperations/ZenDenAmends/releases</updatelocation>
   <authors>
     <author>
       <name>Zen Den Gurus</name>
