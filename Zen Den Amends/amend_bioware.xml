@@ -110,8 +110,14 @@
     <bioware>
       <name>Synaptic Booster</name>
       <bonus>
-	<disablequality amendoperation="remove">3564b678-7721-4a8d-ac79-1600cf92dc14</disablequality>
-	<initiativepass amendoperation="replace">Rating</initiativepass>
+	      <disablequality amendoperation="remove">3564b678-7721-4a8d-ac79-1600cf92dc14</disablequality>
+	      <initiativepass amendoperation="replace">Rating</initiativepass>
+      </bonus>
+    </bioware>
+    <bioware>
+      <name>Synaptic Acceleration</name>
+      <bonus>
+	      <disablequality amendoperation="remove">3564b678-7721-4a8d-ac79-1600cf92dc14</disablequality>
       </bonus>
     </bioware>
   </biowares>
