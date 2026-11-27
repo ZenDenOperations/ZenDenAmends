@@ -1744,13 +1744,8 @@
 				</oneof>
 			</required>
 			<bonus>
-				<addware>
-					<name>Essence Antihole</name>
-					<rating>100</rating>
-					<grade>None</grade>
-					<type>Cyberware</type>
-				</addware>
-			</bonus>
+        		<essencemax>1</essencemax>
+      		</bonus>
 			<source>ZDR</source>
 			<page>1</page>
 		</quality>
@@ -1781,13 +1776,8 @@
 				</oneof>
 			</required>
 			<bonus>
-				<addware>
-					<name>Essence Antihole</name>
-					<rating>100</rating>
-					<grade>None</grade>
-					<type>Cyberware</type>
-				</addware>
-			</bonus>
+        		<essencemax>1</essencemax>
+      		</bonus>
 			<source>ZDR</source>
 			<page>1</page>
 		</quality>
